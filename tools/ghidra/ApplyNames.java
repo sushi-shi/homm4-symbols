@@ -1,6 +1,7 @@
 // Apply maps/<target>/names.tsv to the current program: mangled names as primary labels,
 // functions created where missing, demangled via DemanglerCmd, tier/method/evidence in a plate comment.
 // Usage: ApplyNames.java <names.tsv> [min_tier] [out.gzf]   (min_tier A|B|C, default C)
+// Without arguments (Script Manager) it asks for names.tsv.
 // With out.gzf (run headless with -readOnly): the named program is saved next to the analysed
 // one as "heroes4_named" and packed to out.gzf; the analysed program itself is untouched.
 //@category homm4
@@ -20,12 +21,13 @@ public class ApplyNames extends GhidraScript {
 	@Override
 	protected void run() throws Exception {
 		String[] args = getScriptArgs();
+		File names = args.length > 0 ? new File(args[0]) : askFile("names.tsv to apply", "Apply");
 		String minTier = args.length > 1 ? args[1] : "C";
 		long base = currentProgram.getImageBase().getOffset();
 		Listing listing = currentProgram.getListing();
 		SymbolTable st = currentProgram.getSymbolTable();
 		int n = 0, created = 0, demangled = 0, skipped = 0;
-		try (BufferedReader r = new BufferedReader(new FileReader(args[0]))) {
+		try (BufferedReader r = new BufferedReader(new FileReader(names))) {
 			String line = r.readLine(); // header
 			while ((line = r.readLine()) != null) {
 				String[] c = line.split("\t", -1);

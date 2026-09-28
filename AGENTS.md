@@ -1,6 +1,6 @@
 # AGENTS.md
 
-Read before changing anything. Layout, tools and run commands are in [README.md](README.md).
+Read before changing anything. Layout, tools and run commands are in [tools/README.md](tools/README.md).
 
 ## Goal
 
@@ -47,7 +47,7 @@ Planned: typed `this`-calls (an ECX=`this` call inside `C::m` must reach a metho
   (2002-10-28 07:42 UTC; build machine UTC+8). LIBCMTD/libcpmtd, `/GZ`, `/Od` (all inlines out
   of line), SmartHeap debug `HA312W32.DLL`.
 - Base-game 1.x code (DirectPlay8 `comm_library`, no expansions). Shipped by mistake beside
-  `binaries/win-2.2gs`, likely the CHS Gathering Storm disc from a non-NWC shop (`C:\work\game`;
+  a 2.2GS exe, likely the CHS Gathering Storm disc from a non-NWC shop (`C:\work\game`;
   NWC uses `C:\Work\…`). The debug exe and PDB were never found.
 - Format: segments, "Publics by Value", "Static symbols" (not globally sorted), `FIXUPS:` lines
   (start rva + 32-bit deltas, 274,411 `.text` sites, no targets). Row:
@@ -80,21 +80,6 @@ Planned: typed `this`-calls (an ECX=`this` call inside `C::m` must reach a metho
 - Static init uses the gruntz convention `<owner>$init/$ctor/$atexit/$dtor`, never `_$E<n>`
   (per-build ordinal). Shapes verified under wine by `name_dyninit.py`. Map `.bss` order is not
   definition order.
-
-## Inputs (`binaries/`)
-
-| Target | What |
-|---|---|
-| `cht-1.x` | **First target.** Traditional Chinese 1.x, linked 2003-01-07, `C:\Work\game`, imports match the map. |
-| `chs-1.x` | Simplified Chinese 1.x (2002-07-04); adds GDI font code. Cross-check. |
-| `us-2.2` | NWC US 2.2 (2002-10-09), no SafeDisc. |
-| `win-2.2gs` | The exe the map shipped with. |
-| `cht-2.2gs`, `cht-3.0wow` | Taiwan GS/WoW rebuilds; `cht-3.0wow` stands in for 3.0 until the GOG exe arrives. |
-| `mac-2.2.2` | CodeWarrior PEF, RTTI names only. |
-| `patches/` | UK/US RTPatch 1.0→3.0 (the `.nfo` only dates 3.0). |
-
-Retail discs use SafeDisc; the exes above are unwrapped (US 1.0 is encrypted). archive.org:
-`yingxiongwudi4fantizhongwenban`, `homm4-chs`, `HoMM-IV-Mac`, `heroes-iv-cd-1`, `756059108937`.
 
 ## Open work
 
