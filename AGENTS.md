@@ -41,7 +41,7 @@ but lowers an independent check is a regression. Last run on cht-1.x:
 
 Planned: typed `this`-calls (an ECX=`this` call inside `C::m` must reach a method of C or a base).
 
-## The map (`debug-symbols/heroes4_debug.map`)
+## The map (`symbols/heroes4_debug.map`)
 
 - MSVC 6 `LINK /MAP /MAPINFO:FIXUPS` of `heroes4_debug.exe`, timestamp `3dbcea6d`
   (2002-10-28 07:42 UTC; build machine UTC+8). LIBCMTD/libcpmtd, `/GZ`, `/Od` (all inlines out

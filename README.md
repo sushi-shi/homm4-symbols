@@ -7,28 +7,14 @@ turned into names for real retail executables. This is not a decompilation.
 
 | Path | What |
 |---|---|
-| `debug-symbols/heroes4_debug.map` | **The original symbols** (MSVC 6 map, 71,988 symbols) |
-| `symbols/` | Everything mined from the map, as TSV (see below) |
+| `symbols/` | **The original map** and everything mined from it ([README](symbols/README.md)) |
 | `maps/<target>/` | **Finished maps**, one directory per retail exe |
 | `tools/` | All scripts |
-| `debug-symbols/SHA256SUMS` | Checksums of the map and its archives (exe hashes are in `maps/<target>/target.json`) |
 
 Local only (see `.gitignore`):
-- the retail exes in `binaries/<target>/`;
-- the `.7z` archives in `debug-symbols/`;
+- the retail exes in `binaries/<target>/` (hashes in `maps/<target>/target.json`);
 - `work/`, which holds everything regenerable: the Ghidra project, per-exe features, alignments,
   and the generated `.gzf` / IDA script.
-
-### `symbols/` (target-independent, from the map)
-
-| File | Rows |
-|---|---|
-| `symbols.tsv` | every public and static symbol. `id` = map line number (stable), section/offset/va/rva, gap-derived size, func/data, inline, static, lib, obj, mangled, demangled |
-| `objs.tsv` | translation units in `.text` link order, with function counts |
-| `segments.tsv` | the map's section contributions |
-| `fixups_per_func.tsv` | decoded FIXUPS: number of absolute-address fixups per function |
-| `dyninit.tsv` | every `_$E` static-init routine, with role (init/ctor/atexit/dtor/…), group, owner and a semantic name |
-| `compgen.tsv` | short names for other compiler-generated symbols (vftables, RTTI, deleting dtors, strings, reals, …) |
 
 ### `maps/<target>/`
 
