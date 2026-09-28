@@ -1,8 +1,7 @@
 # HoMM4 symbol remapping
 
 A debug-build linker map of Heroes of Might and Magic IV (`heroes4_debug.map`, Oct 2002)
-turned into names for real retail executables. This is not a decompilation. Background,
-established facts and working rules for agents are in [AGENTS.md](AGENTS.md).
+turned into names for real retail executables. This is not a decompilation.
 
 ## Layout
 
@@ -12,7 +11,7 @@ established facts and working rules for agents are in [AGENTS.md](AGENTS.md).
 | `symbols/` | Everything mined from the map, as TSV (see below) |
 | `maps/<target>/` | **Finished maps**, one directory per retail exe |
 | `tools/` | All scripts |
-| `debug-symbols/SHA256SUMS`, `binaries/SHA256SUMS` | Checksums of the local inputs below |
+| `debug-symbols/SHA256SUMS` | Checksums of the map and its archives (exe hashes are in `maps/<target>/target.json`) |
 
 Local only (see `.gitignore`):
 - the retail exes in `binaries/<target>/`;

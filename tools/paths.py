@@ -1,7 +1,7 @@
 """Project layout. Every tool gets its paths from here.
 
   debug-symbols/heroes4_debug.map   the original symbols (input)
-  binaries/<target>/heroes4.exe     retail executables (input, git-ignored; SHA256SUMS tracked)
+  binaries/<target>/heroes4.exe     retail executables (input, git-ignored; sha256 in target.json)
   symbols/                          everything mined from the map (tracked)
   maps/<target>/                    finished maps (tracked):
       target.json                   exe, sha256, image base, source ("map" or a parent target)
