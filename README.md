@@ -1,20 +1,24 @@
 # HoMM4 symbol remapping
 
 A debug-build linker map of Heroes of Might and Magic IV (`heroes4_debug.map`, Oct 2002)
-turned into names for real retail executables. This is not a decompilation. Research notes
-and history are in [HANDOFF.md](HANDOFF.md).
+turned into names for real retail executables. This is not a decompilation. Background,
+established facts and working rules for agents are in [AGENTS.md](AGENTS.md).
 
 ## Layout
 
-| Path | What | In git |
-|---|---|---|
-| `debug-symbols/heroes4_debug.map` | **The original symbols** (MSVC 6 map, 71,988 symbols) | yes |
-| `debug-symbols/SHA256SUMS`, `binaries/SHA256SUMS` | Checksums of the inputs that are not in git (the `.7z` archives, the retail exes) | yes |
-| `binaries/<target>/` | Retail executables | no |
-| `symbols/` | Everything mined from the map, as TSV (see below) | yes |
-| `maps/<target>/` | **Finished maps**, one directory per retail exe | yes |
-| `tools/` | All scripts | yes |
-| `work/` | Regenerable intermediates: Ghidra project, per-exe features, alignments, generated `.gzf` / IDA script | no |
+| Path | What |
+|---|---|
+| `debug-symbols/heroes4_debug.map` | **The original symbols** (MSVC 6 map, 71,988 symbols) |
+| `symbols/` | Everything mined from the map, as TSV (see below) |
+| `maps/<target>/` | **Finished maps**, one directory per retail exe |
+| `tools/` | All scripts |
+| `debug-symbols/SHA256SUMS`, `binaries/SHA256SUMS` | Checksums of the local inputs below |
+
+Local only (see `.gitignore`):
+- the retail exes in `binaries/<target>/`;
+- the `.7z` archives in `debug-symbols/`;
+- `work/`, which holds everything regenerable: the Ghidra project, per-exe features, alignments,
+  and the generated `.gzf` / IDA script.
 
 ### `symbols/` (target-independent, from the map)
 
@@ -43,7 +47,7 @@ Current maps:
 
 | Target | Exe | Names |
 |---|---|---|
-| `cht-1.x` | Traditional Chinese 1.x retail | see `tools/evaluate.py cht-1.x` and HANDOFF §9 |
+| `cht-1.x` | Traditional Chinese 1.x retail | 19,264 functions (A 7,388 · B 4,976 · C 6,900), 2,605 vftables, 266 globals |
 
 ## Tools
 
