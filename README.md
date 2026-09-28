@@ -35,10 +35,13 @@ Local only (see `.gitignore`):
 
 | File | What |
 |---|---|
-| `target.json` | exe path, sha256, image base, parents (where names come from) |
-| `from-<parent>.tsv` | the hop: `src` (a `symbols.tsv` id when the parent is `map`, otherwise the parent's rva) → `dst_rva`, kind, tier, method, evidence, optional `name` override |
-| `names.tsv` | composed result, which the generators consume: rva, size, kind (`func`/`vftable`/`data`), tier, mangled, demangled, chain |
+| `target.json` | exe path, sha256, image base, `source` (`map`, or the target whose names were carried over) |
+| `names.tsv` | **the complete map**, self-contained: `rva, size, kind (func/vftable/data), tier, name, demangled, method, evidence, map_id, map_va, obj, score, via` |
 | `manual.tsv` | optional hand fixes (rva, mangled, note); they win over everything |
+
+`name` is the mangled map name, except static-init routines, which get owner-based names. `map_id`/`map_va`/`obj`
+point back to the original symbol. `via` is empty for names taken straight from the map and holds the
+source target's rva for names carried over from another exe.
 
 Tiers: **A** exact structural evidence (vftable slot, vptr store, `.CRT$XCU` slot, RTTI name).
 **B** well supported (ordered match with agreeing `ret N` that is also stable without vftable evidence). **C** best guess.
@@ -47,7 +50,7 @@ Current maps:
 
 | Target | Exe | Names |
 |---|---|---|
-| `cht-1.x` | Traditional Chinese 1.x retail | 19,264 functions (A 7,388 · B 4,976 · C 6,900), 2,605 vftables, 266 globals |
+| `cht-1.x` | Traditional Chinese 1.x retail | 19,411 functions (A 7,642 · B 5,148 · C 6,621), 2,605 vftables, 266 globals |
 
 ## Tools
 
@@ -60,12 +63,11 @@ Current maps:
 | | `rtti.py` | exe → `work/<t>/features/{vftables,classes}.tsv` |
 | | `ghidra/PaddedFunctionStarts.java` | adds functions Ghidra misses (setup only) |
 | pair / align | `match_vftables.py` | → `work/<t>/vftables.tsv` |
-| | `dyninit_join.py` | exact static-init pairs (a module used by `align.py` and `emit_edges.py`) |
-| | `align.py` + `nw.c` | two-pass alignment → `work/<t>/align.tsv` (`--no-vft` → `align_novft.tsv`) |
+| | `dyninit_join.py` | exact static-init pairs (a module used by `align.py` and `emit_map.py`) |
+| | `align.py` + `nw.c` | two-pass alignment → `work/<t>/align.tsv` (held-out runs: `--no-vft`, `--no-retn`) |
 | | `sig.py` | expected `ret N` from a demangled signature (models retail `/Gr` fastcall) |
-| | `evaluate.py` | hierarchy consistency + stability report |
-| map | `emit_edges.py` | → `maps/<t>/from-map.tsv` |
-| | `compose.py` | hops + manual → `maps/<t>/names.tsv` |
+| | `evaluate.py` | accuracy report: vftable hierarchy, call-graph consistency, held-out `ret N`, stability |
+| map | `emit_map.py` | alignment + static-init pairs + vftables + manual → `maps/<t>/names.tsv` |
 | generate | `ghidra/ApplyNames.java` | names → Ghidra program `/<t>/heroes4_named`, packed to `work/<t>/heroes4_<t>.gzf` |
 | | `gen_ida.py` | names → `work/<t>/ida_apply.py` (IDAPython) |
 | infra | `paths.py`, `py` | project layout; offline nix Python with pefile+capstone |

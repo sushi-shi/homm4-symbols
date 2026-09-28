@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Align the debug map's function sequence against a release exe's function sequence.
 
-usage: align.py <target_id> [--no-vft]
+usage: align.py <target_id> [--no-vft] [--no-retn]
 
 Link order is preserved (objs in the same order, functions in source order inside an
 obj), so this is one global sequence alignment (Needleman-Wunsch, linear gaps):
@@ -15,7 +15,8 @@ COMDATs are emitted next to their first user in release but at the end of the ob
 the debug build, so pass 2 assigns them without order inside each obj's band (or a
 later obj's band: the kept copy moves when earlier objs inline every use).
 
-writes work/<target>/align.tsv (align_novft.tsv with --no-vft) and prints a summary.
+writes work/<target>/align.tsv and prints a summary. --no-vft / --no-retn drop that evidence
+(for evaluate.py) and write align_novft.tsv / align_noretn.tsv instead.
 """
 import bisect
 import collections
@@ -233,18 +234,19 @@ def find_thunks(target, funcs):
     return out
 
 
-def main(target, use_vft=True):
+def main(target, use_vft=True, use_retn=True):
+    global W_RETN_OK, W_RETN_OK_CDECL, W_RETN_BAD
+    if not use_retn:
+        W_RETN_OK = W_RETN_OK_CDECL = W_RETN_BAD = 0.0
     all_items, syms = load_map()
     items = [it for it in all_items if it["cat"] != "inline"]
     inline_items = [it for it in all_items if it["cat"] == "inline"]
     funcs, funclet_start = load_target(target)
-    # static-init routines already paired exactly by name_dyninit.py stay out of the alignment
+    # static-init routines paired exactly by name_dyninit.py are pinned in the ordered pass:
+    # .CRT$XCU runs in link order, so they are exact TU boundary anchors
     dj = [d for d in dyninit_join.join(target) if d["kind"] == "func"]
-    dj_ids, dj_rvas = {d["map_id"] for d in dj}, {d["rva"] for d in dj}
-    all_items = [it for it in all_items if it["id"] not in dj_ids]
-    items = [it for it in items if it["id"] not in dj_ids]
-    funcs = [f for f in funcs if f["rva"] not in dj_rvas]
-    print(f"{len(dj)} static-init routines pre-paired (excluded from alignment)", file=sys.stderr)
+    pinned = {d["map_id"]: d["rva"] for d in dj}
+    print(f"{len(dj)} static-init routines pinned", file=sys.stderr)
     xcu = xcu_targets(target)
     thunks = find_thunks(target, funcs)
     folded = folded_functions(target, thunks)
@@ -311,13 +313,15 @@ def main(target, use_vft=True):
             if d and int(d, 16) in vft_cls:
                 refs_vft[vft_cls[int(d, 16)]].add(j)
     cls_ids = {c: k for k, c in enumerate(sorted(set(slots_of) | set(refs_vft)))}
+    pinned = {i: r for i, r in pinned.items() if r in idx_of}
+    pinned_rvas = set(pinned.values())
 
     lines = [f"{nA} {nB} {len(cls_ids)}"]
     for j, f in enumerate(funcs):
         vo = 2 if f["rva"] in thunks else 3 if f["rva"] in deleting else int(j in any_slot)
         nabs = len([x for x in f["datarefs"].split(",") if x]) + len([x for x in f["imports"].split(",") if x])
         lines.append(f"{f['retn']} {math.log(max(f['size'], 1)):.4f} {1 if f['rva'] in xcu else 2 if f['rva'] in atexit_dtors else 0} {vo} "
-                     f"{math.log1p(nabs):.4f}")
+                     f"{math.log1p(nabs):.4f} {int(f['rva'] in pinned_rvas)}")
     for it in items:
         cls = it["cls"]
         vmode, vcls, ctor = 0, -1, -1
@@ -336,7 +340,7 @@ def main(target, use_vft=True):
                      f"{W_INLINE_MATCH if it['cat'] == 'inline' else 0.0} {int(it['cat'] == 'dyninit')} "
                      f"{vmode} {vcls} {ctor} "
                      f"{math.log1p(max(nfix.get(it['id'], 0) - FIX_DEBUG_OVERHEAD, 0)):.4f} "
-                     f"{int(it['deleting'])}")
+                     f"{int(it['deleting'])} {idx_of.get(pinned.get(it['id']), -1)}")
     for c in sorted(cls_ids, key=cls_ids.get):
         sl, rf = sorted(slots_of.get(c, ())), sorted(refs_vft.get(c, ()))
         lines.append(" ".join(map(str, [len(sl)] + sl + [len(rf)] + rf)))
@@ -464,7 +468,8 @@ def main(target, use_vft=True):
     for it, j, sc, ev in pairs2:
         rows.append((it, j, sc, ev, "band"))
     rows.sort(key=lambda r: funcs[r[1]]["rva"])
-    with open(paths.work(target, "align.tsv" if use_vft else "align_novft.tsv"), "w") as f:
+    out = "align.tsv" if use_vft and use_retn else "align_novft.tsv" if use_retn else "align_noretn.tsv"
+    with open(paths.work(target, out), "w") as f:
         f.write("map_id\trva\tsize\tmap_size\tcat\tretn\texp_retn\tpass\tscore\tevidence\tobj\tmangled\n")
         for it, b, sc, ev, how in rows:
             fn = funcs[b]
@@ -476,4 +481,4 @@ def main(target, use_vft=True):
           ", ".join(f"{c} {cats[c]}/{tot[c]}" for c in tot), file=sys.stderr)
 
 if __name__ == "__main__":
-    main(sys.argv[1], use_vft="--no-vft" not in sys.argv)
+    main(sys.argv[1], use_vft="--no-vft" not in sys.argv, use_retn="--no-retn" not in sys.argv)

@@ -1,5 +1,5 @@
-// Apply build/<target>/names.tsv to the current program: mangled names as primary labels,
-// functions created where missing, demangled via DemanglerCmd, tier/chain in a plate comment.
+// Apply maps/<target>/names.tsv to the current program: mangled names as primary labels,
+// functions created where missing, demangled via DemanglerCmd, tier/method/evidence in a plate comment.
 // Usage: ApplyNames.java <names.tsv> [min_tier] [out.gzf]   (min_tier A|B|C, default C)
 // With out.gzf (run headless with -readOnly): the named program is saved next to the analysed
 // one as "heroes4_named" and packed to out.gzf; the analysed program itself is untouched.
@@ -32,7 +32,8 @@ public class ApplyNames extends GhidraScript {
 				String tier = c[3];
 				if (tier.compareTo(minTier) > 0) { skipped++; continue; }
 				Address a = toAddr(base + Long.parseLong(c[0], 16));
-				String kind = c[2], mangled = c[4], chain = c[6];
+				String kind = c[2], mangled = c[4];
+				String chain = c[6] + " " + c[7] + " (map " + c[8] + " @" + c[9] + " " + c[10] + ")";
 				if (kind.equals("func") && listing.getFunctionAt(a) == null) {
 					if (listing.getInstructionAt(a) == null) disassemble(a);
 					if (new CreateFunctionCmd(a).applyTo(currentProgram)) created++;

@@ -11,17 +11,21 @@ GH="ghidra-analyzeHeadless work/ghidra homm4/$T -process heroes4.exe -noanalysis
 tools/py tools/mine_map.py
 tools/py tools/mine_fixups.py
 # 2. facts about the target exe -> work/<target>/features/
+tools/py tools/name_dyninit.py          # static-init roles (symbols/dyninit.tsv, work/<target>/dyninit.tsv); reads the exe
+tools/py tools/dyninit_join.py "$T" --rvas > "work/$T/dyninit_rvas.txt"
+ghidra-analyzeHeadless work/ghidra homm4/"$T" -process heroes4.exe -scriptPath tools/ghidra \
+  -postScript CreateFunctionsAt.java "$PWD/work/$T/dyninit_rvas.txt" > "work/$T/ghidra-dyninit.log" 2>&1
+grep -h 'created' "work/$T/ghidra-dyninit.log"
 $GH -postScript ExportFeatures.java "$PWD/work/$T/features" > "work/$T/ghidra-export.log" 2>&1
 tools/py tools/rtti.py "$T"
 # 3. pairing and alignment -> work/<target>/
-tools/py tools/name_dyninit.py          # static-init roles (symbols/dyninit.tsv, work/<target>/dyninit.tsv)
 tools/py tools/match_vftables.py "$T"
 tools/py tools/align.py "$T"
-tools/py tools/align.py "$T" --no-vft
+tools/py tools/align.py "$T" --no-vft     # held-out runs for evaluate.py
+tools/py tools/align.py "$T" --no-retn
 tools/py tools/evaluate.py "$T"
 # 4. the map -> maps/<target>/
-tools/py tools/emit_edges.py "$T"       # maps/<target>/from-map.tsv
-tools/py tools/compose.py "$T"          # maps/<target>/names.tsv
+tools/py tools/emit_map.py "$T"         # maps/<target>/names.tsv
 # 5. generated databases -> work/<target>/
 tools/py tools/gen_ida.py "$T"
 $GH -postScript ApplyNames.java "$PWD/maps/$T/names.tsv" C "$PWD/work/$T/heroes4_$T.gzf" \

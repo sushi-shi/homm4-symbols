@@ -25,18 +25,31 @@ community exe, if it patches `heroes4.exe` (to be checked).
   `/<target>/heroes4_named`.
 - `llvm-undname` demangles VC6 manglings correctly.
 - All paths come from `tools/paths.py`. Outputs are TSV with a header row. Tools read
-  `symbols/` and `work/`, and write `maps/` only via `emit_edges.py` / `compose.py`.
+  `symbols/` and `work/`. Only `emit_map.py` writes `maps/<target>/names.tsv`, which is a complete,
+  self-contained file per exe (no hop indirection).
 - Don't commit binaries (`binaries/`, `.7z`). Record new inputs in the `SHA256SUMS` files.
 
 ## Checking a change
 
-`tools/py tools/evaluate.py <target>` after every aligner change. There is no ground truth,
-so it reports two numbers:
-- **hierarchy:** overridden vftable slots must keep the base slot's method name. At the
-  last run, cht-1.x was at 1066 agree / 93 disagree.
-- **stability:** agreement with a run that uses no vftable evidence (88%).
+`tools/py tools/evaluate.py <target>` after every aligner change. There is no ground truth, so
+it combines checks. The independent ones matter most, because they use evidence the aligner
+never scored. Last run on cht-1.x:
+- **link order** (invariant, game TUs): the ordered backbone has 0 inversions, and static-init
+  routines have 0 out of order. Inline COMDATs sit only in their map TU or a later one.
+- **call graph** (independent: the aligner ignores call edges). Release edges must be debug edges:
+  - A file-local callee is called from its own obj: 91.9%. This only sees errors that cross
+    translation units, not shuffles inside one.
+  - 32 file-local names sit on functions called from 3+ objs (folded or wrong).
+  - Tier-A deleting dtors call their own or a base dtor in most cases (see the report).
+- **held-out `ret N`:** tier A ≈ 97% precise, and that estimate is independent. The aligner
+  without `ret N` is ≈ 67% on the names that end up tier B, so B leans on `ret N`, and its true
+  precision within a translation unit is **not yet measured**.
+- **hierarchy:** overridden vftable slots keep the base slot's method name, 1092 / 90.
+- **stability:** agreement with a run that uses no vftable evidence, 96%.
 
-A change that raises coverage but lowers either number is a regression.
+A change that raises coverage but lowers an independent check is a regression. Planned next check:
+typed `this`-calls. A call made with ECX = `this` inside `C::m` must reach a method of C or a
+base of C. It is function-level and independent of the aligner.
 
 ## The map (`debug-symbols/heroes4_debug.map`)
 
@@ -88,6 +101,9 @@ These hold for `cht-1.x` (VC6 release). Re-check them on each new target.
   - vtordisp/adjustor thunks (`add/sub ecx; jmp`): the class gets credit for the jump target.
   - Deleting dtors: `ret 4` + `test x,1` + call `operator delete`. Only `??_G`/`??_E` names may go there.
   - ICF-folded bodies and `_purecall`: they sit in the vftables of unrelated classes and are held out.
+- Exact static-init pairs (`.CRT$XCU` order) are **pinned** in the ordered pass. They are the
+  TU boundary anchors, so never take them out of the alignment. Library TUs are linked in a different
+  order in release (LIBCMT/libcpmt vs the map's debug libs).
 - Static init follows the gruntz convention: routines are named after their owner
   (`<owner>$init/$ctor/$atexit/$dtor`), never `_$E<n>`, whose ordinal is per-build noise.
   - `name_dyninit.py` checked the VC6 shapes by compiling test files under wine.

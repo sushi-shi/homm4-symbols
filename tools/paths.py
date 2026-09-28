@@ -4,9 +4,9 @@
   binaries/<target>/heroes4.exe     retail executables (input, git-ignored; SHA256SUMS tracked)
   symbols/                          everything mined from the map (tracked)
   maps/<target>/                    finished maps (tracked):
-      target.json                   exe, sha256, image base, parents
-      from-<parent>.tsv             hop file: parent symbol -> rva, tier, method, evidence
-      names.tsv                     composed names; what the generators consume
+      target.json                   exe, sha256, image base, source ("map" or a parent target)
+      names.tsv                     the complete map: every name with tier, method, evidence, origin
+      manual.tsv                    optional hand fixes
   work/                             regenerable intermediates (git-ignored):
       ghidra/                       Ghidra project
       bin/nw                        compiled alignment core

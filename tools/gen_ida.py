@@ -41,7 +41,8 @@ print("homm4: named %d, created %d functions" % (n, created))
 def main(target, min_tier="C"):
     with open(paths.maps(target, "names.tsv")) as f:
         rows = [r for r in csv.DictReader(f, delimiter="\t") if r["tier"] <= min_tier]
-    body = "".join(f"    (0x{r['rva']}, {r['kind']!r}, {r['tier']!r}, {r['mangled']!r}, {r['chain']!r}),\n"
+    body = "".join(f"    (0x{r['rva']}, {r['kind']!r}, {r['tier']!r}, {r['name']!r}, "
+                   f"{r['method'] + ' ' + r['evidence'] + ' (map ' + r['map_id'] + ' ' + r['obj'] + ')'!r}),\n"
                    for r in rows)
     path = paths.work(target, "ida_apply.py")
     with open(path, "w") as f:

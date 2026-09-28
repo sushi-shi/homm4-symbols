@@ -2,8 +2,9 @@
  *
  * stdin:
  *   nA nB nC
- *   nB lines:  retn logsize xcu vftonly logfix
- *   nA lines:  gap retn cdecl logsize extra dyninit vmode vcls ctorcls logfix deleting
+ *   nB lines:  retn logsize xcu vftonly logfix fixed
+ *   nA lines:  gap retn cdecl logsize extra dyninit vmode vcls ctorcls logfix deleting fixj
+ *              fixj >= 0: the item is pinned to B[fixj] (exact pair); fixed: B is pinned by some item
  *              vmode: 0 none, 1 virtual of class vcls, 2 non-virtual, 3 this-adjusting thunk
  *   vftonly: 0 no, 1 in a vftable, 2 this-adjusting thunk, 3 deleting destructor
  *   nC lines:  nslot j...  nref j...
@@ -19,6 +20,8 @@
 #define W_THUNK_OK 3.0
 #define W_THUNK_BAD -8.0
 #define W_DEL_OK 4.0
+#define W_PINNED 200.0
+#define W_FORBID -1000.0
 #define W_DEL_BAD -4.0
 
 static double W_RETN_OK, W_RETN_OK_CDECL, W_RETN_BAD, W_VFT_OK, W_VFT_BAD, W_NONVIRT_VFTONLY,
@@ -42,16 +45,17 @@ int main(int argc, char **argv) {
 
 	int nA, nB, nC;
 	if (scanf("%d %d %d", &nA, &nB, &nC) != 3) return 2;
-	int *bretn = malloc(sizeof(int) * nB), *bxcu = malloc(sizeof(int) * nB), *bvo = malloc(sizeof(int) * nB);
+	int *bretn = malloc(sizeof(int) * nB), *bxcu = malloc(sizeof(int) * nB), *bvo = malloc(sizeof(int) * nB),
+	    *bfixed = malloc(sizeof(int) * nB);
 	double *blog = malloc(sizeof(double) * nB), *bfix = malloc(sizeof(double) * nB);
-	for (int j = 0; j < nB; j++) scanf("%d %lf %d %d %lf", &bretn[j], &blog[j], &bxcu[j], &bvo[j], &bfix[j]);
+	for (int j = 0; j < nB; j++) scanf("%d %lf %d %d %lf %d", &bretn[j], &blog[j], &bxcu[j], &bvo[j], &bfix[j], &bfixed[j]);
 	double *agap = malloc(sizeof(double) * nA), *alog = malloc(sizeof(double) * nA), *aextra = malloc(sizeof(double) * nA), *afix = malloc(sizeof(double) * nA);
 	int *aretn = malloc(sizeof(int) * nA), *acdecl = malloc(sizeof(int) * nA), *adyn = malloc(sizeof(int) * nA),
 	    *avmode = malloc(sizeof(int) * nA), *avcls = malloc(sizeof(int) * nA), *actor = malloc(sizeof(int) * nA),
-	    *adel = malloc(sizeof(int) * nA);
+	    *adel = malloc(sizeof(int) * nA), *afixj = malloc(sizeof(int) * nA);
 	for (int i = 0; i < nA; i++)
-		scanf("%lf %d %d %lf %lf %d %d %d %d %lf %d", &agap[i], &aretn[i], &acdecl[i], &alog[i], &aextra[i], &adyn[i],
-		      &avmode[i], &avcls[i], &actor[i], &afix[i], &adel[i]);
+		scanf("%lf %d %d %lf %lf %d %d %d %d %lf %d %d", &agap[i], &aretn[i], &acdecl[i], &alog[i], &aextra[i], &adyn[i],
+		      &avmode[i], &avcls[i], &actor[i], &afix[i], &adel[i], &afixj[i]);
 	list_t *slots = calloc(nC, sizeof(list_t)), *refs = calloc(nC, sizeof(list_t));
 	for (int c = 0; c < nC; c++) { read_list(&slots[c]); read_list(&refs[c]); }
 
@@ -88,13 +92,18 @@ int main(int argc, char **argv) {
 			else if (bxcu[j]) v += W_XCU_BAD;
 			s[j] = v;
 		}
-		if (avmode[a] == 1) {
+		if (afixj[a] >= 0) { /* exact pair: only its own target */
+			for (int j = 0; j < nB; j++) s[j] = j == afixj[a] ? W_PINNED : W_FORBID;
+		} else {
+			for (int j = 0; j < nB; j++) if (bfixed[j]) s[j] = W_FORBID;
+		}
+		if (avmode[a] == 1 && afixj[a] < 0) {
 			list_t *l = &slots[avcls[a]];
 			for (int k = 0; k < l->n; k++) mark[l->j[k]] = 1;
 			for (int j = 0; j < nB; j++) s[j] += mark[j] ? W_VFT_OK : W_VFT_BAD;
 			for (int k = 0; k < l->n; k++) mark[l->j[k]] = 0;
 		}
-		if (actor[a] >= 0) {
+		if (actor[a] >= 0 && afixj[a] < 0) {
 			list_t *l = &refs[actor[a]];
 			for (int k = 0; k < l->n; k++) mark[l->j[k]] = 1;
 			for (int j = 0; j < nB; j++) s[j] += mark[j] ? W_CTOR_OK : W_CTOR_BAD;

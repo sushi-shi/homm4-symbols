@@ -62,6 +62,8 @@ def join(target):
 
 
 if __name__ == "__main__":
-    import sys
     j = join(sys.argv[1])
-    print(collections.Counter((x["kind"], x["role"], x["conf"]) for x in j))
+    if "--rvas" in sys.argv:  # function rvas, for CreateFunctionsAt.java
+        print("\n".join(sorted({f"{x['rva']:x}" for x in j if x["kind"] == "func"})))
+    else:
+        print(collections.Counter((x["kind"], x["role"], x["conf"]) for x in j))
