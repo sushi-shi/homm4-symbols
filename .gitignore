@@ -1,0 +1,9 @@
+# inputs: not redistributable; identified by checksums
+binaries/*
+!binaries/SHA256SUMS
+debug-symbols/*
+!debug-symbols/heroes4_debug.map
+!debug-symbols/SHA256SUMS
+# regenerable
+work/
+__pycache__/

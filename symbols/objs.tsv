@@ -1,0 +1,833 @@
+idx	lib	obj	start_va	end_va	n_plain	n_inline	n_static	n_dyninit	plain_bytes
+0		abbreviate_number.obj	00401000	00402b40	2	44	3	2	902
+1		abstract_adv_actor.obj	00402b40	00408360	44	214	10	10	221a
+2		abstract_adv_object.obj	00408360	00408580	10	0	2	2	1ec
+3		abstract_adventure_map.obj	00408580	0041b060	65	714	32	32	3847
+4		abstract_bitmap.obj	0041b060	0041b9b0	6	23	0	0	540
+5		abstract_combat_ai_spell_action.obj	0041b9b0	0041c560	4	28	14	14	473
+6		abstract_combat_creature.obj	0041c560	00421e00	55	157	20	18	1d08
+7		abstract_combat_object.obj	00421e00	004240e0	36	90	14	14	cbe
+8		abstract_file.obj	004240e0	00424110	0	0	2	2	0
+9		abstract_grail_data_source.obj	00424110	004241b0	1	0	2	2	6f
+10		abstract_resource_cache.obj	004241b0	004248e0	6	13	2	2	3d3
+11		abstract_script_action.obj	004248e0	00424eb0	11	6	2	2	49f
+12		abstract_script_expression.obj	00424eb0	00425c10	8	24	2	2	1ac
+13		abstract_stationary_adv_object.obj	00425c10	00428bd0	43	84	22	22	1ade
+14		abstract_tile.obj	00428bd0	0042bea0	10	106	6	6	daa
+15		abstract_town.obj	0042bea0	00436c60	43	429	12	12	2d37
+16		academy.obj	00436c60	00437760	5	51	4	4	3e0
+17		actor.obj	00437760	004391a0	25	61	8	8	d90
+18		actor_sequence.obj	004391a0	00440fa0	12	308	4	4	aa1
+19		actor_sequence_cache.obj	00440fa0	004478e0	10	235	4	4	7d3
+20		adjusted_animation_cache.obj	004478e0	00448bb0	5	41	3	3	441
+21		adjusted_bitmap_cache.obj	00448bb0	00449610	5	22	3	3	3ff
+22		adv_abandoned_mine.obj	00449610	0044f6a0	31	147	10	10	39dc
+23		adv_actor_action.obj	0044f6a0	0044fa00	2	5	2	2	9f
+24		adv_actor_model.obj	0044fa00	004526a0	15	87	6	6	55f
+25		adv_actor_model_cache.obj	004526a0	00457820	13	180	10	10	b21
+26		adv_actor_model_definition.obj	00457820	004581f0	2	16	4	4	561
+27		adv_altar.obj	004581f0	0045ac00	12	95	12	12	14b3
+28		adv_arena.obj	0045ac00	0045b120	4	10	4	4	2c3
+29		adv_artifact.obj	0045b120	0045e680	20	114	33	31	18ab
+30		adv_artifact_pile.obj	0045e680	00461fe0	13	174	11	10	dc9
+31		adv_blacksmith.obj	00461fe0	004654d0	11	119	14	13	fe2
+32		adv_border_gate.obj	004654d0	00465db0	6	9	12	12	5f4
+33		adv_border_guard.obj	00465db0	00467610	6	46	18	18	b03
+34		adv_chain_link.obj	00467610	00467960	1	9	4	4	127
+35		adv_dwelling.obj	00467960	0046c660	29	180	17	17	3010
+36		adv_ferry.obj	0046c660	0046f0c0	5	132	10	10	b58
+37		adv_fountain.obj	0046f0c0	0046fe70	5	9	4	4	b84
+38		adv_garrison.obj	0046fe70	00471070	14	30	10	10	a2a
+39		adv_keymaster_tent.obj	00471070	00471c70	5	41	12	12	6f7
+40		adv_mages_chest.obj	00471c70	00473440	12	43	24	24	9af
+41		adv_magi_eye.obj	00473440	00473880	1	10	10	10	3a
+42		adv_magic_gem.obj	00473880	00474440	6	14	14	14	731
+43		adv_mana_vortex.obj	00474440	00475550	6	22	10	10	ae9
+44		adv_medicine_wagon.obj	00475550	004766a0	6	20	18	18	b2f
+45		adv_mercenary_camp.obj	004766a0	00476ba0	4	9	4	4	2c9
+46		adv_move_booster.obj	00476ba0	00477d00	9	20	12	12	bf9
+47		adv_obelisk.obj	00477d00	0047a9c0	9	92	10	10	106b
+48		adv_object_deletion_marker.obj	0047a9c0	0047aec0	2	10	10	10	b8
+49		adv_object_flag.obj	0047aec0	0047bcc0	16	3	4	4	cd9
+50		adv_object_icon_type.obj	0047bcc0	0047be80	2	1	3	3	14d
+51		adv_object_list_image.obj	0047be80	0047d280	7	24	12	12	c67
+52		adv_object_map_info.obj	0047d280	0047d6a0	17	3	8	8	263
+53		adv_object_model.obj	0047d6a0	00480d80	25	86	14	12	181f
+54		adv_object_model_cache.obj	00480d80	00484390	2	118	13	13	385
+55		adv_object_strings.obj	00484390	004897e0	9	199	3	3	ac7
+56		adv_object_type.obj	004897e0	004976c0	61	90	69	69	ac2a
+57		adv_ocean_bottle.obj	004976c0	00497ad0	2	10	4	4	173
+58		adv_prison.obj	00497ad0	00498fd0	11	25	10	10	edc
+59		adv_sacred_fountain.obj	00498fd0	00499410	3	9	4	4	217
+60		adv_sea_chest.obj	00499410	0049a590	7	12	18	18	d3f
+61		adv_shipyard.obj	0049a590	0049bd00	9	23	12	10	fd4
+62		adv_shrine.obj	0049bd00	0049eb90	19	82	20	20	1e5a
+63		adv_sign.obj	0049eb90	0049f420	7	8	14	14	52a
+64		adv_sphinx.obj	0049f420	0049fb10	5	13	4	4	41d
+65		adv_subterranean_gate.obj	0049fb10	004a2660	14	116	10	10	c3e
+66		adv_tavern.obj	004a2660	004a34b0	5	17	18	18	8a5
+67		adv_teleporter_entrance.obj	004a34b0	004a45b0	3	27	10	10	93e
+68		adv_teleporter_exit.obj	004a45b0	004a4bd0	4	10	10	10	31f
+69		adv_temple.obj	004a4bd0	004a6830	9	24	8	6	1059
+70		adv_trading_post.obj	004a6830	004a6dd0	2	9	8	8	2b4
+71		adv_training_grounds.obj	004a6dd0	004a72c0	4	9	4	4	2c5
+72		adv_treasure_chest.obj	004a72c0	004a8480	8	12	18	18	db6
+73		adv_tree_of_knowledge.obj	004a8480	004a9b10	9	17	4	4	1135
+74		adv_whirlpool.obj	004a9b10	004abdf0	5	81	10	10	b28
+75		adv_windmill.obj	004abdf0	004ad040	13	47	4	4	d5b
+76		adventure_ai.obj	004ad040	004e6b60	160	1665	42	42	10d5a
+77		adventure_enemy_marker.obj	004e6b60	004e9660	16	58	9	9	196e
+78		adventure_events_base.obj	004e9660	004ea840	17	27	8	8	a5f
+79		adventure_events_look_trigger.obj	004ea840	004eab70	6	4	8	8	1e0
+80		adventure_events_mover.obj	004eab70	004eb890	10	16	8	8	7f1
+81		adventure_events_place.obj	004eb890	004ebe60	6	8	8	8	35e
+82		adventure_events_playback.obj	004ebe60	004ec600	7	17	8	8	3b1
+83		adventure_events_remove.obj	004ec600	004ece30	7	4	8	8	695
+84		adventure_events_set_action.obj	004ece30	004ed160	6	4	8	8	1de
+85		adventure_events_set_owner.obj	004ed160	004ed6b0	8	4	8	8	3fb
+86		adventure_events_spells_effect.obj	004ed6b0	004eddc0	7	11	8	8	493
+87		adventure_events_teleport.obj	004eddc0	004ee370	6	6	8	8	3b1
+88		adventure_events_update.obj	004ee370	004eea40	6	4	8	8	53d
+89		adventure_events_visiblity.obj	004eea40	004eeec0	6	4	8	8	328
+90		adventure_frame.obj	004eeec0	0051a130	156	777	652	646	170b9
+91		adventure_map.obj	0051a130	00564f60	274	2108	17	12	178e1
+92		adventure_map_window.obj	00564f60	0056a600	36	82	47	46	3833
+93		adventure_map_window_base.obj	0056a600	0056ab70	10	3	8	8	443
+94		adventure_object.obj	0056ab70	0056e790	64	78	9	8	28c1
+95		adventure_object_global_id.obj	0056e790	0056e8d0	8	0	0	0	140
+96		adventure_object_memory_cache.obj	0056e8d0	00572060	24	89	8	8	e40
+97		adventure_path_finder.obj	00572060	005770f0	31	62	11	11	3ec3
+98		adventure_sounds.obj	005770f0	0057c3e0	14	159	26	24	15f8
+99		adventure_spell.obj	0057c3e0	0057fd00	22	53	40	40	2684
+100		adventure_spell_effect.obj	0057fd00	00581960	43	79	10	10	13be
+101		adventure_treasure_map.obj	00581960	00582260	8	10	6	6	636
+102		ai_combat_data_cache.obj	00582260	0059fa60	23	881	26	14	2978
+103		ai_town_data_cache.obj	0059fa60	005a0bc0	2	32	2	2	1ed
+104		ai_value.obj	005a0bc0	005a9120	99	116	8	8	5b3e
+105		alignment_relationship.obj	005a9120	005a91b0	1	0	2	2	5a
+106		angle.obj	005a91b0	005a93d0	6	0	0	0	220
+107		animated_window.obj	005a93d0	005a9a10	3	12	2	2	2c8
+108		animation.obj	005a9a10	005a9ec0	4	1	2	2	40d
+109		army.obj	005a9ec0	005b3680	94	97	19	16	7993
+110		army_dialog.obj	005b3680	005b9b90	16	192	12	12	1d76
+111		army_dialog_base.obj	005b9b90	005ca030	52	143	86	85	d375
+112		army_dialog_garrison.obj	005ca030	005ca5b0	3	6	2	2	486
+113		army_info_window.obj	005ca5b0	005d0fe0	12	56	28	28	5889
+114		army_list.obj	005d0fe0	005d1040	1	2	0	0	20
+115		army_list_window.obj	005d1040	005d5890	20	106	15	14	242c
+116		army_mover.obj	005d5890	005db310	33	52	26	25	4a72
+117		artifact.obj	005db310	005dbef0	6	14	2	2	583
+118		artifact_ai_importance_map.obj	005dbef0	005dcba0	2	17	0	0	200
+119		artifact_effect.obj	005dcba0	005e6fb0	55	539	2	2	144d
+120		artifact_effect_visitor.obj	005e6fb0	005e7100	15	0	0	0	150
+121		artifact_icon.obj	005e7100	005e78b0	4	3	2	2	6db
+122		artifact_keyword.obj	005e78b0	005e84a0	8	16	8	8	400
+123		artifact_prop_ability.obj	005e84a0	005e8890	5	11	0	0	200
+124		artifact_properties.obj	005e8890	005ea9f0	12	53	15	13	985
+125		artifact_set.obj	005ea9f0	005eafb0	4	5	2	2	478
+126		attack.obj	005eafb0	005f0d80	13	183	39	34	2052
+127		attackable_object.obj	005f0d80	005f1240	15	2	14	14	303
+128		attackable_obstacle.obj	005f1240	005f28d0	14	47	18	18	819
+129		automatic_spells.obj	005f28d0	005f3eb0	1	45	4	3	1b1
+130		basic_dialog.obj	005f3eb0	005fae10	42	89	70	64	4314
+131		battlefield.obj	005fae10	0062d100	244	1302	237	213	17054
+132		battlefield_cell.obj	0062d100	0062e050	17	2	16	16	d66
+133		battlefield_metrics.obj	0062e050	0062e3b0	3	1	13	13	213
+134		battlefield_passablity_map.obj	0062e3b0	0062f0c0	5	29	2	2	347
+135		battlefield_preset_map.obj	0062f0c0	006306e0	16	25	2	2	cdc
+136		battlefield_preset_map_cache.obj	006306e0	00630f70	3	31	2	2	196
+137		battlefield_preset_map_in_game.obj	00630f70	00631200	5	3	2	2	1e4
+138		battlefield_terrain_map.obj	00631200	00634ed0	29	130	16	16	12b6
+139		battlefield_window.obj	00634ed0	0063a620	20	128	23	18	1632
+140		beastmaster_hut.obj	0063a620	0063c6b0	14	31	12	12	17c3
+141		bink_window.obj	0063c6b0	0063d330	9	10	2	2	acf
+142		bink_wrapper.obj	0063d330	0063e5d0	18	18	3	2	e44
+143		bitmap_cursor.obj	0063e5d0	0063e930	2	2	2	2	2a5
+144		bitmap_group.obj	0063e930	0063fd10	13	20	2	2	8e9
+145		bitmap_group_cache.obj	0063fd10	006405c0	4	23	2	2	304
+146		bitmap_group_window.obj	006405c0	00640e90	9	3	2	2	836
+147		bitmap_layer.obj	00640e90	006495d0	32	96	12	2	34b1
+148		bitmap_layer_cache.obj	006495d0	00649a50	4	8	2	2	2bd
+149		bitmap_layer_cache_window.obj	00649a50	00649c10	3	3	0	0	120
+150		bitmap_layer_window.obj	00649c10	0064a170	6	2	2	2	4ed
+151		bitmap_pool.obj	0064a170	0064b770	5	39	2	2	478
+152		bitmap_raw.obj	0064b770	0064c250	9	22	2	2	56a
+153		bitmap_raw_cache.obj	0064c250	0064cbd0	4	31	2	2	282
+154		bitmap_raw_window.obj	0064cbd0	0064d160	6	6	2	2	47b
+155		blacksmith_window.obj	0064d160	00652820	19	58	40	40	3fed
+156		blend_window.obj	00652820	00652ae0	2	4	2	2	1fa
+157		blended_bitmap_window.obj	00652ae0	00652e50	4	3	2	2	2cf
+158		bool_array.obj	00652e50	00652f40	2	0	0	0	f0
+159		buffer_window.obj	00652f40	006535a0	10	9	2	2	35b
+160		building_traits.obj	006535a0	00653df0	4	3	16	11	f1
+161		button.obj	00653df0	00657170	22	37	2	2	2c0a
+162		button_bitmaps.obj	00657170	00657650	1	3	2	2	435
+163		button_group.obj	00657650	00658990	7	53	2	2	344
+164		buy_building_detail.obj	00658990	0065ab40	4	10	32	32	1a09
+165		buy_building_window.obj	0065ab40	0065d530	7	18	44	44	1d6d
+166		cache_base.obj	0065d530	0065e3e0	6	41	2	2	3fb
+167		cached_grail_data_source.obj	0065e3e0	0065e4d0	1	0	2	2	bc
+168		campaign_file.obj	0065e4d0	0065ea00	8	2	11	11	3e8
+169		campaign_file_header.obj	0065ea00	00663480	38	171	11	11	172b
+170		campaign_file_ref.obj	00663480	00663d80	14	14	2	2	671
+171		campfire.obj	00663d80	00664660	5	10	4	4	626
+172		can_cast.obj	00664660	0066abf0	11	29	269	254	dc3
+173		caravan.obj	0066abf0	0066b7e0	8	9	8	8	9a2
+174		caravan_set.obj	0066b7e0	0066c170	3	12	2	2	301
+175		carryover_data.obj	0066c170	0066fd00	20	81	2	2	1aba
+176		carryover_hero.obj	0066fd00	00670e20	5	44	10	10	b20
+177		castle_gate.obj	00670e20	00672940	21	23	22	21	12e8
+178		castle_window.obj	00672940	00678b00	9	26	36	36	5587
+179		chain_lightning.obj	00678b00	0067a930	8	55	19	16	903
+180		cheats.obj	0067a930	0067de60	4	37	176	176	c92
+181		check_artifact_influence.obj	0067de60	0067fa60	18	40	14	14	e1c
+182		clip_list.obj	0067fa60	006823a0	25	42	1	1	1b7a
+183		color_count.obj	006823a0	00682470	1	3	0	0	60
+184		color_cube.obj	00682470	006845b0	7	67	0	0	a70
+185		color_sum.obj	006845b0	00684830	5	0	0	0	280
+186		combat_action_message.obj	00684830	00684c70	10	4	14	14	254
+187		combat_action_message_displayer.obj	00684c70	00684f90	4	2	14	14	1a1
+188		combat_actor.obj	00684f90	006868f0	46	23	14	14	1331
+189		combat_actor_action.obj	006868f0	00686c90	2	5	6	6	ac
+190		combat_actor_model.obj	00686c90	00688550	5	40	16	16	362
+191		combat_actor_model_cache.obj	00688550	00690930	18	269	19	19	113b
+192		combat_actor_model_definition.obj	00690930	00691390	2	8	14	14	6f1
+193		combat_ai.obj	00691390	006977b0	12	150	42	38	1e80
+194		combat_ai_defend_action.obj	006977b0	006979e0	2	0	22	22	42
+195		combat_ai_melee_action.obj	006979e0	0069b0c0	6	25	34	14	f62
+196		combat_ai_move_action.obj	0069b0c0	0069c3d0	7	9	23	22	e50
+197		combat_ai_ranged_area_action.obj	0069c3d0	0069c830	2	0	22	22	26e
+198		combat_ai_ranged_single_action.obj	0069c830	0069ccc0	3	0	23	22	204
+199		combat_ai_spell_single_action.obj	0069ccc0	0069d0a0	2	1	22	22	17c
+200		combat_ai_wait_action.obj	0069d0a0	0069d2d0	2	0	22	22	42
+201		combat_castle.obj	0069d2d0	0069dc80	2	19	2	2	21d
+202		combat_context_army.obj	0069dc80	0069e300	6	5	8	8	47b
+203		combat_creature.obj	0069e300	006b45c0	211	202	54	39	11673
+204		combat_creature_icon.obj	006b45c0	006b4a20	4	4	14	14	226
+205		combat_flinch.obj	006b4a20	006b4fd0	2	8	14	14	1c6
+206		combat_footprint.obj	006b4fd0	006b9c50	6	129	2	2	760
+207		combat_header_table.obj	006b9c50	006bb4b0	11	46	10	10	7e6
+208		combat_label.obj	006bb4b0	006c1490	29	133	16	16	181d
+209		combat_model_window.obj	006c1490	006c43a0	14	67	20	19	1673
+210		combat_non_blocking_message_displayer.obj	006c43a0	006c4670	4	5	2	2	1a3
+211		combat_object_fader.obj	006c4670	006c4d30	2	12	14	14	2e4
+212		combat_object_model.obj	006c4d30	006c5590	5	9	2	2	5f0
+213		combat_object_model_cache.obj	006c5590	006c8420	5	94	3	3	3ec
+214		combat_object_registration.obj	006c8420	006c8540	3	0	1	0	ec
+215		combat_object_visitor.obj	006c8540	006c8600	5	0	0	0	c0
+216		combat_obstacle_placer.obj	006c8600	006ccf70	15	124	25	21	1bf8
+217		combat_obstruction_finder.obj	006ccf70	006ce7b0	9	35	14	14	af1
+218		combat_path_finder.obj	006ce7b0	006d0d60	7	32	15	14	14ac
+219		combat_path_finder_base.obj	006d0d60	006d2790	11	24	14	14	f25
+220		combat_reader.obj	006d2790	006d4c50	11	73	34	34	552
+221		combat_sounds.obj	006d4c50	006d5660	3	1	7	5	375
+222		combat_spell.obj	006d5660	006d7ab0	18	45	39	38	1031
+223		combat_spell_cell_target.obj	006d7ab0	006d83f0	6	3	14	14	763
+224		combat_spell_registration.obj	006d83f0	006d8530	3	0	1	0	109
+225		combat_spell_single_target.obj	006d8530	006ec8f0	157	452	167	166	c4be
+226		combat_start_position.obj	006ec8f0	006ecde0	0	0	4	4	0
+227		combat_terrain_map.obj	006ecde0	006ee8b0	5	37	17	14	5ef
+228		combat_user_action.obj	006ee8b0	006f0b60	27	25	34	30	1199
+229		combat_window.obj	006f0b60	007014b0	59	128	247	218	8b42
+230		compound_object.obj	007014b0	00702c40	13	27	14	14	d58
+231		compound_object_model.obj	00702c40	00704f90	4	67	15	14	bac
+232		compressed_filter.obj	00704f90	00706e00	19	26	2	2	17d8
+233		configuration.obj	00706e00	007075a0	18	0	6	6	6f8
+234		continuous_event.obj	007075a0	00707660	1	1	2	2	78
+235		convert_16_bit.obj	00707660	00708ad0	3	52	1	0	399
+236		counted_animation.obj	00708ad0	00708d80	3	2	14	14	131
+237		create_creature_button.obj	00708d80	00709a40	1	14	2	2	8f0
+238		creature.obj	00709a40	0070c820	54	73	8	8	19ae
+239		creature_ability_properties.obj	0070c820	0070d0a0	5	9	12	11	332
+240		creature_array.obj	0070d0a0	00712820	90	26	13	12	4f0d
+241		creature_array_window.obj	00712820	007182c0	47	75	18	18	469b
+242		creature_bank.obj	007182c0	0071cb00	21	79	12	11	363e
+243		creature_bank_type.obj	0071cb00	0071ce80	2	5	6	6	8b
+244		creature_detail_display.obj	0071ce80	0071ed30	6	14	10	10	1626
+245		creature_icon_window.obj	0071ed30	0071f2e0	3	2	2	2	537
+246		creature_info_window.obj	0071f2e0	00720d80	16	12	2	2	16dd
+247		creature_select_window.obj	00720d80	00722a70	12	67	6	6	a2a
+248		creature_stack.obj	00722a70	00726740	125	30	6	6	2c56
+249		creature_traits.obj	00726740	0072a030	14	28	38	30	b78
+250		creature_type.obj	0072a030	0072a3b0	2	5	6	6	8b
+251		data_lock.obj	0072a3b0	0072a5b0	4	3	0	0	160
+252		debug_message.obj	0072a5b0	0072a900	4	1	15	15	18e
+253		default_artifacts.obj	0072a900	00734cf0	11	87	64	6	f1c
+254		default_heroes.obj	00734cf0	007373c0	14	47	14	14	1134
+255		default_obelisk_rewards.obj	007373c0	007373f0	0	0	2	2	0
+256		delay_effect.obj	007373f0	007375f0	2	7	0	0	d0
+257		dialog_adv_spell_target.obj	007375f0	00739840	5	31	18	18	177a
+258		dialog_altar.obj	00739840	0073bdd0	5	40	16	16	192f
+259		dialog_beastmaster.obj	0073bdd0	0073df20	4	17	22	22	198f
+260		dialog_blacksmith.obj	0073df20	00741fc0	16	31	2	2	381c
+261		dialog_booty.obj	00741fc0	00743dd0	12	19	10	10	17a5
+262		dialog_box.obj	00743dd0	00744220	6	2	6	6	374
+263		dialog_box_bitmaps.obj	00744220	00744570	1	3	2	2	2ae
+264		dialog_campaign.obj	00744570	0074a820	34	44	69	69	4c53
+265		dialog_campaign_score.obj	0074a820	0074dfb0	6	75	24	24	1ca5
+266		dialog_campaign_selection.obj	0074dfb0	007500b0	14	17	44	44	157a
+267		dialog_caravan_arrivals.obj	007500b0	00753bd0	8	53	32	32	2717
+268		dialog_caravan_creation.obj	00753bd0	007616a0	30	150	144	144	90df
+269		dialog_caravan_initial.obj	007616a0	00763680	2	34	38	38	10b1
+270		dialog_caravan_view.obj	00763680	007680b0	7	82	68	68	27dc
+271		dialog_charm.obj	007680b0	0076ab30	8	10	54	54	1dff
+272		dialog_choose_lord.obj	0076ab30	0076e8a0	7	56	22	22	2679
+273		dialog_cinematic.obj	0076e8a0	0076ffe0	5	19	32	32	cc5
+274		dialog_combat_creature.obj	0076ffe0	00775480	11	25	38	38	4842
+275		dialog_combat_options.obj	00775480	00776a10	5	11	34	34	ca9
+276		dialog_combat_results.obj	00776a10	0077a120	9	11	91	88	2156
+277		dialog_creature_portal.obj	0077a120	0077b250	2	41	7	6	529
+278		dialog_enemy_runs.obj	0077b250	0077c420	4	10	22	22	b5c
+279		dialog_file.obj	0077c420	007810b0	10	93	13	13	27f0
+280		dialog_full_army.obj	007810b0	00782790	6	17	15	14	f46
+281		dialog_garrison.obj	00782790	007862b0	11	58	24	24	29da
+282		dialog_high_score.obj	007862b0	00789290	12	24	48	48	20c7
+283		dialog_kingdom_trade.obj	00789290	0078c8e0	9	39	18	16	2487
+284		dialog_load_game.obj	0078c8e0	0078d360	7	12	14	14	573
+285		dialog_magic_gem.obj	0078d360	0078ef60	7	17	2	2	175a
+286		dialog_magic_university.obj	0078ef60	0078f2d0	1	1	2	2	30e
+287		dialog_mana_vortex.obj	0078f2d0	00791350	5	17	10	10	1a43
+288		dialog_marketplace.obj	00791350	00794bc0	12	25	18	16	2cf5
+289		dialog_necromancy.obj	00794bc0	007965d0	8	3	14	14	16c4
+290		dialog_options_base.obj	007965d0	007987f0	13	16	18	18	1afa
+291		dialog_resurrect.obj	007987f0	0079a290	4	17	10	10	146a
+292		dialog_save_game.obj	0079a290	0079b830	7	20	23	23	c74
+293		dialog_school_of_magic.obj	0079b830	0079e710	7	24	6	6	2773
+294		dialog_score.obj	0079e710	007a3590	9	23	152	152	2d4e
+295		dialog_teleporter_entrance.obj	007a3590	007a7dc0	17	116	16	16	2104
+296		dialog_tree_of_knowledge.obj	007a7dc0	007aa590	7	17	14	14	20cc
+297		dialog_view_world.obj	007aa590	007b1dc0	61	144	39	39	4c50
+298		dialog_war_institute.obj	007b1dc0	007b3fd0	6	21	10	10	1aa8
+299		dib_section.obj	007b3fd0	007b44c0	2	10	2	2	2b7
+300		diff.obj	007b44c0	007b4580	3	2	2	2	4d
+301		direct_paint_surface.obj	007b4580	007b4bf0	5	13	2	2	349
+302		direct_surface_16.obj	007b4bf0	007b5010	5	7	0	0	320
+303		direction.obj	007b5010	007b5410	2	4	2	2	33
+304		discrete_event.obj	007b5410	007b5870	5	1	6	6	3c7
+305		drag_artifact.obj	007b5870	007b60f0	10	7	2	2	6d6
+306		drag_creature.obj	007b60f0	007b6800	4	2	2	2	693
+307		drag_garrison.obj	007b6800	007b6a50	3	2	2	2	1d7
+308		drag_object.obj	007b6a50	007b6ae0	2	2	0	0	50
+309		draw_adventure_tile.obj	007b6ae0	007bdfb0	25	20	12	12	6515
+310		draw_terrain.obj	007bdfb0	007be1c0	1	0	8	8	151
+311		dump_entire_map_image.obj	007be1c0	007bee70	6	20	7	7	570
+312		enum_map.obj	007bee70	007bf320	3	3	2	2	344
+313		estimate_outcome.obj	007bf320	007bfa30	1	1	14	12	254
+314		external_resource.obj	007bfa30	007c02f0	4	21	3	3	2d6
+315		external_string.obj	007c02f0	007c2e10	7	115	5	5	605
+316		fire_ring.obj	007c2e10	007c4a80	17	18	20	20	1698
+317		fireball.obj	007c4a80	007cb6c0	58	160	38	34	3be5
+318		flotsam.obj	007cb6c0	007cbf10	5	9	4	4	5d1
+319		font.obj	007cbf10	007cd8b0	18	21	2	2	138c
+320		footprint.obj	007cd8b0	007cda70	6	0	0	0	1c0
+321		foreign_creature_array_window_controls.obj	007cda70	007cee30	4	62	8	8	405
+322		format_string.obj	007cee30	007cf030	3	0	2	2	1c8
+323		game_application.obj	007cf030	007cfb20	15	7	7	7	8a0
+324		game_time.obj	007cfb20	007cfbb0	2	0	1	1	6b
+325		game_window.obj	007cfbb0	007d57a0	79	107	30	30	3e5d
+326		garrison_button.obj	007d57a0	007d6170	8	15	2	2	67d
+327		gateway.obj	007d6170	007d71d0	5	16	10	10	af3
+328		gateway_base.obj	007d71d0	007d8d50	11	7	8	8	18de
+329		get_artifact_damage_modifier.obj	007d8d50	007db740	54	81	16	14	16cf
+330		global_event.obj	007db740	007dc200	12	17	2	2	62d
+331		help_balloon.obj	007dc200	007dca50	2	6	4	2	52b
+332		hero.obj	007dca50	007ed560	148	244	70	65	9053
+333		hero_class_properties.obj	007ed560	007efad0	17	56	12	9	f37
+334		hero_events.obj	007efad0	007f0060	4	3	2	2	167
+335		hero_keyword_replacer.obj	007f0060	007f1800	13	1	18	18	143b
+336		hero_portrait.obj	007f1800	007f1e50	4	0	18	18	145
+337		heroes4.obj	007f1e50	007f4790	8	70	56	56	f0f
+338		high_scores.obj	007f4790	007f8a80	26	8	185	185	1f59
+339		hire_hero_dialog.obj	007f8a80	007fdb20	8	86	24	24	3539
+340		hue_pixel.obj	007fdb20	007fe1a0	6	1	0	0	640
+341		idle_processor.obj	007fe1a0	007ff8a0	13	52	2	2	9d4
+342		image_sequence.obj	007ff8a0	00802c30	20	52	2	2	1bbe
+343		interface_help.obj	00802c30	00808240	9	155	7	7	79c
+344		isometric_map.obj	00808240	008098e0	9	39	2	2	73b
+345		keyword_replacer.obj	008098e0	0080b210	17	7	15	14	149f
+346		kingdom_overview_window.obj	0080b210	00818110	41	165	57	56	9738
+347		library.obj	00818110	00818790	3	41	4	4	22c
+348		lighthouse.obj	00818790	00819180	5	11	10	10	5da
+349		link_type.obj	00819180	00819250	1	2	2	2	58
+350		linkage_data.obj	00819250	00819770	6	0	8	8	44c
+351		luck_icon_window.obj	00819770	00819d40	4	2	15	14	2b1
+352		luck_object.obj	00819d40	0081b8d0	21	41	22	22	ce1
+353		mage_guild_window.obj	0081b8d0	00823ea0	18	129	68	66	51f0
+354		magic_mirror.obj	00823ea0	00824850	5	8	15	14	636
+355		magic_university.obj	00824850	00826650	17	56	12	12	149a
+356		main_menu.obj	00826650	0082fcd0	67	111	121	121	61eb
+357		mana_leech.obj	0082fcd0	00832d40	1	126	24	18	295
+358		mana_source.obj	00832d40	00834420	7	11	9	8	e12
+359		map_header.obj	00834420	00834cd0	1	2	10	10	6b3
+360		map_renderer.obj	00834cd0	0084da60	159	394	16	16	df7c
+361		martyr.obj	0084da60	0084ecd0	10	10	40	40	9f4
+362		mass_spell.obj	0084ecd0	00853770	39	114	40	40	294f
+363		material_display.obj	00853770	00853f30	4	0	2	2	789
+364		material_icons.obj	00853f30	00854200	2	2	7	7	158
+365		material_names.obj	00854200	00854490	1	0	6	6	3d
+366		material_pile.obj	00854490	00855700	10	19	20	20	c72
+367		material_values.obj	00855700	00855990	3	3	0	0	150
+368		memory_buffer.obj	00855990	00857960	26	42	2	2	14c7
+369		memory_manager.obj	00857960	00857a20	5	0	0	0	c0
+370		memory_window.obj	00857a20	00857fb0	6	8	6	6	37d
+371		metatile_map.obj	00857fb0	0085cc30	10	143	6	6	16c4
+372		metatile_texture.obj	0085cc30	0085d880	7	13	4	4	674
+373		metatile_texture_cache.obj	0085d880	00861d20	9	81	85	85	23bd
+374		micro_map_window.obj	00861d20	00862800	12	8	6	6	94e
+375		mine.obj	00862800	00865670	25	56	21	20	2619
+376		mini_map_renderer.obj	00865670	0086c600	69	163	27	27	300a
+377		mini_map_window.obj	0086c600	0086ce40	13	4	8	8	67c
+378		missile_type.obj	0086ce40	0086d090	2	3	3	3	138
+379		morale_icon_window.obj	0086d090	0086d920	5	6	23	22	34d
+380		mouse_window.obj	0086d920	0086db40	5	2	0	0	1e0
+381		move_missile.obj	0086db40	0086e3b0	2	7	14	14	57e
+382		mp3_stream.obj	0086e3b0	0086ea30	12	11	0	0	4a0
+383		music.obj	0086ea30	0086fd10	9	27	11	11	860
+384		network_event.obj	0086fd10	0086fe30	2	0	0	0	120
+385		network_session.obj	0086fe30	00871c70	16	38	10	10	11a3
+386		new_game_details.obj	00871c70	00873c80	3	34	42	42	1020
+387		new_map_dialog.obj	00873c80	008824e0	43	255	57	56	6243
+388		new_map_options_dialog.obj	008824e0	0088adf0	19	71	129	126	5272
+389		null_grail_data_source.obj	0088adf0	0088af10	2	4	1	1	6a
+390		obelisk_data.obj	0088af10	0088bad0	6	16	2	2	4f5
+391		obelisk_marker.obj	0088bad0	0088c1d0	4	14	10	10	200
+392		obelisk_reward.obj	0088c1d0	0088ccd0	19	12	2	2	8a6
+393		obelisk_reward_type.obj	0088ccd0	0088ce20	1	1	6	6	5d
+394		object_registration.obj	0088ce20	0088e8d0	16	58	14	13	607
+395		obstacle_type.obj	0088e8d0	0088ec50	2	5	6	6	8b
+396		open_gate_animation.obj	0088ec50	0088f0b0	2	8	14	14	14b
+397		options.obj	0088f0b0	0088f780	33	0	2	2	69d
+398		options_dialog.obj	0088f780	008922f0	13	25	58	58	1a4d
+399		os_file.obj	008922f0	00892920	9	6	2	2	48d
+400		overlay_adv_object_image.obj	00892920	0089a850	28	285	4	4	1333
+401		override_input_handler.obj	0089a850	0089bcf0	16	54	2	2	8c0
+402		ownable_event.obj	0089bcf0	0089c610	12	11	2	2	66a
+403		ownable_garrisonable_adv_object.obj	0089c610	0089f6f0	35	11	8	8	2e9c
+404		owned_adv_object.obj	0089f6f0	0089fd30	11	0	8	8	569
+405		owned_creature_array.obj	0089fd30	0089ffc0	4	5	8	8	14d
+406		owned_scriptable_adv_object.obj	0089ffc0	008a0880	9	1	8	8	7b5
+407		paint_surface.obj	008a0880	008a0ea0	4	12	2	2	336
+408		palette_creator.obj	008a0ea0	008a3090	4	62	0	0	b40
+409		panic.obj	008a3090	008a3e20	3	10	15	14	659
+410		path_arrow.obj	008a3e20	008a43c0	4	8	3	2	2ac
+411		pathfinding_subject.obj	008a43c0	008a47f0	8	10	8	8	20c
+412		pixel_format.obj	008a47f0	008a48d0	4	0	0	0	e0
+413		placed_event_trigger.obj	008a48d0	008a5670	15	33	12	12	3b3
+414		play_combat_animation.obj	008a5670	008a6110	4	4	14	14	8fc
+415		play_combat_flight.obj	008a6110	008a8560	7	29	14	14	1a7b
+416		play_combat_walk.obj	008a8560	008a93a0	7	4	14	14	ca4
+417		player.obj	008a93a0	008b2790	79	214	13	12	5302
+418		player_color.obj	008b2790	008b2a40	1	0	3	3	254
+419		popup_window.obj	008b2a40	008b3550	15	8	0	0	a70
+420		profile.obj	008b3550	008b4620	9	37	6	6	38f
+421		progress_bar.obj	008b4620	008b4eb0	2	7	6	6	633
+422		progress_bar_dialog.obj	008b4eb0	008b5090	2	3	2	2	13a
+423		progress_handler.obj	008b5090	008b50c0	2	0	0	0	30
+424		puzzle_window.obj	008b50c0	008b7f60	9	68	32	32	1693
+425		quest_log_window.obj	008b7f60	008bb5a0	7	72	16	16	1e1a
+426		quest_site.obj	008bb5a0	008c2e00	46	399	22	22	26bb
+427		quicksand.obj	008c2e00	008c4c20	22	32	26	25	13d0
+428		random.obj	008c4c20	008c4c60	0	0	2	2	0
+429		random_monster.obj	008c4c60	008c6100	9	58	13	12	928
+430		random_monster_experience.obj	008c6100	008c61e0	3	0	0	0	e0
+431		random_names.obj	008c61e0	008c6b00	2	3	11	11	255
+432		random_town.obj	008c6b00	008c76d0	4	45	10	10	66e
+433		recruit_dialog.obj	008c76d0	008cce20	18	20	30	30	4ce8
+434		replay_mover.obj	008cce20	008cd090	6	3	8	8	14d
+435		report_combat_results.obj	008cd090	008d0000	8	12	37	28	1508
+436		resource_dir.obj	008d0000	008d2b40	8	95	16	15	e58
+437		resource_file.obj	008d2b40	008d2ed0	4	4	2	2	2a7
+438		resource_file_dir.obj	008d2ed0	008d5120	12	37	2	2	1331
+439		respawn_point.obj	008d5120	008d5950	6	2	12	12	6b5
+440		resurrect_heroes.obj	008d5950	008d5d00	1	0	2	2	37e
+441		resurrection_spell.obj	008d5d00	008dbdc0	53	87	74	72	3c6b
+442		run_combat.obj	008dbdc0	008dd080	5	3	12	12	10f0
+443		sanctuary.obj	008dd080	008dfc20	27	34	28	28	20a4
+444		saved_combat.obj	008dfc20	008e10c0	23	8	18	18	112d
+445		scale_bitmap.obj	008e10c0	008e2800	2	26	5	2	621
+446		scaled_adventure_map_drawer.obj	008e2800	008e33c0	17	9	8	8	86c
+447		scaled_animation_cache.obj	008e33c0	008e3a00	3	13	2	2	346
+448		scenario_cut_scene_id.obj	008e3a00	008e5890	7	2	5	5	1d36
+449		scenario_cut_scene_info.obj	008e5890	008e5df0	5	4	2	2	262
+450		scenario_info_window.obj	008e5df0	008e7f00	4	12	52	52	148a
+451		school_of_magic.obj	008e7f00	008e9aa0	16	22	12	12	15ef
+452		score_computer.obj	008e9aa0	008eb020	2	21	19	16	67e
+453		script_action_type.obj	008eb020	008edfe0	6	73	10	10	a24
+454		script_adjust_cur_spell_points.obj	008edfe0	008ef510	4	78	4	4	19c
+455		script_adjust_hero_attribute.obj	008ef510	008f2540	11	181	10	10	347
+456		script_adjust_luck_or_morale.obj	008f2540	008f45f0	4	126	6	6	146
+457		script_adjust_population.obj	008f45f0	008f5500	8	51	4	4	293
+458		script_arithmetic_expression.obj	008f5500	008f8860	16	165	8	8	58b
+459		script_army_boolean_expression.obj	008f8860	008fa0d0	19	69	4	4	717
+460		script_artifact_action.obj	008fa0d0	008fc170	8	89	8	8	83a
+461		script_branch_action.obj	008fc170	008fc440	3	0	2	2	296
+462		script_build_building.obj	008fc440	008fcd70	8	25	3	3	296
+463		script_change_owner.obj	008fcd70	008fd7e0	8	25	9	9	33a
+464		script_combat.obj	008fd7e0	008fed90	20	39	9	9	ba0
+465		script_conditional_action.obj	008fed90	008ffba0	8	29	3	3	53a
+466		script_creature_action.obj	008ffba0	009012d0	7	70	4	4	647
+467		script_creatures_in_army.obj	009012d0	00902e40	21	81	5	5	777
+468		script_delete_adv_objects.obj	00902e40	00903790	8	23	9	9	235
+469		script_display_text.obj	00903790	00904600	10	23	14	14	6de
+470		script_event.obj	00904600	00904a80	9	0	3	3	427
+471		script_expression_type.obj	00904a80	00909a80	11	130	8	8	a50
+472		script_give_skill.obj	00909a80	0090c480	20	119	9	9	aef
+473		script_give_spell.obj	0090c480	0090cc70	5	23	3	3	219
+474		script_has_artifact.obj	0090cc70	0090dd00	11	29	3	3	810
+475		script_hero_numeric_expression.obj	0090dd00	0090f180	13	64	4	4	52d
+476		script_increase_cur_movement.obj	0090f180	0090fca0	2	41	3	3	91
+477		script_increase_experience.obj	0090fca0	00910f20	6	63	10	10	1fb
+478		script_logical_expression.obj	00910f20	00913100	13	95	5	5	55e
+479		script_material_action.obj	00913100	00914420	10	58	10	10	46b
+480		script_material_quantity.obj	00914420	00915160	8	38	3	3	40c
+481		script_numeric_literal.obj	00915160	00915860	3	24	3	3	bf
+482		script_player_action.obj	00915860	00916e10	6	73	6	6	292
+483		script_player_boolean_expression.obj	00916e10	0091a5d0	24	175	15	15	a33
+484		script_player_number.obj	0091a5d0	0091abb0	1	22	3	3	16
+485		script_question.obj	0091abb0	0091b6c0	8	23	9	9	3fd
+486		script_random_number.obj	0091b6c0	0091be60	5	24	3	3	16b
+487		script_relational_expression.obj	0091be60	0091e4a0	10	125	7	7	36b
+488		script_sequence.obj	0091e4a0	0091f890	9	28	9	9	76c
+489		script_set_player_message.obj	0091f890	009211c0	5	86	16	16	19e
+490		script_set_variable.obj	009211c0	00922ac0	10	64	10	10	4aa
+491		script_simple_action.obj	00922ac0	00923e20	13	71	5	5	228
+492		script_simple_expression.obj	00923e20	00924120	7	0	15	15	131
+493		script_specific_hero_boolean_expression.obj	00924120	009252a0	10	49	10	10	3e1
+494		script_target_type.obj	009252a0	00925460	4	0	2	2	186
+495		script_targeting.obj	00925460	00925d10	10	1	8	8	79d
+496		script_trigger_event.obj	00925d10	00926630	8	23	9	9	201
+497		script_variable_expression.obj	00926630	00927820	2	62	10	10	d4
+498		script_victory.obj	00927820	00929080	4	89	16	16	158
+499		scroll_menu.obj	00929080	0092bda0	11	58	6	6	1bb5
+500		scrollbar.obj	0092bda0	0092ec90	15	75	11	10	18bb
+501		scrollbar_bitmaps.obj	0092ec90	0092ef10	1	3	2	2	1dc
+502		select_skill_from_set.obj	0092ef10	0092f120	1	2	2	2	11b
+503		selection_marker.obj	0092f120	0092f690	4	8	3	2	2a4
+504		seminary_window.obj	0092f690	00933c20	14	44	25	24	32cc
+505		sequence_loader.obj	00933c20	00934a30	4	35	0	0	360
+506		shared_file.obj	00934a30	00935a00	12	21	2	2	b29
+507		shroud_removers.obj	00935a00	00938920	22	49	30	30	1f8c
+508		signal.obj	00938920	00938c30	6	3	0	0	270
+509		simple_adv_object_image.obj	00938c30	00939120	10	0	2	2	4c1
+510		simple_dialog.obj	00939120	00939830	7	0	2	2	6de
+511		simulated_combat.obj	00939830	0093fc80	43	81	22	18	48ee
+512		single_use_object.obj	0093fc80	00940c80	11	1	16	16	d71
+513		skeleton_transformer_window.obj	00940c80	00944170	6	40	33	32	1e57
+514		skill_button.obj	00944170	009450a0	3	0	6	6	e36
+515		skill_choice_dialog.obj	009450a0	009484f0	5	17	14	14	2d41
+516		skill_icon.obj	009484f0	00948e00	6	3	2	2	81e
+517		skill_properties.obj	00948e00	0094c720	15	54	38	31	cdb
+518		skill_set.obj	0094c720	0094cc70	4	2	4	3	2c8
+519		sorted_clip_list.obj	0094cc70	009515e0	18	80	10	10	20be
+520		sound.obj	009515e0	00956490	48	140	2	1	25c5
+521		sound_cache.obj	00956490	00957b90	17	54	2	2	a95
+522		sound_configurations.obj	00957b90	00957c40	4	0	2	2	76
+523		spell_actor_animation.obj	00957c40	009580c0	2	5	14	14	248
+524		spell_ai_importance_map.obj	009580c0	00958d70	2	17	0	0	200
+525		spell_displacement.obj	00958d70	0095b580	10	67	24	24	e8e
+526		spell_effect_window.obj	0095b580	0095c880	5	40	15	15	50d
+527		spell_icon.obj	0095c880	0095cef0	2	1	14	13	201
+528		spell_icon_window.obj	0095cef0	0095d1e0	3	3	2	2	24d
+529		spell_properties.obj	0095d1e0	0095e9d0	20	10	11	9	10d1
+530		spell_set.obj	0095e9d0	0095f5e0	3	24	2	2	1f3
+531		spell_sparks.obj	0095f5e0	00961320	16	18	28	28	152e
+532		spellbook_window.obj	00961320	0096c850	39	135	73	62	7935
+533		split_creatures_dialog.obj	0096c850	0096dc20	3	10	6	6	1015
+534		standard_c_file.obj	0096dc20	0096df80	9	2	2	2	2ea
+535		standard_campaign_id.obj	0096df80	0096e170	2	1	3	3	178
+536		standard_fonts.obj	0096e170	0096f0f0	1	9	66	66	90
+537		stationary_adventure_object.obj	0096f0f0	0096f9d0	16	0	16	16	759
+538		stationary_combat_object.obj	0096f9d0	00970e20	36	9	22	22	111f
+539		steal_enchantment.obj	00970e20	00972360	10	22	22	22	dea
+540		stoning_animation.obj	00972360	00972c70	4	13	14	14	5b2
+541		streambuf_operators.obj	00972c70	00972ed0	3	2	0	0	1e0
+542		string_insensitive_compare.obj	00972ed0	00972fe0	2	1	2	2	6f
+543		string_table.obj	00972fe0	00975aa0	9	83	2	2	a2f
+544		string_vector.obj	00975aa0	00975e50	4	2	2	2	2ba
+545		strip_resource_name.obj	00975e50	009765f0	8	4	2	2	601
+546		summon_obstacle.obj	009765f0	00978130	14	27	24	23	1050
+547		summoning_spell.obj	00978130	0097a5c0	11	17	25	24	1bbe
+548		surface_description.obj	0097a5c0	0097a6e0	6	0	0	0	120
+549		table.obj	0097a6e0	0097aa20	3	3	2	2	1e1
+550		teleport_ability.obj	0097aa20	0097af90	2	5	14	14	347
+551		teleport_spell.obj	0097af90	0097bf80	8	15	32	32	7d2
+552		terrain.obj	0097bf80	0097ffe0	9	7	302	302	8b1
+553		text_edit_window.obj	0097ffe0	009811e0	16	10	2	2	f62
+554		text_window.obj	009811e0	00983400	19	23	6	6	1bbb
+555		thieves_guild_window.obj	00983400	009865c0	6	13	34	32	285a
+556		thread.obj	009865c0	009869e0	9	5	0	0	340
+557		threat_footprint.obj	009869e0	00989a30	3	92	3	3	427
+558		timed_event.obj	00989a30	00989d30	4	3	2	2	27b
+559		timed_window.obj	00989d30	0098a120	4	4	0	0	310
+560		toggle_button.obj	0098a120	0098a4f0	7	3	2	2	32b
+561		town.obj	0098a4f0	009a4bf0	129	306	154	140	11e52
+562		town_drawing.obj	009a4bf0	009a4e00	3	2	3	3	13f
+563		town_list_window.obj	009a4e00	009a8930	19	79	28	28	1b80
+564		town_prison_window.obj	009a8930	009abf10	7	42	24	24	2386
+565		town_properties.obj	009abf10	009acb60	3	0	6	6	ba2
+566		town_school_skills.obj	009acb60	009acd90	1	0	5	5	1eb
+567		town_type.obj	009acd90	009ace20	1	0	2	2	5d
+568		town_type_set.obj	009ace20	009acf40	2	1	2	2	b6
+569		town_window.obj	009acf40	009cad60	79	500	277	272	e2c0
+570		transition_calculator.obj	009cad60	009d0e60	18	176	13	13	e14
+571		transition_coordinates.obj	009d0e60	009d0ff0	4	0	1	0	134
+572		transition_mask.obj	009d0ff0	009d2bc0	12	57	4	4	62b
+573		transitions.obj	009d2bc0	009d3e90	3	53	16	16	19f
+574		translation_animation.obj	009d3e90	009d43e0	2	5	14	14	332
+575		treasure_chest_window.obj	009d43e0	009d6290	6	11	10	10	1a3c
+576		triggerable_event.obj	009d6290	009d6430	3	1	2	2	152
+577		underlay_adv_object_image.obj	009d6430	009d7610	19	48	2	2	689
+578		war_institute.obj	009d7610	009d9590	14	16	15	14	152e
+579		wave_stream.obj	009d9590	009d97c0	2	5	0	0	100
+580		weekly_generator.obj	009d97c0	009dafb0	17	28	12	12	11a9
+581		window_background.obj	009dafb0	009dc950	8	19	2	2	1603
+582		window_clip_list.obj	009dc950	009de4b0	18	20	0	0	14a0
+583		window_paint_surface.obj	009de4b0	009de900	5	6	2	2	305
+584		windows_game.obj	009de900	009e34b0	46	23	82	58	1edd
+585	zlib	deflate.obj	009e34b0	009e4af0	8	0	9	0	950
+586	zlib	crc32.obj	009e4af0	009e4c40	2	0	0	0	150
+587	zlib	inflate.obj	009e4c40	009e53a0	8	0	0	0	760
+588	zlib	zutil.obj	009e53a0	009e5400	4	0	0	0	60
+589	zlib	adler32.obj	009e5400	009e5530	1	0	0	0	130
+590	zlib	trees.obj	009e5530	009e7120	5	0	16	0	610
+591	zlib	infblock.obj	009e7120	009e7f60	6	0	0	0	e40
+592	zlib	infcodes.obj	009e7f60	009e8760	3	0	0	0	800
+593	zlib	inftrees.obj	009e8760	009e8e70	3	0	1	0	240
+594	zlib	infutil.obj	009e8e70	009e8fc0	1	0	0	0	150
+595	zlib	inffast.obj	009e8fc0	009e9380	1	0	0	0	3c0
+596	kernel32	KERNEL32.dll	009e9380	00a2cbb6	102	0	0	0	264
+597	user32	USER32.dll	009e93fe	009e9500	43	0	0	0	102
+598	gdi32	GDI32.dll	009e9500	009e9524	6	0	0	0	24
+599	advapi32	ADVAPI32.dll	009e9524	009e9542	5	0	0	0	1e
+600	ddraw	DDRAW.dll	009e9542	009e9548	1	0	0	0	6
+601	winmm	WINMM.dll	009e9548	009e955a	3	0	0	0	12
+602	dsound	DSOUND.dll	009e955a	009e9560	1	0	0	0	6
+603	binkw32	binkw32.dll	009e9560	009e95b0	13	0	0	0	50
+604	comm_library	CommMsgBuffer.obj	009e95b0	009e9c30	6	3	0	0	5a0
+605	comm_library	CommSession.obj	009e9c30	009ec4f0	14	3	0	0	2800
+606	comm_library	Logger.obj	009ec4f0	009eccb8	7	0	4	4	6c8
+607	mss32	mss32.dll	009eccb8	009eccf8	5	0	0	0	20
+608	mss32	cleanup.obj	009eccc0	009ecce0	1	0	1	0	10
+609	haw32m	shnewjmp.obj	009eccf8	009ecd30	11	0	0	0	38
+610	haw32m	HA312W32.DLL	009ecd30	009eced0	39	0	0	0	f2
+611	haw32m	shmaljmp.obj	009ecd38	009ecde6	36	0	0	0	ae
+612	LIBCMTD	trnsctrl.obj	009eced0	009ed2b0	10	0	2	0	310
+613	LIBCMTD	chkesp.obj	009ed2b0	009ed2e8	1	0	0	0	38
+614	LIBCMTD	exsup.obj	009ed2e8	009ed3e0	7	0	2	0	ce
+615	LIBCMTD	memcpy.obj	009ed3e0	009ed720	1	0	38	0	20
+616	LIBCMTD	strlen.obj	009ed720	009ed7a0	1	0	6	0	c
+617	LIBCMTD	memmove.obj	009ed7a0	009edae0	1	0	38	0	20
+618	LIBCMTD	onexit.obj	009edae0	009edc10	3	0	0	0	130
+619	LIBCMTD	typinfo.obj	009edc10	009edd60	7	2	0	0	120
+620	LIBCMTD	purevirt.obj	009edd60	009edd70	1	0	0	0	10
+621	LIBCMTD	assert.obj	009edd70	009ee0f0	1	0	0	0	380
+622	LIBCMTD	rand.obj	009ee0f0	009ee140	2	0	0	0	50
+623	LIBCMTD	throw.obj	009ee140	009ee190	1	0	0	0	50
+624	LIBCMTD	memset.obj	009ee190	009ee1f0	1	0	6	0	23
+625	LIBCMTD	fpinit.obj	009ee1f0	009ee2a0	4	0	0	0	b0
+626	LIBCMTD	stdexcpt.obj	009ee2a0	009ee4a0	6	2	0	0	1d0
+627	LIBCMTD	87ctriga.obj	009ee4a0	009ee4c0	2	0	0	0	20
+628	LIBCMTD	sqrt.obj	009ee4c0	009ee57c	2	0	0	0	bc
+629	LIBCMTD	ftol.obj	009ee57c	009ee5b0	1	0	0	0	34
+630	LIBCMTD	ehvecdtr.obj	009ee5b0	009ee710	2	0	1	0	130
+631	LIBCMTD	ehvecctr.obj	009ee710	009ee7b0	1	0	0	0	a0
+632	LIBCMTD	rtti.obj	009ee7b0	009ef170	3	15	5	0	330
+633	LIBCMTD	memcmp.obj	009ef170	009ef220	1	0	8	0	2d
+634	LIBCMTD	modf.obj	009ef220	009ef3b0	1	0	0	0	190
+635	LIBCMTD	pow.obj	009ef3b0	009ef5d0	2	0	0	0	220
+636	LIBCMTD	fwrite.obj	009ef5d0	009ef830	2	0	0	0	260
+637	LIBCMTD	fputc.obj	009ef830	009ef910	2	0	0	0	e0
+638	LIBCMTD	ungetc.obj	009ef910	009efac0	2	0	0	0	1b0
+639	LIBCMTD	fgetc.obj	009efac0	009efb90	2	0	0	0	d0
+640	LIBCMTD	fgetpos.obj	009efb90	009efbd0	1	0	0	0	40
+641	LIBCMTD	fseek.obj	009efbd0	009efd70	2	0	0	0	1a0
+642	LIBCMTD	fsetpos.obj	009efd70	009efd90	1	0	0	0	20
+643	LIBCMTD	setvbuf.obj	009efd90	009eff00	1	0	0	0	170
+644	LIBCMTD	fflush.obj	009eff00	009f01b0	4	0	1	0	170
+645	LIBCMTD	fclose.obj	009f01b0	009f0300	2	0	0	0	150
+646	LIBCMTD	sprintf.obj	009f0300	009f0400	1	0	0	0	100
+647	LIBCMTD	memchr.obj	009f0400	009f04b0	1	0	14	0	1b
+648	LIBCMTD	lconv.obj	009f04b0	009f04c0	1	0	0	0	10
+649	LIBCMTD	strcspn.obj	009f04c0	009f0500	1	0	4	0	14
+650	LIBCMTD	abs.obj	009f0500	009f0530	1	0	0	0	30
+651	LIBCMTD	rename.obj	009f0530	009f0580	1	0	0	0	50
+652	LIBCMTD	unlink.obj	009f0580	009f05f0	2	0	0	0	70
+653	LIBCMTD	fopen.obj	009f05f0	009f0710	2	0	0	0	120
+654	LIBCMTD	dbgrpt.obj	009f0710	009f0ec0	5	0	1	0	4a0
+655	LIBCMTD	typname.obj	009f0ec0	009f0fa0	1	0	0	0	e0
+656	LIBCMTD	log.obj	009f0fa0	009f1070	2	0	0	0	d0
+657	LIBCMTD	_ctype.obj	009f1070	009f1460	15	0	0	0	3f0
+658	LIBCMTD	atox.obj	009f1460	009f16b0	3	0	0	0	250
+659	LIBCMTD	toupper.obj	009f16b0	009f1890	3	0	0	0	1e0
+660	LIBCMTD	fread.obj	009f1890	009f1aa0	2	0	0	0	210
+661	LIBCMTD	ftell.obj	009f1aa0	009f1db0	2	0	0	0	310
+662	LIBCMTD	chkstk.obj	009f1db0	009f1de0	2	0	3	0	18
+663	LIBCMTD	llmul.obj	009f1de0	009f1e20	1	0	1	0	19
+664	LIBCMTD	lldiv.obj	009f1e20	009f1ed0	1	0	8	0	21
+665	LIBCMTD	ieeemisc.obj	009f1ed0	009f2520	8	0	0	0	650
+666	LIBCMTD	atof.obj	009f2520	009f25a0	1	0	0	0	80
+667	LIBCMTD	strftime.obj	009f25a0	009f3a10	5	0	5	0	780
+668	LIBCMTD	localtim.obj	009f3a10	009f3c70	1	0	0	0	260
+669	LIBCMTD	strcmp.obj	009f3c70	009f3d00	1	0	5	0	10
+670	LIBCMTD	chdir.obj	009f3d00	009f3dc0	2	0	0	0	180
+671	LIBCMTD	getcwd.obj	009f3dc0	009f3fb0	5	0	0	0	230
+672	LIBCMTD	findfile.obj	009f3fb0	009f42e0	4	0	0	0	330
+673	LIBCMTD	strrchr.obj	009f42e0	009f4310	1	0	2	0	21
+674	LIBCMTD	87ctran.obj	009f4310	009f4330	2	0	0	0	20
+675	LIBCMTD	cos.obj	009f4330	009f43e0	2	0	0	0	b0
+676	LIBCMTD	sin.obj	009f43e0	009f4490	2	0	0	0	b0
+677	LIBCMTD	vsnprint.obj	009f4490	009f4590	1	0	0	0	100
+678	LIBCMTD	crt0dat.obj	009f4590	009f4790	7	0	2	0	e0
+679	LIBCMTD	strstr.obj	009f4790	009f4810	1	0	10	0	18
+680	LIBCMTD	time.obj	009f4810	009f49a0	1	0	0	0	190
+681	LIBCMTD	ehveccvb.obj	009f49a0	009f4a50	1	0	0	0	b0
+682	LIBCMTD	memicmp.obj	009f4a50	009f4b50	2	0	15	0	58
+683	LIBCMTD	wincrt0.obj	009f4b50	009f4d20	2	0	1	0	1a0
+684	LIBCMTD	wcslen.obj	009f4d20	009f4d50	1	0	0	0	30
+685	LIBCMTD	_file.obj	009f4d50	009f4f80	6	0	0	0	230
+686	LIBCMTD	strcat.obj	009f4f80	009f5070	2	0	14	0	1d
+687	LIBCMTD	vfprintf.obj	009f5070	009f5130	1	0	0	0	c0
+688	LIBCMTD	fprintf.obj	009f5130	009f5200	1	0	0	0	d0
+689	LIBCMTD	strtime.obj	009f5200	009f52d0	1	0	0	0	d0
+690	LIBCMTD	frame.obj	009f52d0	009f5f30	3	0	9	0	280
+691	LIBCMTD	lowhelpr.obj	009f5f30	009f5f80	2	0	0	0	50
+692	LIBCMTD	tidtable.obj	009f5f80	009f6230	7	0	0	0	2b0
+693	LIBCMTD	hooks.obj	009f6230	009f6370	3	0	0	0	140
+694	LIBCMTD	mlock.obj	009f6370	009f6530	5	0	0	0	1c0
+695	LIBCMTD	free.obj	009f6530	009f6680	1	0	0	0	150
+696	LIBCMTD	abort.obj	009f6680	009f66a0	1	0	0	0	20
+697	LIBCMTD	winsig.obj	009f66a0	009f6c30	4	0	2	0	490
+698	LIBCMTD	crtmbox.obj	009f6c30	009f6cf0	1	0	0	0	c0
+699	LIBCMTD	xtoa.obj	009f6cf0	009f6fe0	5	0	2	0	120
+700	LIBCMTD	strncat.obj	009f6fe0	009f7110	1	0	19	0	1b
+701	LIBCMTD	strncpy.obj	009f7110	009f7210	1	0	20	0	24
+702	LIBCMTD	unhandld.obj	009f7210	009f72b0	3	0	0	0	a0
+703	LIBCMTD	fp8.obj	009f72b0	009f72d0	1	0	0	0	20
+704	LIBCMTD	testfdiv.obj	009f72d0	009f7380	2	0	0	0	b0
+705	LIBCMTD	cvt.obj	009f7380	009f7acc	8	0	3	0	450
+706	LIBCMTD	87triga.obj	009f7acc	009f7b60	2	0	3	0	59
+707	LIBCMTD	87cdisp.obj	009f7b60	009f7dd0	5	0	0	0	270
+708	LIBCMTD	87disp.obj	009f7dd0	009f7fa0	19	0	0	0	1d0
+709	LIBCMTD	genexcep.obj	009f7fa0	009f8000	2	0	0	0	60
+710	LIBCMTD	common.obj	009f8000	009f8194	9	0	0	0	194
+711	LIBCMTD	exsup3.obj	009f8194	009f8270	2	0	0	0	dc
+712	LIBCMTD	frnd.obj	009f8270	009f8290	1	0	0	0	20
+713	LIBCMTD	fpexcept.obj	009f8290	009f8ee0	9	0	1	0	c10
+714	LIBCMTD	util.obj	009f8ee0	009f9190	6	0	0	0	2b0
+715	LIBCMTD	fpctrl.obj	009f9190	009f92a1	4	0	0	0	111
+716	LIBCMTD	87tran.obj	009f92a1	009f94a0	7	0	2	0	1f2
+717	LIBCMTD	powhlp.obj	009f94a0	009f9790	2	0	0	0	2f0
+718	LIBCMTD	_flsbuf.obj	009f9790	009f9a10	1	0	0	0	280
+719	LIBCMTD	write.obj	009f9a10	009f9d20	2	0	0	0	310
+720	LIBCMTD	_getbuf.obj	009f9d20	009f9df0	1	0	0	0	d0
+721	LIBCMTD	_filbuf.obj	009f9df0	009f9fe0	1	0	0	0	1f0
+722	LIBCMTD	ftelli64.obj	009f9fe0	009fa340	2	0	0	0	360
+723	LIBCMTD	lseek.obj	009fa340	009fa490	2	0	0	0	150
+724	LIBCMTD	dosmap.obj	009fa490	009fa550	3	0	0	0	c0
+725	LIBCMTD	fseeki64.obj	009fa550	009fa710	2	0	0	0	1c0
+726	LIBCMTD	_freebuf.obj	009fa710	009fa7b0	1	0	0	0	a0
+727	LIBCMTD	commit.obj	009fa7b0	009fa890	1	0	0	0	e0
+728	LIBCMTD	close.obj	009fa890	009fa9c0	2	0	0	0	130
+729	LIBCMTD	output.obj	009fa9c0	009fb860	1	0	6	0	d30
+730	LIBCMTD	_open.obj	009fb860	009fbbf0	1	0	0	0	390
+731	LIBCMTD	stream.obj	009fbbf0	009fbd70	1	0	0	0	180
+732	LIBCMTD	snprintf.obj	009fbd70	009fbe70	1	0	0	0	100
+733	LIBCMTD	undname.obj	009fbe70	00a03450	68	64	2	0	4360
+734	LIBCMTD	malloc.obj	00a03450	00a03620	3	0	0	0	1d0
+735	LIBCMTD	isctype.obj	00a03620	00a036e0	1	0	0	0	c0
+736	LIBCMTD	setlocal.obj	00a036e0	00a04130	6	0	2	0	7b0
+737	LIBCMTD	a_map.obj	00a04130	00a04490	1	0	1	0	310
+738	LIBCMTD	read.obj	00a04490	00a04970	2	0	0	0	4e0
+739	LIBCMTD	ioinit.obj	00a04970	00a04d40	2	0	0	0	3d0
+740	LIBCMTD	ldexp.obj	00a04d40	00a05000	1	0	0	0	2c0
+741	LIBCMTD	cfin.obj	00a05000	00a050c0	1	0	0	0	c0
+742	LIBCMTD	tzset.obj	00a050c0	00a05a00	3	0	3	0	90
+743	LIBCMTD	stricmp.obj	00a05a00	00a05ad0	3	0	10	0	54
+744	LIBCMTD	gmtime.obj	00a05ad0	00a05cd0	1	0	0	0	200
+745	LIBCMTD	mbtoupr.obj	00a05cd0	00a05db0	1	0	0	0	e0
+746	LIBCMTD	dtoxtime.obj	00a05db0	00a05ea0	1	0	0	0	f0
+747	LIBCMTD	strchr.obj	00a05ea0	00a05f70	2	0	12	0	18
+748	LIBCMTD	tolower.obj	00a05f70	00a06150	3	0	0	0	1e0
+749	LIBCMTD	winxfltr.obj	00a06150	00a06370	1	0	1	0	1c0
+750	LIBCMTD	wincmdln.obj	00a06370	00a06430	1	0	0	0	c0
+751	LIBCMTD	stdenvp.obj	00a06430	00a06580	1	0	0	0	150
+752	LIBCMTD	stdargv.obj	00a06580	00a06a90	1	0	1	0	e0
+753	LIBCMTD	a_env.obj	00a06a90	00a06cb0	1	0	0	0	220
+754	LIBCMTD	heapinit.obj	00a06cb0	00a070c0	4	0	0	0	410
+755	LIBCMTD	crt0msg.obj	00a070c0	00a07320	3	0	0	0	260
+756	LIBCMTD	closeall.obj	00a07320	00a07400	1	0	0	0	e0
+757	LIBCMTD	_sftbuf.obj	00a07400	00a07600	2	0	0	0	200
+758	LIBCMTD	validate.obj	00a07600	00a07690	3	0	0	0	90
+759	LIBCMTD	sbheap.obj	00a07690	00a0a380	23	0	0	0	2cf0
+760	LIBCMTD	ulldiv.obj	00a0a380	00a0a3f0	1	0	5	0	22
+761	LIBCMTD	ullrem.obj	00a0a3f0	00a0a470	1	0	5	0	21
+762	LIBCMTD	ieee87.obj	00a0a470	00a0a910	5	0	3	0	110
+763	LIBCMTD	intrncvt.obj	00a0a910	00a0b0f0	14	0	0	0	7e0
+764	LIBCMTD	_fptostr.obj	00a0b0f0	00a0b1f0	1	0	0	0	100
+765	LIBCMTD	cfout.obj	00a0b1f0	00a0b3e0	2	0	0	0	1f0
+766	LIBCMTD	crt0fp.obj	00a0b3e0	00a0b3f0	1	0	0	0	10
+767	LIBCMTD	87except.obj	00a0b3f0	00a0b570	1	0	0	0	180
+768	LIBCMTD	matherr.obj	00a0b570	00a0b580	1	0	0	0	10
+769	LIBCMTD	adj_fdiv.obj	00a0b580	00a0c310	22	0	64	0	8fe
+770	LIBCMTD	isatty.obj	00a0c310	00a0c350	1	0	0	0	40
+771	LIBCMTD	osfinfo.obj	00a0c350	00a0c920	7	0	0	0	5d0
+772	LIBCMTD	lseeki64.obj	00a0c920	00a0ca80	2	0	0	0	160
+773	LIBCMTD	wctomb.obj	00a0ca80	00a0cba0	2	0	0	0	120
+774	LIBCMTD	open.obj	00a0cba0	00a0d140	2	0	0	0	5a0
+775	LIBCMTD	handler.obj	00a0d140	00a0d1b0	3	0	0	0	70
+776	LIBCMTD	a_str.obj	00a0d1b0	00a0d370	1	0	0	0	1c0
+777	LIBCMTD	inittime.obj	00a0d370	00a0dcf0	1	0	2	0	e0
+778	LIBCMTD	initnum.obj	00a0dcf0	00a0e020	1	0	1	0	2b0
+779	LIBCMTD	initmon.obj	00a0e020	00a0e480	1	0	3	0	130
+780	LIBCMTD	initctyp.obj	00a0e480	00a0e820	1	0	0	0	3a0
+781	LIBCMTD	initcoll.obj	00a0e820	00a0e830	1	0	0	0	10
+782	LIBCMTD	strncmp.obj	00a0e830	00a0e870	1	0	4	0	1a
+783	LIBCMTD	strpbrk.obj	00a0e870	00a0e8b0	1	0	4	0	14
+784	LIBCMTD	getqloc.obj	00a0e8b0	00a0f650	1	0	15	0	200
+785	LIBCMTD	strgtold.obj	00a0f650	00a101d0	2	0	0	0	b80
+786	LIBCMTD	getenv.obj	00a101d0	00a102d0	2	0	0	0	100
+787	LIBCMTD	mbctype.obj	00a102d0	00a10ae0	3	0	4	0	3a0
+788	LIBCMTD	ismbbyte.obj	00a10ae0	00a10cd0	11	0	1	0	180
+789	LIBCMTD	strtol.obj	00a10cd0	00a11050	2	0	1	0	40
+790	LIBCMTD	mantold.obj	00a11050	00a11350	5	0	0	0	300
+791	LIBCMTD	x10fout.obj	00a11350	00a11870	1	0	0	0	520
+792	LIBCMTD	chsize.obj	00a11870	00a11b20	2	0	0	0	2b0
+793	LIBCMTD	inithelp.obj	00a11b20	00a11db0	1	0	0	0	290
+794	LIBCMTD	w_str.obj	00a11db0	00a12020	1	0	0	0	270
+795	LIBCMTD	strnicmp.obj	00a12020	00a12130	2	0	15	0	58
+796	LIBCMTD	tenpow.obj	00a12130	00a12640	2	0	0	0	510
+797	LIBCMTD	mbsnbico.obj	00a12640	00a12690	1	0	0	0	50
+798	LIBCMTD	wtombenv.obj	00a12690	00a12740	1	0	0	0	b0
+799	LIBCMTD	setmode.obj	00a12740	00a12890	2	0	0	0	150
+800	LIBCMTD	w_loc.obj	00a12890	00a12a30	1	0	0	0	1a0
+801	LIBCMTD	a_loc.obj	00a12a30	00a12be0	1	0	0	0	1b0
+802	LIBCMTD	a_cmp.obj	00a12be0	00a13030	1	0	1	0	400
+803	LIBCMTD	setenv.obj	00a13030	00a13480	1	0	2	0	2e0
+804	LIBCMTD	mbschr.obj	00a13480	00a13570	1	0	0	0	f0
+805	libcpmtd	string.obj	00a13570	00a137b0	2	8	3	3	c0
+806	libcpmtd	iostream.obj	00a137b0	00a14020	2	6	31	31	350
+807	libcpmtd	wiostrea.obj	00a14020	00a16130	2	82	39	39	350
+808	libcpmtd	xlock.obj	00a16130	00a16230	2	0	1	0	c0
+809	libcpmtd	ios.obj	00a16230	00a16aa0	10	11	0	0	6b0
+810	libcpmtd	uncaught.obj	00a16aa0	00a16ab0	1	0	0	0	10
+811	libcpmtd	locale0.obj	00a16ab0	00a17230	9	4	7	7	630
+812	libcpmtd	fiopen.obj	00a17230	00a17340	1	0	3	3	b0
+813	libcpmtd	locale.obj	00a17340	00a1a820	12	59	3	3	f80
+814	libcpmtd	xwctomb.obj	00a1a820	00a1ac70	6	0	0	0	450
+815	libcpmtd	strstrea.obj	00a1ac70	00a1bbe0	14	10	3	3	d50
+816	libcpmtd	xmbtowc.obj	00a1bbe0	00a1c1f0	5	0	1	0	400
+817	libcpmtd	nomemory.obj	00a1c1f0	00a1c340	1	6	1	1	60
+818	libcpmtd	wlocale.obj	00a1c340	00a26d60	1	318	2	2	880
+819	libcpmtd	xlocale.obj	00a26d60	00a2bb00	1	133	2	2	500
+820	libcpmtd	_tolower.obj	00a2bb00	00a2bdf0	3	0	0	0	2f0
+821	libcpmtd	_toupper.obj	00a2bdf0	00a2c000	2	0	0	0	210
+822	libcpmtd	xstod.obj	00a2c000	00a2c0a0	3	0	0	0	a0
+823	libcpmtd	xstrcoll.obj	00a2c0a0	00a2c287	2	0	0	0	1e7
+824	LIBCMT	fputwc.obj	00a2c287	00a2c3ba	3	0	0	0	133
+825	LIBCMT	ungetwc.obj	00a2c3ba	00a2c4d1	2	0	0	0	117
+826	LIBCMT	fgetwc.obj	00a2c4d1	00a2c5f0	3	0	0	0	11f
+827	LIBCMT	strtod.obj	00a2c5f0	00a2c69a	1	0	0	0	aa
+828	LIBCMT	_flswbuf.obj	00a2c69a	00a2c7c1	1	0	0	0	127
+829	LIBCMT	_filwbuf.obj	00a2c7c1	00a2c8a8	1	0	0	0	e7
+830	LIBCMT	mbtowc.obj	00a2c8a8	00a2c9d0	2	0	0	0	128
+831	ole32	ole32.dll	00a2cbb6	00a2cbc8	3	0	0	0	12

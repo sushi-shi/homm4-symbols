@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Python with the packages the tools need (works offline from the nix store).
+exec nix shell --offline --impure --expr 'with import <nixpkgs> {}; python3.withPackages (ps: [ps.pefile ps.capstone])' -c python3 "$@"
