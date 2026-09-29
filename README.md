@@ -5,21 +5,25 @@ leaked debug-build linker map (Oct 2002). Applies to IDA or Ghidra. Not a decomp
 
 ## Supported versions
 
-| Version | `heroes4.exe` sha256 | Names |
-|---|---|---|
-| Traditional Chinese 1.x (`cht-1.x`) | `e8c0ad0fac9e42323785c52cfc1c0ccc74be2bd7fb26b7326a8f01a2033ddf5` | 19,411 functions, 2,605 vftables, 266 globals |
-| Complete / GOG 3.0 | | not done yet |
+**Traditional Chinese 1.x** (`cht-1.x`)
+- `heroes4.exe` sha256: `e8c0ad0fac9e42323785c52cfc1c0ccc74be2bd7fb26b7326a8f01a2033ddf5`
+- 19,411 functions (A 7,642 · B 5,148 · C 6,621)
+- 2,605 vftables (A 1,821 · B 784)
+- 266 globals (B 176 · C 90)
 
-The names only fit the exact exe above. Check yours with `sha256sum heroes4.exe`.
+**Complete / GOG 3.0**
+- not done yet
+
+The names only fit these exact exes. Check yours with `sha256sum heroes4.exe`.
 
 ## IDA
 
 ```sh
-python3 tools/gen_ida.py cht-1.x    # any Python 3, writes work/cht-1.x/ida_apply.py
+python3 tools/gen_ida.py cht-1.x    # any Python 3, writes work/cht-1.x/ida_apply.idc
 ```
 
-Open `heroes4.exe` in IDA (7.x–9.x), let auto-analysis finish, then run `work/cht-1.x/ida_apply.py`
-from File > Script file.
+Open `heroes4.exe` in IDA (7.x–9.x, Free or Pro), let auto-analysis finish, then run
+`work/cht-1.x/ida_apply.idc` from File > Script file.
 
 ## Ghidra
 

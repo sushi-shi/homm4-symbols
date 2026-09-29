@@ -45,7 +45,7 @@ cht-1.x: A 7,642 · B 5,148 · C 6,621.
 | | `evaluate.py` | accuracy report: vftable hierarchy, call-graph consistency, held-out `ret N`, stability |
 | map | `emit_map.py` | alignment + static-init pairs + vftables + manual → `maps/<t>/names.tsv` |
 | generate | `ghidra/ApplyNames.java` | names → Ghidra program `/<t>/heroes4_named`, packed to `work/<t>/heroes4_<t>.gzf` |
-| | `gen_ida.py` | names → `work/<t>/ida_apply.py` (IDAPython) |
+| | `gen_ida.py` | names → `work/<t>/ida_apply.idc` (IDC, runs in IDA Free too) |
 | infra | `paths.py`, `py` | project layout; offline nix Python with pefile+capstone |
 
 ## Running
