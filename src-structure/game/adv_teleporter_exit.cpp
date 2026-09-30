@@ -1,7 +1,7 @@
 // adv_teleporter_exit.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 26/43 (A:22 B:2 C:2); unaccounted 17; skipped std 1.
+// Accounted 26/43 (A:12 B:2 C:0); unaccounted 17; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,26 +10,26 @@
 
 // === .text (23 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:70748; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:70748; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0046a230, 0x15, STATIC_INIT_DISPATCH, "adv_teleporter_exit#1")
 
 // name:C; dyninit; see ledger; map:70749
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "adv_teleporter_exit#1")
 
-// confidence:A; dyninit-init; owner-conf-C; map:70750; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:70750; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0046a250, 0x1c, STATIC_INIT_DISPATCH, "adv_teleporter_exit#2")
 
 // name:C; dyninit; see ledger; map:70751
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "adv_teleporter_exit#2")
 
-// confidence:A; align-order; retn,stable,vptr; map:6077
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:6077
 VA_CHT_1(0x0046a270, 0x15e)
 t_adv_teleporter_exit::t_adv_teleporter_exit(std::string const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:6078
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:6078
 VA_CHT_1(0x0046a490, 0x1c5)
 void t_adv_teleporter_exit::activate_trigger(
     t_army* arg_0,
@@ -41,26 +41,26 @@ void t_adv_teleporter_exit::activate_trigger(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:6079
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:6079
 VA_CHT_1(0x0046a660, 0x75)
 void t_adv_teleporter_exit::destroy()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:6080
+// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:6080
 VA_CHT_1(0x0046a6e0, 0x81)
 void t_adv_teleporter_exit::place(t_adventure_map& arg_0, t_adv_map_point const& arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:70752; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:70752; name:B (dyninit; see ledger)
 VA_CHT_1(0x0046a7e0, 0x20)
 // adv_teleporter_exit$tinit1
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:70754; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:70754; name:B (dyninit; see ledger)
 VA_CHT_1(0x0046a800, 0x5c)
 // adv_teleporter_exit$tinit2
 // Function body not reconstructed; signature retained as a comment.
@@ -80,7 +80,7 @@ VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 // adv_teleporter_exit$tatexit4
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; align-band; retn,stable,vslot; map:6081
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:6081
 VA_CHT_1_COMPGEN(0x0046a3d0, 0x2d, SCALAR_DELETING_DTOR, t_adv_teleporter_exit)
 
 // name:A; map symbol; map:6082
@@ -121,7 +121,7 @@ t_object_factory<t_adv_teleporter_exit>::t_object_factory<t_adv_teleporter_exit>
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,vslot; map:6088
+// confidence:D; align-band; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:6088
 VA_CHT_1(0x0046a770, 0x62)
 t_stationary_adventure_object* t_object_factory<t_adv_teleporter_exit>::create(
     std::string const& arg_0,
@@ -131,10 +131,10 @@ t_stationary_adventure_object* t_object_factory<t_adv_teleporter_exit>::create(
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:6089
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:6089
 VA_CHT_1_COMPGEN(0x0046a860, 0x8, VECTOR_DELETING_DTOR, t_adv_teleporter_exit)
 
-// confidence:C; align-order; stable; map:6090
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:6090
 VA_CHT_1_COMPGEN(0x0046a870, 0xb, VECTOR_DELETING_DTOR, t_adv_teleporter_exit)
 
 // === .rdata (7 symbols) ===

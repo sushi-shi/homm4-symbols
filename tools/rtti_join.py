@@ -92,11 +92,11 @@ class RTTIReader:
                     chd=chd, attributes=attributes, array=array, entries=entries)
 
 
-def unique_pairs(symbols, candidates):
+def unique_pairs(symbols, candidates, prefix="??_R"):
     """Reject duplicate map identities, multiple target copies, and address aliases."""
     maps = collections.defaultdict(list)
     for s in symbols:
-        if s["mangled"].startswith("??_R"):
+        if s["mangled"].startswith(prefix):
             maps[match_vftables.norm(s["mangled"])].append(s)
     targets = collections.defaultdict(lambda: collections.defaultdict(list))
     for row in candidates:
@@ -113,6 +113,37 @@ def unique_pairs(symbols, candidates):
         possible.append(row)
     aliases = collections.Counter(r["rva"] for r in possible)
     return sorted((r for r in possible if aliases[r["rva"]] == 1), key=lambda r: r["rva"])
+
+
+def primary_vftables(target):
+    """Exact primary table identities, checked independently of ordered pairing.
+
+    The size is the observed retail slot span, never a debug-map symbol gap.
+    Secondary/construction tables are deliberately outside this first pass.
+    """
+    pe = pefile.PE(paths.exe(target), fast_load=True)
+    sections = [(s.Name.rstrip(b"\0").decode(), s.VirtualAddress, s.VirtualAddress + s.Misc_VirtualSize)
+                for s in pe.sections]
+    types = {int(r["td_rva"], 16): r["class"] for r in read_tsv(paths.features(target, "classes"))}
+    reader = RTTIReader(pe.get_memory_mapped_image(), pe.OPTIONAL_HEADER.ImageBase, sections, types)
+    candidates = []
+    for v in read_tsv(paths.features(target, "vftables")):
+        rva, count = int(v["rva"], 16), int(v["nslots"])
+        try:
+            h = reader.hierarchy(rva)
+            if h["offset"] or h["cd_offset"] or count < 1:
+                continue
+            slots = reader.words(rva, count)
+            for pointer in slots:
+                reader.check(pointer - reader.base, 1, (".text",))
+        except (ValueError, struct.error):
+            continue
+        candidates.append(dict(name="??_7" + h["name"][4:] + "6B@", rva=rva,
+                               size=count * 4, method="rtti-primary-vftable",
+                               evidence=f"type-name={h['name']};vft={rva:x};col={h['col']:x};"
+                               f"td={h['td']:x};chd={h['chd']:x};offset=0;cdOffset=0;"
+                               f"code-slots={count};validated-hierarchy"))
+    return unique_pairs(read_tsv(paths.symbols("symbols.tsv")), candidates, "??_7")
 
 
 def join(target):

@@ -1,7 +1,7 @@
 // army_info_window.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 74/116 (A:47 B:18 C:9); unaccounted 42; skipped std 19.
+// Accounted 74/116 (A:31 B:4 C:1); unaccounted 42; skipped std 19.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,94 +10,94 @@
 
 // === .text (77 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:69522; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:69522; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00523d50, 0x15, STATIC_INIT_DISPATCH, "army_info_window#1")
 
 // name:C; dyninit; see ledger; map:69523
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "army_info_window#1")
 
-// confidence:A; dyninit-init; owner-conf-B; map:69524; name:A (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:69524; name:A (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00523d70, 0x11, STATIC_INIT_DISPATCH, k_text_shots)
 
-// confidence:B; dyninit-ctor; owner-conf-B; map:69525; name:A (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:69525; name:A (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00523d90, 0xd1, STATIC_CTOR, k_text_shots)
 
 // name:A; dyninit; see ledger; map:69526
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, k_text_shots)
 
-// confidence:B; dyninit-dtor; owner-conf-B; map:69527; name:A (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:69527; name:A (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00523e70, 0xa, STATIC_DTOR, k_text_shots)
 
-// confidence:A; dyninit-init; owner-conf-C; map:69528; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:69528; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00523e80, 0x11, STATIC_INIT_DISPATCH, k_army_info_bitmaps)
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:69529; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:69529; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00523ea0, 0xd7, STATIC_CTOR, k_army_info_bitmaps)
 
 // name:C; dyninit; see ledger; map:69530
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, k_army_info_bitmaps)
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:69531; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:69531; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00523f80, 0xa, STATIC_DTOR, k_army_info_bitmaps)
 
-// confidence:A; align-order; retn,stable,vptr; map:14413
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:14413
 VA_CHT_1(0x00523f90, 0x42e)
 t_army_info_window::t_army_info_window(t_creature_array* arg_0, t_skill_mastery arg_1, t_window* arg_2)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:14414
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:14414
 VA_CHT_1(0x005244f0, 0x11a1)
 void t_army_info_window::create_icons()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:14415
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:14415
 VA_CHT_1(0x005256a0, 0x753)
 void t_army_info_window::create_buttons()
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-init; owner-conf-C; map:69532; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:69532; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00525e00, 0x11, STATIC_INIT_DISPATCH, "army_info_window#4")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:69533; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:69533; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00525e20, 0xd1, STATIC_CTOR, "army_info_window#4")
 
 // name:C; dyninit; see ledger; map:69534
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "army_info_window#4")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:69535; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:69535; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00525f00, 0xa, STATIC_DTOR, "army_info_window#4")
 
-// confidence:A; dyninit-init; owner-conf-C; map:69536; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:69536; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00525f10, 0x11, STATIC_INIT_DISPATCH, "army_info_window#5")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:69537; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:69537; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00525f30, 0xd1, STATIC_CTOR, "army_info_window#5")
 
 // name:C; dyninit; see ledger; map:69538
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "army_info_window#5")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:69539; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:69539; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00526010, 0xa, STATIC_DTOR, "army_info_window#5")
 
-// confidence:A; dyninit-init; owner-conf-C; map:69540; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:69540; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00526020, 0x11, STATIC_INIT_DISPATCH, "army_info_window#6")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:69541; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:69541; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00526040, 0xd1, STATIC_CTOR, "army_info_window#6")
 
 // name:C; dyninit; see ledger; map:69542
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "army_info_window#6")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:69543; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:69543; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00526120, 0xa, STATIC_DTOR, "army_info_window#6")
 
-// confidence:C; align-order; retn,stable; map:14416
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:14416
 VA_CHT_1(0x00526130, 0x2196)
 void t_army_info_window::create_text_windows()
 {
@@ -111,61 +111,61 @@ void t_army_info_window::close_click(t_button* arg_0)
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:14418
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:14418
 VA_CHT_1(0x005282d0, 0x370)
 void t_army_info_window::army_select(t_creature_info_window* arg_0, int arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:14419
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:14419
 VA_CHT_1(0x00528640, 0x1aa)
 void t_army_info_window::show_skills()
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:14420
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:14420
 VA_CHT_1(0x005287f0, 0x63)
 void t_army_info_window::open_army_click(t_button* arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:14421
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:14421
 VA_CHT_1(0x00528860, 0x54)
 void t_army_info_window::open_town_click(t_button* arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:14422
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:14422
 VA_CHT_1(0x005288c0, 0x105)
 void t_army_info_window::open_garrison_click(t_button* arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:14423
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:14423
 VA_CHT_1(0x005289d0, 0xd78)
 void t_army_info_window::show_stats()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:14424
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:14424
 VA_CHT_1(0x00529750, 0xaf)
 void run_army_info_window(t_creature_array* arg_0, t_adventure_frame* arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:69544; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:69544; name:B (dyninit; see ledger)
 VA_CHT_1(0x00529900, 0x20)
 // army_info_window$tinit1
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:69546; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:69546; name:B (dyninit; see ledger)
 VA_CHT_1(0x00529920, 0x5c)
 // army_info_window$tinit2
 // Function body not reconstructed; signature retained as a comment.
@@ -217,7 +217,7 @@ t_counted_ptr<t_handler_base_2<t_creature_info_window*, int>>::~t_counted_ptr<t_
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:14429
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:14429
 VA_CHT_1_COMPGEN(0x005243c0, 0x1e, VECTOR_DELETING_DTOR, t_army_info_window)
 
 // name:A; map symbol; map:14430
@@ -300,7 +300,7 @@ t_handler_2<t_creature_info_window*, int>::t_handler_2<t_creature_info_window*, 
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:14459
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:14459
 VA_CHT_1(0x00529820, 0x5e)
 t_bound_handler_2<t_army_info_window, t_creature_info_window*, int>::t_bound_handler_2<t_army_info_window, t_creature_info_window*, int>(
     t_army_info_window& arg_0,
@@ -320,7 +320,7 @@ void t_bound_handler_2<t_army_info_window, t_creature_info_window*, int>::operat
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:14461
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:14461
 VA_CHT_1(0x00529880, 0x5e)
 t_bound_handler_1<t_army_info_window, t_button*>::t_bound_handler_1<t_army_info_window, t_button*>(
     t_army_info_window& arg_0,
@@ -372,7 +372,7 @@ t_handler_base_2<t_creature_info_window*, int>::~t_handler_base_2<t_creature_inf
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:14470
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:14470
 VA_CHT_1(0x006574b0, 0x21)
 t_abstract_function_2<void, t_creature_info_window*, int>::~t_abstract_function_2<void, t_creature_info_window*, int>(
 
@@ -381,19 +381,19 @@ t_abstract_function_2<void, t_creature_info_window*, int>::~t_abstract_function_
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:14471
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:14471
 VA_CHT_1_COMPGEN(0x005298e0, 0x20, VECTOR_DELETING_DTOR, "t_abstract_function_2<void, t_creature_info_window*, int>")
 
 // name:A; map symbol; map:14472
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, "t_abstract_function_2<void, t_creature_info_window*, int>")
 
-// confidence:A; align-band; retn,stable,vslot; map:14473
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:14473
 VA_CHT_1_COMPGEN(0x006574e0, 0x1e, VECTOR_DELETING_DTOR, "t_handler_base_2<t_creature_info_window*, int>")
 
 // name:A; map symbol; map:14474
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, "t_handler_base_2<t_creature_info_window*, int>")
 
-// confidence:A; align-band; retn,stable,vptr; map:14475
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:14475
 VA_CHT_1(0x00657450, 0x58)
 t_abstract_function_2<void, t_creature_info_window*, int>::t_abstract_function_2<void, t_creature_info_window*, int>(
 
@@ -421,10 +421,10 @@ t_counted_ptr<t_handler_base_2<t_creature_info_window*, int>>::t_counted_ptr<t_h
 // name:A; map symbol; map:14478
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, "t_handler_base_2<t_creature_info_window*, int>")
 
-// confidence:C; align-order; stable; map:14479
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:14479
 VA_CHT_1_COMPGEN(0x00529980, 0x8, VECTOR_DELETING_DTOR, "t_bound_handler_2<t_army_info_window, t_creature_info_window*, int>")
 
-// confidence:C; align-order; stable; map:14480
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:14480
 VA_CHT_1_COMPGEN(0x00529990, 0x8, VECTOR_DELETING_DTOR, "t_bound_handler_1<t_army_info_window, t_button*>")
 
 // === .rdata (8 symbols) ===

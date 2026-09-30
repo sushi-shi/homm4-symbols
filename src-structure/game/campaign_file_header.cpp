@@ -1,7 +1,7 @@
 // campaign_file_header.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\campaign_file_header.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 114/237 (A:91 B:11 C:12); unaccounted 123; skipped std 51.
+// Accounted 114/237 (A:62 B:2 C:0); unaccounted 123; skipped std 51.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,7 +10,7 @@
 
 // === .text (169 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:68773; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:68773; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00589dd0, 0x16, STATIC_INIT_DISPATCH, "campaign_file_header#1")
 
 // name:C; dyninit; see ledger; map:68774
@@ -19,10 +19,10 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "campaign_file_header#1
 // name:C; dyninit; see ledger; map:68775
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "campaign_file_header#1")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:68776; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:68776; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00589df0, 0xa, STATIC_DTOR, "campaign_file_header#1")
 
-// confidence:A; dyninit-init; owner-conf-C; map:68777; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:68777; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00589e00, 0x16, STATIC_INIT_DISPATCH, "campaign_file_header#2")
 
 // name:C; dyninit; see ledger; map:68778
@@ -31,19 +31,19 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "campaign_file_header#2
 // name:C; dyninit; see ledger; map:68779
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "campaign_file_header#2")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:68780; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:68780; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00589e20, 0xa, STATIC_DTOR, "campaign_file_header#2")
 
 namespace {
 
-// confidence:C; align-order; retn,stable; map:18698
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18698
 VA_CHT_1(0x00589e30, 0x155)
 std::string t_campaign_file_opener::get_resource_name(t_standard_campaign_id arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:18699
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18699
 VA_CHT_1(0x00589fb0, 0x57)
 std::auto_ptr<std::basic_streambuf<char, std::char_traits<char>>> t_campaign_file_opener::operator()(
     t_campaign_file_ref const& arg_0
@@ -52,28 +52,28 @@ std::auto_ptr<std::basic_streambuf<char, std::char_traits<char>>> t_campaign_fil
     // Body unavailable.
 }
 
-// confidence:A; align-order; stable,vslot; map:18700
+// confidence:D; align-order; stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18700
 VA_CHT_1(0x0058a010, 0x5)
 void t_campaign_file_opener::access(std::string const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:18701
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18701
 VA_CHT_1(0x0058a020, 0x7d)
 void t_campaign_file_opener::access(t_standard_campaign_id arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:18702
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18702
 VA_CHT_1(0x0058a0a0, 0x103)
 void t_campaign_file_opener::open_file(std::string const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:18703
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18703
 VA_CHT_1(0x0058a1b0, 0x22d)
 void t_campaign_file_opener::open_resource(std::string const& arg_0)
 {
@@ -117,7 +117,7 @@ void t_campaign_file_header_visitor::visit(t_single_scenario_campaign_file_heade
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vptr; map:18709
+// confidence:D; align-order; retn,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:18709
 VA_CHT_1(0x0058a400, 0xec)
 t_single_scenario_campaign_file_header::t_single_scenario_campaign_file_header()
 {
@@ -145,28 +145,28 @@ void t_single_scenario_campaign_file_header::accept(t_campaign_file_header_visit
     // Body unavailable.
 }
 
-// confidence:A; align-order; vslot; map:18713
+// confidence:D; align-order; vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18713
 VA_CHT_1(0x0058a4f0, 0xe)
 int t_single_scenario_campaign_file_header::get_map_count() const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:18714
+// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18714
 VA_CHT_1(0x0058a500, 0x17)
 std::fpos<int> t_single_scenario_campaign_file_header::get_map_data_end(int arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:18715
+// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18715
 VA_CHT_1(0x0058a520, 0x17)
 std::fpos<int> t_single_scenario_campaign_file_header::get_map_data_start(int arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:18716
+// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18716
 VA_CHT_1(0x0058a540, 0x6)
 t_map_header const& t_single_scenario_campaign_file_header::get_map_header(int arg_0) const
 {
@@ -187,7 +187,7 @@ bool t_single_scenario_campaign_file_header::is_multi_scenario() const
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn; map:18719
+// confidence:D; align-order; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:18719
 VA_CHT_1(0x0058a550, 0xf7)
 bool t_single_scenario_campaign_file_header::read(
     std::basic_streambuf<char, std::char_traits<char>>& arg_0,
@@ -204,7 +204,7 @@ void t_single_scenario_campaign_file_header::set_map_header(t_map_header const& 
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vptr; map:18721
+// confidence:D; align-order; retn,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:18721
 VA_CHT_1(0x0058a650, 0xcd)
 t_multi_scenario_campaign_file_header::~t_multi_scenario_campaign_file_header()
 {
@@ -218,28 +218,28 @@ void t_multi_scenario_campaign_file_header::accept(t_campaign_file_header_visito
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:18723
+// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18723
 VA_CHT_1(0x0058a720, 0x1e)
 void t_multi_scenario_campaign_file_header::accept(t_campaign_file_header_visitor& arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:18724
+// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18724
 VA_CHT_1(0x0058a740, 0x13)
 int t_multi_scenario_campaign_file_header::get_map_count() const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:18725
+// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18725
 VA_CHT_1(0x0058a760, 0x22)
 std::fpos<int> t_multi_scenario_campaign_file_header::get_map_data_end(int arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:18726
+// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18726
 VA_CHT_1(0x0058a790, 0x20)
 std::fpos<int> t_multi_scenario_campaign_file_header::get_map_data_start(int arg_0) const
 {
@@ -260,7 +260,7 @@ std::string const& t_multi_scenario_campaign_file_header::get_name() const
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn; map:18729
+// confidence:D; align-order; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:18729
 VA_CHT_1(0x0058b370, 0x19)
 std::string const& t_multi_scenario_campaign_file_header::get_description() const
 {
@@ -274,7 +274,7 @@ bool t_multi_scenario_campaign_file_header::is_multi_scenario() const
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:18731
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18731
 VA_CHT_1(0x0058b3f0, 0x195)
 bool t_multi_scenario_campaign_file_header::read(
     std::basic_streambuf<char, std::char_traits<char>>& arg_0,
@@ -284,7 +284,7 @@ bool t_multi_scenario_campaign_file_header::read(
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:18732
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18732
 VA_CHT_1(0x0058b610, 0x111)
 t_counted_ptr<t_campaign_file_header> create_campaign_file_header(
     t_campaign_file_ref const& arg_0,
@@ -294,7 +294,7 @@ t_counted_ptr<t_campaign_file_header> create_campaign_file_header(
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:18733
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18733
 VA_CHT_1(0x0058b730, 0x127)
 t_counted_ptr<t_single_scenario_campaign_file_header> create_single_scenario_campaign_file_header(
     t_campaign_file_ref const& arg_0,
@@ -304,7 +304,7 @@ t_counted_ptr<t_single_scenario_campaign_file_header> create_single_scenario_cam
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:18734
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18734
 VA_CHT_1(0x0058b9d0, 0x80)
 t_counted_ptr<t_multi_scenario_campaign_file_header> create_multi_scenario_campaign_file_header(
     t_campaign_file_ref const& arg_0,
@@ -314,7 +314,7 @@ t_counted_ptr<t_multi_scenario_campaign_file_header> create_multi_scenario_campa
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:18735
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18735
 VA_CHT_1(0x0058ba50, 0x49)
 std::auto_ptr<std::basic_streambuf<char, std::char_traits<char>>> open_campaign_file(
     t_campaign_file_ref const& arg_0
@@ -323,7 +323,7 @@ std::auto_ptr<std::basic_streambuf<char, std::char_traits<char>>> open_campaign_
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:68781; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:68781; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0058bb50, 0x3f, STATIC_INIT_DISPATCH, campaign_file_header)
 
 // name:A; map symbol; map:18736
@@ -358,7 +358,7 @@ t_abstract_cache<t_campaign_file>& t_abstract_cache<t_campaign_file>::operator=(
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:18740
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18740
 VA_CHT_1_COMPGEN(0x0058a3e0, 0x1e, SCALAR_DELETING_DTOR, t_single_scenario_campaign_file_header)
 
 // name:A; map symbol; map:18741
@@ -378,13 +378,13 @@ t_campaign_file_header::~t_campaign_file_header()
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:18744
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18744
 VA_CHT_1_COMPGEN(0x0058b970, 0x1e, SCALAR_DELETING_DTOR, t_campaign_file_header)
 
 // name:A; map symbol; map:18745
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, t_campaign_file_header)
 
-// confidence:C; align-band; retn,stable; map:18746
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18746
 VA_CHT_1(0x0058af30, 0x156)
 t_map_header& t_map_header::operator=(t_map_header const& arg_0)
 {
@@ -397,7 +397,7 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, t_multi_scenar
 // name:A; map symbol; map:18748
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, t_multi_scenario_campaign_file_header)
 
-// confidence:C; align-band; retn; map:18749
+// confidence:D; align-band; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:18749
 VA_CHT_1(0x0058b2d0, 0x38)
 t_multi_scenario_campaign_file_header::t_map_info::t_map_info()
 {
@@ -436,7 +436,7 @@ t_counted_ptr<t_single_scenario_campaign_file_header>::~t_counted_ptr<t_single_s
 
 namespace {
 
-// confidence:A; align-band; retn,vptr; map:18754
+// confidence:D; align-band; retn,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:18754
 VA_CHT_1(0x0058b1f0, 0x7a)
 t_campaign_file_opener::t_campaign_file_opener()
 {
@@ -445,7 +445,7 @@ t_campaign_file_opener::t_campaign_file_opener()
 
 } // anonymous namespace
 
-// confidence:A; align-band; retn,vptr; map:18755
+// confidence:D; align-band; retn,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:18755
 VA_CHT_1(0x0058b270, 0x7)
 t_campaign_file_ref_accessor::~t_campaign_file_ref_accessor()
 {
@@ -463,7 +463,7 @@ t_campaign_file_opener::~t_campaign_file_opener()
 
 } // anonymous namespace
 
-// confidence:A; align-band; retn,vptr; map:18757
+// confidence:D; align-band; retn,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:18757
 VA_CHT_1(0x0058b280, 0x48)
 t_campaign_file_ref_accessor::t_campaign_file_ref_accessor()
 {
@@ -491,7 +491,7 @@ t_owned_ptr<t_map_header>::t_owned_ptr<t_map_header>(t_map_header* arg_0)
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:18798
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18798
 VA_CHT_1(0x0058b920, 0x41)
 t_owned_ptr<t_map_header>::~t_owned_ptr<t_map_header>()
 {
@@ -519,7 +519,7 @@ t_shared_ptr<t_map_header>::t_shared_ptr<t_map_header>()
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:18802
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18802
 VA_CHT_1(0x0058b590, 0x74)
 t_shared_ptr<t_map_header>::~t_shared_ptr<t_map_header>()
 {
@@ -655,7 +655,7 @@ t_counted_ptr<t_abstract_cache_data<t_campaign_file>>& t_counted_ptr<t_abstract_
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,vptr; map:18818
+// confidence:D; align-band; retn,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:18818
 VA_CHT_1(0x0058b3d0, 0x1d)
 t_abstract_cache<t_campaign_file>::~t_abstract_cache<t_campaign_file>()
 {
@@ -722,7 +722,7 @@ t_counted_ptr<t_campaign_file_header>::t_counted_ptr<t_campaign_file_header>()
 
 namespace {
 
-// confidence:C; align-band; retn; map:18827
+// confidence:D; align-band; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:18827
 VA_CHT_1(0x0058adb0, 0x176)
 t_counted_ptr<t_multi_scenario_campaign_file_header> create_and_read(
     std::basic_streambuf<char, std::char_traits<char>>& arg_0,
@@ -798,7 +798,7 @@ t_counted_ptr<t_abstract_cache_data<t_campaign_file>>::~t_counted_ptr<t_abstract
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:18846
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18846
 VA_CHT_1_COMPGEN(0x0058b990, 0x1e, SCALAR_DELETING_DTOR, "t_pointer_cache<t_campaign_file>")
 
 // name:A; map symbol; map:18847
@@ -901,7 +901,7 @@ t_abstract_cache_data<t_campaign_file>* t_counted_ptr<t_abstract_cache_data<t_ca
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:18863
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:18863
 VA_CHT_1(0x0058b9b0, 0x19)
 t_abstract_cache<t_campaign_file>::t_abstract_cache<t_campaign_file>(
     t_abstract_cache_data<t_campaign_file>* arg_0
@@ -986,14 +986,14 @@ bool t_abstract_resource_cache_data<t_campaign_file>::read(
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:18874
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18874
 VA_CHT_1(0x0058baa0, 0x6)
 char const* t_ptr_cache_data<t_campaign_file>::get_prefix() const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:18875
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18875
 VA_CHT_1(0x0058bab0, 0x93)
 t_campaign_file* t_ptr_cache_data<t_campaign_file>::do_read(
     std::basic_streambuf<char, std::char_traits<char>>& arg_0,
@@ -1085,7 +1085,7 @@ t_single_scenario_campaign_file_header* t_counted_ptr<t_single_scenario_campaign
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:18886
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18886
 VA_CHT_1_COMPGEN(0x0058bbb0, 0x1e, VECTOR_DELETING_DTOR, "t_ptr_cache_data<t_campaign_file>")
 
 // name:A; map symbol; map:18887
@@ -1098,27 +1098,27 @@ t_ptr_cache_data<t_campaign_file>::~t_ptr_cache_data<t_campaign_file>()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:18889
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:18889
 VA_CHT_1(0x0058bbd0, 0xcb)
 t_abstract_resource_cache_data<t_campaign_file>::~t_abstract_resource_cache_data<t_campaign_file>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:18890
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:18890
 VA_CHT_1(0x0058bcc0, 0xcb)
 t_abstract_cache_data<t_campaign_file>::~t_abstract_cache_data<t_campaign_file>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:18891
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18891
 VA_CHT_1_COMPGEN(0x0058bb90, 0x1e, SCALAR_DELETING_DTOR, "t_abstract_cache_data<t_campaign_file>")
 
 // name:A; map symbol; map:18892
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, "t_abstract_cache_data<t_campaign_file>")
 
-// confidence:A; align-band; retn,stable,vslot; map:18893
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18893
 VA_CHT_1_COMPGEN(0x0058bca0, 0x1e, SCALAR_DELETING_DTOR, "t_abstract_resource_cache_data<t_campaign_file>")
 
 // name:A; map symbol; map:18894
@@ -1189,10 +1189,10 @@ t_abstract_cache_data<t_campaign_file>::t_abstract_cache_data<t_campaign_file>()
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:18905
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18905
 VA_CHT_1_COMPGEN(0x0058bd90, 0x8, VECTOR_DELETING_DTOR, "t_ptr_cache_data<t_campaign_file>")
 
-// confidence:C; align-order; stable; map:18906
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18906
 VA_CHT_1_COMPGEN(0x0058bda0, 0x8, VECTOR_DELETING_DTOR, "t_abstract_resource_cache_data<t_campaign_file>")
 
 // === .rdata (12 symbols) ===

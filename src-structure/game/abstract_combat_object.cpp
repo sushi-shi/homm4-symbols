@@ -1,7 +1,7 @@
 // abstract_combat_object.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 100/199 (A:78 B:14 C:8); unaccounted 99; skipped std 8.
+// Accounted 93/199 (A:54 B:10 C:4); unaccounted 106; skipped std 8.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,57 +10,57 @@
 
 // === .text (132 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:71389; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:71389; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0040e970, 0x15, STATIC_INIT_DISPATCH, "abstract_combat_object#1")
 
 // name:C; dyninit; see ledger; map:71390
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "abstract_combat_object#1")
 
-// confidence:A; dyninit-init; owner-conf-C; map:71391; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:71391; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0040e990, 0x15, STATIC_INIT_DISPATCH, "abstract_combat_object#2")
 
 // name:C; dyninit; see ledger; map:71392
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "abstract_combat_object#2")
 
-// confidence:A; dyninit-init; owner-conf-C; map:71393; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:71393; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0040e9b0, 0x15, STATIC_INIT_DISPATCH, "abstract_combat_object#3")
 
 // name:C; dyninit; see ledger; map:71394
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "abstract_combat_object#3")
 
-// confidence:A; dyninit-init; owner-conf-C; map:71395; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:71395; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0040e9d0, 0x15, STATIC_INIT_DISPATCH, "abstract_combat_object#4")
 
 // name:C; dyninit; see ledger; map:71396
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "abstract_combat_object#4")
 
-// confidence:A; dyninit-init; owner-conf-C; map:71397; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:71397; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0040e9f0, 0x10, STATIC_INIT_DISPATCH, "abstract_combat_object#5")
 
 // name:C; dyninit; see ledger; map:71398
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "abstract_combat_object#5")
 
-// confidence:A; dyninit-init; owner-conf-C; map:71399; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:71399; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0040ea00, 0x15, STATIC_INIT_DISPATCH, "abstract_combat_object#6")
 
 // name:C; dyninit; see ledger; map:71400
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "abstract_combat_object#6")
 
-// confidence:A; align-order; retn,stable,vptr; map:1405
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:1405
 VA_CHT_1(0x0040ea20, 0xa7)
 t_abstract_combat_object::t_abstract_combat_object(t_battlefield* arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vptr; map:1406
-VA_CHT_1(0x0040eaf0, 0x6b)
+// name:A; map symbol; map:1406
+VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 t_combat_object_base::~t_combat_object_base()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn; map:1407
+// confidence:D; align-order; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:1407
 VA_CHT_1(0x0040eb80, 0x7)
 t_combat_footprint const& t_combat_object_base::get_footprint() const
 {
@@ -130,15 +130,15 @@ int t_abstract_combat_object::get_depth() const
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:1417
-VA_CHT_1(0x0040eca0, 0x33)
+// name:A; map symbol; map:1417
+VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 bool t_abstract_combat_object::blocks_movement() const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:1418
-VA_CHT_1(0x0040ece0, 0x11)
+// name:A; map symbol; map:1418
+VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 bool t_abstract_combat_object::is_quicksand() const
 {
     // Body unavailable.
@@ -165,7 +165,7 @@ void t_abstract_combat_object::move(t_battlefield& arg_0, t_map_point_3d const& 
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:1422
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:1422
 VA_CHT_1(0x0040ede0, 0x3f)
 void t_abstract_combat_object::set_screen_position(t_screen_point const& arg_0)
 {
@@ -235,14 +235,14 @@ void t_abstract_combat_object::fade_in(t_battlefield& arg_0, int arg_1, t_combat
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:1432
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:1432
 VA_CHT_1(0x0040eed0, 0x1a5)
 void t_abstract_combat_object::fade_out(t_battlefield& arg_0, t_combat_action_message const& arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:1433
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:1433
 VA_CHT_1(0x0040f0b0, 0x104)
 void t_abstract_combat_object::fade_out(
     t_battlefield& arg_0,
@@ -274,14 +274,14 @@ int t_abstract_combat_object::get_normal_alpha() const
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:1437
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:1437
 VA_CHT_1(0x0040f1f0, 0x6)
 bool t_abstract_combat_object::is_elevated() const
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:1438
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:1438
 VA_CHT_1(0x0040f200, 0xc2)
 bool t_abstract_combat_object::read_data(std::basic_streambuf<char, std::char_traits<char>>& arg_0)
 {
@@ -295,14 +295,14 @@ bool t_abstract_combat_object::write_data(std::basic_streambuf<char, std::char_t
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:1440
-VA_CHT_1(0x0040f560, 0x6f)
+// name:A; map symbol; map:1440
+VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 void t_abstract_combat_object::place_during_read(t_battlefield& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:71401; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:71401; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0040f770, 0x20, STATIC_INIT_DISPATCH, abstract_combat_object)
 
 // name:A; map symbol; map:1441
@@ -312,7 +312,7 @@ t_screen_rect::t_screen_rect()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:1442
+// confidence:C; align-band; retn,stable,vslot;manual-review=complete-F00124:unresolved; map:1442
 VA_CHT_1_COMPGEN(0x0040ead0, 0x1e, SCALAR_DELETING_DTOR, t_abstract_combat_object)
 
 // name:A; map symbol; map:1443
@@ -359,7 +359,7 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, t_combat_savea
 // name:A; map symbol; map:1450
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, t_combat_saveable_object)
 
-// confidence:A; align-band; retn,stable,vslot; map:1451
+// confidence:C; align-band; retn,stable,vslot;manual-review=complete-F00126:unresolved; map:1451
 VA_CHT_1_COMPGEN(0x0040eb60, 0x20, SCALAR_DELETING_DTOR, t_combat_object_base)
 
 // name:A; map symbol; map:1452
@@ -372,8 +372,8 @@ t_map_point_2d operator<<(t_map_point_2d const& arg_0, int arg_1)
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:1454
-VA_CHT_1(0x0040f080, 0x2f)
+// name:A; map symbol; map:1454
+VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 t_map_point_2d& t_map_point_2d::operator<<=(int arg_0)
 {
     // Body unavailable.
@@ -639,7 +639,7 @@ t_handler_base_1<t_counted_ptr<t_abstract_combat_object>>* t_handler_1<t_counted
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:1496
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:1496
 VA_CHT_1(0x0040f3b0, 0x5e)
 t_bound_handler_1<t_battlefield, t_counted_ptr<t_abstract_combat_object>>::t_bound_handler_1<t_battlefield, t_counted_ptr<t_abstract_combat_object>>(
     t_battlefield& arg_0,
@@ -658,7 +658,7 @@ void t_bound_handler_1<t_battlefield, t_counted_ptr<t_abstract_combat_object>>::
     // Body unavailable.
 }
 
-// confidence:A; align-band; stable,vptr; map:1498
+// confidence:D; align-band; stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:1498
 VA_CHT_1(0x0040f410, 0x121)
 t_add_handler<t_counted_ptr<t_abstract_combat_object>>::t_add_handler<t_counted_ptr<t_abstract_combat_object>>(
     t_handler_base_1<t_counted_ptr<t_abstract_combat_object>>* arg_0,
@@ -668,21 +668,21 @@ t_add_handler<t_counted_ptr<t_abstract_combat_object>>::t_add_handler<t_counted_
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:1499
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:1499
 VA_CHT_1(0x0040f5d0, 0x8c)
 void t_add_handler<t_counted_ptr<t_abstract_combat_object>>::operator()()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:1500
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:1500
 VA_CHT_1_COMPGEN(0x0040f660, 0x1e, SCALAR_DELETING_DTOR, "t_bound_handler_1<t_battlefield, t_counted_ptr<t_abstract_combat_object>>")
 
 // name:A; map symbol; map:1501
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, "t_bound_handler_1<t_battlefield, t_counted_ptr<t_abstract_combat_object>>")
 
-// confidence:C; align-band; retn,stable; map:1502
-VA_CHT_1(0x0040f6f0, 0x73)
+// name:A; map symbol; map:1502
+VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 t_handler_base_1<t_counted_ptr<t_abstract_combat_object>>::t_handler_base_1<t_counted_ptr<t_abstract_combat_object>>(
 
 )
@@ -690,7 +690,7 @@ t_handler_base_1<t_counted_ptr<t_abstract_combat_object>>::t_handler_base_1<t_co
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:1503
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:1503
 VA_CHT_1_COMPGEN(0x0040f6a0, 0x1e, SCALAR_DELETING_DTOR, "t_add_handler<t_counted_ptr<t_abstract_combat_object>>")
 
 // name:A; map symbol; map:1504
@@ -710,14 +710,14 @@ t_handler_base::~t_handler_base()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:1507
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:1507
 VA_CHT_1(0x0053c200, 0x1e)
 t_abstract_function_0<void>::~t_abstract_function_0<void>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:1508
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:1508
 VA_CHT_1_COMPGEN(0x0040f540, 0x20, SCALAR_DELETING_DTOR, "t_abstract_function_0<void>")
 
 // name:A; map symbol; map:1509
@@ -741,8 +741,8 @@ t_handler_base_1<t_counted_ptr<t_abstract_combat_object>>::~t_handler_base_1<t_c
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:1512
-VA_CHT_1(0x0040f6c0, 0x21)
+// name:A; map symbol; map:1512
+VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 t_abstract_function_1<void, t_counted_ptr<t_abstract_combat_object>>::~t_abstract_function_1<void, t_counted_ptr<t_abstract_combat_object>>(
 
 )
@@ -750,7 +750,7 @@ t_abstract_function_1<void, t_counted_ptr<t_abstract_combat_object>>::~t_abstrac
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:1513
+// confidence:C; align-band; retn,stable,vslot;manual-review=complete-F00138:unresolved; map:1513
 VA_CHT_1_COMPGEN(0x0040f680, 0x20, SCALAR_DELETING_DTOR, "t_abstract_function_1<void, t_counted_ptr<t_abstract_combat_object>>")
 
 // name:A; map symbol; map:1514
@@ -786,7 +786,7 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, t_handler_base
 // name:A; map symbol; map:1520
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, t_handler_base)
 
-// confidence:A; align-band; retn,stable,vptr; map:1521
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:1521
 VA_CHT_1(0x0053a3f0, 0x21)
 t_abstract_function_0<void>::t_abstract_function_0<void>()
 {
@@ -835,13 +835,13 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, "t_handler_bas
 // name:A; map symbol; map:1527
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, "t_bound_handler_1<t_battlefield, t_counted_ptr<t_abstract_combat_object>>")
 
-// confidence:C; align-order; stable; map:1528
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:1528
 VA_CHT_1_COMPGEN(0x0040f7a0, 0x8, VECTOR_DELETING_DTOR, "t_add_handler<t_counted_ptr<t_abstract_combat_object>>")
 
-// confidence:C; align-order; stable; map:1529
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:1529
 VA_CHT_1_COMPGEN(0x0040f7b0, 0x8, VECTOR_DELETING_DTOR, t_abstract_combat_object)
 
-// confidence:C; align-order; stable; map:1530
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:1530
 VA_CHT_1_COMPGEN(0x0040f7c0, 0x8, VECTOR_DELETING_DTOR, t_handler_base)
 
 // === .rdata (14 symbols) ===

@@ -1,7 +1,7 @@
 // artifact_effect_visitor.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 2/15 (A:2 B:0 C:0); unaccounted 13; skipped std 0.
+// Accounted 2/15 (A:0 B:0 C:0); unaccounted 13; skipped std 0.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,7 +10,7 @@
 
 // === .text (15 symbols) ===
 
-// confidence:A; align-order; retn,stable,vptr; map:15328
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:15328
 VA_CHT_1(0x00536b00, 0x7)
 t_artifact_effect_visitor::~t_artifact_effect_visitor()
 {
@@ -108,7 +108,7 @@ bool t_artifact_effect_visitor::visit_spell_cost(t_artifact_prop::t_spell_cost_b
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:15342
+// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:15342
 VA_CHT_1(0x00536b10, 0x20)
 bool t_artifact_effect_visitor::visit_spell_list(t_artifact_prop::t_spell_list_effect& arg_0)
 {

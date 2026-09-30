@@ -1,6 +1,6 @@
 // Apply maps/<target>/names.tsv to the current program: mangled names as primary labels,
 // functions created where missing, demangled via DemanglerCmd, tier/method/evidence in a plate comment.
-// Usage: ApplyNames.java <names.tsv> [min_tier] [out.gzf]   (min_tier A|B|C, default C)
+// Usage: ApplyNames.java <names.tsv> [min_tier] [out.gzf]   (min_tier A|B|C|D, default D)
 // Without arguments (Script Manager) it asks for names.tsv.
 // With out.gzf (run headless with -readOnly): the named program is saved next to the analysed
 // one as "heroes4_named" and packed to out.gzf; the analysed program itself is untouched.
@@ -22,7 +22,7 @@ public class ApplyNames extends GhidraScript {
 	protected void run() throws Exception {
 		String[] args = getScriptArgs();
 		File names = args.length > 0 ? new File(args[0]) : askFile("names.tsv to apply", "Apply");
-		String minTier = args.length > 1 ? args[1] : "C";
+		String minTier = args.length > 1 ? args[1] : "D";
 		long base = currentProgram.getImageBase().getOffset();
 		Listing listing = currentProgram.getListing();
 		SymbolTable st = currentProgram.getSymbolTable();
@@ -53,7 +53,8 @@ public class ApplyNames extends GhidraScript {
 				}
 				DemanglerCmd dc = new DemanglerCmd(a, mangled);
 				if (mangled.startsWith("?") && dc.applyTo(currentProgram, monitor)) demangled++;
-				String note = "homm4 tier " + tier + " | " + chain;
+				String note = "homm4 tier " + tier + " | "
+						+ (tier.equals("D") ? "UNREVIEWED PROPOSAL; NOT A BEST GUESS | " : "") + chain;
 				String old = listing.getComment(CodeUnit.PLATE_COMMENT, a);
 				if (old == null || !old.contains("homm4 tier")) {
 					listing.setComment(a, CodeUnit.PLATE_COMMENT, old == null ? note : old + "\n" + note);

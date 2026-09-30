@@ -1,7 +1,7 @@
 // script_has_artifact.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 31/66 (A:20 B:11 C:0); unaccounted 35; skipped std 1.
+// Accounted 31/66 (A:16 B:0 C:0); unaccounted 35; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,70 +10,70 @@
 
 // === .text (42 symbols) ===
 
-// confidence:B; align-order; retn,stable; map:35297
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:35297
 VA_CHT_1(0x0079d930, 0x49)
 bool t_script_has_artifact::evaluate(t_expression_context_hero const& arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:35298
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:35298
 VA_CHT_1(0x0079d980, 0x57)
 bool t_script_has_artifact::evaluate(t_expression_context_town const& arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:35299
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:35299
 VA_CHT_1(0x0079d9e0, 0x67)
 bool t_script_has_artifact::evaluate(t_expression_context_object const& arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:35300
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:35300
 VA_CHT_1(0x0079da50, 0x69)
 bool t_script_has_artifact::evaluate(t_expression_context_army const& arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:35301
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:35301
 VA_CHT_1(0x0079dac0, 0x4c)
 bool t_script_has_artifact::evaluate(t_expression_context_global const& arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:35302
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:35302
 VA_CHT_1(0x0079db10, 0x30)
 bool t_script_has_artifact::do_evaluate(t_creature_stack const* arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:35303
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:35303
 VA_CHT_1(0x0079dbb0, 0x39)
 bool t_script_has_artifact::do_evaluate(t_creature_array const* arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:35304
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:35304
 VA_CHT_1(0x0079dbf0, 0xf7)
 bool t_script_has_artifact::do_evaluate(t_player const* arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:35305
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:35305
 VA_CHT_1(0x0079dcf0, 0xc5)
 bool t_script_has_artifact::read(std::basic_streambuf<char, std::char_traits<char>>& arg_0, int arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:35306
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:35306
 VA_CHT_1(0x0079ddc0, 0x135)
 bool t_script_has_artifact::read_from_map(
     std::basic_streambuf<char, std::char_traits<char>>& arg_0,
@@ -83,17 +83,17 @@ bool t_script_has_artifact::read_from_map(
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:35307
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:35307
 VA_CHT_1(0x0079df00, 0xf8)
 bool t_script_has_artifact::write(std::basic_streambuf<char, std::char_traits<char>>& arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:63071; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:63071; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0079e000, 0x49, STATIC_INIT_DISPATCH, script_has_artifact)
 
-// confidence:A; align-order; atexit,stable; map:63073; name:C (dyninit; see ledger)
+// confidence:D; align-order; atexit,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:63073; name:C (dyninit; see ledger)
 VA_CHT_1(0x0079e050, 0x1f)
 // t_script_boolean_expression_base<8,t_script_has_artifact>::k_factory$atexit
 // Function body not reconstructed; signature retained as a comment.
@@ -174,7 +174,7 @@ t_script_boolean_expression_factory<8>::~t_script_boolean_expression_factory<8>(
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:35318
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:35318
 VA_CHT_1(0x0079e070, 0x49)
 t_script_boolean_expression_factory<8>::t_script_boolean_expression_factory<8>()
 {
@@ -218,7 +218,7 @@ t_script_boolean_expression<8>::t_script_boolean_expression<8>(t_script_boolean_
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:35324
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:35324
 VA_CHT_1_COMPGEN(0x0079e1e0, 0x1e, SCALAR_DELETING_DTOR, "t_script_boolean_expression<8>")
 
 // name:A; map symbol; map:35325

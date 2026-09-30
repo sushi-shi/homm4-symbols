@@ -1,7 +1,7 @@
 // thread.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 15/18 (A:7 B:0 C:8); unaccounted 3; skipped std 0.
+// Accounted 15/18 (A:4 B:0 C:0); unaccounted 3; skipped std 0.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,76 +10,76 @@
 
 // === .text (14 symbols) ===
 
-// confidence:C; align-order; retn; map:38784
+// confidence:D; align-order; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:38784
 VA_CHT_1(0x007f6a80, 0xc)
 unsigned long __stdcall thread_function(void* arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vptr; map:38785
+// confidence:D; align-order; retn,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:38785
 VA_CHT_1(0x007f6a90, 0x2a)
 t_thread::t_thread()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vptr; map:38786
+// confidence:D; align-order; retn,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:38786
 VA_CHT_1(0x007f6ae0, 0x40)
 t_thread::~t_thread()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn; map:38787
+// confidence:D; align-order; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:38787
 VA_CHT_1(0x007f6b60, 0x26)
 unsigned long t_thread::get_exit_code() const
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn; map:38788
+// confidence:D; align-order; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:38788
 VA_CHT_1(0x007f6df0, 0x2f)
 bool t_thread::is_running() const
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn; map:38789
+// confidence:D; align-order; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:38789
 VA_CHT_1(0x007f6e20, 0x217)
 void t_thread::stop(bool arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn; map:38790
+// confidence:D; align-order; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:38790
 VA_CHT_1(0x007f7150, 0x30)
 void t_thread::wait_to_end()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn; map:38791
+// confidence:D; align-order; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:38791
 VA_CHT_1(0x007f7180, 0x30)
 bool t_thread::stop_requested() const
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn; map:38792
+// confidence:D; align-order; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:38792
 VA_CHT_1(0x007f7da0, 0x51)
 void t_thread::start()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,vslot; map:38793
+// confidence:D; align-band; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:38793
 VA_CHT_1_COMPGEN(0x007f6ac0, 0x1e, VECTOR_DELETING_DTOR, t_thread)
 
 // name:A; map symbol; map:38794
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, t_thread)
 
-// confidence:C; align-band; retn; map:38795
+// confidence:D; align-band; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:38795
 VA_CHT_1(0x007f6b20, 0x24)
 t_owned_ptr<t_thread::t_data>::t_owned_ptr<t_thread::t_data>(t_thread::t_data* arg_0)
 {

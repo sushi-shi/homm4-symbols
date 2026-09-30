@@ -1,7 +1,7 @@
 // convert_16_bit.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\convert_16_bit.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 11/45 (A:9 B:1 C:1); unaccounted 34; skipped std 38.
+// Accounted 11/45 (A:6 B:0 C:0); unaccounted 34; skipped std 38.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,28 +10,28 @@
 
 // === .text (18 symbols) ===
 
-// confidence:B; align-order; retn,stable; map:22750
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:22750
 VA_CHT_1(0x006045b0, 0x21d)
 void set_pixel_masks(unsigned short arg_0, unsigned short arg_1, unsigned short arg_2)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:67067
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:67067
 VA_CHT_1(0x006047d0, 0xa)
 static int count_mask_bits16(int arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vptr; map:22751
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:22751
 VA_CHT_1(0x006047e0, 0xa5)
 t_pixel_mask_viewer::t_pixel_mask_viewer()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vptr; map:22752
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:22752
 VA_CHT_1(0x006049c0, 0x109)
 t_pixel_mask_viewer::~t_pixel_mask_viewer()
 {
@@ -63,7 +63,7 @@ t_vector_set<t_pixel_mask_viewer*, std::less<t_pixel_mask_viewer*>, std::allocat
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:22756
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:22756
 VA_CHT_1_COMPGEN(0x00604890, 0x12d, VECTOR_DELETING_DTOR, t_pixel_mask_viewer)
 
 // name:A; map symbol; map:22757

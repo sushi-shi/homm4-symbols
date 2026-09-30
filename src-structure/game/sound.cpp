@@ -1,7 +1,7 @@
 // sound.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\sound.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 82/153 (A:62 B:4 C:16); unaccounted 71; skipped std 88.
+// Accounted 82/153 (A:42 B:1 C:0); unaccounted 71; skipped std 88.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,7 +10,7 @@
 
 // === .text (102 symbols) ===
 
-// confidence:C; align-order; retn,stable; map:37620
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37620
 VA_CHT_1(0x007c8db0, 0x7)
 t_direct_sound_wrapper_base::~t_direct_sound_wrapper_base()
 {
@@ -31,14 +31,14 @@ _DIG_DRIVER* const t_direct_sound_wrapper_base::get_miles_digitial_driver()
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vptr; map:37623
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:37623
 VA_CHT_1(0x007c8dc0, 0x148)
 t_direct_sound_object::t_direct_sound_object()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vptr; map:37624
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:37624
 VA_CHT_1(0x007c8f60, 0x152)
 t_direct_sound_object::~t_direct_sound_object()
 {
@@ -52,7 +52,7 @@ bool t_direct_sound_object::is_shut_down() const
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:37626
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37626
 VA_CHT_1(0x007c90c0, 0x7a)
 void t_direct_sound_object::stop_sounds()
 {
@@ -87,7 +87,7 @@ void t_direct_sound_object::remove(t_sound_player* arg_0)
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:37631
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37631
 VA_CHT_1(0x007c9150, 0x7c)
 void t_direct_sound_object::service_sounds()
 {
@@ -101,7 +101,7 @@ IDirectSoundBuffer* t_direct_sound_object::create_buffer(tWAVEFORMATEX* arg_0, i
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:37633
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37633
 VA_CHT_1(0x007c91d0, 0xa)
 t_direct_sound_wrapper_base& get_directsound_wrapper()
 {
@@ -122,7 +122,7 @@ VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 
 namespace {
 
-// confidence:A; align-order; retn,stable,vslot; map:37634
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:37634
 VA_CHT_1(0x007c91e0, 0x36)
 unsigned long t_sound_thread::run()
 {
@@ -131,14 +131,14 @@ unsigned long t_sound_thread::run()
 
 } // anonymous namespace
 
-// confidence:A; align-order; retn,stable,vptr; map:37635
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:37635
 VA_CHT_1(0x007c9220, 0x1e)
 t_sound_header::t_sound_header()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:37636
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:37636
 VA_CHT_1(0x007c9240, 0x15c)
 bool t_sound_header::read(std::basic_streambuf<char, std::char_traits<char>>& arg_0)
 {
@@ -161,7 +161,7 @@ void t_sync_list::clear()
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:37639
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37639
 VA_CHT_1(0x007c93a0, 0xe6)
 void t_sync_list::on_idle()
 {
@@ -170,7 +170,7 @@ void t_sync_list::on_idle()
 
 } // anonymous namespace
 
-// confidence:A; align-order; retn,stable,vptr; map:37640
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:37640
 VA_CHT_1(0x007c9490, 0xd0)
 t_playing_sound::t_playing_sound(t_sound const& arg_0)
 {
@@ -179,28 +179,28 @@ t_playing_sound::t_playing_sound(t_sound const& arg_0)
 
 namespace {
 
-// confidence:A; align-order; retn,stable,vptr; map:37641
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:37641
 VA_CHT_1(0x007c95f0, 0x155)
 t_sound_player::t_sound_player(t_sound const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vptr; map:37642
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:37642
 VA_CHT_1(0x007c9770, 0x1cc)
 t_sound_player::~t_sound_player()
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:37643
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37643
 VA_CHT_1(0x007c9940, 0x2e6)
 void t_sound_player::create_events(int arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:37644
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37644
 VA_CHT_1(0x007c9c30, 0x2ba)
 void t_sound_player::create_buffer()
 {
@@ -214,7 +214,7 @@ void t_sound_player::close_buffer()
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:37646
+// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:37646
 VA_CHT_1(0x007c9ef0, 0xda)
 int t_sound_player::get_balance() const
 {
@@ -228,49 +228,49 @@ int t_sound_player::get_type() const
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:37648
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:37648
 VA_CHT_1(0x007c9fd0, 0xbc)
 int t_sound_player::get_volume() const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:37649
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:37649
 VA_CHT_1(0x007ca090, 0xc6)
 void t_sound_player::set_balance(int arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:37650
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:37650
 VA_CHT_1(0x007ca160, 0xdf)
 void t_sound_player::set_volume(int arg_0, bool arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:37651
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37651
 VA_CHT_1(0x007ca240, 0x1a3)
 void t_sound_player::on_stop()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:37652
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37652
 VA_CHT_1(0x007ca3f0, 0x107)
 void t_sound_player::fill_first_half_no_verify()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:37653
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37653
 VA_CHT_1(0x007ca500, 0x106)
 void t_sound_player::fill_first_half()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:37654
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37654
 VA_CHT_1(0x007ca610, 0xbb)
 void t_sound_player::fill_second_half()
 {
@@ -298,42 +298,42 @@ void t_sound_player::check_stop()
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:37658
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:37658
 VA_CHT_1(0x007ca6d0, 0x22d)
 void t_sound_player::play(int arg_0, bool arg_1, bool arg_2)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:37659
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:37659
 VA_CHT_1(0x007ca900, 0x299)
 void t_sound_player::stop(bool arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:37660
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37660
 VA_CHT_1(0x007caba0, 0x1d2)
 void t_sound_player::fill_buffer(int arg_0, int arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:37661
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:37661
 VA_CHT_1(0x007cad80, 0xc3)
 void t_sound_player::fade_out(bool arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:37662
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:37662
 VA_CHT_1(0x007cae50, 0x1a)
 bool t_sound_player::is_fading_out() const
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:37663
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37663
 VA_CHT_1(0x007cae70, 0x1ba)
 void t_sound_player::update()
 {
@@ -342,28 +342,28 @@ void t_sound_player::update()
 
 } // anonymous namespace
 
-// confidence:B; align-order; retn,stable; map:37664
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37664
 VA_CHT_1(0x007cb030, 0x185)
 t_counted_ptr<t_playing_sound> t_sound::play(int arg_0, bool arg_1, bool arg_2) const
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:37665
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37665
 VA_CHT_1(0x007cb1c0, 0x3d)
 int get_millibel_volume(int arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:37666
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37666
 VA_CHT_1(0x007cb200, 0x50)
 int get_linear_volume(int arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:37667
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37667
 VA_CHT_1(0x007cb300, 0x72)
 void stop_all_sounds()
 {
@@ -376,7 +376,7 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, t_direct_sound
 // name:A; map symbol; map:37669
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, t_direct_sound_wrapper_base)
 
-// confidence:A; align-band; retn,stable,vslot; map:37670
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:37670
 VA_CHT_1_COMPGEN(0x007c8f10, 0x1e, SCALAR_DELETING_DTOR, t_direct_sound_object)
 
 // name:A; map symbol; map:37671
@@ -407,7 +407,7 @@ t_sound_thread::~t_sound_thread()
 
 } // anonymous namespace
 
-// confidence:A; align-band; retn,stable,vslot; map:37675
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:37675
 VA_CHT_1_COMPGEN(0x007c8f40, 0x1e, VECTOR_DELETING_DTOR, t_sound_thread)
 
 // name:A; map symbol; map:37676
@@ -427,7 +427,7 @@ t_counted_ptr<t_direct_sound_object>::~t_counted_ptr<t_direct_sound_object>()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:37679
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:37679
 VA_CHT_1_COMPGEN(0x007c9560, 0x1e, VECTOR_DELETING_DTOR, t_playing_sound)
 
 // name:A; map symbol; map:37680
@@ -468,7 +468,7 @@ t_playing_sound::~t_playing_sound()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:37686
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:37686
 VA_CHT_1_COMPGEN(0x007c9750, 0x1e, SCALAR_DELETING_DTOR, t_sound_player)
 
 // name:A; map symbol; map:37687
@@ -476,7 +476,7 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, t_sound_player
 
 namespace {
 
-// confidence:C; align-band; retn,stable; map:37688
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37688
 VA_CHT_1(0x007cb250, 0xab)
 t_sync_list::t_sync_list()
 {
@@ -696,7 +696,7 @@ t_playing_sound* implicit_cast(t_playing_sound* arg_0)
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:37807
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37807
 VA_CHT_1_COMPGEN(0x007cb3e0, 0x8, VECTOR_DELETING_DTOR, "t_bound_handler<t_sound_player>")
 
 // === .rdata (11 symbols) ===

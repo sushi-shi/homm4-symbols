@@ -1,7 +1,7 @@
 // dialog_caravan_arrivals.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 68/111 (A:44 B:18 C:6); unaccounted 43; skipped std 20.
+// Accounted 68/111 (A:30 B:4 C:0); unaccounted 43; skipped std 20.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,13 +10,13 @@
 
 // === .text (73 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:66572; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:66572; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x006440e0, 0x15, STATIC_INIT_DISPATCH, "dialog_caravan_arrivals#1")
 
 // name:C; dyninit; see ledger; map:66573
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "dialog_caravan_arrivals#1")
 
-// confidence:A; dyninit-init; owner-conf-C; map:66574; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:66574; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00644100, 0x1b, STATIC_INIT_DISPATCH, "dialog_caravan_arrivals#2")
 
 // name:C; dyninit; see ledger; map:66575
@@ -25,10 +25,10 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "dialog_caravan_arrival
 // name:C; dyninit; see ledger; map:66576
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "dialog_caravan_arrivals#2")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:66577; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:66577; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00644120, 0xa, STATIC_DTOR, "dialog_caravan_arrivals#2")
 
-// confidence:A; dyninit-init; owner-conf-C; map:66578; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:66578; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00644130, 0x1b, STATIC_INIT_DISPATCH, "dialog_caravan_arrivals#3")
 
 // name:C; dyninit; see ledger; map:66579
@@ -37,79 +37,79 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "dialog_caravan_arrival
 // name:C; dyninit; see ledger; map:66580
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "dialog_caravan_arrivals#3")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:66581; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:66581; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00644150, 0xa, STATIC_DTOR, "dialog_caravan_arrivals#3")
 
-// confidence:A; dyninit-init; owner-conf-C; map:66582; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:66582; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00644160, 0x11, STATIC_INIT_DISPATCH, "dialog_caravan_arrivals#4")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:66583; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:66583; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00644180, 0xd1, STATIC_CTOR, "dialog_caravan_arrivals#4")
 
 // name:C; dyninit; see ledger; map:66584
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "dialog_caravan_arrivals#4")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:66585; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:66585; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00644260, 0xa, STATIC_DTOR, "dialog_caravan_arrivals#4")
 
-// confidence:A; dyninit-init; owner-conf-C; map:66586; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:66586; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00644270, 0x11, STATIC_INIT_DISPATCH, "dialog_caravan_arrivals#5")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:66587; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:66587; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00644290, 0xd1, STATIC_CTOR, "dialog_caravan_arrivals#5")
 
 // name:C; dyninit; see ledger; map:66588
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "dialog_caravan_arrivals#5")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:66589; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:66589; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00644370, 0xa, STATIC_DTOR, "dialog_caravan_arrivals#5")
 
-// confidence:A; dyninit-init; owner-conf-C; map:66590; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:66590; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00644380, 0x11, STATIC_INIT_DISPATCH, "dialog_caravan_arrivals#6")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:66591; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:66591; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x006443a0, 0xd1, STATIC_CTOR, "dialog_caravan_arrivals#6")
 
 // name:C; dyninit; see ledger; map:66592
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "dialog_caravan_arrivals#6")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:66593; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:66593; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00644480, 0xa, STATIC_DTOR, "dialog_caravan_arrivals#6")
 
-// confidence:A; dyninit-init; owner-conf-C; map:66594; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:66594; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00644490, 0x11, STATIC_INIT_DISPATCH, "dialog_caravan_arrivals#7")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:66595; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:66595; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x006444b0, 0xd7, STATIC_CTOR, "dialog_caravan_arrivals#7")
 
 // name:C; dyninit; see ledger; map:66596
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "dialog_caravan_arrivals#7")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:66597; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:66597; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00644590, 0xa, STATIC_DTOR, "dialog_caravan_arrivals#7")
 
-// confidence:A; align-order; retn,stable,vptr; map:24209
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:24209
 VA_CHT_1(0x006445a0, 0xa8)
 t_dialog_caravan_arrivals::t_dialog_caravan_arrivals(t_window* arg_0, t_adventure_map& arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:24210
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:24210
 VA_CHT_1(0x006447b0, 0x2033)
 bool t_dialog_caravan_arrivals::init_dialog(t_town& arg_0, t_creature_array* arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:24211
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:24211
 VA_CHT_1(0x006467f0, 0x1f)
 void t_dialog_caravan_arrivals::move_garrison_clicked()
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:24212
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:24212
 VA_CHT_1(0x00646810, 0x20)
 void t_dialog_caravan_arrivals::move_to_garrison_clicked(int arg_0)
 {
@@ -123,33 +123,33 @@ void t_dialog_caravan_arrivals::move_to_visiting_clicked(int arg_0)
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:24214
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:24214
 VA_CHT_1(0x00646860, 0x1d)
 void t_dialog_caravan_arrivals::move_visiting_clicked()
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:24215
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:24215
 VA_CHT_1(0x00646880, 0x7e)
 void t_dialog_caravan_arrivals::ok_clicked(t_button* arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:24216
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:24216
 VA_CHT_1(0x00646aa0, 0x5e)
 void t_dialog_caravan_arrivals::scroll(t_scrollbar* arg_0, int arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:66598; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:66598; name:B (dyninit; see ledger)
 VA_CHT_1(0x00646b00, 0x20)
 // dialog_caravan_arrivals$tinit1
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:66600; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:66600; name:B (dyninit; see ledger)
 VA_CHT_1(0x00646b20, 0x5c)
 // dialog_caravan_arrivals$tinit2
 // Function body not reconstructed; signature retained as a comment.
@@ -169,7 +169,7 @@ VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 // dialog_caravan_arrivals$tatexit4
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; align-band; retn,stable,vslot; map:24217
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:24217
 VA_CHT_1_COMPGEN(0x00644650, 0x1e, SCALAR_DELETING_DTOR, t_dialog_caravan_arrivals)
 
 // name:A; map symbol; map:24218
@@ -230,7 +230,7 @@ t_handler_1<int> bound_handler(t_dialog_caravan_arrivals& arg_0, void (t_dialog_
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:24245
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:24245
 VA_CHT_1(0x00646980, 0x5e)
 t_bound_handler_1<t_dialog_caravan_arrivals, t_button*>::t_bound_handler_1<t_dialog_caravan_arrivals, t_button*>(
     t_dialog_caravan_arrivals& arg_0,
@@ -247,7 +247,7 @@ void t_bound_handler_1<t_dialog_caravan_arrivals, t_button*>::operator()(t_butto
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:24247
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:24247
 VA_CHT_1(0x006469e0, 0x5e)
 t_bound_handler<t_dialog_caravan_arrivals>::t_bound_handler<t_dialog_caravan_arrivals>(
     t_dialog_caravan_arrivals& arg_0,
@@ -264,7 +264,7 @@ void t_bound_handler<t_dialog_caravan_arrivals>::operator()()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:24249
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:24249
 VA_CHT_1(0x00646a40, 0x5e)
 t_bound_handler_2<t_dialog_caravan_arrivals, t_scrollbar*, int>::t_bound_handler_2<t_dialog_caravan_arrivals, t_scrollbar*, int>(
     t_dialog_caravan_arrivals& arg_0,
@@ -364,16 +364,16 @@ t_counted_ptr<t_caravan>& t_counted_ptr<t_caravan>::operator=(t_counted_ptr<t_ca
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:24266
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:24266
 VA_CHT_1_COMPGEN(0x00646b80, 0x8, VECTOR_DELETING_DTOR, "t_bound_handler<t_dialog_caravan_arrivals>")
 
-// confidence:C; align-order; stable; map:24267
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:24267
 VA_CHT_1_COMPGEN(0x00646b90, 0x8, VECTOR_DELETING_DTOR, "t_bound_handler_2<t_dialog_caravan_arrivals, t_scrollbar*, int>")
 
-// confidence:C; align-order; stable; map:24268
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:24268
 VA_CHT_1_COMPGEN(0x00646ba0, 0x8, VECTOR_DELETING_DTOR, "t_bound_handler_1<t_dialog_caravan_arrivals, int>")
 
-// confidence:C; align-order; stable; map:24269
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:24269
 VA_CHT_1_COMPGEN(0x00646bb0, 0x8, VECTOR_DELETING_DTOR, "t_bound_handler_1<t_dialog_caravan_arrivals, t_button*>")
 
 // === .rdata (9 symbols) ===

@@ -1,7 +1,7 @@
 // compressed_filter.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 45/77 (A:35 B:0 C:10); unaccounted 32; skipped std 3.
+// Accounted 45/77 (A:23 B:0 C:0); unaccounted 32; skipped std 3.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,21 +10,21 @@
 
 // === .text (44 symbols) ===
 
-// confidence:A; align-order; retn,stable,vptr; map:22685
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:22685
 VA_CHT_1(0x00602930, 0x28e)
 t_deflate_filter::t_deflate_filter(std::basic_streambuf<char, std::char_traits<char>>& arg_0, long arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; vptr; map:22686
+// confidence:D; align-order; vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:22686
 VA_CHT_1(0x00602d50, 0x3e)
 t_deflate_filter::~t_deflate_filter()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:22687
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:22687
 VA_CHT_1(0x00602e00, 0x380)
 int t_deflate_filter::close()
 {
@@ -38,14 +38,14 @@ int t_deflate_filter::put(unsigned long arg_0)
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:22689
+// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:22689
 VA_CHT_1(0x00603180, 0x63)
 int t_deflate_filter::sync()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn; map:22690
+// confidence:D; align-order; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:22690
 VA_CHT_1(0x006031f0, 0xe1)
 int t_deflate_filter::sync_raw()
 {
@@ -59,14 +59,14 @@ int t_deflate_filter::sync_compressed()
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:22692
+// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:22692
 VA_CHT_1(0x006032e0, 0x76)
 int t_deflate_filter::overflow(int arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn; map:22693
+// confidence:D; align-order; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:22693
 VA_CHT_1(0x00603360, 0xbc)
 int t_deflate_filter::overflow_raw(int arg_0)
 {
@@ -80,14 +80,14 @@ int t_deflate_filter::overflow_compress(int arg_0)
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vptr; map:22695
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:22695
 VA_CHT_1(0x00603420, 0x103)
 t_inflate_filter::t_data_error::t_data_error()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:22696
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:22696
 VA_CHT_1(0x00603530, 0x6d)
 int t_inflate_filter::get_char()
 {
@@ -101,52 +101,52 @@ void t_inflate_filter::put_back_char(char arg_0)
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vptr; map:22698
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:22698
 VA_CHT_1(0x006035a0, 0x600)
 t_inflate_filter::t_inflate_filter(std::basic_streambuf<char, std::char_traits<char>>& arg_0, long arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; vptr; map:22699
+// confidence:D; align-order; vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:22699
 VA_CHT_1(0x00603d20, 0x3e)
 t_inflate_filter::~t_inflate_filter()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:22700
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:22700
 VA_CHT_1(0x00603d67, 0x68)
 int t_inflate_filter::close()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:22701
+// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:22701
 VA_CHT_1(0x00603e70, 0x64)
 int t_inflate_filter::underflow()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn; map:22702
+// confidence:D; align-order; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:22702
 VA_CHT_1(0x00603ee0, 0x255)
 int t_inflate_filter::underflow_raw()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn; map:22703
+// confidence:D; align-order; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:22703
 VA_CHT_1(0x00604140, 0x82)
 int t_inflate_filter::underflow_compress()
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:67076; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:67076; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x006041d0, 0x20, STATIC_INIT_DISPATCH, compressed_filter)
 
-// confidence:C; align-band; retn; map:22704
+// confidence:D; align-band; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:22704
 VA_CHT_1(0x006037ca, 0x10)
 char* t_deflate_filter::get_input_buffer()
 {
@@ -175,7 +175,7 @@ t_constructor_failure<t_deflate_filter, std::runtime_error>::~t_constructor_fail
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:22709
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:22709
 VA_CHT_1(0x00602bf0, 0x158)
 t_constructor_failure<t_deflate_filter, std::runtime_error>::t_constructor_failure<t_deflate_filter, std::runtime_error>(
     t_constructor_failure<t_deflate_filter, std::runtime_error> const& arg_0
@@ -224,14 +224,14 @@ int t_inflate_filter::must_get_char()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:22718
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:22718
 VA_CHT_1(0x00603ba0, 0x158)
 t_inflate_filter::t_data_error::t_data_error(t_inflate_filter::t_data_error const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:22719
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:22719
 VA_CHT_1_COMPGEN(0x00603d00, 0x1e, VECTOR_DELETING_DTOR, t_inflate_filter)
 
 // name:A; map symbol; map:22720
@@ -274,14 +274,14 @@ char& t_owned_array<char>::operator[](int arg_0) const
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn; map:22727
+// confidence:D; align-band; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:22727
 VA_CHT_1(0x00603dd0, 0x92)
 std::string t_constructor_failure<t_deflate_filter, std::runtime_error>::build_msg()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn; map:22729
+// confidence:D; align-band; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:22729
 VA_CHT_1(0x00602d97, 0x68)
 std::string t_constructor_failure<t_deflate_filter, std::runtime_error>::build_msg(std::string const& arg_0)
 {

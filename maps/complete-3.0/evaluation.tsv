@@ -1,0 +1,16 @@
+check	tier	agree	disagree	rate	detail
+vftable-slot	B	3	1	0.750000	diagnostic, not a measured name precision
+vftable-slot	C	6	0	1.000000	diagnostic, not a measured name precision
+vftable-slot	D	501	1	0.998008	diagnostic, not a measured name precision
+vftable-slot	unnamed	104	1	0.990476	diagnostic, not a measured name precision
+held-out-call-target	B	136	0	1.000000	diagnostic, not a measured name precision
+held-out-call-target	C	129	5	0.962687	diagnostic, not a measured name precision
+held-out-call-target	D	8496	1	0.999882	diagnostic, not a measured name precision
+held-out-call-target	unnamed	3032	0	1.000000	diagnostic, not a measured name precision
+held-out-block-count	B	54	0	1.000000	diagnostic, not a measured name precision
+held-out-block-count	C	102	4	0.962264	diagnostic, not a measured name precision
+held-out-block-count	D	4495	172	0.963145	diagnostic, not a measured name precision
+held-out-block-count	unnamed	1040	65	0.941176	diagnostic, not a measured name precision
+held-out-ret-N	all	3319	41	0.987798	RET immediates excluded from assembly tokens in both runs
+ret-ablation-stability	all	5915	17	0.997134	missing correspondences count as unstable
+ordered-backbone	all	3994	0	1.000000	unique assembly matches may move across releases; ordered gap matches must remain monotonic

@@ -1,7 +1,7 @@
 // shared_file.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 23/51 (A:21 B:0 C:2); unaccounted 28; skipped std 2.
+// Accounted 23/51 (A:12 B:0 C:0); unaccounted 28; skipped std 2.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,21 +10,21 @@
 
 // === .text (33 symbols) ===
 
-// confidence:C; align-order; retn,stable; map:37101
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37101
 VA_CHT_1(0x007afe80, 0x8e)
 t_shared_file::t_shared_file()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; stable,vptr; map:37102
+// confidence:D; align-order; stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:37102
 VA_CHT_1(0x007aff30, 0x17c)
 t_shared_file::t_shared_file(std::string arg_0, std::string arg_1, t_derived_file_systems arg_2)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vptr; map:37103
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:37103
 VA_CHT_1(0x007b00b0, 0xa4)
 t_shared_file::~t_shared_file()
 {
@@ -70,38 +70,38 @@ bool t_resource_shared_file::is_open()
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vptr; map:37109
+// confidence:D; align-order; retn,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:37109
 VA_CHT_1(0x007b0160, 0xf3)
 t_shared_file_buffer::t_shared_file_buffer(t_shared_file* arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:37110
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:37110
 VA_CHT_1(0x007b0330, 0x97)
 std::fpos<int> t_shared_file_buffer::seekoff(long arg_0, std::ios_base::seekdir arg_1, int arg_2)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; stable,vslot; map:37111
+// confidence:D; align-order; stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:37111
 VA_CHT_1(0x007b03d0, 0xd9)
 std::fpos<int> t_shared_file_buffer::seekpos(std::fpos<int> arg_0, int arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:37112
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:37112
 VA_CHT_1(0x007b04b0, 0x96)
 int t_shared_file_buffer::underflow()
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:62829; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:62829; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007b0550, 0x20, STATIC_INIT_DISPATCH, shared_file)
 
-// confidence:A; align-band; retn,stable,vslot; map:37113
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:37113
 VA_CHT_1_COMPGEN(0x007aff10, 0x1e, SCALAR_DELETING_DTOR, t_shared_file)
 
 // name:A; map symbol; map:37114
@@ -127,7 +127,7 @@ t_data_lock& t_shared_file::get_data_lock()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:37119
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:37119
 VA_CHT_1_COMPGEN(0x007b0260, 0x1e, SCALAR_DELETING_DTOR, t_shared_file_buffer)
 
 // name:A; map symbol; map:37120
@@ -161,7 +161,7 @@ t_owned_ptr<t_abstract_file>::t_owned_ptr<t_abstract_file>(t_abstract_file* arg_
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn; map:37125
+// confidence:D; align-band; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:37125
 VA_CHT_1(0x007b0280, 0xa7)
 t_owned_ptr<t_abstract_file>::~t_owned_ptr<t_abstract_file>()
 {

@@ -1,7 +1,7 @@
 // adv_object_deletion_marker.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\adv_object_deletion_marker.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 24/42 (A:19 B:3 C:2); unaccounted 18; skipped std 1.
+// Accounted 24/42 (A:12 B:3 C:0); unaccounted 18; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,19 +10,19 @@
 
 // === .text (21 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:71008; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:71008; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00443f60, 0x15, STATIC_INIT_DISPATCH, "adv_object_deletion_marker#1")
 
 // name:C; dyninit; see ledger; map:71009
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "adv_object_deletion_marker#1")
 
-// confidence:A; dyninit-init; owner-conf-B; map:71010; name:B (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:71010; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00443f80, 0x1c, STATIC_INIT_DISPATCH, g_registration)
 
 // name:B; dyninit; see ledger; map:71011
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, g_registration)
 
-// confidence:A; align-order; retn,stable,vslot; map:4975
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:4975
 VA_CHT_1(0x00443fa0, 0x15)
 void t_adv_object_deletion_marker::place(t_adventure_map& arg_0, t_adv_map_point const& arg_1)
 {
@@ -39,12 +39,12 @@ bool t_adv_object_deletion_marker::read_from_map(
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:71012; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:71012; name:B (dyninit; see ledger)
 VA_CHT_1(0x00444250, 0x20)
 // adv_object_deletion_marker$tinit1
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:71014; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:71014; name:B (dyninit; see ledger)
 VA_CHT_1(0x00444270, 0x5c)
 // adv_object_deletion_marker$tinit2
 // Function body not reconstructed; signature retained as a comment.
@@ -80,7 +80,7 @@ t_object_factory<t_adv_object_deletion_marker>::t_object_factory<t_adv_object_de
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,vslot; map:4979
+// confidence:D; align-band; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:4979
 VA_CHT_1(0x00444040, 0x141)
 t_stationary_adventure_object* t_object_factory<t_adv_object_deletion_marker>::create(
     std::string const& arg_0,
@@ -97,7 +97,7 @@ t_adv_object_deletion_marker::t_adv_object_deletion_marker(std::string const& ar
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:4981
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:4981
 VA_CHT_1_COMPGEN(0x00444190, 0x2d, VECTOR_DELETING_DTOR, t_adv_object_deletion_marker)
 
 // name:A; map symbol; map:4982
@@ -115,10 +115,10 @@ t_adv_object_deletion_marker::~t_adv_object_deletion_marker()
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:4985
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:4985
 VA_CHT_1_COMPGEN(0x004442d0, 0x8, VECTOR_DELETING_DTOR, t_adv_object_deletion_marker)
 
-// confidence:C; align-order; stable; map:4986
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:4986
 VA_CHT_1_COMPGEN(0x004442e0, 0xb, VECTOR_DELETING_DTOR, t_adv_object_deletion_marker)
 
 // === .rdata (7 symbols) ===

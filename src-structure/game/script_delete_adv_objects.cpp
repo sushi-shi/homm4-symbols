@@ -1,7 +1,7 @@
 // script_delete_adv_objects.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 27/63 (A:22 B:5 C:0); unaccounted 36; skipped std 1.
+// Accounted 27/63 (A:16 B:0 C:0); unaccounted 36; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,7 +10,7 @@
 
 // === .text (39 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:63111; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:63111; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00798b80, 0x15, STATIC_INIT_DISPATCH, "script_delete_adv_objects#1")
 
 // name:C; dyninit; see ledger; map:63112
@@ -33,7 +33,7 @@ bool t_script_delete_adv_objects::read(std::basic_streambuf<char, std::char_trai
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:34918
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:34918
 VA_CHT_1(0x00798ba0, 0x57)
 bool t_script_delete_adv_objects::write(std::basic_streambuf<char, std::char_traits<char>>& arg_0) const
 {
@@ -47,35 +47,35 @@ void t_script_delete_adv_objects::execute(t_script_context_hero const& arg_0) co
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:34920
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:34920
 VA_CHT_1(0x00798c00, 0x13)
 void t_script_delete_adv_objects::execute(t_script_context_town const& arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:34921
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:34921
 VA_CHT_1(0x00798c20, 0x13)
 void t_script_delete_adv_objects::execute(t_script_context_object const& arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:34922
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:34922
 VA_CHT_1(0x00798c40, 0x12)
 void t_script_delete_adv_objects::execute(t_script_context_army const& arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:34923
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:34923
 VA_CHT_1(0x00798c60, 0x13)
 void t_script_delete_adv_objects::execute(t_script_context_global const& arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:63113; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:63113; name:B (dyninit; see ledger)
 VA_CHT_1(0x00798c80, 0x49)
 // script_delete_adv_objects$tinit1
 // Function body not reconstructed; signature retained as a comment.
@@ -83,7 +83,7 @@ VA_CHT_1(0x00798c80, 0x49)
 // name:C; dyninit; see ledger; map:63115
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "t_script_action_base<16,t_script_delete_adv_objects>::k_factory")
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:63116; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:63116; name:B (dyninit; see ledger)
 VA_CHT_1(0x00798e10, 0x5c)
 // script_delete_adv_objects$tinit2
 // Function body not reconstructed; signature retained as a comment.
@@ -116,7 +116,7 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "t_script_action_base<1
 // name:A; dyninit; see ledger; map:34926
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_DTOR, "t_script_action_base<16,t_script_delete_adv_objects>::k_factory")
 
-// confidence:A; align-band; retn,stable,vptr; map:34927
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:34927
 VA_CHT_1(0x00798cf0, 0x14)
 t_script_action_factory<16>::~t_script_action_factory<16>()
 {
@@ -130,7 +130,7 @@ t_script_action_factory<16>::t_script_action_factory<16>()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:34929
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:34929
 VA_CHT_1(0x00798d10, 0x47)
 t_counted_ptr<t_abstract_script_action> t_script_action_factory<16>::create() const
 {
@@ -165,7 +165,7 @@ t_script_action<16>::t_script_action<16>(t_script_action<16> const& arg_0)
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:34934
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:34934
 VA_CHT_1_COMPGEN(0x00798d60, 0x8f, VECTOR_DELETING_DTOR, "t_script_action<16>")
 
 // name:A; map symbol; map:34935

@@ -1,0 +1,12 @@
+{
+  "id": "complete-3.0",
+  "exe": "binaries/complete-3.0/heroes4.exe",
+  "sha256": "2eb82f32ab744ad7c272e32a950adcef3f20d8ab27572023f1084fd6519f61f2",
+  "version": "Complete 3.0, English; PE resource version 3.0WoW",
+  "image_base": "0x400000",
+  "address_tag": "COMPLETE_3",
+  "source": "cht-1.x",
+  "mapping_scope": "checked map RTTI/vftables (A), reviewed CHT retail function transfers (B/C), unreviewed function proposals (D; not a best guess)",
+  "padded_scan_end_rva": "4fa51b",
+  "unreviewed_function_tier": "D"
+}

@@ -1,7 +1,7 @@
 // check_artifact_influence.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\check_artifact_influence.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 38/65 (A:34 B:3 C:1); unaccounted 27; skipped std 25.
+// Accounted 38/65 (A:18 B:0 C:0); unaccounted 27; skipped std 25.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,37 +10,37 @@
 
 // === .text (47 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:68209; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:68209; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x005a66b0, 0x15, STATIC_INIT_DISPATCH, "check_artifact_influence#1")
 
 // name:C; dyninit; see ledger; map:68210
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "check_artifact_influence#1")
 
-// confidence:A; dyninit-init; owner-conf-C; map:68211; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:68211; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x005a66d0, 0x15, STATIC_INIT_DISPATCH, "check_artifact_influence#2")
 
 // name:C; dyninit; see ledger; map:68212
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "check_artifact_influence#2")
 
-// confidence:A; dyninit-init; owner-conf-C; map:68213; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:68213; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x005a66f0, 0x15, STATIC_INIT_DISPATCH, "check_artifact_influence#3")
 
 // name:C; dyninit; see ledger; map:68214
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "check_artifact_influence#3")
 
-// confidence:A; dyninit-init; owner-conf-C; map:68215; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:68215; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x005a6710, 0x15, STATIC_INIT_DISPATCH, "check_artifact_influence#4")
 
 // name:C; dyninit; see ledger; map:68216
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "check_artifact_influence#4")
 
-// confidence:A; dyninit-init; owner-conf-C; map:68217; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:68217; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x005a6730, 0x10, STATIC_INIT_DISPATCH, "check_artifact_influence#5")
 
 // name:C; dyninit; see ledger; map:68218
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "check_artifact_influence#5")
 
-// confidence:A; dyninit-init; owner-conf-C; map:68219; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:68219; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x005a6740, 0x15, STATIC_INIT_DISPATCH, "check_artifact_influence#6")
 
 // name:C; dyninit; see ledger; map:68220
@@ -60,28 +60,28 @@ t_influence_visitor::t_influence_visitor(
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:19356
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:19356
 VA_CHT_1(0x005a6760, 0x7e)
 bool t_influence_visitor::check_target(t_artifact_effect& arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:19357
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:19357
 VA_CHT_1(0x005a6800, 0xe7)
 bool t_influence_visitor::visit(t_artifact_effect& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:19358
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:19358
 VA_CHT_1(0x005a6b00, 0x30)
 bool t_influence_visitor::visit_ability(t_artifact_prop::t_give_ability& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:19359
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:19359
 VA_CHT_1(0x005a6b30, 0x1ea)
 bool t_influence_visitor::visit_combat(t_artifact_prop::t_combat& arg_0)
 {
@@ -95,7 +95,7 @@ bool t_influence_visitor::visit_spell(t_artifact_prop::t_single_spell& arg_0)
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:19361
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:19361
 VA_CHT_1(0x005a6d20, 0x30)
 bool t_influence_visitor::visit_spell_cost(t_artifact_prop::t_spell_cost_base& arg_0)
 {
@@ -111,7 +111,7 @@ bool t_influence_visitor::visit_spell_list(t_artifact_prop::t_spell_list_effect&
 
 } // anonymous namespace
 
-// confidence:B; align-order; retn,stable; map:19363
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:19363
 VA_CHT_1(0x005a6e70, 0xbb)
 void check_artifact_influence(
     t_combat_creature const& arg_0,
@@ -132,28 +132,28 @@ t_artifact_attribute_visitor::t_artifact_attribute_visitor(t_combat_creature& ar
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:19365
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:19365
 VA_CHT_1(0x005a6f40, 0x6b)
 bool t_artifact_attribute_visitor::visit(t_artifact_effect& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:19366
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:19366
 VA_CHT_1(0x005a6fb0, 0x2b)
 bool t_artifact_attribute_visitor::visit_ability(t_artifact_prop::t_give_ability& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:19367
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:19367
 VA_CHT_1(0x005a6fe0, 0xd2)
 bool t_artifact_attribute_visitor::visit_spell(t_artifact_prop::t_single_spell& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:19368
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:19368
 VA_CHT_1(0x005a70c0, 0x11c)
 bool t_artifact_attribute_visitor::visit_spell_list(t_artifact_prop::t_spell_list_effect& arg_0)
 {
@@ -162,7 +162,7 @@ bool t_artifact_attribute_visitor::visit_spell_list(t_artifact_prop::t_spell_lis
 
 } // anonymous namespace
 
-// confidence:C; align-order; retn,stable; map:19369
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:19369
 VA_CHT_1(0x005a71e0, 0x71)
 void check_artifacts(t_combat_creature& arg_0)
 {
@@ -178,7 +178,7 @@ t_spell_attack_visitor::t_spell_attack_visitor(t_combat_creature& arg_0, t_comba
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:19371
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:19371
 VA_CHT_1(0x005a7260, 0x1c7)
 bool t_spell_attack_visitor::visit_spell_attack(t_artifact_prop::t_spell_with_attack_base& arg_0)
 {
@@ -187,14 +187,14 @@ bool t_spell_attack_visitor::visit_spell_attack(t_artifact_prop::t_spell_with_at
 
 } // anonymous namespace
 
-// confidence:B; align-order; retn,stable; map:19372
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:19372
 VA_CHT_1(0x005a7440, 0x83)
 void check_artifact_spell_attack(t_combat_creature& arg_0, t_combat_creature& arg_1, bool arg_2)
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:68221; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:68221; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x005a7940, 0x20, STATIC_INIT_DISPATCH, check_artifact_influence)
 
 // name:A; map symbol; map:19373

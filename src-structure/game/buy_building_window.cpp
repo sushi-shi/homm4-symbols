@@ -1,7 +1,7 @@
 // buy_building_window.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\buy_building_window.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 60/91 (A:33 B:25 C:2); unaccounted 31; skipped std 1.
+// Accounted 60/91 (A:18 B:2 C:0); unaccounted 31; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,135 +10,135 @@
 
 // === .text (68 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:68799; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:68799; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00586da0, 0x15, STATIC_INIT_DISPATCH, "buy_building_window#1")
 
 // name:C; dyninit; see ledger; map:68800
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "buy_building_window#1")
 
-// confidence:A; dyninit-init; owner-conf-C; map:68801; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:68801; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00586dc0, 0x11, STATIC_INIT_DISPATCH, "buy_building_window#2")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:68802; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:68802; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00586de0, 0xd7, STATIC_CTOR, "buy_building_window#2")
 
 // name:C; dyninit; see ledger; map:68803
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "buy_building_window#2")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:68804; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:68804; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00586ec0, 0xa, STATIC_DTOR, "buy_building_window#2")
 
-// confidence:A; dyninit-init; owner-conf-C; map:68805; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:68805; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00586ed0, 0x11, STATIC_INIT_DISPATCH, "buy_building_window#3")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:68806; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:68806; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00586ef0, 0xd7, STATIC_CTOR, "buy_building_window#3")
 
 // name:C; dyninit; see ledger; map:68807
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "buy_building_window#3")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:68808; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:68808; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00586fd0, 0xa, STATIC_DTOR, "buy_building_window#3")
 
-// confidence:A; dyninit-init; owner-conf-C; map:68809; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:68809; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00586fe0, 0x11, STATIC_INIT_DISPATCH, "buy_building_window#4")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:68810; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:68810; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00587000, 0xd7, STATIC_CTOR, "buy_building_window#4")
 
 // name:C; dyninit; see ledger; map:68811
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "buy_building_window#4")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:68812; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:68812; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x005870e0, 0xa, STATIC_DTOR, "buy_building_window#4")
 
-// confidence:A; dyninit-init; owner-conf-C; map:68813; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:68813; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x005870f0, 0x11, STATIC_INIT_DISPATCH, "buy_building_window#5")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:68814; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:68814; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00587110, 0xd7, STATIC_CTOR, "buy_building_window#5")
 
 // name:C; dyninit; see ledger; map:68815
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "buy_building_window#5")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:68816; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:68816; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x005871f0, 0xa, STATIC_DTOR, "buy_building_window#5")
 
-// confidence:A; dyninit-init; owner-conf-C; map:68817; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:68817; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00587200, 0x11, STATIC_INIT_DISPATCH, "buy_building_window#6")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:68818; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:68818; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00587220, 0xd7, STATIC_CTOR, "buy_building_window#6")
 
 // name:C; dyninit; see ledger; map:68819
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "buy_building_window#6")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:68820; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:68820; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00587300, 0xa, STATIC_DTOR, "buy_building_window#6")
 
-// confidence:A; dyninit-init; owner-conf-C; map:68821; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:68821; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00587310, 0x11, STATIC_INIT_DISPATCH, "buy_building_window#7")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:68822; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:68822; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00587330, 0xd7, STATIC_CTOR, "buy_building_window#7")
 
 // name:C; dyninit; see ledger; map:68823
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "buy_building_window#7")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:68824; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:68824; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00587410, 0xa, STATIC_DTOR, "buy_building_window#7")
 
-// confidence:A; dyninit-init; owner-conf-C; map:68825; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:68825; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00587420, 0x11, STATIC_INIT_DISPATCH, "buy_building_window#8")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:68826; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:68826; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00587440, 0xd7, STATIC_CTOR, "buy_building_window#8")
 
 // name:C; dyninit; see ledger; map:68827
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "buy_building_window#8")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:68828; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:68828; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00587520, 0xa, STATIC_DTOR, "buy_building_window#8")
 
-// confidence:A; dyninit-init; owner-conf-C; map:68829; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:68829; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00587530, 0x11, STATIC_INIT_DISPATCH, "buy_building_window#9")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:68830; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:68830; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00587550, 0xd1, STATIC_CTOR, "buy_building_window#9")
 
 // name:C; dyninit; see ledger; map:68831
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "buy_building_window#9")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:68832; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:68832; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00587630, 0xa, STATIC_DTOR, "buy_building_window#9")
 
-// confidence:A; dyninit-init; owner-conf-C; map:68833; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:68833; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00587640, 0x11, STATIC_INIT_DISPATCH, "buy_building_window#10")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:68834; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:68834; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00587660, 0xd1, STATIC_CTOR, "buy_building_window#10")
 
 // name:C; dyninit; see ledger; map:68835
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "buy_building_window#10")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:68836; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:68836; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00587740, 0xa, STATIC_DTOR, "buy_building_window#10")
 
-// confidence:A; align-order; retn,stable,vptr; map:18615
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:18615
 VA_CHT_1(0x00587750, 0x760)
 t_buy_building_window::t_buy_building_window(t_town* arg_0, t_window* arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:18616
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18616
 VA_CHT_1(0x00587fe0, 0x130)
 void set_button_state(t_button_info* arg_0, t_town const* arg_1, t_button_map const* arg_2, int arg_3)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:18617
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18617
 VA_CHT_1(0x00588110, 0x10ea)
 void t_buy_building_window::create_buttons(t_window* arg_0)
 {
@@ -152,33 +152,33 @@ void t_buy_building_window::close_click(t_button* arg_0)
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:18619
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18619
 VA_CHT_1(0x00589230, 0xe0)
 void t_buy_building_window::building_click(t_button* arg_0, int arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:18620
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18620
 VA_CHT_1(0x00589310, 0xc0)
 void t_buy_building_window::disabled_building_click(t_button* arg_0, int arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:18621
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18621
 VA_CHT_1(0x00589500, 0x5e)
 void t_buy_building_window::describe_building(t_button* arg_0, int arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:68837; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:68837; name:B (dyninit; see ledger)
 VA_CHT_1(0x00589560, 0x20)
 // buy_building_window$tinit1
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:68839; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:68839; name:B (dyninit; see ledger)
 VA_CHT_1(0x00589580, 0x5c)
 // buy_building_window$tinit2
 // Function body not reconstructed; signature retained as a comment.
@@ -198,7 +198,7 @@ VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 // buy_building_window$tatexit4
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; align-band; retn,stable,vslot; map:18622
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18622
 VA_CHT_1_COMPGEN(0x00587eb0, 0x1e, VECTOR_DELETING_DTOR, t_buy_building_window)
 
 // name:A; map symbol; map:18623
@@ -235,7 +235,7 @@ t_handler_2<t_button*, int> bound_handler(
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:18628
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:18628
 VA_CHT_1(0x005894a0, 0x5e)
 t_bound_handler_1<t_buy_building_window, t_button*>::t_bound_handler_1<t_buy_building_window, t_button*>(
     t_buy_building_window& arg_0,
@@ -297,10 +297,10 @@ t_bound_handler_2<t_buy_building_window, t_button*, int>::~t_bound_handler_2<t_b
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:18638
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18638
 VA_CHT_1_COMPGEN(0x005895e0, 0x8, VECTOR_DELETING_DTOR, "t_bound_handler_1<t_buy_building_window, t_button*>")
 
-// confidence:C; align-order; stable; map:18639
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18639
 VA_CHT_1_COMPGEN(0x005895f0, 0x8, VECTOR_DELETING_DTOR, "t_bound_handler_2<t_buy_building_window, t_button*, int>")
 
 // === .rdata (5 symbols) ===

@@ -1,7 +1,7 @@
 // adv_garrison.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\adv_garrison.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 42/80 (A:27 B:4 C:11); unaccounted 38; skipped std 1.
+// Accounted 42/80 (A:14 B:4 C:0); unaccounted 38; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,13 +10,13 @@
 
 // === .text (53 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:71132; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:71132; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0043c140, 0x15, STATIC_INIT_DISPATCH, "adv_garrison#1")
 
 // name:C; dyninit; see ledger; map:71133
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "adv_garrison#1")
 
-// confidence:A; dyninit-init; owner-conf-B; map:71134; name:B (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:71134; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0043c160, 0x1c, STATIC_INIT_DISPATCH, g_garrison_registration)
 
 // name:B; dyninit; see ledger; map:71135
@@ -29,7 +29,7 @@ int t_adv_garrison::get_version() const
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:4603
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:4603
 VA_CHT_1(0x0043c180, 0x2f)
 bool t_adv_garrison::read(
     std::basic_streambuf<char, std::char_traits<char>>& arg_0,
@@ -40,14 +40,14 @@ bool t_adv_garrison::read(
     // Body unavailable.
 }
 
-// confidence:A; align-order; stable,vslot; map:4604
+// confidence:D; align-order; stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:4604
 VA_CHT_1(0x0043c1b0, 0x5)
 bool t_adv_garrison::write(std::basic_streambuf<char, std::char_traits<char>>& arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:4605
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:4605
 VA_CHT_1(0x0043c1c0, 0x20e)
 void t_adv_garrison::activate_trigger(
     t_army* arg_0,
@@ -59,7 +59,7 @@ void t_adv_garrison::activate_trigger(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:4606
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:4606
 VA_CHT_1(0x0043c3d0, 0x72)
 void t_adv_garrison::on_combat_end(
     t_army* arg_0,
@@ -71,7 +71,7 @@ void t_adv_garrison::on_combat_end(
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn; map:4607
+// confidence:D; align-order; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:4607
 VA_CHT_1(0x0043c450, 0xa0)
 void t_adv_garrison::visit(t_army* arg_0, t_adventure_frame* arg_1)
 {
@@ -102,7 +102,7 @@ void t_adv_garrison::left_double_click(t_mouse_event const& arg_0, t_adventure_f
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:4611
+// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:4611
 VA_CHT_1(0x0043c5a0, 0x9f)
 void t_adv_garrison::right_click(t_mouse_event const& arg_0, t_adventure_frame* arg_1)
 {
@@ -116,7 +116,7 @@ bool t_adv_garrison::blocks_army(t_creature_array const& arg_0, t_path_search_ty
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:4613
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:4613
 VA_CHT_1(0x0043c640, 0x109)
 bool t_adv_garrison::is_triggered_by(t_creature_array const& arg_0) const
 {
@@ -130,19 +130,19 @@ float t_adv_garrison::ai_activation_value_drop(t_creature_array const& arg_0) co
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:4615
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:4615
 VA_CHT_1(0x0043c7c0, 0xcd)
 float t_adv_garrison::ai_value(t_adventure_ai const& arg_0, t_creature_array const& arg_1, int arg_2) const
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:71136; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:71136; name:B (dyninit; see ledger)
 VA_CHT_1(0x0043cb40, 0x20)
 // adv_garrison$tinit1
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; dyninit-tinit; owner-conf-C; map:71138; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:71138; name:B (dyninit; see ledger)
 VA_CHT_1(0x0043cb60, 0x5c)
 // adv_garrison$tinit2
 // Function body not reconstructed; signature retained as a comment.
@@ -261,7 +261,7 @@ t_object_factory<t_adv_garrison>::t_object_factory<t_adv_garrison>()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:4629
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:4629
 VA_CHT_1(0x0043c890, 0x103)
 t_stationary_adventure_object* t_object_factory<t_adv_garrison>::create(
     std::string const& arg_0,
@@ -278,7 +278,7 @@ t_adv_garrison::t_adv_garrison(std::string const& arg_0)
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:4631
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:4631
 VA_CHT_1_COMPGEN(0x0043c9a0, 0x33, SCALAR_DELETING_DTOR, t_adv_garrison)
 
 // name:A; map symbol; map:4632
@@ -303,46 +303,46 @@ t_ownable_garrisonable_adv_object::~t_ownable_garrisonable_adv_object()
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:4636
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:4636
 VA_CHT_1_COMPGEN(0x0043cbc0, 0x8, VECTOR_DELETING_DTOR, t_adv_garrison)
 
-// confidence:C; align-order; stable; map:4637
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:4637
 VA_CHT_1_COMPGEN(0x0043cbd0, 0x8, VECTOR_DELETING_DTOR, t_adv_garrison)
 
-// confidence:C; align-order; stable; map:4638
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:4638
 VA_CHT_1(0x0043cbe0, 0x8)
 // [thunk]: protected: virtual int t_ownable_garrisonable_adv_object::compute_scouting_range`adjustor{84}'(void) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:4639
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:4639
 VA_CHT_1_COMPGEN(0x0043cbf0, 0xe, VECTOR_DELETING_DTOR, t_adv_garrison)
 
-// confidence:C; align-order; stable; map:4640
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:4640
 VA_CHT_1(0x0043cc00, 0xe)
 // [thunk]: public: virtual t_player_color t_owned_adv_object::get_player_color`vtordisp{-4, 140}'(void) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:4641
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:4641
 VA_CHT_1(0x0043cc10, 0x8)
 // [thunk]: public: virtual t_town_image_level t_adv_garrison::get_castle_level`vtordisp{-4, 0}'(void) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:4642
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:4642
 VA_CHT_1(0x0043cc20, 0x8)
 // [thunk]: public: virtual t_creature_array* t_creature_array::get_creature_array`adjustor{76}'(void)
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:4643
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:4643
 VA_CHT_1(0x0043cc30, 0x8)
 // [thunk]: public: virtual t_ownable_garrisonable_adv_object* t_ownable_garrisonable_adv_object::get_ownable_garrison`vtordisp{-4, 0}'(void)
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:4644
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:4644
 VA_CHT_1(0x0043cc40, 0xe)
 // [thunk]: public: virtual int t_owned_adv_object::get_owner_number`vtordisp{-4, 140}'(void) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:4645
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:4645
 VA_CHT_1(0x0043cc50, 0x8)
 // [thunk]: public: virtual bool t_ownable_garrisonable_adv_object::get_virtual_position`vtordisp{-4, 0}'(t_adv_map_point&) const
 // Function body not reconstructed; signature retained as a comment.

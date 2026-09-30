@@ -1,7 +1,7 @@
 // dialog_resurrect.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 7/52 (A:3 B:4 C:0); unaccounted 45; skipped std 1.
+// Accounted 7/52 (A:0 B:0 C:0); unaccounted 45; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,28 +10,28 @@
 
 // === .text (30 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:65816; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:65816; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00682e90, 0x11, STATIC_INIT_DISPATCH, "dialog_resurrect#1")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:65817; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:65817; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00682eb0, 0xd7, STATIC_CTOR, "dialog_resurrect#1")
 
 // name:C; dyninit; see ledger; map:65818
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "dialog_resurrect#1")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:65819; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:65819; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00682f90, 0xa, STATIC_DTOR, "dialog_resurrect#1")
 
-// confidence:A; dyninit-init; owner-conf-C; map:65820; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:65820; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00682fa0, 0x11, STATIC_INIT_DISPATCH, "dialog_resurrect#2")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:65821; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:65821; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00682fc0, 0xd1, STATIC_CTOR, "dialog_resurrect#2")
 
 // name:C; dyninit; see ledger; map:65822
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "dialog_resurrect#2")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:65823; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:65823; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x006830a0, 0xa, STATIC_DTOR, "dialog_resurrect#2")
 
 // name:A; map symbol; map:25232
@@ -66,7 +66,7 @@ void t_dialog_resurrect::selection_change(t_creature_select_window* arg_0, t_cre
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:65824; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:65824; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x006830b0, 0x20, STATIC_INIT_DISPATCH, dialog_resurrect)
 
 // name:A; map symbol; map:25236

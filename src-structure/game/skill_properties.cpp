@@ -1,7 +1,7 @@
 // skill_properties.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\skill_properties.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 39/77 (A:8 B:14 C:17); unaccounted 38; skipped std 40.
+// Accounted 39/77 (A:0 B:1 C:0); unaccounted 38; skipped std 40.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,7 +10,7 @@
 
 // === .text (67 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:62664; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62664; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007bffc0, 0x24, STATIC_INIT_DISPATCH, "skill_properties#1")
 
 // name:C; dyninit; see ledger; map:62665
@@ -19,10 +19,10 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "skill_properties#1")
 // name:C; dyninit; see ledger; map:62666
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "skill_properties#1")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:62667; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62667; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007bfff0, 0xa, STATIC_DTOR, "skill_properties#1")
 
-// confidence:A; dyninit-init; owner-conf-C; map:62668; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62668; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007c0000, 0x24, STATIC_INIT_DISPATCH, "skill_properties#2")
 
 // name:C; dyninit; see ledger; map:62669
@@ -31,10 +31,10 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "skill_properties#2")
 // name:C; dyninit; see ledger; map:62670
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "skill_properties#2")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:62671; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62671; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007c0030, 0xa, STATIC_DTOR, "skill_properties#2")
 
-// confidence:A; dyninit-init; owner-conf-C; map:62672; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62672; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007c0040, 0x27, STATIC_INIT_DISPATCH, "skill_properties#3")
 
 // name:C; dyninit; see ledger; map:62673
@@ -43,55 +43,55 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "skill_properties#3")
 // name:C; dyninit; see ledger; map:62674
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "skill_properties#3")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:62675; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62675; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007c0070, 0x17, STATIC_DTOR, "skill_properties#3")
 
-// confidence:A; dyninit-init; owner-conf-B; map:62676; name:B (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:62676; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007c0190, 0x11, STATIC_INIT_DISPATCH, g_skill_table)
 
-// confidence:B; dyninit-ctor; owner-conf-B; map:62677; name:B (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:62677; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007c01b0, 0x121, STATIC_CTOR, g_skill_table)
 
 // name:B; dyninit; see ledger; map:62678
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, g_skill_table)
 
-// confidence:B; dyninit-dtor; owner-conf-B; map:62679; name:B (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:62679; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007c02e0, 0xa, STATIC_DTOR, g_skill_table)
 
-// confidence:A; dyninit-init; owner-conf-C; map:62680; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62680; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007c02f0, 0x11, STATIC_INIT_DISPATCH, "skill_properties#5")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:62681; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62681; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007c0310, 0x43b, STATIC_CTOR, "skill_properties#5")
 
 // name:C; dyninit; see ledger; map:62682
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "skill_properties#5")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:62683; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62683; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007c0750, 0x14, STATIC_DTOR, "skill_properties#5")
 
-// confidence:A; dyninit-init; owner-conf-C; map:62684; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62684; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007c0770, 0x11, STATIC_INIT_DISPATCH, "skill_properties#6")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:62685; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62685; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007c0790, 0x43b, STATIC_CTOR, "skill_properties#6")
 
 // name:C; dyninit; see ledger; map:62686
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "skill_properties#6")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:62687; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62687; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007c0bd0, 0x14, STATIC_DTOR, "skill_properties#6")
 
-// confidence:A; dyninit-init; owner-conf-C; map:62688; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62688; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007c0bf0, 0x11, STATIC_INIT_DISPATCH, "skill_properties#7")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:62689; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62689; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007c0c10, 0x43b, STATIC_CTOR, "skill_properties#7")
 
 // name:C; dyninit; see ledger; map:62690
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "skill_properties#7")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:62691; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62691; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007c1050, 0x14, STATIC_DTOR, "skill_properties#7")
 
 // name:A; map symbol; map:37447
@@ -115,7 +115,7 @@ static void set_requirements()
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:62694
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:62694
 VA_CHT_1(0x007c1070, 0x1f2)
 static void set_requirements(t_skill_type arg_0, t_skill_type arg_1, t_skill_mastery const* arg_2)
 {
@@ -129,42 +129,42 @@ static void set_secular_requirements(t_skill_type arg_0, t_skill_type const* arg
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:62696
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:62696
 VA_CHT_1(0x007c1270, 0x247)
 static void set_magic_requirements(t_skill_type arg_0, t_skill_type const* arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:62697
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:62697
 VA_CHT_1(0x007c14c0, 0x2f0)
 static void read_table()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:62698
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:62698
 VA_CHT_1(0x007c17b0, 0x39d)
 static void set_properties(std::vector<t_skill_properties, std::allocator<t_skill_properties>>& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:37448
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37448
 VA_CHT_1(0x007c1b50, 0x401)
 t_skill_type get_primary_skill(t_skill_type arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:37449
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37449
 VA_CHT_1(0x007c1f60, 0x1b5)
 std::string get_keyword(t_skill const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:37450
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37450
 VA_CHT_1(0x007c2120, 0x1d)
 t_skill_type get_skill_type(std::string const& arg_0)
 {
@@ -178,21 +178,21 @@ std::string get_keyword(t_skill_type arg_0)
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:37452
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37452
 VA_CHT_1(0x007c2140, 0x1d)
 std::string get_mastery_keyword(t_skill_mastery arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:37453
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37453
 VA_CHT_1(0x007c2160, 0x2e1)
 std::string get_name(t_skill const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:37454
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37454
 VA_CHT_1(0x007c2450, 0xe19)
 std::string get_name(t_skill_type arg_0)
 {
@@ -204,56 +204,56 @@ VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 // get_name$sdtor
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; retn,stable; map:37455
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37455
 VA_CHT_1(0x007c3270, 0x14)
 std::string get_help_text(t_skill const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:37456
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37456
 VA_CHT_1(0x007c3580, 0xfc)
 t_cached_ptr<t_bitmap_group> get_skill_icons(t_skill_type arg_0, int arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:37457
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37457
 VA_CHT_1(0x007c3dc0, 0x396)
 std::vector<t_skill, std::allocator<t_skill>> const& get_requirements(t_skill const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:37458
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37458
 VA_CHT_1(0x007c4160, 0x8)
 bool is_magic_skill(t_skill_type arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:37459
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37459
 VA_CHT_1(0x007c4170, 0x8)
 bool is_primary_skill(t_skill_type arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:37460
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37460
 VA_CHT_1(0x007c4180, 0x38)
 int get_charm_surrender_percentage(t_skill_mastery arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:37461
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37461
 VA_CHT_1(0x007c4840, 0xf4)
 int get_diplomacy_surrender_percentage(t_skill_mastery arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:62700; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:62700; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007c5000, 0x20, STATIC_INIT_DISPATCH, skill_properties)
 
 // name:A; map symbol; map:37462
@@ -295,7 +295,7 @@ t_skill_properties& t_skill_properties::operator=(t_skill_properties const& arg_
 
 } // anonymous namespace
 
-// confidence:C; align-band; retn,stable; map:37482
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37482
 VA_CHT_1(0x007c43d0, 0x26)
 t_enum_map<t_skill_type>::t_enum_map<t_skill_type>(
     t_char_ptr_pair const* arg_0,
@@ -345,7 +345,7 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, t_skill_proper
 
 namespace {
 
-// confidence:C; align-band; retn,stable; map:37495
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37495
 VA_CHT_1(0x007c4f00, 0xf7)
 t_skill_properties::t_skill_properties(t_skill_properties const& arg_0)
 {

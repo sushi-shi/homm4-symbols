@@ -1,7 +1,7 @@
 // override_input_handler.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 75/138 (A:52 B:12 C:11); unaccounted 63; skipped std 3.
+// Accounted 75/138 (A:45 B:3 C:0); unaccounted 63; skipped std 3.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,70 +10,70 @@
 
 // === .text (69 symbols) ===
 
-// confidence:C; align-order; retn,stable; map:31464
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:31464
 VA_CHT_1(0x00752600, 0x42)
 t_override_input::t_override_input()
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:31465
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:31465
 VA_CHT_1(0x00752650, 0x8c)
 t_override_input::t_override_input(std::vector<bool, std::allocator<bool>> const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:31466
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:31466
 VA_CHT_1(0x007526e0, 0x250)
 void t_override_input::common_constructor()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:31467
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:31467
 VA_CHT_1(0x00752930, 0xe4)
 t_override_input::~t_override_input()
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:31468
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:31468
 VA_CHT_1(0x00752a20, 0x34)
 void t_override_input::char_event(char* arg_0, bool* arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:31469
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:31469
 VA_CHT_1(0x00752a60, 0x34)
 void t_override_input::key_event(t_key_code* arg_0, bool* arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:31470
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:31470
 VA_CHT_1(0x00752aa0, 0x34)
 void t_override_input::mouse_event(t_mouse_event* arg_0, bool* arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:31471
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:31471
 VA_CHT_1(0x00752ae0, 0xa)
 void t_override_input::non_handled_mouse_event(t_mouse_event* arg_0, bool* arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:31472
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:31472
 VA_CHT_1(0x00752af0, 0x2b)
 t_key_event::t_key_event(char arg_0, unsigned int arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:31473
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:31473
 VA_CHT_1(0x00752b20, 0x2a)
 t_key_event::t_key_event(t_key_code arg_0, unsigned int arg_1)
 {
@@ -94,28 +94,28 @@ bool t_key_event::check_key_event(t_key_event const& arg_0) const
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:31476
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:31476
 VA_CHT_1(0x00752b50, 0x40)
 bool t_key_event::check_key_event(char arg_0, unsigned int arg_1) const
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:31477
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:31477
 VA_CHT_1(0x00752b90, 0x3f)
 bool t_key_event::check_key_event(t_key_code arg_0, unsigned int arg_1) const
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:31478
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:31478
 VA_CHT_1(0x00752bd0, 0x35)
 unsigned int build_extended_key_flags()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:31479
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:31479
 VA_CHT_1(0x00752ea0, 0x21)
 bool check_hotkeys(
     std::vector<t_key_event, std::allocator<t_key_event>> const& arg_0,
@@ -125,7 +125,7 @@ bool check_hotkeys(
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:63833; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:63833; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00752ed0, 0x20, STATIC_INIT_DISPATCH, override_input_handler)
 
 // name:A; map symbol; map:31480
@@ -164,7 +164,7 @@ t_counted_ptr<t_handler_base_2<t_mouse_event*, bool*>>& t_counted_ptr<t_handler_
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:31486
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:31486
 VA_CHT_1(0x00752c60, 0x57)
 t_handler_2<t_mouse_event*, bool*> bound_handler(
     t_override_input& arg_0,
@@ -174,7 +174,7 @@ t_handler_2<t_mouse_event*, bool*> bound_handler(
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:31487
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:31487
 VA_CHT_1(0x00752cc0, 0x57)
 t_handler_2<t_key_code*, bool*> bound_handler(
     t_override_input& arg_0,
@@ -184,7 +184,7 @@ t_handler_2<t_key_code*, bool*> bound_handler(
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:31488
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:31488
 VA_CHT_1(0x00752d20, 0x57)
 t_handler_2<char*, bool*> bound_handler(t_override_input& arg_0, void (t_override_input::*)(char*, bool*))
 {
@@ -242,20 +242,20 @@ void t_bound_handler_2<t_override_input, char*, bool*>::operator()(char* arg_0, 
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:31495
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:31495
 VA_CHT_1_COMPGEN(0x00752de0, 0x1e, SCALAR_DELETING_DTOR, "t_bound_handler_2<t_override_input, t_mouse_event*, bool*>")
 
 // name:A; map symbol; map:31496
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, "t_bound_handler_2<t_override_input, t_mouse_event*, bool*>")
 
-// confidence:C; align-band; retn,stable; map:31497
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:31497
 VA_CHT_1(0x00752c10, 0x44)
 t_handler_base_2<t_mouse_event*, bool*>::t_handler_base_2<t_mouse_event*, bool*>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:31498
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:31498
 VA_CHT_1_COMPGEN(0x00752e00, 0x1e, VECTOR_DELETING_DTOR, "t_bound_handler_2<t_override_input, t_key_code*, bool*>")
 
 // name:A; map symbol; map:31499
@@ -268,7 +268,7 @@ t_handler_base_2<t_key_code*, bool*>::t_handler_base_2<t_key_code*, bool*>()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:31501
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:31501
 VA_CHT_1_COMPGEN(0x00752e20, 0x1e, SCALAR_DELETING_DTOR, "t_bound_handler_2<t_override_input, char*, bool*>")
 
 // name:A; map symbol; map:31502
@@ -297,14 +297,14 @@ t_handler_base_2<t_mouse_event*, bool*>::~t_handler_base_2<t_mouse_event*, bool*
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:31506
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:31506
 VA_CHT_1(0x00752e40, 0x21)
 t_abstract_function_2<void, t_mouse_event*, bool*>::~t_abstract_function_2<void, t_mouse_event*, bool*>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:31507
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:31507
 VA_CHT_1_COMPGEN(0x00752d80, 0x20, VECTOR_DELETING_DTOR, "t_abstract_function_2<void, t_mouse_event*, bool*>")
 
 // name:A; map symbol; map:31508
@@ -339,7 +339,7 @@ t_handler_base_2<t_key_code*, bool*>::~t_handler_base_2<t_key_code*, bool*>()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:31514
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:31514
 VA_CHT_1(0x00752e70, 0x21)
 t_abstract_function_2<void, t_key_code*, bool*>::~t_abstract_function_2<void, t_key_code*, bool*>()
 {
@@ -417,10 +417,10 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, "t_bound_handl
 // name:A; map symbol; map:31531
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, "t_handler_base_2<t_key_code*, bool*>")
 
-// confidence:C; align-order; stable; map:31532
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:31532
 VA_CHT_1_COMPGEN(0x00752f00, 0x8, VECTOR_DELETING_DTOR, "t_handler_base_2<t_mouse_event*, bool*>")
 
-// confidence:C; align-order; stable; map:31533
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:31533
 VA_CHT_1_COMPGEN(0x00752f10, 0x8, VECTOR_DELETING_DTOR, "t_bound_handler_2<t_override_input, t_key_code*, bool*>")
 
 // === .rdata (15 symbols) ===

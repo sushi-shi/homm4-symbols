@@ -1,7 +1,7 @@
 // progress_bar_dialog.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 10/12 (A:9 B:0 C:1); unaccounted 2; skipped std 1.
+// Accounted 10/12 (A:6 B:0 C:0); unaccounted 2; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,24 +10,24 @@
 
 // === .text (6 symbols) ===
 
-// confidence:A; align-order; retn,stable,vptr; map:32237
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:32237
 VA_CHT_1(0x00762a00, 0x9d)
 t_progress_bar_dialog::t_progress_bar_dialog(t_window* arg_0, std::string const& arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:32238
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:32238
 VA_CHT_1(0x00762cc0, 0x13)
 t_progress_handler* t_progress_bar_dialog::get_handler()
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:63687; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:63687; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00762ce0, 0x20, STATIC_INIT_DISPATCH, progress_bar_dialog)
 
-// confidence:A; align-band; retn,stable,vslot; map:32239
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:32239
 VA_CHT_1_COMPGEN(0x00762aa0, 0x1e, SCALAR_DELETING_DTOR, t_progress_bar_dialog)
 
 // name:A; map symbol; map:32240

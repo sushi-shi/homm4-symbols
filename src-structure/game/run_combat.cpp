@@ -1,7 +1,7 @@
 // run_combat.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 10/24 (A:4 B:4 C:2); unaccounted 14; skipped std 1.
+// Accounted 10/24 (A:0 B:0 C:0); unaccounted 14; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,13 +10,13 @@
 
 // === .text (19 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:63360; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:63360; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00781310, 0x15, STATIC_INIT_DISPATCH, "run_combat#1")
 
 // name:C; dyninit; see ledger; map:63361
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "run_combat#1")
 
-// confidence:A; dyninit-init; owner-conf-C; map:63362; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:63362; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00781330, 0x16, STATIC_INIT_DISPATCH, "run_combat#2")
 
 // name:C; dyninit; see ledger; map:63363
@@ -25,50 +25,50 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "run_combat#2")
 // name:C; dyninit; see ledger; map:63364
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "run_combat#2")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:63365; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:63365; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00781350, 0xa, STATIC_DTOR, "run_combat#2")
 
-// confidence:B; align-order; retn,stable; map:33399
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:33399
 VA_CHT_1(0x00781360, 0x1d4)
 void run_result_scripts(t_combat_context& arg_0, t_creature_array const* arg_1, t_combat_result arg_2)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:33400
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:33400
 VA_CHT_1(0x00781540, 0x27b)
 void on_combat_end(t_combat_context& arg_0, t_combat_result arg_1, t_counted_ptr<t_army> arg_2)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:33401
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:33401
 VA_CHT_1(0x007817c0, 0x827)
 void run_combat(t_combat_context& arg_0, bool arg_1, bool arg_2)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:33402
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:33402
 VA_CHT_1(0x00782010, 0xba)
 t_combat_result run_combat_remote(t_combat_context& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:33403
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:33403
 VA_CHT_1(0x007820d0, 0x3a)
 void run_combat_apply_remote_results(t_combat_result arg_0, t_creature_array& arg_1, t_creature_array& arg_2)
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:63366; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:63366; name:B (dyninit; see ledger)
 VA_CHT_1(0x00782110, 0x20)
 // run_combat$tinit1
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:63368; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:63368; name:B (dyninit; see ledger)
 VA_CHT_1(0x00782130, 0x5c)
 // run_combat$tinit2
 // Function body not reconstructed; signature retained as a comment.

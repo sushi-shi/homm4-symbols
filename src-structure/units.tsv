@@ -1,588 +1,588 @@
-obj	source	source_tier	source_evidence	link_index	total	skipped_std	included	accounted	unaccounted	A	B	C
-abbreviate_number.obj	game/abbreviate_number.cpp	B	inferred .cpp basename from map object; extension not recorded	0	51	47	4	4	0	1	2	1
-abstract_adv_actor.obj	game/abstract_adv_actor.cpp	A	anonymous-namespace source tag: C:\work\game\abstract_adv_actor.cpp	1	378	17	361	192	169	151	9	32
-abstract_adv_object.obj	game/abstract_adv_object.cpp	B	inferred .cpp basename from map object; extension not recorded	2	12	1	11	5	6	5	0	0
-abstract_adventure_map.obj	game/abstract_adventure_map.cpp	A	anonymous-namespace source tag: C:\work\game\abstract_adventure_map.cpp	3	836	390	446	118	328	31	28	59
-abstract_bitmap.obj	game/abstract_bitmap.cpp	B	inferred .cpp basename from map object; extension not recorded	4	29	0	29	4	25	0	4	0
-abstract_combat_ai_spell_action.obj	game/abstract_combat_ai_spell_action.cpp	B	inferred .cpp basename from map object; extension not recorded	5	47	10	37	10	27	8	2	0
-abstract_combat_creature.obj	game/abstract_combat_creature.cpp	B	inferred .cpp basename from map object; extension not recorded	6	289	93	196	118	78	86	14	18
-abstract_combat_object.obj	game/abstract_combat_object.cpp	B	inferred .cpp basename from map object; extension not recorded	7	207	8	199	100	99	78	14	8
-abstract_file.obj	game/abstract_file.cpp	B	inferred .cpp basename from map object; extension not recorded	8	2	1	1	1	0	1	0	0
-abstract_grail_data_source.obj	game/abstract_grail_data_source.cpp	B	inferred .cpp basename from map object; extension not recorded	9	3	1	2	2	0	1	1	0
-abstract_resource_cache.obj	game/abstract_resource_cache.cpp	B	inferred .cpp basename from map object; extension not recorded	10	28	4	24	14	10	11	2	1
-abstract_script_action.obj	game/abstract_script_action.cpp	A	anonymous-namespace source tag: C:\work\game\abstract_script_action.cpp	11	28	2	26	17	9	9	3	5
-abstract_script_expression.obj	game/abstract_script_expression.cpp	A	anonymous-namespace source tag: C:\work\game\abstract_script_expression.cpp	12	39	1	38	12	26	1	4	7
-abstract_stationary_adv_object.obj	game/abstract_stationary_adv_object.cpp	A	anonymous-namespace source tag: C:\work\game\abstract_stationary_adv_object.cpp	13	167	6	161	89	72	48	10	31
-abstract_tile.obj	game/abstract_tile.cpp	A	anonymous-namespace source tag: C:\work\game\abstract_tile.cpp	14	144	55	89	20	69	4	6	10
-abstract_town.obj	game/abstract_town.cpp	A	anonymous-namespace source tag: C:\work\game\abstract_town.cpp	15	657	216	441	302	139	167	27	108
-academy.obj	game/academy.cpp	B	inferred .cpp basename from map object; extension not recorded	16	100	1	99	69	30	28	5	36
-actor.obj	game/actor.cpp	B	inferred .cpp basename from map object; extension not recorded	17	120	1	119	81	38	35	10	36
-actor_sequence.obj	game/actor_sequence.cpp	B	inferred .cpp basename from map object; extension not recorded	18	372	229	143	74	69	62	1	11
-actor_sequence_cache.obj	game/actor_sequence_cache.cpp	A	anonymous-namespace source tag: C:\work\game\actor_sequence_cache.cpp	19	325	137	188	102	86	83	4	15
-adjusted_animation_cache.obj	game/adjusted_animation_cache.cpp	B	inferred .cpp basename from map object; extension not recorded	20	73	19	54	34	20	32	0	2
-adjusted_bitmap_cache.obj	game/adjusted_bitmap_cache.cpp	B	inferred .cpp basename from map object; extension not recorded	21	48	1	47	30	17	28	0	2
-adv_abandoned_mine.obj	game/adv_abandoned_mine.cpp	A	anonymous-namespace source tag: C:\work\game\adv_abandoned_mine.cpp	22	234	51	183	111	72	61	10	40
-adv_actor_action.obj	game/adv_actor_action.cpp	A	anonymous-namespace source tag: C:\work\game\adv_actor_action.cpp	23	18	1	17	3	14	1	0	2
-adv_actor_model.obj	game/adv_actor_model.cpp	B	inferred .cpp basename from map object; extension not recorded	24	142	3	139	58	81	41	1	16
-adv_actor_model_cache.obj	game/adv_actor_model_cache.cpp	A	anonymous-namespace source tag: C:\work\game\adv_actor_model_cache.cpp	25	283	70	213	123	90	98	5	20
-adv_actor_model_definition.obj	game/adv_actor_model_definition.cpp	B	inferred .cpp basename from map object; extension not recorded	26	26	2	24	4	20	2	0	2
-adv_altar.obj	game/adv_altar.cpp	A	anonymous-namespace source tag: C:\work\game\adv_altar.cpp	27	162	35	127	85	42	41	7	37
-adv_arena.obj	game/adv_arena.cpp	B	inferred .cpp basename from map object; extension not recorded	28	38	1	37	23	14	19	2	2
-adv_artifact.obj	game/adv_artifact.cpp	B	inferred .cpp basename from map object; extension not recorded	29	287	15	272	171	101	111	13	47
-adv_artifact_pile.obj	game/adv_artifact_pile.cpp	A	anonymous-namespace source tag: C:\work\game\adv_artifact_pile.cpp	30	288	40	248	133	115	81	7	45
-adv_blacksmith.obj	game/adv_blacksmith.cpp	B	inferred .cpp basename from map object; extension not recorded	31	165	71	94	63	31	25	2	36
-adv_border_gate.obj	game/adv_border_gate.cpp	B	inferred .cpp basename from map object; extension not recorded	32	47	1	46	24	22	20	2	2
-adv_border_guard.obj	game/adv_border_guard.cpp	B	inferred .cpp basename from map object; extension not recorded	33	90	33	57	25	32	20	2	3
-adv_chain_link.obj	game/adv_chain_link.cpp	B	inferred .cpp basename from map object; extension not recorded	34	34	1	33	21	12	17	2	2
-adv_dwelling.obj	game/adv_dwelling.cpp	A	anonymous-namespace source tag: C:\work\game\adv_dwelling.cpp	35	290	25	265	189	76	64	13	112
-adv_ferry.obj	game/adv_ferry.cpp	A	anonymous-namespace source tag: C:\work\game\adv_ferry.cpp	36	182	60	122	74	48	30	5	39
-adv_fountain.obj	game/adv_fountain.cpp	A	anonymous-namespace source tag: C:\work\game\adv_fountain.cpp	37	40	1	39	22	17	18	2	2
-adv_garrison.obj	game/adv_garrison.cpp	A	anonymous-namespace source tag: C:\work\game\adv_garrison.cpp	38	81	1	80	42	38	27	4	11
-adv_keymaster_tent.obj	game/adv_keymaster_tent.cpp	B	inferred .cpp basename from map object; extension not recorded	39	78	1	77	54	23	19	2	33
-adv_mages_chest.obj	game/adv_mages_chest.cpp	B	inferred .cpp basename from map object; extension not recorded	40	159	1	158	90	68	70	8	12
-adv_magi_eye.obj	game/adv_magi_eye.cpp	A	anonymous-namespace source tag: C:\work\game\adv_magi_eye.cpp	41	42	1	41	25	16	19	3	3
-adv_magic_gem.obj	game/adv_magic_gem.cpp	A	anonymous-namespace source tag: C:\work\game\adv_magic_gem.cpp	42	55	1	54	31	23	23	5	3
-adv_mana_vortex.obj	game/adv_mana_vortex.cpp	A	anonymous-namespace source tag: C:\work\game\adv_mana_vortex.cpp	43	59	7	52	27	25	22	3	2
-adv_medicine_wagon.obj	game/adv_medicine_wagon.cpp	B	inferred .cpp basename from map object; extension not recorded	44	64	3	61	28	33	21	2	5
-adv_mercenary_camp.obj	game/adv_mercenary_camp.cpp	B	inferred .cpp basename from map object; extension not recorded	45	38	1	37	23	14	19	2	2
-adv_move_booster.obj	game/adv_move_booster.cpp	B	inferred .cpp basename from map object; extension not recorded	46	84	1	83	50	33	38	6	6
-adv_obelisk.obj	game/adv_obelisk.cpp	A	anonymous-namespace source tag: C:\work\game\adv_obelisk.cpp	47	133	75	58	28	30	22	4	2
-adv_object_deletion_marker.obj	game/adv_object_deletion_marker.cpp	A	anonymous-namespace source tag: C:\work\game\adv_object_deletion_marker.cpp	48	43	1	42	24	18	19	3	2
-adv_object_flag.obj	game/adv_object_flag.cpp	A	anonymous-namespace source tag: C:\work\game\adv_object_flag.cpp	49	23	1	22	15	7	8	3	4
-adv_object_icon_type.obj	game/adv_object_icon_type.cpp	A	anonymous-namespace source tag: C:\work\game\adv_object_icon_type.cpp	50	6	1	5	2	3	1	0	1
-adv_object_list_image.obj	game/adv_object_list_image.cpp	B	inferred .cpp basename from map object; extension not recorded	51	44	4	40	16	24	5	5	6
-adv_object_map_info.obj	game/adv_object_map_info.cpp	B	inferred .cpp basename from map object; extension not recorded	52	30	2	28	7	21	5	0	2
-adv_object_model.obj	game/adv_object_model.cpp	A	anonymous-namespace source tag: C:\work\game\adv_object_model.cpp	53	170	36	134	52	82	37	2	13
-adv_object_model_cache.obj	game/adv_object_model_cache.cpp	A	anonymous-namespace source tag: C:\work\game\adv_object_model_cache.cpp	54	181	67	114	59	55	53	2	4
-adv_object_strings.obj	game/adv_object_strings.cpp	A	anonymous-namespace source tag: C:\work\game\adv_object_strings.cpp	55	249	124	125	65	60	43	5	17
-adv_object_type.obj	game/adv_object_type.cpp	A	anonymous-namespace source tag: C:\work\game\adv_object_type.cpp	56	222	73	149	73	76	1	9	63
-adv_ocean_bottle.obj	game/adv_ocean_bottle.cpp	B	inferred .cpp basename from map object; extension not recorded	57	38	1	37	23	14	20	2	1
-adv_prison.obj	game/adv_prison.cpp	A	anonymous-namespace source tag: C:\work\game\adv_prison.cpp	58	68	3	65	33	32	27	3	3
-adv_sacred_fountain.obj	game/adv_sacred_fountain.cpp	B	inferred .cpp basename from map object; extension not recorded	59	36	1	35	23	12	18	3	2
-adv_sea_chest.obj	game/adv_sea_chest.cpp	B	inferred .cpp basename from map object; extension not recorded	60	59	1	58	27	31	21	3	3
-adv_shipyard.obj	game/adv_shipyard.cpp	A	anonymous-namespace source tag: C:\work\game\adv_shipyard.cpp	61	65	1	64	32	32	24	5	3
-adv_shrine.obj	game/adv_shrine.cpp	A	anonymous-namespace source tag: C:\work\game\adv_shrine.cpp	62	163	19	144	92	52	45	9	38
-adv_sign.obj	game/adv_sign.cpp	A	anonymous-namespace source tag: C:\work\game\adv_sign.cpp	63	48	1	47	30	17	22	6	2
-adv_sphinx.obj	game/adv_sphinx.cpp	B	inferred .cpp basename from map object; extension not recorded	64	42	3	39	24	15	19	3	2
-adv_subterranean_gate.obj	game/adv_subterranean_gate.cpp	A	anonymous-namespace source tag: C:\work\game\adv_subterranean_gate.cpp	65	162	57	105	69	36	26	3	40
-adv_tavern.obj	game/adv_tavern.cpp	B	inferred .cpp basename from map object; extension not recorded	66	60	1	59	29	30	22	3	4
-adv_teleporter_entrance.obj	game/adv_teleporter_entrance.cpp	B	inferred .cpp basename from map object; extension not recorded	67	60	10	50	25	25	21	2	2
-adv_teleporter_exit.obj	game/adv_teleporter_exit.cpp	B	inferred .cpp basename from map object; extension not recorded	68	44	1	43	26	17	22	2	2
-adv_temple.obj	game/adv_temple.cpp	A	anonymous-namespace source tag: C:\work\game\adv_temple.cpp	69	84	1	83	52	31	38	9	5
-adv_trading_post.obj	game/adv_trading_post.cpp	A	anonymous-namespace source tag: C:\work\game\adv_trading_post.cpp	70	40	1	39	26	13	19	5	2
-adv_training_grounds.obj	game/adv_training_grounds.cpp	B	inferred .cpp basename from map object; extension not recorded	71	37	1	36	23	13	19	2	2
-adv_treasure_chest.obj	game/adv_treasure_chest.cpp	B	inferred .cpp basename from map object; extension not recorded	72	58	1	57	28	29	21	2	5
-adv_tree_of_knowledge.obj	game/adv_tree_of_knowledge.cpp	A	anonymous-namespace source tag: C:\work\game\adv_tree_of_knowledge.cpp	73	51	5	46	26	20	22	3	1
-adv_whirlpool.obj	game/adv_whirlpool.cpp	A	anonymous-namespace source tag: C:\work\game\adv_whirlpool.cpp	74	140	47	93	48	45	40	5	3
-adv_windmill.obj	game/adv_windmill.cpp	A	anonymous-namespace source tag: C:\work\game\adv_windmill.cpp	75	85	1	84	59	25	22	2	35
-adventure_ai.obj	game/adventure_ai.cpp	A	anonymous-namespace source tag: C:\work\game\adventure_ai.cpp	76	2127	1395	732	387	345	209	34	144
-adventure_enemy_marker.obj	game/adventure_enemy_marker.cpp	A	anonymous-namespace source tag: C:\work\game\adventure_enemy_marker.cpp	77	107	36	71	41	30	32	7	2
-adventure_events_base.obj	game/adventure_events_base.cpp	B	inferred .cpp basename from map object; extension not recorded	78	61	1	60	26	34	16	2	8
-adventure_events_look_trigger.obj	game/adventure_events_look_trigger.cpp	B	inferred .cpp basename from map object; extension not recorded	79	26	1	25	17	8	15	1	1
-adventure_events_mover.obj	game/adventure_events_mover.cpp	B	inferred .cpp basename from map object; extension not recorded	80	42	1	41	22	19	18	1	3
-adventure_events_place.obj	game/adventure_events_place.cpp	B	inferred .cpp basename from map object; extension not recorded	81	30	1	29	18	11	16	1	1
-adventure_events_playback.obj	game/adventure_events_playback.cpp	B	inferred .cpp basename from map object; extension not recorded	82	41	13	28	19	9	13	2	4
-adventure_events_remove.obj	game/adventure_events_remove.cpp	B	inferred .cpp basename from map object; extension not recorded	83	27	1	26	19	7	17	1	1
-adventure_events_set_action.obj	game/adventure_events_set_action.cpp	B	inferred .cpp basename from map object; extension not recorded	84	26	1	25	17	8	15	1	1
-adventure_events_set_owner.obj	game/adventure_events_set_owner.cpp	B	inferred .cpp basename from map object; extension not recorded	85	28	1	27	18	9	16	1	1
-adventure_events_spells_effect.obj	game/adventure_events_spells_effect.cpp	A	anonymous-namespace source tag: C:\work\game\adventure_events_spells_effect.cpp	86	34	1	33	17	16	15	1	1
-adventure_events_teleport.obj	game/adventure_events_teleport.cpp	B	inferred .cpp basename from map object; extension not recorded	87	28	1	27	19	8	16	1	2
-adventure_events_update.obj	game/adventure_events_update.cpp	B	inferred .cpp basename from map object; extension not recorded	88	26	1	25	18	7	16	1	1
-adventure_events_visiblity.obj	game/adventure_events_visiblity.cpp	B	inferred .cpp basename from map object; extension not recorded	89	27	1	26	18	8	16	1	1
-adventure_frame.obj	game/adventure_frame.cpp	A	anonymous-namespace source tag: C:\work\game\adventure_frame.cpp	90	1963	165	1798	982	816	493	365	124
-adventure_map.obj	game/adventure_map.cpp	A	anonymous-namespace source tag: C:\work\game\adventure_map.cpp	91	2524	1684	840	403	437	97	157	149
-adventure_map_window.obj	game/adventure_map_window.cpp	B	inferred .cpp basename from map object; extension not recorded	92	237	13	224	138	86	91	29	18
-adventure_map_window_base.obj	game/adventure_map_window_base.cpp	B	inferred .cpp basename from map object; extension not recorded	93	27	1	26	15	11	10	2	3
-adventure_object.obj	game/adventure_object.cpp	A	anonymous-namespace source tag: C:\work\game\adventure_object.cpp	94	205	9	196	81	115	52	11	18
-adventure_object_global_id.obj	game/adventure_object_global_id.cpp	B	inferred .cpp basename from map object; extension not recorded	95	8	0	8	7	1	0	3	4
-adventure_object_memory_cache.obj	game/adventure_object_memory_cache.cpp	B	inferred .cpp basename from map object; extension not recorded	96	135	82	53	35	18	26	6	3
-adventure_path_finder.obj	game/adventure_path_finder.cpp	A	anonymous-namespace source tag: C:\work\game\adventure_path_finder.cpp	97	112	22	90	42	48	15	12	15
-adventure_sounds.obj	game/adventure_sounds.cpp	A	anonymous-namespace source tag: C:\work\game\adventure_sounds.cpp	98	215	103	112	52	60	21	6	25
-adventure_spell.obj	game/adventure_spell.cpp	A	anonymous-namespace source tag: C:\work\game\adventure_spell.cpp	99	147	12	135	81	54	48	30	3
-adventure_spell_effect.obj	game/adventure_spell_effect.cpp	A	anonymous-namespace source tag: C:\work\game\adventure_spell_effect.cpp	100	202	1	201	123	78	42	17	64
-adventure_treasure_map.obj	game/adventure_treasure_map.cpp	B	inferred .cpp basename from map object; extension not recorded	101	32	1	31	19	12	15	1	3
-ai_combat_data_cache.obj	game/ai_combat_data_cache.cpp	A	anonymous-namespace source tag: C:\work\game\ai_combat_data_cache.cpp	102	972	757	215	92	123	14	24	54
-ai_town_data_cache.obj	game/ai_town_data_cache.cpp	B	inferred .cpp basename from map object; extension not recorded	103	36	30	6	4	2	1	2	1
-ai_value.obj	game/ai_value.cpp	B	inferred .cpp basename from map object; extension not recorded	104	261	82	179	69	110	25	21	23
-alignment_relationship.obj	game/alignment_relationship.cpp	B	inferred .cpp basename from map object; extension not recorded	105	3	1	2	2	0	1	0	1
-angle.obj	game/angle.cpp	B	inferred .cpp basename from map object; extension not recorded	106	7	0	7	6	1	0	0	6
-animated_window.obj	game/animated_window.cpp	B	inferred .cpp basename from map object; extension not recorded	107	28	1	27	14	13	13	1	0
-animation.obj	game/animation.cpp	B	inferred .cpp basename from map object; extension not recorded	108	9	1	8	4	4	2	1	1
-army.obj	game/army.cpp	A	anonymous-namespace source tag: C:\work\game\army.cpp	109	242	7	235	153	82	67	21	65
-army_dialog.obj	game/army_dialog.cpp	A	anonymous-namespace source tag: C:\work\game\army_dialog.cpp	110	345	76	269	161	108	127	14	20
-army_dialog_base.obj	game/army_dialog_base.cpp	A	anonymous-namespace source tag: C:\work\game\army_dialog_base.cpp	111	365	30	335	193	142	106	63	24
-army_dialog_garrison.obj	game/army_dialog_garrison.cpp	B	inferred .cpp basename from map object; extension not recorded	112	19	1	18	12	6	11	1	0
-army_info_window.obj	game/army_info_window.cpp	B	inferred .cpp basename from map object; extension not recorded	113	135	19	116	74	42	47	18	9
-army_list.obj	game/army_list.cpp	B	inferred .cpp basename from map object; extension not recorded	114	9	0	9	8	1	8	0	0
-army_list_window.obj	game/army_list_window.cpp	B	inferred .cpp basename from map object; extension not recorded	115	191	39	152	85	67	53	20	12
-army_mover.obj	game/army_mover.cpp	B	inferred .cpp basename from map object; extension not recorded	116	133	27	106	63	43	40	10	13
-artifact.obj	game/artifact.cpp	B	inferred .cpp basename from map object; extension not recorded	117	22	14	8	7	1	1	3	3
-artifact_ai_importance_map.obj	game/artifact_ai_importance_map.cpp	B	inferred .cpp basename from map object; extension not recorded	118	19	17	2	2	0	0	2	0
-artifact_effect.obj	game/artifact_effect.cpp	A	anonymous-namespace source tag: C:\work\game\artifact_effect.cpp	119	1024	20	1004	572	432	558	3	11
-artifact_effect_visitor.obj	game/artifact_effect_visitor.cpp	B	inferred .cpp basename from map object; extension not recorded	120	15	0	15	2	13	2	0	0
-artifact_icon.obj	game/artifact_icon.cpp	B	inferred .cpp basename from map object; extension not recorded	121	15	1	14	11	3	10	1	0
-artifact_keyword.obj	game/artifact_keyword.cpp	B	inferred .cpp basename from map object; extension not recorded	122	32	2	30	11	19	2	1	8
-artifact_prop_ability.obj	game/artifact_prop_ability.cpp	B	inferred .cpp basename from map object; extension not recorded	123	28	0	28	17	11	16	0	1
-artifact_properties.obj	game/artifact_properties.cpp	A	anonymous-namespace source tag: C:\work\game\artifact_properties.cpp	124	93	32	61	37	24	17	5	15
-artifact_set.obj	game/artifact_set.cpp	B	inferred .cpp basename from map object; extension not recorded	125	11	2	9	5	4	1	3	1
-attack.obj	game/attack.cpp	A	anonymous-namespace source tag: C:\work\game\attack.cpp	126	393	23	370	202	168	148	25	29
-attackable_object.obj	game/attackable_object.cpp	B	inferred .cpp basename from map object; extension not recorded	127	31	1	30	12	18	10	1	1
-attackable_obstacle.obj	game/attackable_obstacle.cpp	B	inferred .cpp basename from map object; extension not recorded	128	112	26	86	48	38	36	10	2
-automatic_spells.obj	game/automatic_spells.cpp	B	inferred .cpp basename from map object; extension not recorded	129	50	41	9	4	5	1	1	2
-basic_dialog.obj	game/basic_dialog.cpp	B	inferred .cpp basename from map object; extension not recorded	130	268	8	260	162	98	79	67	16
-battlefield.obj	game/battlefield.cpp	A	anonymous-namespace source tag: C:\work\game\battlefield.cpp	131	2200	577	1623	884	739	455	276	153
-battlefield_cell.obj	game/battlefield_cell.cpp	B	inferred .cpp basename from map object; extension not recorded	132	35	3	32	24	8	8	10	6
-battlefield_metrics.obj	game/battlefield_metrics.cpp	B	inferred .cpp basename from map object; extension not recorded	133	17	0	17	8	9	6	0	2
-battlefield_passablity_map.obj	game/battlefield_passablity_map.cpp	A	anonymous-namespace source tag: C:\work\game\battlefield_passablity_map.cpp	134	51	21	30	20	10	17	2	1
-battlefield_preset_map.obj	game/battlefield_preset_map.cpp	A	anonymous-namespace source tag: C:\work\game\battlefield_preset_map.cpp	135	53	11	42	16	26	11	3	2
-battlefield_preset_map_cache.obj	game/battlefield_preset_map_cache.cpp	B	inferred .cpp basename from map object; extension not recorded	136	70	1	69	44	25	41	2	1
-battlefield_preset_map_in_game.obj	game/battlefield_preset_map_in_game.cpp	B	inferred .cpp basename from map object; extension not recorded	137	16	1	15	11	4	9	1	1
-battlefield_terrain_map.obj	game/battlefield_terrain_map.cpp	A	anonymous-namespace source tag: C:\work\game\battlefield_terrain_map.cpp	138	205	56	149	77	72	52	12	13
-battlefield_window.obj	game/battlefield_window.cpp	A	anonymous-namespace source tag: C:\work\game\battlefield_window.cpp	139	198	47	151	53	98	31	7	15
-beastmaster_hut.obj	game/beastmaster_hut.cpp	A	anonymous-namespace source tag: C:\work\game\beastmaster_hut.cpp	140	99	7	92	54	38	42	6	6
-bink_window.obj	game/bink_window.cpp	B	inferred .cpp basename from map object; extension not recorded	141	31	3	28	18	10	15	1	2
-bink_wrapper.obj	game/bink_wrapper.cpp	A	anonymous-namespace source tag: C:\work\game\bink_wrapper.cpp	142	51	3	48	19	29	10	3	6
-bitmap_cursor.obj	game/bitmap_cursor.cpp	B	inferred .cpp basename from map object; extension not recorded	143	6	1	5	4	1	1	2	1
-bitmap_group.obj	game/bitmap_group.cpp	A	anonymous-namespace source tag: C:\work\game\bitmap_group.cpp	144	37	14	23	12	11	3	5	4
-bitmap_group_cache.obj	game/bitmap_group_cache.cpp	A	anonymous-namespace source tag: C:\work\game\bitmap_group_cache.cpp	145	53	1	52	32	20	27	3	2
-bitmap_group_window.obj	game/bitmap_group_window.cpp	B	inferred .cpp basename from map object; extension not recorded	146	18	1	17	14	3	10	2	2
-bitmap_layer.obj	game/bitmap_layer.cpp	A	anonymous-namespace source tag: C:\work\game\bitmap_layer.cpp	147	152	46	106	53	53	36	2	15
-bitmap_layer_cache.obj	game/bitmap_layer_cache.cpp	B	inferred .cpp basename from map object; extension not recorded	148	26	1	25	20	5	19	0	1
-bitmap_layer_cache_window.obj	game/bitmap_layer_cache_window.cpp	B	inferred .cpp basename from map object; extension not recorded	149	12	0	12	9	3	8	1	0
-bitmap_layer_window.obj	game/bitmap_layer_window.cpp	B	inferred .cpp basename from map object; extension not recorded	150	14	1	13	10	3	8	1	1
-bitmap_pool.obj	game/bitmap_pool.cpp	A	anonymous-namespace source tag: C:\work\game\bitmap_pool.cpp	151	46	24	22	11	11	2	4	5
-bitmap_raw.obj	game/bitmap_raw.cpp	A	anonymous-namespace source tag: C:\work\game\bitmap_raw.cpp	152	60	1	59	35	24	31	1	3
-bitmap_raw_cache.obj	game/bitmap_raw_cache.cpp	A	anonymous-namespace source tag: C:\work\game\bitmap_raw_cache.cpp	153	71	1	70	44	26	41	2	1
-bitmap_raw_window.obj	game/bitmap_raw_window.cpp	B	inferred .cpp basename from map object; extension not recorded	154	20	1	19	9	10	9	0	0
-blacksmith_window.obj	game/blacksmith_window.cpp	B	inferred .cpp basename from map object; extension not recorded	155	185	2	183	112	71	71	24	17
-blend_window.obj	game/blend_window.cpp	B	inferred .cpp basename from map object; extension not recorded	156	14	1	13	9	4	9	0	0
-blended_bitmap_window.obj	game/blended_bitmap_window.cpp	B	inferred .cpp basename from map object; extension not recorded	157	15	1	14	11	3	10	1	0
-bool_array.obj	game/bool_array.cpp	B	inferred .cpp basename from map object; extension not recorded	158	2	0	2	2	0	0	2	0
-buffer_window.obj	game/buffer_window.cpp	B	inferred .cpp basename from map object; extension not recorded	159	27	1	26	16	10	10	4	2
-building_traits.obj	game/building_traits.cpp	A	anonymous-namespace source tag: C:\work\game\building_traits.cpp	160	25	2	23	14	9	3	6	5
-button.obj	game/button.cpp	B	inferred .cpp basename from map object; extension not recorded	161	65	14	51	27	24	20	4	3
-button_bitmaps.obj	game/button_bitmaps.cpp	B	inferred .cpp basename from map object; extension not recorded	162	12	1	11	8	3	8	0	0
-button_group.obj	game/button_group.cpp	B	inferred .cpp basename from map object; extension not recorded	163	93	16	77	38	39	29	5	4
-buy_building_detail.obj	game/buy_building_detail.cpp	B	inferred .cpp basename from map object; extension not recorded	164	61	1	60	39	21	24	14	1
-buy_building_window.obj	game/buy_building_window.cpp	A	anonymous-namespace source tag: C:\work\game\buy_building_window.cpp	165	92	1	91	60	31	33	25	2
-cache_base.obj	game/cache_base.cpp	A	anonymous-namespace source tag: C:\work\game\cache_base.cpp	166	55	34	21	12	9	8	0	4
-cached_grail_data_source.obj	game/cached_grail_data_source.cpp	B	inferred .cpp basename from map object; extension not recorded	167	3	1	2	2	0	2	0	0
-campaign_file.obj	game/campaign_file.cpp	A	anonymous-namespace source tag: C:\work\game\campaign_file.cpp	168	30	2	28	16	12	12	4	0
-campaign_file_header.obj	game/campaign_file_header.cpp	A	anonymous-namespace source tag: C:\work\game\campaign_file_header.cpp	169	288	51	237	114	123	91	11	12
-campaign_file_ref.obj	game/campaign_file_ref.cpp	A	anonymous-namespace source tag: C:\work\game\campaign_file_ref.cpp	170	54	1	53	33	20	29	4	0
-campfire.obj	game/campfire.cpp	B	inferred .cpp basename from map object; extension not recorded	171	39	1	38	25	13	20	3	2
-can_cast.obj	game/can_cast.cpp	B	inferred .cpp basename from map object; extension not recorded	172	314	2	312	213	99	67	140	6
-caravan.obj	game/caravan.cpp	B	inferred .cpp basename from map object; extension not recorded	173	38	1	37	25	12	13	5	7
-caravan_set.obj	game/caravan_set.cpp	A	anonymous-namespace source tag: C:\work\game\caravan_set.cpp	174	17	6	11	6	5	1	3	2
-carryover_data.obj	game/carryover_data.cpp	A	anonymous-namespace source tag: C:\work\game\carryover_data.cpp	175	113	63	50	28	22	10	11	7
-carryover_hero.obj	game/carryover_hero.cpp	A	anonymous-namespace source tag: C:\work\game\carryover_hero.cpp	176	80	2	78	59	19	22	4	33
-castle_gate.obj	game/castle_gate.cpp	A	anonymous-namespace source tag: C:\work\game\castle_gate.cpp	177	81	8	73	43	30	27	10	6
-castle_window.obj	game/castle_window.cpp	B	inferred .cpp basename from map object; extension not recorded	178	95	2	93	61	32	32	22	7
-chain_lightning.obj	game/chain_lightning.cpp	A	anonymous-namespace source tag: C:\work\game\chain_lightning.cpp	179	147	2	145	80	65	68	3	9
-cheats.obj	game/cheats.cpp	B	inferred .cpp basename from map object; extension not recorded	180	246	1	245	160	85	71	87	2
-check_artifact_influence.obj	game/check_artifact_influence.cpp	A	anonymous-namespace source tag: C:\work\game\check_artifact_influence.cpp	181	90	25	65	38	27	34	3	1
-clip_list.obj	game/clip_list.cpp	B	inferred .cpp basename from map object; extension not recorded	182	74	21	53	32	21	9	14	9
-color_count.obj	game/color_count.cpp	B	inferred .cpp basename from map object; extension not recorded	183	10	0	10	1	9	0	1	0
-color_cube.obj	game/color_cube.cpp	A	anonymous-namespace source tag: C:\work\game\color_cube.cpp	184	74	54	20	4	16	0	2	2
-color_sum.obj	game/color_sum.cpp	B	inferred .cpp basename from map object; extension not recorded	185	5	0	5	1	4	0	0	1
-combat_action_message.obj	game/combat_action_message.cpp	B	inferred .cpp basename from map object; extension not recorded	186	28	1	27	14	13	7	3	4
-combat_action_message_displayer.obj	game/combat_action_message_displayer.cpp	B	inferred .cpp basename from map object; extension not recorded	187	25	1	24	17	7	17	0	0
-combat_actor.obj	game/combat_actor.cpp	B	inferred .cpp basename from map object; extension not recorded	188	89	2	87	49	38	28	13	8
-combat_actor_action.obj	game/combat_actor_action.cpp	A	anonymous-namespace source tag: C:\work\game\combat_actor_action.cpp	189	15	1	14	6	8	2	1	3
-combat_actor_model.obj	game/combat_actor_model.cpp	B	inferred .cpp basename from map object; extension not recorded	190	73	1	72	36	36	27	0	9
-combat_actor_model_cache.obj	game/combat_actor_model_cache.cpp	A	anonymous-namespace source tag: C:\work\game\combat_actor_model_cache.cpp	191	382	172	210	132	78	103	3	26
-combat_actor_model_definition.obj	game/combat_actor_model_definition.cpp	B	inferred .cpp basename from map object; extension not recorded	192	28	1	27	9	18	7	0	2
-combat_ai.obj	game/combat_ai.cpp	B	inferred .cpp basename from map object; extension not recorded	193	244	113	131	74	57	46	19	9
-combat_ai_defend_action.obj	game/combat_ai_defend_action.cpp	B	inferred .cpp basename from map object; extension not recorded	194	24	1	23	12	11	10	2	0
-combat_ai_melee_action.obj	game/combat_ai_melee_action.cpp	B	inferred .cpp basename from map object; extension not recorded	195	71	1	70	37	33	17	8	12
-combat_ai_move_action.obj	game/combat_ai_move_action.cpp	B	inferred .cpp basename from map object; extension not recorded	196	46	1	45	23	22	16	2	5
-combat_ai_ranged_area_action.obj	game/combat_ai_ranged_area_action.cpp	B	inferred .cpp basename from map object; extension not recorded	197	24	1	23	13	10	11	2	0
-combat_ai_ranged_single_action.obj	game/combat_ai_ranged_single_action.cpp	B	inferred .cpp basename from map object; extension not recorded	198	26	1	25	13	12	11	2	0
-combat_ai_spell_single_action.obj	game/combat_ai_spell_single_action.cpp	B	inferred .cpp basename from map object; extension not recorded	199	25	1	24	13	11	11	2	0
-combat_ai_wait_action.obj	game/combat_ai_wait_action.cpp	B	inferred .cpp basename from map object; extension not recorded	200	24	1	23	12	11	10	2	0
-combat_castle.obj	game/combat_castle.cpp	B	inferred .cpp basename from map object; extension not recorded	201	25	17	8	3	5	1	2	0
-combat_context_army.obj	game/combat_context_army.cpp	B	inferred .cpp basename from map object; extension not recorded	202	27	1	26	17	9	17	0	0
-combat_creature.obj	game/combat_creature.cpp	A	anonymous-namespace source tag: C:\work\game\combat_creature.cpp	203	562	69	493	323	170	132	99	92
-combat_creature_icon.obj	game/combat_creature_icon.cpp	B	inferred .cpp basename from map object; extension not recorded	204	30	1	29	20	9	18	1	1
-combat_flinch.obj	game/combat_flinch.cpp	B	inferred .cpp basename from map object; extension not recorded	205	24	7	17	10	7	8	1	1
-combat_footprint.obj	game/combat_footprint.cpp	A	anonymous-namespace source tag: C:\work\game\combat_footprint.cpp	206	141	129	12	7	5	0	3	4
-combat_header_table.obj	game/combat_header_table.cpp	B	inferred .cpp basename from map object; extension not recorded	207	83	29	54	33	21	21	7	5
-combat_label.obj	game/combat_label.cpp	A	anonymous-namespace source tag: C:\work\game\combat_label.cpp	208	193	128	65	36	29	27	4	5
-combat_model_window.obj	game/combat_model_window.cpp	A	anonymous-namespace source tag: C:\work\game\combat_model_window.cpp	209	118	46	72	42	30	28	8	6
-combat_non_blocking_message_displayer.obj	game/combat_non_blocking_message_displayer.cpp	B	inferred .cpp basename from map object; extension not recorded	210	21	1	20	15	5	13	2	0
-combat_object_fader.obj	game/combat_object_fader.cpp	B	inferred .cpp basename from map object; extension not recorded	211	48	1	47	29	18	24	3	2
-combat_object_model.obj	game/combat_object_model.cpp	B	inferred .cpp basename from map object; extension not recorded	212	23	1	22	5	17	2	2	1
-combat_object_model_cache.obj	game/combat_object_model_cache.cpp	A	anonymous-namespace source tag: C:\work\game\combat_object_model_cache.cpp	213	137	64	73	48	25	39	3	6
-combat_object_registration.obj	game/combat_object_registration.cpp	B	inferred .cpp basename from map object; extension not recorded	214	4	0	4	2	2	0	1	1
-combat_object_visitor.obj	game/combat_object_visitor.cpp	B	inferred .cpp basename from map object; extension not recorded	215	11	0	11	0	11	0	0	0
-combat_obstacle_placer.obj	game/combat_obstacle_placer.cpp	A	anonymous-namespace source tag: C:\work\game\combat_obstacle_placer.cpp	216	199	54	145	78	67	50	12	16
-combat_obstruction_finder.obj	game/combat_obstruction_finder.cpp	A	anonymous-namespace source tag: C:\work\game\combat_obstruction_finder.cpp	217	72	27	45	30	15	25	4	1
-combat_path_finder.obj	game/combat_path_finder.cpp	B	inferred .cpp basename from map object; extension not recorded	218	60	20	40	21	19	15	2	4
-combat_path_finder_base.obj	game/combat_path_finder_base.cpp	B	inferred .cpp basename from map object; extension not recorded	219	53	15	38	22	16	12	8	2
-combat_reader.obj	game/combat_reader.cpp	B	inferred .cpp basename from map object; extension not recorded	220	170	43	127	75	52	64	1	10
-combat_sounds.obj	game/combat_sounds.cpp	B	inferred .cpp basename from map object; extension not recorded	221	11	1	10	6	4	1	4	1
-combat_spell.obj	game/combat_spell.cpp	A	anonymous-namespace source tag: C:\work\game\combat_spell.cpp	222	153	1	152	88	64	61	17	10
-combat_spell_cell_target.obj	game/combat_spell_cell_target.cpp	B	inferred .cpp basename from map object; extension not recorded	223	29	1	28	20	8	20	0	0
-combat_spell_registration.obj	game/combat_spell_registration.cpp	B	inferred .cpp basename from map object; extension not recorded	224	4	0	4	3	1	0	2	1
-combat_spell_single_target.obj	game/combat_spell_single_target.cpp	A	anonymous-namespace source tag: C:\work\game\combat_spell_single_target.cpp	225	1560	3	1557	1080	477	1007	45	28
-combat_start_position.obj	game/combat_start_position.cpp	B	inferred .cpp basename from map object; extension not recorded	226	5	1	4	3	1	2	1	0
-combat_terrain_map.obj	game/combat_terrain_map.cpp	B	inferred .cpp basename from map object; extension not recorded	227	59	33	26	14	12	7	6	1
-combat_user_action.obj	game/combat_user_action.cpp	A	anonymous-namespace source tag: C:\work\game\combat_user_action.cpp	228	128	1	127	79	48	65	14	0
-combat_window.obj	game/combat_window.cpp	A	anonymous-namespace source tag: C:\work\game\combat_window.cpp	229	459	76	383	245	138	85	131	29
-compound_object.obj	game/compound_object.cpp	B	inferred .cpp basename from map object; extension not recorded	230	61	16	45	26	19	21	5	0
-compound_object_model.obj	game/compound_object_model.cpp	B	inferred .cpp basename from map object; extension not recorded	231	107	45	62	35	27	28	5	2
-compressed_filter.obj	game/compressed_filter.cpp	B	inferred .cpp basename from map object; extension not recorded	232	80	3	77	45	32	35	0	10
-configuration.obj	game/configuration.cpp	A	anonymous-namespace source tag: C:\work\game\configuration.cpp	233	24	1	23	6	17	2	3	1
-continuous_event.obj	game/continuous_event.cpp	A	anonymous-namespace source tag: C:\work\game\continuous_event.cpp	234	4	1	3	2	1	1	1	0
-convert_16_bit.obj	game/convert_16_bit.cpp	A	anonymous-namespace source tag: C:\work\game\convert_16_bit.cpp	235	83	38	45	11	34	9	1	1
-counted_animation.obj	game/counted_animation.cpp	B	inferred .cpp basename from map object; extension not recorded	236	24	1	23	16	7	15	0	1
-create_creature_button.obj	game/create_creature_button.cpp	B	inferred .cpp basename from map object; extension not recorded	237	17	14	3	2	1	1	0	1
-creature.obj	game/creature.cpp	B	inferred .cpp basename from map object; extension not recorded	238	167	43	124	69	55	40	10	19
-creature_ability_properties.obj	game/creature_ability_properties.cpp	A	anonymous-namespace source tag: C:\work\game\creature_ability_properties.cpp	239	26	1	25	12	13	3	3	6
-creature_array.obj	game/creature_array.cpp	A	anonymous-namespace source tag: C:\work\game\creature_array.cpp	240	136	12	124	97	27	15	46	36
-creature_array_window.obj	game/creature_array_window.cpp	A	anonymous-namespace source tag: C:\work\game\creature_array_window.cpp	241	161	30	131	68	63	32	26	10
-creature_bank.obj	game/creature_bank.cpp	A	anonymous-namespace source tag: C:\work\game\creature_bank.cpp	242	137	28	109	75	34	27	7	41
-creature_bank_type.obj	game/creature_bank_type.cpp	A	anonymous-namespace source tag: C:\work\game\creature_bank_type.cpp	243	15	1	14	5	9	2	1	2
-creature_detail_display.obj	game/creature_detail_display.cpp	A	anonymous-namespace source tag: C:\work\game\creature_detail_display.cpp	244	32	12	20	15	5	3	8	4
-creature_icon_window.obj	game/creature_icon_window.cpp	B	inferred .cpp basename from map object; extension not recorded	245	11	1	10	9	1	7	1	1
-creature_info_window.obj	game/creature_info_window.cpp	A	anonymous-namespace source tag: C:\work\game\creature_info_window.cpp	246	42	1	41	24	17	16	4	4
-creature_select_window.obj	game/creature_select_window.cpp	B	inferred .cpp basename from map object; extension not recorded	247	129	24	105	61	44	43	12	6
-creature_stack.obj	game/creature_stack.cpp	B	inferred .cpp basename from map object; extension not recorded	248	162	27	135	50	85	23	10	17
-creature_traits.obj	game/creature_traits.cpp	A	anonymous-namespace source tag: C:\work\game\creature_traits.cpp	249	82	21	61	39	22	7	19	13
-creature_type.obj	game/creature_type.cpp	A	anonymous-namespace source tag: C:\work\game\creature_type.cpp	250	14	1	13	6	7	2	1	3
-data_lock.obj	game/data_lock.cpp	B	inferred .cpp basename from map object; extension not recorded	251	7	0	7	4	3	0	0	4
-debug_message.obj	game/debug_message.cpp	B	inferred .cpp basename from map object; extension not recorded	252	21	3	18	9	9	4	5	0
-default_artifacts.obj	game/default_artifacts.cpp	A	anonymous-namespace source tag: C:\work\game\default_artifacts.cpp	253	168	1	167	114	53	34	11	69
-default_heroes.obj	game/default_heroes.cpp	A	anonymous-namespace source tag: C:\work\game\default_heroes.cpp	254	79	39	40	25	15	4	9	12
-default_obelisk_rewards.obj	game/default_obelisk_rewards.cpp	B	inferred .cpp basename from map object; extension not recorded	255	3	1	2	1	1	1	0	0
-delay_effect.obj	game/delay_effect.cpp	B	inferred .cpp basename from map object; extension not recorded	256	17	0	17	12	5	9	1	2
-dialog_adv_spell_target.obj	game/dialog_adv_spell_target.cpp	B	inferred .cpp basename from map object; extension not recorded	257	85	1	84	50	34	34	12	4
-dialog_altar.obj	game/dialog_altar.cpp	B	inferred .cpp basename from map object; extension not recorded	258	99	8	91	51	40	38	10	3
-dialog_beastmaster.obj	game/dialog_beastmaster.cpp	B	inferred .cpp basename from map object; extension not recorded	259	67	1	66	43	23	27	14	2
-dialog_blacksmith.obj	game/dialog_blacksmith.cpp	B	inferred .cpp basename from map object; extension not recorded	260	87	1	86	55	31	38	11	6
-dialog_booty.obj	game/dialog_booty.cpp	A	anonymous-namespace source tag: C:\work\game\dialog_booty.cpp	261	68	1	67	46	21	33	5	8
-dialog_box.obj	game/dialog_box.cpp	B	inferred .cpp basename from map object; extension not recorded	262	18	1	17	13	4	11	1	1
-dialog_box_bitmaps.obj	game/dialog_box_bitmaps.cpp	B	inferred .cpp basename from map object; extension not recorded	263	12	1	11	8	3	8	0	0
-dialog_campaign.obj	game/dialog_campaign.cpp	A	anonymous-namespace source tag: C:\work\game\dialog_campaign.cpp	264	180	2	178	112	66	52	44	16
-dialog_campaign_score.obj	game/dialog_campaign_score.cpp	B	inferred .cpp basename from map object; extension not recorded	265	128	44	84	47	37	29	13	5
-dialog_campaign_selection.obj	game/dialog_campaign_selection.cpp	B	inferred .cpp basename from map object; extension not recorded	266	89	1	88	58	30	27	20	11
-dialog_caravan_arrivals.obj	game/dialog_caravan_arrivals.cpp	B	inferred .cpp basename from map object; extension not recorded	267	131	20	111	68	43	44	18	6
-dialog_caravan_creation.obj	game/dialog_caravan_creation.cpp	B	inferred .cpp basename from map object; extension not recorded	268	362	86	276	185	91	73	91	21
-dialog_caravan_initial.obj	game/dialog_caravan_initial.cpp	B	inferred .cpp basename from map object; extension not recorded	269	111	1	110	68	42	43	21	4
-dialog_caravan_view.obj	game/dialog_caravan_view.cpp	B	inferred .cpp basename from map object; extension not recorded	270	210	24	186	112	74	66	39	7
-dialog_charm.obj	game/dialog_charm.cpp	B	inferred .cpp basename from map object; extension not recorded	271	86	1	85	61	24	29	31	1
-dialog_choose_lord.obj	game/dialog_choose_lord.cpp	A	anonymous-namespace source tag: C:\work\game\dialog_choose_lord.cpp	272	116	28	88	59	29	35	18	6
-dialog_cinematic.obj	game/dialog_cinematic.cpp	B	inferred .cpp basename from map object; extension not recorded	273	78	1	77	52	25	32	16	4
-dialog_combat_creature.obj	game/dialog_combat_creature.cpp	B	inferred .cpp basename from map object; extension not recorded	274	98	4	94	58	36	37	19	2
-dialog_combat_options.obj	game/dialog_combat_options.cpp	B	inferred .cpp basename from map object; extension not recorded	275	66	1	65	47	18	27	20	0
-dialog_combat_results.obj	game/dialog_combat_results.cpp	A	anonymous-namespace source tag: C:\work\game\dialog_combat_results.cpp	276	126	1	125	89	36	38	44	7
-dialog_creature_portal.obj	game/dialog_creature_portal.cpp	B	inferred .cpp basename from map object; extension not recorded	277	89	6	83	46	37	36	5	5
-dialog_enemy_runs.obj	game/dialog_enemy_runs.cpp	B	inferred .cpp basename from map object; extension not recorded	278	50	1	49	35	14	21	11	3
-dialog_file.obj	game/dialog_file.cpp	B	inferred .cpp basename from map object; extension not recorded	279	147	60	87	52	35	31	13	8
-dialog_full_army.obj	game/dialog_full_army.cpp	B	inferred .cpp basename from map object; extension not recorded	280	60	1	59	41	18	27	11	3
-dialog_garrison.obj	game/dialog_garrison.cpp	B	inferred .cpp basename from map object; extension not recorded	281	155	1	154	95	59	67	21	7
-dialog_high_score.obj	game/dialog_high_score.cpp	A	anonymous-namespace source tag: C:\work\game\dialog_high_score.cpp	282	108	1	107	72	35	34	29	9
-dialog_kingdom_trade.obj	game/dialog_kingdom_trade.cpp	B	inferred .cpp basename from map object; extension not recorded	283	97	16	81	51	30	34	11	6
-dialog_load_game.obj	game/dialog_load_game.cpp	B	inferred .cpp basename from map object; extension not recorded	284	47	3	44	30	14	21	8	1
-dialog_magic_gem.obj	game/dialog_magic_gem.cpp	B	inferred .cpp basename from map object; extension not recorded	285	48	1	47	31	16	23	6	2
-dialog_magic_university.obj	game/dialog_magic_university.cpp	B	inferred .cpp basename from map object; extension not recorded	286	4	2	2	2	0	1	1	0
-dialog_mana_vortex.obj	game/dialog_mana_vortex.cpp	B	inferred .cpp basename from map object; extension not recorded	287	55	1	54	36	18	25	10	1
-dialog_marketplace.obj	game/dialog_marketplace.cpp	B	inferred .cpp basename from map object; extension not recorded	288	86	1	85	56	29	34	13	9
-dialog_necromancy.obj	game/dialog_necromancy.cpp	B	inferred .cpp basename from map object; extension not recorded	289	31	1	30	24	6	12	11	1
-dialog_options_base.obj	game/dialog_options_base.cpp	B	inferred .cpp basename from map object; extension not recorded	290	67	1	66	47	19	27	16	4
-dialog_resurrect.obj	game/dialog_resurrect.cpp	B	inferred .cpp basename from map object; extension not recorded	291	53	1	52	7	45	3	4	0
-dialog_save_game.obj	game/dialog_save_game.cpp	B	inferred .cpp basename from map object; extension not recorded	292	72	5	67	47	20	30	14	3
-dialog_school_of_magic.obj	game/dialog_school_of_magic.cpp	B	inferred .cpp basename from map object; extension not recorded	293	67	1	66	43	23	31	9	3
-dialog_score.obj	game/dialog_score.cpp	B	inferred .cpp basename from map object; extension not recorded	294	208	1	207	141	66	61	74	6
-dialog_teleporter_entrance.obj	game/dialog_teleporter_entrance.cpp	A	anonymous-namespace source tag: C:\work\game\dialog_teleporter_entrance.cpp	295	191	88	103	66	37	45	13	8
-dialog_tree_of_knowledge.obj	game/dialog_tree_of_knowledge.cpp	B	inferred .cpp basename from map object; extension not recorded	296	61	1	60	41	19	26	13	2
-dialog_view_world.obj	game/dialog_view_world.cpp	A	anonymous-namespace source tag: C:\work\game\dialog_view_world.cpp	297	368	30	338	184	154	133	29	22
-dialog_war_institute.obj	game/dialog_war_institute.cpp	B	inferred .cpp basename from map object; extension not recorded	298	59	5	54	36	18	25	10	1
-dib_section.obj	game/dib_section.cpp	B	inferred .cpp basename from map object; extension not recorded	299	26	1	25	11	14	10	1	0
-diff.obj	game/diff.cpp	B	inferred .cpp basename from map object; extension not recorded	300	13	1	12	1	11	1	0	0
-direct_paint_surface.obj	game/direct_paint_surface.cpp	B	inferred .cpp basename from map object; extension not recorded	301	34	1	33	20	13	20	0	0
-direct_surface_16.obj	game/direct_surface_16.cpp	B	inferred .cpp basename from map object; extension not recorded	302	24	0	24	18	6	17	0	1
-direction.obj	game/direction.cpp	A	anonymous-namespace source tag: C:\work\game\direction.cpp	303	18	1	17	3	14	1	0	2
-discrete_event.obj	game/discrete_event.cpp	A	anonymous-namespace source tag: C:\work\game\discrete_event.cpp	304	12	1	11	8	3	4	4	0
-drag_artifact.obj	game/drag_artifact.cpp	B	inferred .cpp basename from map object; extension not recorded	305	29	1	28	21	7	19	2	0
-drag_creature.obj	game/drag_creature.cpp	B	inferred .cpp basename from map object; extension not recorded	306	13	1	12	11	1	10	1	0
-drag_garrison.obj	game/drag_garrison.cpp	B	inferred .cpp basename from map object; extension not recorded	307	13	1	12	1	11	1	0	0
-drag_object.obj	game/drag_object.cpp	B	inferred .cpp basename from map object; extension not recorded	308	8	0	8	6	2	6	0	0
-draw_adventure_tile.obj	game/draw_adventure_tile.cpp	A	anonymous-namespace source tag: C:\work\game\draw_adventure_tile.cpp	309	74	3	71	35	36	13	18	4
-draw_terrain.obj	game/draw_terrain.cpp	B	inferred .cpp basename from map object; extension not recorded	310	9	1	8	5	3	4	1	0
-dump_entire_map_image.obj	game/dump_entire_map_image.cpp	A	anonymous-namespace source tag: C:\work\game\dump_entire_map_image.cpp	311	46	8	38	24	14	19	1	4
-enum_map.obj	game/enum_map.cpp	B	inferred .cpp basename from map object; extension not recorded	312	8	4	4	3	1	1	1	1
-estimate_outcome.obj	game/estimate_outcome.cpp	B	inferred .cpp basename from map object; extension not recorded	313	16	1	15	8	7	4	3	1
-external_resource.obj	game/external_resource.cpp	B	inferred .cpp basename from map object; extension not recorded	314	48	2	46	28	18	27	0	1
-external_string.obj	game/external_string.cpp	A	anonymous-namespace source tag: C:\work\game\external_string.cpp	315	151	101	50	13	37	6	1	6
-fire_ring.obj	game/fire_ring.cpp	B	inferred .cpp basename from map object; extension not recorded	316	67	1	66	38	28	29	9	0
-fireball.obj	game/fireball.cpp	A	anonymous-namespace source tag: C:\work\game\fireball.cpp	317	422	38	384	238	146	198	16	24
-flotsam.obj	game/flotsam.cpp	B	inferred .cpp basename from map object; extension not recorded	318	38	1	37	25	12	20	3	2
-font.obj	game/font.cpp	B	inferred .cpp basename from map object; extension not recorded	319	64	2	62	37	25	24	10	3
-footprint.obj	game/footprint.cpp	B	inferred .cpp basename from map object; extension not recorded	320	6	0	6	3	3	3	0	0
-foreign_creature_array_window_controls.obj	game/foreign_creature_array_window_controls.cpp	A	anonymous-namespace source tag: C:\work\game\foreign_creature_array_window_controls.cpp	321	136	1	135	50	85	36	3	11
-format_string.obj	game/format_string.cpp	B	inferred .cpp basename from map object; extension not recorded	322	5	1	4	4	0	1	1	2
-game_application.obj	game/game_application.cpp	B	inferred .cpp basename from map object; extension not recorded	323	35	3	32	23	9	13	3	7
-game_time.obj	game/game_time.cpp	B	inferred .cpp basename from map object; extension not recorded	324	3	0	3	1	2	0	0	1
-game_window.obj	game/game_window.cpp	B	inferred .cpp basename from map object; extension not recorded	325	221	56	165	87	78	34	25	28
-garrison_button.obj	game/garrison_button.cpp	B	inferred .cpp basename from map object; extension not recorded	326	31	1	30	1	29	1	0	0
-gateway.obj	game/gateway.cpp	A	anonymous-namespace source tag: C:\work\game\gateway.cpp	327	52	3	49	28	21	23	3	2
-gateway_base.obj	game/gateway_base.cpp	A	anonymous-namespace source tag: C:\work\game\gateway_base.cpp	328	34	1	33	17	16	12	1	4
-get_artifact_damage_modifier.obj	game/get_artifact_damage_modifier.cpp	A	anonymous-namespace source tag: C:\work\game\get_artifact_damage_modifier.cpp	329	247	12	235	154	81	118	9	27
-global_event.obj	game/global_event.cpp	A	anonymous-namespace source tag: C:\work\game\global_event.cpp	330	31	11	20	11	9	1	9	1
-help_balloon.obj	game/help_balloon.cpp	B	inferred .cpp basename from map object; extension not recorded	331	20	1	19	14	5	13	0	1
-hero.obj	game/hero.cpp	A	anonymous-namespace source tag: C:\work\game\hero.cpp	332	496	190	306	170	136	47	79	44
-hero_class_properties.obj	game/hero_class_properties.cpp	A	anonymous-namespace source tag: C:\work\game\hero_class_properties.cpp	333	87	48	39	24	15	3	4	17
-hero_events.obj	game/hero_events.cpp	A	anonymous-namespace source tag: C:\work\game\hero_events.cpp	334	9	1	8	5	3	1	0	4
-hero_keyword_replacer.obj	game/hero_keyword_replacer.cpp	B	inferred .cpp basename from map object; extension not recorded	335	32	2	30	25	5	6	19	0
-hero_portrait.obj	game/hero_portrait.cpp	A	anonymous-namespace source tag: C:\work\game\hero_portrait.cpp	336	24	1	23	15	8	5	7	3
-heroes4.obj	game/heroes4.cpp	A	anonymous-namespace source tag: C:\work\game\heroes4.cpp	337	189	8	181	112	69	80	24	8
-high_scores.obj	game/high_scores.cpp	A	anonymous-namespace source tag: C:\work\game\high_scores.cpp	338	235	2	233	163	70	62	90	11
-hire_hero_dialog.obj	game/hire_hero_dialog.cpp	B	inferred .cpp basename from map object; extension not recorded	339	202	6	196	116	80	83	17	16
-hue_pixel.obj	game/hue_pixel.cpp	B	inferred .cpp basename from map object; extension not recorded	340	7	0	7	6	1	0	5	1
-idle_processor.obj	game/idle_processor.cpp	A	anonymous-namespace source tag: C:\work\game\idle_processor.cpp	341	83	36	47	29	18	21	1	7
-image_sequence.obj	game/image_sequence.cpp	A	anonymous-namespace source tag: C:\work\game\image_sequence.cpp	342	78	41	37	12	25	4	3	5
-interface_help.obj	game/interface_help.cpp	A	anonymous-namespace source tag: C:\work\game\interface_help.cpp	343	187	134	53	27	26	16	9	2
-isometric_map.obj	game/isometric_map.cpp	B	inferred .cpp basename from map object; extension not recorded	344	50	28	22	10	12	1	7	2
-keyword_replacer.obj	game/keyword_replacer.cpp	B	inferred .cpp basename from map object; extension not recorded	345	40	8	32	27	5	6	20	1
-kingdom_overview_window.obj	game/kingdom_overview_window.cpp	A	anonymous-namespace source tag: C:\work\game\kingdom_overview_window.cpp	346	405	42	363	222	141	138	62	22
-library.obj	game/library.cpp	B	inferred .cpp basename from map object; extension not recorded	347	70	1	69	56	13	21	2	33
-lighthouse.obj	game/lighthouse.cpp	A	anonymous-namespace source tag: C:\work\game\lighthouse.cpp	348	48	1	47	27	20	22	3	2
-link_type.obj	game/link_type.cpp	B	inferred .cpp basename from map object; extension not recorded	349	6	1	5	2	3	1	0	1
-linkage_data.obj	game/linkage_data.cpp	B	inferred .cpp basename from map object; extension not recorded	350	14	1	13	8	5	3	3	2
-luck_icon_window.obj	game/luck_icon_window.cpp	B	inferred .cpp basename from map object; extension not recorded	351	25	1	24	20	4	10	8	2
-luck_object.obj	game/luck_object.cpp	A	anonymous-namespace source tag: C:\work\game\luck_object.cpp	352	164	1	163	101	62	80	9	12
-mage_guild_window.obj	game/mage_guild_window.cpp	A	anonymous-namespace source tag: C:\work\game\mage_guild_window.cpp	353	299	45	254	158	96	98	43	17
-magic_mirror.obj	game/magic_mirror.cpp	B	inferred .cpp basename from map object; extension not recorded	354	44	1	43	30	13	24	2	4
-magic_university.obj	game/magic_university.cpp	A	anonymous-namespace source tag: C:\work\game\magic_university.cpp	355	128	8	120	86	34	41	8	37
-main_menu.obj	game/main_menu.cpp	A	anonymous-namespace source tag: C:\work\game\main_menu.cpp	356	348	39	309	175	134	72	78	25
-mana_leech.obj	game/mana_leech.cpp	B	inferred .cpp basename from map object; extension not recorded	357	275	1	274	122	152	92	8	22
-mana_source.obj	game/mana_source.cpp	B	inferred .cpp basename from map object; extension not recorded	358	48	1	47	30	17	21	7	2
-map_header.obj	game/map_header.cpp	B	inferred .cpp basename from map object; extension not recorded	359	15	3	12	10	2	3	7	0
-map_renderer.obj	game/map_renderer.cpp	A	anonymous-namespace source tag: C:\work\game\map_renderer.cpp	360	653	215	438	196	242	90	55	51
-martyr.obj	game/martyr.cpp	B	inferred .cpp basename from map object; extension not recorded	361	80	1	79	55	24	42	13	0
-mass_spell.obj	game/mass_spell.cpp	A	anonymous-namespace source tag: C:\work\game\mass_spell.cpp	362	341	24	317	207	110	197	7	3
-material_display.obj	game/material_display.cpp	B	inferred .cpp basename from map object; extension not recorded	363	6	1	5	5	0	1	2	2
-material_icons.obj	game/material_icons.cpp	A	anonymous-namespace source tag: C:\work\game\material_icons.cpp	364	13	1	12	7	5	2	2	3
-material_names.obj	game/material_names.cpp	B	inferred .cpp basename from map object; extension not recorded	365	9	1	8	5	3	2	2	1
-material_pile.obj	game/material_pile.cpp	A	anonymous-namespace source tag: C:\work\game\material_pile.cpp	366	89	1	88	51	37	40	5	6
-material_values.obj	game/material_values.cpp	B	inferred .cpp basename from map object; extension not recorded	367	6	0	6	3	3	0	2	1
-memory_buffer.obj	game/memory_buffer.cpp	B	inferred .cpp basename from map object; extension not recorded	368	85	38	47	43	4	29	5	9
-memory_manager.obj	game/memory_manager.cpp	B	inferred .cpp basename from map object; extension not recorded	369	5	0	5	2	3	0	0	2
-memory_window.obj	game/memory_window.cpp	A	anonymous-namespace source tag: C:\work\game\memory_window.cpp	370	30	1	29	19	10	12	2	5
-metatile_map.obj	game/metatile_map.cpp	A	anonymous-namespace source tag: C:\work\game\metatile_map.cpp	371	167	91	76	22	54	10	2	10
-metatile_texture.obj	game/metatile_texture.cpp	B	inferred .cpp basename from map object; extension not recorded	372	26	5	21	8	13	2	3	3
-metatile_texture_cache.obj	game/metatile_texture_cache.cpp	A	anonymous-namespace source tag: C:\work\game\metatile_texture_cache.cpp	373	215	24	191	73	118	52	2	19
-micro_map_window.obj	game/micro_map_window.cpp	B	inferred .cpp basename from map object; extension not recorded	374	42	1	41	27	14	25	2	0
-mine.obj	game/mine.cpp	A	anonymous-namespace source tag: C:\work\game\mine.cpp	375	147	1	146	103	43	51	8	44
-mini_map_renderer.obj	game/mini_map_renderer.cpp	A	anonymous-namespace source tag: C:\work\game\mini_map_renderer.cpp	376	297	115	182	80	102	50	13	17
-mini_map_window.obj	game/mini_map_window.cpp	B	inferred .cpp basename from map object; extension not recorded	377	33	1	32	18	14	15	1	2
-missile_type.obj	game/missile_type.cpp	B	inferred .cpp basename from map object; extension not recorded	378	8	1	7	3	4	1	0	2
-morale_icon_window.obj	game/morale_icon_window.cpp	B	inferred .cpp basename from map object; extension not recorded	379	48	1	47	38	9	22	12	4
-mouse_window.obj	game/mouse_window.cpp	B	inferred .cpp basename from map object; extension not recorded	380	11	0	11	8	3	7	0	1
-move_missile.obj	game/move_missile.cpp	B	inferred .cpp basename from map object; extension not recorded	381	33	1	32	19	13	16	2	1
-mp3_stream.obj	game/mp3_stream.cpp	A	anonymous-namespace source tag: C:\work\game\mp3_stream.cpp	382	57	0	57	26	31	24	1	1
-music.obj	game/music.cpp	A	anonymous-namespace source tag: C:\work\game\music.cpp	383	48	22	26	14	12	3	2	9
-network_event.obj	game/network_event.cpp	B	inferred .cpp basename from map object; extension not recorded	384	2	0	2	2	0	0	1	1
-network_session.obj	game/network_session.cpp	B	inferred .cpp basename from map object; extension not recorded	385	78	30	48	34	14	20	11	3
-new_game_details.obj	game/new_game_details.cpp	B	inferred .cpp basename from map object; extension not recorded	386	116	1	115	72	43	44	24	4
-new_map_dialog.obj	game/new_map_dialog.cpp	A	anonymous-namespace source tag: C:\work\game\new_map_dialog.cpp	387	461	129	332	191	141	110	48	33
-new_map_options_dialog.obj	game/new_map_options_dialog.cpp	A	anonymous-namespace source tag: C:\work\game\new_map_options_dialog.cpp	388	278	22	256	175	81	80	77	18
-null_grail_data_source.obj	game/null_grail_data_source.cpp	B	inferred .cpp basename from map object; extension not recorded	389	13	0	13	7	6	6	0	1
-obelisk_data.obj	game/obelisk_data.cpp	B	inferred .cpp basename from map object; extension not recorded	390	24	14	10	7	3	1	4	2
-obelisk_marker.obj	game/obelisk_marker.cpp	A	anonymous-namespace source tag: C:\work\game\obelisk_marker.cpp	391	49	2	47	28	19	20	5	3
-obelisk_reward.obj	game/obelisk_reward.cpp	A	anonymous-namespace source tag: C:\work\game\obelisk_reward.cpp	392	51	1	50	34	16	30	1	3
-obelisk_reward_type.obj	game/obelisk_reward_type.cpp	B	inferred .cpp basename from map object; extension not recorded	393	9	1	8	5	3	2	1	2
-object_registration.obj	game/object_registration.cpp	A	anonymous-namespace source tag: C:\work\game\object_registration.cpp	394	94	48	46	18	28	9	5	4
-obstacle_type.obj	game/obstacle_type.cpp	A	anonymous-namespace source tag: C:\work\game\obstacle_type.cpp	395	14	1	13	6	7	2	1	3
-open_gate_animation.obj	game/open_gate_animation.cpp	B	inferred .cpp basename from map object; extension not recorded	396	34	3	31	19	12	16	2	1
-options.obj	game/options.cpp	B	inferred .cpp basename from map object; extension not recorded	397	35	1	34	34	0	1	0	33
-options_dialog.obj	game/options_dialog.cpp	B	inferred .cpp basename from map object; extension not recorded	398	127	1	126	89	37	45	40	4
-os_file.obj	game/os_file.cpp	B	inferred .cpp basename from map object; extension not recorded	399	29	1	28	24	4	24	0	0
-overlay_adv_object_image.obj	game/overlay_adv_object_image.cpp	B	inferred .cpp basename from map object; extension not recorded	400	439	139	300	172	128	147	4	21
-override_input_handler.obj	game/override_input_handler.cpp	B	inferred .cpp basename from map object; extension not recorded	401	141	3	138	75	63	52	12	11
-ownable_event.obj	game/ownable_event.cpp	A	anonymous-namespace source tag: C:\work\game\ownable_event.cpp	402	25	2	23	12	11	1	11	0
-ownable_garrisonable_adv_object.obj	game/ownable_garrisonable_adv_object.cpp	A	anonymous-namespace source tag: C:\work\game\ownable_garrisonable_adv_object.cpp	403	69	1	68	40	28	22	14	4
-owned_adv_object.obj	game/owned_adv_object.cpp	B	inferred .cpp basename from map object; extension not recorded	404	19	1	18	11	7	10	0	1
-owned_creature_array.obj	game/owned_creature_array.cpp	B	inferred .cpp basename from map object; extension not recorded	405	26	1	25	9	16	6	2	1
-owned_scriptable_adv_object.obj	game/owned_scriptable_adv_object.cpp	B	inferred .cpp basename from map object; extension not recorded	406	18	1	17	10	7	6	3	1
-paint_surface.obj	game/paint_surface.cpp	B	inferred .cpp basename from map object; extension not recorded	407	28	1	27	18	9	16	1	1
-palette_creator.obj	game/palette_creator.cpp	B	inferred .cpp basename from map object; extension not recorded	408	66	57	9	0	9	0	0	0
-panic.obj	game/panic.cpp	A	anonymous-namespace source tag: C:\work\game\panic.cpp	409	36	6	30	18	12	17	1	0
-path_arrow.obj	game/path_arrow.cpp	B	inferred .cpp basename from map object; extension not recorded	410	29	1	28	15	13	9	3	3
-pathfinding_subject.obj	game/pathfinding_subject.cpp	B	inferred .cpp basename from map object; extension not recorded	411	38	1	37	22	15	13	4	5
-pixel_format.obj	game/pixel_format.cpp	B	inferred .cpp basename from map object; extension not recorded	412	4	0	4	1	3	0	1	0
-placed_event_trigger.obj	game/placed_event_trigger.cpp	A	anonymous-namespace source tag: C:\work\game\placed_event_trigger.cpp	413	116	1	115	62	53	43	8	11
-play_combat_animation.obj	game/play_combat_animation.cpp	B	inferred .cpp basename from map object; extension not recorded	414	31	1	30	20	10	16	3	1
-play_combat_flight.obj	game/play_combat_flight.cpp	B	inferred .cpp basename from map object; extension not recorded	415	60	22	38	24	14	17	5	2
-play_combat_walk.obj	game/play_combat_walk.cpp	B	inferred .cpp basename from map object; extension not recorded	416	35	1	34	23	11	17	3	3
-player.obj	game/player.cpp	A	anonymous-namespace source tag: C:\work\game\player.cpp	417	365	137	228	133	95	52	55	26
-player_color.obj	game/player_color.cpp	B	inferred .cpp basename from map object; extension not recorded	418	5	1	4	2	2	1	0	1
-popup_window.obj	game/popup_window.cpp	B	inferred .cpp basename from map object; extension not recorded	419	27	0	27	16	11	16	0	0
-profile.obj	game/profile.cpp	B	inferred .cpp basename from map object; extension not recorded	420	52	33	19	7	12	2	3	2
-progress_bar.obj	game/progress_bar.cpp	B	inferred .cpp basename from map object; extension not recorded	421	30	1	29	22	7	19	3	0
-progress_bar_dialog.obj	game/progress_bar_dialog.cpp	B	inferred .cpp basename from map object; extension not recorded	422	13	1	12	10	2	9	0	1
-progress_handler.obj	game/progress_handler.cpp	B	inferred .cpp basename from map object; extension not recorded	423	2	0	2	1	1	1	0	0
-puzzle_window.obj	game/puzzle_window.cpp	A	anonymous-namespace source tag: C:\work\game\puzzle_window.cpp	424	161	26	135	81	54	58	16	7
-quest_log_window.obj	game/quest_log_window.cpp	A	anonymous-namespace source tag: C:\work\game\quest_log_window.cpp	425	126	45	81	52	29	35	11	6
-quest_site.obj	game/quest_site.cpp	A	anonymous-namespace source tag: C:\work\game\quest_site.cpp	426	807	7	800	420	380	295	19	106
-quicksand.obj	game/quicksand.cpp	A	anonymous-namespace source tag: C:\work\game\quicksand.cpp	427	111	4	107	62	45	45	9	8
-random.obj	game/random.cpp	B	inferred .cpp basename from map object; extension not recorded	428	3	0	3	2	1	1	0	1
-random_monster.obj	game/random_monster.cpp	A	anonymous-namespace source tag: C:\work\game\random_monster.cpp	429	136	1	135	95	40	46	12	37
-random_monster_experience.obj	game/random_monster_experience.cpp	B	inferred .cpp basename from map object; extension not recorded	430	5	0	5	3	2	0	1	2
-random_names.obj	game/random_names.cpp	A	anonymous-namespace source tag: C:\work\game\random_names.cpp	431	17	1	16	11	5	3	5	3
-random_town.obj	game/random_town.cpp	A	anonymous-namespace source tag: C:\work\game\random_town.cpp	432	85	1	84	66	18	22	6	38
-recruit_dialog.obj	game/recruit_dialog.cpp	B	inferred .cpp basename from map object; extension not recorded	433	89	4	85	56	29	28	21	7
-replay_mover.obj	game/replay_mover.cpp	B	inferred .cpp basename from map object; extension not recorded	434	25	1	24	14	10	12	1	1
-report_combat_results.obj	game/report_combat_results.cpp	B	inferred .cpp basename from map object; extension not recorded	435	57	1	56	32	24	8	19	5
-resource_dir.obj	game/resource_dir.cpp	B	inferred .cpp basename from map object; extension not recorded	436	119	68	51	16	35	4	3	9
-resource_file.obj	game/resource_file.cpp	B	inferred .cpp basename from map object; extension not recorded	437	16	1	15	12	3	11	1	0
-resource_file_dir.obj	game/resource_file_dir.cpp	B	inferred .cpp basename from map object; extension not recorded	438	52	32	20	11	9	1	7	3
-respawn_point.obj	game/respawn_point.cpp	B	inferred .cpp basename from map object; extension not recorded	439	20	2	18	11	7	5	4	2
-resurrect_heroes.obj	game/resurrect_heroes.cpp	B	inferred .cpp basename from map object; extension not recorded	440	3	1	2	2	0	1	1	0
-resurrection_spell.obj	game/resurrection_spell.cpp	A	anonymous-namespace source tag: C:\work\game\resurrection_spell.cpp	441	333	2	331	228	103	192	25	11
-run_combat.obj	game/run_combat.cpp	B	inferred .cpp basename from map object; extension not recorded	442	25	1	24	10	14	4	4	2
-sanctuary.obj	game/sanctuary.cpp	A	anonymous-namespace source tag: C:\work\game\sanctuary.cpp	443	150	1	149	91	58	62	17	12
-saved_combat.obj	game/saved_combat.cpp	B	inferred .cpp basename from map object; extension not recorded	444	57	1	56	38	18	27	5	6
-scale_bitmap.obj	game/scale_bitmap.cpp	A	anonymous-namespace source tag: C:\work\game\scale_bitmap.cpp	445	34	26	8	5	3	1	4	0
-scaled_adventure_map_drawer.obj	game/scaled_adventure_map_drawer.cpp	A	anonymous-namespace source tag: C:\work\game\scaled_adventure_map_drawer.cpp	446	40	1	39	22	17	13	5	4
-scaled_animation_cache.obj	game/scaled_animation_cache.cpp	B	inferred .cpp basename from map object; extension not recorded	447	32	2	30	18	12	15	1	2
-scenario_cut_scene_id.obj	game/scenario_cut_scene_id.cpp	A	anonymous-namespace source tag: C:\work\game\scenario_cut_scene_id.cpp	448	14	1	13	9	4	1	0	8
-scenario_cut_scene_info.obj	game/scenario_cut_scene_info.cpp	A	anonymous-namespace source tag: C:\work\game\scenario_cut_scene_info.cpp	449	13	1	12	5	7	1	3	1
-scenario_info_window.obj	game/scenario_info_window.cpp	A	anonymous-namespace source tag: C:\work\game\scenario_info_window.cpp	450	87	1	86	59	27	29	25	5
-school_of_magic.obj	game/school_of_magic.cpp	A	anonymous-namespace source tag: C:\work\game\school_of_magic.cpp	451	92	1	91	55	36	43	6	6
-score_computer.obj	game/score_computer.cpp	A	anonymous-namespace source tag: C:\work\game\score_computer.cpp	452	44	16	28	12	16	5	4	3
-script_action_type.obj	game/script_action_type.cpp	A	anonymous-namespace source tag: C:\work\game\script_action_type.cpp	453	91	74	17	6	11	1	1	4
-script_adjust_cur_spell_points.obj	game/script_adjust_cur_spell_points.cpp	B	inferred .cpp basename from map object; extension not recorded	454	153	1	152	56	96	53	3	0
-script_adjust_hero_attribute.obj	game/script_adjust_hero_attribute.cpp	B	inferred .cpp basename from map object; extension not recorded	455	400	1	399	171	228	160	10	1
-script_adjust_luck_or_morale.obj	game/script_adjust_luck_or_morale.cpp	B	inferred .cpp basename from map object; extension not recorded	456	257	1	256	95	161	91	3	1
-script_adjust_population.obj	game/script_adjust_population.cpp	B	inferred .cpp basename from map object; extension not recorded	457	117	1	116	46	70	38	8	0
-script_arithmetic_expression.obj	game/script_arithmetic_expression.cpp	B	inferred .cpp basename from map object; extension not recorded	458	361	1	360	144	216	134	10	0
-script_army_boolean_expression.obj	game/script_army_boolean_expression.cpp	B	inferred .cpp basename from map object; extension not recorded	459	158	1	157	78	79	54	16	8
-script_artifact_action.obj	game/script_artifact_action.cpp	B	inferred .cpp basename from map object; extension not recorded	460	166	30	136	57	79	51	5	1
-script_branch_action.obj	game/script_branch_action.cpp	B	inferred .cpp basename from map object; extension not recorded	461	5	1	4	4	0	4	0	0
-script_build_building.obj	game/script_build_building.cpp	B	inferred .cpp basename from map object; extension not recorded	462	60	1	59	23	36	21	2	0
-script_change_owner.obj	game/script_change_owner.cpp	B	inferred .cpp basename from map object; extension not recorded	463	66	1	65	27	38	22	5	0
-script_combat.obj	game/script_combat.cpp	B	inferred .cpp basename from map object; extension not recorded	464	107	1	106	52	54	50	1	1
-script_conditional_action.obj	game/script_conditional_action.cpp	B	inferred .cpp basename from map object; extension not recorded	465	66	1	65	28	37	20	8	0
-script_creature_action.obj	game/script_creature_action.cpp	B	inferred .cpp basename from map object; extension not recorded	466	148	1	147	56	91	50	5	1
-script_creatures_in_army.obj	game/script_creatures_in_army.cpp	B	inferred .cpp basename from map object; extension not recorded	467	191	1	190	82	108	69	1	12
-script_delete_adv_objects.obj	game/script_delete_adv_objects.cpp	B	inferred .cpp basename from map object; extension not recorded	468	64	1	63	27	36	22	5	0
-script_display_text.obj	game/script_display_text.cpp	B	inferred .cpp basename from map object; extension not recorded	469	71	1	70	34	36	24	9	1
-script_event.obj	game/script_event.cpp	B	inferred .cpp basename from map object; extension not recorded	470	16	1	15	11	4	7	2	2
-script_expression_type.obj	game/script_expression_type.cpp	A	anonymous-namespace source tag: C:\work\game\script_expression_type.cpp	471	153	133	20	11	9	1	0	10
-script_give_skill.obj	game/script_give_skill.cpp	B	inferred .cpp basename from map object; extension not recorded	472	251	4	247	101	146	87	11	3
-script_give_spell.obj	game/script_give_spell.cpp	B	inferred .cpp basename from map object; extension not recorded	473	55	1	54	24	30	19	5	0
-script_has_artifact.obj	game/script_has_artifact.cpp	B	inferred .cpp basename from map object; extension not recorded	474	67	1	66	31	35	20	11	0
-script_hero_numeric_expression.obj	game/script_hero_numeric_expression.cpp	B	inferred .cpp basename from map object; extension not recorded	475	147	1	146	60	86	50	10	0
-script_increase_cur_movement.obj	game/script_increase_cur_movement.cpp	B	inferred .cpp basename from map object; extension not recorded	476	83	1	82	27	55	25	2	0
-script_increase_experience.obj	game/script_increase_experience.cpp	B	inferred .cpp basename from map object; extension not recorded	477	139	1	138	50	88	46	4	0
-script_logical_expression.obj	game/script_logical_expression.cpp	B	inferred .cpp basename from map object; extension not recorded	478	209	1	208	93	115	87	2	4
-script_material_action.obj	game/script_material_action.cpp	B	inferred .cpp basename from map object; extension not recorded	479	138	1	137	48	89	47	1	0
-script_material_quantity.obj	game/script_material_quantity.cpp	B	inferred .cpp basename from map object; extension not recorded	480	85	1	84	34	50	29	5	0
-script_numeric_literal.obj	game/script_numeric_literal.cpp	B	inferred .cpp basename from map object; extension not recorded	481	54	1	53	23	30	21	2	0
-script_player_action.obj	game/script_player_action.cpp	B	inferred .cpp basename from map object; extension not recorded	482	163	1	162	84	78	83	0	1
-script_player_boolean_expression.obj	game/script_player_boolean_expression.cpp	B	inferred .cpp basename from map object; extension not recorded	483	400	1	399	171	228	161	10	0
-script_player_number.obj	game/script_player_number.cpp	B	inferred .cpp basename from map object; extension not recorded	484	50	1	49	21	28	21	0	0
-script_question.obj	game/script_question.cpp	B	inferred .cpp basename from map object; extension not recorded	485	64	1	63	32	31	23	4	5
-script_random_number.obj	game/script_random_number.cpp	B	inferred .cpp basename from map object; extension not recorded	486	56	1	55	21	34	18	3	0
-script_relational_expression.obj	game/script_relational_expression.cpp	B	inferred .cpp basename from map object; extension not recorded	487	274	1	273	127	146	117	7	3
-script_sequence.obj	game/script_sequence.cpp	B	inferred .cpp basename from map object; extension not recorded	488	48	27	21	12	9	12	0	0
-script_set_player_message.obj	game/script_set_player_message.cpp	B	inferred .cpp basename from map object; extension not recorded	489	197	1	196	83	113	80	2	1
-script_set_variable.obj	game/script_set_variable.cpp	B	inferred .cpp basename from map object; extension not recorded	490	146	1	145	59	86	47	10	2
-script_simple_action.obj	game/script_simple_action.cpp	B	inferred .cpp basename from map object; extension not recorded	491	167	1	166	58	108	56	2	0
-script_simple_expression.obj	game/script_simple_expression.cpp	B	inferred .cpp basename from map object; extension not recorded	492	22	1	21	7	14	3	4	0
-script_specific_hero_boolean_expression.obj	game/script_specific_hero_boolean_expression.cpp	B	inferred .cpp basename from map object; extension not recorded	493	123	1	122	45	77	43	2	0
-script_target_type.obj	game/script_target_type.cpp	B	inferred .cpp basename from map object; extension not recorded	494	6	1	5	1	4	1	0	0
-script_targeting.obj	game/script_targeting.cpp	B	inferred .cpp basename from map object; extension not recorded	495	21	1	20	12	8	3	7	2
-script_trigger_event.obj	game/script_trigger_event.cpp	B	inferred .cpp basename from map object; extension not recorded	496	64	1	63	27	36	22	5	0
-script_variable_expression.obj	game/script_variable_expression.cpp	B	inferred .cpp basename from map object; extension not recorded	497	134	1	133	50	83	47	2	1
-script_victory.obj	game/script_victory.cpp	B	inferred .cpp basename from map object; extension not recorded	498	205	1	204	86	118	82	4	0
-scroll_menu.obj	game/scroll_menu.cpp	A	anonymous-namespace source tag: C:\work\game\scroll_menu.cpp	499	118	23	95	60	35	50	4	6
-scrollbar.obj	game/scrollbar.cpp	B	inferred .cpp basename from map object; extension not recorded	500	165	1	164	93	71	71	14	8
-scrollbar_bitmaps.obj	game/scrollbar_bitmaps.cpp	B	inferred .cpp basename from map object; extension not recorded	501	12	1	11	8	3	8	0	0
-select_skill_from_set.obj	game/select_skill_from_set.cpp	B	inferred .cpp basename from map object; extension not recorded	502	5	3	2	2	0	1	0	1
-selection_marker.obj	game/selection_marker.cpp	B	inferred .cpp basename from map object; extension not recorded	503	29	1	28	15	13	9	2	4
-seminary_window.obj	game/seminary_window.cpp	B	inferred .cpp basename from map object; extension not recorded	504	114	16	98	63	35	36	16	11
-sequence_loader.obj	game/sequence_loader.cpp	B	inferred .cpp basename from map object; extension not recorded	505	39	32	7	4	3	2	1	1
-shared_file.obj	game/shared_file.cpp	B	inferred .cpp basename from map object; extension not recorded	506	53	2	51	23	28	21	0	2
-shroud_removers.obj	game/shroud_removers.cpp	B	inferred .cpp basename from map object; extension not recorded	507	185	3	182	117	65	82	20	15
-signal.obj	game/signal.cpp	B	inferred .cpp basename from map object; extension not recorded	508	9	0	9	4	5	0	1	3
-simple_adv_object_image.obj	game/simple_adv_object_image.cpp	B	inferred .cpp basename from map object; extension not recorded	509	12	1	11	8	3	6	2	0
-simple_dialog.obj	game/simple_dialog.cpp	B	inferred .cpp basename from map object; extension not recorded	510	9	1	8	8	0	1	1	6
-simulated_combat.obj	game/simulated_combat.cpp	B	inferred .cpp basename from map object; extension not recorded	511	162	43	119	64	55	19	29	16
-single_use_object.obj	game/single_use_object.cpp	B	inferred .cpp basename from map object; extension not recorded	512	30	1	29	18	11	11	6	1
-skeleton_transformer_window.obj	game/skeleton_transformer_window.cpp	A	anonymous-namespace source tag: C:\work\game\skeleton_transformer_window.cpp	513	100	22	78	53	25	32	18	3
-skill_button.obj	game/skill_button.cpp	B	inferred .cpp basename from map object; extension not recorded	514	10	1	9	8	1	2	6	0
-skill_choice_dialog.obj	game/skill_choice_dialog.cpp	B	inferred .cpp basename from map object; extension not recorded	515	58	1	57	37	20	25	11	1
-skill_icon.obj	game/skill_icon.cpp	B	inferred .cpp basename from map object; extension not recorded	516	17	1	16	13	3	11	2	0
-skill_properties.obj	game/skill_properties.cpp	A	anonymous-namespace source tag: C:\work\game\skill_properties.cpp	517	117	40	77	39	38	8	14	17
-skill_set.obj	game/skill_set.cpp	B	inferred .cpp basename from map object; extension not recorded	518	10	1	9	5	4	1	4	0
-sorted_clip_list.obj	game/sorted_clip_list.cpp	A	anonymous-namespace source tag: C:\work\game\sorted_clip_list.cpp	519	111	64	47	28	19	3	11	14
-sound.obj	game/sound.cpp	A	anonymous-namespace source tag: C:\work\game\sound.cpp	520	241	88	153	82	71	62	4	16
-sound_cache.obj	game/sound_cache.cpp	A	anonymous-namespace source tag: C:\work\game\sound_cache.cpp	521	132	1	131	82	49	72	5	5
-sound_configurations.obj	game/sound_configurations.cpp	B	inferred .cpp basename from map object; extension not recorded	522	8	1	7	4	3	1	0	3
-spell_actor_animation.obj	game/spell_actor_animation.cpp	B	inferred .cpp basename from map object; extension not recorded	523	31	1	30	19	11	16	2	1
-spell_ai_importance_map.obj	game/spell_ai_importance_map.cpp	B	inferred .cpp basename from map object; extension not recorded	524	19	17	2	2	0	0	2	0
-spell_displacement.obj	game/spell_displacement.cpp	B	inferred .cpp basename from map object; extension not recorded	525	167	1	166	100	66	82	9	9
-spell_effect_window.obj	game/spell_effect_window.cpp	A	anonymous-namespace source tag: C:\work\game\spell_effect_window.cpp	526	73	22	51	28	23	20	5	3
-spell_icon.obj	game/spell_icon.cpp	A	anonymous-namespace source tag: C:\work\game\spell_icon.cpp	527	17	1	16	10	6	3	5	2
-spell_icon_window.obj	game/spell_icon_window.cpp	B	inferred .cpp basename from map object; extension not recorded	528	14	1	13	11	2	10	1	0
-spell_properties.obj	game/spell_properties.cpp	A	anonymous-namespace source tag: C:\work\game\spell_properties.cpp	529	42	1	41	27	14	2	5	20
-spell_set.obj	game/spell_set.cpp	B	inferred .cpp basename from map object; extension not recorded	530	29	21	8	5	3	1	1	3
-spell_sparks.obj	game/spell_sparks.cpp	A	anonymous-namespace source tag: C:\work\game\spell_sparks.cpp	531	90	1	89	61	28	47	10	4
-spellbook_window.obj	game/spellbook_window.cpp	A	anonymous-namespace source tag: C:\work\game\spellbook_window.cpp	532	363	41	322	195	127	119	56	20
-split_creatures_dialog.obj	game/split_creatures_dialog.cpp	B	inferred .cpp basename from map object; extension not recorded	533	33	1	32	21	11	16	5	0
-standard_c_file.obj	game/standard_c_file.cpp	B	inferred .cpp basename from map object; extension not recorded	534	19	1	18	16	2	16	0	0
-standard_campaign_id.obj	game/standard_campaign_id.cpp	B	inferred .cpp basename from map object; extension not recorded	535	6	1	5	3	2	1	0	2
-standard_fonts.obj	game/standard_fonts.cpp	A	anonymous-namespace source tag: C:\work\game\standard_fonts.cpp	536	92	9	83	64	19	17	31	16
-stationary_adventure_object.obj	game/stationary_adventure_object.cpp	B	inferred .cpp basename from map object; extension not recorded	537	32	1	31	16	15	10	3	3
-stationary_combat_object.obj	game/stationary_combat_object.cpp	B	inferred .cpp basename from map object; extension not recorded	538	67	2	65	32	33	16	5	11
-steal_enchantment.obj	game/steal_enchantment.cpp	A	anonymous-namespace source tag: C:\work\game\steal_enchantment.cpp	539	86	2	84	53	31	48	3	2
-stoning_animation.obj	game/stoning_animation.cpp	B	inferred .cpp basename from map object; extension not recorded	540	51	1	50	32	18	25	4	3
-streambuf_operators.obj	game/streambuf_operators.cpp	B	inferred .cpp basename from map object; extension not recorded	541	5	2	3	1	2	0	0	1
-string_insensitive_compare.obj	game/string_insensitive_compare.cpp	A	anonymous-namespace source tag: C:\work\game\string_insensitive_compare.cpp	542	5	1	4	3	1	1	0	2
-string_table.obj	game/string_table.cpp	A	anonymous-namespace source tag: C:\work\game\string_table.cpp	543	96	74	22	4	18	1	2	1
-string_vector.obj	game/string_vector.cpp	B	inferred .cpp basename from map object; extension not recorded	544	10	1	9	2	7	1	0	1
-strip_resource_name.obj	game/strip_resource_name.cpp	B	inferred .cpp basename from map object; extension not recorded	545	14	5	9	5	4	1	0	4
-summon_obstacle.obj	game/summon_obstacle.cpp	A	anonymous-namespace source tag: C:\work\game\summon_obstacle.cpp	546	105	1	104	66	38	57	4	5
-summoning_spell.obj	game/summoning_spell.cpp	A	anonymous-namespace source tag: C:\work\game\summoning_spell.cpp	547	77	2	75	49	26	45	3	1
-surface_description.obj	game/surface_description.cpp	B	inferred .cpp basename from map object; extension not recorded	548	6	0	6	4	2	0	1	3
-table.obj	game/table.cpp	B	inferred .cpp basename from map object; extension not recorded	549	10	4	6	3	3	1	2	0
-teleport_ability.obj	game/teleport_ability.cpp	B	inferred .cpp basename from map object; extension not recorded	550	31	1	30	18	12	15	2	1
-teleport_spell.obj	game/teleport_spell.cpp	B	inferred .cpp basename from map object; extension not recorded	551	75	1	74	46	28	35	9	2
-terrain.obj	game/terrain.cpp	A	anonymous-namespace source tag: C:\work\game\terrain.cpp	552	324	1	323	220	103	71	140	9
-text_edit_window.obj	game/text_edit_window.cpp	A	anonymous-namespace source tag: C:\work\game\text_edit_window.cpp	553	42	1	41	27	14	22	1	4
-text_window.obj	game/text_window.cpp	B	inferred .cpp basename from map object; extension not recorded	554	77	1	76	52	24	35	11	6
-thieves_guild_window.obj	game/thieves_guild_window.cpp	A	anonymous-namespace source tag: C:\work\game\thieves_guild_window.cpp	555	68	2	66	43	23	24	17	2
-thread.obj	game/thread.cpp	B	inferred .cpp basename from map object; extension not recorded	556	18	0	18	15	3	7	0	8
-threat_footprint.obj	game/threat_footprint.cpp	A	anonymous-namespace source tag: C:\work\game\threat_footprint.cpp	557	100	91	9	3	6	1	1	1
-timed_event.obj	game/timed_event.cpp	A	anonymous-namespace source tag: C:\work\game\timed_event.cpp	558	9	1	8	5	3	1	4	0
-timed_window.obj	game/timed_window.cpp	B	inferred .cpp basename from map object; extension not recorded	559	16	0	16	12	4	10	1	1
-toggle_button.obj	game/toggle_button.cpp	B	inferred .cpp basename from map object; extension not recorded	560	18	1	17	14	3	13	1	0
-town.obj	game/town.cpp	A	anonymous-namespace source tag: C:\work\game\town.cpp	561	680	182	498	343	155	153	98	92
-town_drawing.obj	game/town_drawing.cpp	A	anonymous-namespace source tag: C:\work\game\town_drawing.cpp	562	9	2	7	4	3	1	0	3
-town_list_window.obj	game/town_list_window.cpp	A	anonymous-namespace source tag: C:\work\game\town_list_window.cpp	563	155	47	108	71	37	36	21	14
-town_prison_window.obj	game/town_prison_window.cpp	A	anonymous-namespace source tag: C:\work\game\town_prison_window.cpp	564	105	19	86	58	28	36	19	3
-town_properties.obj	game/town_properties.cpp	B	inferred .cpp basename from map object; extension not recorded	565	9	1	8	4	4	1	1	2
-town_school_skills.obj	game/town_school_skills.cpp	B	inferred .cpp basename from map object; extension not recorded	566	6	1	5	2	3	1	0	1
-town_type.obj	game/town_type.cpp	B	inferred .cpp basename from map object; extension not recorded	567	4	1	3	2	1	1	0	1
-town_type_set.obj	game/town_type_set.cpp	B	inferred .cpp basename from map object; extension not recorded	568	5	1	4	2	2	1	1	0
-town_window.obj	game/town_window.cpp	A	anonymous-namespace source tag: C:\work\game\town_window.cpp	569	1007	309	698	448	250	199	178	71
-transition_calculator.obj	game/transition_calculator.cpp	A	anonymous-namespace source tag: C:\work\game\transition_calculator.cpp	570	227	84	143	43	100	4	5	34
-transition_coordinates.obj	game/transition_coordinates.cpp	B	inferred .cpp basename from map object; extension not recorded	571	6	0	6	2	4	0	0	2
-transition_mask.obj	game/transition_mask.cpp	B	inferred .cpp basename from map object; extension not recorded	572	78	49	29	12	17	2	5	5
-transitions.obj	game/transitions.cpp	A	anonymous-namespace source tag: C:\work\game\transitions.cpp	573	109	4	105	60	45	46	6	8
-translation_animation.obj	game/translation_animation.cpp	B	inferred .cpp basename from map object; extension not recorded	574	31	1	30	19	11	16	2	1
-treasure_chest_window.obj	game/treasure_chest_window.cpp	B	inferred .cpp basename from map object; extension not recorded	575	42	1	41	28	13	18	8	2
-triggerable_event.obj	game/triggerable_event.cpp	A	anonymous-namespace source tag: C:\work\game\triggerable_event.cpp	576	6	1	5	4	1	1	3	0
-underlay_adv_object_image.obj	game/underlay_adv_object_image.cpp	B	inferred .cpp basename from map object; extension not recorded	577	121	1	120	46	74	43	2	1
-war_institute.obj	game/war_institute.cpp	A	anonymous-namespace source tag: C:\work\game\war_institute.cpp	578	64	4	60	36	24	26	6	4
-wave_stream.obj	game/wave_stream.cpp	B	inferred .cpp basename from map object; extension not recorded	579	13	0	13	9	4	9	0	0
-weekly_generator.obj	game/weekly_generator.cpp	A	anonymous-namespace source tag: C:\work\game\weekly_generator.cpp	580	99	1	98	55	43	44	7	4
-window_background.obj	game/window_background.cpp	B	inferred .cpp basename from map object; extension not recorded	581	41	1	40	19	21	13	5	1
-window_clip_list.obj	game/window_clip_list.cpp	B	inferred .cpp basename from map object; extension not recorded	582	38	14	24	16	8	0	9	7
-window_paint_surface.obj	game/window_paint_surface.cpp	B	inferred .cpp basename from map object; extension not recorded	583	25	1	24	19	5	19	0	0
-windows_game.obj	game/windows_game.cpp	A	anonymous-namespace source tag: C:\work\game\windows_game.cpp	584	165	5	160	101	59	23	25	53
-<common>			object owner is not a source filename		349	3	346	0	346	0	0	0
-circle_calculator.obj	game/circle_calculator.cpp	B	inferred .cpp basename from map object; extension not recorded		3	0	3	0	3	0	0	0
+obj	source	source_tier	source_evidence	link_index	total	skipped_std	included	accounted	unaccounted	A	B	C	D
+abbreviate_number.obj	game/abbreviate_number.cpp	B	inferred .cpp basename from map object; extension not recorded	0	51	47	4	4	0	0	0	0	4
+abstract_adv_actor.obj	game/abstract_adv_actor.cpp	A	anonymous-namespace source tag: C:\work\game\abstract_adv_actor.cpp	1	378	17	361	186	175	106	8	6	66
+abstract_adv_object.obj	game/abstract_adv_object.cpp	B	inferred .cpp basename from map object; extension not recorded	2	12	1	11	5	6	0	0	1	4
+abstract_adventure_map.obj	game/abstract_adventure_map.cpp	A	anonymous-namespace source tag: C:\work\game\abstract_adventure_map.cpp	3	836	390	446	96	350	16	8	14	58
+abstract_bitmap.obj	game/abstract_bitmap.cpp	B	inferred .cpp basename from map object; extension not recorded	4	29	0	29	4	25	0	0	0	4
+abstract_combat_ai_spell_action.obj	game/abstract_combat_ai_spell_action.cpp	B	inferred .cpp basename from map object; extension not recorded	5	47	10	37	10	27	0	0	0	10
+abstract_combat_creature.obj	game/abstract_combat_creature.cpp	B	inferred .cpp basename from map object; extension not recorded	6	289	93	196	115	81	41	8	10	56
+abstract_combat_object.obj	game/abstract_combat_object.cpp	B	inferred .cpp basename from map object; extension not recorded	7	207	8	199	93	106	54	10	4	25
+abstract_file.obj	game/abstract_file.cpp	B	inferred .cpp basename from map object; extension not recorded	8	2	1	1	1	0	0	0	0	1
+abstract_grail_data_source.obj	game/abstract_grail_data_source.cpp	B	inferred .cpp basename from map object; extension not recorded	9	3	1	2	2	0	0	0	1	1
+abstract_resource_cache.obj	game/abstract_resource_cache.cpp	B	inferred .cpp basename from map object; extension not recorded	10	28	4	24	14	10	7	1	2	4
+abstract_script_action.obj	game/abstract_script_action.cpp	A	anonymous-namespace source tag: C:\work\game\abstract_script_action.cpp	11	28	2	26	17	9	8	0	0	9
+abstract_script_expression.obj	game/abstract_script_expression.cpp	A	anonymous-namespace source tag: C:\work\game\abstract_script_expression.cpp	12	39	1	38	12	26	0	0	0	12
+abstract_stationary_adv_object.obj	game/abstract_stationary_adv_object.cpp	A	anonymous-namespace source tag: C:\work\game\abstract_stationary_adv_object.cpp	13	167	6	161	83	78	30	0	6	47
+abstract_tile.obj	game/abstract_tile.cpp	A	anonymous-namespace source tag: C:\work\game\abstract_tile.cpp	14	144	55	89	14	75	1	1	4	8
+abstract_town.obj	game/abstract_town.cpp	A	anonymous-namespace source tag: C:\work\game\abstract_town.cpp	15	657	216	441	297	144	121	20	15	141
+academy.obj	game/academy.cpp	B	inferred .cpp basename from map object; extension not recorded	16	100	1	99	69	30	20	4	0	45
+actor.obj	game/actor.cpp	B	inferred .cpp basename from map object; extension not recorded	17	120	1	119	81	38	16	4	0	61
+actor_sequence.obj	game/actor_sequence.cpp	B	inferred .cpp basename from map object; extension not recorded	18	372	229	143	74	69	42	0	0	32
+actor_sequence_cache.obj	game/actor_sequence_cache.cpp	A	anonymous-namespace source tag: C:\work\game\actor_sequence_cache.cpp	19	325	137	188	102	86	60	4	0	38
+adjusted_animation_cache.obj	game/adjusted_animation_cache.cpp	B	inferred .cpp basename from map object; extension not recorded	20	73	19	54	34	20	24	0	0	10
+adjusted_bitmap_cache.obj	game/adjusted_bitmap_cache.cpp	B	inferred .cpp basename from map object; extension not recorded	21	48	1	47	30	17	18	0	0	12
+adv_abandoned_mine.obj	game/adv_abandoned_mine.cpp	A	anonymous-namespace source tag: C:\work\game\adv_abandoned_mine.cpp	22	234	51	183	111	72	32	4	0	75
+adv_actor_action.obj	game/adv_actor_action.cpp	A	anonymous-namespace source tag: C:\work\game\adv_actor_action.cpp	23	18	1	17	3	14	0	0	0	3
+adv_actor_model.obj	game/adv_actor_model.cpp	B	inferred .cpp basename from map object; extension not recorded	24	142	3	139	58	81	25	1	0	32
+adv_actor_model_cache.obj	game/adv_actor_model_cache.cpp	A	anonymous-namespace source tag: C:\work\game\adv_actor_model_cache.cpp	25	283	70	213	123	90	72	3	0	48
+adv_actor_model_definition.obj	game/adv_actor_model_definition.cpp	B	inferred .cpp basename from map object; extension not recorded	26	26	2	24	4	20	0	0	0	4
+adv_altar.obj	game/adv_altar.cpp	A	anonymous-namespace source tag: C:\work\game\adv_altar.cpp	27	162	35	127	85	42	24	6	0	55
+adv_arena.obj	game/adv_arena.cpp	B	inferred .cpp basename from map object; extension not recorded	28	38	1	37	23	14	12	2	0	9
+adv_artifact.obj	game/adv_artifact.cpp	B	inferred .cpp basename from map object; extension not recorded	29	287	15	272	171	101	72	12	0	87
+adv_artifact_pile.obj	game/adv_artifact_pile.cpp	A	anonymous-namespace source tag: C:\work\game\adv_artifact_pile.cpp	30	288	40	248	133	115	57	7	0	69
+adv_blacksmith.obj	game/adv_blacksmith.cpp	B	inferred .cpp basename from map object; extension not recorded	31	165	71	94	63	31	12	2	0	49
+adv_border_gate.obj	game/adv_border_gate.cpp	B	inferred .cpp basename from map object; extension not recorded	32	47	1	46	24	22	12	2	0	10
+adv_border_guard.obj	game/adv_border_guard.cpp	B	inferred .cpp basename from map object; extension not recorded	33	90	33	57	25	32	12	2	0	11
+adv_chain_link.obj	game/adv_chain_link.cpp	B	inferred .cpp basename from map object; extension not recorded	34	34	1	33	21	12	12	2	0	7
+adv_dwelling.obj	game/adv_dwelling.cpp	A	anonymous-namespace source tag: C:\work\game\adv_dwelling.cpp	35	290	25	265	189	76	33	9	0	147
+adv_ferry.obj	game/adv_ferry.cpp	A	anonymous-namespace source tag: C:\work\game\adv_ferry.cpp	36	182	60	122	74	48	18	5	0	51
+adv_fountain.obj	game/adv_fountain.cpp	A	anonymous-namespace source tag: C:\work\game\adv_fountain.cpp	37	40	1	39	22	17	12	2	0	8
+adv_garrison.obj	game/adv_garrison.cpp	A	anonymous-namespace source tag: C:\work\game\adv_garrison.cpp	38	81	1	80	42	38	14	4	0	24
+adv_keymaster_tent.obj	game/adv_keymaster_tent.cpp	B	inferred .cpp basename from map object; extension not recorded	39	78	1	77	54	23	12	2	0	40
+adv_mages_chest.obj	game/adv_mages_chest.cpp	B	inferred .cpp basename from map object; extension not recorded	40	159	1	158	90	68	48	8	0	34
+adv_magi_eye.obj	game/adv_magi_eye.cpp	A	anonymous-namespace source tag: C:\work\game\adv_magi_eye.cpp	41	42	1	41	25	16	12	3	0	10
+adv_magic_gem.obj	game/adv_magic_gem.cpp	A	anonymous-namespace source tag: C:\work\game\adv_magic_gem.cpp	42	55	1	54	31	23	12	3	0	16
+adv_mana_vortex.obj	game/adv_mana_vortex.cpp	A	anonymous-namespace source tag: C:\work\game\adv_mana_vortex.cpp	43	59	7	52	27	25	12	3	0	12
+adv_medicine_wagon.obj	game/adv_medicine_wagon.cpp	B	inferred .cpp basename from map object; extension not recorded	44	64	3	61	28	33	12	2	0	14
+adv_mercenary_camp.obj	game/adv_mercenary_camp.cpp	B	inferred .cpp basename from map object; extension not recorded	45	38	1	37	23	14	12	2	0	9
+adv_move_booster.obj	game/adv_move_booster.cpp	B	inferred .cpp basename from map object; extension not recorded	46	84	1	83	50	33	24	4	0	22
+adv_obelisk.obj	game/adv_obelisk.cpp	A	anonymous-namespace source tag: C:\work\game\adv_obelisk.cpp	47	133	75	58	28	30	12	3	0	13
+adv_object_deletion_marker.obj	game/adv_object_deletion_marker.cpp	A	anonymous-namespace source tag: C:\work\game\adv_object_deletion_marker.cpp	48	43	1	42	24	18	12	3	0	9
+adv_object_flag.obj	game/adv_object_flag.cpp	A	anonymous-namespace source tag: C:\work\game\adv_object_flag.cpp	49	23	1	22	15	7	0	0	0	15
+adv_object_icon_type.obj	game/adv_object_icon_type.cpp	A	anonymous-namespace source tag: C:\work\game\adv_object_icon_type.cpp	50	6	1	5	2	3	0	0	0	2
+adv_object_list_image.obj	game/adv_object_list_image.cpp	B	inferred .cpp basename from map object; extension not recorded	51	44	4	40	16	24	1	0	0	15
+adv_object_map_info.obj	game/adv_object_map_info.cpp	B	inferred .cpp basename from map object; extension not recorded	52	30	2	28	7	21	0	0	0	7
+adv_object_model.obj	game/adv_object_model.cpp	A	anonymous-namespace source tag: C:\work\game\adv_object_model.cpp	53	170	36	134	52	82	19	0	0	33
+adv_object_model_cache.obj	game/adv_object_model_cache.cpp	A	anonymous-namespace source tag: C:\work\game\adv_object_model_cache.cpp	54	181	67	114	59	55	38	2	0	19
+adv_object_strings.obj	game/adv_object_strings.cpp	A	anonymous-namespace source tag: C:\work\game\adv_object_strings.cpp	55	249	124	125	65	60	30	2	0	33
+adv_object_type.obj	game/adv_object_type.cpp	A	anonymous-namespace source tag: C:\work\game\adv_object_type.cpp	56	222	73	149	73	76	0	0	0	73
+adv_ocean_bottle.obj	game/adv_ocean_bottle.cpp	B	inferred .cpp basename from map object; extension not recorded	57	38	1	37	23	14	14	2	0	7
+adv_prison.obj	game/adv_prison.cpp	A	anonymous-namespace source tag: C:\work\game\adv_prison.cpp	58	68	3	65	33	32	12	3	0	18
+adv_sacred_fountain.obj	game/adv_sacred_fountain.cpp	B	inferred .cpp basename from map object; extension not recorded	59	36	1	35	23	12	12	2	0	9
+adv_sea_chest.obj	game/adv_sea_chest.cpp	B	inferred .cpp basename from map object; extension not recorded	60	59	1	58	27	31	12	2	0	13
+adv_shipyard.obj	game/adv_shipyard.cpp	A	anonymous-namespace source tag: C:\work\game\adv_shipyard.cpp	61	65	1	64	32	32	12	3	0	17
+adv_shrine.obj	game/adv_shrine.cpp	A	anonymous-namespace source tag: C:\work\game\adv_shrine.cpp	62	163	19	144	92	52	24	6	0	62
+adv_sign.obj	game/adv_sign.cpp	A	anonymous-namespace source tag: C:\work\game\adv_sign.cpp	63	48	1	47	30	17	10	3	0	17
+adv_sphinx.obj	game/adv_sphinx.cpp	B	inferred .cpp basename from map object; extension not recorded	64	42	3	39	24	15	12	2	0	10
+adv_subterranean_gate.obj	game/adv_subterranean_gate.cpp	A	anonymous-namespace source tag: C:\work\game\adv_subterranean_gate.cpp	65	162	57	105	69	36	12	3	0	54
+adv_tavern.obj	game/adv_tavern.cpp	B	inferred .cpp basename from map object; extension not recorded	66	60	1	59	29	30	12	2	0	15
+adv_teleporter_entrance.obj	game/adv_teleporter_entrance.cpp	B	inferred .cpp basename from map object; extension not recorded	67	60	10	50	25	25	12	2	0	11
+adv_teleporter_exit.obj	game/adv_teleporter_exit.cpp	B	inferred .cpp basename from map object; extension not recorded	68	44	1	43	26	17	12	2	0	12
+adv_temple.obj	game/adv_temple.cpp	A	anonymous-namespace source tag: C:\work\game\adv_temple.cpp	69	84	1	83	52	31	24	6	0	22
+adv_trading_post.obj	game/adv_trading_post.cpp	A	anonymous-namespace source tag: C:\work\game\adv_trading_post.cpp	70	40	1	39	26	13	12	3	0	11
+adv_training_grounds.obj	game/adv_training_grounds.cpp	B	inferred .cpp basename from map object; extension not recorded	71	37	1	36	23	13	12	2	0	9
+adv_treasure_chest.obj	game/adv_treasure_chest.cpp	B	inferred .cpp basename from map object; extension not recorded	72	58	1	57	28	29	12	2	0	14
+adv_tree_of_knowledge.obj	game/adv_tree_of_knowledge.cpp	A	anonymous-namespace source tag: C:\work\game\adv_tree_of_knowledge.cpp	73	51	5	46	26	20	12	3	0	11
+adv_whirlpool.obj	game/adv_whirlpool.cpp	A	anonymous-namespace source tag: C:\work\game\adv_whirlpool.cpp	74	140	47	93	48	45	27	4	0	17
+adv_windmill.obj	game/adv_windmill.cpp	A	anonymous-namespace source tag: C:\work\game\adv_windmill.cpp	75	85	1	84	59	25	12	2	0	45
+adventure_ai.obj	game/adventure_ai.cpp	A	anonymous-namespace source tag: C:\work\game\adventure_ai.cpp	76	2127	1395	732	387	345	164	7	1	215
+adventure_enemy_marker.obj	game/adventure_enemy_marker.cpp	A	anonymous-namespace source tag: C:\work\game\adventure_enemy_marker.cpp	77	107	36	71	41	30	24	1	0	16
+adventure_events_base.obj	game/adventure_events_base.cpp	B	inferred .cpp basename from map object; extension not recorded	78	61	1	60	26	34	6	1	0	19
+adventure_events_look_trigger.obj	game/adventure_events_look_trigger.cpp	B	inferred .cpp basename from map object; extension not recorded	79	26	1	25	17	8	6	1	0	10
+adventure_events_mover.obj	game/adventure_events_mover.cpp	B	inferred .cpp basename from map object; extension not recorded	80	42	1	41	22	19	6	1	0	15
+adventure_events_place.obj	game/adventure_events_place.cpp	B	inferred .cpp basename from map object; extension not recorded	81	30	1	29	18	11	6	1	0	11
+adventure_events_playback.obj	game/adventure_events_playback.cpp	B	inferred .cpp basename from map object; extension not recorded	82	41	13	28	19	9	7	1	0	11
+adventure_events_remove.obj	game/adventure_events_remove.cpp	B	inferred .cpp basename from map object; extension not recorded	83	27	1	26	19	7	6	1	0	12
+adventure_events_set_action.obj	game/adventure_events_set_action.cpp	B	inferred .cpp basename from map object; extension not recorded	84	26	1	25	17	8	6	1	0	10
+adventure_events_set_owner.obj	game/adventure_events_set_owner.cpp	B	inferred .cpp basename from map object; extension not recorded	85	28	1	27	18	9	6	1	0	11
+adventure_events_spells_effect.obj	game/adventure_events_spells_effect.cpp	A	anonymous-namespace source tag: C:\work\game\adventure_events_spells_effect.cpp	86	34	1	33	17	16	6	1	0	10
+adventure_events_teleport.obj	game/adventure_events_teleport.cpp	B	inferred .cpp basename from map object; extension not recorded	87	28	1	27	19	8	6	1	0	12
+adventure_events_update.obj	game/adventure_events_update.cpp	B	inferred .cpp basename from map object; extension not recorded	88	26	1	25	18	7	6	1	0	11
+adventure_events_visiblity.obj	game/adventure_events_visiblity.cpp	B	inferred .cpp basename from map object; extension not recorded	89	27	1	26	18	8	7	1	0	10
+adventure_frame.obj	game/adventure_frame.cpp	A	anonymous-namespace source tag: C:\work\game\adventure_frame.cpp	90	1963	165	1798	982	816	263	25	2	692
+adventure_map.obj	game/adventure_map.cpp	A	anonymous-namespace source tag: C:\work\game\adventure_map.cpp	91	2524	1684	840	403	437	65	2	0	336
+adventure_map_window.obj	game/adventure_map_window.cpp	B	inferred .cpp basename from map object; extension not recorded	92	237	13	224	138	86	52	2	0	84
+adventure_map_window_base.obj	game/adventure_map_window_base.cpp	B	inferred .cpp basename from map object; extension not recorded	93	27	1	26	15	11	4	1	0	10
+adventure_object.obj	game/adventure_object.cpp	A	anonymous-namespace source tag: C:\work\game\adventure_object.cpp	94	205	9	196	81	115	28	2	0	51
+adventure_object_global_id.obj	game/adventure_object_global_id.cpp	B	inferred .cpp basename from map object; extension not recorded	95	8	0	8	7	1	0	0	0	7
+adventure_object_memory_cache.obj	game/adventure_object_memory_cache.cpp	B	inferred .cpp basename from map object; extension not recorded	96	135	82	53	35	18	12	0	0	23
+adventure_path_finder.obj	game/adventure_path_finder.cpp	A	anonymous-namespace source tag: C:\work\game\adventure_path_finder.cpp	97	112	22	90	42	48	6	1	0	35
+adventure_sounds.obj	game/adventure_sounds.cpp	A	anonymous-namespace source tag: C:\work\game\adventure_sounds.cpp	98	215	103	112	51	61	12	0	0	39
+adventure_spell.obj	game/adventure_spell.cpp	A	anonymous-namespace source tag: C:\work\game\adventure_spell.cpp	99	147	12	135	81	54	31	0	0	50
+adventure_spell_effect.obj	game/adventure_spell_effect.cpp	A	anonymous-namespace source tag: C:\work\game\adventure_spell_effect.cpp	100	202	1	201	123	78	26	17	0	80
+adventure_treasure_map.obj	game/adventure_treasure_map.cpp	B	inferred .cpp basename from map object; extension not recorded	101	32	1	31	19	12	6	1	0	12
+ai_combat_data_cache.obj	game/ai_combat_data_cache.cpp	A	anonymous-namespace source tag: C:\work\game\ai_combat_data_cache.cpp	102	972	757	215	92	123	6	0	0	86
+ai_town_data_cache.obj	game/ai_town_data_cache.cpp	B	inferred .cpp basename from map object; extension not recorded	103	36	30	6	4	2	0	0	0	4
+ai_value.obj	game/ai_value.cpp	B	inferred .cpp basename from map object; extension not recorded	104	261	82	179	69	110	12	0	0	57
+alignment_relationship.obj	game/alignment_relationship.cpp	B	inferred .cpp basename from map object; extension not recorded	105	3	1	2	2	0	0	0	0	2
+angle.obj	game/angle.cpp	B	inferred .cpp basename from map object; extension not recorded	106	7	0	7	6	1	0	0	0	6
+animated_window.obj	game/animated_window.cpp	B	inferred .cpp basename from map object; extension not recorded	107	28	1	27	14	13	9	1	0	4
+animation.obj	game/animation.cpp	B	inferred .cpp basename from map object; extension not recorded	108	9	1	8	4	4	0	0	0	4
+army.obj	game/army.cpp	A	anonymous-namespace source tag: C:\work\game\army.cpp	109	242	7	235	153	82	13	6	0	134
+army_dialog.obj	game/army_dialog.cpp	A	anonymous-namespace source tag: C:\work\game\army_dialog.cpp	110	345	76	269	161	108	96	10	0	55
+army_dialog_base.obj	game/army_dialog_base.cpp	A	anonymous-namespace source tag: C:\work\game\army_dialog_base.cpp	111	365	30	335	192	143	60	11	0	121
+army_dialog_garrison.obj	game/army_dialog_garrison.cpp	B	inferred .cpp basename from map object; extension not recorded	112	19	1	18	12	6	6	1	0	5
+army_info_window.obj	game/army_info_window.cpp	B	inferred .cpp basename from map object; extension not recorded	113	135	19	116	74	42	31	4	1	38
+army_list.obj	game/army_list.cpp	B	inferred .cpp basename from map object; extension not recorded	114	9	0	9	8	1	6	0	0	2
+army_list_window.obj	game/army_list_window.cpp	B	inferred .cpp basename from map object; extension not recorded	115	191	39	152	85	67	38	6	0	41
+army_mover.obj	game/army_mover.cpp	B	inferred .cpp basename from map object; extension not recorded	116	133	27	106	63	43	16	3	0	44
+artifact.obj	game/artifact.cpp	B	inferred .cpp basename from map object; extension not recorded	117	22	14	8	7	1	0	0	0	7
+artifact_ai_importance_map.obj	game/artifact_ai_importance_map.cpp	B	inferred .cpp basename from map object; extension not recorded	118	19	17	2	2	0	0	0	0	2
+artifact_effect.obj	game/artifact_effect.cpp	A	anonymous-namespace source tag: C:\work\game\artifact_effect.cpp	119	1024	20	1004	572	432	410	0	0	162
+artifact_effect_visitor.obj	game/artifact_effect_visitor.cpp	B	inferred .cpp basename from map object; extension not recorded	120	15	0	15	2	13	0	0	0	2
+artifact_icon.obj	game/artifact_icon.cpp	B	inferred .cpp basename from map object; extension not recorded	121	15	1	14	11	3	6	0	0	5
+artifact_keyword.obj	game/artifact_keyword.cpp	B	inferred .cpp basename from map object; extension not recorded	122	32	2	30	11	19	0	0	0	11
+artifact_prop_ability.obj	game/artifact_prop_ability.cpp	B	inferred .cpp basename from map object; extension not recorded	123	28	0	28	17	11	12	0	0	5
+artifact_properties.obj	game/artifact_properties.cpp	A	anonymous-namespace source tag: C:\work\game\artifact_properties.cpp	124	93	32	61	37	24	12	0	0	25
+artifact_set.obj	game/artifact_set.cpp	B	inferred .cpp basename from map object; extension not recorded	125	11	2	9	5	4	0	0	0	5
+attack.obj	game/attack.cpp	A	anonymous-namespace source tag: C:\work\game\attack.cpp	126	393	23	370	202	168	101	13	0	88
+attackable_object.obj	game/attackable_object.cpp	B	inferred .cpp basename from map object; extension not recorded	127	31	1	30	12	18	0	0	0	12
+attackable_obstacle.obj	game/attackable_obstacle.cpp	B	inferred .cpp basename from map object; extension not recorded	128	112	26	86	48	38	15	7	0	26
+automatic_spells.obj	game/automatic_spells.cpp	B	inferred .cpp basename from map object; extension not recorded	129	50	41	9	4	5	0	0	0	4
+basic_dialog.obj	game/basic_dialog.cpp	B	inferred .cpp basename from map object; extension not recorded	130	268	8	260	162	98	48	10	2	102
+battlefield.obj	game/battlefield.cpp	A	anonymous-namespace source tag: C:\work\game\battlefield.cpp	131	2200	577	1623	884	739	307	32	0	545
+battlefield_cell.obj	game/battlefield_cell.cpp	B	inferred .cpp basename from map object; extension not recorded	132	35	3	32	24	8	0	0	0	24
+battlefield_metrics.obj	game/battlefield_metrics.cpp	B	inferred .cpp basename from map object; extension not recorded	133	17	0	17	8	9	0	0	0	8
+battlefield_passablity_map.obj	game/battlefield_passablity_map.cpp	A	anonymous-namespace source tag: C:\work\game\battlefield_passablity_map.cpp	134	51	21	30	20	10	14	0	0	6
+battlefield_preset_map.obj	game/battlefield_preset_map.cpp	A	anonymous-namespace source tag: C:\work\game\battlefield_preset_map.cpp	135	53	11	42	16	26	6	0	0	10
+battlefield_preset_map_cache.obj	game/battlefield_preset_map_cache.cpp	B	inferred .cpp basename from map object; extension not recorded	136	70	1	69	44	25	30	2	0	12
+battlefield_preset_map_in_game.obj	game/battlefield_preset_map_in_game.cpp	B	inferred .cpp basename from map object; extension not recorded	137	16	1	15	11	4	6	0	0	5
+battlefield_terrain_map.obj	game/battlefield_terrain_map.cpp	A	anonymous-namespace source tag: C:\work\game\battlefield_terrain_map.cpp	138	205	56	149	77	72	30	0	0	47
+battlefield_window.obj	game/battlefield_window.cpp	A	anonymous-namespace source tag: C:\work\game\battlefield_window.cpp	139	198	47	151	53	98	12	0	0	41
+beastmaster_hut.obj	game/beastmaster_hut.cpp	A	anonymous-namespace source tag: C:\work\game\beastmaster_hut.cpp	140	99	7	92	54	38	25	6	0	23
+bink_window.obj	game/bink_window.cpp	B	inferred .cpp basename from map object; extension not recorded	141	31	3	28	18	10	8	1	0	9
+bink_wrapper.obj	game/bink_wrapper.cpp	A	anonymous-namespace source tag: C:\work\game\bink_wrapper.cpp	142	51	3	48	19	29	6	0	0	13
+bitmap_cursor.obj	game/bitmap_cursor.cpp	B	inferred .cpp basename from map object; extension not recorded	143	6	1	5	4	1	0	0	0	4
+bitmap_group.obj	game/bitmap_group.cpp	A	anonymous-namespace source tag: C:\work\game\bitmap_group.cpp	144	37	14	23	12	11	0	0	0	12
+bitmap_group_cache.obj	game/bitmap_group_cache.cpp	A	anonymous-namespace source tag: C:\work\game\bitmap_group_cache.cpp	145	53	1	52	32	20	18	3	0	11
+bitmap_group_window.obj	game/bitmap_group_window.cpp	B	inferred .cpp basename from map object; extension not recorded	146	18	1	17	14	3	4	0	0	10
+bitmap_layer.obj	game/bitmap_layer.cpp	A	anonymous-namespace source tag: C:\work\game\bitmap_layer.cpp	147	152	46	106	53	53	12	0	0	41
+bitmap_layer_cache.obj	game/bitmap_layer_cache.cpp	B	inferred .cpp basename from map object; extension not recorded	148	26	1	25	20	5	12	0	0	8
+bitmap_layer_cache_window.obj	game/bitmap_layer_cache_window.cpp	B	inferred .cpp basename from map object; extension not recorded	149	12	0	12	9	3	6	0	0	3
+bitmap_layer_window.obj	game/bitmap_layer_window.cpp	B	inferred .cpp basename from map object; extension not recorded	150	14	1	13	10	3	4	0	0	6
+bitmap_pool.obj	game/bitmap_pool.cpp	A	anonymous-namespace source tag: C:\work\game\bitmap_pool.cpp	151	46	24	22	11	11	0	0	0	11
+bitmap_raw.obj	game/bitmap_raw.cpp	A	anonymous-namespace source tag: C:\work\game\bitmap_raw.cpp	152	60	1	59	35	24	24	0	0	11
+bitmap_raw_cache.obj	game/bitmap_raw_cache.cpp	A	anonymous-namespace source tag: C:\work\game\bitmap_raw_cache.cpp	153	71	1	70	44	26	30	2	0	12
+bitmap_raw_window.obj	game/bitmap_raw_window.cpp	B	inferred .cpp basename from map object; extension not recorded	154	20	1	19	9	10	6	0	0	3
+blacksmith_window.obj	game/blacksmith_window.cpp	B	inferred .cpp basename from map object; extension not recorded	155	185	2	183	112	71	47	7	2	56
+blend_window.obj	game/blend_window.cpp	B	inferred .cpp basename from map object; extension not recorded	156	14	1	13	9	4	6	0	0	3
+blended_bitmap_window.obj	game/blended_bitmap_window.cpp	B	inferred .cpp basename from map object; extension not recorded	157	15	1	14	11	3	6	0	0	5
+bool_array.obj	game/bool_array.cpp	B	inferred .cpp basename from map object; extension not recorded	158	2	0	2	2	0	0	0	0	2
+buffer_window.obj	game/buffer_window.cpp	B	inferred .cpp basename from map object; extension not recorded	159	27	1	26	16	10	6	0	0	10
+building_traits.obj	game/building_traits.cpp	A	anonymous-namespace source tag: C:\work\game\building_traits.cpp	160	25	2	23	14	9	0	1	0	13
+button.obj	game/button.cpp	B	inferred .cpp basename from map object; extension not recorded	161	65	14	51	27	24	4	0	0	23
+button_bitmaps.obj	game/button_bitmaps.cpp	B	inferred .cpp basename from map object; extension not recorded	162	12	1	11	8	3	6	0	0	2
+button_group.obj	game/button_group.cpp	B	inferred .cpp basename from map object; extension not recorded	163	93	16	77	38	39	21	2	0	15
+buy_building_detail.obj	game/buy_building_detail.cpp	B	inferred .cpp basename from map object; extension not recorded	164	61	1	60	39	21	12	2	0	25
+buy_building_window.obj	game/buy_building_window.cpp	A	anonymous-namespace source tag: C:\work\game\buy_building_window.cpp	165	92	1	91	60	31	18	2	0	40
+cache_base.obj	game/cache_base.cpp	A	anonymous-namespace source tag: C:\work\game\cache_base.cpp	166	55	34	21	12	9	4	0	0	8
+cached_grail_data_source.obj	game/cached_grail_data_source.cpp	B	inferred .cpp basename from map object; extension not recorded	167	3	1	2	2	0	0	0	0	2
+campaign_file.obj	game/campaign_file.cpp	A	anonymous-namespace source tag: C:\work\game\campaign_file.cpp	168	30	2	28	16	12	6	0	0	10
+campaign_file_header.obj	game/campaign_file_header.cpp	A	anonymous-namespace source tag: C:\work\game\campaign_file_header.cpp	169	288	51	237	114	123	62	2	0	50
+campaign_file_ref.obj	game/campaign_file_ref.cpp	A	anonymous-namespace source tag: C:\work\game\campaign_file_ref.cpp	170	54	1	53	33	20	24	0	0	9
+campfire.obj	game/campfire.cpp	B	inferred .cpp basename from map object; extension not recorded	171	39	1	38	25	13	12	2	0	11
+can_cast.obj	game/can_cast.cpp	B	inferred .cpp basename from map object; extension not recorded	172	314	2	312	213	99	0	2	2	209
+caravan.obj	game/caravan.cpp	B	inferred .cpp basename from map object; extension not recorded	173	38	1	37	25	12	8	2	0	15
+caravan_set.obj	game/caravan_set.cpp	A	anonymous-namespace source tag: C:\work\game\caravan_set.cpp	174	17	6	11	6	5	0	0	0	6
+carryover_data.obj	game/carryover_data.cpp	A	anonymous-namespace source tag: C:\work\game\carryover_data.cpp	175	113	63	50	28	22	6	0	0	22
+carryover_hero.obj	game/carryover_hero.cpp	A	anonymous-namespace source tag: C:\work\game\carryover_hero.cpp	176	80	2	78	59	19	12	3	0	44
+castle_gate.obj	game/castle_gate.cpp	A	anonymous-namespace source tag: C:\work\game\castle_gate.cpp	177	81	8	73	43	30	6	4	0	33
+castle_window.obj	game/castle_window.cpp	B	inferred .cpp basename from map object; extension not recorded	178	95	2	93	61	32	18	3	1	39
+chain_lightning.obj	game/chain_lightning.cpp	A	anonymous-namespace source tag: C:\work\game\chain_lightning.cpp	179	147	2	145	80	65	45	2	0	33
+cheats.obj	game/cheats.cpp	B	inferred .cpp basename from map object; extension not recorded	180	246	1	245	160	85	21	1	0	138
+check_artifact_influence.obj	game/check_artifact_influence.cpp	A	anonymous-namespace source tag: C:\work\game\check_artifact_influence.cpp	181	90	25	65	38	27	18	0	0	20
+clip_list.obj	game/clip_list.cpp	B	inferred .cpp basename from map object; extension not recorded	182	74	21	53	32	21	6	0	0	26
+color_count.obj	game/color_count.cpp	B	inferred .cpp basename from map object; extension not recorded	183	10	0	10	1	9	0	0	0	1
+color_cube.obj	game/color_cube.cpp	A	anonymous-namespace source tag: C:\work\game\color_cube.cpp	184	74	54	20	4	16	0	0	0	4
+color_sum.obj	game/color_sum.cpp	B	inferred .cpp basename from map object; extension not recorded	185	5	0	5	1	4	0	0	0	1
+combat_action_message.obj	game/combat_action_message.cpp	B	inferred .cpp basename from map object; extension not recorded	186	28	1	27	14	13	0	0	0	14
+combat_action_message_displayer.obj	game/combat_action_message_displayer.cpp	B	inferred .cpp basename from map object; extension not recorded	187	25	1	24	17	7	5	0	0	12
+combat_actor.obj	game/combat_actor.cpp	B	inferred .cpp basename from map object; extension not recorded	188	89	2	87	49	38	4	1	0	44
+combat_actor_action.obj	game/combat_actor_action.cpp	A	anonymous-namespace source tag: C:\work\game\combat_actor_action.cpp	189	15	1	14	6	8	0	0	1	5
+combat_actor_model.obj	game/combat_actor_model.cpp	B	inferred .cpp basename from map object; extension not recorded	190	73	1	72	36	36	12	0	0	24
+combat_actor_model_cache.obj	game/combat_actor_model_cache.cpp	A	anonymous-namespace source tag: C:\work\game\combat_actor_model_cache.cpp	191	382	172	210	132	78	67	3	0	62
+combat_actor_model_definition.obj	game/combat_actor_model_definition.cpp	B	inferred .cpp basename from map object; extension not recorded	192	28	1	27	9	18	0	0	0	9
+combat_ai.obj	game/combat_ai.cpp	B	inferred .cpp basename from map object; extension not recorded	193	244	113	131	74	57	30	0	0	44
+combat_ai_defend_action.obj	game/combat_ai_defend_action.cpp	B	inferred .cpp basename from map object; extension not recorded	194	24	1	23	12	11	0	0	0	12
+combat_ai_melee_action.obj	game/combat_ai_melee_action.cpp	B	inferred .cpp basename from map object; extension not recorded	195	71	1	70	37	33	6	0	0	31
+combat_ai_move_action.obj	game/combat_ai_move_action.cpp	B	inferred .cpp basename from map object; extension not recorded	196	46	1	45	23	22	6	0	0	17
+combat_ai_ranged_area_action.obj	game/combat_ai_ranged_area_action.cpp	B	inferred .cpp basename from map object; extension not recorded	197	24	1	23	13	10	0	0	0	13
+combat_ai_ranged_single_action.obj	game/combat_ai_ranged_single_action.cpp	B	inferred .cpp basename from map object; extension not recorded	198	26	1	25	13	12	0	0	0	13
+combat_ai_spell_single_action.obj	game/combat_ai_spell_single_action.cpp	B	inferred .cpp basename from map object; extension not recorded	199	25	1	24	13	11	0	0	0	13
+combat_ai_wait_action.obj	game/combat_ai_wait_action.cpp	B	inferred .cpp basename from map object; extension not recorded	200	24	1	23	12	11	0	0	0	12
+combat_castle.obj	game/combat_castle.cpp	B	inferred .cpp basename from map object; extension not recorded	201	25	17	8	3	5	0	0	0	3
+combat_context_army.obj	game/combat_context_army.cpp	B	inferred .cpp basename from map object; extension not recorded	202	27	1	26	17	9	8	0	0	9
+combat_creature.obj	game/combat_creature.cpp	A	anonymous-namespace source tag: C:\work\game\combat_creature.cpp	203	562	69	493	323	170	61	10	0	252
+combat_creature_icon.obj	game/combat_creature_icon.cpp	B	inferred .cpp basename from map object; extension not recorded	204	30	1	29	20	9	8	0	1	11
+combat_flinch.obj	game/combat_flinch.cpp	B	inferred .cpp basename from map object; extension not recorded	205	24	7	17	10	7	0	0	0	10
+combat_footprint.obj	game/combat_footprint.cpp	A	anonymous-namespace source tag: C:\work\game\combat_footprint.cpp	206	141	129	12	7	5	0	0	0	7
+combat_header_table.obj	game/combat_header_table.cpp	B	inferred .cpp basename from map object; extension not recorded	207	83	29	54	33	21	12	0	1	20
+combat_label.obj	game/combat_label.cpp	A	anonymous-namespace source tag: C:\work\game\combat_label.cpp	208	193	128	65	36	29	7	2	0	27
+combat_model_window.obj	game/combat_model_window.cpp	A	anonymous-namespace source tag: C:\work\game\combat_model_window.cpp	209	118	46	72	42	30	13	2	0	27
+combat_non_blocking_message_displayer.obj	game/combat_non_blocking_message_displayer.cpp	B	inferred .cpp basename from map object; extension not recorded	210	21	1	20	15	5	8	1	0	6
+combat_object_fader.obj	game/combat_object_fader.cpp	B	inferred .cpp basename from map object; extension not recorded	211	48	1	47	29	18	14	3	0	12
+combat_object_model.obj	game/combat_object_model.cpp	B	inferred .cpp basename from map object; extension not recorded	212	23	1	22	5	17	0	0	0	5
+combat_object_model_cache.obj	game/combat_object_model_cache.cpp	A	anonymous-namespace source tag: C:\work\game\combat_object_model_cache.cpp	213	137	64	73	48	25	27	3	0	18
+combat_object_registration.obj	game/combat_object_registration.cpp	B	inferred .cpp basename from map object; extension not recorded	214	4	0	4	2	2	0	0	0	2
+combat_object_visitor.obj	game/combat_object_visitor.cpp	B	inferred .cpp basename from map object; extension not recorded	215	11	0	11	0	11	0	0	0	0
+combat_obstacle_placer.obj	game/combat_obstacle_placer.cpp	A	anonymous-namespace source tag: C:\work\game\combat_obstacle_placer.cpp	216	199	54	145	78	67	30	2	1	45
+combat_obstruction_finder.obj	game/combat_obstruction_finder.cpp	A	anonymous-namespace source tag: C:\work\game\combat_obstruction_finder.cpp	217	72	27	45	30	15	14	0	0	16
+combat_path_finder.obj	game/combat_path_finder.cpp	B	inferred .cpp basename from map object; extension not recorded	218	60	20	40	21	19	6	0	0	15
+combat_path_finder_base.obj	game/combat_path_finder_base.cpp	B	inferred .cpp basename from map object; extension not recorded	219	53	15	38	22	16	4	0	0	18
+combat_reader.obj	game/combat_reader.cpp	B	inferred .cpp basename from map object; extension not recorded	220	170	43	127	75	52	44	1	0	30
+combat_sounds.obj	game/combat_sounds.cpp	B	inferred .cpp basename from map object; extension not recorded	221	11	1	10	6	4	0	0	0	6
+combat_spell.obj	game/combat_spell.cpp	A	anonymous-namespace source tag: C:\work\game\combat_spell.cpp	222	153	1	152	88	64	31	3	0	54
+combat_spell_cell_target.obj	game/combat_spell_cell_target.cpp	B	inferred .cpp basename from map object; extension not recorded	223	29	1	28	20	8	6	0	0	14
+combat_spell_registration.obj	game/combat_spell_registration.cpp	B	inferred .cpp basename from map object; extension not recorded	224	4	0	4	3	1	0	0	0	3
+combat_spell_single_target.obj	game/combat_spell_single_target.cpp	A	anonymous-namespace source tag: C:\work\game\combat_spell_single_target.cpp	225	1560	3	1557	1080	477	706	26	15	333
+combat_start_position.obj	game/combat_start_position.cpp	B	inferred .cpp basename from map object; extension not recorded	226	5	1	4	3	1	0	0	0	3
+combat_terrain_map.obj	game/combat_terrain_map.cpp	B	inferred .cpp basename from map object; extension not recorded	227	59	33	26	14	12	0	0	0	14
+combat_user_action.obj	game/combat_user_action.cpp	A	anonymous-namespace source tag: C:\work\game\combat_user_action.cpp	228	128	1	127	79	48	42	0	0	37
+combat_window.obj	game/combat_window.cpp	A	anonymous-namespace source tag: C:\work\game\combat_window.cpp	229	459	76	383	245	138	18	2	0	225
+compound_object.obj	game/compound_object.cpp	B	inferred .cpp basename from map object; extension not recorded	230	61	16	45	26	19	5	1	0	20
+compound_object_model.obj	game/compound_object_model.cpp	B	inferred .cpp basename from map object; extension not recorded	231	107	45	62	35	27	17	2	0	16
+compressed_filter.obj	game/compressed_filter.cpp	B	inferred .cpp basename from map object; extension not recorded	232	80	3	77	45	32	23	0	0	22
+configuration.obj	game/configuration.cpp	A	anonymous-namespace source tag: C:\work\game\configuration.cpp	233	24	1	23	6	17	0	0	0	6
+continuous_event.obj	game/continuous_event.cpp	A	anonymous-namespace source tag: C:\work\game\continuous_event.cpp	234	4	1	3	2	1	0	0	0	2
+convert_16_bit.obj	game/convert_16_bit.cpp	A	anonymous-namespace source tag: C:\work\game\convert_16_bit.cpp	235	83	38	45	11	34	6	0	0	5
+counted_animation.obj	game/counted_animation.cpp	B	inferred .cpp basename from map object; extension not recorded	236	24	1	23	16	7	5	0	0	11
+create_creature_button.obj	game/create_creature_button.cpp	B	inferred .cpp basename from map object; extension not recorded	237	17	14	3	2	1	0	0	0	2
+creature.obj	game/creature.cpp	B	inferred .cpp basename from map object; extension not recorded	238	167	43	124	69	55	17	3	0	49
+creature_ability_properties.obj	game/creature_ability_properties.cpp	A	anonymous-namespace source tag: C:\work\game\creature_ability_properties.cpp	239	26	1	25	12	13	0	0	0	12
+creature_array.obj	game/creature_array.cpp	A	anonymous-namespace source tag: C:\work\game\creature_array.cpp	240	136	12	124	97	27	0	2	0	95
+creature_array_window.obj	game/creature_array_window.cpp	A	anonymous-namespace source tag: C:\work\game\creature_array_window.cpp	241	161	30	131	68	63	19	2	0	47
+creature_bank.obj	game/creature_bank.cpp	A	anonymous-namespace source tag: C:\work\game\creature_bank.cpp	242	137	28	109	75	34	12	4	0	59
+creature_bank_type.obj	game/creature_bank_type.cpp	A	anonymous-namespace source tag: C:\work\game\creature_bank_type.cpp	243	15	1	14	5	9	0	0	1	4
+creature_detail_display.obj	game/creature_detail_display.cpp	A	anonymous-namespace source tag: C:\work\game\creature_detail_display.cpp	244	32	12	20	15	5	0	2	0	13
+creature_icon_window.obj	game/creature_icon_window.cpp	B	inferred .cpp basename from map object; extension not recorded	245	11	1	10	9	1	4	0	0	5
+creature_info_window.obj	game/creature_info_window.cpp	A	anonymous-namespace source tag: C:\work\game\creature_info_window.cpp	246	42	1	41	24	17	12	0	0	12
+creature_select_window.obj	game/creature_select_window.cpp	B	inferred .cpp basename from map object; extension not recorded	247	129	24	105	61	44	33	3	0	25
+creature_stack.obj	game/creature_stack.cpp	B	inferred .cpp basename from map object; extension not recorded	248	162	27	135	50	85	0	0	0	50
+creature_traits.obj	game/creature_traits.cpp	A	anonymous-namespace source tag: C:\work\game\creature_traits.cpp	249	82	21	61	39	22	0	1	0	38
+creature_type.obj	game/creature_type.cpp	A	anonymous-namespace source tag: C:\work\game\creature_type.cpp	250	14	1	13	6	7	0	0	1	5
+data_lock.obj	game/data_lock.cpp	B	inferred .cpp basename from map object; extension not recorded	251	7	0	7	4	3	0	0	0	4
+debug_message.obj	game/debug_message.cpp	B	inferred .cpp basename from map object; extension not recorded	252	21	3	18	9	9	0	1	0	8
+default_artifacts.obj	game/default_artifacts.cpp	A	anonymous-namespace source tag: C:\work\game\default_artifacts.cpp	253	168	1	167	112	55	6	0	0	106
+default_heroes.obj	game/default_heroes.cpp	A	anonymous-namespace source tag: C:\work\game\default_heroes.cpp	254	79	39	40	25	15	0	1	0	24
+default_obelisk_rewards.obj	game/default_obelisk_rewards.cpp	B	inferred .cpp basename from map object; extension not recorded	255	3	1	2	1	1	0	0	0	1
+delay_effect.obj	game/delay_effect.cpp	B	inferred .cpp basename from map object; extension not recorded	256	17	0	17	12	5	6	1	0	5
+dialog_adv_spell_target.obj	game/dialog_adv_spell_target.cpp	B	inferred .cpp basename from map object; extension not recorded	257	85	1	84	50	34	21	2	0	27
+dialog_altar.obj	game/dialog_altar.cpp	B	inferred .cpp basename from map object; extension not recorded	258	99	8	91	51	40	27	3	0	21
+dialog_beastmaster.obj	game/dialog_beastmaster.cpp	B	inferred .cpp basename from map object; extension not recorded	259	67	1	66	43	23	18	4	0	21
+dialog_blacksmith.obj	game/dialog_blacksmith.cpp	B	inferred .cpp basename from map object; extension not recorded	260	87	1	86	55	31	30	4	0	21
+dialog_booty.obj	game/dialog_booty.cpp	A	anonymous-namespace source tag: C:\work\game\dialog_booty.cpp	261	68	1	67	46	21	23	2	0	21
+dialog_box.obj	game/dialog_box.cpp	B	inferred .cpp basename from map object; extension not recorded	262	18	1	17	13	4	4	0	0	9
+dialog_box_bitmaps.obj	game/dialog_box_bitmaps.cpp	B	inferred .cpp basename from map object; extension not recorded	263	12	1	11	8	3	6	0	0	2
+dialog_campaign.obj	game/dialog_campaign.cpp	A	anonymous-namespace source tag: C:\work\game\dialog_campaign.cpp	264	180	2	178	112	66	24	2	2	84
+dialog_campaign_score.obj	game/dialog_campaign_score.cpp	B	inferred .cpp basename from map object; extension not recorded	265	128	44	84	47	37	18	2	0	27
+dialog_campaign_selection.obj	game/dialog_campaign_selection.cpp	B	inferred .cpp basename from map object; extension not recorded	266	89	1	88	58	30	12	1	0	45
+dialog_caravan_arrivals.obj	game/dialog_caravan_arrivals.cpp	B	inferred .cpp basename from map object; extension not recorded	267	131	20	111	68	43	30	4	0	34
+dialog_caravan_creation.obj	game/dialog_caravan_creation.cpp	B	inferred .cpp basename from map object; extension not recorded	268	362	86	276	185	91	30	4	0	151
+dialog_caravan_initial.obj	game/dialog_caravan_initial.cpp	B	inferred .cpp basename from map object; extension not recorded	269	111	1	110	68	42	27	2	0	39
+dialog_caravan_view.obj	game/dialog_caravan_view.cpp	B	inferred .cpp basename from map object; extension not recorded	270	210	24	186	112	74	39	4	0	69
+dialog_charm.obj	game/dialog_charm.cpp	B	inferred .cpp basename from map object; extension not recorded	271	86	1	85	61	24	12	1	0	48
+dialog_choose_lord.obj	game/dialog_choose_lord.cpp	A	anonymous-namespace source tag: C:\work\game\dialog_choose_lord.cpp	272	116	28	88	59	29	24	4	0	31
+dialog_cinematic.obj	game/dialog_cinematic.cpp	B	inferred .cpp basename from map object; extension not recorded	273	78	1	77	52	25	18	2	0	32
+dialog_combat_creature.obj	game/dialog_combat_creature.cpp	B	inferred .cpp basename from map object; extension not recorded	274	98	4	94	58	36	20	2	0	36
+dialog_combat_options.obj	game/dialog_combat_options.cpp	B	inferred .cpp basename from map object; extension not recorded	275	66	1	65	47	18	14	1	0	32
+dialog_combat_results.obj	game/dialog_combat_results.cpp	A	anonymous-namespace source tag: C:\work\game\dialog_combat_results.cpp	276	126	1	125	89	36	12	1	0	76
+dialog_creature_portal.obj	game/dialog_creature_portal.cpp	B	inferred .cpp basename from map object; extension not recorded	277	89	6	83	46	37	29	2	0	15
+dialog_enemy_runs.obj	game/dialog_enemy_runs.cpp	B	inferred .cpp basename from map object; extension not recorded	278	50	1	49	35	14	12	1	0	22
+dialog_file.obj	game/dialog_file.cpp	B	inferred .cpp basename from map object; extension not recorded	279	147	60	87	52	35	24	4	0	24
+dialog_full_army.obj	game/dialog_full_army.cpp	B	inferred .cpp basename from map object; extension not recorded	280	60	1	59	41	18	18	2	0	21
+dialog_garrison.obj	game/dialog_garrison.cpp	B	inferred .cpp basename from map object; extension not recorded	281	155	1	154	95	59	49	7	0	39
+dialog_high_score.obj	game/dialog_high_score.cpp	A	anonymous-namespace source tag: C:\work\game\dialog_high_score.cpp	282	108	1	107	72	35	18	3	1	50
+dialog_kingdom_trade.obj	game/dialog_kingdom_trade.cpp	B	inferred .cpp basename from map object; extension not recorded	283	97	16	81	51	30	24	3	1	23
+dialog_load_game.obj	game/dialog_load_game.cpp	B	inferred .cpp basename from map object; extension not recorded	284	47	3	44	30	14	12	1	0	17
+dialog_magic_gem.obj	game/dialog_magic_gem.cpp	B	inferred .cpp basename from map object; extension not recorded	285	48	1	47	31	16	18	2	0	11
+dialog_magic_university.obj	game/dialog_magic_university.cpp	B	inferred .cpp basename from map object; extension not recorded	286	4	2	2	2	0	0	0	0	2
+dialog_mana_vortex.obj	game/dialog_mana_vortex.cpp	B	inferred .cpp basename from map object; extension not recorded	287	55	1	54	36	18	18	3	0	15
+dialog_marketplace.obj	game/dialog_marketplace.cpp	B	inferred .cpp basename from map object; extension not recorded	288	86	1	85	56	29	24	4	0	28
+dialog_necromancy.obj	game/dialog_necromancy.cpp	B	inferred .cpp basename from map object; extension not recorded	289	31	1	30	24	6	6	0	0	18
+dialog_options_base.obj	game/dialog_options_base.cpp	B	inferred .cpp basename from map object; extension not recorded	290	67	1	66	47	19	16	2	0	29
+dialog_resurrect.obj	game/dialog_resurrect.cpp	B	inferred .cpp basename from map object; extension not recorded	291	53	1	52	7	45	0	0	0	7
+dialog_save_game.obj	game/dialog_save_game.cpp	B	inferred .cpp basename from map object; extension not recorded	292	72	5	67	47	20	18	2	0	27
+dialog_school_of_magic.obj	game/dialog_school_of_magic.cpp	B	inferred .cpp basename from map object; extension not recorded	293	67	1	66	43	23	24	3	0	16
+dialog_score.obj	game/dialog_score.cpp	B	inferred .cpp basename from map object; extension not recorded	294	208	1	207	141	66	18	2	0	121
+dialog_teleporter_entrance.obj	game/dialog_teleporter_entrance.cpp	A	anonymous-namespace source tag: C:\work\game\dialog_teleporter_entrance.cpp	295	191	88	103	66	37	32	6	0	28
+dialog_tree_of_knowledge.obj	game/dialog_tree_of_knowledge.cpp	B	inferred .cpp basename from map object; extension not recorded	296	61	1	60	41	19	18	2	1	20
+dialog_view_world.obj	game/dialog_view_world.cpp	A	anonymous-namespace source tag: C:\work\game\dialog_view_world.cpp	297	368	30	338	184	154	97	5	2	80
+dialog_war_institute.obj	game/dialog_war_institute.cpp	B	inferred .cpp basename from map object; extension not recorded	298	59	5	54	36	18	18	2	0	16
+dib_section.obj	game/dib_section.cpp	B	inferred .cpp basename from map object; extension not recorded	299	26	1	25	11	14	6	0	0	5
+diff.obj	game/diff.cpp	B	inferred .cpp basename from map object; extension not recorded	300	13	1	12	1	11	0	0	0	1
+direct_paint_surface.obj	game/direct_paint_surface.cpp	B	inferred .cpp basename from map object; extension not recorded	301	34	1	33	20	13	14	0	0	6
+direct_surface_16.obj	game/direct_surface_16.cpp	B	inferred .cpp basename from map object; extension not recorded	302	24	0	24	18	6	12	0	0	6
+direction.obj	game/direction.cpp	A	anonymous-namespace source tag: C:\work\game\direction.cpp	303	18	1	17	3	14	0	0	0	3
+discrete_event.obj	game/discrete_event.cpp	A	anonymous-namespace source tag: C:\work\game\discrete_event.cpp	304	12	1	11	8	3	0	0	0	8
+drag_artifact.obj	game/drag_artifact.cpp	B	inferred .cpp basename from map object; extension not recorded	305	29	1	28	21	7	10	0	0	11
+drag_creature.obj	game/drag_creature.cpp	B	inferred .cpp basename from map object; extension not recorded	306	13	1	12	11	1	5	0	0	6
+drag_garrison.obj	game/drag_garrison.cpp	B	inferred .cpp basename from map object; extension not recorded	307	13	1	12	1	11	0	0	0	1
+drag_object.obj	game/drag_object.cpp	B	inferred .cpp basename from map object; extension not recorded	308	8	0	8	6	2	4	0	0	2
+draw_adventure_tile.obj	game/draw_adventure_tile.cpp	A	anonymous-namespace source tag: C:\work\game\draw_adventure_tile.cpp	309	74	3	71	35	36	6	1	0	28
+draw_terrain.obj	game/draw_terrain.cpp	B	inferred .cpp basename from map object; extension not recorded	310	9	1	8	5	3	0	0	0	5
+dump_entire_map_image.obj	game/dump_entire_map_image.cpp	A	anonymous-namespace source tag: C:\work\game\dump_entire_map_image.cpp	311	46	8	38	24	14	13	0	0	11
+enum_map.obj	game/enum_map.cpp	B	inferred .cpp basename from map object; extension not recorded	312	8	4	4	3	1	0	0	0	3
+estimate_outcome.obj	game/estimate_outcome.cpp	B	inferred .cpp basename from map object; extension not recorded	313	16	1	15	8	7	0	0	0	8
+external_resource.obj	game/external_resource.cpp	B	inferred .cpp basename from map object; extension not recorded	314	48	2	46	28	18	20	0	0	8
+external_string.obj	game/external_string.cpp	A	anonymous-namespace source tag: C:\work\game\external_string.cpp	315	151	101	50	13	37	5	0	0	8
+fire_ring.obj	game/fire_ring.cpp	B	inferred .cpp basename from map object; extension not recorded	316	67	1	66	38	28	12	0	0	26
+fireball.obj	game/fireball.cpp	A	anonymous-namespace source tag: C:\work\game\fireball.cpp	317	422	38	384	238	146	136	7	0	95
+flotsam.obj	game/flotsam.cpp	B	inferred .cpp basename from map object; extension not recorded	318	38	1	37	25	12	12	2	0	11
+font.obj	game/font.cpp	B	inferred .cpp basename from map object; extension not recorded	319	64	2	62	37	25	18	0	0	19
+footprint.obj	game/footprint.cpp	B	inferred .cpp basename from map object; extension not recorded	320	6	0	6	3	3	0	0	0	3
+foreign_creature_array_window_controls.obj	game/foreign_creature_array_window_controls.cpp	A	anonymous-namespace source tag: C:\work\game\foreign_creature_array_window_controls.cpp	321	136	1	135	50	85	26	2	0	22
+format_string.obj	game/format_string.cpp	B	inferred .cpp basename from map object; extension not recorded	322	5	1	4	4	0	0	0	0	4
+game_application.obj	game/game_application.cpp	B	inferred .cpp basename from map object; extension not recorded	323	35	3	32	23	9	6	0	0	17
+game_time.obj	game/game_time.cpp	B	inferred .cpp basename from map object; extension not recorded	324	3	0	3	1	2	0	0	0	1
+game_window.obj	game/game_window.cpp	B	inferred .cpp basename from map object; extension not recorded	325	221	56	165	87	78	4	0	0	83
+garrison_button.obj	game/garrison_button.cpp	B	inferred .cpp basename from map object; extension not recorded	326	31	1	30	1	29	0	0	0	1
+gateway.obj	game/gateway.cpp	A	anonymous-namespace source tag: C:\work\game\gateway.cpp	327	52	3	49	28	21	12	3	0	13
+gateway_base.obj	game/gateway_base.cpp	A	anonymous-namespace source tag: C:\work\game\gateway_base.cpp	328	34	1	33	17	16	6	1	0	10
+get_artifact_damage_modifier.obj	game/get_artifact_damage_modifier.cpp	A	anonymous-namespace source tag: C:\work\game\get_artifact_damage_modifier.cpp	329	247	12	235	154	81	96	0	0	58
+global_event.obj	game/global_event.cpp	A	anonymous-namespace source tag: C:\work\game\global_event.cpp	330	31	11	20	10	10	0	0	0	10
+help_balloon.obj	game/help_balloon.cpp	B	inferred .cpp basename from map object; extension not recorded	331	20	1	19	14	5	8	0	0	6
+hero.obj	game/hero.cpp	A	anonymous-namespace source tag: C:\work\game\hero.cpp	332	496	190	306	170	136	6	1	3	160
+hero_class_properties.obj	game/hero_class_properties.cpp	A	anonymous-namespace source tag: C:\work\game\hero_class_properties.cpp	333	87	48	39	24	15	0	0	0	24
+hero_events.obj	game/hero_events.cpp	A	anonymous-namespace source tag: C:\work\game\hero_events.cpp	334	9	1	8	5	3	0	0	0	5
+hero_keyword_replacer.obj	game/hero_keyword_replacer.cpp	B	inferred .cpp basename from map object; extension not recorded	335	32	2	30	25	5	0	0	0	25
+hero_portrait.obj	game/hero_portrait.cpp	A	anonymous-namespace source tag: C:\work\game\hero_portrait.cpp	336	24	1	23	15	8	0	0	0	15
+heroes4.obj	game/heroes4.cpp	A	anonymous-namespace source tag: C:\work\game\heroes4.cpp	337	189	8	181	112	69	44	7	1	60
+high_scores.obj	game/high_scores.cpp	A	anonymous-namespace source tag: C:\work\game\high_scores.cpp	338	235	2	233	162	71	12	0	0	150
+hire_hero_dialog.obj	game/hire_hero_dialog.cpp	B	inferred .cpp basename from map object; extension not recorded	339	202	6	196	116	80	60	6	0	50
+hue_pixel.obj	game/hue_pixel.cpp	B	inferred .cpp basename from map object; extension not recorded	340	7	0	7	6	1	0	0	0	6
+idle_processor.obj	game/idle_processor.cpp	A	anonymous-namespace source tag: C:\work\game\idle_processor.cpp	341	83	36	47	29	18	16	0	0	13
+image_sequence.obj	game/image_sequence.cpp	A	anonymous-namespace source tag: C:\work\game\image_sequence.cpp	342	78	41	37	12	25	0	0	0	12
+interface_help.obj	game/interface_help.cpp	A	anonymous-namespace source tag: C:\work\game\interface_help.cpp	343	187	134	53	27	26	12	0	0	15
+isometric_map.obj	game/isometric_map.cpp	B	inferred .cpp basename from map object; extension not recorded	344	50	28	22	10	12	0	0	0	10
+keyword_replacer.obj	game/keyword_replacer.cpp	B	inferred .cpp basename from map object; extension not recorded	345	40	8	32	27	5	0	1	0	26
+kingdom_overview_window.obj	game/kingdom_overview_window.cpp	A	anonymous-namespace source tag: C:\work\game\kingdom_overview_window.cpp	346	405	42	363	222	141	99	15	0	108
+library.obj	game/library.cpp	B	inferred .cpp basename from map object; extension not recorded	347	70	1	69	56	13	14	2	0	40
+lighthouse.obj	game/lighthouse.cpp	A	anonymous-namespace source tag: C:\work\game\lighthouse.cpp	348	48	1	47	27	20	12	3	0	12
+link_type.obj	game/link_type.cpp	B	inferred .cpp basename from map object; extension not recorded	349	6	1	5	2	3	0	0	0	2
+linkage_data.obj	game/linkage_data.cpp	B	inferred .cpp basename from map object; extension not recorded	350	14	1	13	8	5	0	0	0	8
+luck_icon_window.obj	game/luck_icon_window.cpp	B	inferred .cpp basename from map object; extension not recorded	351	25	1	24	20	4	4	0	0	16
+luck_object.obj	game/luck_object.cpp	A	anonymous-namespace source tag: C:\work\game\luck_object.cpp	352	164	1	163	101	62	48	8	0	45
+mage_guild_window.obj	game/mage_guild_window.cpp	A	anonymous-namespace source tag: C:\work\game\mage_guild_window.cpp	353	299	45	254	158	96	63	9	1	85
+magic_mirror.obj	game/magic_mirror.cpp	B	inferred .cpp basename from map object; extension not recorded	354	44	1	43	30	13	12	2	0	16
+magic_university.obj	game/magic_university.cpp	A	anonymous-namespace source tag: C:\work\game\magic_university.cpp	355	128	8	120	86	34	24	6	0	56
+main_menu.obj	game/main_menu.cpp	A	anonymous-namespace source tag: C:\work\game\main_menu.cpp	356	348	39	309	175	134	30	2	0	143
+mana_leech.obj	game/mana_leech.cpp	B	inferred .cpp basename from map object; extension not recorded	357	275	1	274	122	152	66	6	0	50
+mana_source.obj	game/mana_source.cpp	B	inferred .cpp basename from map object; extension not recorded	358	48	1	47	30	17	12	3	0	15
+map_header.obj	game/map_header.cpp	B	inferred .cpp basename from map object; extension not recorded	359	15	3	12	10	2	0	2	0	8
+map_renderer.obj	game/map_renderer.cpp	A	anonymous-namespace source tag: C:\work\game\map_renderer.cpp	360	653	215	438	195	243	65	1	0	129
+martyr.obj	game/martyr.cpp	B	inferred .cpp basename from map object; extension not recorded	361	80	1	79	55	24	18	1	0	36
+mass_spell.obj	game/mass_spell.cpp	A	anonymous-namespace source tag: C:\work\game\mass_spell.cpp	362	341	24	317	207	110	136	2	1	68
+material_display.obj	game/material_display.cpp	B	inferred .cpp basename from map object; extension not recorded	363	6	1	5	5	0	0	0	0	5
+material_icons.obj	game/material_icons.cpp	A	anonymous-namespace source tag: C:\work\game\material_icons.cpp	364	13	1	12	7	5	0	0	1	6
+material_names.obj	game/material_names.cpp	B	inferred .cpp basename from map object; extension not recorded	365	9	1	8	5	3	0	0	0	5
+material_pile.obj	game/material_pile.cpp	A	anonymous-namespace source tag: C:\work\game\material_pile.cpp	366	89	1	88	51	37	24	4	0	23
+material_values.obj	game/material_values.cpp	B	inferred .cpp basename from map object; extension not recorded	367	6	0	6	3	3	0	0	0	3
+memory_buffer.obj	game/memory_buffer.cpp	B	inferred .cpp basename from map object; extension not recorded	368	85	38	47	43	4	13	1	0	29
+memory_manager.obj	game/memory_manager.cpp	B	inferred .cpp basename from map object; extension not recorded	369	5	0	5	2	3	0	0	0	2
+memory_window.obj	game/memory_window.cpp	A	anonymous-namespace source tag: C:\work\game\memory_window.cpp	370	30	1	29	19	10	7	1	1	10
+metatile_map.obj	game/metatile_map.cpp	A	anonymous-namespace source tag: C:\work\game\metatile_map.cpp	371	167	91	76	22	54	4	0	0	18
+metatile_texture.obj	game/metatile_texture.cpp	B	inferred .cpp basename from map object; extension not recorded	372	26	5	21	8	13	0	0	0	8
+metatile_texture_cache.obj	game/metatile_texture_cache.cpp	A	anonymous-namespace source tag: C:\work\game\metatile_texture_cache.cpp	373	215	24	191	73	118	36	2	0	35
+micro_map_window.obj	game/micro_map_window.cpp	B	inferred .cpp basename from map object; extension not recorded	374	42	1	41	27	14	14	1	0	12
+mine.obj	game/mine.cpp	A	anonymous-namespace source tag: C:\work\game\mine.cpp	375	147	1	146	103	43	24	7	0	72
+mini_map_renderer.obj	game/mini_map_renderer.cpp	A	anonymous-namespace source tag: C:\work\game\mini_map_renderer.cpp	376	297	115	182	80	102	32	0	0	48
+mini_map_window.obj	game/mini_map_window.cpp	B	inferred .cpp basename from map object; extension not recorded	377	33	1	32	18	14	6	1	0	11
+missile_type.obj	game/missile_type.cpp	B	inferred .cpp basename from map object; extension not recorded	378	8	1	7	3	4	0	0	0	3
+morale_icon_window.obj	game/morale_icon_window.cpp	B	inferred .cpp basename from map object; extension not recorded	379	48	1	47	38	9	12	0	2	24
+mouse_window.obj	game/mouse_window.cpp	B	inferred .cpp basename from map object; extension not recorded	380	11	0	11	8	3	4	0	0	4
+move_missile.obj	game/move_missile.cpp	B	inferred .cpp basename from map object; extension not recorded	381	33	1	32	19	13	6	2	0	11
+mp3_stream.obj	game/mp3_stream.cpp	A	anonymous-namespace source tag: C:\work\game\mp3_stream.cpp	382	57	0	57	26	31	18	0	0	8
+music.obj	game/music.cpp	A	anonymous-namespace source tag: C:\work\game\music.cpp	383	48	22	26	14	12	0	0	0	14
+network_event.obj	game/network_event.cpp	B	inferred .cpp basename from map object; extension not recorded	384	2	0	2	2	0	0	0	0	2
+network_session.obj	game/network_session.cpp	B	inferred .cpp basename from map object; extension not recorded	385	78	30	48	34	14	12	0	0	22
+new_game_details.obj	game/new_game_details.cpp	B	inferred .cpp basename from map object; extension not recorded	386	116	1	115	72	43	27	2	0	43
+new_map_dialog.obj	game/new_map_dialog.cpp	A	anonymous-namespace source tag: C:\work\game\new_map_dialog.cpp	387	461	129	332	191	141	75	9	4	103
+new_map_options_dialog.obj	game/new_map_options_dialog.cpp	A	anonymous-namespace source tag: C:\work\game\new_map_options_dialog.cpp	388	278	22	256	175	81	39	5	4	127
+null_grail_data_source.obj	game/null_grail_data_source.cpp	B	inferred .cpp basename from map object; extension not recorded	389	13	0	13	7	6	6	0	0	1
+obelisk_data.obj	game/obelisk_data.cpp	B	inferred .cpp basename from map object; extension not recorded	390	24	14	10	7	3	0	0	1	6
+obelisk_marker.obj	game/obelisk_marker.cpp	A	anonymous-namespace source tag: C:\work\game\obelisk_marker.cpp	391	49	2	47	28	19	12	3	0	13
+obelisk_reward.obj	game/obelisk_reward.cpp	A	anonymous-namespace source tag: C:\work\game\obelisk_reward.cpp	392	51	1	50	34	16	18	0	0	16
+obelisk_reward_type.obj	game/obelisk_reward_type.cpp	B	inferred .cpp basename from map object; extension not recorded	393	9	1	8	5	3	0	0	1	4
+object_registration.obj	game/object_registration.cpp	A	anonymous-namespace source tag: C:\work\game\object_registration.cpp	394	94	48	46	18	28	6	0	0	12
+obstacle_type.obj	game/obstacle_type.cpp	A	anonymous-namespace source tag: C:\work\game\obstacle_type.cpp	395	14	1	13	6	7	0	0	1	5
+open_gate_animation.obj	game/open_gate_animation.cpp	B	inferred .cpp basename from map object; extension not recorded	396	34	3	31	19	12	6	2	0	11
+options.obj	game/options.cpp	B	inferred .cpp basename from map object; extension not recorded	397	35	1	34	34	0	0	0	0	34
+options_dialog.obj	game/options_dialog.cpp	B	inferred .cpp basename from map object; extension not recorded	398	127	1	126	89	37	24	3	0	62
+os_file.obj	game/os_file.cpp	B	inferred .cpp basename from map object; extension not recorded	399	29	1	28	24	4	12	0	0	12
+overlay_adv_object_image.obj	game/overlay_adv_object_image.cpp	B	inferred .cpp basename from map object; extension not recorded	400	439	139	300	172	128	105	4	0	63
+override_input_handler.obj	game/override_input_handler.cpp	B	inferred .cpp basename from map object; extension not recorded	401	141	3	138	75	63	45	3	0	27
+ownable_event.obj	game/ownable_event.cpp	A	anonymous-namespace source tag: C:\work\game\ownable_event.cpp	402	25	2	23	12	11	0	0	1	11
+ownable_garrisonable_adv_object.obj	game/ownable_garrisonable_adv_object.cpp	A	anonymous-namespace source tag: C:\work\game\ownable_garrisonable_adv_object.cpp	403	69	1	68	40	28	4	3	0	33
+owned_adv_object.obj	game/owned_adv_object.cpp	B	inferred .cpp basename from map object; extension not recorded	404	19	1	18	11	7	1	0	0	10
+owned_creature_array.obj	game/owned_creature_array.cpp	B	inferred .cpp basename from map object; extension not recorded	405	26	1	25	9	16	1	2	0	6
+owned_scriptable_adv_object.obj	game/owned_scriptable_adv_object.cpp	B	inferred .cpp basename from map object; extension not recorded	406	18	1	17	10	7	0	0	0	10
+paint_surface.obj	game/paint_surface.cpp	B	inferred .cpp basename from map object; extension not recorded	407	28	1	27	18	9	10	0	0	8
+palette_creator.obj	game/palette_creator.cpp	B	inferred .cpp basename from map object; extension not recorded	408	66	57	9	0	9	0	0	0	0
+panic.obj	game/panic.cpp	A	anonymous-namespace source tag: C:\work\game\panic.cpp	409	36	6	30	18	12	6	1	0	11
+path_arrow.obj	game/path_arrow.cpp	B	inferred .cpp basename from map object; extension not recorded	410	29	1	28	15	13	6	2	0	7
+pathfinding_subject.obj	game/pathfinding_subject.cpp	B	inferred .cpp basename from map object; extension not recorded	411	38	1	37	22	15	7	1	0	14
+pixel_format.obj	game/pixel_format.cpp	B	inferred .cpp basename from map object; extension not recorded	412	4	0	4	1	3	0	0	0	1
+placed_event_trigger.obj	game/placed_event_trigger.cpp	A	anonymous-namespace source tag: C:\work\game\placed_event_trigger.cpp	413	116	1	115	62	53	30	8	0	24
+play_combat_animation.obj	game/play_combat_animation.cpp	B	inferred .cpp basename from map object; extension not recorded	414	31	1	30	20	10	5	2	0	13
+play_combat_flight.obj	game/play_combat_flight.cpp	B	inferred .cpp basename from map object; extension not recorded	415	60	22	38	24	14	6	2	0	16
+play_combat_walk.obj	game/play_combat_walk.cpp	B	inferred .cpp basename from map object; extension not recorded	416	35	1	34	23	11	6	2	0	15
+player.obj	game/player.cpp	A	anonymous-namespace source tag: C:\work\game\player.cpp	417	365	137	228	133	95	36	3	0	94
+player_color.obj	game/player_color.cpp	B	inferred .cpp basename from map object; extension not recorded	418	5	1	4	2	2	0	0	0	2
+popup_window.obj	game/popup_window.cpp	B	inferred .cpp basename from map object; extension not recorded	419	27	0	27	16	11	4	0	0	12
+profile.obj	game/profile.cpp	B	inferred .cpp basename from map object; extension not recorded	420	52	33	19	7	12	0	0	0	7
+progress_bar.obj	game/progress_bar.cpp	B	inferred .cpp basename from map object; extension not recorded	421	30	1	29	22	7	13	1	0	8
+progress_bar_dialog.obj	game/progress_bar_dialog.cpp	B	inferred .cpp basename from map object; extension not recorded	422	13	1	12	10	2	6	0	0	4
+progress_handler.obj	game/progress_handler.cpp	B	inferred .cpp basename from map object; extension not recorded	423	2	0	2	1	1	0	0	0	1
+puzzle_window.obj	game/puzzle_window.cpp	A	anonymous-namespace source tag: C:\work\game\puzzle_window.cpp	424	161	26	135	81	54	39	3	1	38
+quest_log_window.obj	game/quest_log_window.cpp	A	anonymous-namespace source tag: C:\work\game\quest_log_window.cpp	425	126	45	81	52	29	24	4	0	24
+quest_site.obj	game/quest_site.cpp	A	anonymous-namespace source tag: C:\work\game\quest_site.cpp	426	807	7	800	420	380	230	13	0	177
+quicksand.obj	game/quicksand.cpp	A	anonymous-namespace source tag: C:\work\game\quicksand.cpp	427	111	4	107	62	45	24	3	0	35
+random.obj	game/random.cpp	B	inferred .cpp basename from map object; extension not recorded	428	3	0	3	2	1	0	0	1	1
+random_monster.obj	game/random_monster.cpp	A	anonymous-namespace source tag: C:\work\game\random_monster.cpp	429	136	1	135	95	40	30	8	0	57
+random_monster_experience.obj	game/random_monster_experience.cpp	B	inferred .cpp basename from map object; extension not recorded	430	5	0	5	3	2	0	0	0	3
+random_names.obj	game/random_names.cpp	A	anonymous-namespace source tag: C:\work\game\random_names.cpp	431	17	1	16	11	5	0	1	0	10
+random_town.obj	game/random_town.cpp	A	anonymous-namespace source tag: C:\work\game\random_town.cpp	432	85	1	84	66	18	12	6	0	48
+recruit_dialog.obj	game/recruit_dialog.cpp	B	inferred .cpp basename from map object; extension not recorded	433	89	4	85	56	29	16	3	0	37
+replay_mover.obj	game/replay_mover.cpp	B	inferred .cpp basename from map object; extension not recorded	434	25	1	24	14	10	6	1	0	7
+report_combat_results.obj	game/report_combat_results.cpp	B	inferred .cpp basename from map object; extension not recorded	435	57	1	56	32	24	0	0	0	32
+resource_dir.obj	game/resource_dir.cpp	B	inferred .cpp basename from map object; extension not recorded	436	119	68	51	16	35	0	0	0	16
+resource_file.obj	game/resource_file.cpp	B	inferred .cpp basename from map object; extension not recorded	437	16	1	15	12	3	6	0	0	6
+resource_file_dir.obj	game/resource_file_dir.cpp	B	inferred .cpp basename from map object; extension not recorded	438	52	32	20	11	9	0	0	0	11
+respawn_point.obj	game/respawn_point.cpp	B	inferred .cpp basename from map object; extension not recorded	439	20	2	18	11	7	0	0	0	11
+resurrect_heroes.obj	game/resurrect_heroes.cpp	B	inferred .cpp basename from map object; extension not recorded	440	3	1	2	2	0	0	0	0	2
+resurrection_spell.obj	game/resurrection_spell.cpp	A	anonymous-namespace source tag: C:\work\game\resurrection_spell.cpp	441	333	2	331	228	103	105	4	0	119
+run_combat.obj	game/run_combat.cpp	B	inferred .cpp basename from map object; extension not recorded	442	25	1	24	10	14	0	0	0	10
+sanctuary.obj	game/sanctuary.cpp	A	anonymous-namespace source tag: C:\work\game\sanctuary.cpp	443	150	1	149	91	58	35	9	0	47
+saved_combat.obj	game/saved_combat.cpp	B	inferred .cpp basename from map object; extension not recorded	444	57	1	56	38	18	8	0	0	30
+scale_bitmap.obj	game/scale_bitmap.cpp	A	anonymous-namespace source tag: C:\work\game\scale_bitmap.cpp	445	34	26	8	5	3	0	0	0	5
+scaled_adventure_map_drawer.obj	game/scaled_adventure_map_drawer.cpp	A	anonymous-namespace source tag: C:\work\game\scaled_adventure_map_drawer.cpp	446	40	1	39	22	17	6	0	0	16
+scaled_animation_cache.obj	game/scaled_animation_cache.cpp	B	inferred .cpp basename from map object; extension not recorded	447	32	2	30	18	12	12	1	0	5
+scenario_cut_scene_id.obj	game/scenario_cut_scene_id.cpp	A	anonymous-namespace source tag: C:\work\game\scenario_cut_scene_id.cpp	448	14	1	13	9	4	0	0	0	9
+scenario_cut_scene_info.obj	game/scenario_cut_scene_info.cpp	A	anonymous-namespace source tag: C:\work\game\scenario_cut_scene_info.cpp	449	13	1	12	5	7	0	0	0	5
+scenario_info_window.obj	game/scenario_info_window.cpp	A	anonymous-namespace source tag: C:\work\game\scenario_info_window.cpp	450	87	1	86	59	27	12	2	3	42
+school_of_magic.obj	game/school_of_magic.cpp	A	anonymous-namespace source tag: C:\work\game\school_of_magic.cpp	451	92	1	91	55	36	24	6	0	25
+score_computer.obj	game/score_computer.cpp	A	anonymous-namespace source tag: C:\work\game\score_computer.cpp	452	44	16	28	12	16	0	0	0	12
+script_action_type.obj	game/script_action_type.cpp	A	anonymous-namespace source tag: C:\work\game\script_action_type.cpp	453	91	74	17	6	11	0	0	0	6
+script_adjust_cur_spell_points.obj	game/script_adjust_cur_spell_points.cpp	B	inferred .cpp basename from map object; extension not recorded	454	153	1	152	56	96	46	0	0	10
+script_adjust_hero_attribute.obj	game/script_adjust_hero_attribute.cpp	B	inferred .cpp basename from map object; extension not recorded	455	400	1	399	171	228	130	0	0	41
+script_adjust_luck_or_morale.obj	game/script_adjust_luck_or_morale.cpp	B	inferred .cpp basename from map object; extension not recorded	456	257	1	256	95	161	80	0	0	15
+script_adjust_population.obj	game/script_adjust_population.cpp	B	inferred .cpp basename from map object; extension not recorded	457	117	1	116	46	70	34	0	0	12
+script_arithmetic_expression.obj	game/script_arithmetic_expression.cpp	B	inferred .cpp basename from map object; extension not recorded	458	361	1	360	144	216	112	0	0	32
+script_army_boolean_expression.obj	game/script_army_boolean_expression.cpp	B	inferred .cpp basename from map object; extension not recorded	459	158	1	157	78	79	46	0	0	32
+script_artifact_action.obj	game/script_artifact_action.cpp	B	inferred .cpp basename from map object; extension not recorded	460	166	30	136	57	79	40	0	0	17
+script_branch_action.obj	game/script_branch_action.cpp	B	inferred .cpp basename from map object; extension not recorded	461	5	1	4	4	0	0	0	0	4
+script_build_building.obj	game/script_build_building.cpp	B	inferred .cpp basename from map object; extension not recorded	462	60	1	59	23	36	16	0	0	7
+script_change_owner.obj	game/script_change_owner.cpp	B	inferred .cpp basename from map object; extension not recorded	463	66	1	65	27	38	16	0	0	11
+script_combat.obj	game/script_combat.cpp	B	inferred .cpp basename from map object; extension not recorded	464	107	1	106	52	54	33	0	0	19
+script_conditional_action.obj	game/script_conditional_action.cpp	B	inferred .cpp basename from map object; extension not recorded	465	66	1	65	28	37	16	0	0	12
+script_creature_action.obj	game/script_creature_action.cpp	B	inferred .cpp basename from map object; extension not recorded	466	148	1	147	55	92	46	0	0	9
+script_creatures_in_army.obj	game/script_creatures_in_army.cpp	B	inferred .cpp basename from map object; extension not recorded	467	191	1	190	82	108	56	0	0	26
+script_delete_adv_objects.obj	game/script_delete_adv_objects.cpp	B	inferred .cpp basename from map object; extension not recorded	468	64	1	63	27	36	16	0	0	11
+script_display_text.obj	game/script_display_text.cpp	B	inferred .cpp basename from map object; extension not recorded	469	71	1	70	34	36	16	0	0	18
+script_event.obj	game/script_event.cpp	B	inferred .cpp basename from map object; extension not recorded	470	16	1	15	11	4	4	0	0	7
+script_expression_type.obj	game/script_expression_type.cpp	A	anonymous-namespace source tag: C:\work\game\script_expression_type.cpp	471	153	133	20	11	9	0	0	0	11
+script_give_skill.obj	game/script_give_skill.cpp	B	inferred .cpp basename from map object; extension not recorded	472	251	4	247	101	146	70	0	0	31
+script_give_spell.obj	game/script_give_spell.cpp	B	inferred .cpp basename from map object; extension not recorded	473	55	1	54	24	30	16	0	0	8
+script_has_artifact.obj	game/script_has_artifact.cpp	B	inferred .cpp basename from map object; extension not recorded	474	67	1	66	31	35	16	0	0	15
+script_hero_numeric_expression.obj	game/script_hero_numeric_expression.cpp	B	inferred .cpp basename from map object; extension not recorded	475	147	1	146	60	86	42	0	0	18
+script_increase_cur_movement.obj	game/script_increase_cur_movement.cpp	B	inferred .cpp basename from map object; extension not recorded	476	83	1	82	27	55	20	0	0	7
+script_increase_experience.obj	game/script_increase_experience.cpp	B	inferred .cpp basename from map object; extension not recorded	477	139	1	138	50	88	36	0	0	14
+script_logical_expression.obj	game/script_logical_expression.cpp	B	inferred .cpp basename from map object; extension not recorded	478	209	1	208	93	115	64	0	0	29
+script_material_action.obj	game/script_material_action.cpp	B	inferred .cpp basename from map object; extension not recorded	479	138	1	137	48	89	40	0	0	8
+script_material_quantity.obj	game/script_material_quantity.cpp	B	inferred .cpp basename from map object; extension not recorded	480	85	1	84	34	50	24	0	0	10
+script_numeric_literal.obj	game/script_numeric_literal.cpp	B	inferred .cpp basename from map object; extension not recorded	481	54	1	53	23	30	16	0	0	7
+script_player_action.obj	game/script_player_action.cpp	B	inferred .cpp basename from map object; extension not recorded	482	163	1	162	84	78	62	0	0	22
+script_player_boolean_expression.obj	game/script_player_boolean_expression.cpp	B	inferred .cpp basename from map object; extension not recorded	483	400	1	399	171	228	126	0	0	45
+script_player_number.obj	game/script_player_number.cpp	B	inferred .cpp basename from map object; extension not recorded	484	50	1	49	21	28	16	0	0	5
+script_question.obj	game/script_question.cpp	B	inferred .cpp basename from map object; extension not recorded	485	64	1	63	32	31	16	0	0	16
+script_random_number.obj	game/script_random_number.cpp	B	inferred .cpp basename from map object; extension not recorded	486	56	1	55	21	34	16	0	0	5
+script_relational_expression.obj	game/script_relational_expression.cpp	B	inferred .cpp basename from map object; extension not recorded	487	274	1	273	127	146	88	0	0	39
+script_sequence.obj	game/script_sequence.cpp	B	inferred .cpp basename from map object; extension not recorded	488	48	27	21	12	9	0	0	0	12
+script_set_player_message.obj	game/script_set_player_message.cpp	B	inferred .cpp basename from map object; extension not recorded	489	197	1	196	83	113	62	0	0	21
+script_set_variable.obj	game/script_set_variable.cpp	B	inferred .cpp basename from map object; extension not recorded	490	146	1	145	59	86	36	0	0	23
+script_simple_action.obj	game/script_simple_action.cpp	B	inferred .cpp basename from map object; extension not recorded	491	167	1	166	58	108	50	0	0	8
+script_simple_expression.obj	game/script_simple_expression.cpp	B	inferred .cpp basename from map object; extension not recorded	492	22	1	21	7	14	0	0	0	7
+script_specific_hero_boolean_expression.obj	game/script_specific_hero_boolean_expression.cpp	B	inferred .cpp basename from map object; extension not recorded	493	123	1	122	45	77	34	0	0	11
+script_target_type.obj	game/script_target_type.cpp	B	inferred .cpp basename from map object; extension not recorded	494	6	1	5	1	4	0	0	0	1
+script_targeting.obj	game/script_targeting.cpp	B	inferred .cpp basename from map object; extension not recorded	495	21	1	20	12	8	0	0	0	12
+script_trigger_event.obj	game/script_trigger_event.cpp	B	inferred .cpp basename from map object; extension not recorded	496	64	1	63	27	36	16	0	0	11
+script_variable_expression.obj	game/script_variable_expression.cpp	B	inferred .cpp basename from map object; extension not recorded	497	134	1	133	50	83	36	0	0	14
+script_victory.obj	game/script_victory.cpp	B	inferred .cpp basename from map object; extension not recorded	498	205	1	204	86	118	64	0	0	22
+scroll_menu.obj	game/scroll_menu.cpp	A	anonymous-namespace source tag: C:\work\game\scroll_menu.cpp	499	118	23	95	60	35	33	2	0	25
+scrollbar.obj	game/scrollbar.cpp	B	inferred .cpp basename from map object; extension not recorded	500	165	1	164	93	71	50	6	1	36
+scrollbar_bitmaps.obj	game/scrollbar_bitmaps.cpp	B	inferred .cpp basename from map object; extension not recorded	501	12	1	11	8	3	6	0	0	2
+select_skill_from_set.obj	game/select_skill_from_set.cpp	B	inferred .cpp basename from map object; extension not recorded	502	5	3	2	2	0	0	0	0	2
+selection_marker.obj	game/selection_marker.cpp	B	inferred .cpp basename from map object; extension not recorded	503	29	1	28	15	13	6	2	0	7
+seminary_window.obj	game/seminary_window.cpp	B	inferred .cpp basename from map object; extension not recorded	504	114	16	98	63	35	24	4	0	35
+sequence_loader.obj	game/sequence_loader.cpp	B	inferred .cpp basename from map object; extension not recorded	505	39	32	7	4	3	0	0	0	4
+shared_file.obj	game/shared_file.cpp	B	inferred .cpp basename from map object; extension not recorded	506	53	2	51	23	28	12	0	0	11
+shroud_removers.obj	game/shroud_removers.cpp	B	inferred .cpp basename from map object; extension not recorded	507	185	3	182	117	65	48	11	0	58
+signal.obj	game/signal.cpp	B	inferred .cpp basename from map object; extension not recorded	508	9	0	9	4	5	0	0	0	4
+simple_adv_object_image.obj	game/simple_adv_object_image.cpp	B	inferred .cpp basename from map object; extension not recorded	509	12	1	11	8	3	0	0	0	8
+simple_dialog.obj	game/simple_dialog.cpp	B	inferred .cpp basename from map object; extension not recorded	510	9	1	8	8	0	0	0	0	8
+simulated_combat.obj	game/simulated_combat.cpp	B	inferred .cpp basename from map object; extension not recorded	511	162	43	119	64	55	8	2	0	54
+single_use_object.obj	game/single_use_object.cpp	B	inferred .cpp basename from map object; extension not recorded	512	30	1	29	18	11	0	2	0	16
+skeleton_transformer_window.obj	game/skeleton_transformer_window.cpp	A	anonymous-namespace source tag: C:\work\game\skeleton_transformer_window.cpp	513	100	22	78	53	25	18	2	0	33
+skill_button.obj	game/skill_button.cpp	B	inferred .cpp basename from map object; extension not recorded	514	10	1	9	8	1	0	1	0	7
+skill_choice_dialog.obj	game/skill_choice_dialog.cpp	B	inferred .cpp basename from map object; extension not recorded	515	58	1	57	37	20	18	2	0	17
+skill_icon.obj	game/skill_icon.cpp	B	inferred .cpp basename from map object; extension not recorded	516	17	1	16	13	3	6	0	0	7
+skill_properties.obj	game/skill_properties.cpp	A	anonymous-namespace source tag: C:\work\game\skill_properties.cpp	517	117	40	77	39	38	0	1	0	38
+skill_set.obj	game/skill_set.cpp	B	inferred .cpp basename from map object; extension not recorded	518	10	1	9	5	4	0	0	0	5
+sorted_clip_list.obj	game/sorted_clip_list.cpp	A	anonymous-namespace source tag: C:\work\game\sorted_clip_list.cpp	519	111	64	47	28	19	0	0	0	28
+sound.obj	game/sound.cpp	A	anonymous-namespace source tag: C:\work\game\sound.cpp	520	241	88	153	82	71	42	1	0	39
+sound_cache.obj	game/sound_cache.cpp	A	anonymous-namespace source tag: C:\work\game\sound_cache.cpp	521	132	1	131	82	49	49	5	0	28
+sound_configurations.obj	game/sound_configurations.cpp	B	inferred .cpp basename from map object; extension not recorded	522	8	1	7	4	3	0	0	0	4
+spell_actor_animation.obj	game/spell_actor_animation.cpp	B	inferred .cpp basename from map object; extension not recorded	523	31	1	30	19	11	6	2	0	11
+spell_ai_importance_map.obj	game/spell_ai_importance_map.cpp	B	inferred .cpp basename from map object; extension not recorded	524	19	17	2	2	0	0	0	0	2
+spell_displacement.obj	game/spell_displacement.cpp	B	inferred .cpp basename from map object; extension not recorded	525	167	1	166	100	66	52	4	0	44
+spell_effect_window.obj	game/spell_effect_window.cpp	A	anonymous-namespace source tag: C:\work\game\spell_effect_window.cpp	526	73	22	51	28	23	9	2	0	17
+spell_icon.obj	game/spell_icon.cpp	A	anonymous-namespace source tag: C:\work\game\spell_icon.cpp	527	17	1	16	10	6	0	0	0	10
+spell_icon_window.obj	game/spell_icon_window.cpp	B	inferred .cpp basename from map object; extension not recorded	528	14	1	13	11	2	6	0	0	5
+spell_properties.obj	game/spell_properties.cpp	A	anonymous-namespace source tag: C:\work\game\spell_properties.cpp	529	42	1	41	27	14	0	1	0	26
+spell_set.obj	game/spell_set.cpp	B	inferred .cpp basename from map object; extension not recorded	530	29	21	8	5	3	0	0	0	5
+spell_sparks.obj	game/spell_sparks.cpp	A	anonymous-namespace source tag: C:\work\game\spell_sparks.cpp	531	90	1	89	61	28	24	2	0	35
+spellbook_window.obj	game/spellbook_window.cpp	A	anonymous-namespace source tag: C:\work\game\spellbook_window.cpp	532	363	41	322	195	127	84	6	0	105
+split_creatures_dialog.obj	game/split_creatures_dialog.cpp	B	inferred .cpp basename from map object; extension not recorded	533	33	1	32	21	11	12	1	0	8
+standard_c_file.obj	game/standard_c_file.cpp	B	inferred .cpp basename from map object; extension not recorded	534	19	1	18	16	2	7	0	0	9
+standard_campaign_id.obj	game/standard_campaign_id.cpp	B	inferred .cpp basename from map object; extension not recorded	535	6	1	5	3	2	0	0	0	3
+standard_fonts.obj	game/standard_fonts.cpp	A	anonymous-namespace source tag: C:\work\game\standard_fonts.cpp	536	92	9	83	64	19	0	0	15	49
+stationary_adventure_object.obj	game/stationary_adventure_object.cpp	B	inferred .cpp basename from map object; extension not recorded	537	32	1	31	16	15	0	0	0	16
+stationary_combat_object.obj	game/stationary_combat_object.cpp	B	inferred .cpp basename from map object; extension not recorded	538	67	2	65	32	33	0	0	0	32
+steal_enchantment.obj	game/steal_enchantment.cpp	A	anonymous-namespace source tag: C:\work\game\steal_enchantment.cpp	539	86	2	84	53	31	30	1	0	22
+stoning_animation.obj	game/stoning_animation.cpp	B	inferred .cpp basename from map object; extension not recorded	540	51	1	50	32	18	12	4	0	16
+streambuf_operators.obj	game/streambuf_operators.cpp	B	inferred .cpp basename from map object; extension not recorded	541	5	2	3	1	2	0	0	0	1
+string_insensitive_compare.obj	game/string_insensitive_compare.cpp	A	anonymous-namespace source tag: C:\work\game\string_insensitive_compare.cpp	542	5	1	4	3	1	0	0	0	3
+string_table.obj	game/string_table.cpp	A	anonymous-namespace source tag: C:\work\game\string_table.cpp	543	96	74	22	4	18	0	0	0	4
+string_vector.obj	game/string_vector.cpp	B	inferred .cpp basename from map object; extension not recorded	544	10	1	9	2	7	0	0	0	2
+strip_resource_name.obj	game/strip_resource_name.cpp	B	inferred .cpp basename from map object; extension not recorded	545	14	5	9	5	4	0	0	0	5
+summon_obstacle.obj	game/summon_obstacle.cpp	A	anonymous-namespace source tag: C:\work\game\summon_obstacle.cpp	546	105	1	104	66	38	36	2	0	28
+summoning_spell.obj	game/summoning_spell.cpp	A	anonymous-namespace source tag: C:\work\game\summoning_spell.cpp	547	77	2	75	49	26	24	0	0	25
+surface_description.obj	game/surface_description.cpp	B	inferred .cpp basename from map object; extension not recorded	548	6	0	6	4	2	0	0	0	4
+table.obj	game/table.cpp	B	inferred .cpp basename from map object; extension not recorded	549	10	4	6	3	3	0	0	0	3
+teleport_ability.obj	game/teleport_ability.cpp	B	inferred .cpp basename from map object; extension not recorded	550	31	1	30	18	12	6	2	0	10
+teleport_spell.obj	game/teleport_spell.cpp	B	inferred .cpp basename from map object; extension not recorded	551	75	1	74	46	28	18	1	0	27
+terrain.obj	game/terrain.cpp	A	anonymous-namespace source tag: C:\work\game\terrain.cpp	552	324	1	323	220	103	0	0	0	220
+text_edit_window.obj	game/text_edit_window.cpp	A	anonymous-namespace source tag: C:\work\game\text_edit_window.cpp	553	42	1	41	27	14	12	1	0	14
+text_window.obj	game/text_window.cpp	B	inferred .cpp basename from map object; extension not recorded	554	77	1	76	52	24	22	3	1	26
+thieves_guild_window.obj	game/thieves_guild_window.cpp	A	anonymous-namespace source tag: C:\work\game\thieves_guild_window.cpp	555	68	2	66	43	23	12	2	0	29
+thread.obj	game/thread.cpp	B	inferred .cpp basename from map object; extension not recorded	556	18	0	18	15	3	4	0	0	11
+threat_footprint.obj	game/threat_footprint.cpp	A	anonymous-namespace source tag: C:\work\game\threat_footprint.cpp	557	100	91	9	3	6	0	0	0	3
+timed_event.obj	game/timed_event.cpp	A	anonymous-namespace source tag: C:\work\game\timed_event.cpp	558	9	1	8	5	3	0	0	0	5
+timed_window.obj	game/timed_window.cpp	B	inferred .cpp basename from map object; extension not recorded	559	16	0	16	12	4	6	1	0	5
+toggle_button.obj	game/toggle_button.cpp	B	inferred .cpp basename from map object; extension not recorded	560	18	1	17	14	3	6	0	0	8
+town.obj	game/town.cpp	A	anonymous-namespace source tag: C:\work\game\town.cpp	561	680	182	498	343	155	59	10	1	273
+town_drawing.obj	game/town_drawing.cpp	A	anonymous-namespace source tag: C:\work\game\town_drawing.cpp	562	9	2	7	4	3	0	0	0	4
+town_list_window.obj	game/town_list_window.cpp	A	anonymous-namespace source tag: C:\work\game\town_list_window.cpp	563	155	47	108	71	37	18	4	2	47
+town_prison_window.obj	game/town_prison_window.cpp	A	anonymous-namespace source tag: C:\work\game\town_prison_window.cpp	564	105	19	86	58	28	24	5	0	29
+town_properties.obj	game/town_properties.cpp	B	inferred .cpp basename from map object; extension not recorded	565	9	1	8	4	4	0	0	0	4
+town_school_skills.obj	game/town_school_skills.cpp	B	inferred .cpp basename from map object; extension not recorded	566	6	1	5	2	3	0	0	0	2
+town_type.obj	game/town_type.cpp	B	inferred .cpp basename from map object; extension not recorded	567	4	1	3	2	1	0	0	0	2
+town_type_set.obj	game/town_type_set.cpp	B	inferred .cpp basename from map object; extension not recorded	568	5	1	4	2	2	0	0	0	2
+town_window.obj	game/town_window.cpp	A	anonymous-namespace source tag: C:\work\game\town_window.cpp	569	1007	309	698	448	250	105	16	4	323
+transition_calculator.obj	game/transition_calculator.cpp	A	anonymous-namespace source tag: C:\work\game\transition_calculator.cpp	570	227	84	143	43	100	0	0	0	43
+transition_coordinates.obj	game/transition_coordinates.cpp	B	inferred .cpp basename from map object; extension not recorded	571	6	0	6	2	4	0	0	0	2
+transition_mask.obj	game/transition_mask.cpp	B	inferred .cpp basename from map object; extension not recorded	572	78	49	29	12	17	0	0	0	12
+transitions.obj	game/transitions.cpp	A	anonymous-namespace source tag: C:\work\game\transitions.cpp	573	109	4	105	60	45	30	2	0	28
+translation_animation.obj	game/translation_animation.cpp	B	inferred .cpp basename from map object; extension not recorded	574	31	1	30	19	11	6	2	0	11
+treasure_chest_window.obj	game/treasure_chest_window.cpp	B	inferred .cpp basename from map object; extension not recorded	575	42	1	41	28	13	12	2	0	14
+triggerable_event.obj	game/triggerable_event.cpp	A	anonymous-namespace source tag: C:\work\game\triggerable_event.cpp	576	6	1	5	4	1	0	0	0	4
+underlay_adv_object_image.obj	game/underlay_adv_object_image.cpp	B	inferred .cpp basename from map object; extension not recorded	577	121	1	120	46	74	34	0	0	12
+war_institute.obj	game/war_institute.cpp	A	anonymous-namespace source tag: C:\work\game\war_institute.cpp	578	64	4	60	36	24	11	3	0	22
+wave_stream.obj	game/wave_stream.cpp	B	inferred .cpp basename from map object; extension not recorded	579	13	0	13	9	4	6	0	0	3
+weekly_generator.obj	game/weekly_generator.cpp	A	anonymous-namespace source tag: C:\work\game\weekly_generator.cpp	580	99	1	98	55	43	24	6	0	25
+window_background.obj	game/window_background.cpp	B	inferred .cpp basename from map object; extension not recorded	581	41	1	40	19	21	10	1	0	8
+window_clip_list.obj	game/window_clip_list.cpp	B	inferred .cpp basename from map object; extension not recorded	582	38	14	24	16	8	0	0	0	16
+window_paint_surface.obj	game/window_paint_surface.cpp	B	inferred .cpp basename from map object; extension not recorded	583	25	1	24	19	5	12	0	0	7
+windows_game.obj	game/windows_game.cpp	A	anonymous-namespace source tag: C:\work\game\windows_game.cpp	584	165	5	160	101	59	4	0	0	97
+<common>			object owner is not a source filename		349	3	346	0	346	0	0	0	0
+circle_calculator.obj	game/circle_calculator.cpp	B	inferred .cpp basename from map object; extension not recorded		3	0	3	0	3	0	0	0	0

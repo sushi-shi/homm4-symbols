@@ -1,7 +1,7 @@
 // carryover_data.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\carryover_data.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 28/50 (A:10 B:11 C:7); unaccounted 22; skipped std 63.
+// Accounted 28/50 (A:6 B:0 C:0); unaccounted 22; skipped std 63.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -12,14 +12,14 @@
 
 namespace {
 
-// confidence:C; align-order; retn,stable; map:19022
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:19022
 VA_CHT_1(0x00595d10, 0x1c)
 int get_power(t_hero_carryover_data const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:19023
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:19023
 VA_CHT_1(0x00595d30, 0x23a)
 bool read_hero_pool(
     std::basic_streambuf<char, std::char_traits<char>>& arg_0,
@@ -30,7 +30,7 @@ bool read_hero_pool(
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:19024
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:19024
 VA_CHT_1(0x00595f70, 0x135)
 bool write_hero_pool(
     std::basic_streambuf<char, std::char_traits<char>>& arg_0,
@@ -40,7 +40,7 @@ bool write_hero_pool(
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:19025
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:19025
 VA_CHT_1(0x005960b0, 0x170)
 void add_hero_to_pool(
     std::vector<t_counted_ptr<t_hero_carryover_data>, std::allocator<t_counted_ptr<t_hero_carryover_data>>>& arg_0,
@@ -50,7 +50,7 @@ void add_hero_to_pool(
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:19026
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:19026
 VA_CHT_1(0x00596220, 0x2e5)
 t_counted_ptr<t_hero_carryover_data> retrieve_most_powerful_hero_from_pool(
     std::vector<t_counted_ptr<t_hero_carryover_data>, std::allocator<t_counted_ptr<t_hero_carryover_data>>>& arg_0
@@ -59,7 +59,7 @@ t_counted_ptr<t_hero_carryover_data> retrieve_most_powerful_hero_from_pool(
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:19027
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:19027
 VA_CHT_1(0x00596530, 0x117)
 t_counted_ptr<t_hero_carryover_data> retrieve_named_hero_from_pool(
     std::string const& arg_0,
@@ -69,7 +69,7 @@ t_counted_ptr<t_hero_carryover_data> retrieve_named_hero_from_pool(
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:19028
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:19028
 VA_CHT_1(0x00596650, 0x108)
 std::vector<t_counted_ptr<t_hero_carryover_data>, std::allocator<t_counted_ptr<t_hero_carryover_data>>> copy(
     std::vector<t_counted_ptr<t_hero_carryover_data>, std::allocator<t_counted_ptr<t_hero_carryover_data>>> const& arg_0
@@ -80,63 +80,63 @@ std::vector<t_counted_ptr<t_hero_carryover_data>, std::allocator<t_counted_ptr<t
 
 } // anonymous namespace
 
-// confidence:A; align-order; retn,stable,vptr; map:19029
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:19029
 VA_CHT_1(0x00596760, 0x120)
 t_hero_carryover_data::t_hero_carryover_data()
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:19030
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:19030
 VA_CHT_1(0x00596880, 0x5ed)
 bool t_hero_carryover_data::read(std::basic_streambuf<char, std::char_traits<char>>& arg_0, int arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:19031
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:19031
 VA_CHT_1(0x00596e70, 0x3ee)
 bool t_hero_carryover_data::write(std::basic_streambuf<char, std::char_traits<char>>& arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vptr; map:19032
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:19032
 VA_CHT_1(0x00597260, 0x25e)
 t_carryover_data::t_carryover_data(t_carryover_data const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:19033
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:19033
 VA_CHT_1(0x005974c0, 0xd7)
 void t_carryover_data::add(t_counted_ptr<t_hero_carryover_data> arg_0, t_player_color arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:19034
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:19034
 VA_CHT_1(0x005975a0, 0xd1)
 void t_carryover_data::add_for_human(t_counted_ptr<t_hero_carryover_data> arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:19035
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:19035
 VA_CHT_1(0x00597680, 0x1d4)
 void t_carryover_data::add(t_artifact const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:19036
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:19036
 VA_CHT_1(0x00597860, 0x424)
 bool t_carryover_data::read(std::basic_streambuf<char, std::char_traits<char>>& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:19037
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:19037
 VA_CHT_1(0x00597c90, 0x24d)
 std::vector<t_artifact, std::allocator<t_artifact>> t_carryover_data::retrieve_artifacts(
     t_artifact_set const& arg_0
@@ -145,35 +145,35 @@ std::vector<t_artifact, std::allocator<t_artifact>> t_carryover_data::retrieve_a
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:19038
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:19038
 VA_CHT_1(0x00597ee0, 0x2a)
 t_counted_ptr<t_hero_carryover_data> t_carryover_data::retrieve_most_powerful_hero(t_player_color arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:19039
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:19039
 VA_CHT_1(0x00597f10, 0x22)
 t_counted_ptr<t_hero_carryover_data> t_carryover_data::retrieve_most_powerful_hero_for_human()
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:19040
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:19040
 VA_CHT_1(0x00597f40, 0x171)
 t_counted_ptr<t_hero_carryover_data> t_carryover_data::retrieve_named_hero(std::string const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:19041
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:19041
 VA_CHT_1(0x005980c0, 0x2b9)
 bool t_carryover_data::write(std::basic_streambuf<char, std::char_traits<char>>& arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:68486; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:68486; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x005985a0, 0x20, STATIC_INIT_DISPATCH, carryover_data)
 
 // name:A; map symbol; map:19042
@@ -204,7 +204,7 @@ t_hero_carryover_data::t_hero_carryover_data(t_hero_carryover_data const& arg_0)
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:19046
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:19046
 VA_CHT_1_COMPGEN(0x00596510, 0x1e, SCALAR_DELETING_DTOR, t_hero_carryover_data)
 
 // name:A; map symbol; map:19047

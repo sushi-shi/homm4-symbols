@@ -1,7 +1,7 @@
 // owned_creature_array.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 9/25 (A:6 B:2 C:1); unaccounted 16; skipped std 1.
+// Accounted 9/25 (A:1 B:2 C:0); unaccounted 16; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,13 +10,13 @@
 
 // === .text (16 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:63807; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:63807; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00756e50, 0x15, STATIC_INIT_DISPATCH, "owned_creature_array#1")
 
 // name:C; dyninit; see ledger; map:63808
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "owned_creature_array#1")
 
-// confidence:A; align-order; retn,stable,vptr; map:31614
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:31614
 VA_CHT_1(0x00756e70, 0x98)
 t_owned_creature_array::t_owned_creature_array()
 {
@@ -37,19 +37,19 @@ t_adventure_map* t_owned_creature_array::get_map() const
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:31617
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:31617
 VA_CHT_1(0x00756f10, 0x14)
 int t_owned_creature_array::get_owner_number() const
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:63809; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:63809; name:B (dyninit; see ledger)
 VA_CHT_1(0x00756f40, 0x20)
 // owned_creature_array$tinit1
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:63811; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:63811; name:B (dyninit; see ledger)
 VA_CHT_1(0x00756f60, 0x5c)
 // owned_creature_array$tinit2
 // Function body not reconstructed; signature retained as a comment.
@@ -85,7 +85,7 @@ VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 // [thunk]: public: virtual t_adventure_map* t_owned_creature_array::get_map`vtordisp{-4, 0}'(void) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:31622
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:31622
 VA_CHT_1(0x00756fc0, 0x8)
 // [thunk]: public: virtual int t_owned_creature_array::get_owner_number`vtordisp{-4, 0}'(void) const
 // Function body not reconstructed; signature retained as a comment.

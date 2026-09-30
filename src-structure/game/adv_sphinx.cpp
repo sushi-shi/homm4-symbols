@@ -1,7 +1,7 @@
 // adv_sphinx.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 24/39 (A:19 B:3 C:2); unaccounted 15; skipped std 3.
+// Accounted 24/39 (A:12 B:2 C:0); unaccounted 15; skipped std 3.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,27 +10,27 @@
 
 // === .text (19 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:70796; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:70796; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00466550, 0x1c, STATIC_INIT_DISPATCH, "adv_sphinx#1")
 
 // name:C; dyninit; see ledger; map:70797
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "adv_sphinx#1")
 
-// confidence:A; align-order; retn,stable,vptr; map:5877
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:5877
 VA_CHT_1(0x00466570, 0x157)
 t_adv_sphinx::t_adv_sphinx(std::string const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:5878
+// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:5878
 VA_CHT_1(0x004666d0, 0x2d)
 bool t_adv_sphinx::are_all_heroes_ineligible(t_army* arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:5879
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:5879
 VA_CHT_1(0x004667e0, 0x182)
 std::string t_adv_sphinx::add_icons(
     t_basic_dialog* arg_0,
@@ -41,21 +41,21 @@ std::string t_adv_sphinx::add_icons(
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:5880
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:5880
 VA_CHT_1(0x00466970, 0x2e)
 void t_adv_sphinx::visit(t_hero* arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:5881
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:5881
 VA_CHT_1(0x004669a0, 0x8d)
 float t_adv_sphinx::ai_value(t_adventure_ai const& arg_0, t_creature_array const& arg_1, int arg_2) const
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:70798; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:70798; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00466aa0, 0x20, STATIC_INIT_DISPATCH, adv_sphinx)
 
 // name:A; map symbol; map:5882
@@ -64,7 +64,7 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, t_adv_sphinx)
 // name:A; map symbol; map:5883
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, t_adv_sphinx)
 
-// confidence:C; align-band; retn,stable; map:5884
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:5884
 VA_CHT_1(0x00466700, 0x57)
 // public: void t_adv_sphinx::`vbase dtor'(void)
 // Function body not reconstructed; signature retained as a comment.
@@ -104,7 +104,7 @@ t_object_factory<t_adv_sphinx>::t_object_factory<t_adv_sphinx>()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:5892
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:5892
 VA_CHT_1(0x00466a30, 0x62)
 t_stationary_adventure_object* t_object_factory<t_adv_sphinx>::create(
     std::string const& arg_0,
@@ -117,7 +117,7 @@ t_stationary_adventure_object* t_object_factory<t_adv_sphinx>::create(
 // name:A; map symbol; map:5893
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, t_adv_sphinx)
 
-// confidence:C; align-order; stable; map:5894
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:5894
 VA_CHT_1_COMPGEN(0x00466ad0, 0xb, VECTOR_DELETING_DTOR, t_adv_sphinx)
 
 // === .rdata (7 symbols) ===

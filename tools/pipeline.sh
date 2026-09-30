@@ -7,6 +7,26 @@ T=${1:?target id}
 export GHIDRA_HEADLESS_MAXMEM=6G
 GH="ghidra-analyzeHeadless work/ghidra homm4/$T -process heroes4.exe -noanalysis -readOnly -scriptPath tools/ghidra"
 
+SOURCE=$(tools/py -c 'import sys; sys.path.insert(0, "tools"); import paths; print(paths.target_meta(sys.argv[1]).get("source", "map"))' "$T")
+if [ "$SOURCE" != map ]; then
+  # Release -> release: source features/names must already exist. Never apply the
+  # CHT-specific debug static-init pairing to a different release.
+  $GH -postScript ExportFeatures.java "$PWD/work/$T/features" > "work/$T/ghidra-export.log" 2>&1
+  tools/py tools/rtti.py "$T"
+  tools/py tools/match_vftables.py "$T"
+  tools/py tools/align.py "$T" --source "$SOURCE"
+  tools/py tools/align.py "$T" --source "$SOURCE" --no-retn
+  tools/py tools/evaluate.py "$T" > "work/$T/evaluate.txt"
+  cat "work/$T/evaluate.txt"
+  tools/py tools/emit_map.py "$T"
+  cp "work/$T/release-evaluation.tsv" "maps/$T/evaluation.tsv"
+  tools/py tools/gen_ida.py "$T"
+  $GH -postScript ApplyNames.java "$PWD/maps/$T/names.tsv" D "$PWD/work/$T/heroes4_$T.gzf" \
+    > "work/$T/ghidra-apply.log" 2>&1
+  grep -h 'applied\|packed' "work/$T/ghidra-apply.log"
+  exit
+fi
+
 # 1. the original symbols -> symbols/
 tools/py tools/mine_map.py
 tools/py tools/mine_fixups.py
@@ -29,6 +49,6 @@ tools/py tools/emit_map.py "$T"         # maps/<target>/names.tsv
 # 5. generated databases -> work/<target>/
 tools/py tools/gen_ida.py "$T"
 tools/py tools/gen_structure.py "$T"   # flat game source inventory + coverage ledgers
-$GH -postScript ApplyNames.java "$PWD/maps/$T/names.tsv" C "$PWD/work/$T/heroes4_$T.gzf" \
+$GH -postScript ApplyNames.java "$PWD/maps/$T/names.tsv" D "$PWD/work/$T/heroes4_$T.gzf" \
   > "work/$T/ghidra-apply.log" 2>&1
 grep -h 'applied\|packed' "work/$T/ghidra-apply.log"

@@ -1,7 +1,7 @@
 // paint_surface.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 18/27 (A:16 B:1 C:1); unaccounted 9; skipped std 1.
+// Accounted 18/27 (A:10 B:0 C:0); unaccounted 9; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,7 +10,7 @@
 
 // === .text (17 symbols) ===
 
-// confidence:A; align-order; stable,vptr; map:31633
+// confidence:D; align-order; stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:31633
 VA_CHT_1(0x00757ad0, 0x68)
 t_paint_surface::t_paint_surface(
     t_screen_point arg_0,
@@ -22,14 +22,14 @@ t_paint_surface::t_paint_surface(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vptr; map:31634
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:31634
 VA_CHT_1(0x00757b60, 0x7)
 t_paint_surface::~t_paint_surface()
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:31635
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:31635
 VA_CHT_1(0x00757b70, 0xe1)
 void t_paint_surface::draw(
     t_screen_point const& arg_0,
@@ -40,7 +40,7 @@ void t_paint_surface::draw(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:31636
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:31636
 VA_CHT_1(0x00757c60, 0x22b)
 void t_paint_surface::draw_direct(
     t_screen_point const& arg_0,
@@ -51,16 +51,16 @@ void t_paint_surface::draw_direct(
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:63797; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:63797; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00757f20, 0x20, STATIC_INIT_DISPATCH, paint_surface)
 
-// confidence:A; align-band; retn,stable,vslot; map:31637
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:31637
 VA_CHT_1_COMPGEN(0x00757b40, 0x20, SCALAR_DELETING_DTOR, t_paint_surface)
 
 // name:A; map symbol; map:31638
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, t_paint_surface)
 
-// confidence:C; align-band; retn,stable; map:31639
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:31639
 VA_CHT_1(0x00757f10, 0xd)
 HBITMAP__* t_dib_section<unsigned short>::get_handle() const
 {
@@ -81,7 +81,7 @@ t_compatible_dc::~t_compatible_dc()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:31642
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:31642
 VA_CHT_1_COMPGEN(0x00757ed0, 0x1e, VECTOR_DELETING_DTOR, t_compatible_dc)
 
 // name:A; map symbol; map:31643

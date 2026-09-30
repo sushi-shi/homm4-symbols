@@ -1,7 +1,7 @@
 // adv_tree_of_knowledge.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\adv_tree_of_knowledge.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 26/46 (A:22 B:3 C:1); unaccounted 20; skipped std 5.
+// Accounted 26/46 (A:12 B:3 C:0); unaccounted 20; skipped std 5.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,20 +10,20 @@
 
 // === .text (25 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-B; map:70706; name:B (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:70706; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0046dd50, 0x1c, STATIC_INIT_DISPATCH, registration)
 
 // name:B; dyninit; see ledger; map:70707
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, registration)
 
-// confidence:A; align-order; retn,stable,vptr; map:6168
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:6168
 VA_CHT_1(0x0046dd70, 0x165)
 t_adv_tree_of_knowledge::t_adv_tree_of_knowledge(std::string const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:6169
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:6169
 VA_CHT_1(0x0046df80, 0x832)
 void t_adv_tree_of_knowledge::activate_trigger(
     t_army* arg_0,
@@ -47,14 +47,14 @@ void t_adv_tree_of_knowledge::select_heroes_dialog(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:6171
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:6171
 VA_CHT_1(0x0046f1e0, 0xb)
 void t_adv_tree_of_knowledge::initialize(t_adventure_map& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:6172
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:6172
 VA_CHT_1(0x0046f1f0, 0x3f)
 void t_adv_tree_of_knowledge::set_cost_type()
 {
@@ -68,7 +68,7 @@ int t_adv_tree_of_knowledge::get_version() const
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:6174
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:6174
 VA_CHT_1(0x0046f230, 0x7d)
 bool t_adv_tree_of_knowledge::read(
     std::basic_streambuf<char, std::char_traits<char>>& arg_0,
@@ -79,7 +79,7 @@ bool t_adv_tree_of_knowledge::read(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:6175
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:6175
 VA_CHT_1(0x0046f2b0, 0x54)
 bool t_adv_tree_of_knowledge::write(std::basic_streambuf<char, std::char_traits<char>>& arg_0) const
 {
@@ -93,10 +93,10 @@ void t_adv_tree_of_knowledge::visit(t_hero* arg_0)
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:70708; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:70708; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0046f380, 0x20, STATIC_INIT_DISPATCH, adv_tree_of_knowledge)
 
-// confidence:A; align-band; retn,stable,vslot; map:6177
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:6177
 VA_CHT_1_COMPGEN(0x0046dee0, 0x2d, VECTOR_DELETING_DTOR, t_adv_tree_of_knowledge)
 
 // name:A; map symbol; map:6178
@@ -160,7 +160,7 @@ t_object_factory<t_adv_tree_of_knowledge>::t_object_factory<t_adv_tree_of_knowle
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:6191
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:6191
 VA_CHT_1(0x0046f310, 0x62)
 t_stationary_adventure_object* t_object_factory<t_adv_tree_of_knowledge>::create(
     std::string const& arg_0,
@@ -173,7 +173,7 @@ t_stationary_adventure_object* t_object_factory<t_adv_tree_of_knowledge>::create
 // name:A; map symbol; map:6192
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, t_adv_tree_of_knowledge)
 
-// confidence:C; align-order; stable; map:6193
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:6193
 VA_CHT_1_COMPGEN(0x0046f3b0, 0xb, VECTOR_DELETING_DTOR, t_adv_tree_of_knowledge)
 
 // === .rdata (7 symbols) ===

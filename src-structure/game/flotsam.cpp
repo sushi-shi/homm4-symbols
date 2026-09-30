@@ -1,7 +1,7 @@
 // flotsam.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 25/37 (A:20 B:3 C:2); unaccounted 12; skipped std 1.
+// Accounted 25/37 (A:12 B:2 C:0); unaccounted 12; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,20 +10,20 @@
 
 // === .text (17 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:65423; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:65423; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x006ae0b0, 0x1c, STATIC_INIT_DISPATCH, "flotsam#1")
 
 // name:C; dyninit; see ledger; map:65424
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "flotsam#1")
 
-// confidence:A; align-order; retn,stable,vptr; map:26303
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:26303
 VA_CHT_1(0x006ae0d0, 0x16f)
 t_flotsam::t_flotsam(t_stationary_adventure_object const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:26304
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:26304
 VA_CHT_1(0x006ae2d0, 0x388)
 void t_flotsam::activate_trigger(
     t_army* arg_0,
@@ -35,7 +35,7 @@ void t_flotsam::activate_trigger(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:26305
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:26305
 VA_CHT_1(0x006ae660, 0x79)
 bool t_flotsam::read(
     std::basic_streambuf<char, std::char_traits<char>>& arg_0,
@@ -46,30 +46,30 @@ bool t_flotsam::read(
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:26306
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:26306
 VA_CHT_1(0x006ae6e0, 0x69)
 bool t_flotsam::write(std::basic_streambuf<char, std::char_traits<char>>& arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:26307
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:26307
 VA_CHT_1(0x006ae750, 0x2e)
 float t_flotsam::ai_value(t_adventure_ai const& arg_0, t_creature_array const& arg_1, int arg_2) const
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:65425; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:65425; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x006ae8d0, 0x20, STATIC_INIT_DISPATCH, flotsam)
 
-// confidence:A; align-band; retn,stable,vslot; map:26308
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:26308
 VA_CHT_1_COMPGEN(0x006ae240, 0x2d, SCALAR_DELETING_DTOR, t_flotsam)
 
 // name:A; map symbol; map:26309
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, t_flotsam)
 
-// confidence:C; align-band; retn,stable; map:26310
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:26310
 VA_CHT_1(0x006ae270, 0x57)
 // public: void t_flotsam::`vbase dtor'(void)
 // Function body not reconstructed; signature retained as a comment.
@@ -95,7 +95,7 @@ t_object_factory<t_flotsam>::t_object_factory<t_flotsam>()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:26314
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:26314
 VA_CHT_1(0x006ae780, 0x14a)
 t_stationary_adventure_object* t_object_factory<t_flotsam>::create(
     std::string const& arg_0,
@@ -108,7 +108,7 @@ t_stationary_adventure_object* t_object_factory<t_flotsam>::create(
 // name:A; map symbol; map:26315
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, t_flotsam)
 
-// confidence:C; align-order; stable; map:26316
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:26316
 VA_CHT_1_COMPGEN(0x006ae900, 0xb, VECTOR_DELETING_DTOR, t_flotsam)
 
 // === .rdata (7 symbols) ===

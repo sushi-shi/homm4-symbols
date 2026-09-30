@@ -1,7 +1,7 @@
 // skill_choice_dialog.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 37/57 (A:25 B:11 C:1); unaccounted 20; skipped std 1.
+// Accounted 37/57 (A:18 B:2 C:0); unaccounted 20; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,43 +10,43 @@
 
 // === .text (35 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:62704; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62704; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007bc5a0, 0x11, STATIC_INIT_DISPATCH, "skill_choice_dialog#1")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:62705; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62705; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007bc5c0, 0xd7, STATIC_CTOR, "skill_choice_dialog#1")
 
 // name:C; dyninit; see ledger; map:62706
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "skill_choice_dialog#1")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:62707; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62707; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007bc6a0, 0xa, STATIC_DTOR, "skill_choice_dialog#1")
 
-// confidence:A; dyninit-init; owner-conf-C; map:62708; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62708; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007bc6b0, 0x11, STATIC_INIT_DISPATCH, "skill_choice_dialog#2")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:62709; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62709; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007bc6d0, 0xd1, STATIC_CTOR, "skill_choice_dialog#2")
 
 // name:C; dyninit; see ledger; map:62710
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "skill_choice_dialog#2")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:62711; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62711; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007bc7b0, 0xa, STATIC_DTOR, "skill_choice_dialog#2")
 
-// confidence:A; dyninit-init; owner-conf-C; map:62712; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62712; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007bc7c0, 0x11, STATIC_INIT_DISPATCH, "skill_choice_dialog#3")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:62713; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62713; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007bc7e0, 0xd1, STATIC_CTOR, "skill_choice_dialog#3")
 
 // name:C; dyninit; see ledger; map:62714
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "skill_choice_dialog#3")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:62715; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62715; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007bc8c0, 0xa, STATIC_DTOR, "skill_choice_dialog#3")
 
-// confidence:A; align-order; retn,stable,vptr; map:37416
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:37416
 VA_CHT_1(0x007bc8d0, 0x221c)
 t_skill_choice_dialog::t_skill_choice_dialog(t_hero& arg_0, t_window* arg_1, t_adventure_map const& arg_2)
 {
@@ -60,31 +60,31 @@ void t_skill_choice_dialog::close_click(t_button* arg_0)
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:37418
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37418
 VA_CHT_1(0x007bec60, 0x33a)
 void t_skill_choice_dialog::set_skill_icons(t_skill_mastery const* arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:37419
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37419
 VA_CHT_1(0x007befa0, 0x5be)
 void t_skill_choice_dialog::set_skill(t_skill const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:37420
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37420
 VA_CHT_1(0x007bf5f0, 0x5e)
 void t_skill_choice_dialog::choose_skill(t_button* arg_0, int arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:62716; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:62716; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007bf650, 0x20, STATIC_INIT_DISPATCH, skill_choice_dialog)
 
-// confidence:A; align-band; retn,stable,vslot; map:37421
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:37421
 VA_CHT_1_COMPGEN(0x007beaf0, 0x1e, VECTOR_DELETING_DTOR, t_skill_choice_dialog)
 
 // name:A; map symbol; map:37422
@@ -114,7 +114,7 @@ t_handler_1<t_button*> bound_handler(t_skill_choice_dialog& arg_0, void (t_skill
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:37426
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:37426
 VA_CHT_1(0x007bf590, 0x5e)
 t_bound_handler_2<t_skill_choice_dialog, t_button*, int>::t_bound_handler_2<t_skill_choice_dialog, t_button*, int>(
     t_skill_choice_dialog& arg_0,
@@ -179,7 +179,7 @@ t_bound_handler_1<t_skill_choice_dialog, t_button*>::~t_bound_handler_1<t_skill_
 // name:A; map symbol; map:37436
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, "t_bound_handler_2<t_skill_choice_dialog, t_button*, int>")
 
-// confidence:C; align-order; stable; map:37437
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37437
 VA_CHT_1_COMPGEN(0x007bf680, 0x8, VECTOR_DELETING_DTOR, "t_bound_handler_1<t_skill_choice_dialog, t_button*>")
 
 // === .rdata (5 symbols) ===

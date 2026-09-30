@@ -1,7 +1,7 @@
 // drag_artifact.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 21/28 (A:19 B:2 C:0); unaccounted 7; skipped std 1.
+// Accounted 21/28 (A:10 B:0 C:0); unaccounted 7; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,7 +10,7 @@
 
 // === .text (18 symbols) ===
 
-// confidence:A; align-order; retn,stable,vptr; map:25791
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:25791
 VA_CHT_1(0x00699e30, 0x200)
 t_drag_artifact_source::t_drag_artifact_source(
     t_screen_rect const& arg_0,
@@ -22,21 +22,21 @@ t_drag_artifact_source::t_drag_artifact_source(
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:25792
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25792
 VA_CHT_1(0x0069a200, 0xbb)
 void t_drag_artifact_source::set(t_artifact const& arg_0, t_creature_stack* arg_1, int arg_2)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:25793
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:25793
 VA_CHT_1(0x0069a2c0, 0xab)
 bool t_drag_artifact_source::accept_drag(t_drag_object* arg_0, t_mouse_event const& arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:25794
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25794
 VA_CHT_1(0x0069a370, 0x218)
 void t_drag_artifact_source::restore(t_artifact const& arg_0)
 {
@@ -50,7 +50,7 @@ void t_drag_artifact_source::drag_accepted(t_window* arg_0)
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:25796
+// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:25796
 VA_CHT_1(0x0069a590, 0x1d)
 void t_drag_artifact_source::drag_event(t_mouse_event const& arg_0)
 {
@@ -64,31 +64,31 @@ void t_drag_artifact_source::update()
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vptr; map:25798
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:25798
 VA_CHT_1(0x0069a5b0, 0x195)
 t_drag_artifact::t_drag_artifact(t_artifact const& arg_0, t_drag_artifact_source* arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vptr; map:25799
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:25799
 VA_CHT_1(0x0069a780, 0x19f)
 t_drag_artifact::~t_drag_artifact()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:25800
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:25800
 VA_CHT_1(0x0069a920, 0x143)
 void t_drag_artifact::accepted(t_window* arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:65540; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:65540; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0069aa70, 0x20, STATIC_INIT_DISPATCH, drag_artifact)
 
-// confidence:A; align-band; retn,stable,vslot; map:25801
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:25801
 VA_CHT_1_COMPGEN(0x0069a030, 0x1e, SCALAR_DELETING_DTOR, t_drag_artifact_source)
 
 // name:A; map symbol; map:25802
@@ -101,7 +101,7 @@ t_drag_artifact_source::~t_drag_artifact_source()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:25804
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:25804
 VA_CHT_1_COMPGEN(0x0069a750, 0x1e, VECTOR_DELETING_DTOR, t_drag_artifact)
 
 // name:A; map symbol; map:25805

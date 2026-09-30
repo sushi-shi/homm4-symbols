@@ -1,7 +1,7 @@
 // placed_event_trigger.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\placed_event_trigger.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 62/115 (A:43 B:8 C:11); unaccounted 53; skipped std 1.
+// Accounted 62/115 (A:30 B:8 C:0); unaccounted 53; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,19 +10,19 @@
 
 // === .text (59 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:63759; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:63759; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00759110, 0x15, STATIC_INIT_DISPATCH, "placed_event_trigger#1")
 
 // name:C; dyninit; see ledger; map:63760
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "placed_event_trigger#1")
 
-// confidence:A; dyninit-init; owner-conf-B; map:63761; name:B (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:63761; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00759130, 0x1c, STATIC_INIT_DISPATCH, g_placed_event_trigger_registration)
 
 // name:B; dyninit; see ledger; map:63762
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, g_placed_event_trigger_registration)
 
-// confidence:A; dyninit-init; owner-conf-B; map:63763; name:B (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:63763; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00759150, 0x1c, STATIC_INIT_DISPATCH, g_pandoras_box_registration)
 
 // name:B; dyninit; see ledger; map:63764
@@ -70,7 +70,7 @@ bool t_placed_event_base::write(std::basic_streambuf<char, std::char_traits<char
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:31767
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:31767
 VA_CHT_1(0x007591e0, 0x96)
 bool t_placed_event_base::trigger_event(t_army& arg_0)
 {
@@ -112,7 +112,7 @@ int t_placed_event_trigger::get_subimage_count() const
     // Body unavailable.
 }
 
-// confidence:A; align-order; stable,vslot; map:31773
+// confidence:D; align-order; stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:31773
 VA_CHT_1(0x007592d0, 0x5)
 bool t_adv_object_pandoras_box::is_triggered_by(t_creature_array const& arg_0) const
 {
@@ -126,7 +126,7 @@ bool t_adv_object_pandoras_box::blocks_army(t_creature_array const& arg_0, t_pat
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:31775
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:31775
 VA_CHT_1(0x007592e0, 0x66)
 void t_adv_object_pandoras_box::activate_trigger(
     t_army* arg_0,
@@ -138,19 +138,19 @@ void t_adv_object_pandoras_box::activate_trigger(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:31776
+// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:31776
 VA_CHT_1(0x007597e0, 0x2d)
 bool t_adv_object_pandoras_box::is_visible_to(int arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:63765; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:63765; name:B (dyninit; see ledger)
 VA_CHT_1(0x007598a0, 0x20)
 // placed_event_trigger$tinit1
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:63767; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:63767; name:B (dyninit; see ledger)
 VA_CHT_1(0x007598c0, 0x5c)
 // placed_event_trigger$tinit2
 // Function body not reconstructed; signature retained as a comment.
@@ -202,7 +202,7 @@ t_object_factory<t_placed_event_trigger>::t_object_factory<t_placed_event_trigge
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:31781
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:31781
 VA_CHT_1(0x00759360, 0x180)
 t_stationary_adventure_object* t_object_factory<t_placed_event_trigger>::create(
     std::string const& arg_0,
@@ -226,7 +226,7 @@ t_placed_event_base::t_placed_event_base(std::string const& arg_0)
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:31784
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:31784
 VA_CHT_1_COMPGEN(0x007594e0, 0x2d, SCALAR_DELETING_DTOR, t_placed_event_base)
 
 // name:A; map symbol; map:31785
@@ -244,7 +244,7 @@ t_placed_event_base::~t_placed_event_base()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:31788
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:31788
 VA_CHT_1_COMPGEN(0x007595a0, 0x2d, VECTOR_DELETING_DTOR, t_placed_event_trigger)
 
 // name:A; map symbol; map:31789
@@ -269,7 +269,7 @@ t_object_factory<t_adv_object_pandoras_box>::t_object_factory<t_adv_object_pando
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:31793
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:31793
 VA_CHT_1(0x00759660, 0x180)
 t_stationary_adventure_object* t_object_factory<t_adv_object_pandoras_box>::create(
     std::string const& arg_0,
@@ -304,45 +304,45 @@ t_adv_object_pandoras_box::~t_adv_object_pandoras_box()
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:31799
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:31799
 VA_CHT_1_COMPGEN(0x00759920, 0x8, VECTOR_DELETING_DTOR, t_placed_event_base)
 
-// confidence:C; align-order; stable; map:31800
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:31800
 VA_CHT_1_COMPGEN(0x00759930, 0xb, VECTOR_DELETING_DTOR, t_placed_event_base)
 
-// confidence:C; align-order; stable; map:31801
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:31801
 VA_CHT_1(0x00759940, 0x8)
 // [thunk]: public: virtual bool t_placed_event_base::is_visible_to`vtordisp{-4, 0}'(int) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:31802
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:31802
 VA_CHT_1_COMPGEN(0x00759950, 0x8, VECTOR_DELETING_DTOR, t_placed_event_trigger)
 
-// confidence:C; align-order; stable; map:31803
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:31803
 VA_CHT_1_COMPGEN(0x00759960, 0x8, VECTOR_DELETING_DTOR, t_placed_event_trigger)
 
-// confidence:C; align-order; stable; map:31804
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:31804
 VA_CHT_1(0x00759970, 0x8)
 // [thunk]: public: virtual t_screen_rect t_placed_event_trigger::get_shadow_rect`vtordisp{-4, 0}'(unsigned long) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:31805
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:31805
 VA_CHT_1(0x00759980, 0x8)
 // [thunk]: public: virtual t_screen_rect t_placed_event_trigger::get_shadow_rect`vtordisp{-4, 0}'(void) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:31806
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:31806
 VA_CHT_1(0x00759990, 0xb)
 // [thunk]: public: virtual int t_placed_event_trigger::get_subimage_count`vtordisp{-4, 0}'(void) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:31807
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:31807
 VA_CHT_1_COMPGEN(0x007599a0, 0x8, VECTOR_DELETING_DTOR, t_adv_object_pandoras_box)
 
-// confidence:C; align-order; stable; map:31808
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:31808
 VA_CHT_1_COMPGEN(0x007599b0, 0x8, VECTOR_DELETING_DTOR, t_adv_object_pandoras_box)
 
-// confidence:C; align-order; stable; map:31809
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:31809
 VA_CHT_1(0x007599c0, 0xb)
 // [thunk]: public: virtual bool t_adv_object_pandoras_box::is_visible_to`vtordisp{-4, 0}'(int) const
 // Function body not reconstructed; signature retained as a comment.

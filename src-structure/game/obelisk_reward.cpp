@@ -1,7 +1,7 @@
 // obelisk_reward.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\obelisk_reward.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 34/50 (A:30 B:1 C:3); unaccounted 16; skipped std 1.
+// Accounted 34/50 (A:18 B:0 C:0); unaccounted 16; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -12,7 +12,7 @@
 
 namespace {
 
-// confidence:B; align-order; retn,stable; map:30941
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:30941
 VA_CHT_1(0x00747680, 0x1c6)
 t_counted_ptr<t_obelisk_reward> common_read(
     std::basic_streambuf<char, std::char_traits<char>>& arg_0,
@@ -24,7 +24,7 @@ t_counted_ptr<t_obelisk_reward> common_read(
 
 } // anonymous namespace
 
-// confidence:C; align-order; retn,stable; map:30942
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:30942
 VA_CHT_1(0x00747850, 0xe9)
 t_counted_ptr<t_obelisk_reward> t_obelisk_reward::read(
     std::basic_streambuf<char, std::char_traits<char>>& arg_0
@@ -47,7 +47,7 @@ void t_obelisk_reward::add_to_basic_dialog(t_basic_dialog& arg_0)
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:30945
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:30945
 VA_CHT_1(0x00747940, 0xe9)
 t_counted_ptr<t_obelisk_reward> t_obelisk_reward::read_from_map(
     std::basic_streambuf<char, std::char_traits<char>>& arg_0
@@ -56,21 +56,21 @@ t_counted_ptr<t_obelisk_reward> t_obelisk_reward::read_from_map(
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:30946
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:30946
 VA_CHT_1(0x00747a60, 0xd4)
 t_obelisk_reward_artifact::t_obelisk_reward_artifact()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vptr; map:30947
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:30947
 VA_CHT_1(0x00747b40, 0x59)
 t_obelisk_reward_artifact::t_obelisk_reward_artifact(t_artifact_type arg_0, unsigned long arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:30948
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:30948
 VA_CHT_1(0x00747ba0, 0x5c)
 bool t_obelisk_reward_artifact::read_data(
     std::basic_streambuf<char, std::char_traits<char>>& arg_0,
@@ -80,7 +80,7 @@ bool t_obelisk_reward_artifact::read_data(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:30949
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:30949
 VA_CHT_1(0x00747c00, 0x5d)
 bool t_obelisk_reward_artifact::read_data_from_map(
     std::basic_streambuf<char, std::char_traits<char>>& arg_0,
@@ -90,7 +90,7 @@ bool t_obelisk_reward_artifact::read_data_from_map(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:30950
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:30950
 VA_CHT_1(0x00747c60, 0xd5)
 bool t_obelisk_reward_artifact::write(std::basic_streambuf<char, std::char_traits<char>>& arg_0) const
 {
@@ -104,7 +104,7 @@ void t_obelisk_reward_artifact::give_reward(t_army* arg_0)
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:30952
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:30952
 VA_CHT_1(0x00747d40, 0x30)
 void t_obelisk_reward_artifact::add_to_basic_dialog(t_basic_dialog& arg_0)
 {
@@ -135,7 +135,7 @@ bool t_obelisk_reward_material::read_data(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:30956
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:30956
 VA_CHT_1(0x00747d90, 0x7e)
 bool t_obelisk_reward_material::read_data_from_map(
     std::basic_streambuf<char, std::char_traits<char>>& arg_0,
@@ -145,31 +145,31 @@ bool t_obelisk_reward_material::read_data_from_map(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:30957
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:30957
 VA_CHT_1(0x00747e10, 0xf2)
 bool t_obelisk_reward_material::write(std::basic_streambuf<char, std::char_traits<char>>& arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:30958
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:30958
 VA_CHT_1(0x00747f10, 0x3d)
 void t_obelisk_reward_material::give_reward(t_army* arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:30959
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:30959
 VA_CHT_1(0x00747f50, 0x18)
 void t_obelisk_reward_material::add_to_basic_dialog(t_basic_dialog& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:63941; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:63941; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00747f70, 0x20, STATIC_INIT_DISPATCH, obelisk_reward)
 
-// confidence:A; align-band; retn,stable,vslot; map:30960
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:30960
 VA_CHT_1_COMPGEN(0x00747a30, 0x1e, VECTOR_DELETING_DTOR, t_obelisk_reward_artifact)
 
 // name:A; map symbol; map:30961
@@ -182,7 +182,7 @@ t_obelisk_reward::t_obelisk_reward()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:30963
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:30963
 VA_CHT_1(0x00747a50, 0x10)
 t_obelisk_reward::~t_obelisk_reward()
 {

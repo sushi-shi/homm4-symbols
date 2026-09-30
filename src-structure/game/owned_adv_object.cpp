@@ -1,7 +1,7 @@
 // owned_adv_object.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 11/18 (A:10 B:0 C:1); unaccounted 7; skipped std 1.
+// Accounted 11/18 (A:1 B:0 C:0); unaccounted 7; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,13 +10,13 @@
 
 // === .text (18 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:63815; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:63815; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00756ae0, 0x15, STATIC_INIT_DISPATCH, "owned_adv_object#1")
 
 // name:C; dyninit; see ledger; map:63816
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "owned_adv_object#1")
 
-// confidence:A; align-order; stable,vslot; map:31603
+// confidence:D; align-order; stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:31603
 VA_CHT_1(0x00756b00, 0x30)
 void t_owned_adv_object::destroy()
 {
@@ -30,7 +30,7 @@ void t_owned_adv_object::set_owner(int arg_0)
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:31605
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:31605
 VA_CHT_1(0x00756b30, 0x7f)
 bool t_owned_adv_object::write(std::basic_streambuf<char, std::char_traits<char>>& arg_0) const
 {
@@ -48,28 +48,28 @@ bool t_owned_adv_object::read(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:31607
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:31607
 VA_CHT_1(0x00756c00, 0x63)
 void t_owned_adv_object::initialize(t_adventure_map& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:31608
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:31608
 VA_CHT_1(0x00756c70, 0x3d)
 void t_owned_adv_object::place(t_adventure_map& arg_0, t_adv_map_point const& arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:31609
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:31609
 VA_CHT_1(0x00756cb0, 0x77)
 void t_owned_adv_object::setup_flag_color()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:31610
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:31610
 VA_CHT_1(0x00756d30, 0x4)
 int t_owned_adv_object::get_scouting_range() const
 {
@@ -90,19 +90,19 @@ void t_owned_adv_object::update_state()
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:31613
+// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:31613
 VA_CHT_1(0x00756d80, 0x27)
 t_player_color t_owned_adv_object::get_player_color() const
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:63817; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:63817; name:B (dyninit; see ledger)
 VA_CHT_1(0x00756dd0, 0x20)
 // owned_adv_object$tinit1
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:63819; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:63819; name:B (dyninit; see ledger)
 VA_CHT_1(0x00756df0, 0x5c)
 // owned_adv_object$tinit2
 // Function body not reconstructed; signature retained as a comment.

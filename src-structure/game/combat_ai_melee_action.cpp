@@ -1,7 +1,7 @@
 // combat_ai_melee_action.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 37/70 (A:17 B:8 C:12); unaccounted 33; skipped std 1.
+// Accounted 37/70 (A:6 B:0 C:0); unaccounted 33; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,43 +10,43 @@
 
 // === .text (64 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:68013; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:68013; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x005b5e50, 0x15, STATIC_INIT_DISPATCH, "combat_ai_melee_action#1")
 
 // name:C; dyninit; see ledger; map:68014
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "combat_ai_melee_action#1")
 
-// confidence:A; dyninit-init; owner-conf-C; map:68015; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:68015; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x005b5e70, 0x15, STATIC_INIT_DISPATCH, "combat_ai_melee_action#2")
 
 // name:C; dyninit; see ledger; map:68016
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "combat_ai_melee_action#2")
 
-// confidence:A; dyninit-init; owner-conf-C; map:68017; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:68017; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x005b5e90, 0x15, STATIC_INIT_DISPATCH, "combat_ai_melee_action#3")
 
 // name:C; dyninit; see ledger; map:68018
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "combat_ai_melee_action#3")
 
-// confidence:A; dyninit-init; owner-conf-C; map:68019; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:68019; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x005b5eb0, 0x15, STATIC_INIT_DISPATCH, "combat_ai_melee_action#4")
 
 // name:C; dyninit; see ledger; map:68020
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "combat_ai_melee_action#4")
 
-// confidence:A; dyninit-init; owner-conf-C; map:68021; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:68021; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x005b5ed0, 0x10, STATIC_INIT_DISPATCH, "combat_ai_melee_action#5")
 
 // name:C; dyninit; see ledger; map:68022
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "combat_ai_melee_action#5")
 
-// confidence:A; dyninit-init; owner-conf-C; map:68023; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:68023; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x005b5ee0, 0x15, STATIC_INIT_DISPATCH, "combat_ai_melee_action#6")
 
 // name:C; dyninit; see ledger; map:68024
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "combat_ai_melee_action#6")
 
-// confidence:A; align-order; stable,vptr; map:20165
+// confidence:D; align-order; stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:20165
 VA_CHT_1(0x005b5f00, 0x2af)
 t_combat_ai_melee_action::t_combat_ai_melee_action(
     t_battlefield& arg_0,
@@ -58,7 +58,7 @@ t_combat_ai_melee_action::t_combat_ai_melee_action(
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:68025
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:68025
 VA_CHT_1(0x005b61b0, 0x463)
 static int get_alternate_move_time(
     t_combat_creature const& arg_0,
@@ -70,7 +70,7 @@ static int get_alternate_move_time(
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:68026
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:68026
 VA_CHT_1(0x005b6640, 0x6c)
 static t_abstract_combat_object* get_attackable_obstacle(
     t_combat_creature const& arg_0,
@@ -80,14 +80,14 @@ static t_abstract_combat_object* get_attackable_obstacle(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:20166
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:20166
 VA_CHT_1(0x005b66b0, 0x73)
 void t_combat_ai_melee_action::weigh_action(t_combat_ai const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:20167
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:20167
 VA_CHT_1(0x005b6730, 0x4b3)
 double t_combat_ai_melee_action::get_action_weight(t_combat_ai const& arg_0, bool arg_1)
 {
@@ -107,21 +107,21 @@ static double get_zoc_change(
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:68028
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:68028
 VA_CHT_1(0x005b6c30, 0x1a)
 static bool contains_other_members(t_combat_creature_list const& arg_0, t_combat_creature const* arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:68029
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:68029
 VA_CHT_1(0x005b6c50, 0xd1)
 static double get_zoc_removal_value(t_combat_creature const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:68030
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:68030
 VA_CHT_1(0x005b6d30, 0x69)
 static double get_zoc_add_value(
     t_battlefield& arg_0,
@@ -132,14 +132,14 @@ static double get_zoc_add_value(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:20168
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:20168
 VA_CHT_1(0x005b6dd0, 0x60e)
 void t_combat_ai_melee_action::perform_action()
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:68031
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:68031
 VA_CHT_1(0x005b7420, 0x4d)
 static void attack(t_battlefield& arg_0, t_abstract_combat_object* arg_1, t_attack_angle const& arg_2)
 {
@@ -153,7 +153,7 @@ static bool attack_obstacle(t_combat_creature const& arg_0, t_abstract_combat_ob
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:68033
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:68033
 VA_CHT_1(0x005b74c0, 0x3cc)
 static bool attack_gate(
     t_combat_creature const& arg_0,
@@ -172,7 +172,7 @@ static double gate_destruction_value(t_battlefield& arg_0, bool arg_1)
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:68035
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:68035
 VA_CHT_1(0x005b78b0, 0x23d)
 static bool unblock_paths(t_combat_creature& arg_0)
 {
@@ -197,7 +197,7 @@ static void mark_path_area(
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:68038
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:68038
 VA_CHT_1(0x005b7af0, 0x20)
 static void mark_path_cell(
     t_isometric_map<bool>& arg_0,
@@ -208,7 +208,7 @@ static void mark_path_cell(
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:68039
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:68039
 VA_CHT_1(0x005b7b10, 0x76)
 static bool contains_path(
     t_isometric_map<bool>& arg_0,
@@ -226,7 +226,7 @@ static void nudge_creatures_on_path(t_combat_creature const& arg_0, t_map_point_
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:68041
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:68041
 VA_CHT_1(0x005b7b90, 0x140)
 static void nudge_creatures(t_combat_creature const& arg_0, t_map_point_2d const& arg_1)
 {
@@ -240,14 +240,14 @@ bool less_than(t_combat_ai_melee_action& arg_0, t_combat_ai_melee_action& arg_1,
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:20170
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:20170
 VA_CHT_1(0x005b7cd0, 0x45b)
 t_counted_ptr<t_abstract_combat_ai_action> generate_best_melee_action(t_combat_ai& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:68042
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:68042
 VA_CHT_1(0x005b8130, 0x3dd)
 static t_counted_ptr<t_combat_ai_melee_action> generate_melee_action(
     t_combat_creature* arg_0,
@@ -272,10 +272,10 @@ static bool has_creatures_outside_castle(t_battlefield& arg_0, bool arg_1)
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:68045; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:68045; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x005b87a0, 0x20, STATIC_INIT_DISPATCH, combat_ai_melee_action)
 
-// confidence:A; align-band; retn,stable,vslot; map:20171
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:20171
 VA_CHT_1_COMPGEN(0x005b6620, 0x1e, VECTOR_DELETING_DTOR, t_combat_ai_melee_action)
 
 // name:A; map symbol; map:20172
@@ -295,7 +295,7 @@ t_combat_creature const& t_combat_ai::get_actor() const
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:20175
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:20175
 VA_CHT_1(0x005b6bf0, 0x39)
 t_direction t_combat_creature::get_wait_direction(t_direction arg_0) const
 {
@@ -309,14 +309,14 @@ t_circle_calculator::t_circle_calculator(t_map_point_2d const& arg_0)
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:20177
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:20177
 VA_CHT_1(0x005b8530, 0x36)
 t_counted_ptr<t_castle_gate> t_battlefield::get_gate() const
 {
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:20178
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:20178
 VA_CHT_1(0x005b7890, 0x20)
 int t_combat_path_finder_base::get_row_end(int arg_0) const
 {
@@ -330,7 +330,7 @@ int t_combat_path_finder_base::get_row_start(int arg_0) const
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:20180
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:20180
 VA_CHT_1(0x005b6da0, 0x28)
 int t_combat_path_finder_base::get_size() const
 {
@@ -344,7 +344,7 @@ t_attack_angle const& t_combat_ai_melee_action::get_attack_angle() const
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:20182
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:20182
 VA_CHT_1(0x005b7470, 0x48)
 t_counted_ptr<t_combat_ai_melee_action> t_combat_creature::get_melee_action() const
 {
@@ -427,7 +427,7 @@ t_counted_ptr<t_castle_gate>::t_counted_ptr<t_castle_gate>(t_counted_ptr<t_castl
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:20193
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:20193
 VA_CHT_1(0x005b73e0, 0x31)
 t_counted_ptr<t_abstract_combat_ai_action>::t_counted_ptr<t_abstract_combat_ai_action>(
     t_counted_ptr<t_combat_ai_melee_action> const& arg_0

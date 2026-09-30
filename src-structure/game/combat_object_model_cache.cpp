@@ -1,7 +1,7 @@
 // combat_object_model_cache.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\combat_object_model_cache.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 48/73 (A:39 B:3 C:6); unaccounted 25; skipped std 64.
+// Accounted 48/73 (A:27 B:3 C:0); unaccounted 25; skipped std 64.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -19,21 +19,21 @@ t_combat_object_model_cache::t_combat_object_model_cache(std::string const& arg_
 
 namespace {
 
-// confidence:A; align-order; retn,vptr; map:21158
+// confidence:D; align-order; retn,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:21158
 VA_CHT_1(0x005d5620, 0x8e)
 t_combat_object_model_cache_data::t_combat_object_model_cache_data(std::string const& arg_0, double arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:21159
+// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:21159
 VA_CHT_1(0x005d57b0, 0x6)
 char const* t_combat_object_model_cache_data::get_prefix() const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:21160
+// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:21160
 VA_CHT_1(0x005d57c0, 0x209)
 t_compound_object_model* t_combat_object_model_cache_data::do_read(
     std::basic_streambuf<char, std::char_traits<char>>& arg_0,
@@ -45,7 +45,7 @@ t_compound_object_model* t_combat_object_model_cache_data::do_read(
 
 } // anonymous namespace
 
-// confidence:C; align-order; retn; map:21161
+// confidence:D; align-order; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:21161
 VA_CHT_1(0x005d5a90, 0x1f4)
 t_combat_object_model_cache get_combat_object_model_cache(std::string const& arg_0, double arg_1)
 {
@@ -57,10 +57,10 @@ VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 // get_combat_object_model_cache$sdtor
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:67741; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:67741; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x005d6f30, 0x20, STATIC_INIT_DISPATCH, combat_object_model_cache)
 
-// confidence:A; align-band; retn,stable,vslot; map:21162
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:21162
 VA_CHT_1_COMPGEN(0x005d56b0, 0x1e, VECTOR_DELETING_DTOR, t_combat_object_model_cache_data)
 
 // name:A; map symbol; map:21163
@@ -91,7 +91,7 @@ t_combat_object_model_24::~t_combat_object_model_24()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:21167
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:21167
 VA_CHT_1_COMPGEN(0x005d5a70, 0x1e, VECTOR_DELETING_DTOR, t_combat_object_model_24)
 
 // name:A; map symbol; map:21168
@@ -99,7 +99,7 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, t_combat_objec
 
 namespace {
 
-// confidence:C; align-band; retn,stable; map:21170
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:21170
 VA_CHT_1(0x005d6af0, 0x51)
 t_key::t_key()
 {
@@ -120,7 +120,7 @@ t_key::t_key(t_key const& arg_0)
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:21196
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:21196
 VA_CHT_1(0x005d6130, 0x5c)
 bool t_key::operator<(t_key const& arg_0) const
 {
@@ -147,14 +147,14 @@ t_abstract_resource_cache_data<t_compound_object_model>::t_abstract_resource_cac
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:21232
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:21232
 VA_CHT_1(0x005d6c20, 0x49)
 t_abstract_cache_data<t_compound_object_model>::~t_abstract_cache_data<t_compound_object_model>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:21233
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:21233
 VA_CHT_1(0x005d56d0, 0xd7)
 t_abstract_resource_cache_data<t_compound_object_model>::~t_abstract_resource_cache_data<t_compound_object_model>(
 
@@ -170,7 +170,7 @@ int t_abstract_resource_cache_data<t_compound_object_model>::get_load_cost()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:21235
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:21235
 VA_CHT_1(0x005d6c90, 0x25)
 void t_abstract_resource_cache_data<t_compound_object_model>::add_reference()
 {
@@ -210,26 +210,26 @@ bool t_abstract_resource_cache_data<t_compound_object_model>::read(
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:21243
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:21243
 VA_CHT_1_COMPGEN(0x005d6df0, 0x1e, SCALAR_DELETING_DTOR, "t_abstract_cache_data<t_compound_object_model>")
 
 // name:A; map symbol; map:21244
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, "t_abstract_cache_data<t_compound_object_model>")
 
-// confidence:A; align-band; retn,stable,vslot; map:21245
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:21245
 VA_CHT_1_COMPGEN(0x005d6e10, 0x1e, SCALAR_DELETING_DTOR, "t_abstract_resource_cache_data<t_compound_object_model>")
 
 // name:A; map symbol; map:21246
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, "t_abstract_resource_cache_data<t_compound_object_model>")
 
-// confidence:A; align-band; retn,stable,vptr; map:21247
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:21247
 VA_CHT_1(0x005d6e30, 0xd7)
 t_abstract_cache_data<t_compound_object_model>::t_abstract_cache_data<t_compound_object_model>()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:21248
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:21248
 VA_CHT_1_COMPGEN(0x005d6f10, 0x1e, SCALAR_DELETING_DTOR, t_compound_object_model)
 
 // name:A; map symbol; map:21251
@@ -251,10 +251,10 @@ t_counted_ptr<t_abstract_cache_data<t_compound_object_model>>& t_counted_ptr<t_a
 // name:A; map symbol; map:21253
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, t_combat_object_model_24)
 
-// confidence:C; align-order; stable; map:21254
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:21254
 VA_CHT_1_COMPGEN(0x005d6f60, 0x8, VECTOR_DELETING_DTOR, t_combat_object_model_cache_data)
 
-// confidence:C; align-order; stable; map:21255
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:21255
 VA_CHT_1_COMPGEN(0x005d6f70, 0x8, VECTOR_DELETING_DTOR, "t_abstract_resource_cache_data<t_compound_object_model>")
 
 // === .rdata (7 symbols) ===

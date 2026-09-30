@@ -1,7 +1,7 @@
 // creature_bank_type.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\creature_bank_type.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 5/14 (A:2 B:1 C:2); unaccounted 9; skipped std 1.
+// Accounted 5/14 (A:0 B:0 C:1); unaccounted 9; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,7 +10,7 @@
 
 // === .text (12 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:66982; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:66982; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x006138a0, 0x24, STATIC_INIT_DISPATCH, k_bank_map)
 
 // name:C; dyninit; see ledger; map:66983
@@ -19,7 +19,7 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, k_bank_map)
 // name:C; dyninit; see ledger; map:66984
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, k_bank_map)
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:66985; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:66985; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x006138d0, 0xa, STATIC_DTOR, k_bank_map)
 
 // name:A; map symbol; map:23304
@@ -29,14 +29,14 @@ std::string get_keyword(t_creature_bank_type arg_0)
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:23305
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:23305
 VA_CHT_1(0x006138e0, 0x1b5)
 t_creature_bank_type get_creature_bank_type(std::string const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:66986; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:66986; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00613aa0, 0x20, STATIC_INIT_DISPATCH, creature_bank_type)
 
 // name:A; map symbol; map:23306

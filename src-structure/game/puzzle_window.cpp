@@ -1,7 +1,7 @@
 // puzzle_window.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\puzzle_window.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 81/135 (A:58 B:16 C:7); unaccounted 54; skipped std 26.
+// Accounted 81/135 (A:39 B:3 C:1); unaccounted 54; skipped std 26.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,70 +10,70 @@
 
 // === .text (83 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:63655; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:63655; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00762d20, 0x15, STATIC_INIT_DISPATCH, "puzzle_window#1")
 
 // name:C; dyninit; see ledger; map:63656
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "puzzle_window#1")
 
-// confidence:A; dyninit-init; owner-conf-C; map:63657; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:63657; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00762d40, 0x11, STATIC_INIT_DISPATCH, k_puzzle_background_bitmaps)
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:63658; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:63658; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00762d60, 0xd7, STATIC_CTOR, k_puzzle_background_bitmaps)
 
 // name:C; dyninit; see ledger; map:63659
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, k_puzzle_background_bitmaps)
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:63660; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:63660; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00762e40, 0xa, STATIC_DTOR, k_puzzle_background_bitmaps)
 
-// confidence:A; dyninit-init; owner-conf-C; map:63661; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:63661; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00762e50, 0x11, STATIC_INIT_DISPATCH, "puzzle_window#3")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:63662; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:63662; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00762e70, 0xd1, STATIC_CTOR, "puzzle_window#3")
 
 // name:C; dyninit; see ledger; map:63663
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "puzzle_window#3")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:63664; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:63664; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00762f50, 0xa, STATIC_DTOR, "puzzle_window#3")
 
-// confidence:A; dyninit-init; owner-conf-C; map:63665; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:63665; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00762f60, 0x11, STATIC_INIT_DISPATCH, "puzzle_window#4")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:63666; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:63666; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00762f80, 0xd1, STATIC_CTOR, "puzzle_window#4")
 
 // name:C; dyninit; see ledger; map:63667
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "puzzle_window#4")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:63668; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:63668; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00763060, 0xa, STATIC_DTOR, "puzzle_window#4")
 
-// confidence:A; dyninit-init; owner-conf-C; map:63669; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:63669; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00763070, 0x11, STATIC_INIT_DISPATCH, "puzzle_window#5")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:63670; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:63670; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00763090, 0xd1, STATIC_CTOR, "puzzle_window#5")
 
 // name:C; dyninit; see ledger; map:63671
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "puzzle_window#5")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:63672; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:63672; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00763170, 0xa, STATIC_DTOR, "puzzle_window#5")
 
-// confidence:A; dyninit-init; owner-conf-C; map:63673; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:63673; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00763180, 0x11, STATIC_INIT_DISPATCH, "puzzle_window#6")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:63674; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:63674; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007631a0, 0xd1, STATIC_CTOR, "puzzle_window#6")
 
 // name:C; dyninit; see ledger; map:63675
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "puzzle_window#6")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:63676; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:63676; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00763280, 0xa, STATIC_DTOR, "puzzle_window#6")
 
 namespace {
@@ -85,7 +85,7 @@ t_fader::t_fader(t_puzzle_window* arg_0)
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:32245
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:32245
 VA_CHT_1(0x007632a0, 0x5c)
 void t_fader::on_idle()
 {
@@ -94,7 +94,7 @@ void t_fader::on_idle()
 
 } // anonymous namespace
 
-// confidence:A; dyninit-init; owner-conf-C; map:63677; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:63677; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00763300, 0x1c6, STATIC_INIT_DISPATCH, "puzzle_window#7")
 
 // name:C; dyninit; see ledger; map:63678
@@ -103,17 +103,17 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "puzzle_window#7")
 // name:C; dyninit; see ledger; map:63679
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "puzzle_window#7")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:63680; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:63680; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007634d0, 0x14, STATIC_DTOR, "puzzle_window#7")
 
-// confidence:A; align-order; retn,stable,vptr; map:32246
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:32246
 VA_CHT_1(0x007634f0, 0xdbf)
 t_puzzle_window::t_puzzle_window(t_window* arg_0, t_adventure_frame* arg_1, t_player* arg_2, int arg_3)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vptr; map:32247
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:32247
 VA_CHT_1(0x007642d0, 0x162)
 t_puzzle_window::~t_puzzle_window()
 {
@@ -127,7 +127,7 @@ void t_puzzle_window::reveal_picture(int arg_0, int* arg_1)
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:32249
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:32249
 VA_CHT_1(0x00764440, 0x2e7)
 void t_puzzle_window::display_artifact_location()
 {
@@ -141,26 +141,26 @@ void t_puzzle_window::on_idle()
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:32251
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:32251
 VA_CHT_1(0x00764730, 0x381)
 void t_puzzle_window::obelisk_clicked(t_button* arg_0, t_obelisk_color arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:32252
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:32252
 VA_CHT_1(0x00764ac0, 0x2b)
 void t_puzzle_window::close_click(t_button* arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:63681; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:63681; name:B (dyninit; see ledger)
 VA_CHT_1(0x00764f70, 0x20)
 // puzzle_window$tinit1
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:63683; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:63683; name:B (dyninit; see ledger)
 VA_CHT_1(0x00764f90, 0x5c)
 // puzzle_window$tinit2
 // Function body not reconstructed; signature retained as a comment.
@@ -197,13 +197,13 @@ t_fader::~t_fader()
 
 } // anonymous namespace
 
-// confidence:A; align-band; retn,stable,vslot; map:32256
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:32256
 VA_CHT_1_COMPGEN(0x007642b0, 0x1e, VECTOR_DELETING_DTOR, t_puzzle_window)
 
 // name:A; map symbol; map:32257
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, t_puzzle_window)
 
-// confidence:C; align-band; retn,stable; map:32277
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:32277
 VA_CHT_1(0x00764dc0, 0xbb)
 t_handler_1<t_button*> bound_handler(t_puzzle_window& arg_0, void (t_puzzle_window::*)(t_button*))
 {
@@ -261,7 +261,7 @@ t_handler_base_2<t_button*, t_obelisk_color>* t_handler_2<t_button*, t_obelisk_c
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:32290
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:32290
 VA_CHT_1(0x00764d00, 0x5e)
 t_bound_handler_1<t_puzzle_window, t_button*>::t_bound_handler_1<t_puzzle_window, t_button*>(
     t_puzzle_window& arg_0,
@@ -278,7 +278,7 @@ void t_bound_handler_1<t_puzzle_window, t_button*>::operator()(t_button* arg_0)
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:32292
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:32292
 VA_CHT_1(0x00764d60, 0x5e)
 t_bound_handler_2<t_puzzle_window, t_button*, t_obelisk_color>::t_bound_handler_2<t_puzzle_window, t_button*, t_obelisk_color>(
     t_puzzle_window& arg_0,
@@ -321,20 +321,20 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, "t_bound_handl
 // name:A; map symbol; map:32297
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, "t_bound_handler_1<t_puzzle_window, t_button*>")
 
-// confidence:A; align-band; retn,stable,vslot; map:32298
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:32298
 VA_CHT_1_COMPGEN(0x00764e80, 0x1e, VECTOR_DELETING_DTOR, "t_bound_handler_2<t_puzzle_window, t_button*, t_obelisk_color>")
 
 // name:A; map symbol; map:32299
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, "t_bound_handler_2<t_puzzle_window, t_button*, t_obelisk_color>")
 
-// confidence:C; align-band; retn,stable; map:32300
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:32300
 VA_CHT_1(0x00764f10, 0x58)
 t_handler_base_2<t_button*, t_obelisk_color>::t_handler_base_2<t_button*, t_obelisk_color>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:32301
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:32301
 VA_CHT_1_COMPGEN(0x00764ec0, 0x1e, SCALAR_DELETING_DTOR, "t_add_2nd_handler_1<t_button*, t_obelisk_color>")
 
 // name:A; map symbol; map:32302
@@ -363,7 +363,7 @@ t_handler_base_2<t_button*, t_obelisk_color>::~t_handler_base_2<t_button*, t_obe
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:32306
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:32306
 VA_CHT_1(0x00764ee0, 0x21)
 t_abstract_function_2<void, t_button*, t_obelisk_color>::~t_abstract_function_2<void, t_button*, t_obelisk_color>(
 
@@ -372,7 +372,7 @@ t_abstract_function_2<void, t_button*, t_obelisk_color>::~t_abstract_function_2<
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:32307
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:32307
 VA_CHT_1_COMPGEN(0x00764ea0, 0x20, VECTOR_DELETING_DTOR, "t_abstract_function_2<void, t_button*, t_obelisk_color>")
 
 // name:A; map symbol; map:32308
@@ -437,13 +437,13 @@ t_handler_base_2<t_button*, t_obelisk_color>& t_counted_ptr<t_handler_base_2<t_b
 // name:A; map symbol; map:32317
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, "t_bound_handler_1<t_puzzle_window, t_button*>")
 
-// confidence:C; align-order; stable; map:32318
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:32318
 VA_CHT_1_COMPGEN(0x00764ff0, 0x8, VECTOR_DELETING_DTOR, "t_handler_base_2<t_button*, t_obelisk_color>")
 
-// confidence:C; align-order; stable; map:32319
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:32319
 VA_CHT_1_COMPGEN(0x00765000, 0x8, VECTOR_DELETING_DTOR, "t_add_2nd_handler_1<t_button*, t_obelisk_color>")
 
-// confidence:C; align-order; stable; map:32320
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:32320
 VA_CHT_1_COMPGEN(0x00765010, 0x8, VECTOR_DELETING_DTOR, "t_bound_handler_2<t_puzzle_window, t_button*, t_obelisk_color>")
 
 // === .rdata (11 symbols) ===

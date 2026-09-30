@@ -2,6 +2,11 @@
 """Align the debug map's function sequence against a release exe's function sequence.
 
 usage: align.py <target_id> [--no-vft] [--no-retn]
+       align.py <target_id> --source <retail_source> [--no-retn]
+
+The --source mode compares normalized retail assembly through release_align.py,
+using this same C alignment core for ordered matches between exact-body anchors.
+It writes release.tsv / release_noretn.tsv; RTTI slots and call targets are held out.
 
 Link order is preserved (objs in the same order, functions in source order inside an
 obj), so this is one global sequence alignment (Needleman-Wunsch, linear gaps):
@@ -481,4 +486,9 @@ def main(target, use_vft=True, use_retn=True):
           ", ".join(f"{c} {cats[c]}/{tot[c]}" for c in tot), file=sys.stderr)
 
 if __name__ == "__main__":
-    main(sys.argv[1], use_vft="--no-vft" not in sys.argv, use_retn="--no-retn" not in sys.argv)
+    if "--source" in sys.argv:
+        import release_align
+        release_align.main(sys.argv[1], sys.argv[sys.argv.index("--source") + 1],
+                           use_retn="--no-retn" not in sys.argv)
+    else:
+        main(sys.argv[1], use_vft="--no-vft" not in sys.argv, use_retn="--no-retn" not in sys.argv)

@@ -1,7 +1,7 @@
 // dialog_mana_vortex.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 36/54 (A:25 B:10 C:1); unaccounted 18; skipped std 1.
+// Accounted 36/54 (A:18 B:3 C:0); unaccounted 18; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,26 +10,26 @@
 
 // === .text (31 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-B; map:65876; name:B (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:65876; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0067ad30, 0x11, STATIC_INIT_DISPATCH, k_mana_vortex_bitmaps)
 
-// confidence:B; dyninit-ctor; owner-conf-B; map:65877; name:B (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:65877; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0067ad50, 0xd7, STATIC_CTOR, k_mana_vortex_bitmaps)
 
 // name:B; dyninit; see ledger; map:65878
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, k_mana_vortex_bitmaps)
 
-// confidence:B; dyninit-dtor; owner-conf-B; map:65879; name:B (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:65879; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0067ae30, 0xa, STATIC_DTOR, k_mana_vortex_bitmaps)
 
-// confidence:A; align-order; retn,stable,vptr; map:25133
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:25133
 VA_CHT_1(0x0067ae40, 0x84)
 t_dialog_mana_vortex::t_dialog_mana_vortex(t_window* arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:25134
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25134
 VA_CHT_1(0x0067b000, 0x13e3)
 int t_dialog_mana_vortex::init_dialog(
     t_creature_array* arg_0,
@@ -42,7 +42,7 @@ int t_dialog_mana_vortex::init_dialog(
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:25135
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25135
 VA_CHT_1(0x0067c3f0, 0x167)
 void t_dialog_mana_vortex::close_click(t_button* arg_0)
 {
@@ -56,29 +56,29 @@ void t_dialog_mana_vortex::cancel_click(t_button* arg_0)
     // Body unavailable.
 }
 
-// confidence:A; dyninit-init; owner-conf-C; map:65880; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:65880; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0067c560, 0x11, STATIC_INIT_DISPATCH, "dialog_mana_vortex#2")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:65881; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:65881; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0067c580, 0xd1, STATIC_CTOR, "dialog_mana_vortex#2")
 
 // name:C; dyninit; see ledger; map:65882
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "dialog_mana_vortex#2")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:65883; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:65883; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0067c660, 0xa, STATIC_DTOR, "dialog_mana_vortex#2")
 
-// confidence:B; align-order; retn,stable; map:25137
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25137
 VA_CHT_1(0x0067c670, 0x2a1)
 void t_dialog_mana_vortex::hero_selection_change(t_creature_array_window* arg_0, int arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:65884; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:65884; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0067c9e0, 0x20, STATIC_INIT_DISPATCH, dialog_mana_vortex)
 
-// confidence:A; align-band; retn,stable,vslot; map:25138
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:25138
 VA_CHT_1_COMPGEN(0x0067aed0, 0x1e, SCALAR_DELETING_DTOR, t_dialog_mana_vortex)
 
 // name:A; map symbol; map:25139
@@ -108,7 +108,7 @@ t_handler_1<t_button*> bound_handler(t_dialog_mana_vortex& arg_0, void (t_dialog
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:25143
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:25143
 VA_CHT_1(0x0067c920, 0x5e)
 t_bound_handler_2<t_dialog_mana_vortex, t_creature_array_window*, int>::t_bound_handler_2<t_dialog_mana_vortex, t_creature_array_window*, int>(
     t_dialog_mana_vortex& arg_0,
@@ -128,7 +128,7 @@ void t_bound_handler_2<t_dialog_mana_vortex, t_creature_array_window*, int>::ope
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:25145
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:25145
 VA_CHT_1(0x0067c980, 0x5e)
 t_bound_handler_1<t_dialog_mana_vortex, t_button*>::t_bound_handler_1<t_dialog_mana_vortex, t_button*>(
     t_dialog_mana_vortex& arg_0,
@@ -176,7 +176,7 @@ t_bound_handler_1<t_dialog_mana_vortex, t_button*>::~t_bound_handler_1<t_dialog_
 // name:A; map symbol; map:25153
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, "t_bound_handler_2<t_dialog_mana_vortex, t_creature_array_window*, int>")
 
-// confidence:C; align-order; stable; map:25154
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25154
 VA_CHT_1_COMPGEN(0x0067ca10, 0x8, VECTOR_DELETING_DTOR, "t_bound_handler_1<t_dialog_mana_vortex, t_button*>")
 
 // === .rdata (5 symbols) ===

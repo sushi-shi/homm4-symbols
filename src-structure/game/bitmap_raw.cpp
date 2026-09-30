@@ -1,7 +1,7 @@
 // bitmap_raw.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\bitmap_raw.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 35/59 (A:31 B:1 C:3); unaccounted 24; skipped std 1.
+// Accounted 35/59 (A:24 B:0 C:0); unaccounted 24; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,21 +10,21 @@
 
 // === .text (32 symbols) ===
 
-// confidence:A; align-order; retn,stable,vptr; map:18282
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:18282
 VA_CHT_1(0x0057b4c0, 0x17)
 t_bitmap_raw_24::t_bitmap_raw_24()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:18283
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18283
 VA_CHT_1(0x0057b500, 0x1d)
 t_bitmap_raw_24::~t_bitmap_raw_24()
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:18284
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18284
 VA_CHT_1(0x0057b520, 0x127)
 bool t_bitmap_raw_24::read(
     std::basic_streambuf<char, std::char_traits<char>>& arg_0,
@@ -55,21 +55,21 @@ t_bitmap_raw_16::t_bitmap_raw_16()
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vptr; map:18288
+// confidence:D; align-order; retn,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:18288
 VA_CHT_1(0x0057b670, 0x11e)
 t_bitmap_raw_16::t_bitmap_raw_16(t_bitmap_raw_24 const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn; map:18289
+// confidence:D; align-order; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:18289
 VA_CHT_1(0x0057b790, 0x1d)
 t_bitmap_raw_16::~t_bitmap_raw_16()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; map:18290
+// confidence:D; align-order; review-status=unreviewed;classification=D:not-a-best-guess; map:18290
 VA_CHT_1(0x0057b7b0, 0x16)
 void t_bitmap_raw_16::draw_to(
     t_screen_rect arg_0,
@@ -80,16 +80,16 @@ void t_bitmap_raw_16::draw_to(
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:68947; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:68947; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0057b810, 0x20, STATIC_INIT_DISPATCH, bitmap_raw)
 
-// confidence:A; align-band; retn,stable,vslot; map:18291
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18291
 VA_CHT_1_COMPGEN(0x0057b4e0, 0x1e, VECTOR_DELETING_DTOR, t_bitmap_raw_24)
 
 // name:A; map symbol; map:18292
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, t_bitmap_raw_24)
 
-// confidence:A; align-band; retn,stable,vslot; map:18293
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18293
 VA_CHT_1_COMPGEN(0x0057b650, 0x1e, VECTOR_DELETING_DTOR, t_bitmap_raw_16)
 
 // name:A; map symbol; map:18294
@@ -165,7 +165,7 @@ void t_abstract_bitmap<t_pixel_24>::init(int arg_0, int arg_1, int arg_2, t_pixe
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,vptr; map:18305
+// confidence:D; align-band; retn,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:18305
 VA_CHT_1(0x0057b7f0, 0x1d)
 t_memory_bitmap<t_pixel_24>::t_memory_bitmap<t_pixel_24>()
 {
@@ -200,7 +200,7 @@ t_memory_bitmap<unsigned short>::t_memory_bitmap<unsigned short>()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:18310
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18310
 VA_CHT_1_COMPGEN(0x0057b7d0, 0x1e, VECTOR_DELETING_DTOR, "t_memory_bitmap<t_pixel_24>")
 
 // name:A; map symbol; map:18311

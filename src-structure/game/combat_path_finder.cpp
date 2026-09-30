@@ -1,7 +1,7 @@
 // combat_path_finder.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 21/40 (A:15 B:2 C:4); unaccounted 19; skipped std 20.
+// Accounted 21/40 (A:6 B:0 C:0); unaccounted 19; skipped std 20.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,43 +10,43 @@
 
 // === .text (34 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:67685; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:67685; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x005dab90, 0x15, STATIC_INIT_DISPATCH, "combat_path_finder#1")
 
 // name:C; dyninit; see ledger; map:67686
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "combat_path_finder#1")
 
-// confidence:A; dyninit-init; owner-conf-C; map:67687; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:67687; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x005dabb0, 0x15, STATIC_INIT_DISPATCH, "combat_path_finder#2")
 
 // name:C; dyninit; see ledger; map:67688
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "combat_path_finder#2")
 
-// confidence:A; dyninit-init; owner-conf-C; map:67689; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:67689; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x005dabd0, 0x15, STATIC_INIT_DISPATCH, "combat_path_finder#3")
 
 // name:C; dyninit; see ledger; map:67690
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "combat_path_finder#3")
 
-// confidence:A; dyninit-init; owner-conf-C; map:67691; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:67691; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x005dabf0, 0x15, STATIC_INIT_DISPATCH, "combat_path_finder#4")
 
 // name:C; dyninit; see ledger; map:67692
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "combat_path_finder#4")
 
-// confidence:A; dyninit-init; owner-conf-C; map:67693; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:67693; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x005dac10, 0x10, STATIC_INIT_DISPATCH, "combat_path_finder#5")
 
 // name:C; dyninit; see ledger; map:67694
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "combat_path_finder#5")
 
-// confidence:A; dyninit-init; owner-conf-C; map:67695; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:67695; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x005dac20, 0x15, STATIC_INIT_DISPATCH, "combat_path_finder#6")
 
 // name:C; dyninit; see ledger; map:67696
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "combat_path_finder#6")
 
-// confidence:A; align-order; retn,stable,vptr; map:21447
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:21447
 VA_CHT_1(0x005dac40, 0x8e)
 t_combat_path_finder::t_combat_path_finder(t_combat_creature const& arg_0, bool arg_1)
 {
@@ -67,42 +67,42 @@ bool t_combat_path_finder::contains_quicksand(t_map_point_2d const& arg_0) const
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:21450
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:21450
 VA_CHT_1(0x005dad60, 0x27c)
 void t_combat_path_finder::initialize_tower(t_map_rect_2d const& arg_0, t_map_point_2d const& arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:21451
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:21451
 VA_CHT_1(0x005dafe0, 0xfe)
 void t_combat_path_finder::tower_initialization()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:21452
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:21452
 VA_CHT_1(0x005db0e0, 0x678)
 void t_combat_path_finder::initialize()
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:67697
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:67697
 VA_CHT_1(0x005db820, 0x24e)
 static void mark_path_map(t_combat_path_map& arg_0, t_combat_creature const* arg_1, bool arg_2)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:21453
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:21453
 VA_CHT_1(0x005dba70, 0x7f8)
 void t_combat_path_finder::generate_paths()
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:67698; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:67698; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x005dc540, 0x20, STATIC_INIT_DISPATCH, combat_path_finder)
 
 // name:A; map symbol; map:21454
@@ -126,7 +126,7 @@ void t_combat_path_queue::clear()
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:21457
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:21457
 VA_CHT_1(0x005dc510, 0x28)
 std::list<t_counted_ptr<t_abstract_combat_object>, std::allocator<t_counted_ptr<t_abstract_combat_object>>>::const_iterator t_battlefield::objects_begin(
 
@@ -199,7 +199,7 @@ unsigned long& t_basic_isometric_map<t_isometric_tile_map_base, unsigned long>::
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:21479
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:21479
 VA_CHT_1(0x005db760, 0xbd)
 t_battlefield_cell const& t_basic_isometric_map<t_isometric_tile_map_base, t_battlefield_cell>::get(
     t_level_map_point_2d const& arg_0

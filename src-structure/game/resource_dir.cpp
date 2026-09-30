@@ -1,7 +1,7 @@
 // resource_dir.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 16/51 (A:4 B:3 C:9); unaccounted 35; skipped std 68.
+// Accounted 16/51 (A:0 B:0 C:0); unaccounted 35; skipped std 68.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,7 +10,7 @@
 
 // === .text (51 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:63464; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:63464; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00777670, 0x23, STATIC_INIT_DISPATCH, "resource_dir#1")
 
 // name:C; dyninit; see ledger; map:63465
@@ -19,10 +19,10 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "resource_dir#1")
 // name:C; dyninit; see ledger; map:63466
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "resource_dir#1")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:63467; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:63467; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007776a0, 0xa, STATIC_DTOR, "resource_dir#1")
 
-// confidence:A; dyninit-init; owner-conf-C; map:63468; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:63468; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007777b0, 0x23, STATIC_INIT_DISPATCH, "resource_dir#2")
 
 // name:C; dyninit; see ledger; map:63469
@@ -31,10 +31,10 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "resource_dir#2")
 // name:C; dyninit; see ledger; map:63470
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "resource_dir#2")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:63471; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:63471; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007777e0, 0xa, STATIC_DTOR, "resource_dir#2")
 
-// confidence:A; dyninit-init; owner-conf-C; map:63472; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:63472; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007777f0, 0x29, STATIC_INIT_DISPATCH, "resource_dir#3")
 
 // name:C; dyninit; see ledger; map:63473
@@ -43,73 +43,73 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "resource_dir#3")
 // name:C; dyninit; see ledger; map:63474
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "resource_dir#3")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:63475; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:63475; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00777820, 0x43, STATIC_DTOR, "resource_dir#3")
 
-// confidence:C; align-order; stable; map:33090
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:33090
 VA_CHT_1(0x00777870, 0x1be)
 t_counted_ptr<t_abstract_file> find_resource_file_handle(std::string arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:33091
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:33091
 VA_CHT_1(0x00777a30, 0xd6)
 int find_resource_offset(std::string arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:33092
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:33092
 VA_CHT_1(0x00778180, 0x4)
 void close_resource_directory()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:33093
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:33093
 VA_CHT_1(0x007783a0, 0x77)
 void add_resource_folder(char const* arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:63476
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:63476
 VA_CHT_1(0x00778420, 0x12d)
 static void add_alias(std::string arg_0, std::string arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:33094
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:33094
 VA_CHT_1(0x00778550, 0x64e)
 bool add_resource_file(char const* arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:33095
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:33095
 VA_CHT_1(0x00778ba0, 0x19e)
 t_resource_entry const* find_resource(std::string arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:33096
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:33096
 VA_CHT_1(0x00778d40, 0x38)
 t_resource_entry const* get_resource(int arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:33097
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:33097
 VA_CHT_1(0x00778e40, 0x23)
 int get_resource_count()
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:63477; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:63477; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00779810, 0x3f, STATIC_INIT_DISPATCH, resource_dir)
 
 // name:A; map symbol; map:33098

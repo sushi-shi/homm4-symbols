@@ -1,7 +1,7 @@
 // dialog_tree_of_knowledge.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 41/60 (A:26 B:13 C:2); unaccounted 19; skipped std 1.
+// Accounted 41/60 (A:18 B:2 C:1); unaccounted 19; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,50 +10,50 @@
 
 // === .text (37 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:65605; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:65605; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0068f0a0, 0x11, STATIC_INIT_DISPATCH, k_large_material_bitmaps)
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:65606; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:65606; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0068f0c0, 0xd7, STATIC_CTOR, k_large_material_bitmaps)
 
 // name:C; dyninit; see ledger; map:65607
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, k_large_material_bitmaps)
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:65608; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:65608; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0068f1a0, 0xa, STATIC_DTOR, k_large_material_bitmaps)
 
-// confidence:A; dyninit-init; owner-conf-C; map:65609; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:65609; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0068f1b0, 0x11, STATIC_INIT_DISPATCH, "dialog_tree_of_knowledge#2")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:65610; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:65610; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0068f1d0, 0xd7, STATIC_CTOR, "dialog_tree_of_knowledge#2")
 
 // name:C; dyninit; see ledger; map:65611
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "dialog_tree_of_knowledge#2")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:65612; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:65612; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0068f2b0, 0xa, STATIC_DTOR, "dialog_tree_of_knowledge#2")
 
-// confidence:A; dyninit-init; owner-conf-C; map:65613; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:65613; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0068f2c0, 0x11, STATIC_INIT_DISPATCH, "dialog_tree_of_knowledge#3")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:65614; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:65614; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0068f2e0, 0xd1, STATIC_CTOR, "dialog_tree_of_knowledge#3")
 
 // name:C; dyninit; see ledger; map:65615
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "dialog_tree_of_knowledge#3")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:65616; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:65616; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0068f3c0, 0xa, STATIC_DTOR, "dialog_tree_of_knowledge#3")
 
-// confidence:A; align-order; retn,stable,vptr; map:25476
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:25476
 VA_CHT_1(0x0068f3d0, 0x84)
 t_dialog_tree_of_knowledge::t_dialog_tree_of_knowledge(t_window* arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:25477
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25477
 VA_CHT_1(0x0068f560, 0x1bb2)
 int t_dialog_tree_of_knowledge::init_dialog(
     std::vector<t_hero*, std::allocator<t_hero*>> const& arg_0,
@@ -69,14 +69,14 @@ int t_dialog_tree_of_knowledge::init_dialog(
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:25478
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25478
 VA_CHT_1(0x00691120, 0x148)
 void t_dialog_tree_of_knowledge::selection_change(t_creature_select_window* arg_0, t_creature_stack* arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:25479
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25479
 VA_CHT_1(0x00691270, 0x164)
 void t_dialog_tree_of_knowledge::buy_clicked(t_button* arg_0)
 {
@@ -90,24 +90,24 @@ void t_dialog_tree_of_knowledge::close_clicked(t_button* arg_0)
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:25481
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25481
 VA_CHT_1(0x006913e0, 0x7d)
 std::vector<t_hero*, std::allocator<t_hero*>> t_dialog_tree_of_knowledge::get_selected_heroes()
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:25482
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25482
 VA_CHT_1(0x00691460, 0x7d)
 std::vector<int, std::allocator<int>> t_dialog_tree_of_knowledge::get_gained_experience()
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:65617; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:65617; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x006915a0, 0x20, STATIC_INIT_DISPATCH, dialog_tree_of_knowledge)
 
-// confidence:A; align-band; retn,stable,vslot; map:25483
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:25483
 VA_CHT_1_COMPGEN(0x0068f460, 0x1e, SCALAR_DELETING_DTOR, t_dialog_tree_of_knowledge)
 
 // name:A; map symbol; map:25484
@@ -140,7 +140,7 @@ t_handler_1<t_button*> bound_handler(
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:25488
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:25488
 VA_CHT_1(0x006914e0, 0x5e)
 t_bound_handler_2<t_dialog_tree_of_knowledge, t_creature_select_window*, t_creature_stack*>::t_bound_handler_2<t_dialog_tree_of_knowledge, t_creature_select_window*, t_creature_stack*>(
     t_dialog_tree_of_knowledge& arg_0,
@@ -160,7 +160,7 @@ void t_bound_handler_2<t_dialog_tree_of_knowledge, t_creature_select_window*, t_
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:25490
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:25490
 VA_CHT_1(0x00691540, 0x5e)
 t_bound_handler_1<t_dialog_tree_of_knowledge, t_button*>::t_bound_handler_1<t_dialog_tree_of_knowledge, t_button*>(
     t_dialog_tree_of_knowledge& arg_0,
@@ -210,7 +210,7 @@ t_bound_handler_1<t_dialog_tree_of_knowledge, t_button*>::~t_bound_handler_1<t_d
 // name:A; map symbol; map:25498
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, "t_bound_handler_2<t_dialog_tree_of_knowledge, t_creature_select_window*, t_creature_stack*>")
 
-// confidence:C; align-order; stable; map:25499
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25499
 VA_CHT_1_COMPGEN(0x006915d0, 0x8, VECTOR_DELETING_DTOR, "t_bound_handler_1<t_dialog_tree_of_knowledge, t_button*>")
 
 // === .rdata (5 symbols) ===

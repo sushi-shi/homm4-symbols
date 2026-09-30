@@ -1,7 +1,7 @@
 // script_player_number.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 21/49 (A:21 B:0 C:0); unaccounted 28; skipped std 1.
+// Accounted 21/49 (A:16 B:0 C:0); unaccounted 28; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -17,10 +17,10 @@ int t_script_player_number::evaluate(t_expression_context_global const& arg_0) c
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:63009; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:63009; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007a2430, 0x49, STATIC_INIT_DISPATCH, script_player_number)
 
-// confidence:A; align-order; atexit,stable; map:63011; name:C (dyninit; see ledger)
+// confidence:D; align-order; atexit,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:63011; name:C (dyninit; see ledger)
 VA_CHT_1(0x007a2480, 0x1f)
 // t_script_numeric_expression_base<11,t_script_player_number>::k_factory$atexit
 // Function body not reconstructed; signature retained as a comment.
@@ -38,14 +38,14 @@ t_script_numeric_expression_factory<11>::~t_script_numeric_expression_factory<11
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:36057
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:36057
 VA_CHT_1(0x007a24a0, 0x49)
 t_script_numeric_expression_factory<11>::t_script_numeric_expression_factory<11>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:36058
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:36058
 VA_CHT_1(0x007a24f0, 0x42)
 t_counted_ptr<t_abstract_script_numeric_expression> t_script_numeric_expression_factory<11>::create() const
 {
@@ -84,7 +84,7 @@ t_script_numeric_expression<11>::t_script_numeric_expression<11>(t_script_numeri
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:36063
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:36063
 VA_CHT_1_COMPGEN(0x007a2540, 0x4b, SCALAR_DELETING_DTOR, "t_script_numeric_expression<11>")
 
 // name:A; map symbol; map:36064

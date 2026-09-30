@@ -1,7 +1,7 @@
 // bink_window.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 18/28 (A:15 B:1 C:2); unaccounted 10; skipped std 3.
+// Accounted 18/28 (A:8 B:1 C:0); unaccounted 10; skipped std 3.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,14 +10,14 @@
 
 // === .text (18 symbols) ===
 
-// confidence:C; align-order; stable; map:17953
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:17953
 VA_CHT_1(0x0056efe0, 0x168)
 std::string get_bink_resource_name(std::string arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; stable,vptr; map:17954
+// confidence:D; align-order; stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:17954
 VA_CHT_1(0x0056f150, 0x418)
 t_bink_window::t_bink_window(
     t_screen_point arg_0,
@@ -33,21 +33,21 @@ t_bink_window::t_bink_window(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vptr; map:17955
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:17955
 VA_CHT_1(0x0056f590, 0x10f)
 t_bink_window::~t_bink_window()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:17956
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:17956
 VA_CHT_1(0x0056f6a0, 0x1f)
 void t_bink_window::on_animation_end()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:17957
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:17957
 VA_CHT_1(0x0056f6c0, 0x247)
 void t_bink_window::on_idle()
 {
@@ -68,7 +68,7 @@ void t_bink_window::on_close()
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:17960
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:17960
 VA_CHT_1(0x0056f920, 0x126)
 bool t_bink_window::open(
     std::string arg_0,
@@ -82,17 +82,17 @@ bool t_bink_window::open(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:17961
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:17961
 VA_CHT_1(0x0056fa50, 0x92)
 void t_bink_window::paint(t_paint_surface& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:68978; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:68978; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0056faf0, 0x20, STATIC_INIT_DISPATCH, bink_window)
 
-// confidence:A; align-band; retn,stable,vslot; map:17962
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:17962
 VA_CHT_1_COMPGEN(0x0056f570, 0x1e, SCALAR_DELETING_DTOR, t_bink_window)
 
 // name:A; map symbol; map:17963

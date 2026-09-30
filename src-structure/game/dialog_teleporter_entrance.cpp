@@ -1,7 +1,7 @@
 // dialog_teleporter_entrance.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\dialog_teleporter_entrance.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 66/103 (A:45 B:13 C:8); unaccounted 37; skipped std 88.
+// Accounted 66/103 (A:32 B:6 C:0); unaccounted 37; skipped std 88.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,37 +10,37 @@
 
 // === .text (61 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:65619; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:65619; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0068cad0, 0x15, STATIC_INIT_DISPATCH, "dialog_teleporter_entrance#1")
 
 // name:C; dyninit; see ledger; map:65620
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "dialog_teleporter_entrance#1")
 
-// confidence:A; dyninit-init; owner-conf-B; map:65621; name:B (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:65621; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0068caf0, 0x11, STATIC_INIT_DISPATCH, k_teleporter_bitmaps)
 
-// confidence:B; dyninit-ctor; owner-conf-B; map:65622; name:B (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:65622; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0068cb10, 0xd7, STATIC_CTOR, k_teleporter_bitmaps)
 
 // name:B; dyninit; see ledger; map:65623
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, k_teleporter_bitmaps)
 
-// confidence:B; dyninit-dtor; owner-conf-B; map:65624; name:B (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:65624; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0068cbf0, 0xa, STATIC_DTOR, k_teleporter_bitmaps)
 
-// confidence:A; dyninit-init; owner-conf-B; map:65625; name:A (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:65625; name:A (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0068cc00, 0x11, STATIC_INIT_DISPATCH, k_teleporter_icons)
 
-// confidence:B; dyninit-ctor; owner-conf-B; map:65626; name:A (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:65626; name:A (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0068cc20, 0xd7, STATIC_CTOR, k_teleporter_icons)
 
 // name:A; dyninit; see ledger; map:65627
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, k_teleporter_icons)
 
-// confidence:B; dyninit-dtor; owner-conf-B; map:65628; name:A (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:65628; name:A (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0068cd00, 0xa, STATIC_DTOR, k_teleporter_icons)
 
-// confidence:A; align-order; retn,stable,vptr; map:25343
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:25343
 VA_CHT_1(0x0068cd10, 0xcc)
 t_mini_map_marker_window::t_mini_map_marker_window(
     t_abstract_adventure_map const& arg_0,
@@ -52,14 +52,14 @@ t_mini_map_marker_window::t_mini_map_marker_window(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:25344
+// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:25344
 VA_CHT_1(0x0068cde0, 0x1e)
 void t_mini_map_marker_window::paint(t_paint_surface& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:25345
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:25345
 VA_CHT_1(0x0068cec0, 0x1a0)
 t_shared_ptr<t_abstract_bitmap<unsigned short>> t_mini_map_marker_window::create_back_buffer(
     t_screen_point const& arg_0
@@ -103,14 +103,14 @@ void t_mini_map_marker_window::center_view(t_screen_point arg_0)
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vptr; map:25351
+// confidence:D; align-order; retn,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:25351
 VA_CHT_1(0x0068d060, 0x14f)
 t_dialog_teleporter_entrance::t_dialog_teleporter_entrance(t_window* arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:25352
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25352
 VA_CHT_1(0x0068d360, 0x16e3)
 void t_dialog_teleporter_entrance::init_dialog(
     t_adventure_frame* arg_0,
@@ -124,21 +124,21 @@ void t_dialog_teleporter_entrance::init_dialog(
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:25353
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25353
 VA_CHT_1(0x0068ea50, 0x1d3)
 void t_dialog_teleporter_entrance::show_exits(int arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:25354
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25354
 VA_CHT_1(0x0068ec30, 0x13)
 void t_dialog_teleporter_entrance::map_scrollbar_move(t_scrollbar* arg_0, int arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:25355
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25355
 VA_CHT_1(0x0068ec50, 0xf)
 int t_dialog_teleporter_entrance::get_selected_exit()
 {
@@ -152,33 +152,33 @@ void t_dialog_teleporter_entrance::left_button_down(t_mouse_event const& arg_0)
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:25357
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25357
 VA_CHT_1(0x0068ec60, 0x2d)
 void t_dialog_teleporter_entrance::map_clicked(t_button* arg_0, int arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:25358
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25358
 VA_CHT_1(0x0068ec90, 0x14)
 void t_dialog_teleporter_entrance::ok_click(t_button* arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:25359
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25359
 VA_CHT_1(0x0068ecb0, 0x1e)
 void t_dialog_teleporter_entrance::close_click(t_button* arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:65629; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:65629; name:B (dyninit; see ledger)
 VA_CHT_1(0x0068efe0, 0x20)
 // dialog_teleporter_entrance$tinit1
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:65631; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:65631; name:B (dyninit; see ledger)
 VA_CHT_1(0x0068f000, 0x5c)
 // dialog_teleporter_entrance$tinit2
 // Function body not reconstructed; signature retained as a comment.
@@ -211,7 +211,7 @@ t_mini_map_marker_window::~t_mini_map_marker_window()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:25363
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:25363
 VA_CHT_1_COMPGEN(0x0068d1b0, 0x1e, SCALAR_DELETING_DTOR, t_dialog_teleporter_entrance)
 
 // name:A; map symbol; map:25364
@@ -261,7 +261,7 @@ t_handler_2<t_button*, int> bound_handler(
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:25457
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:25457
 VA_CHT_1(0x0068ed50, 0x5e)
 t_bound_handler_1<t_dialog_teleporter_entrance, t_button*>::t_bound_handler_1<t_dialog_teleporter_entrance, t_button*>(
     t_dialog_teleporter_entrance& arg_0,
@@ -278,7 +278,7 @@ void t_bound_handler_1<t_dialog_teleporter_entrance, t_button*>::operator()(t_bu
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:25459
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:25459
 VA_CHT_1(0x0068edb0, 0x5e)
 t_bound_handler_2<t_dialog_teleporter_entrance, t_scrollbar*, int>::t_bound_handler_2<t_dialog_teleporter_entrance, t_scrollbar*, int>(
     t_dialog_teleporter_entrance& arg_0,
@@ -298,7 +298,7 @@ void t_bound_handler_2<t_dialog_teleporter_entrance, t_scrollbar*, int>::operato
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:25461
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:25461
 VA_CHT_1(0x0068ee10, 0x5e)
 t_bound_handler_2<t_dialog_teleporter_entrance, t_button*, int>::t_bound_handler_2<t_dialog_teleporter_entrance, t_button*, int>(
     t_dialog_teleporter_entrance& arg_0,
@@ -360,16 +360,16 @@ t_bound_handler_2<t_dialog_teleporter_entrance, t_button*, int>::~t_bound_handle
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:25472
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25472
 VA_CHT_1_COMPGEN(0x0068f060, 0x8, VECTOR_DELETING_DTOR, "t_bound_handler_2<t_dialog_teleporter_entrance, t_button*, int>")
 
-// confidence:C; align-order; stable; map:25473
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25473
 VA_CHT_1_COMPGEN(0x0068f070, 0x8, VECTOR_DELETING_DTOR, "t_bound_handler_1<t_dialog_teleporter_entrance, t_button*>")
 
-// confidence:C; align-order; stable; map:25474
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25474
 VA_CHT_1_COMPGEN(0x0068f080, 0xb, VECTOR_DELETING_DTOR, t_mini_map_marker_window)
 
-// confidence:C; align-order; stable; map:25475
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25475
 VA_CHT_1_COMPGEN(0x0068f090, 0x8, VECTOR_DELETING_DTOR, "t_bound_handler_2<t_dialog_teleporter_entrance, t_scrollbar*, int>")
 
 // === .rdata (9 symbols) ===

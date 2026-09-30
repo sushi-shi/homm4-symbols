@@ -1,7 +1,7 @@
 // adv_object_flag.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\adv_object_flag.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 15/22 (A:8 B:3 C:4); unaccounted 7; skipped std 1.
+// Accounted 15/22 (A:0 B:0 C:0); unaccounted 7; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -12,7 +12,7 @@
 
 namespace {
 
-// confidence:C; align-order; retn,stable; map:4987
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:4987
 VA_CHT_1(0x004442f0, 0x30c)
 t_cached_ptr<t_animation> get_flag_animation(t_player_color arg_0)
 {
@@ -28,7 +28,7 @@ VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 
 namespace {
 
-// confidence:C; align-order; retn,stable; map:4988
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:4988
 VA_CHT_1(0x00444600, 0x14)
 t_screen_point get_base_point(t_animation const& arg_0)
 {
@@ -37,7 +37,7 @@ t_screen_point get_base_point(t_animation const& arg_0)
 
 } // anonymous namespace
 
-// confidence:C; align-order; retn,stable; map:4989
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:4989
 VA_CHT_1(0x00444620, 0x24f)
 t_screen_rect const& t_adv_object_flag::get_flag_extent()
 {
@@ -49,28 +49,28 @@ VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 // t_adv_object_flag::get_flag_extent$sdtor
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; align-order; retn,stable,vptr; map:4990
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:4990
 VA_CHT_1(0x00444880, 0xef)
 t_adv_object_flag::t_adv_object_flag(t_player_color arg_0, t_screen_point const& arg_1, int arg_2)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vptr; map:4991
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:4991
 VA_CHT_1(0x00444970, 0x8f)
 t_adv_object_flag::~t_adv_object_flag()
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:4992
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:4992
 VA_CHT_1(0x00444a00, 0x33)
 int t_adv_object_flag::compute_frame(unsigned long arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:4993
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:4993
 VA_CHT_1(0x00444a40, 0x157)
 void t_adv_object_flag::draw_to(
     int arg_0,
@@ -83,7 +83,7 @@ void t_adv_object_flag::draw_to(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:4994
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:4994
 VA_CHT_1(0x00444ba0, 0x7a)
 void t_adv_object_flag::draw_to(
     int arg_0,
@@ -94,35 +94,35 @@ void t_adv_object_flag::draw_to(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:4995
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:4995
 VA_CHT_1(0x00444c20, 0x4)
 int t_adv_object_flag::get_depth_offset() const
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:4996
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:4996
 VA_CHT_1(0x00444c30, 0x19)
 int t_adv_object_flag::get_frame_count() const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:4997
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:4997
 VA_CHT_1(0x00444c50, 0x5c)
 t_screen_rect t_adv_object_flag::get_rect() const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:4998
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:4998
 VA_CHT_1(0x00444cb0, 0x69)
 t_screen_rect t_adv_object_flag::get_rect(int arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:4999
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:4999
 VA_CHT_1(0x00444d20, 0x4c)
 bool t_adv_object_flag::hit_test(int arg_0, t_screen_point const& arg_1) const
 {
@@ -136,7 +136,7 @@ bool t_adv_object_flag::is_underlay() const
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:5001
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:5001
 VA_CHT_1(0x00444ed0, 0xca)
 void t_adv_object_flag::set_color(t_player_color arg_0)
 {
@@ -150,7 +150,7 @@ unsigned long t_adv_object_flag::pick_time_offset() const
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:71006; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:71006; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00444fa0, 0x20, STATIC_INIT_DISPATCH, adv_object_flag)
 
 // name:A; map symbol; map:5003

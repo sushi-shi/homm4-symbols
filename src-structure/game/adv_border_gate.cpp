@@ -1,7 +1,7 @@
 // adv_border_gate.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 24/46 (A:20 B:2 C:2); unaccounted 22; skipped std 1.
+// Accounted 24/46 (A:12 B:2 C:0); unaccounted 22; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -34,20 +34,20 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "adv_border_gate#2")
 // name:C; dyninit; see ledger; map:71202
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_DTOR, "adv_border_gate#2")
 
-// confidence:A; dyninit-init; owner-conf-C; map:71203; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:71203; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00434930, 0x1c, STATIC_INIT_DISPATCH, "adv_border_gate#3")
 
 // name:C; dyninit; see ledger; map:71204
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "adv_border_gate#3")
 
-// confidence:A; align-order; retn,stable,vptr; map:4165
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:4165
 VA_CHT_1(0x00434950, 0x111)
 t_adv_border_gate::t_adv_border_gate(std::string const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:4166
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:4166
 VA_CHT_1(0x00434b00, 0x40b)
 void t_adv_border_gate::activate_trigger(
     t_army* arg_0,
@@ -59,7 +59,7 @@ void t_adv_border_gate::activate_trigger(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:4167
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:4167
 VA_CHT_1(0x00434f10, 0x3d)
 bool t_adv_border_gate::blocks_army(t_creature_array const& arg_0, t_path_search_type arg_1) const
 {
@@ -73,7 +73,7 @@ bool t_adv_border_gate::is_triggered_by(t_creature_array const& arg_0) const
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:4169
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:4169
 VA_CHT_1(0x00434f50, 0x3d)
 bool t_adv_border_gate::write(std::basic_streambuf<char, std::char_traits<char>>& arg_0) const
 {
@@ -91,16 +91,16 @@ bool t_adv_border_gate::read(
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-C; map:71205; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:71205; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00435040, 0x20, STATIC_INIT_DISPATCH, adv_border_gate)
 
-// confidence:A; align-band; retn,stable,vslot; map:4171
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:4171
 VA_CHT_1_COMPGEN(0x00434a70, 0x2d, SCALAR_DELETING_DTOR, t_adv_border_gate)
 
 // name:A; map symbol; map:4172
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, t_adv_border_gate)
 
-// confidence:C; align-band; retn,stable; map:4173
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:4173
 VA_CHT_1(0x00434aa0, 0x57)
 // public: void t_adv_border_gate::`vbase dtor'(void)
 // Function body not reconstructed; signature retained as a comment.
@@ -126,7 +126,7 @@ t_object_factory<t_adv_border_gate>::t_object_factory<t_adv_border_gate>()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:4177
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:4177
 VA_CHT_1(0x00434fd0, 0x62)
 t_stationary_adventure_object* t_object_factory<t_adv_border_gate>::create(
     std::string const& arg_0,
@@ -139,7 +139,7 @@ t_stationary_adventure_object* t_object_factory<t_adv_border_gate>::create(
 // name:A; map symbol; map:4178
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, t_adv_border_gate)
 
-// confidence:C; align-order; stable; map:4179
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:4179
 VA_CHT_1_COMPGEN(0x00435070, 0xb, VECTOR_DELETING_DTOR, t_adv_border_gate)
 
 // === .rdata (7 symbols) ===

@@ -1,7 +1,7 @@
 // adv_shipyard.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\adv_shipyard.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 32/64 (A:24 B:5 C:3); unaccounted 32; skipped std 1.
+// Accounted 32/64 (A:12 B:3 C:0); unaccounted 32; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,13 +10,13 @@
 
 // === .text (43 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:70834; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:70834; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00462370, 0x15, STATIC_INIT_DISPATCH, "adv_shipyard#1")
 
 // name:C; dyninit; see ledger; map:70835
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "adv_shipyard#1")
 
-// confidence:A; dyninit-init; owner-conf-B; map:70836; name:B (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:70836; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00462390, 0x1c, STATIC_INIT_DISPATCH, g_shipyard_registration)
 
 // name:B; dyninit; see ledger; map:70837
@@ -32,14 +32,14 @@ bool t_adv_shipyard::read_from_map(
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:5730
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:5730
 VA_CHT_1(0x004623b0, 0x6d3)
 void t_adv_shipyard::build_ship(t_town_type arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:5731
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:5731
 VA_CHT_1(0x00462a90, 0x243)
 void t_adv_shipyard::activate_trigger(
     t_army* arg_0,
@@ -51,14 +51,14 @@ void t_adv_shipyard::activate_trigger(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:5732
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:5732
 VA_CHT_1(0x00462ce0, 0x67)
 void t_adv_shipyard::left_double_click(t_mouse_event const& arg_0, t_adventure_frame* arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:5733
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:5733
 VA_CHT_1(0x00462d50, 0x20c)
 bool t_adv_shipyard::find_new_ship_position(t_adv_map_point& arg_0) const
 {
@@ -76,28 +76,28 @@ static bool find_new_ship_position(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:5734
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:5734
 VA_CHT_1(0x00462f60, 0xd)
 void t_adv_shipyard::read_postplacement(t_adventure_map& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:5735
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:5735
 VA_CHT_1(0x00462f70, 0x28)
 bool t_adv_shipyard::preplacement(t_adventure_map& arg_0, int arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; stable,vslot; map:5736
+// confidence:D; align-order; stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:5736
 VA_CHT_1(0x00462fa0, 0x24)
 void t_adv_shipyard::on_removed()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:5737
+// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:5737
 VA_CHT_1(0x00462fd0, 0x3e7)
 void t_adv_shipyard::pathing_destination_query(
     t_adventure_path_point const& arg_0,
@@ -120,12 +120,12 @@ static void add_pathing_destinations(
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:70840; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:70840; name:B (dyninit; see ledger)
 VA_CHT_1(0x00463640, 0x20)
 // adv_shipyard$tinit1
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; dyninit-tinit; owner-conf-C; map:70842; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:70842; name:B (dyninit; see ledger)
 VA_CHT_1(0x00463660, 0x5c)
 // adv_shipyard$tinit2
 // Function body not reconstructed; signature retained as a comment.
@@ -233,7 +233,7 @@ int const* t_int_array<7>::get() const
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:5750
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:5750
 VA_CHT_1(0x00463620, 0x12)
 t_object_registration<t_adv_shipyard>::t_object_registration<t_adv_shipyard>(t_adv_object_type arg_0)
 {
@@ -247,7 +247,7 @@ t_object_factory<t_adv_shipyard>::t_object_factory<t_adv_shipyard>()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,vslot; map:5752
+// confidence:D; align-band; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:5752
 VA_CHT_1(0x004633c0, 0x189)
 t_stationary_adventure_object* t_object_factory<t_adv_shipyard>::create(
     std::string const& arg_0,
@@ -264,7 +264,7 @@ t_adv_shipyard::t_adv_shipyard(std::string const& arg_0)
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:5754
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:5754
 VA_CHT_1_COMPGEN(0x00463550, 0x2d, SCALAR_DELETING_DTOR, t_adv_shipyard)
 
 // name:A; map symbol; map:5755
@@ -289,10 +289,10 @@ void t_int_array<7>::set(int arg_0)
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:5759
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:5759
 VA_CHT_1_COMPGEN(0x004636c0, 0x8, VECTOR_DELETING_DTOR, t_adv_shipyard)
 
-// confidence:C; align-order; stable; map:5760
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:5760
 VA_CHT_1_COMPGEN(0x004636d0, 0xb, VECTOR_DELETING_DTOR, t_adv_shipyard)
 
 // === .rdata (7 symbols) ===

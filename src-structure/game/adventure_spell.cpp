@@ -1,7 +1,7 @@
 // adventure_spell.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\adventure_spell.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 81/135 (A:48 B:30 C:3); unaccounted 54; skipped std 12.
+// Accounted 81/135 (A:31 B:0 C:0); unaccounted 54; skipped std 12.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,7 +10,7 @@
 
 // === .text (103 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:69727; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:69727; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x004f09d0, 0x15, STATIC_INIT_DISPATCH, "adventure_spell#1")
 
 // name:C; dyninit; see ledger; map:69728
@@ -18,28 +18,28 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "adventure_spell#1")
 
 namespace {
 
-// confidence:C; align-order; retn,stable; map:12415
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:12415
 VA_CHT_1(0x004f09f0, 0x1ce)
 bool fail_to_cast_spell(std::string const& arg_0, t_spellbook_window_data const& arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:12416
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:12416
 VA_CHT_1(0x004f0bc0, 0xf6)
 t_army* find_nearest_owned_boat(t_adventure_map& arg_0, int arg_1, t_level_map_point_2d const& arg_2)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:12417
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:12417
 VA_CHT_1(0x004f0cc0, 0x19e)
 void pay_cost(t_creature_stack& arg_0, t_spellbook_window_data const& arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:12418
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:12418
 VA_CHT_1(0x004f0e60, 0xcc)
 void play_sound(t_spell arg_0)
 {
@@ -58,14 +58,14 @@ t_mire_targeter::t_mire_targeter(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:12420
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:12420
 VA_CHT_1(0x004f0f30, 0x42)
 void t_mire_targeter::cast_spell(t_adventure_map_window& arg_0, t_screen_point const& arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:12421
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:12421
 VA_CHT_1(0x004f0f80, 0x51)
 bool t_mire_targeter::is_valid_target(t_adventure_map_window const& arg_0, t_screen_point const& arg_1)
 {
@@ -79,14 +79,14 @@ t_army* t_mire_targeter::get_army_ptr(t_adventure_map_window const& arg_0, t_scr
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:12423
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:12423
 VA_CHT_1(0x004f0fe0, 0x303)
 void t_mire_targeter::apply(t_army& arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:12424
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:12424
 VA_CHT_1(0x004f12f0, 0x138)
 bool t_mire_targeter::is_targetable(t_army const& arg_0) const
 {
@@ -95,19 +95,19 @@ bool t_mire_targeter::is_targetable(t_army const& arg_0) const
 
 } // anonymous namespace
 
-// confidence:A; dyninit-init; owner-conf-C; map:69729; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:69729; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x004f1430, 0x11, STATIC_INIT_DISPATCH, "adventure_spell#2")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:69730; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:69730; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x004f1450, 0xd1, STATIC_CTOR, "adventure_spell#2")
 
 // name:C; dyninit; see ledger; map:69731
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "adventure_spell#2")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:69732; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:69732; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x004f1530, 0xa, STATIC_DTOR, "adventure_spell#2")
 
-// confidence:B; align-order; retn,stable; map:12425
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:12425
 VA_CHT_1(0x004f1540, 0x2a9)
 bool t_adventure_frame::cast_endurance(
     t_creature_array& arg_0,
@@ -118,45 +118,45 @@ bool t_adventure_frame::cast_endurance(
     // Body unavailable.
 }
 
-// confidence:A; dyninit-init; owner-conf-C; map:69733; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:69733; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x004f17f0, 0x11, STATIC_INIT_DISPATCH, "adventure_spell#3")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:69734; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:69734; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x004f1810, 0xd1, STATIC_CTOR, "adventure_spell#3")
 
 // name:C; dyninit; see ledger; map:69735
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "adventure_spell#3")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:69736; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:69736; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x004f18f0, 0xa, STATIC_DTOR, "adventure_spell#3")
 
-// confidence:B; align-order; retn,stable; map:12426
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:12426
 VA_CHT_1(0x004f1900, 0x383)
 bool t_adventure_frame::cast_healing(t_creature_array& arg_0, int arg_1, t_spellbook_window_data const& arg_2)
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-init; owner-conf-C; map:69737; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:69737; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x004f20f0, 0x11, STATIC_INIT_DISPATCH, "adventure_spell#4")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:69738; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:69738; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x004f2110, 0xd1, STATIC_CTOR, "adventure_spell#4")
 
 // name:C; dyninit; see ledger; map:69739
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "adventure_spell#4")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:69740; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:69740; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x004f21f0, 0xa, STATIC_DTOR, "adventure_spell#4")
 
-// confidence:B; align-order; retn,stable; map:12427
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:12427
 VA_CHT_1(0x004f2200, 0x352)
 bool t_adventure_frame::cast_mana(t_creature_array& arg_0, int arg_1, t_spellbook_window_data const& arg_2)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:12428
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:12428
 VA_CHT_1(0x004f2720, 0x2a5)
 bool t_adventure_frame::cast_mass_healing(
     t_creature_array& arg_0,
@@ -167,31 +167,31 @@ bool t_adventure_frame::cast_mass_healing(
     // Body unavailable.
 }
 
-// confidence:A; dyninit-init; owner-conf-C; map:69741; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:69741; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x004f29d0, 0x11, STATIC_INIT_DISPATCH, "adventure_spell#5")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:69742; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:69742; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x004f29f0, 0xd1, STATIC_CTOR, "adventure_spell#5")
 
 // name:C; dyninit; see ledger; map:69743
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "adventure_spell#5")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:69744; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:69744; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x004f2ad0, 0xa, STATIC_DTOR, "adventure_spell#5")
 
-// confidence:A; dyninit-init; owner-conf-C; map:69745; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:69745; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x004f2ae0, 0x11, STATIC_INIT_DISPATCH, "adventure_spell#6")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:69746; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:69746; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x004f2b00, 0xd1, STATIC_CTOR, "adventure_spell#6")
 
 // name:C; dyninit; see ledger; map:69747
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "adventure_spell#6")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:69748; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:69748; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x004f2be0, 0xa, STATIC_DTOR, "adventure_spell#6")
 
-// confidence:B; align-order; retn,stable; map:12429
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:12429
 VA_CHT_1(0x004f2bf0, 0x3ec)
 bool t_adventure_frame::cast_summon_boat(
     t_creature_array& arg_0,
@@ -202,7 +202,7 @@ bool t_adventure_frame::cast_summon_boat(
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:12430
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:12430
 VA_CHT_1(0x004f2fe0, 0x96)
 bool t_adventure_frame::ai_cast_summon_boat(
     t_creature_array& arg_0,
@@ -213,7 +213,7 @@ bool t_adventure_frame::ai_cast_summon_boat(
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:12431
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:12431
 VA_CHT_1(0x004f3080, 0x3e1)
 bool t_adventure_frame::cast_targeted_adventure_spell(
     t_creature_array& arg_0,
@@ -224,19 +224,19 @@ bool t_adventure_frame::cast_targeted_adventure_spell(
     // Body unavailable.
 }
 
-// confidence:A; dyninit-init; owner-conf-C; map:69749; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:69749; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x004f3470, 0x11, STATIC_INIT_DISPATCH, "adventure_spell#7")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:69750; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:69750; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x004f3490, 0xd1, STATIC_CTOR, "adventure_spell#7")
 
 // name:C; dyninit; see ledger; map:69751
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "adventure_spell#7")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:69752; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:69752; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x004f3570, 0xa, STATIC_DTOR, "adventure_spell#7")
 
-// confidence:B; align-order; retn,stable; map:12432
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:12432
 VA_CHT_1(0x004f3580, 0x1c4)
 bool t_adventure_frame::cast_mire(
     t_creature_array& arg_0,
@@ -248,19 +248,19 @@ bool t_adventure_frame::cast_mire(
     // Body unavailable.
 }
 
-// confidence:A; dyninit-init; owner-conf-C; map:69753; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:69753; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x004f3750, 0x11, STATIC_INIT_DISPATCH, "adventure_spell#8")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:69754; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:69754; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x004f3770, 0xd1, STATIC_CTOR, "adventure_spell#8")
 
 // name:C; dyninit; see ledger; map:69755
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "adventure_spell#8")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:69756; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:69756; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x004f3850, 0xa, STATIC_DTOR, "adventure_spell#8")
 
-// confidence:B; align-order; retn,stable; map:12433
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:12433
 VA_CHT_1(0x004f3860, 0x6bb)
 bool t_adventure_frame::cast_town_gate(
     t_creature_array& arg_0,
@@ -272,7 +272,7 @@ bool t_adventure_frame::cast_town_gate(
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:12434
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:12434
 VA_CHT_1(0x004f3f20, 0xe3)
 bool t_adventure_frame::cast_pathfinding(
     t_creature_array& arg_0,
@@ -283,16 +283,16 @@ bool t_adventure_frame::cast_pathfinding(
     // Body unavailable.
 }
 
-// confidence:A; dyninit-init; owner-conf-C; map:69757; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:69757; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x004f4010, 0x11, STATIC_INIT_DISPATCH, "adventure_spell#9")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:69758; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:69758; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x004f4030, 0xd1, STATIC_CTOR, "adventure_spell#9")
 
 // name:C; dyninit; see ledger; map:69759
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "adventure_spell#9")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:69760; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:69760; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x004f4110, 0xa, STATIC_DTOR, "adventure_spell#9")
 
 // name:A; map symbol; map:12435
@@ -302,7 +302,7 @@ bool t_adventure_frame::cast_visions(t_creature_array& arg_0, int arg_1, t_spell
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:12436
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:12436
 VA_CHT_1(0x004f4120, 0x146)
 bool t_adventure_frame::cast_adventure_spell(
     t_creature_array& arg_0,
@@ -314,12 +314,12 @@ bool t_adventure_frame::cast_adventure_spell(
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:69761; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:69761; name:B (dyninit; see ledger)
 VA_CHT_1(0x004f4350, 0x20)
 // adventure_spell$tinit1
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:69763; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:69763; name:B (dyninit; see ledger)
 VA_CHT_1(0x004f4370, 0x5c)
 // adventure_spell$tinit2
 // Function body not reconstructed; signature retained as a comment.
@@ -422,14 +422,14 @@ t_button_group::~t_button_group()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:12450
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:12450
 VA_CHT_1(0x004f1e80, 0x8e)
 t_dialog_adv_spell_target::t_dialog_adv_spell_target(t_window* arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:12451
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:12451
 VA_CHT_1_COMPGEN(0x004f1f10, 0x1e, VECTOR_DELETING_DTOR, t_dialog_adv_spell_target)
 
 // name:A; map symbol; map:12452
@@ -442,7 +442,7 @@ t_button_group::t_button_group()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:12454
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:12454
 VA_CHT_1_COMPGEN(0x004f1f30, 0x1e, VECTOR_DELETING_DTOR, t_dialog_healing_target)
 
 // name:A; map symbol; map:12455
@@ -473,7 +473,7 @@ t_dialog_mana_target::t_dialog_mana_target(
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:12459
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:12459
 VA_CHT_1_COMPGEN(0x004f2560, 0x1e, SCALAR_DELETING_DTOR, t_dialog_mana_target)
 
 // name:A; map symbol; map:12460

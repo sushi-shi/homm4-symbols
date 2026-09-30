@@ -1,7 +1,7 @@
 // dialog_view_world.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\dialog_view_world.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 184/338 (A:133 B:29 C:22); unaccounted 154; skipped std 30.
+// Accounted 184/338 (A:97 B:5 C:2); unaccounted 154; skipped std 30.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,39 +10,39 @@
 
 // === .text (214 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:65566; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:65566; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x006915e0, 0x15, STATIC_INIT_DISPATCH, "dialog_view_world#1")
 
 // name:C; dyninit; see ledger; map:65567
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "dialog_view_world#1")
 
-// confidence:A; dyninit-init; owner-conf-C; map:65568; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:65568; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00691600, 0x11, STATIC_INIT_DISPATCH, g_layout_cache)
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:65569; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:65569; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00691620, 0xd7, STATIC_CTOR, g_layout_cache)
 
 // name:C; dyninit; see ledger; map:65570
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, g_layout_cache)
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:65571; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:65571; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00691700, 0xa, STATIC_DTOR, g_layout_cache)
 
-// confidence:A; dyninit-init; owner-conf-C; map:65572; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:65572; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00691710, 0x11, STATIC_INIT_DISPATCH, g_zoom_button_cache)
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:65573; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:65573; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00691730, 0xd7, STATIC_CTOR, g_zoom_button_cache)
 
 // name:C; dyninit; see ledger; map:65574
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, g_zoom_button_cache)
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:65575; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:65575; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00691810, 0xa, STATIC_DTOR, g_zoom_button_cache)
 
 namespace {
 
-// confidence:C; align-order; retn,stable; map:25500
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25500
 VA_CHT_1(0x00691820, 0xa2f)
 t_abstract_cache<t_bitmap_layer>& get_cache(t_icon_layer_id arg_0)
 {
@@ -75,7 +75,7 @@ t_simple_icon_window::t_simple_icon_window(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vptr; map:25502
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:25502
 VA_CHT_1(0x006923e0, 0x24c)
 t_flagged_icon_window::t_flagged_icon_window(
     t_screen_point const& arg_0,
@@ -96,7 +96,7 @@ t_icon_layer_id t_flagged_icon_window::get_flag_layer_id(t_player_color arg_0)
 
 } // anonymous namespace
 
-// confidence:C; align-order; stable; map:25504
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25504
 VA_CHT_1(0x00692630, 0x36a)
 // t_abstract_icon_window_factory const* const (& get_icon_window_factory_ptr_table(void))[20]
 // Function body not reconstructed; signature retained as a comment.
@@ -203,7 +203,7 @@ VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 
 namespace {
 
-// confidence:B; align-order; retn,stable; map:25505
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25505
 VA_CHT_1(0x00692af0, 0x52)
 t_counted_ptr<t_window> create_icon_window(
     t_screen_point const& arg_0,
@@ -215,28 +215,28 @@ t_counted_ptr<t_window> create_icon_window(
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:25506
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25506
 VA_CHT_1(0x00692b50, 0x34)
 t_screen_rect get_view_rect(t_adventure_map const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:25507
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25507
 VA_CHT_1(0x00692b90, 0x67)
 int t_compare_depth::get_depth(int arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:25508
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25508
 VA_CHT_1(0x00692c00, 0x1c)
 t_screen_point t_map_pane::get_viewport_size(t_screen_point const& arg_0, t_map_pane::t_zoom_level arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; stable,vptr; map:25509
+// confidence:D; align-order; stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:25509
 VA_CHT_1(0x00692c20, 0x19c)
 t_map_pane::t_map_pane(
     t_screen_rect const& arg_0,
@@ -265,7 +265,7 @@ t_screen_rect t_map_pane::get_map_view_rect() const
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:25512
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25512
 VA_CHT_1(0x00692de0, 0xcd)
 int t_map_pane::get_view_level() const
 {
@@ -286,7 +286,7 @@ t_screen_point t_map_pane::get_viewport_size() const
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:25515
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25515
 VA_CHT_1(0x00692eb0, 0x3c)
 t_screen_point t_map_pane::get_viewport_size(t_map_pane::t_zoom_level arg_0) const
 {
@@ -300,56 +300,56 @@ t_map_pane::t_zoom_level t_map_pane::get_zoom_level() const
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:25517
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:25517
 VA_CHT_1(0x00692ef0, 0x2d)
 void t_map_pane::left_button_down(t_mouse_event const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:25518
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:25518
 VA_CHT_1(0x00692f20, 0xb7)
 void t_map_pane::left_button_up(t_mouse_event const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:25519
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:25519
 VA_CHT_1(0x00692fe0, 0xef)
 void t_map_pane::mouse_move(t_mouse_event const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:25520
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25520
 VA_CHT_1(0x006930d0, 0x267)
 void t_map_pane::move_viewport(t_screen_point const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:25521
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:25521
 VA_CHT_1(0x00693340, 0x397)
 void t_map_pane::paint(t_paint_surface& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:25522
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25522
 VA_CHT_1(0x006936e0, 0x92)
 void t_map_pane::set_view_level(int arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:25523
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25523
 VA_CHT_1(0x00693780, 0x185)
 void t_map_pane::set_zoom_level(t_map_pane::t_zoom_level arg_0, t_screen_point const& arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:25524
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25524
 VA_CHT_1(0x00693910, 0x48d)
 void t_map_pane::create_icons()
 {
@@ -363,7 +363,7 @@ void t_map_pane::drag(t_screen_point const& arg_0)
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:25526
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25526
 VA_CHT_1(0x00693da0, 0x3cc)
 void t_map_pane::draw_map_to_buffer(t_screen_rect const& arg_0)
 {
@@ -384,7 +384,7 @@ void t_map_pane::place_icon(t_window& arg_0, t_screen_point arg_1)
     // Body unavailable.
 }
 
-// confidence:A; align-order; stable,vptr; map:25529
+// confidence:D; align-order; stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:25529
 VA_CHT_1(0x00694170, 0x20b)
 t_mini_map_pane::t_mini_map_pane(
     t_screen_rect const& arg_0,
@@ -398,28 +398,28 @@ t_mini_map_pane::t_mini_map_pane(
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:25530
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25530
 VA_CHT_1(0x00694380, 0x7)
 int t_mini_map_pane::get_view_level() const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:25531
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:25531
 VA_CHT_1(0x00694470, 0x91)
 void t_mini_map_pane::left_button_down(t_mouse_event const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:25532
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:25532
 VA_CHT_1(0x00694510, 0x1d)
 void t_mini_map_pane::left_button_up(t_mouse_event const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:25533
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:25533
 VA_CHT_1(0x00694530, 0xd8)
 void t_mini_map_pane::mouse_move(t_mouse_event const& arg_0)
 {
@@ -440,7 +440,7 @@ void t_mini_map_pane::move_viewport(t_screen_rect const& arg_0)
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:25536
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:25536
 VA_CHT_1(0x00694610, 0x8d)
 void t_mini_map_pane::paint(t_paint_surface& arg_0)
 {
@@ -454,7 +454,7 @@ void t_mini_map_pane::set_view_level(int arg_0)
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:25538
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:25538
 VA_CHT_1(0x006946a0, 0x2c)
 t_shared_ptr<t_abstract_bitmap<unsigned short>> t_mini_map_pane::create_back_buffer(
     t_screen_point const& arg_0
@@ -484,7 +484,7 @@ char const* get_text_layout_name(t_adv_object_icon_type arg_0)
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:25542
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25542
 VA_CHT_1(0x006946e0, 0x249)
 std::string const& get_text(t_adv_object_icon_type arg_0)
 {
@@ -500,14 +500,14 @@ VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 
 namespace {
 
-// confidence:C; align-order; retn,stable; map:25543
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25543
 VA_CHT_1(0x00694930, 0x14)
 char const* get_icon_layout_name(t_adv_object_icon_type arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:25544
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25544
 VA_CHT_1(0x00694950, 0x94)
 void clamp_map_viewport_pos(t_screen_point& arg_0, t_screen_point const& arg_1, t_screen_rect const& arg_2)
 {
@@ -516,7 +516,7 @@ void clamp_map_viewport_pos(t_screen_point& arg_0, t_screen_point const& arg_1, 
 
 } // anonymous namespace
 
-// confidence:B; align-order; retn,stable; map:25545
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25545
 VA_CHT_1(0x006949f0, 0x3c0)
 t_view_world_dialog::t_impl::t_impl(
     t_view_world_dialog& arg_0,
@@ -529,7 +529,7 @@ t_view_world_dialog::t_impl::t_impl(
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:25546
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25546
 VA_CHT_1(0x00694db0, 0x2f)
 void t_view_world_dialog::t_impl::clamp_viewport_pos(
     t_screen_point& arg_0,
@@ -539,7 +539,7 @@ void t_view_world_dialog::t_impl::clamp_viewport_pos(
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:25547
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25547
 VA_CHT_1(0x00694de0, 0x285)
 void t_view_world_dialog::t_impl::create_close_button(t_help_block const& arg_0)
 {
@@ -553,21 +553,21 @@ void t_view_world_dialog::t_impl::create_legend()
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:25549
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25549
 VA_CHT_1(0x00695070, 0x125)
 void t_view_world_dialog::t_impl::create_legend_icon(t_adv_object_icon_type arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:25550
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25550
 VA_CHT_1(0x006951a0, 0x223)
 void t_view_world_dialog::t_impl::create_legend_text(t_adv_object_icon_type arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:25551
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25551
 VA_CHT_1(0x006953d0, 0x1ec)
 void t_view_world_dialog::t_impl::create_map_pane(
     t_adventure_map const& arg_0,
@@ -579,21 +579,21 @@ void t_view_world_dialog::t_impl::create_map_pane(
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:25552
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25552
 VA_CHT_1(0x006955c0, 0x1aa)
 void t_view_world_dialog::t_impl::create_mini_map_pane(t_adventure_map const& arg_0, int arg_1, int arg_2)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:25553
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25553
 VA_CHT_1(0x00695770, 0x41d)
 void t_view_world_dialog::t_impl::create_view_level_buttons(bool arg_0, t_help_block const& arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:25554
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25554
 VA_CHT_1(0x00695b90, 0x1fa)
 void t_view_world_dialog::t_impl::create_zoom_button(
     std::string const& arg_0,
@@ -604,14 +604,14 @@ void t_view_world_dialog::t_impl::create_zoom_button(
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:25555
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25555
 VA_CHT_1(0x00695d90, 0xe7)
 void t_view_world_dialog::t_impl::move_viewport(t_screen_point const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:25556
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25556
 VA_CHT_1(0x00695e80, 0x10)
 void t_view_world_dialog::t_impl::ok_clicked(t_button* arg_0)
 {
@@ -625,14 +625,14 @@ void t_view_world_dialog::t_impl::view_level_clicked(t_button* arg_0)
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:25558
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25558
 VA_CHT_1(0x00695ef0, 0x14a)
 void t_view_world_dialog::t_impl::zoom_clicked(t_button* arg_0, t_map_pane::t_zoom_level arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vptr; map:25559
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:25559
 VA_CHT_1(0x00696040, 0x91)
 t_view_world_dialog::t_view_world_dialog(
     t_window* arg_0,
@@ -645,19 +645,19 @@ t_view_world_dialog::t_view_world_dialog(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vptr; map:25560
+// confidence:D; align-order; retn,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:25560
 VA_CHT_1(0x00696100, 0x114)
 t_view_world_dialog::~t_view_world_dialog()
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:65599; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:65599; name:B (dyninit; see ledger)
 VA_CHT_1(0x00696fc0, 0x20)
 // dialog_view_world$tinit1
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:65601; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:65601; name:B (dyninit; see ledger)
 VA_CHT_1(0x00697360, 0x5c)
 // dialog_view_world$tinit2
 // Function body not reconstructed; signature retained as a comment.
@@ -677,7 +677,7 @@ VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 // dialog_view_world$tatexit4
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; align-band; retn,stable,vslot; map:25561
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:25561
 VA_CHT_1_COMPGEN(0x00692320, 0x1e, VECTOR_DELETING_DTOR, t_simple_icon_window)
 
 // name:A; map symbol; map:25562
@@ -716,7 +716,7 @@ t_icon_window_factory<t_flagged_icon_window>::~t_icon_window_factory<t_flagged_i
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:25568
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:25568
 VA_CHT_1(0x00692ae0, 0x7)
 t_abstract_icon_window_factory::~t_abstract_icon_window_factory()
 {
@@ -732,14 +732,14 @@ t_icon_window_factory<t_simple_icon_window>::~t_icon_window_factory<t_simple_ico
 
 } // anonymous namespace
 
-// confidence:C; align-band; retn,stable; map:25570
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25570
 VA_CHT_1(0x006969a0, 0x28)
 t_handler_1<t_screen_point const&>::~t_handler_1<t_screen_point const&>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:25571
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:25571
 VA_CHT_1_COMPGEN(0x00692dc0, 0x1e, VECTOR_DELETING_DTOR, t_map_pane)
 
 // name:A; map symbol; map:25572
@@ -802,14 +802,14 @@ t_screen_rect t_window::to_parent(t_screen_rect const& arg_0) const
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:25580
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:25580
 VA_CHT_1(0x006943b0, 0xbe)
 t_mini_map_renderer_client::~t_mini_map_renderer_client()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:25581
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:25581
 VA_CHT_1_COMPGEN(0x00694390, 0x1e, VECTOR_DELETING_DTOR, t_mini_map_pane)
 
 // name:A; map symbol; map:25582
@@ -847,13 +847,13 @@ t_counted_ptr<t_mini_map_pane>::~t_counted_ptr<t_mini_map_pane>()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:25587
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:25587
 VA_CHT_1_COMPGEN(0x006960e0, 0x1e, SCALAR_DELETING_DTOR, t_view_world_dialog)
 
 // name:A; map symbol; map:25588
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, t_view_world_dialog)
 
-// confidence:C; align-band; retn,stable; map:25589
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25589
 VA_CHT_1(0x006967a0, 0x57)
 void t_handler_1<t_screen_point const&>::operator()(t_screen_point const& arg_0) const
 {
@@ -892,7 +892,7 @@ t_bitmap_layer* t_cached_ptr<t_bitmap_layer>::operator->() const
 
 namespace {
 
-// confidence:A; align-band; retn,stable,vptr; map:25609
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:25609
 VA_CHT_1(0x006965e0, 0x12)
 t_icon_window_factory<t_flagged_icon_window>::t_icon_window_factory<t_flagged_icon_window>(
     t_icon_layer_id arg_0
@@ -901,7 +901,7 @@ t_icon_window_factory<t_flagged_icon_window>::t_icon_window_factory<t_flagged_ic
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:25610
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:25610
 VA_CHT_1(0x00696600, 0x7d)
 t_counted_ptr<t_window> t_icon_window_factory<t_flagged_icon_window>::create(
     t_screen_point const& arg_0,
@@ -912,7 +912,7 @@ t_counted_ptr<t_window> t_icon_window_factory<t_flagged_icon_window>::create(
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:25611
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:25611
 VA_CHT_1(0x00696680, 0x12)
 t_icon_window_factory<t_simple_icon_window>::t_icon_window_factory<t_simple_icon_window>(
     t_icon_layer_id arg_0
@@ -921,7 +921,7 @@ t_icon_window_factory<t_simple_icon_window>::t_icon_window_factory<t_simple_icon
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:25612
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:25612
 VA_CHT_1(0x006966a0, 0xf5)
 t_counted_ptr<t_window> t_icon_window_factory<t_simple_icon_window>::create(
     t_screen_point const& arg_0,
@@ -1036,7 +1036,7 @@ t_counted_ptr<t_button>::t_counted_ptr<t_button>(t_button* arg_0)
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:25628
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25628
 VA_CHT_1(0x00696800, 0x57)
 t_handler_1<t_button*> bound_handler(
     t_view_world_dialog::t_impl& arg_0,
@@ -1053,7 +1053,7 @@ t_counted_ptr<t_text_window>::t_counted_ptr<t_text_window>(t_text_window* arg_0)
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:25630
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25630
 VA_CHT_1(0x00696880, 0x57)
 t_handler_1<t_screen_point const&> bound_handler(
     t_view_world_dialog::t_impl& arg_0,
@@ -1063,7 +1063,7 @@ t_handler_1<t_screen_point const&> bound_handler(
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:25631
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25631
 VA_CHT_1(0x006968e0, 0xbb)
 t_handler_2<t_button*, t_map_pane::t_zoom_level> bound_handler(
     t_view_world_dialog::t_impl& arg_0,
@@ -1134,7 +1134,7 @@ t_map_pane::t_icon_info::t_icon_info(t_map_pane::t_icon_info const& arg_0)
 
 } // anonymous namespace
 
-// confidence:C; align-band; retn,stable; map:25646
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25646
 VA_CHT_1(0x00692340, 0x93)
 t_view_world_dialog::t_impl::~t_impl()
 {
@@ -1247,20 +1247,20 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, "t_bound_handl
 // name:A; map symbol; map:25659
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, "t_bound_handler_1<t_view_world_dialog::t_impl, t_button*>")
 
-// confidence:A; align-band; retn,stable,vslot; map:25660
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:25660
 VA_CHT_1_COMPGEN(0x006969d0, 0x1e, VECTOR_DELETING_DTOR, "t_bound_handler_1<t_view_world_dialog::t_impl, t_screen_point const&>")
 
 // name:A; map symbol; map:25661
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, "t_bound_handler_1<t_view_world_dialog::t_impl, t_screen_point const&>")
 
-// confidence:C; align-band; retn,stable; map:25662
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25662
 VA_CHT_1(0x00696ab0, 0x58)
 t_handler_base_1<t_screen_point const&>::t_handler_base_1<t_screen_point const&>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:25663
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:25663
 VA_CHT_1_COMPGEN(0x006969f0, 0x1e, SCALAR_DELETING_DTOR, "t_bound_handler_2<t_view_world_dialog::t_impl, t_button*, t_map_pane::t_zoom_level>")
 
 // name:A; map symbol; map:25664
@@ -1273,7 +1273,7 @@ t_handler_base_2<t_button*, t_map_pane::t_zoom_level>::t_handler_base_2<t_button
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:25666
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:25666
 VA_CHT_1_COMPGEN(0x00696a30, 0x1e, SCALAR_DELETING_DTOR, "t_add_2nd_handler_1<t_button*, t_map_pane::t_zoom_level>")
 
 // name:A; map symbol; map:25667
@@ -1304,14 +1304,14 @@ t_handler_base_1<t_screen_point const&>::~t_handler_base_1<t_screen_point const&
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:25671
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:25671
 VA_CHT_1(0x00696a50, 0x21)
 t_abstract_function_1<void, t_screen_point const&>::~t_abstract_function_1<void, t_screen_point const&>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:25672
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:25672
 VA_CHT_1_COMPGEN(0x00696860, 0x20, SCALAR_DELETING_DTOR, "t_abstract_function_1<void, t_screen_point const&>")
 
 // name:A; map symbol; map:25673
@@ -1348,7 +1348,7 @@ t_handler_base_2<t_button*, t_map_pane::t_zoom_level>::~t_handler_base_2<t_butto
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:25679
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:25679
 VA_CHT_1(0x00696a80, 0x21)
 t_abstract_function_2<void, t_button*, t_map_pane::t_zoom_level>::~t_abstract_function_2<void, t_button*, t_map_pane::t_zoom_level>(
 
@@ -1357,7 +1357,7 @@ t_abstract_function_2<void, t_button*, t_map_pane::t_zoom_level>::~t_abstract_fu
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:25680
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:25680
 VA_CHT_1_COMPGEN(0x00696a10, 0x20, SCALAR_DELETING_DTOR, "t_abstract_function_2<void, t_button*, t_map_pane::t_zoom_level>")
 
 // name:A; map symbol; map:25681
@@ -1450,16 +1450,16 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, "t_add_2nd_han
 // name:A; map symbol; map:25700
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, "t_bound_handler_1<t_view_world_dialog::t_impl, t_screen_point const&>")
 
-// confidence:C; align-order; stable; map:25701
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25701
 VA_CHT_1_COMPGEN(0x006973c0, 0x8, VECTOR_DELETING_DTOR, "t_handler_base_1<t_screen_point const&>")
 
-// confidence:C; align-order; stable; map:25702
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25702
 VA_CHT_1_COMPGEN(0x006973d0, 0x8, VECTOR_DELETING_DTOR, "t_bound_handler_2<t_view_world_dialog::t_impl, t_button*, t_map_pane::t_zoom_level>")
 
-// confidence:C; align-order; stable; map:25703
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25703
 VA_CHT_1_COMPGEN(0x006973e0, 0x8, VECTOR_DELETING_DTOR, "t_handler_base_2<t_button*, t_map_pane::t_zoom_level>")
 
-// confidence:C; align-order; stable; map:25704
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25704
 VA_CHT_1_COMPGEN(0x006973f0, 0x8, VECTOR_DELETING_DTOR, "t_bound_handler_1<t_view_world_dialog::t_impl, t_button*>")
 
 // === .rdata (25 symbols) ===

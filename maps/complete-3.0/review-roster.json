@@ -1,0 +1,10 @@
+{
+  "target": "complete-3.0",
+  "source": "cht-1.x",
+  "functions": 4915,
+  "baseline_names_sha256": "d05bfa391c78bff93ba9876a14bfa69aedf0b7e73a0bd30a2668d858cefc467e",
+  "roster_sha256": "ef9084883fe252abf8562f05a8f62478b7b3ea178f20cc3c69e940a5d703099a",
+  "target_sha256": "2eb82f32ab744ad7c272e32a950adcef3f20d8ab27572023f1084fd6519f61f2",
+  "source_sha256": "e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f",
+  "scope": "Every baseline Complete B/C function, including subsequently withheld names; source identity and retail correspondence both require inspection."
+}

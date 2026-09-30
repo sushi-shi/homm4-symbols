@@ -1,7 +1,7 @@
 // adventure_sounds.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\adventure_sounds.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 52/112 (A:21 B:6 C:25); unaccounted 60; skipped std 103.
+// Accounted 51/112 (A:12 B:0 C:0); unaccounted 61; skipped std 103.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,13 +10,13 @@
 
 // === .text (96 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:69767; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:69767; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x004ecf70, 0x15, STATIC_INIT_DISPATCH, "adventure_sounds#1")
 
 // name:C; dyninit; see ledger; map:69768
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "adventure_sounds#1")
 
-// confidence:A; dyninit-init; owner-conf-C; map:69769; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:69769; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x004ecf90, 0x1b2, STATIC_INIT_DISPATCH, "adventure_sounds#2")
 
 // name:C; dyninit; see ledger; map:69770
@@ -25,10 +25,10 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "adventure_sounds#2")
 // name:C; dyninit; see ledger; map:69771
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "adventure_sounds#2")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:69772; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:69772; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x004ed150, 0x14, STATIC_DTOR, "adventure_sounds#2")
 
-// confidence:A; dyninit-init; owner-conf-C; map:69773; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:69773; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x004ed170, 0x308, STATIC_INIT_DISPATCH, "adventure_sounds#3")
 
 // name:C; dyninit; see ledger; map:69774
@@ -37,10 +37,10 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "adventure_sounds#3")
 // name:C; dyninit; see ledger; map:69775
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "adventure_sounds#3")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:69776; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:69776; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x004ed480, 0x14, STATIC_DTOR, "adventure_sounds#3")
 
-// confidence:A; dyninit-init; owner-conf-C; map:69777; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:69777; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x004ed4a0, 0x29, STATIC_INIT_DISPATCH, "adventure_sounds#4")
 
 // name:C; dyninit; see ledger; map:69778
@@ -49,12 +49,12 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "adventure_sounds#4")
 // name:C; dyninit; see ledger; map:69779
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "adventure_sounds#4")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:69780; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:69780; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x004ed4d0, 0x42, STATIC_DTOR, "adventure_sounds#4")
 
 namespace {
 
-// confidence:C; align-order; stable; map:12242
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:12242
 VA_CHT_1(0x004ed520, 0x22d)
 void play_sounds_for_nearby_adventure_objects(t_level_map_point_2d arg_0, t_adventure_map const& arg_1)
 {
@@ -63,7 +63,7 @@ void play_sounds_for_nearby_adventure_objects(t_level_map_point_2d arg_0, t_adve
 
 } // anonymous namespace
 
-// confidence:C; align-order; retn,stable; map:12243
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:12243
 VA_CHT_1(0x004ed750, 0x1c4)
 t_cached_ptr<t_sound> get_adventure_sound(t_adventure_sound_type arg_0)
 {
@@ -75,7 +75,7 @@ VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 // get_adventure_sound$sdtor
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; retn,stable; map:12244
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:12244
 VA_CHT_1(0x004ed970, 0x1c4)
 t_cached_ptr<t_sound> get_dialog_sound(t_dialog_sound_type arg_0)
 {
@@ -89,7 +89,7 @@ VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 
 namespace {
 
-// confidence:B; align-order; retn,stable; map:12245
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:12245
 VA_CHT_1(0x004edb60, 0x18f)
 t_cached_ptr<t_sound> t_major_type_sounds::get_major_sound(
     t_qualified_adv_object_type const& arg_0,
@@ -102,14 +102,14 @@ t_cached_ptr<t_sound> t_major_type_sounds::get_major_sound(
 
 } // anonymous namespace
 
-// confidence:C; align-order; retn,stable; map:69783
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:69783
 VA_CHT_1(0x004edcf0, 0x156)
 static std::string get_major_keyword(t_qualified_adv_object_type const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:69784
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:69784
 VA_CHT_1(0x004ede50, 0x136)
 static std::string get_adv_keyword(t_qualified_adv_object_type const& arg_0)
 {
@@ -118,7 +118,7 @@ static std::string get_adv_keyword(t_qualified_adv_object_type const& arg_0)
 
 namespace {
 
-// confidence:B; align-order; retn,stable; map:12246
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:12246
 VA_CHT_1(0x004edf90, 0x293)
 t_cached_ptr<t_sound> t_major_type_sounds::get_sound(
     t_qualified_adv_object_type const& arg_0,
@@ -129,14 +129,14 @@ t_cached_ptr<t_sound> t_major_type_sounds::get_sound(
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:12247
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:12247
 VA_CHT_1(0x004ee230, 0x297)
 t_cached_ptr<t_sound> t_adv_object_sound::get_sound(t_qualified_adv_object_type const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:12248
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:12248
 VA_CHT_1(0x004ee4d0, 0x8a)
 t_adv_object_sounds::t_adv_object_sounds()
 {
@@ -145,7 +145,7 @@ t_adv_object_sounds::t_adv_object_sounds()
 
 } // anonymous namespace
 
-// confidence:C; align-order; retn,stable; map:12249
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:12249
 VA_CHT_1(0x004ee7c0, 0xc2)
 t_cached_ptr<t_sound> get_adventure_sound(t_qualified_adv_object_type const& arg_0)
 {
@@ -157,7 +157,7 @@ VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 // get_adventure_sound$sdtor
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; retn,stable; map:12250
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:12250
 VA_CHT_1(0x004ee890, 0x1eb)
 void handle_adventure_sound_minimization(bool arg_0)
 {
@@ -169,14 +169,14 @@ VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 // handle_adventure_sound_minimization$sdtor
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; retn,stable; map:12251
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:12251
 VA_CHT_1(0x004eeab0, 0x8d)
 void stop_owner_sound(t_adventure_object const* arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:12252
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:12252
 VA_CHT_1(0x004eeb40, 0x22f)
 t_counted_ptr<t_managed_sound> play_adventure_sound(
     t_adventure_object const& arg_0,
@@ -189,33 +189,33 @@ t_counted_ptr<t_managed_sound> play_adventure_sound(
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:12253
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:12253
 VA_CHT_1(0x004eedf0, 0x13b)
 int update_sound(t_level_map_point_2d arg_0, t_managed_sound* arg_1, bool arg_2)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:12254
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:12254
 VA_CHT_1(0x004ef110, 0x10d)
 void update_active_sounds(t_level_map_point_2d arg_0, t_adventure_map const& arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:12255
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:12255
 VA_CHT_1(0x004f0040, 0xc7)
 void close_active_sounds()
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:69787; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:69787; name:B (dyninit; see ledger)
 VA_CHT_1(0x004f0950, 0x20)
 // adventure_sounds$tinit1
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:69789; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:69789; name:B (dyninit; see ledger)
 VA_CHT_1(0x004f0970, 0x5c)
 // adventure_sounds$tinit2
 // Function body not reconstructed; signature retained as a comment.
@@ -235,14 +235,14 @@ VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 // adventure_sounds$tatexit4
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-band; retn,stable; map:12256
-VA_CHT_1(0x004ef700, 0x21)
+// name:A; map symbol; map:12256
+VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 t_counted_ptr<t_managed_sound>::~t_counted_ptr<t_managed_sound>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:12257
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:12257
 VA_CHT_1(0x0072ae90, 0x11)
 t_sound_cache::t_sound_cache()
 {
@@ -255,7 +255,7 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, t_sound_cache)
 // name:A; map symbol; map:12259
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, t_sound_cache)
 
-// confidence:C; align-band; retn,stable; map:12260
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:12260
 VA_CHT_1(0x004eea80, 0x1d)
 t_sound_cache& t_sound_cache::operator=(t_sound_cache const& arg_0)
 {
@@ -271,14 +271,14 @@ t_abstract_cache<t_sound>& t_abstract_cache<t_sound>::operator=(t_abstract_cache
 
 namespace {
 
-// confidence:C; align-band; retn,stable; map:12262
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:12262
 VA_CHT_1(0x004eed90, 0x51)
 t_major_type_sounds::t_major_type_sounds()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:12263
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:12263
 VA_CHT_1(0x004ef2b0, 0x43)
 t_major_type_sounds::~t_major_type_sounds()
 {
@@ -315,14 +315,14 @@ t_adv_object_sounds::~t_adv_object_sounds()
 
 } // anonymous namespace
 
-// confidence:C; align-band; retn,stable; map:12268
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:12268
 VA_CHT_1(0x004efe50, 0xc)
 void t_managed_sound::set_former_volume(int arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:12269
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:12269
 VA_CHT_1(0x004f0280, 0x17)
 int t_managed_sound::get_former_volume() const
 {
@@ -336,14 +336,14 @@ t_counted_ptr<t_playing_sound> t_managed_sound::get_sound_ptr()
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:12271
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:12271
 VA_CHT_1(0x004ed950, 0x14)
 t_adventure_object const& t_managed_sound::get_owner() const
 {
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:12272
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:12272
 VA_CHT_1(0x004edb40, 0x14)
 bool t_playing_sound::is_playing() const
 {
@@ -361,7 +361,7 @@ t_managed_sound::t_managed_sound(
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:12274
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:12274
 VA_CHT_1_COMPGEN(0x004eed70, 0x1e, VECTOR_DELETING_DTOR, t_managed_sound)
 
 // name:A; map symbol; map:12275
@@ -374,14 +374,14 @@ t_managed_sound::~t_managed_sound()
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:12277
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:12277
 VA_CHT_1(0x004ed920, 0x10)
 t_level_map_point_2d const& t_managed_sound::get_position() const
 {
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:12278
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:12278
 VA_CHT_1(0x004ef220, 0x89)
 t_cached_ptr<t_sound>::t_cached_ptr<t_sound>(t_cached_ptr<t_sound> const& arg_0)
 {
@@ -397,7 +397,7 @@ t_counted_ptr<t_abstract_cache_data<t_sound>>& t_counted_ptr<t_abstract_cache_da
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:12346
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:12346
 VA_CHT_1(0x004efe60, 0x19)
 t_abstract_cache<t_sound>::t_abstract_cache<t_sound>(t_abstract_cache_data<t_sound>* arg_0)
 {
@@ -411,7 +411,7 @@ bool t_abstract_cache<t_sound>::is_valid() const
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:12348
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:12348
 VA_CHT_1(0x004efe80, 0x195)
 t_cached_ptr<t_sound> t_abstract_cache<t_sound>::get(t_progress_handler* arg_0) const
 {
@@ -536,7 +536,7 @@ t_adv_object_sound& t_adv_object_sound::operator=(t_adv_object_sound const& arg_
 
 } // anonymous namespace
 
-// confidence:C; align-band; retn,stable; map:12389
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:12389
 VA_CHT_1_COMPGEN(0x004f02a0, 0x1e, SCALAR_DELETING_DTOR, "t_counted_ptr<t_managed_sound>")
 
 // name:A; map symbol; map:12390

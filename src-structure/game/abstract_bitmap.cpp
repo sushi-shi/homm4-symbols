@@ -1,7 +1,7 @@
 // abstract_bitmap.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 4/29 (A:0 B:4 C:0); unaccounted 25; skipped std 0.
+// Accounted 4/29 (A:0 B:0 C:0); unaccounted 25; skipped std 0.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,14 +10,14 @@
 
 // === .text (29 symbols) ===
 
-// confidence:B; align-order; retn,stable; map:1132
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:1132
 VA_CHT_1(0x0040b050, 0x7e)
 void fill(t_abstract_bitmap<unsigned char>& arg_0, t_screen_rect const& arg_1, unsigned char arg_2)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:1133
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:1133
 VA_CHT_1(0x0040b0d0, 0x74)
 void fill(t_abstract_bitmap<unsigned short>& arg_0, t_screen_rect const& arg_1, unsigned short arg_2)
 {
@@ -38,7 +38,7 @@ void fill(t_abstract_bitmap<t_pixel_32>& arg_0, t_screen_rect const& arg_1, t_pi
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:1136
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:1136
 VA_CHT_1(0x0040b150, 0xf4)
 void fill(
     t_abstract_bitmap<unsigned short>& arg_0,
@@ -50,7 +50,7 @@ void fill(
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:1137
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:1137
 VA_CHT_1(0x0040b250, 0x125)
 void draw(
     t_abstract_bitmap<unsigned short>& arg_0,

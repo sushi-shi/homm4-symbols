@@ -1,7 +1,7 @@
 // memory_window.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\memory_window.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 19/29 (A:12 B:2 C:5); unaccounted 10; skipped std 1.
+// Accounted 19/29 (A:7 B:1 C:1); unaccounted 10; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,7 +10,7 @@
 
 // === .text (19 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:64402; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:64402; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0071bc70, 0x16, STATIC_INIT_DISPATCH, g_memory_window)
 
 // name:C; dyninit; see ledger; map:64403
@@ -19,19 +19,19 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, g_memory_window)
 // name:C; dyninit; see ledger; map:64404
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, g_memory_window)
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:64405; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:64405; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0071bc90, 0xa, STATIC_DTOR, g_memory_window)
 
 namespace {
 
-// confidence:A; align-order; retn,stable,vptr; map:29696
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:29696
 VA_CHT_1(0x0071bca0, 0x164)
 t_memory_window::t_memory_window()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:29697
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:29697
 VA_CHT_1(0x0071bf80, 0x96)
 void t_memory_window::on_idle()
 {
@@ -40,35 +40,35 @@ void t_memory_window::on_idle()
 
 } // anonymous namespace
 
-// confidence:C; align-order; retn,stable; map:29698
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:29698
 VA_CHT_1(0x0071c020, 0x35)
 void close_memory_window()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:29699
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:29699
 VA_CHT_1(0x0071c060, 0x10)
 void move_memory_window_to_front()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:29700
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:29700
 VA_CHT_1(0x0071c070, 0xad)
 void show_memory_window()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:29701
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:29701
 VA_CHT_1(0x0071c120, 0x19)
 bool memory_window_is_open()
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:64406; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:64406; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0071c140, 0x20, STATIC_INIT_DISPATCH, memory_window)
 
 // name:A; map symbol; map:29702
@@ -78,7 +78,7 @@ t_counted_ptr<t_memory_window>::~t_counted_ptr<t_memory_window>()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:29703
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:29703
 VA_CHT_1_COMPGEN(0x0071be10, 0x1e, VECTOR_DELETING_DTOR, t_memory_window)
 
 // name:A; map symbol; map:29704

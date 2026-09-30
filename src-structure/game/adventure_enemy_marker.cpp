@@ -1,7 +1,7 @@
 // adventure_enemy_marker.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\adventure_enemy_marker.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 41/71 (A:32 B:7 C:2); unaccounted 30; skipped std 36.
+// Accounted 41/71 (A:24 B:1 C:0); unaccounted 30; skipped std 36.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,7 +10,7 @@
 
 // === .text (47 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:70641; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:70641; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0048f2e0, 0x15, STATIC_INIT_DISPATCH, "adventure_enemy_marker#1")
 
 // name:C; dyninit; see ledger; map:70642
@@ -18,7 +18,7 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "adventure_enemy_marker
 
 namespace {
 
-// confidence:A; align-order; retn,stable,vslot; map:8165
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:8165
 VA_CHT_1(0x0048f300, 0x4e)
 bool t_actual_enemy_data_view::compare_point(
     t_adventure_path_data const& arg_0,
@@ -28,7 +28,7 @@ bool t_actual_enemy_data_view::compare_point(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:8166
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:8166
 VA_CHT_1(0x0048f350, 0x48)
 void t_actual_enemy_data_view::set_point(
     t_adventure_path_data& arg_0,
@@ -38,7 +38,7 @@ void t_actual_enemy_data_view::set_point(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:8167
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:8167
 VA_CHT_1(0x0048f3a0, 0x4c)
 bool t_visible_enemy_data_view::compare_point(
     t_adventure_path_data const& arg_0,
@@ -48,7 +48,7 @@ bool t_visible_enemy_data_view::compare_point(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:8168
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:8168
 VA_CHT_1(0x0048f3f0, 0x4c)
 void t_visible_enemy_data_view::set_point(
     t_adventure_path_data& arg_0,
@@ -81,7 +81,7 @@ t_adv_path_map::t_adv_path_map(int arg_0, int arg_1)
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:8172
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:8172
 VA_CHT_1(0x0048f440, 0x12a)
 void t_adv_path_map::clear()
 {
@@ -95,21 +95,21 @@ t_adv_path_sector* t_adv_path_map::get_sector(t_adv_map_point const& arg_0, bool
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:8174
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:8174
 VA_CHT_1(0x0048f6f0, 0x114)
 t_adventure_enemy_marker::t_adventure_enemy_marker(t_adventure_map& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:8175
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:8175
 VA_CHT_1(0x0048f810, 0x19)
 void t_adventure_enemy_marker::initialize()
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:8176
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:8176
 VA_CHT_1(0x0048f830, 0x1bd)
 void t_adventure_enemy_marker::find_blocked_directions(
     t_adventure_path_point const& arg_0,
@@ -123,7 +123,7 @@ void t_adventure_enemy_marker::find_blocked_directions(
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:8177
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:8177
 VA_CHT_1(0x0048f9f0, 0x971)
 void t_adventure_enemy_marker::mark_enemy(
     t_army const* arg_0,
@@ -134,7 +134,7 @@ void t_adventure_enemy_marker::mark_enemy(
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:8178
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:8178
 VA_CHT_1(0x00490370, 0x390)
 void t_adventure_enemy_marker::mark_enemies(t_adv_map_point const& arg_0, int arg_1, int arg_2)
 {
@@ -146,26 +146,26 @@ VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 // t_adventure_enemy_marker::mark_enemies$sdtor
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:B; align-order; retn,stable; map:8179
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:8179
 VA_CHT_1(0x00490720, 0x13)
 void t_adventure_enemy_marker::set_army(t_creature_array* arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:8180
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:8180
 VA_CHT_1(0x00490740, 0x15)
 void t_adventure_enemy_marker::set_path_type(t_path_search_type arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:70644; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:70644; name:B (dyninit; see ledger)
 VA_CHT_1(0x00490bb0, 0x20)
 // adventure_enemy_marker$tinit1
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:70646; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:70646; name:B (dyninit; see ledger)
 VA_CHT_1(0x00490bd0, 0x5c)
 // adventure_enemy_marker$tinit2
 // Function body not reconstructed; signature retained as a comment.
@@ -258,7 +258,7 @@ t_actual_enemy_data_view::~t_actual_enemy_data_view()
 
 } // anonymous namespace
 
-// confidence:A; align-band; retn,stable,vptr; map:8192
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:8192
 VA_CHT_1(0x00490710, 0x7)
 t_adventure_path_finder_enemy_data_view::~t_adventure_path_finder_enemy_data_view()
 {

@@ -1,7 +1,7 @@
 // campfire.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 25/38 (A:20 B:3 C:2); unaccounted 13; skipped std 1.
+// Accounted 25/38 (A:12 B:2 C:0); unaccounted 13; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,20 +10,20 @@
 
 // === .text (18 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:68767; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:68767; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0058c2c0, 0x1c, STATIC_INIT_DISPATCH, "campfire#1")
 
 // name:C; dyninit; see ledger; map:68768
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "campfire#1")
 
-// confidence:A; align-order; retn,stable,vptr; map:18935
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:18935
 VA_CHT_1(0x0058c2e0, 0x1be)
 t_campfire::t_campfire(t_stationary_adventure_object const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:18936
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18936
 VA_CHT_1(0x0058c530, 0x38f)
 void t_campfire::activate_trigger(
     t_army* arg_0,
@@ -35,14 +35,14 @@ void t_campfire::activate_trigger(
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:18937
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18937
 VA_CHT_1(0x0058c8c0, 0x4c)
 bool t_campfire::write(std::basic_streambuf<char, std::char_traits<char>>& arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:18938
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18938
 VA_CHT_1(0x0058c910, 0x54)
 bool t_campfire::read(
     std::basic_streambuf<char, std::char_traits<char>>& arg_0,
@@ -53,23 +53,23 @@ bool t_campfire::read(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:18939
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18939
 VA_CHT_1(0x0058c970, 0x31)
 float t_campfire::ai_value(t_adventure_ai const& arg_0, t_creature_array const& arg_1, int arg_2) const
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:68769; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:68769; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0058cb00, 0x20, STATIC_INIT_DISPATCH, campfire)
 
-// confidence:A; align-band; retn,stable,vslot; map:18940
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18940
 VA_CHT_1_COMPGEN(0x0058c4a0, 0x2d, SCALAR_DELETING_DTOR, t_campfire)
 
 // name:A; map symbol; map:18941
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, t_campfire)
 
-// confidence:C; align-band; retn,stable; map:18942
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18942
 VA_CHT_1(0x0058c4d0, 0x57)
 // public: void t_campfire::`vbase dtor'(void)
 // Function body not reconstructed; signature retained as a comment.
@@ -102,7 +102,7 @@ t_object_factory<t_campfire>::t_object_factory<t_campfire>()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:18947
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18947
 VA_CHT_1(0x0058c9b0, 0x14a)
 t_stationary_adventure_object* t_object_factory<t_campfire>::create(
     std::string const& arg_0,
@@ -115,7 +115,7 @@ t_stationary_adventure_object* t_object_factory<t_campfire>::create(
 // name:A; map symbol; map:18948
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, t_campfire)
 
-// confidence:C; align-order; stable; map:18949
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18949
 VA_CHT_1_COMPGEN(0x0058cb30, 0xb, VECTOR_DELETING_DTOR, t_campfire)
 
 // === .rdata (7 symbols) ===

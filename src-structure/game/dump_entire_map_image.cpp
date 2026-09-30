@@ -1,7 +1,7 @@
 // dump_entire_map_image.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\dump_entire_map_image.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 24/38 (A:19 B:1 C:4); unaccounted 14; skipped std 8.
+// Accounted 24/38 (A:13 B:0 C:0); unaccounted 14; skipped std 8.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,7 +10,7 @@
 
 // === .text (25 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:65509; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:65509; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x006a4d70, 0x15, STATIC_INIT_DISPATCH, "dump_entire_map_image#1")
 
 // name:C; dyninit; see ledger; map:65510
@@ -18,7 +18,7 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "dump_entire_map_image#
 
 namespace {
 
-// confidence:B; align-order; retn,stable; map:25869
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25869
 VA_CHT_1(0x006a4d90, 0x11f)
 std::auto_ptr<t_abstract_bitmap<unsigned short>> t_entire_map_bitmap_creater::operator()(
     t_abstract_adventure_map const& arg_0,
@@ -28,7 +28,7 @@ std::auto_ptr<t_abstract_bitmap<unsigned short>> t_entire_map_bitmap_creater::op
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:25870
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:25870
 VA_CHT_1(0x006a4eb0, 0xf7)
 t_shared_ptr<t_abstract_bitmap<unsigned short>> t_entire_map_bitmap_creater::create_back_buffer(
     t_screen_point const& arg_0
@@ -37,7 +37,7 @@ t_shared_ptr<t_abstract_bitmap<unsigned short>> t_entire_map_bitmap_creater::cre
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:25871
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:25871
 VA_CHT_1(0x006a4fb0, 0x29)
 void t_entire_map_bitmap_creater::on_rects_dirtied(
     std::vector<t_screen_rect, std::allocator<t_screen_rect>> const& arg_0
@@ -46,7 +46,7 @@ void t_entire_map_bitmap_creater::on_rects_dirtied(
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:25872
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25872
 VA_CHT_1(0x006a4fe0, 0x148)
 void write_bitmap(
     std::basic_streambuf<char, std::char_traits<char>>& arg_0,
@@ -56,7 +56,7 @@ void write_bitmap(
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:25873
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25873
 VA_CHT_1(0x006a5130, 0x181)
 void write_bitmap(t_abstract_bitmap<unsigned short> const& arg_0)
 {
@@ -65,19 +65,19 @@ void write_bitmap(t_abstract_bitmap<unsigned short> const& arg_0)
 
 } // anonymous namespace
 
-// confidence:C; align-order; retn,stable; map:25874
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25874
 VA_CHT_1(0x006a52d0, 0x72)
 void dump_entire_map_image(t_abstract_adventure_map const& arg_0, int arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:65511; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:65511; name:B (dyninit; see ledger)
 VA_CHT_1(0x006a53a0, 0x3f)
 // dump_entire_map_image$tinit1
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:65514; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:65514; name:B (dyninit; see ledger)
 VA_CHT_1(0x006a53e0, 0x20)
 // dump_entire_map_image$tinit2
 // Function body not reconstructed; signature retained as a comment.
@@ -105,7 +105,7 @@ t_entire_map_bitmap_creater::t_entire_map_bitmap_creater()
 
 } // anonymous namespace
 
-// confidence:A; align-band; retn,stable,vptr; map:25877
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:25877
 VA_CHT_1(0x006a52c0, 0x7)
 t_map_renderer_client::~t_map_renderer_client()
 {
@@ -174,7 +174,7 @@ t_shared_ptr<t_memory_bitmap<unsigned short>>& t_shared_ptr<t_memory_bitmap<unsi
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:25890
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25890
 VA_CHT_1(0x006a5350, 0x4c)
 t_shared_ptr<t_abstract_bitmap<unsigned short>>::t_shared_ptr<t_abstract_bitmap<unsigned short>>(
     t_shared_ptr<t_memory_bitmap<unsigned short>> const& arg_0

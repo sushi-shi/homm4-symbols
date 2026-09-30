@@ -1,7 +1,7 @@
 // abstract_tile.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\abstract_tile.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 20/89 (A:4 B:6 C:10); unaccounted 69; skipped std 55.
+// Accounted 14/89 (A:1 B:1 C:4); unaccounted 75; skipped std 55.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,7 +10,7 @@
 
 // === .text (67 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:71351; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:71351; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00412670, 0x15, STATIC_INIT_DISPATCH, "abstract_tile#1")
 
 // name:C; dyninit; see ledger; map:71352
@@ -27,28 +27,28 @@ unsigned long read_visibility_data(std::basic_streambuf<char, std::char_traits<c
 
 } // anonymous namespace
 
-// confidence:B; align-order; retn,stable; map:1728
+// confidence:C; align-order; retn,stable;manual-review=complete-F00174:unresolved; map:1728
 VA_CHT_1(0x00412690, 0x2b)
 t_skill_mastery t_abstract_tile::get_anti_stealth(int arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:1729
+// confidence:C; align-order; retn,stable;manual-review=complete-F00175:unresolved; map:1729
 VA_CHT_1(0x004126c0, 0x27)
 t_tile_visibility t_abstract_tile::get_visibility(int arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:1730
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:1730
 VA_CHT_1(0x004126f0, 0x52)
 void t_abstract_tile::set_anti_stealth(int arg_0, t_skill_mastery arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:1731
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:1731
 VA_CHT_1(0x00412750, 0x52)
 void t_abstract_tile::set_visibility(int arg_0, t_tile_visibility arg_1, t_skill_mastery arg_2)
 {
@@ -62,40 +62,40 @@ bool t_abstract_tile::write(std::basic_streambuf<char, std::char_traits<char>>& 
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:1733
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:1733
 VA_CHT_1(0x00412ba0, 0x5af)
 bool t_abstract_tile::read(std::basic_streambuf<char, std::char_traits<char>>& arg_0, int arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:1734
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:1734
 VA_CHT_1(0x00413330, 0x6)
 unsigned long t_abstract_tile::compute_default_visibility_data()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:1735
-VA_CHT_1(0x004136c0, 0x12)
+// name:A; map symbol; map:1735
+VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 int t_abstract_tile_vertex::compute_default_light()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:1736
-VA_CHT_1(0x00413810, 0x124)
+// name:A; map symbol; map:1736
+VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 int compute_edge_light(int arg_0, int arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:71353; name:B (dyninit; see ledger)
+// confidence:C; dyninit-tinit; owner-conf-B;manual-review=complete-F00183:unresolved; map:71353; name:B (dyninit; see ledger)
 VA_CHT_1(0x00413940, 0x20)
 // abstract_tile$tinit1
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:71355; name:B (dyninit; see ledger)
+// confidence:C; dyninit-tinit; owner-conf-B;manual-review=complete-F00186:unresolved; map:71355; name:B (dyninit; see ledger)
 VA_CHT_1(0x00413a80, 0x20)
 // abstract_tile$tinit2
 // Function body not reconstructed; signature retained as a comment.
@@ -107,15 +107,15 @@ VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 
 namespace {
 
-// confidence:C; align-band; retn,stable; map:1737
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:1737
 VA_CHT_1(0x00412b78, 0x6)
 unsigned long get_default_visibility_data()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:1738
-VA_CHT_1(0x00413960, 0x2d)
+// name:A; map symbol; map:1738
+VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 int get_visibility_state(unsigned long arg_0, int arg_1)
 {
     // Body unavailable.
@@ -151,8 +151,8 @@ unsigned int t_terrain_transition::get_mask_set() const
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:1743
-VA_CHT_1(0x004136e0, 0x25)
+// name:A; map symbol; map:1743
+VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 t_road_type t_road_transition::get_road_type() const
 {
     // Body unavailable.
@@ -186,8 +186,8 @@ t_road_transition const& t_abstract_tile::get_road_transition(int arg_0) const
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:1748
-VA_CHT_1(0x004137e0, 0x30)
+// name:A; map symbol; map:1748
+VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 int t_abstract_tile::get_road_transition_count() const
 {
     // Body unavailable.
@@ -263,7 +263,7 @@ void t_terrain_transition::set_id(unsigned int arg_0)
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:1759
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:1759
 VA_CHT_1(0x00413750, 0x26)
 void t_terrain_transition::set_mask_set(unsigned int arg_0)
 {
@@ -450,7 +450,7 @@ t_rock_terrain_type validate_range(t_rock_terrain_type arg_0, int arg_1, t_rock_
 
 } // anonymous namespace
 
-// confidence:C; align-band; retn,stable; map:1837
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:1837
 VA_CHT_1(0x00413410, 0xcc)
 copy_on_write_ptr_details::t_body<t_abstract_tile::t_transition_info>* t_copy_on_write_ptr<t_abstract_tile::t_transition_info>::get_default_body(
 
@@ -459,8 +459,8 @@ copy_on_write_ptr_details::t_body<t_abstract_tile::t_transition_info>* t_copy_on
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:1838
-VA_CHT_1(0x00413340, 0xc5)
+// name:A; map symbol; map:1838
+VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 void t_copy_on_write_ptr<t_abstract_tile::t_transition_info>::split()
 {
     // Body unavailable.

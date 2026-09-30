@@ -1,7 +1,7 @@
 // artifact_effect.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\artifact_effect.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 572/1004 (A:558 B:3 C:11); unaccounted 432; skipped std 20.
+// Accounted 572/1004 (A:410 B:0 C:0); unaccounted 432; skipped std 20.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,7 +10,7 @@
 
 // === .text (576 symbols) ===
 
-// confidence:C; align-order; retn; map:14734
+// confidence:D; align-order; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:14734
 VA_CHT_1(0x00531920, 0xca)
 t_counted_ptr<t_artifact_effect> create_effect(t_artifact_effect_type arg_0)
 {
@@ -24,7 +24,7 @@ t_artifact_effect::~t_artifact_effect()
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:14736
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:14736
 VA_CHT_1(0x005319f0, 0xa9)
 bool t_artifact_effect::read(std::basic_streambuf<char, std::char_traits<char>>& arg_0)
 {
@@ -38,7 +38,7 @@ bool t_artifact_effect::accept(t_artifact_effect_visitor& arg_0)
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:14738
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:14738
 VA_CHT_1(0x00531ab0, 0xa9)
 bool t_artifact_effect::write(std::basic_streambuf<char, std::char_traits<char>>& arg_0) const
 {
@@ -52,7 +52,7 @@ int t_artifact_effect::get_level() const
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:14740
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:14740
 VA_CHT_1(0x00531b60, 0x146)
 bool t_artifact_prop::t_aligned_bonus_base::read(std::basic_streambuf<char, std::char_traits<char>>& arg_0)
 {
@@ -66,7 +66,7 @@ bool t_artifact_prop::t_aligned_bonus_base::accept(t_artifact_effect_visitor& ar
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:14742
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:14742
 VA_CHT_1(0x00531cc0, 0x140)
 bool t_artifact_prop::t_aligned_bonus_base::write(
     std::basic_streambuf<char, std::char_traits<char>>& arg_0
@@ -75,21 +75,21 @@ bool t_artifact_prop::t_aligned_bonus_base::write(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:14743
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:14743
 VA_CHT_1(0x00531e00, 0x10d)
 bool t_artifact_prop::t_movement::read(std::basic_streambuf<char, std::char_traits<char>>& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; stable,vslot; map:14744
+// confidence:D; align-order; stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:14744
 VA_CHT_1(0x00531f10, 0xf)
 bool t_artifact_prop::t_movement::accept(t_artifact_effect_visitor& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:14745
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:14745
 VA_CHT_1(0x00531f20, 0xfd)
 bool t_artifact_prop::t_movement::write(std::basic_streambuf<char, std::char_traits<char>>& arg_0) const
 {
@@ -110,7 +110,7 @@ bool t_artifact_prop::t_attack::write(std::basic_streambuf<char, std::char_trait
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:14748
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:14748
 VA_CHT_1(0x00532020, 0x10d)
 bool t_artifact_prop::t_combat::read(std::basic_streambuf<char, std::char_traits<char>>& arg_0)
 {
@@ -124,42 +124,42 @@ bool t_artifact_prop::t_combat::accept(t_artifact_effect_visitor& arg_0)
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:14750
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:14750
 VA_CHT_1(0x00532140, 0xfb)
 bool t_artifact_prop::t_combat::write(std::basic_streambuf<char, std::char_traits<char>>& arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:14751
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:14751
 VA_CHT_1(0x00532240, 0x23)
 t_artifact_effect* t_artifact_prop::t_creature_growth::create()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:14752
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:14752
 VA_CHT_1(0x00532270, 0x59)
 t_artifact_effect* t_artifact_prop::t_creature_growth::clone() const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:14753
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:14753
 VA_CHT_1(0x005322d0, 0xb6)
 bool t_artifact_prop::t_creature_growth::read(std::basic_streambuf<char, std::char_traits<char>>& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; stable,vslot; map:14754
+// confidence:D; align-order; stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:14754
 VA_CHT_1(0x00532390, 0xf)
 bool t_artifact_prop::t_creature_growth::accept(t_artifact_effect_visitor& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:14755
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:14755
 VA_CHT_1(0x005323a0, 0xb6)
 bool t_artifact_prop::t_creature_growth::write(
     std::basic_streambuf<char, std::char_traits<char>>& arg_0
@@ -168,21 +168,21 @@ bool t_artifact_prop::t_creature_growth::write(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:14756
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:14756
 VA_CHT_1(0x00532460, 0x48)
 t_artifact_effect* t_artifact_prop::t_fragment::clone() const
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:14757
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:14757
 VA_CHT_1(0x005324b0, 0x23)
 t_artifact_effect* t_artifact_prop::t_fragment::create()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:14758
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:14758
 VA_CHT_1(0x005324e0, 0x118)
 bool t_artifact_prop::t_fragment::read(std::basic_streambuf<char, std::char_traits<char>>& arg_0)
 {
@@ -196,28 +196,28 @@ bool t_artifact_prop::t_fragment::accept(t_artifact_effect_visitor& arg_0)
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:14760
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:14760
 VA_CHT_1(0x00532600, 0x10e)
 bool t_artifact_prop::t_fragment::write(std::basic_streambuf<char, std::char_traits<char>>& arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:14761
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:14761
 VA_CHT_1(0x00532710, 0x1af)
 bool t_artifact_prop::t_damage_bonus_base::read(std::basic_streambuf<char, std::char_traits<char>>& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:14762
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:14762
 VA_CHT_1(0x005328c0, 0xf)
 bool t_artifact_prop::t_damage_bonus_base::accept(t_artifact_effect_visitor& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:14763
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:14763
 VA_CHT_1(0x005328d0, 0x194)
 bool t_artifact_prop::t_damage_bonus_base::write(
     std::basic_streambuf<char, std::char_traits<char>>& arg_0
@@ -226,14 +226,14 @@ bool t_artifact_prop::t_damage_bonus_base::write(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:14764
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:14764
 VA_CHT_1(0x00532a70, 0x4b)
 t_artifact_effect* t_artifact_prop::t_income::clone() const
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:14765
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:14765
 VA_CHT_1(0x00532ac0, 0x30)
 t_artifact_effect* t_artifact_prop::t_income::create()
 {
@@ -247,14 +247,14 @@ bool t_artifact_prop::t_income::read(std::basic_streambuf<char, std::char_traits
     // Body unavailable.
 }
 
-// confidence:A; align-order; stable,vslot; map:14767
+// confidence:D; align-order; stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:14767
 VA_CHT_1(0x00532bb0, 0xf)
 bool t_artifact_prop::t_income::accept(t_artifact_effect_visitor& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:14768
+// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:14768
 VA_CHT_1(0x00532bc0, 0xb6)
 bool t_artifact_prop::t_income::write(std::basic_streambuf<char, std::char_traits<char>>& arg_0) const
 {
@@ -282,7 +282,7 @@ bool t_artifact_prop::t_single_spell::write(std::basic_streambuf<char, std::char
     // Body unavailable.
 }
 
-// confidence:A; align-order; vslot; map:14772
+// confidence:D; align-order; vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:14772
 VA_CHT_1(0x00532e50, 0x8)
 int t_artifact_prop::t_single_spell::get_level() const
 {
@@ -310,28 +310,28 @@ bool t_artifact_prop::t_skill_effect::write(std::basic_streambuf<char, std::char
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn; map:14776
+// confidence:D; align-order; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:14776
 VA_CHT_1(0x00532e70, 0x25)
 int t_artifact_prop::t_spell_charges_base::get_max_spell_points() const
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn; map:14777
+// confidence:D; align-order; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:14777
 VA_CHT_1(0x00532ea0, 0x124)
 bool t_artifact_prop::t_spell_charges_base::read(std::basic_streambuf<char, std::char_traits<char>>& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; map:14778
+// confidence:D; align-order; review-status=unreviewed;classification=D:not-a-best-guess; map:14778
 VA_CHT_1(0x00532fd0, 0xf)
 bool t_artifact_prop::t_spell_charges_base::accept(t_artifact_effect_visitor& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn; map:14779
+// confidence:D; align-order; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:14779
 VA_CHT_1(0x00532fe0, 0x121)
 bool t_artifact_prop::t_spell_charges_base::write(
     std::basic_streambuf<char, std::char_traits<char>>& arg_0
@@ -340,7 +340,7 @@ bool t_artifact_prop::t_spell_charges_base::write(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:14780
+// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:14780
 VA_CHT_1(0x00533110, 0x232)
 bool t_artifact_prop::t_spell_list_effect::read(std::basic_streambuf<char, std::char_traits<char>>& arg_0)
 {
@@ -354,7 +354,7 @@ bool t_artifact_prop::t_spell_list_effect::accept(t_artifact_effect_visitor& arg
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:14782
+// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:14782
 VA_CHT_1(0x00533360, 0x10b)
 bool t_artifact_prop::t_spell_list_effect::write(
     std::basic_streambuf<char, std::char_traits<char>>& arg_0
@@ -377,7 +377,7 @@ bool t_artifact_prop::t_spell_cost_base::accept(t_artifact_effect_visitor& arg_0
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:14785
+// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:14785
 VA_CHT_1(0x005335c0, 0x102)
 bool t_artifact_prop::t_spell_cost_base::write(
     std::basic_streambuf<char, std::char_traits<char>>& arg_0
@@ -386,7 +386,7 @@ bool t_artifact_prop::t_spell_cost_base::write(
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn; map:14786
+// confidence:D; align-order; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:14786
 VA_CHT_1(0x00533830, 0x12e)
 bool t_artifact_prop::t_spell_with_attack_base::read(
     std::basic_streambuf<char, std::char_traits<char>>& arg_0
@@ -395,14 +395,14 @@ bool t_artifact_prop::t_spell_with_attack_base::read(
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn; map:14787
+// confidence:D; align-order; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:14787
 VA_CHT_1(0x00533df0, 0x52)
 bool t_artifact_prop::t_spell_with_attack_base::accept(t_artifact_effect_visitor& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:14788
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:14788
 VA_CHT_1(0x00533e50, 0x56)
 bool t_artifact_prop::t_spell_with_attack_base::write(
     std::basic_streambuf<char, std::char_traits<char>>& arg_0
@@ -411,7 +411,7 @@ bool t_artifact_prop::t_spell_with_attack_base::write(
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:69477; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:69477; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00536ae0, 0x20, STATIC_INIT_DISPATCH, artifact_effect)
 
 // name:A; map symbol; map:14789
@@ -440,7 +440,7 @@ t_artifact_prop::t_base<7>::t_base<7>()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:14795
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:14795
 VA_CHT_1(0x0061fd60, 0x14)
 t_artifact_effect::t_artifact_effect()
 {
@@ -1002,7 +1002,7 @@ t_counted_ptr<t_artifact_effect>::t_counted_ptr<t_artifact_effect>(t_artifact_ef
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:14898
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:14898
 VA_CHT_1(0x00533f10, 0x23)
 t_artifact_prop::t_effect<t_artifact_prop::t_aligned_bonus_base, 1>::t_effect<t_artifact_prop::t_aligned_bonus_base, 1>(
 
@@ -1017,7 +1017,7 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, "t_artifact_pr
 // name:A; map symbol; map:14900
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, "t_artifact_prop::t_effect<t_artifact_prop::t_aligned_bonus_base, 1>")
 
-// confidence:A; align-band; retn,stable,vptr; map:14901
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:14901
 VA_CHT_1(0x0062af60, 0x14)
 t_artifact_prop::t_aligned_bonus_base::t_aligned_bonus_base()
 {
@@ -1046,7 +1046,7 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, t_artifact_pro
 // name:A; map symbol; map:14905
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, t_artifact_prop::t_aligned_bonus_base)
 
-// confidence:A; align-band; retn,stable,vslot; map:14906
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:14906
 VA_CHT_1(0x00533f40, 0x4e)
 t_artifact_effect* t_artifact_prop::t_effect<t_artifact_prop::t_aligned_bonus_base, 1>::clone() const
 {
@@ -1078,7 +1078,7 @@ t_artifact_prop::t_aligned_bonus_base::t_aligned_bonus_base(
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:14910
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:14910
 VA_CHT_1(0x00533fb0, 0x23)
 t_artifact_prop::t_effect<t_artifact_prop::t_movement, 0>::t_effect<t_artifact_prop::t_movement, 0>()
 {
@@ -1118,7 +1118,7 @@ t_artifact_prop::t_effect<t_artifact_prop::t_movement, 0>::~t_effect<t_artifact_
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:14918
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:14918
 VA_CHT_1(0x00533fe0, 0x48)
 t_artifact_effect* t_artifact_prop::t_effect<t_artifact_prop::t_movement, 0>::clone() const
 {
@@ -1148,7 +1148,7 @@ t_artifact_prop::t_movement::t_movement(t_artifact_prop::t_movement const& arg_0
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:14922
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:14922
 VA_CHT_1(0x00534040, 0x23)
 t_artifact_prop::t_effect<t_artifact_prop::t_skill_effect, 50>::t_effect<t_artifact_prop::t_skill_effect, 50>(
 
@@ -1192,7 +1192,7 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, t_artifact_pro
 // name:A; map symbol; map:14929
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, t_artifact_prop::t_skill_effect)
 
-// confidence:A; align-band; retn,stable,vslot; map:14930
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:14930
 VA_CHT_1(0x00534070, 0x42)
 t_artifact_effect* t_artifact_prop::t_effect<t_artifact_prop::t_skill_effect, 50>::clone() const
 {
@@ -1222,7 +1222,7 @@ t_artifact_prop::t_skill_effect::t_skill_effect(t_artifact_prop::t_skill_effect 
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:14934
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:14934
 VA_CHT_1(0x005340d0, 0x23)
 t_artifact_prop::t_effect<t_artifact_prop::t_spell_with_attack_base, 49>::t_effect<t_artifact_prop::t_spell_with_attack_base, 49>(
 
@@ -1231,7 +1231,7 @@ t_artifact_prop::t_effect<t_artifact_prop::t_spell_with_attack_base, 49>::t_effe
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,vslot; map:14935
+// confidence:D; align-band; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:14935
 VA_CHT_1_COMPGEN(0x005336d0, 0x144, SCALAR_DELETING_DTOR, "t_artifact_prop::t_effect<t_artifact_prop::t_spell_with_attack_base, 49>")
 
 // name:A; map symbol; map:14936
@@ -1266,7 +1266,7 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, t_artifact_pro
 // name:A; map symbol; map:14941
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, t_artifact_prop::t_spell_with_attack_base)
 
-// confidence:A; align-band; retn,stable,vptr; map:14942
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:14942
 VA_CHT_1(0x0062b070, 0x14)
 t_artifact_prop::t_single_spell::t_single_spell()
 {
@@ -1286,14 +1286,14 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, t_artifact_pro
 // name:A; map symbol; map:14945
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, t_artifact_prop::t_single_spell)
 
-// confidence:A; align-band; retn,stable,vslot; map:14946
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:14946
 VA_CHT_1(0x00534100, 0x50)
 t_artifact_effect* t_artifact_prop::t_effect<t_artifact_prop::t_spell_with_attack_base, 49>::clone() const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; vslot; map:14947
+// confidence:D; align-band; vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:14947
 VA_CHT_1(0x00533820, 0xf)
 t_artifact_effect_type t_artifact_prop::t_effect<t_artifact_prop::t_spell_with_attack_base, 49>::get_effect(
 
@@ -1327,7 +1327,7 @@ t_artifact_prop::t_single_spell::t_single_spell(t_artifact_prop::t_single_spell 
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:14951
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:14951
 VA_CHT_1(0x00534160, 0x23)
 t_artifact_prop::t_effect<t_artifact_prop::t_spell_charges_base, 46>::t_effect<t_artifact_prop::t_spell_charges_base, 46>(
 
@@ -1371,7 +1371,7 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, t_artifact_pro
 // name:A; map symbol; map:14958
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, t_artifact_prop::t_spell_charges_base)
 
-// confidence:A; align-band; retn,stable,vslot; map:14959
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:14959
 VA_CHT_1(0x00534190, 0x54)
 t_artifact_effect* t_artifact_prop::t_effect<t_artifact_prop::t_spell_charges_base, 46>::clone() const
 {
@@ -1405,14 +1405,14 @@ t_artifact_prop::t_spell_charges_base::t_spell_charges_base(
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:14963
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:14963
 VA_CHT_1(0x00534200, 0x23)
 t_artifact_prop::t_effect<t_artifact_prop::t_combat, 2>::t_effect<t_artifact_prop::t_combat, 2>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:14964
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:14964
 VA_CHT_1(0x00624ac0, 0x14)
 t_artifact_prop::t_combat::t_combat()
 {
@@ -1432,7 +1432,7 @@ t_artifact_prop::t_combat::~t_combat()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:14968
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:14968
 VA_CHT_1(0x00534230, 0x44)
 t_artifact_effect* t_artifact_prop::t_effect<t_artifact_prop::t_combat, 2>::clone() const
 {
@@ -1475,14 +1475,14 @@ t_artifact_prop::t_effect<t_artifact_prop::t_combat, 2>::~t_effect<t_artifact_pr
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:14975
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:14975
 VA_CHT_1(0x00534280, 0x23)
 t_artifact_prop::t_effect<t_artifact_effect, 3>::t_effect<t_artifact_effect, 3>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:14976
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:14976
 VA_CHT_1(0x005342b0, 0x36)
 t_artifact_effect* t_artifact_prop::t_effect<t_artifact_effect, 3>::clone() const
 {
@@ -1518,14 +1518,14 @@ t_artifact_prop::t_effect<t_artifact_effect, 3>::~t_effect<t_artifact_effect, 3>
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:14982
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:14982
 VA_CHT_1(0x005342f0, 0x23)
 t_artifact_prop::t_effect<t_artifact_prop::t_single_spell, 4>::t_effect<t_artifact_prop::t_single_spell, 4>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:14983
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:14983
 VA_CHT_1(0x00534320, 0x42)
 t_artifact_effect* t_artifact_prop::t_effect<t_artifact_prop::t_single_spell, 4>::clone() const
 {
@@ -1561,14 +1561,14 @@ t_artifact_prop::t_effect<t_artifact_prop::t_single_spell, 4>::~t_effect<t_artif
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:14989
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:14989
 VA_CHT_1(0x00534370, 0x23)
 t_artifact_prop::t_effect<t_artifact_effect, 5>::t_effect<t_artifact_effect, 5>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:14990
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:14990
 VA_CHT_1(0x005343a0, 0x36)
 t_artifact_effect* t_artifact_prop::t_effect<t_artifact_effect, 5>::clone() const
 {
@@ -1604,14 +1604,14 @@ t_artifact_prop::t_effect<t_artifact_effect, 5>::~t_effect<t_artifact_effect, 5>
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:14996
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:14996
 VA_CHT_1(0x005343e0, 0x23)
 t_artifact_prop::t_effect<t_artifact_effect, 6>::t_effect<t_artifact_effect, 6>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:14997
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:14997
 VA_CHT_1(0x00534410, 0x36)
 t_artifact_effect* t_artifact_prop::t_effect<t_artifact_effect, 6>::clone() const
 {
@@ -1647,14 +1647,14 @@ t_artifact_prop::t_effect<t_artifact_effect, 6>::~t_effect<t_artifact_effect, 6>
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:15003
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:15003
 VA_CHT_1(0x00534450, 0x23)
 t_artifact_prop::t_effect<t_artifact_effect, 8>::t_effect<t_artifact_effect, 8>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:15004
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:15004
 VA_CHT_1(0x00534480, 0x36)
 t_artifact_effect* t_artifact_prop::t_effect<t_artifact_effect, 8>::clone() const
 {
@@ -1690,7 +1690,7 @@ t_artifact_prop::t_effect<t_artifact_effect, 8>::~t_effect<t_artifact_effect, 8>
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:15010
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:15010
 VA_CHT_1(0x005344c0, 0x23)
 t_artifact_prop::t_effect<t_artifact_prop::t_damage_bonus_base, 9>::t_effect<t_artifact_prop::t_damage_bonus_base, 9>(
 
@@ -1699,7 +1699,7 @@ t_artifact_prop::t_effect<t_artifact_prop::t_damage_bonus_base, 9>::t_effect<t_a
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:15011
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:15011
 VA_CHT_1(0x005344f0, 0x56)
 t_artifact_effect* t_artifact_prop::t_effect<t_artifact_prop::t_damage_bonus_base, 9>::clone() const
 {
@@ -1757,14 +1757,14 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, t_artifact_pro
 // name:A; map symbol; map:15020
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, t_artifact_prop::t_damage_bonus_base)
 
-// confidence:A; align-band; retn,stable,vptr; map:15021
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:15021
 VA_CHT_1(0x00534550, 0x23)
 t_artifact_prop::t_effect<t_artifact_prop::t_combat, 10>::t_effect<t_artifact_prop::t_combat, 10>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:15022
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:15022
 VA_CHT_1(0x00534580, 0x44)
 t_artifact_effect* t_artifact_prop::t_effect<t_artifact_prop::t_combat, 10>::clone() const
 {
@@ -1800,14 +1800,14 @@ t_artifact_prop::t_effect<t_artifact_prop::t_combat, 10>::~t_effect<t_artifact_p
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:15028
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:15028
 VA_CHT_1(0x005345d0, 0x23)
 t_artifact_prop::t_effect<t_artifact_prop::t_combat, 11>::t_effect<t_artifact_prop::t_combat, 11>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:15029
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:15029
 VA_CHT_1(0x00534600, 0x44)
 t_artifact_effect* t_artifact_prop::t_effect<t_artifact_prop::t_combat, 11>::clone() const
 {
@@ -1843,14 +1843,14 @@ t_artifact_prop::t_effect<t_artifact_prop::t_combat, 11>::~t_effect<t_artifact_p
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:15035
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:15035
 VA_CHT_1(0x00534650, 0x23)
 t_artifact_prop::t_effect<t_artifact_prop::t_combat, 12>::t_effect<t_artifact_prop::t_combat, 12>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:15036
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:15036
 VA_CHT_1(0x00534680, 0x44)
 t_artifact_effect* t_artifact_prop::t_effect<t_artifact_prop::t_combat, 12>::clone() const
 {
@@ -1886,14 +1886,14 @@ t_artifact_prop::t_effect<t_artifact_prop::t_combat, 12>::~t_effect<t_artifact_p
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:15042
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:15042
 VA_CHT_1(0x005346d0, 0x23)
 t_artifact_prop::t_effect<t_artifact_prop::t_combat, 14>::t_effect<t_artifact_prop::t_combat, 14>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:15043
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:15043
 VA_CHT_1(0x00534700, 0x44)
 t_artifact_effect* t_artifact_prop::t_effect<t_artifact_prop::t_combat, 14>::clone() const
 {
@@ -1929,14 +1929,14 @@ t_artifact_prop::t_effect<t_artifact_prop::t_combat, 14>::~t_effect<t_artifact_p
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:15049
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:15049
 VA_CHT_1(0x00534760, 0x23)
 t_artifact_prop::t_effect<t_artifact_effect, 15>::t_effect<t_artifact_effect, 15>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:15050
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:15050
 VA_CHT_1(0x00534790, 0x36)
 t_artifact_effect* t_artifact_prop::t_effect<t_artifact_effect, 15>::clone() const
 {
@@ -1972,14 +1972,14 @@ t_artifact_prop::t_effect<t_artifact_effect, 15>::~t_effect<t_artifact_effect, 1
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:15056
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:15056
 VA_CHT_1(0x005347d0, 0x23)
 t_artifact_prop::t_effect<t_artifact_effect, 16>::t_effect<t_artifact_effect, 16>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:15057
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:15057
 VA_CHT_1(0x00534800, 0x36)
 t_artifact_effect* t_artifact_prop::t_effect<t_artifact_effect, 16>::clone() const
 {
@@ -2015,7 +2015,7 @@ t_artifact_prop::t_effect<t_artifact_effect, 16>::~t_effect<t_artifact_effect, 1
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:15063
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:15063
 VA_CHT_1(0x00534840, 0x110)
 t_artifact_prop::t_effect<t_artifact_prop::t_spell_list_effect, 17>::t_effect<t_artifact_prop::t_spell_list_effect, 17>(
 
@@ -2024,7 +2024,7 @@ t_artifact_prop::t_effect<t_artifact_prop::t_spell_list_effect, 17>::t_effect<t_
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:15064
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:15064
 VA_CHT_1(0x00534950, 0x1e6)
 t_artifact_effect* t_artifact_prop::t_effect<t_artifact_prop::t_spell_list_effect, 17>::clone() const
 {
@@ -2047,7 +2047,7 @@ t_artifact_prop::t_effect<t_artifact_prop::t_spell_list_effect, 17>::t_effect<t_
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:15067
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:15067
 VA_CHT_1_COMPGEN(0x00536400, 0x1e, VECTOR_DELETING_DTOR, "t_artifact_prop::t_effect<t_artifact_prop::t_spell_list_effect, 17>")
 
 // name:A; map symbol; map:15068
@@ -2076,20 +2076,20 @@ t_artifact_prop::t_spell_list_effect::~t_spell_list_effect()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:15072
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:15072
 VA_CHT_1_COMPGEN(0x00536600, 0x1e, VECTOR_DELETING_DTOR, t_artifact_prop::t_spell_list_effect)
 
 // name:A; map symbol; map:15073
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, t_artifact_prop::t_spell_list_effect)
 
-// confidence:A; align-band; retn,stable,vptr; map:15074
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:15074
 VA_CHT_1(0x00534b60, 0x23)
 t_artifact_prop::t_effect<t_artifact_effect, 19>::t_effect<t_artifact_effect, 19>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:15075
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:15075
 VA_CHT_1(0x00534b90, 0x36)
 t_artifact_effect* t_artifact_prop::t_effect<t_artifact_effect, 19>::clone() const
 {
@@ -2125,7 +2125,7 @@ t_artifact_prop::t_effect<t_artifact_effect, 19>::~t_effect<t_artifact_effect, 1
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:15081
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:15081
 VA_CHT_1(0x00534bd0, 0x23)
 t_artifact_prop::t_effect<t_artifact_prop::t_single_spell, 20>::t_effect<t_artifact_prop::t_single_spell, 20>(
 
@@ -2134,7 +2134,7 @@ t_artifact_prop::t_effect<t_artifact_prop::t_single_spell, 20>::t_effect<t_artif
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:15082
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:15082
 VA_CHT_1(0x00534c00, 0x42)
 t_artifact_effect* t_artifact_prop::t_effect<t_artifact_prop::t_single_spell, 20>::clone() const
 {
@@ -2172,14 +2172,14 @@ t_artifact_prop::t_effect<t_artifact_prop::t_single_spell, 20>::~t_effect<t_arti
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:15088
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:15088
 VA_CHT_1(0x00534c60, 0x23)
 t_artifact_prop::t_effect<t_artifact_effect, 21>::t_effect<t_artifact_effect, 21>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:15089
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:15089
 VA_CHT_1(0x00534c90, 0x36)
 t_artifact_effect* t_artifact_prop::t_effect<t_artifact_effect, 21>::clone() const
 {
@@ -2215,14 +2215,14 @@ t_artifact_prop::t_effect<t_artifact_effect, 21>::~t_effect<t_artifact_effect, 2
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:15095
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:15095
 VA_CHT_1(0x00534ce0, 0x23)
 t_artifact_prop::t_effect<t_artifact_effect, 22>::t_effect<t_artifact_effect, 22>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:15096
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:15096
 VA_CHT_1(0x00534d10, 0x36)
 t_artifact_effect* t_artifact_prop::t_effect<t_artifact_effect, 22>::clone() const
 {
@@ -2258,14 +2258,14 @@ t_artifact_prop::t_effect<t_artifact_effect, 22>::~t_effect<t_artifact_effect, 2
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:15102
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:15102
 VA_CHT_1(0x00534d60, 0x23)
 t_artifact_prop::t_effect<t_artifact_effect, 23>::t_effect<t_artifact_effect, 23>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:15103
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:15103
 VA_CHT_1(0x00534d90, 0x36)
 t_artifact_effect* t_artifact_prop::t_effect<t_artifact_effect, 23>::clone() const
 {
@@ -2301,14 +2301,14 @@ t_artifact_prop::t_effect<t_artifact_effect, 23>::~t_effect<t_artifact_effect, 2
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:15109
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:15109
 VA_CHT_1(0x00534dd0, 0x23)
 t_artifact_prop::t_effect<t_artifact_effect, 24>::t_effect<t_artifact_effect, 24>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:15110
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:15110
 VA_CHT_1(0x00534e00, 0x36)
 t_artifact_effect* t_artifact_prop::t_effect<t_artifact_effect, 24>::clone() const
 {
@@ -2344,14 +2344,14 @@ t_artifact_prop::t_effect<t_artifact_effect, 24>::~t_effect<t_artifact_effect, 2
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:15116
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:15116
 VA_CHT_1(0x00534e50, 0x23)
 t_artifact_prop::t_effect<t_artifact_effect, 25>::t_effect<t_artifact_effect, 25>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:15117
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:15117
 VA_CHT_1(0x00534e80, 0x36)
 t_artifact_effect* t_artifact_prop::t_effect<t_artifact_effect, 25>::clone() const
 {
@@ -2387,14 +2387,14 @@ t_artifact_prop::t_effect<t_artifact_effect, 25>::~t_effect<t_artifact_effect, 2
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:15123
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:15123
 VA_CHT_1(0x00534ed0, 0x23)
 t_artifact_prop::t_effect<t_artifact_effect, 26>::t_effect<t_artifact_effect, 26>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:15124
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:15124
 VA_CHT_1(0x00534f00, 0x36)
 t_artifact_effect* t_artifact_prop::t_effect<t_artifact_effect, 26>::clone() const
 {
@@ -2430,14 +2430,14 @@ t_artifact_prop::t_effect<t_artifact_effect, 26>::~t_effect<t_artifact_effect, 2
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:15130
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:15130
 VA_CHT_1(0x00534f40, 0x23)
 t_artifact_prop::t_effect<t_artifact_effect, 27>::t_effect<t_artifact_effect, 27>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:15131
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:15131
 VA_CHT_1(0x00534f70, 0x36)
 t_artifact_effect* t_artifact_prop::t_effect<t_artifact_effect, 27>::clone() const
 {
@@ -2473,14 +2473,14 @@ t_artifact_prop::t_effect<t_artifact_effect, 27>::~t_effect<t_artifact_effect, 2
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:15137
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:15137
 VA_CHT_1(0x00534fb0, 0x23)
 t_artifact_prop::t_effect<t_artifact_effect, 28>::t_effect<t_artifact_effect, 28>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:15138
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:15138
 VA_CHT_1(0x00534fe0, 0x36)
 t_artifact_effect* t_artifact_prop::t_effect<t_artifact_effect, 28>::clone() const
 {
@@ -2516,14 +2516,14 @@ t_artifact_prop::t_effect<t_artifact_effect, 28>::~t_effect<t_artifact_effect, 2
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:15144
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:15144
 VA_CHT_1(0x00535030, 0x23)
 t_artifact_prop::t_effect<t_artifact_effect, 29>::t_effect<t_artifact_effect, 29>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:15145
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:15145
 VA_CHT_1(0x00535060, 0x36)
 t_artifact_effect* t_artifact_prop::t_effect<t_artifact_effect, 29>::clone() const
 {
@@ -2559,14 +2559,14 @@ t_artifact_prop::t_effect<t_artifact_effect, 29>::~t_effect<t_artifact_effect, 2
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:15151
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:15151
 VA_CHT_1(0x005350b0, 0x23)
 t_artifact_prop::t_effect<t_artifact_effect, 30>::t_effect<t_artifact_effect, 30>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:15152
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:15152
 VA_CHT_1(0x005350e0, 0x36)
 t_artifact_effect* t_artifact_prop::t_effect<t_artifact_effect, 30>::clone() const
 {
@@ -2602,14 +2602,14 @@ t_artifact_prop::t_effect<t_artifact_effect, 30>::~t_effect<t_artifact_effect, 3
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:15158
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:15158
 VA_CHT_1(0x00535120, 0x23)
 t_artifact_prop::t_effect<t_artifact_effect, 31>::t_effect<t_artifact_effect, 31>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:15159
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:15159
 VA_CHT_1(0x00535150, 0x36)
 t_artifact_effect* t_artifact_prop::t_effect<t_artifact_effect, 31>::clone() const
 {
@@ -2645,14 +2645,14 @@ t_artifact_prop::t_effect<t_artifact_effect, 31>::~t_effect<t_artifact_effect, 3
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:15165
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:15165
 VA_CHT_1(0x00535190, 0x23)
 t_artifact_prop::t_effect<t_artifact_effect, 32>::t_effect<t_artifact_effect, 32>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:15166
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:15166
 VA_CHT_1(0x005351c0, 0x36)
 t_artifact_effect* t_artifact_prop::t_effect<t_artifact_effect, 32>::clone() const
 {
@@ -2688,14 +2688,14 @@ t_artifact_prop::t_effect<t_artifact_effect, 32>::~t_effect<t_artifact_effect, 3
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:15172
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:15172
 VA_CHT_1(0x00535200, 0x23)
 t_artifact_prop::t_effect<t_artifact_effect, 33>::t_effect<t_artifact_effect, 33>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:15173
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:15173
 VA_CHT_1(0x00535230, 0x36)
 t_artifact_effect* t_artifact_prop::t_effect<t_artifact_effect, 33>::clone() const
 {
@@ -2731,14 +2731,14 @@ t_artifact_prop::t_effect<t_artifact_effect, 33>::~t_effect<t_artifact_effect, 3
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:15179
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:15179
 VA_CHT_1(0x00535280, 0x23)
 t_artifact_prop::t_effect<t_artifact_effect, 34>::t_effect<t_artifact_effect, 34>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:15180
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:15180
 VA_CHT_1(0x005352b0, 0x36)
 t_artifact_effect* t_artifact_prop::t_effect<t_artifact_effect, 34>::clone() const
 {
@@ -2774,14 +2774,14 @@ t_artifact_prop::t_effect<t_artifact_effect, 34>::~t_effect<t_artifact_effect, 3
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:15186
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:15186
 VA_CHT_1(0x00535300, 0x23)
 t_artifact_prop::t_effect<t_artifact_effect, 35>::t_effect<t_artifact_effect, 35>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:15187
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:15187
 VA_CHT_1(0x00535330, 0x36)
 t_artifact_effect* t_artifact_prop::t_effect<t_artifact_effect, 35>::clone() const
 {
@@ -2817,14 +2817,14 @@ t_artifact_prop::t_effect<t_artifact_effect, 35>::~t_effect<t_artifact_effect, 3
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:15193
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:15193
 VA_CHT_1(0x00535380, 0x23)
 t_artifact_prop::t_effect<t_artifact_effect, 36>::t_effect<t_artifact_effect, 36>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:15194
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:15194
 VA_CHT_1(0x005353b0, 0x36)
 t_artifact_effect* t_artifact_prop::t_effect<t_artifact_effect, 36>::clone() const
 {
@@ -2860,14 +2860,14 @@ t_artifact_prop::t_effect<t_artifact_effect, 36>::~t_effect<t_artifact_effect, 3
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:15200
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:15200
 VA_CHT_1(0x005353f0, 0x23)
 t_artifact_prop::t_effect<t_artifact_effect, 37>::t_effect<t_artifact_effect, 37>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:15201
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:15201
 VA_CHT_1(0x00535420, 0x36)
 t_artifact_effect* t_artifact_prop::t_effect<t_artifact_effect, 37>::clone() const
 {
@@ -2903,14 +2903,14 @@ t_artifact_prop::t_effect<t_artifact_effect, 37>::~t_effect<t_artifact_effect, 3
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:15207
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:15207
 VA_CHT_1(0x00535470, 0x23)
 t_artifact_prop::t_effect<t_artifact_effect, 38>::t_effect<t_artifact_effect, 38>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:15208
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:15208
 VA_CHT_1(0x005354a0, 0x36)
 t_artifact_effect* t_artifact_prop::t_effect<t_artifact_effect, 38>::clone() const
 {
@@ -2946,14 +2946,14 @@ t_artifact_prop::t_effect<t_artifact_effect, 38>::~t_effect<t_artifact_effect, 3
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:15214
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:15214
 VA_CHT_1(0x005354e0, 0x23)
 t_artifact_prop::t_effect<t_artifact_effect, 39>::t_effect<t_artifact_effect, 39>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:15215
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:15215
 VA_CHT_1(0x00535510, 0x36)
 t_artifact_effect* t_artifact_prop::t_effect<t_artifact_effect, 39>::clone() const
 {
@@ -2989,14 +2989,14 @@ t_artifact_prop::t_effect<t_artifact_effect, 39>::~t_effect<t_artifact_effect, 3
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:15221
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:15221
 VA_CHT_1(0x00535560, 0x23)
 t_artifact_prop::t_effect<t_artifact_effect, 40>::t_effect<t_artifact_effect, 40>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:15222
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:15222
 VA_CHT_1(0x00535590, 0x36)
 t_artifact_effect* t_artifact_prop::t_effect<t_artifact_effect, 40>::clone() const
 {
@@ -3032,14 +3032,14 @@ t_artifact_prop::t_effect<t_artifact_effect, 40>::~t_effect<t_artifact_effect, 4
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:15228
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:15228
 VA_CHT_1(0x005355e0, 0x23)
 t_artifact_prop::t_effect<t_artifact_prop::t_combat, 41>::t_effect<t_artifact_prop::t_combat, 41>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:15229
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:15229
 VA_CHT_1(0x00535610, 0x44)
 t_artifact_effect* t_artifact_prop::t_effect<t_artifact_prop::t_combat, 41>::clone() const
 {
@@ -3075,14 +3075,14 @@ t_artifact_prop::t_effect<t_artifact_prop::t_combat, 41>::~t_effect<t_artifact_p
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:15235
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:15235
 VA_CHT_1(0x00535670, 0x23)
 t_artifact_prop::t_effect<t_artifact_effect, 42>::t_effect<t_artifact_effect, 42>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:15236
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:15236
 VA_CHT_1(0x005356a0, 0x36)
 t_artifact_effect* t_artifact_prop::t_effect<t_artifact_effect, 42>::clone() const
 {
@@ -3118,7 +3118,7 @@ t_artifact_prop::t_effect<t_artifact_effect, 42>::~t_effect<t_artifact_effect, 4
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:15242
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:15242
 VA_CHT_1(0x005356f0, 0x23)
 t_artifact_prop::t_effect<t_artifact_prop::t_single_spell, 43>::t_effect<t_artifact_prop::t_single_spell, 43>(
 
@@ -3127,7 +3127,7 @@ t_artifact_prop::t_effect<t_artifact_prop::t_single_spell, 43>::t_effect<t_artif
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:15243
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:15243
 VA_CHT_1(0x00535720, 0x42)
 t_artifact_effect* t_artifact_prop::t_effect<t_artifact_prop::t_single_spell, 43>::clone() const
 {
@@ -3165,7 +3165,7 @@ t_artifact_prop::t_effect<t_artifact_prop::t_single_spell, 43>::~t_effect<t_arti
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:15249
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:15249
 VA_CHT_1(0x00535780, 0x110)
 t_artifact_prop::t_effect<t_artifact_prop::t_spell_list_effect, 44>::t_effect<t_artifact_prop::t_spell_list_effect, 44>(
 
@@ -3174,7 +3174,7 @@ t_artifact_prop::t_effect<t_artifact_prop::t_spell_list_effect, 44>::t_effect<t_
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:15250
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:15250
 VA_CHT_1(0x00535890, 0x1e6)
 t_artifact_effect* t_artifact_prop::t_effect<t_artifact_prop::t_spell_list_effect, 44>::clone() const
 {
@@ -3197,7 +3197,7 @@ t_artifact_prop::t_effect<t_artifact_prop::t_spell_list_effect, 44>::t_effect<t_
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:15253
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:15253
 VA_CHT_1_COMPGEN(0x00536420, 0x1e, VECTOR_DELETING_DTOR, "t_artifact_prop::t_effect<t_artifact_prop::t_spell_list_effect, 44>")
 
 // name:A; map symbol; map:15254
@@ -3212,7 +3212,7 @@ t_artifact_prop::t_effect<t_artifact_prop::t_spell_list_effect, 44>::~t_effect<t
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:15256
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:15256
 VA_CHT_1(0x00535a90, 0x110)
 t_artifact_prop::t_effect<t_artifact_prop::t_spell_list_effect, 45>::t_effect<t_artifact_prop::t_spell_list_effect, 45>(
 
@@ -3221,7 +3221,7 @@ t_artifact_prop::t_effect<t_artifact_prop::t_spell_list_effect, 45>::t_effect<t_
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:15257
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:15257
 VA_CHT_1(0x00535ba0, 0x1e6)
 t_artifact_effect* t_artifact_prop::t_effect<t_artifact_prop::t_spell_list_effect, 45>::clone() const
 {
@@ -3244,7 +3244,7 @@ t_artifact_prop::t_effect<t_artifact_prop::t_spell_list_effect, 45>::t_effect<t_
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:15260
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:15260
 VA_CHT_1_COMPGEN(0x00536440, 0x1e, SCALAR_DELETING_DTOR, "t_artifact_prop::t_effect<t_artifact_prop::t_spell_list_effect, 45>")
 
 // name:A; map symbol; map:15261
@@ -3259,7 +3259,7 @@ t_artifact_prop::t_effect<t_artifact_prop::t_spell_list_effect, 45>::~t_effect<t
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:15263
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:15263
 VA_CHT_1(0x00535da0, 0x114)
 t_artifact_prop::t_effect<t_artifact_prop::t_spell_cost_base, 47>::t_effect<t_artifact_prop::t_spell_cost_base, 47>(
 
@@ -3268,7 +3268,7 @@ t_artifact_prop::t_effect<t_artifact_prop::t_spell_cost_base, 47>::t_effect<t_ar
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:15264
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:15264
 VA_CHT_1(0x00535ec0, 0x198)
 t_artifact_effect* t_artifact_prop::t_effect<t_artifact_prop::t_spell_cost_base, 47>::clone() const
 {
@@ -3291,7 +3291,7 @@ t_artifact_prop::t_effect<t_artifact_prop::t_spell_cost_base, 47>::t_effect<t_ar
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:15267
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:15267
 VA_CHT_1_COMPGEN(0x00536460, 0x1e, SCALAR_DELETING_DTOR, "t_artifact_prop::t_effect<t_artifact_prop::t_spell_cost_base, 47>")
 
 // name:A; map symbol; map:15268
@@ -3320,20 +3320,20 @@ t_artifact_prop::t_spell_cost_base::~t_spell_cost_base()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:15272
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:15272
 VA_CHT_1_COMPGEN(0x0062b290, 0x1e, VECTOR_DELETING_DTOR, t_artifact_prop::t_spell_cost_base)
 
 // name:A; map symbol; map:15273
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, t_artifact_prop::t_spell_cost_base)
 
-// confidence:A; align-band; retn,stable,vptr; map:15274
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:15274
 VA_CHT_1(0x00536070, 0x23)
 t_artifact_prop::t_effect<t_artifact_effect, 48>::t_effect<t_artifact_effect, 48>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:15275
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:15275
 VA_CHT_1(0x005360a0, 0x36)
 t_artifact_effect* t_artifact_prop::t_effect<t_artifact_effect, 48>::clone() const
 {
@@ -3369,7 +3369,7 @@ t_artifact_prop::t_effect<t_artifact_effect, 48>::~t_effect<t_artifact_effect, 4
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:15281
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:15281
 VA_CHT_1(0x005360f0, 0x23)
 t_artifact_prop::t_effect<t_artifact_prop::t_skill_effect, 51>::t_effect<t_artifact_prop::t_skill_effect, 51>(
 
@@ -3378,7 +3378,7 @@ t_artifact_prop::t_effect<t_artifact_prop::t_skill_effect, 51>::t_effect<t_artif
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:15282
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:15282
 VA_CHT_1(0x00536120, 0x42)
 t_artifact_effect* t_artifact_prop::t_effect<t_artifact_prop::t_skill_effect, 51>::clone() const
 {
@@ -3416,14 +3416,14 @@ t_artifact_prop::t_effect<t_artifact_prop::t_skill_effect, 51>::~t_effect<t_arti
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:15288
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:15288
 VA_CHT_1(0x00536180, 0x23)
 t_artifact_prop::t_effect<t_artifact_effect, 52>::t_effect<t_artifact_effect, 52>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:15289
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:15289
 VA_CHT_1(0x005361b0, 0x36)
 t_artifact_effect* t_artifact_prop::t_effect<t_artifact_effect, 52>::clone() const
 {
@@ -3459,14 +3459,14 @@ t_artifact_prop::t_effect<t_artifact_effect, 52>::~t_effect<t_artifact_effect, 5
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:15295
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:15295
 VA_CHT_1(0x005361f0, 0x23)
 t_artifact_prop::t_effect<t_artifact_effect, 53>::t_effect<t_artifact_effect, 53>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:15296
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:15296
 VA_CHT_1(0x00536220, 0x36)
 t_artifact_effect* t_artifact_prop::t_effect<t_artifact_effect, 53>::clone() const
 {
@@ -3502,21 +3502,21 @@ t_artifact_prop::t_effect<t_artifact_effect, 53>::~t_effect<t_artifact_effect, 5
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:15302
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:15302
 VA_CHT_1(0x00536260, 0x23)
 t_artifact_prop::t_effect<t_artifact_effect, 54>::t_effect<t_artifact_effect, 54>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:15303
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:15303
 VA_CHT_1(0x00536290, 0x36)
 t_artifact_effect* t_artifact_prop::t_effect<t_artifact_effect, 54>::clone() const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:15304
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:15304
 VA_CHT_1(0x005362d0, 0x6)
 t_artifact_effect_type t_artifact_prop::t_effect<t_artifact_effect, 54>::get_effect() const
 {
@@ -3545,21 +3545,21 @@ t_artifact_prop::t_effect<t_artifact_effect, 54>::~t_effect<t_artifact_effect, 5
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:15309
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:15309
 VA_CHT_1(0x005362e0, 0x23)
 t_artifact_prop::t_effect<t_artifact_prop::t_combat, 55>::t_effect<t_artifact_prop::t_combat, 55>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:15310
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:15310
 VA_CHT_1(0x00536310, 0x44)
 t_artifact_effect* t_artifact_prop::t_effect<t_artifact_prop::t_combat, 55>::clone() const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:15311
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:15311
 VA_CHT_1(0x00536360, 0x6)
 t_artifact_effect_type t_artifact_prop::t_effect<t_artifact_prop::t_combat, 55>::get_effect() const
 {
@@ -3588,21 +3588,21 @@ t_artifact_prop::t_effect<t_artifact_prop::t_combat, 55>::~t_effect<t_artifact_p
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:15316
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:15316
 VA_CHT_1(0x00536370, 0x23)
 t_artifact_prop::t_effect<t_artifact_effect, 57>::t_effect<t_artifact_effect, 57>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:15317
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:15317
 VA_CHT_1(0x005363a0, 0x36)
 t_artifact_effect* t_artifact_prop::t_effect<t_artifact_effect, 57>::clone() const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:15318
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:15318
 VA_CHT_1(0x005363e0, 0x6)
 t_artifact_effect_type t_artifact_prop::t_effect<t_artifact_effect, 57>::get_effect() const
 {
@@ -3624,7 +3624,7 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, "t_artifact_pr
 // name:A; map symbol; map:15321
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, "t_artifact_prop::t_effect<t_artifact_effect, 57>")
 
-// confidence:A; align-band; retn,stable,vptr; map:15322
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:15322
 VA_CHT_1(0x0062af40, 0x14)
 t_artifact_prop::t_effect<t_artifact_effect, 57>::~t_effect<t_artifact_effect, 57>()
 {

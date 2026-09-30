@@ -1,7 +1,7 @@
 // combat_non_blocking_message_displayer.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 15/20 (A:13 B:2 C:0); unaccounted 5; skipped std 1.
+// Accounted 15/20 (A:8 B:1 C:0); unaccounted 5; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,14 +10,14 @@
 
 // === .text (10 symbols) ===
 
-// confidence:A; align-order; retn,stable,vptr; map:21120
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:21120
 VA_CHT_1(0x005d4ba0, 0x63)
 t_combat_non_blocking_message_displayer::t_combat_non_blocking_message_displayer(t_battlefield& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:21121
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:21121
 VA_CHT_1(0x005d4c80, 0x77)
 void t_combat_non_blocking_message_displayer::display_action_message(
     t_combat_action_message const& arg_0,
@@ -27,24 +27,24 @@ void t_combat_non_blocking_message_displayer::display_action_message(
     // Body unavailable.
 }
 
-// confidence:A; align-order; stable,vslot; map:21122
+// confidence:D; align-order; stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:21122
 VA_CHT_1(0x005d4d00, 0x17)
 void t_combat_non_blocking_message_displayer::erase_action_message()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; stable,vslot; map:21123
+// confidence:D; align-order; stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:21123
 VA_CHT_1(0x005d4d20, 0x9)
 void t_combat_non_blocking_message_displayer::on_idle()
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:67759; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:67759; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x005d4d30, 0x20, STATIC_INIT_DISPATCH, combat_non_blocking_message_displayer)
 
-// confidence:A; align-band; retn,stable,vslot; map:21124
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:21124
 VA_CHT_1_COMPGEN(0x005d4c10, 0x1e, SCALAR_DELETING_DTOR, t_combat_non_blocking_message_displayer)
 
 // name:A; map symbol; map:21125

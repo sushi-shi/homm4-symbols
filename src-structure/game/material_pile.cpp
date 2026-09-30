@@ -1,7 +1,7 @@
 // material_pile.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\material_pile.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 51/88 (A:40 B:5 C:6); unaccounted 37; skipped std 1.
+// Accounted 51/88 (A:24 B:4 C:0); unaccounted 37; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -34,7 +34,7 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "material_pile#2")
 // name:C; dyninit; see ledger; map:64417
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_DTOR, "material_pile#2")
 
-// confidence:A; dyninit-init; owner-conf-C; map:64418; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:64418; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00718740, 0x15, STATIC_INIT_DISPATCH, "material_pile#3")
 
 // name:C; dyninit; see ledger; map:64419
@@ -51,26 +51,26 @@ int pick_material_amount(t_material arg_0)
 
 } // anonymous namespace
 
-// confidence:A; dyninit-init; owner-conf-C; map:64420; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:64420; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00718760, 0x1c, STATIC_INIT_DISPATCH, "material_pile#4")
 
 // name:C; dyninit; see ledger; map:64421
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "material_pile#4")
 
-// confidence:A; dyninit-init; owner-conf-C; map:64422; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:64422; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00718780, 0x1c, STATIC_INIT_DISPATCH, "material_pile#5")
 
 // name:C; dyninit; see ledger; map:64423
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "material_pile#5")
 
-// confidence:A; align-order; retn,stable,vptr; map:29589
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:29589
 VA_CHT_1(0x007187a0, 0x249)
 t_material_pile::t_material_pile(t_material arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vptr; map:29590
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:29590
 VA_CHT_1(0x00718aa0, 0x203)
 t_material_pile::t_material_pile(t_stationary_adventure_object const& arg_0)
 {
@@ -89,28 +89,28 @@ void t_material_pile::activate_trigger(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:29592
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:29592
 VA_CHT_1(0x00719080, 0x21e)
 void t_material_pile::right_click(t_mouse_event const& arg_0, t_adventure_frame* arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:29593
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:29593
 VA_CHT_1(0x007192a0, 0x28)
 float t_material_pile::ai_value(t_adventure_ai const& arg_0, t_creature_array const& arg_1, int arg_2) const
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:29594
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:29594
 VA_CHT_1(0x007192d0, 0x16)
 bool t_material_pile::write(std::basic_streambuf<char, std::char_traits<char>>& arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:29595
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:29595
 VA_CHT_1(0x007192f0, 0x16)
 bool t_material_pile::read(
     std::basic_streambuf<char, std::char_traits<char>>& arg_0,
@@ -121,26 +121,26 @@ bool t_material_pile::read(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vptr; map:29596
+// confidence:D; align-order; retn,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:29596
 VA_CHT_1(0x00719310, 0x111)
 t_random_material_pile::t_random_material_pile(std::string const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:29597
+// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:29597
 VA_CHT_1(0x007194c0, 0xa0)
 void t_random_material_pile::place(t_adventure_map& arg_0, t_adv_map_point const& arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:64424; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:64424; name:B (dyninit; see ledger)
 VA_CHT_1(0x00719720, 0x20)
 // material_pile$tinit1
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:64426; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:64426; name:B (dyninit; see ledger)
 VA_CHT_1(0x00719740, 0x5c)
 // material_pile$tinit2
 // Function body not reconstructed; signature retained as a comment.
@@ -160,13 +160,13 @@ VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 // material_pile$tatexit4
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; align-band; retn,stable,vslot; map:29598
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:29598
 VA_CHT_1_COMPGEN(0x00718a10, 0x2d, VECTOR_DELETING_DTOR, t_material_pile)
 
 // name:A; map symbol; map:29599
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, t_material_pile)
 
-// confidence:C; align-band; retn,stable; map:29600
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:29600
 VA_CHT_1(0x00718a40, 0x57)
 // public: void t_material_pile::`vbase dtor'(void)
 // Function body not reconstructed; signature retained as a comment.
@@ -178,13 +178,13 @@ t_material_pile::~t_material_pile()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:29602
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:29602
 VA_CHT_1_COMPGEN(0x00719430, 0x2d, VECTOR_DELETING_DTOR, t_random_material_pile)
 
 // name:A; map symbol; map:29603
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, t_random_material_pile)
 
-// confidence:C; align-band; retn,stable; map:29604
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:29604
 VA_CHT_1(0x00719460, 0x57)
 // public: void t_random_material_pile::`vbase dtor'(void)
 // Function body not reconstructed; signature retained as a comment.
@@ -226,7 +226,7 @@ t_object_factory<t_material_pile>::t_object_factory<t_material_pile>()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:29610
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:29610
 VA_CHT_1(0x00719560, 0x14a)
 t_stationary_adventure_object* t_object_factory<t_material_pile>::create(
     std::string const& arg_0,
@@ -243,7 +243,7 @@ t_object_factory<t_random_material_pile>::t_object_factory<t_random_material_pil
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,vslot; map:29612
+// confidence:D; align-band; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:29612
 VA_CHT_1(0x007196b0, 0x62)
 t_stationary_adventure_object* t_object_factory<t_random_material_pile>::create(
     std::string const& arg_0,
@@ -253,16 +253,16 @@ t_stationary_adventure_object* t_object_factory<t_random_material_pile>::create(
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:29613
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:29613
 VA_CHT_1_COMPGEN(0x007197a0, 0x8, VECTOR_DELETING_DTOR, t_material_pile)
 
-// confidence:C; align-order; stable; map:29614
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:29614
 VA_CHT_1_COMPGEN(0x007197b0, 0xb, VECTOR_DELETING_DTOR, t_material_pile)
 
-// confidence:C; align-order; stable; map:29615
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:29615
 VA_CHT_1_COMPGEN(0x007197c0, 0x8, VECTOR_DELETING_DTOR, t_random_material_pile)
 
-// confidence:C; align-order; stable; map:29616
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:29616
 VA_CHT_1_COMPGEN(0x007197d0, 0xb, VECTOR_DELETING_DTOR, t_random_material_pile)
 
 // === .rdata (14 symbols) ===

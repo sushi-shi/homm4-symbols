@@ -19,7 +19,8 @@ Everything below is only needed to regenerate `maps/<target>/`.
 |---|---|
 | `target.json` | exe path, sha256, image base, `source` (`map`, or the target whose names were carried over) |
 | `names.tsv` | the complete map, self-contained: `rva, size, kind (func/vftable/data), tier, name, demangled, method, evidence, map_id, map_va, obj, score, via` |
-| `manual.tsv` | optional hand fixes (rva, mangled, note); they win over everything |
+| `manual.tsv` | optional hand fixes (rva, mangled, note); override proposals, subject to review vetoes/caps |
+| `reviews.tsv` | hash-bound review evidence; exact-identity vetoes and C caps run last, including after manual overrides |
 
 `name` is the mangled map name, except static-init routines, which get owner-based names.
 `target.json` also sets `address_tag` (currently `CHT_1`) for source address annotations.
@@ -27,8 +28,13 @@ Everything below is only needed to regenerate `maps/<target>/`.
 from the map and holds the source target's rva for names carried over from another exe.
 
 Tiers: **A** exact structural evidence (vftable slot, vptr store, `.CRT$XCU` slot, RTTI name).
-**B** ordered match with agreeing `ret N`, stable without vftable evidence. **C** best guess.
-cht-1.x: A 7,642 · B 5,148 · C 6,621.
+**B** ordered match with agreeing `ret N`, stable without vftable evidence. **C** uncertain.
+**D** unreviewed function proposal, not a best guess. Both targets set
+`unreviewed_function_tier: D`: after exact-identity review actions, all functions without a
+matching recorded review become D, including otherwise A/B proposals and manual overrides.
+Checked structural data/vftable labels retain their existing tiers.
+cht-1.x functions after closure: A 57 · B 32 · C 71 · D 19,159.
+These tiers describe heuristic evidence, not measured name precision or manual approval.
 
 ## Tools
 
@@ -60,6 +66,144 @@ tools/pipeline.sh cht-1.x       # everything else; ends with maps/cht-1.x/ and w
 ```
 
 There is no system Python. `tools/py` runs one from the nix store, offline.
+If the current nixpkgs expression no longer resolves to cached packages, `HOMM4_PYTHON`
+can select an existing Nix Python executable with its dependencies supplied by `PYTHONPATH`.
+
+### Retail assembly comparison (Complete)
+
+`complete-3.0` is the English standalone executable from the Complete DVD, identified by
+its SHA-256 in `maps/complete-3.0/target.json`. It is not yet verified as a GOG
+binary. Its `source` is `cht-1.x`. `align.py --source` compares the two retail executables,
+and `emit_map.py` combines the transferred functions with direct structural labels:
+
+```sh
+tools/py tools/rtti.py complete-3.0
+tools/py tools/match_vftables.py complete-3.0
+tools/py tools/align.py complete-3.0 --source cht-1.x
+tools/py tools/align.py complete-3.0 --source cht-1.x --no-retn
+tools/py tools/evaluate.py complete-3.0
+tools/py tools/emit_map.py complete-3.0
+tools/py tools/gen_ida.py complete-3.0
+```
+
+Both targets need function feature exports first. The Complete import was followed by
+`PaddedFunctionStarts.java 4fa51b` (9,061 additional starts) and `ExportFeatures.java` on the
+unnamed program. This is a conservative scan limit before the dense tail region, not a
+claim that `4fa51b` is an exact EH boundary. `padded_scan_end_rva` records it. Once setup is
+done, `tools/pipeline.sh complete-3.0` runs the release branch, refreshes the evaluation
+snapshot, and exports IDA/Ghidra with all tiers. It does not regenerate `src-structure/`.
+
+`release_align.py` disassembles contiguous function bodies with Capstone. Its tokens retain
+opcodes, registers, constants, field/stack offsets and local branch destinations; image
+addresses and external control-flow destinations are abstracted. RET cleanup is excluded
+from tokens in both runs and optionally checked separately. Unique normalized bodies of
+at least eight instructions and 32 bytes anchor the correspondence. Their longest increasing
+subsequence bounds ordered searches, using the same `nw.c` core's sparse-candidate mode.
+Large unanchored gaps, ties, bodies below four instructions and discontiguous bodies remain unmatched.
+
+Ordered candidates need at least 80% instruction-sequence similarity and a 3-point margin
+over eligible alternatives sharing either endpoint. Hop tier B requires a unique body or at least
+95% similarity and a 10-point margin, sufficient body size, and matching known cleanup.
+The emitter further caps this by the CHT source tier and demotes pairs unstable without
+cleanup to C. All source name/provenance fields are copied into the complete target file;
+`via` holds the CHT RVA. Source/target hashes, feature hashes, source-name hash and pair-file
+hashes are checked before emission. An exactly matched body does not prove its source name.
+
+RTTI slots and call targets never enter assembly scores. `evaluate.py` reports these checks
+on **raw pairs before emission**, plus block counts, held-out cleanup and ordered inversions.
+Known one-to-one slot contradictions veto the transferred name at emission time and are
+recorded in `work/complete-3.0/release-rejected.tsv`. The raw report retains these failures;
+it is not a post-filter precision claim. The first pass had 5,932 body pairs and emitted 4,915
+function names (B 1,408 / C 3,507), after withholding two named slot warnings. The manual
+review now leaves 4,823 functions (B 53 / C 106 / D 4,664). R26 demonstrates a false slot warning:
+equal extracted table lengths do not prove that each method kept the same index.
+
+### Manual assembly review
+
+The exhaustive follow-up freezes all **4,915** pre-audit function proposals in
+`review-roster.tsv`, with executable, baseline-map and roster hashes in `review-roster.json`.
+`tools/py tools/review_progress.py complete-3.0 --next 20` updates `review-coverage.tsv`
+and prepares the next unreviewed raw-body packets in address order. It does not assign
+verdicts. The immutable roster includes subsequently withheld names so removing labels
+cannot shrink the denominator. Identity matching includes both RVAs, map ID and name;
+reviews must match the target executable hash. Unresolved reviews remain open separately
+from never-inspected rows. Review was closed at the user's request: 101 supported,
+92 rejected, 58 unresolved, 4,664 unreviewed-D. F00001–F00222 are inspected
+(F00049/F00169 were already covered by R10/R16),
+plus the caller follow-up F03368. Together these add 221 inspections after the initial audit.
+Verdicts are the assistant's reading of assembly, not independent human certification.
+`review-closure.json` records the change of scope; no further exhaustive review is scheduled.
+The frozen roster and actual review records remain intact. D classification does not fabricate
+reviews or resolve the 58 uncertain names. Default IDA/Ghidra exports include A through D,
+with explicit unreviewed-proposal comments; pass C to exclude D.
+
+The roster was initialized once from the original complete map snapshot using
+`--init work/complete-3.0/names-before-review.tsv`; reinitialization is rejected. Its baseline
+hash matches the initial sample manifest. Do not reset the roster to the smaller emitted map.
+The initial sample remains unchanged and has its own statistics below.
+
+`maps/complete-3.0/review-sample.tsv` freezes the pre-review selection; its JSON manifest
+records seed 20260930, executable/name-file hashes and the sample hash. Four B names were
+sampled from each source-tier A/B × unique/ordered-body stratum. Four C names were sampled
+from source-C unique bodies and four from source-A/B uncertain transfers. These C strata
+do not cover all C names. The eight targeted cases are the three slot warnings and five
+callers responsible for six call warnings; R33 follows a wrong callee discovered in R31.
+Targeted cases are excluded from sample counts. No overall precision estimate is claimed.
+
+`tools/py tools/review_release.py complete-3.0` renders full raw bodies, bytes, runtime RTTI
+membership and reference context to `work/complete-3.0/review/`. It validates the frozen
+sample and executable hashes and never generates verdicts. Name annotations are explicitly
+proposals. Re-rendering after map changes updates those annotations; packet hashes in the
+review ledger identify the original capture, not subsequent annotated replays.
+
+`reviews.tsv` records source identity and correspondence separately as supported,
+contradicted or unresolved (or explicitly not assessed). Supported means consistent with
+the recorded observations; it is not a debug-code proof. Every verdict was assigned by
+reading assembly, following object/argument dataflow, and checking relevant callees or
+runtime class membership. Review was not blind and used the same available binaries.
+The random sample has 9 supported / 8 contradicted / 7 unresolved source names;
+21 supported / 3 unresolved correspondences. The 16 B cases contain five wrong source
+names even though all their release correspondences are supported.
+
+`emit_map.py` applies review actions after all proposal sources: `withhold` removes the
+exact RVA/map-ID/name identity; `cap-C` limits its tier; `keep` never promotes it. Wrong
+executable hashes fail before writing. An absent or replaced identity is unaffected.
+Source-name vetoes/caps also live in `maps/cht-1.x/reviews.tsv` so subsequent source builds
+cannot restore those exact bad labels. `--reviews-only` applies this policy to the current
+map without recomputing unrelated alignments. After a source map changes, rerun both
+release alignments to refresh their hash-bound provenance, then emit and export again.
+Rebuild named Ghidra copies from the unnamed programs so withdrawn labels disappear.
+
+Open issues exposed by review: vptr evidence needs object-identity tracking (R06),
+constructor/destructor role checks (R01), and cross-release vtable-layout validation (R26).
+Call warnings include valid outlining changes (R28/R30), a changed hero-count predicate
+(R29), an adjacent reader mismatch (R33), and a wrong destructor class (R32). The raw
+evaluation retains all these warnings rather than presenting post-review filtering as accuracy.
+
+The emitter checks the executable SHA-256 first. It emits validated RTTI descriptors plus
+unique primary vftables (zero COL offset and construction displacement), checking their
+hierarchy and every observed slot's code-section pointer. Vftable spans come from the
+retail table, not debug-map size gaps. Duplicate names, multiple target copies, secondary
+tables and construction tables are held out of this initial vftable pass. Descriptor
+pairing still uses only exact-name table anchors and validates the complete pointer chain.
+These structural rows have tier A, explicit evidence and their original map identity:
+9,808 data labels and 1,354 vftables. `--structural-only` remains available to emit only this
+subset without reading assembly pairs, static-init assumptions, or manual overrides.
+
+For Ghidra, import and analyze the exe into `homm4/complete-3.0`, then apply with:
+
+```sh
+ghidra-analyzeHeadless work/ghidra homm4/complete-3.0 -process heroes4.exe \
+  -noanalysis -readOnly -scriptPath tools/ghidra \
+  -postScript ApplyNames.java "$PWD/maps/complete-3.0/names.tsv" C \
+  "$PWD/work/complete-3.0/heroes4_complete-3.0.gzf"
+```
+
+The release pipeline does not use CHT static-init slot ordinals on Complete.
+`src-structure/` continues to describe CHT 1.x.
+Tests: `tools/py -m unittest discover -s tools -p 'test_rtti_join.py'` and
+`tools/py -m unittest discover -s tools -p 'test_emit_map.py'`, plus
+`tools/py -m unittest discover -s tools -p 'test_release_align.py'`.
 
 ## Synthetic game structure
 
@@ -72,7 +216,7 @@ Regenerating for another target replaces the retail annotations and counters in 
   The data-only `circle_calculator.obj` is included alongside the 585 code objects.
 - `va.h`: no-op address annotations following HoMM3's `VA(addr, size)` / `DATA(addr)` convention.
   For this target they are `VA_CHT_1(addr, size)` and `DATA_CHT_1(addr)`, using absolute
-  virtual addresses (`image_base + RVA`). Confidence is a separate `confidence:A/B/C` comment.
+  virtual addresses (`image_base + RVA`). Confidence is a separate `confidence:A/B/C/D` comment.
   Function sizes use `names.tsv`, falling back to the exported function extent; `UNKNOWN_SIZE`
   explicitly marks an unavailable extent. Unmapped data uses `DATA_CHT_1(UNACCOUNTED)`,
   preceded by its name provenance; the sentinel is not an address or a coverage credit.
@@ -91,7 +235,7 @@ Regenerating for another target replaces the retail annotations and counters in 
   with debug provenance and any retail assignments. Multiple retail assignments produce
   multiple rows; counters count distinct map IDs, not ledger rows.
 - `coverage.tsv`: totals and category breakdowns. `accounted` means a proposed retail
-  assignment of any tier; A/B/C split those IDs by their best current assignment tier.
+  assignment of any tier; A/B/C/D split those IDs by their best current assignment tier.
   `total = skipped_std + included`, `included = accounted + unaccounted`.
 - `retail_functions.tsv`: the other direction of coverage, one exported retail function
   start per row, classified as game, skipped std, library, unowned, or unaccounted.

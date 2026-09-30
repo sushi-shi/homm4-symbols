@@ -1,7 +1,7 @@
 // quicksand.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\quicksand.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 62/107 (A:45 B:9 C:8); unaccounted 45; skipped std 4.
+// Accounted 62/107 (A:24 B:3 C:0); unaccounted 45; skipped std 4.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,50 +10,50 @@
 
 // === .text (76 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:63591; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:63591; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0076b770, 0x15, STATIC_INIT_DISPATCH, "quicksand#1")
 
 // name:C; dyninit; see ledger; map:63592
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "quicksand#1")
 
-// confidence:A; dyninit-init; owner-conf-C; map:63593; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:63593; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0076b790, 0x15, STATIC_INIT_DISPATCH, "quicksand#2")
 
 // name:C; dyninit; see ledger; map:63594
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "quicksand#2")
 
-// confidence:A; dyninit-init; owner-conf-C; map:63595; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:63595; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0076b7b0, 0x15, STATIC_INIT_DISPATCH, "quicksand#3")
 
 // name:C; dyninit; see ledger; map:63596
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "quicksand#3")
 
-// confidence:A; dyninit-init; owner-conf-C; map:63597; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:63597; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0076b7d0, 0x15, STATIC_INIT_DISPATCH, "quicksand#4")
 
 // name:C; dyninit; see ledger; map:63598
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "quicksand#4")
 
-// confidence:A; dyninit-init; owner-conf-C; map:63599; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:63599; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0076b7f0, 0x10, STATIC_INIT_DISPATCH, "quicksand#5")
 
 // name:C; dyninit; see ledger; map:63600
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "quicksand#5")
 
-// confidence:A; dyninit-init; owner-conf-C; map:63601; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:63601; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0076b800, 0x15, STATIC_INIT_DISPATCH, "quicksand#6")
 
 // name:C; dyninit; see ledger; map:63602
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "quicksand#6")
 
-// confidence:A; align-order; retn,stable,vptr; map:32845
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:32845
 VA_CHT_1(0x0076b820, 0x49)
 t_quicksand::t_quicksand(t_battlefield& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:63603
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:63603
 VA_CHT_1(0x0076b870, 0x124)
 static t_cached_ptr<t_combat_actor_model> get_quicksand_model(double arg_0)
 {
@@ -86,14 +86,14 @@ t_combat_object_type t_quicksand::get_object_type() const
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:32849
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:32849
 VA_CHT_1(0x0076b9d0, 0x13e)
 bool t_quicksand::read(t_combat_reader& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:32850
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:32850
 VA_CHT_1(0x0076bb10, 0xab)
 void t_quicksand::on_placed()
 {
@@ -116,7 +116,7 @@ t_quicksand_creator::t_quicksand_creator(t_battlefield& arg_0, t_quicksand& arg_
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:32853
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:32853
 VA_CHT_1(0x0076bc50, 0xa6)
 void t_quicksand_creator::on_idle()
 {
@@ -125,25 +125,25 @@ void t_quicksand_creator::on_idle()
 
 } // anonymous namespace
 
-// confidence:A; dyninit-init; owner-conf-C; map:63605; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:63605; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0076bd00, 0x1c, STATIC_INIT_DISPATCH, "quicksand#7")
 
 // name:C; dyninit; see ledger; map:63606
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "quicksand#7")
 
-// confidence:A; dyninit-init; owner-conf-C; map:63607; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:63607; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0076bd20, 0x11, STATIC_INIT_DISPATCH, "quicksand#8")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:63608; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:63608; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0076bd40, 0xd7, STATIC_CTOR, "quicksand#8")
 
 // name:C; dyninit; see ledger; map:63609
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "quicksand#8")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:63610; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:63610; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0076be20, 0xa, STATIC_DTOR, "quicksand#8")
 
-// confidence:A; align-order; retn,stable,vptr; map:32854
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:32854
 VA_CHT_1(0x0076be30, 0x185)
 t_quicksand_spell::t_quicksand_spell(t_battlefield& arg_0, t_spell arg_1)
 {
@@ -157,28 +157,28 @@ bool t_quicksand_spell::begin_casting()
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:32856
+// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:32856
 VA_CHT_1(0x0076bfc0, 0x1e)
 bool t_quicksand_spell::can_cast(t_screen_point const& arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:32857
+// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:32857
 VA_CHT_1(0x0076c0e0, 0x3f)
 double t_quicksand_spell::get_cancel_weight(t_combat_creature const& arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn; map:32858
+// confidence:D; align-order; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:32858
 VA_CHT_1(0x0076c120, 0xab)
 bool t_quicksand_spell::can_cast(t_map_point_2d const& arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:32859
+// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:32859
 VA_CHT_1(0x0076c1d0, 0x2f7)
 void t_quicksand_spell::execute(t_combat_creature& arg_0)
 {
@@ -194,14 +194,14 @@ std::list<t_counted_ptr<t_abstract_combat_ai_action>, std::allocator<t_counted_p
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn; map:32861
+// confidence:D; align-order; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:32861
 VA_CHT_1(0x0076c4d0, 0x5e)
 bool t_quicksand_spell::is_covered(t_map_point_2d const& arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn; map:32862
+// confidence:D; align-order; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:32862
 VA_CHT_1(0x0076c530, 0x7b)
 int t_quicksand_spell::count_squares(t_map_point_2d const& arg_0) const
 {
@@ -215,40 +215,40 @@ void t_quicksand_spell::eliminate_extra_points()
     // Body unavailable.
 }
 
-// confidence:A; dyninit-init; owner-conf-C; map:63611; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:63611; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0076c630, 0x11, STATIC_INIT_DISPATCH, "quicksand#9")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:63612; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:63612; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0076c650, 0xd1, STATIC_CTOR, "quicksand#9")
 
 // name:C; dyninit; see ledger; map:63613
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "quicksand#9")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:63614; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:63614; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0076c730, 0xa, STATIC_DTOR, "quicksand#9")
 
-// confidence:A; align-order; retn,stable,vslot; map:32864
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:32864
 VA_CHT_1(0x0076c740, 0x44c)
 t_mouse_window* t_quicksand_spell::mouse_move(t_screen_point const& arg_0, std::string& arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:32865
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:32865
 VA_CHT_1(0x0076cb90, 0x10c)
 bool t_quicksand_spell::left_click(t_screen_point const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:32866
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:32866
 VA_CHT_1(0x0076cca0, 0x11c)
 bool t_quicksand_spell::get_map_point(t_screen_point const& arg_0, t_map_point_2d& arg_1) const
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:63615; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:63615; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0076cf30, 0x20, STATIC_INIT_DISPATCH, quicksand)
 
 // name:A; map symbol; map:32867
@@ -271,7 +271,7 @@ void t_battlefield_cell::set_quicksand(bool arg_0)
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:32871
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:32871
 VA_CHT_1_COMPGEN(0x0076bbc0, 0x1e, VECTOR_DELETING_DTOR, t_quicksand_creator)
 
 // name:A; map symbol; map:32872
@@ -336,7 +336,7 @@ t_counted_ptr<t_quicksand>& t_counted_ptr<t_quicksand>::operator=(t_quicksand* a
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:32884
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:32884
 VA_CHT_1(0x0076cea0, 0x19)
 t_quicksand* t_counted_ptr<t_quicksand>::operator->() const
 {
@@ -350,7 +350,7 @@ t_quicksand& t_counted_ptr<t_quicksand>::operator*() const
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn; map:32886
+// confidence:D; align-band; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:32886
 VA_CHT_1(0x0076c5b0, 0x77)
 t_combat_spell_registration<t_quicksand_spell>::t_combat_spell_registration<t_quicksand_spell>(t_spell arg_0)
 {
@@ -401,7 +401,7 @@ t_spell_factory<t_quicksand_spell>::t_spell_factory<t_quicksand_spell>()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:32894
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:32894
 VA_CHT_1(0x0076cec0, 0x65)
 t_combat_spell* t_spell_factory<t_quicksand_spell>::create(t_battlefield& arg_0, t_spell arg_1) const
 {
@@ -418,10 +418,10 @@ t_quicksand* t_counted_ptr<t_quicksand>::get() const
 // name:A; map symbol; map:32896
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, t_quicksand_creator)
 
-// confidence:C; align-order; stable; map:32897
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:32897
 VA_CHT_1_COMPGEN(0x0076cf60, 0x8, VECTOR_DELETING_DTOR, t_quicksand_creator)
 
-// confidence:C; align-order; stable; map:32898
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:32898
 VA_CHT_1_COMPGEN(0x0076cf70, 0x8, VECTOR_DELETING_DTOR, t_quicksand)
 
 // === .rdata (8 symbols) ===

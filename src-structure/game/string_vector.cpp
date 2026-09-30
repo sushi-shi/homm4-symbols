@@ -1,7 +1,7 @@
 // string_vector.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 2/9 (A:1 B:0 C:1); unaccounted 7; skipped std 1.
+// Accounted 2/9 (A:0 B:0 C:0); unaccounted 7; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,7 +10,7 @@
 
 // === .text (7 symbols) ===
 
-// confidence:C; align-order; retn,stable; map:38552
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:38552
 VA_CHT_1(0x007e62d0, 0x24e)
 bool read(std::basic_streambuf<char, std::char_traits<char>>& arg_0, t_string_vector& arg_1)
 {
@@ -38,7 +38,7 @@ bool write(std::basic_streambuf<char, std::char_traits<char>>& arg_0, std::strin
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:62304; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:62304; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007e6520, 0x20, STATIC_INIT_DISPATCH, string_vector)
 
 // name:A; map symbol; map:38556

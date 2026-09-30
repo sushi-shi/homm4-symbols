@@ -1,7 +1,7 @@
 // adv_medicine_wagon.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 28/61 (A:21 B:2 C:5); unaccounted 33; skipped std 3.
+// Accounted 28/61 (A:12 B:2 C:0); unaccounted 33; skipped std 3.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -34,26 +34,26 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "adv_medicine_wagon#2
 // name:C; dyninit; see ledger; map:71051
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_DTOR, "adv_medicine_wagon#2")
 
-// confidence:A; dyninit-init; owner-conf-C; map:71052; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:71052; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x004403c0, 0x15, STATIC_INIT_DISPATCH, "adv_medicine_wagon#3")
 
 // name:C; dyninit; see ledger; map:71053
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "adv_medicine_wagon#3")
 
-// confidence:A; dyninit-init; owner-conf-C; map:71054; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:71054; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x004403e0, 0x1c, STATIC_INIT_DISPATCH, "adv_medicine_wagon#4")
 
 // name:C; dyninit; see ledger; map:71055
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "adv_medicine_wagon#4")
 
-// confidence:A; align-order; retn,stable,vptr; map:4806
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:4806
 VA_CHT_1(0x00440400, 0x11f)
 t_adv_medicine_wagon::t_adv_medicine_wagon(std::string const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:4807
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:4807
 VA_CHT_1(0x004405c0, 0x930)
 void t_adv_medicine_wagon::activate_trigger(
     t_army* arg_0,
@@ -79,7 +79,7 @@ bool t_adv_medicine_wagon::write(std::basic_streambuf<char, std::char_traits<cha
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:4810
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:4810
 VA_CHT_1(0x00441170, 0x1fd)
 bool t_adv_medicine_wagon::read(
     std::basic_streambuf<char, std::char_traits<char>>& arg_0,
@@ -101,12 +101,12 @@ float t_adv_medicine_wagon::ai_value(
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:71056; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:71056; name:B (dyninit; see ledger)
 VA_CHT_1(0x004418d0, 0x20)
 // adv_medicine_wagon$tinit1
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:71058; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:71058; name:B (dyninit; see ledger)
 VA_CHT_1(0x004418f0, 0x5c)
 // adv_medicine_wagon$tinit2
 // Function body not reconstructed; signature retained as a comment.
@@ -126,13 +126,13 @@ VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 // adv_medicine_wagon$tatexit4
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; align-band; retn,stable,vslot; map:4812
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:4812
 VA_CHT_1_COMPGEN(0x00440520, 0x2d, VECTOR_DELETING_DTOR, t_adv_medicine_wagon)
 
 // name:A; map symbol; map:4813
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, t_adv_medicine_wagon)
 
-// confidence:C; align-band; retn,stable; map:4814
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:4814
 VA_CHT_1(0x004413b0, 0x38)
 // public: void t_adv_medicine_wagon::`vbase dtor'(void)
 // Function body not reconstructed; signature retained as a comment.
@@ -158,7 +158,7 @@ void t_window::set_right_click_text(std::string const& arg_0)
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:4820
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:4820
 VA_CHT_1(0x00440550, 0x6a)
 t_cached_ptr<t_bitmap_layer>::t_cached_ptr<t_bitmap_layer>()
 {
@@ -192,7 +192,7 @@ t_counted_ptr<t_bitmap_layer_cache_window>& t_counted_ptr<t_bitmap_layer_cache_w
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:4824
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:4824
 VA_CHT_1(0x004415e0, 0x21)
 t_bitmap_layer_cache_window* t_counted_ptr<t_bitmap_layer_cache_window>::operator t_bitmap_layer_cache_window*(
 
@@ -215,7 +215,7 @@ t_object_factory<t_adv_medicine_wagon>::t_object_factory<t_adv_medicine_wagon>()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:4827
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:4827
 VA_CHT_1(0x00441640, 0x62)
 t_stationary_adventure_object* t_object_factory<t_adv_medicine_wagon>::create(
     std::string const& arg_0,
@@ -239,10 +239,10 @@ t_bitmap_layer* t_cached_ptr<t_bitmap_layer>::get() const
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:4830
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:4830
 VA_CHT_1_COMPGEN(0x00441950, 0x8, VECTOR_DELETING_DTOR, t_adv_medicine_wagon)
 
-// confidence:C; align-order; stable; map:4831
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:4831
 VA_CHT_1_COMPGEN(0x00441960, 0xb, VECTOR_DELETING_DTOR, t_adv_medicine_wagon)
 
 // === .rdata (7 symbols) ===

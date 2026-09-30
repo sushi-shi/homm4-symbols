@@ -1,7 +1,7 @@
 // adv_arena.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 23/37 (A:19 B:2 C:2); unaccounted 14; skipped std 1.
+// Accounted 23/37 (A:12 B:2 C:0); unaccounted 14; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,20 +10,20 @@
 
 // === .text (17 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:71265; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:71265; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0042cbf0, 0x1c, STATIC_INIT_DISPATCH, "adv_arena#1")
 
 // name:C; dyninit; see ledger; map:71266
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "adv_arena#1")
 
-// confidence:A; align-order; retn,stable,vptr; map:3700
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:3700
 VA_CHT_1(0x0042cc10, 0x157)
 t_adv_arena::t_adv_arena(std::string const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:3701
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:3701
 VA_CHT_1(0x0042ce00, 0x144)
 std::string t_adv_arena::add_icons(
     t_basic_dialog* arg_0,
@@ -41,23 +41,23 @@ void t_adv_arena::visit(t_hero* arg_0)
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:3703
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:3703
 VA_CHT_1(0x0042cf60, 0x66)
 float t_adv_arena::ai_value(t_adventure_ai const& arg_0, t_creature_array const& arg_1, int arg_2) const
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-C; map:71267; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:71267; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0042d040, 0x20, STATIC_INIT_DISPATCH, adv_arena)
 
-// confidence:A; align-band; retn,stable,vslot; map:3704
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:3704
 VA_CHT_1_COMPGEN(0x0042cd70, 0x2d, SCALAR_DELETING_DTOR, t_adv_arena)
 
 // name:A; map symbol; map:3705
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, t_adv_arena)
 
-// confidence:C; align-band; retn,stable; map:3706
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:3706
 VA_CHT_1(0x0042cda0, 0x57)
 // public: void t_adv_arena::`vbase dtor'(void)
 // Function body not reconstructed; signature retained as a comment.
@@ -90,7 +90,7 @@ t_object_factory<t_adv_arena>::t_object_factory<t_adv_arena>()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:3711
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:3711
 VA_CHT_1(0x0042cfd0, 0x62)
 t_stationary_adventure_object* t_object_factory<t_adv_arena>::create(
     std::string const& arg_0,
@@ -103,7 +103,7 @@ t_stationary_adventure_object* t_object_factory<t_adv_arena>::create(
 // name:A; map symbol; map:3712
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, t_adv_arena)
 
-// confidence:C; align-order; stable; map:3713
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:3713
 VA_CHT_1_COMPGEN(0x0042d070, 0xb, VECTOR_DELETING_DTOR, t_adv_arena)
 
 // === .rdata (7 symbols) ===

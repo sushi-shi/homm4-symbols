@@ -1,7 +1,7 @@
 // gateway_base.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\gateway_base.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 17/33 (A:12 B:1 C:4); unaccounted 16; skipped std 1.
+// Accounted 17/33 (A:6 B:1 C:0); unaccounted 16; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,20 +10,20 @@
 
 // === .text (25 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:65353; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:65353; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x006b6040, 0x15, STATIC_INIT_DISPATCH, "gateway_base#1")
 
 // name:C; dyninit; see ledger; map:65354
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "gateway_base#1")
 
-// confidence:A; align-order; retn,stable,vslot; map:26685
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:26685
 VA_CHT_1(0x006b6060, 0x264)
 std::string t_gateway_base::get_balloon_help() const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:26686
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:26686
 VA_CHT_1(0x006b62d0, 0x13f)
 std::string t_gateway_base::get_name() const
 {
@@ -37,7 +37,7 @@ int t_gateway_base::get_version() const
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:26688
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:26688
 VA_CHT_1(0x006b6410, 0x18f)
 void t_gateway_base::initialize(t_adventure_map& arg_0)
 {
@@ -88,7 +88,7 @@ t_army* t_exit_scanner::get_blocking_army(t_adv_map_point& arg_0)
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn; map:26694
+// confidence:D; align-order; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:26694
 VA_CHT_1(0x006b65d0, 0x281)
 void t_exit_scanner::scan_callback(t_adv_map_point const& arg_0, t_adv_map_point const& arg_1, bool& arg_2)
 {
@@ -97,7 +97,7 @@ void t_exit_scanner::scan_callback(t_adv_map_point const& arg_0, t_adv_map_point
 
 } // anonymous namespace
 
-// confidence:C; align-order; map:26695
+// confidence:D; align-order; review-status=unreviewed;classification=D:not-a-best-guess; map:26695
 VA_CHT_1(0x006b6860, 0xfc2)
 void t_gateway_base::teleport_army(
     t_gateway_base const& arg_0,
@@ -111,12 +111,12 @@ void t_gateway_base::teleport_army(
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:65355; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:65355; name:B (dyninit; see ledger)
 VA_CHT_1(0x006b7890, 0x20)
 // gateway_base$tinit1
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:65357; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:65357; name:B (dyninit; see ledger)
 VA_CHT_1(0x006b78b0, 0x5c)
 // gateway_base$tinit2
 // Function body not reconstructed; signature retained as a comment.
@@ -136,7 +136,7 @@ VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 // gateway_base$tatexit4
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-band; retn; map:26696
+// confidence:D; align-band; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:26696
 VA_CHT_1(0x006b7830, 0x57)
 t_handler_3<t_adv_map_point const&, t_adv_map_point const&, bool&> bound_handler(
     t_exit_scanner& arg_0,
@@ -182,7 +182,7 @@ t_bound_handler_3<t_exit_scanner, t_adv_map_point const&, t_adv_map_point const&
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:26702
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:26702
 VA_CHT_1_COMPGEN(0x006b7910, 0x8, VECTOR_DELETING_DTOR, "t_bound_handler_3<t_exit_scanner, t_adv_map_point const&, t_adv_map_point const&, bool&>")
 
 // === .rdata (2 symbols) ===

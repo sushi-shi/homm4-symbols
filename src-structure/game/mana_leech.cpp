@@ -1,7 +1,7 @@
 // mana_leech.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 122/274 (A:92 B:8 C:22); unaccounted 152; skipped std 1.
+// Accounted 122/274 (A:66 B:6 C:0); unaccounted 152; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,76 +10,76 @@
 
 // === .text (150 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:64560; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:64560; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x006ffd60, 0x15, STATIC_INIT_DISPATCH, "mana_leech#1")
 
 // name:C; dyninit; see ledger; map:64561
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "mana_leech#1")
 
-// confidence:A; dyninit-init; owner-conf-C; map:64562; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:64562; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x006ffd80, 0x15, STATIC_INIT_DISPATCH, "mana_leech#2")
 
 // name:C; dyninit; see ledger; map:64563
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "mana_leech#2")
 
-// confidence:A; dyninit-init; owner-conf-C; map:64564; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:64564; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x006ffda0, 0x15, STATIC_INIT_DISPATCH, "mana_leech#3")
 
 // name:C; dyninit; see ledger; map:64565
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "mana_leech#3")
 
-// confidence:A; dyninit-init; owner-conf-C; map:64566; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:64566; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x006ffdc0, 0x15, STATIC_INIT_DISPATCH, "mana_leech#4")
 
 // name:C; dyninit; see ledger; map:64567
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "mana_leech#4")
 
-// confidence:A; dyninit-init; owner-conf-C; map:64568; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:64568; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x006ffde0, 0x10, STATIC_INIT_DISPATCH, "mana_leech#5")
 
 // name:C; dyninit; see ledger; map:64569
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "mana_leech#5")
 
-// confidence:A; dyninit-init; owner-conf-C; map:64570; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:64570; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x006ffdf0, 0x15, STATIC_INIT_DISPATCH, "mana_leech#6")
 
 // name:C; dyninit; see ledger; map:64571
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "mana_leech#6")
 
-// confidence:A; dyninit-init; owner-conf-C; map:64572; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:64572; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x006ffe10, 0x11, STATIC_INIT_DISPATCH, "mana_leech#7")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:64573; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:64573; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x006ffe30, 0xd1, STATIC_CTOR, "mana_leech#7")
 
 // name:C; dyninit; see ledger; map:64574
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "mana_leech#7")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:64575; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:64575; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x006fff10, 0xa, STATIC_DTOR, "mana_leech#7")
 
-// confidence:C; align-order; retn,stable; map:28705
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:28705
 VA_CHT_1(0x006fff20, 0x31a)
 bool begin_mana_leech(t_battlefield& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:64576
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:64576
 VA_CHT_1(0x00700aa0, 0x4e)
 static t_combat_creature* find_leech_target(t_battlefield& arg_0, t_combat_creature& arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:64577
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:64577
 VA_CHT_1(0x00700af0, 0x173)
 static void execute_leech(t_combat_creature& arg_0, t_combat_creature* arg_1, t_combat_action_message arg_2)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:64578
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:64578
 VA_CHT_1(0x00700cc0, 0x173)
 static void leech_impact(
     t_counted_ptr<t_combat_creature> arg_0,
@@ -90,28 +90,28 @@ static void leech_impact(
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:64579
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:64579
 VA_CHT_1(0x007017d0, 0xb0)
 static t_combat_creature* find_leech_recipient(t_battlefield& arg_0, t_combat_creature& arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:64580
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:64580
 VA_CHT_1(0x00701880, 0x21)
 static bool knows_any_spells(t_combat_creature const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:64581
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:64581
 VA_CHT_1(0x007018b0, 0xb0)
 static void receive_mana(t_counted_ptr<t_combat_creature> arg_0, t_map_point_2d arg_1, int arg_2)
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:64582; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:64582; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00701a40, 0x20, STATIC_INIT_DISPATCH, mana_leech)
 
 // name:A; map symbol; map:28706
@@ -147,7 +147,7 @@ t_handler_2<t_counted_ptr<t_combat_creature>, t_map_point_2d> add_3rd_argument(
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:28710
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:28710
 VA_CHT_1(0x00700860, 0x27)
 t_handler_3<t_counted_ptr<t_combat_creature>, t_map_point_2d, int>::~t_handler_3<t_counted_ptr<t_combat_creature>, t_map_point_2d, int>(
 
@@ -344,7 +344,7 @@ t_handler_base_2<t_combat_creature&, t_combat_creature*>* t_handler_2<t_combat_c
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:28732
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:28732
 VA_CHT_1(0x00700240, 0x39)
 t_function_handler_3<void (*)(t_counted_ptr<t_combat_creature>, t_map_point_2d, int), t_counted_ptr<t_combat_creature>, t_map_point_2d, int>::t_function_handler_3<void (*)(t_counted_ptr<t_combat_creature>, t_map_point_2d, int), t_counted_ptr<t_combat_creature>, t_map_point_2d, int>(
     void (* arg_0)(t_counted_ptr<t_combat_creature>, t_map_point_2d, int)
@@ -374,7 +374,7 @@ t_add_3rd_handler_2<t_counted_ptr<t_combat_creature>, t_map_point_2d, int>::t_ad
     // Body unavailable.
 }
 
-// confidence:A; align-band; stable,vslot; map:28735
+// confidence:D; align-band; stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:28735
 VA_CHT_1(0x00700ff0, 0xc7)
 void t_add_3rd_handler_2<t_counted_ptr<t_combat_creature>, t_map_point_2d, int>::operator()(
     t_counted_ptr<t_combat_creature> arg_0,
@@ -414,7 +414,7 @@ t_add_3rd_handler_2<t_counted_ptr<t_combat_creature>, t_map_point_2d, t_combat_a
     // Body unavailable.
 }
 
-// confidence:A; align-band; stable,vslot; map:28739
+// confidence:D; align-band; stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:28739
 VA_CHT_1(0x007011e0, 0x171)
 void t_add_3rd_handler_2<t_counted_ptr<t_combat_creature>, t_map_point_2d, t_combat_action_message>::operator()(
     t_counted_ptr<t_combat_creature> arg_0,
@@ -454,7 +454,7 @@ t_add_3rd_handler_2<t_combat_creature&, t_combat_creature*, t_combat_action_mess
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:28743
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:28743
 VA_CHT_1(0x00701430, 0x126)
 void t_add_3rd_handler_2<t_combat_creature&, t_combat_creature*, t_combat_action_message>::operator()(
     t_combat_creature& arg_0,
@@ -495,13 +495,13 @@ void t_discard_handler_1<t_combat_creature&>::operator()(t_combat_creature& arg_
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:28748
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:28748
 VA_CHT_1_COMPGEN(0x00701560, 0x1e, SCALAR_DELETING_DTOR, "t_function_handler_3<void (*)(t_counted_ptr<t_combat_creature>, t_map_point_2d, int), t_counted_ptr<t_combat_creature>, t_map_point_2d, int>")
 
-// confidence:C; align-band; retn,stable; map:28749
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:28749
 VA_CHT_1_COMPGEN(0x00701620, 0x1e, VECTOR_DELETING_DTOR, "t_function_handler_3<void (*)(t_counted_ptr<t_combat_creature>, t_map_point_2d, int), t_counted_ptr<t_combat_creature>, t_map_point_2d, int>")
 
-// confidence:C; align-band; retn,stable; map:28750
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:28750
 VA_CHT_1(0x00701740, 0x58)
 t_handler_base_3<t_counted_ptr<t_combat_creature>, t_map_point_2d, int>::t_handler_base_3<t_counted_ptr<t_combat_creature>, t_map_point_2d, int>(
 
@@ -510,7 +510,7 @@ t_handler_base_3<t_counted_ptr<t_combat_creature>, t_map_point_2d, int>::t_handl
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:28751
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:28751
 VA_CHT_1_COMPGEN(0x007015a0, 0x1e, SCALAR_DELETING_DTOR, "t_add_3rd_handler_2<t_counted_ptr<t_combat_creature>, t_map_point_2d, int>")
 
 // name:A; map symbol; map:28752
@@ -522,7 +522,7 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, "t_function_ha
 // name:A; map symbol; map:28754
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, "t_function_handler_3<void (*)(t_counted_ptr<t_combat_creature>, t_map_point_2d, t_combat_action_message), t_counted_ptr<t_combat_creature>, t_map_point_2d, t_combat_action_message>")
 
-// confidence:C; align-band; retn,stable; map:28755
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:28755
 VA_CHT_1(0x00701980, 0x58)
 t_handler_base_3<t_counted_ptr<t_combat_creature>, t_map_point_2d, t_combat_action_message>::t_handler_base_3<t_counted_ptr<t_combat_creature>, t_map_point_2d, t_combat_action_message>(
 
@@ -531,7 +531,7 @@ t_handler_base_3<t_counted_ptr<t_combat_creature>, t_map_point_2d, t_combat_acti
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:28756
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:28756
 VA_CHT_1_COMPGEN(0x00701600, 0x1e, SCALAR_DELETING_DTOR, "t_add_3rd_handler_2<t_counted_ptr<t_combat_creature>, t_map_point_2d, t_combat_action_message>")
 
 // name:A; map symbol; map:28757
@@ -543,7 +543,7 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, "t_function_ha
 // name:A; map symbol; map:28759
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, "t_function_handler_3<void (*)(t_combat_creature&, t_combat_creature*, t_combat_action_message), t_combat_creature&, t_combat_creature*, t_combat_action_message>")
 
-// confidence:C; align-band; retn,stable; map:28760
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:28760
 VA_CHT_1(0x007019e0, 0x58)
 t_handler_base_3<t_combat_creature&, t_combat_creature*, t_combat_action_message>::t_handler_base_3<t_combat_creature&, t_combat_creature*, t_combat_action_message>(
 
@@ -552,7 +552,7 @@ t_handler_base_3<t_combat_creature&, t_combat_creature*, t_combat_action_message
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:28761
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:28761
 VA_CHT_1_COMPGEN(0x00701660, 0x1e, SCALAR_DELETING_DTOR, "t_add_3rd_handler_2<t_combat_creature&, t_combat_creature*, t_combat_action_message>")
 
 // name:A; map symbol; map:28762
@@ -576,7 +576,7 @@ t_handler_base_2<t_combat_creature&, t_combat_creature*>::~t_handler_base_2<t_co
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:28765
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:28765
 VA_CHT_1(0x00701680, 0x21)
 t_abstract_function_2<void, t_combat_creature&, t_combat_creature*>::~t_abstract_function_2<void, t_combat_creature&, t_combat_creature*>(
 
@@ -585,19 +585,19 @@ t_abstract_function_2<void, t_combat_creature&, t_combat_creature*>::~t_abstract
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:28766
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:28766
 VA_CHT_1_COMPGEN(0x007016b0, 0x20, VECTOR_DELETING_DTOR, "t_abstract_function_2<void, t_combat_creature&, t_combat_creature*>")
 
 // name:A; map symbol; map:28767
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, "t_abstract_function_2<void, t_combat_creature&, t_combat_creature*>")
 
-// confidence:A; align-band; retn,stable,vslot; map:28768
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:28768
 VA_CHT_1_COMPGEN(0x007016d0, 0x1e, VECTOR_DELETING_DTOR, "t_add_2nd_handler_1<t_combat_creature&, t_combat_creature*>")
 
 // name:A; map symbol; map:28769
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, "t_add_2nd_handler_1<t_combat_creature&, t_combat_creature*>")
 
-// confidence:A; align-band; retn,stable,vslot; map:28770
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:28770
 VA_CHT_1_COMPGEN(0x007016f0, 0x1e, VECTOR_DELETING_DTOR, "t_discard_handler_1<t_combat_creature&>")
 
 // name:A; map symbol; map:28771
@@ -621,7 +621,7 @@ t_handler_base_3<t_counted_ptr<t_combat_creature>, t_map_point_2d, int>::~t_hand
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:28774
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:28774
 VA_CHT_1(0x00701710, 0x21)
 t_abstract_function_3<void, t_counted_ptr<t_combat_creature>, t_map_point_2d, int>::~t_abstract_function_3<void, t_counted_ptr<t_combat_creature>, t_map_point_2d, int>(
 
@@ -630,7 +630,7 @@ t_abstract_function_3<void, t_counted_ptr<t_combat_creature>, t_map_point_2d, in
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:28775
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:28775
 VA_CHT_1_COMPGEN(0x00701580, 0x20, VECTOR_DELETING_DTOR, "t_abstract_function_3<void, t_counted_ptr<t_combat_creature>, t_map_point_2d, int>")
 
 // name:A; map symbol; map:28776
@@ -642,7 +642,7 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, "t_handler_bas
 // name:A; map symbol; map:28778
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, "t_handler_base_3<t_counted_ptr<t_combat_creature>, t_map_point_2d, int>")
 
-// confidence:A; align-band; retn,stable,vptr; map:28779
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:28779
 VA_CHT_1(0x00700990, 0x4e)
 t_abstract_function_3<void, t_counted_ptr<t_combat_creature>, t_map_point_2d, int>::t_abstract_function_3<void, t_counted_ptr<t_combat_creature>, t_map_point_2d, int>(
 
@@ -678,7 +678,7 @@ t_handler_base_3<t_counted_ptr<t_combat_creature>, t_map_point_2d, t_combat_acti
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:28783
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:28783
 VA_CHT_1(0x007017a0, 0x21)
 t_abstract_function_3<void, t_counted_ptr<t_combat_creature>, t_map_point_2d, t_combat_action_message>::~t_abstract_function_3<void, t_counted_ptr<t_combat_creature>, t_map_point_2d, t_combat_action_message>(
 
@@ -687,7 +687,7 @@ t_abstract_function_3<void, t_counted_ptr<t_combat_creature>, t_map_point_2d, t_
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:28784
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:28784
 VA_CHT_1_COMPGEN(0x007015e0, 0x20, VECTOR_DELETING_DTOR, "t_abstract_function_3<void, t_counted_ptr<t_combat_creature>, t_map_point_2d, t_combat_action_message>")
 
 // name:A; map symbol; map:28785
@@ -735,7 +735,7 @@ t_handler_base_3<t_combat_creature&, t_combat_creature*, t_combat_action_message
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:28792
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:28792
 VA_CHT_1(0x00700c70, 0x4e)
 t_abstract_function_3<void, t_combat_creature&, t_combat_creature*, t_combat_action_message>::~t_abstract_function_3<void, t_combat_creature&, t_combat_creature*, t_combat_action_message>(
 
@@ -744,7 +744,7 @@ t_abstract_function_3<void, t_combat_creature&, t_combat_creature*, t_combat_act
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:28793
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:28793
 VA_CHT_1_COMPGEN(0x00701640, 0x20, VECTOR_DELETING_DTOR, "t_abstract_function_3<void, t_combat_creature&, t_combat_creature*, t_combat_action_message>")
 
 // name:A; map symbol; map:28794
@@ -774,7 +774,7 @@ t_add_3rd_handler_2<t_combat_creature&, t_combat_creature*, t_combat_action_mess
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:28799
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:28799
 VA_CHT_1_COMPGEN(0x00701960, 0x1e, VECTOR_DELETING_DTOR, "t_handler_base_2<t_combat_creature&, t_combat_creature*>")
 
 // name:A; map symbol; map:28800
@@ -968,28 +968,28 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, "t_handler_bas
 // name:A; map symbol; map:28823
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, "t_function_handler_3<void (*)(t_counted_ptr<t_combat_creature>, t_map_point_2d, int), t_counted_ptr<t_combat_creature>, t_map_point_2d, int>")
 
-// confidence:C; align-order; stable; map:28824
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:28824
 VA_CHT_1_COMPGEN(0x00701a70, 0x8, VECTOR_DELETING_DTOR, "t_add_3rd_handler_2<t_counted_ptr<t_combat_creature>, t_map_point_2d, t_combat_action_message>")
 
-// confidence:C; align-order; stable; map:28825
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:28825
 VA_CHT_1_COMPGEN(0x00701a80, 0x8, VECTOR_DELETING_DTOR, "t_handler_base_3<t_counted_ptr<t_combat_creature>, t_map_point_2d, t_combat_action_message>")
 
-// confidence:C; align-order; stable; map:28826
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:28826
 VA_CHT_1_COMPGEN(0x00701a90, 0x8, VECTOR_DELETING_DTOR, "t_handler_base_3<t_combat_creature&, t_combat_creature*, t_combat_action_message>")
 
-// confidence:C; align-order; stable; map:28827
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:28827
 VA_CHT_1_COMPGEN(0x00701aa0, 0x8, VECTOR_DELETING_DTOR, "t_function_handler_3<void (*)(t_combat_creature&, t_combat_creature*, t_combat_action_message), t_combat_creature&, t_combat_creature*, t_combat_action_message>")
 
-// confidence:C; align-order; stable; map:28828
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:28828
 VA_CHT_1_COMPGEN(0x00701ab0, 0x8, VECTOR_DELETING_DTOR, "t_function_handler_3<void (*)(t_counted_ptr<t_combat_creature>, t_map_point_2d, t_combat_action_message), t_counted_ptr<t_combat_creature>, t_map_point_2d, t_combat_action_message>")
 
-// confidence:C; align-order; stable; map:28829
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:28829
 VA_CHT_1_COMPGEN(0x00701ac0, 0x8, VECTOR_DELETING_DTOR, "t_handler_base_3<t_counted_ptr<t_combat_creature>, t_map_point_2d, int>")
 
-// confidence:C; align-order; stable; map:28830
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:28830
 VA_CHT_1_COMPGEN(0x00701ad0, 0x8, VECTOR_DELETING_DTOR, "t_add_2nd_handler_1<t_combat_creature&, t_combat_creature*>")
 
-// confidence:C; align-order; stable; map:28831
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:28831
 VA_CHT_1_COMPGEN(0x00701ae0, 0x8, VECTOR_DELETING_DTOR, "t_add_3rd_handler_2<t_combat_creature&, t_combat_creature*, t_combat_action_message>")
 
 // === .rdata (28 symbols) ===

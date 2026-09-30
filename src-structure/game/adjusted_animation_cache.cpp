@@ -1,7 +1,7 @@
 // adjusted_animation_cache.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 34/54 (A:32 B:0 C:2); unaccounted 20; skipped std 19.
+// Accounted 34/54 (A:24 B:0 C:0); unaccounted 20; skipped std 19.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,7 +10,7 @@
 
 // === .text (30 symbols) ===
 
-// confidence:A; align-order; retn,stable,vptr; map:3022
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:3022
 VA_CHT_1(0x00420b50, 0x7b)
 t_adjusted_animation_cache_data::t_adjusted_animation_cache_data(
     t_abstract_cache<t_animation> const& arg_0,
@@ -20,7 +20,7 @@ t_adjusted_animation_cache_data::t_adjusted_animation_cache_data(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vptr; map:3023
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:3023
 VA_CHT_1(0x00420bf0, 0x8d)
 t_adjusted_animation_cache_data::~t_adjusted_animation_cache_data()
 {
@@ -34,7 +34,7 @@ void t_adjusted_animation_cache_data::add_reference()
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:3025
+// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:3025
 VA_CHT_1(0x00420c80, 0x302)
 t_animation* t_adjusted_animation_cache_data::do_get(t_progress_handler* arg_0)
 {
@@ -53,10 +53,10 @@ void t_adjusted_animation_cache_data::remove_reference()
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:71317; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:71317; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00421200, 0x20, STATIC_INIT_DISPATCH, adjusted_animation_cache)
 
-// confidence:A; align-band; retn,stable,vslot; map:3027
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:3027
 VA_CHT_1_COMPGEN(0x00420bd0, 0x1e, SCALAR_DELETING_DTOR, t_adjusted_animation_cache_data)
 
 // name:A; map symbol; map:3028
@@ -69,7 +69,7 @@ t_abstract_cache<t_animation>::t_abstract_cache<t_animation>(t_abstract_cache<t_
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn; map:3030
+// confidence:D; align-band; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:3030
 VA_CHT_1(0x004210b0, 0x83)
 void t_bitmap_group::push_back(t_bitmap_layer* arg_0)
 {
@@ -104,14 +104,14 @@ t_animation::t_animation()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:3035
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:3035
 VA_CHT_1(0x00420f90, 0x1d)
 t_bitmap_group::t_bitmap_group()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:3036
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:3036
 VA_CHT_1_COMPGEN(0x00420fb0, 0x1e, SCALAR_DELETING_DTOR, t_bitmap_group)
 
 // name:A; map symbol; map:3037
@@ -124,7 +124,7 @@ t_bitmap_group_base::t_bitmap_group_base()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:3039
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:3039
 VA_CHT_1_COMPGEN(0x00420fd0, 0x1e, SCALAR_DELETING_DTOR, t_animation)
 
 // name:A; map symbol; map:3040
@@ -167,7 +167,7 @@ t_shared_ptr<t_bitmap_layer>::t_shared_ptr<t_bitmap_layer>(t_bitmap_layer* arg_0
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn; map:3059
+// confidence:D; align-band; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:3059
 VA_CHT_1(0x004211e0, 0x1d)
 t_bitmap_layer* t_shared_ptr<t_bitmap_layer>::operator->() const
 {

@@ -1,7 +1,7 @@
 // script_hero_numeric_expression.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 60/146 (A:50 B:10 C:0); unaccounted 86; skipped std 1.
+// Accounted 60/146 (A:42 B:0 C:0); unaccounted 86; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,42 +10,42 @@
 
 // === .text (80 symbols) ===
 
-// confidence:B; align-order; retn,stable; map:35337
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:35337
 VA_CHT_1(0x0079e0c0, 0x7c)
 int t_script_hero_experience_level::evaluate(t_expression_context_hero const& arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:35338
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:35338
 VA_CHT_1(0x0079e140, 0x92)
 int t_script_hero_experience_level::evaluate(t_expression_context_town const& arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:35339
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:35339
 VA_CHT_1(0x0079e2c0, 0x2b)
 int t_script_hero_experience_level::evaluate(t_expression_context_object const& arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:35340
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:35340
 VA_CHT_1(0x0079e2f0, 0x28)
 int t_script_hero_experience_level::evaluate(t_expression_context_army const& arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:35341
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:35341
 VA_CHT_1(0x0079e320, 0x29)
 int t_script_hero_experience_level::evaluate(t_expression_context_global const& arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:35342
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:35342
 VA_CHT_1(0x0079e350, 0xa8)
 bool t_script_hero_skill_mastery::read_from_map(
     std::basic_streambuf<char, std::char_traits<char>>& arg_0,
@@ -55,14 +55,14 @@ bool t_script_hero_skill_mastery::read_from_map(
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:35343
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:35343
 VA_CHT_1(0x0079e400, 0x8f)
 bool t_script_hero_skill_mastery::read(std::basic_streambuf<char, std::char_traits<char>>& arg_0, int arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:35344
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:35344
 VA_CHT_1(0x0079e490, 0x37)
 bool t_script_hero_skill_mastery::write(std::basic_streambuf<char, std::char_traits<char>>& arg_0) const
 {
@@ -83,7 +83,7 @@ int t_script_hero_skill_mastery::evaluate(t_expression_context_town const& arg_0
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:35347
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:35347
 VA_CHT_1(0x0079e4d0, 0x33)
 int t_script_hero_skill_mastery::evaluate(t_expression_context_object const& arg_0) const
 {
@@ -97,20 +97,20 @@ int t_script_hero_skill_mastery::evaluate(t_expression_context_army const& arg_0
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:35349
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:35349
 VA_CHT_1(0x0079e510, 0x35)
 int t_script_hero_skill_mastery::evaluate(t_expression_context_global const& arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:63067; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:63067; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0079e550, 0x70, STATIC_INIT_DISPATCH, script_hero_numeric_expression)
 
 // name:C; dyninit; see ledger; map:63069
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "t_script_numeric_expression_base<4,t_script_hero_experience_level>::k_factory")
 
-// confidence:A; align-order; atexit,stable; map:63070; name:C (dyninit; see ledger)
+// confidence:D; align-order; atexit,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:63070; name:C (dyninit; see ledger)
 VA_CHT_1(0x0079e5e0, 0x1f)
 // t_script_numeric_expression_base<5,t_script_hero_skill_mastery>::k_factory$atexit
 // Function body not reconstructed; signature retained as a comment.
@@ -186,14 +186,14 @@ t_script_numeric_expression_factory<5>::~t_script_numeric_expression_factory<5>(
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:35361
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:35361
 VA_CHT_1(0x0079e600, 0x49)
 t_script_numeric_expression_factory<4>::t_script_numeric_expression_factory<4>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:35362
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:35362
 VA_CHT_1(0x0079e650, 0x72)
 t_counted_ptr<t_abstract_script_numeric_expression> t_script_numeric_expression_factory<4>::create() const
 {
@@ -232,7 +232,7 @@ t_script_numeric_expression<4>::t_script_numeric_expression<4>(t_script_numeric_
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:35367
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:35367
 VA_CHT_1_COMPGEN(0x0079e6d0, 0x7c, VECTOR_DELETING_DTOR, "t_script_numeric_expression<4>")
 
 // name:A; map symbol; map:35368
@@ -400,14 +400,14 @@ t_script_targeted_expression<t_abstract_script_numeric_expression, t_script_hero
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:35395
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:35395
 VA_CHT_1(0x0079e750, 0x49)
 t_script_numeric_expression_factory<5>::t_script_numeric_expression_factory<5>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:35396
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:35396
 VA_CHT_1(0x0079e7a0, 0x4b)
 t_counted_ptr<t_abstract_script_numeric_expression> t_script_numeric_expression_factory<5>::create() const
 {
@@ -446,7 +446,7 @@ t_script_numeric_expression<5>::t_script_numeric_expression<5>(t_script_numeric_
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:35401
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:35401
 VA_CHT_1_COMPGEN(0x0079e7f0, 0x5a, VECTOR_DELETING_DTOR, "t_script_numeric_expression<5>")
 
 // name:A; map symbol; map:35402

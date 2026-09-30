@@ -1,7 +1,7 @@
 // treasure_chest_window.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 28/41 (A:18 B:8 C:2); unaccounted 13; skipped std 1.
+// Accounted 28/41 (A:12 B:2 C:0); unaccounted 13; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,45 +10,45 @@
 
 // === .text (26 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-B; map:61295; name:A (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:61295; name:A (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0082fce0, 0x11, STATIC_INIT_DISPATCH, k_text_gold)
 
-// confidence:B; dyninit-ctor; owner-conf-B; map:61296; name:A (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:61296; name:A (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0082fd00, 0xd1, STATIC_CTOR, k_text_gold)
 
 // name:A; dyninit; see ledger; map:61297
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, k_text_gold)
 
-// confidence:B; dyninit-dtor; owner-conf-B; map:61298; name:A (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:61298; name:A (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0082fde0, 0xa, STATIC_DTOR, k_text_gold)
 
-// confidence:A; dyninit-init; owner-conf-C; map:61299; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:61299; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0082fdf0, 0x11, STATIC_INIT_DISPATCH, "treasure_chest_window#2")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:61300; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:61300; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0082fe10, 0xd7, STATIC_CTOR, "treasure_chest_window#2")
 
 // name:C; dyninit; see ledger; map:61301
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "treasure_chest_window#2")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:61302; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:61302; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0082fef0, 0xa, STATIC_DTOR, "treasure_chest_window#2")
 
-// confidence:A; align-order; retn,stable,vptr; map:40422
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:40422
 VA_CHT_1(0x0082ff00, 0x8cb)
 t_treasure_chest_window::t_treasure_chest_window(t_window* arg_0, t_adv_treasure_chest* arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:40423
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:40423
 VA_CHT_1(0x008308d0, 0x57e)
 void t_treasure_chest_window::create_buttons(t_screen_point arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:40424
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:40424
 VA_CHT_1(0x00830e50, 0xa66)
 void t_treasure_chest_window::create_labels(t_screen_point arg_0)
 {
@@ -62,24 +62,24 @@ void t_treasure_chest_window::exp_change(t_button* arg_0)
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:40426
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:40426
 VA_CHT_1(0x008318c0, 0x22)
 void t_treasure_chest_window::gold_change(t_button* arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:40427
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:40427
 VA_CHT_1(0x008318f0, 0x22)
 void t_treasure_chest_window::close_click(t_button* arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:61303; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:61303; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00831980, 0x20, STATIC_INIT_DISPATCH, treasure_chest_window)
 
-// confidence:A; align-band; retn,stable,vslot; map:40428
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:40428
 VA_CHT_1_COMPGEN(0x008307d0, 0x1e, SCALAR_DELETING_DTOR, t_treasure_chest_window)
 
 // name:A; map symbol; map:40429
@@ -109,7 +109,7 @@ t_handler_1<t_button*> bound_handler(
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:40433
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:40433
 VA_CHT_1(0x00831920, 0x5e)
 t_bound_handler_1<t_treasure_chest_window, t_button*>::t_bound_handler_1<t_treasure_chest_window, t_button*>(
     t_treasure_chest_window& arg_0,

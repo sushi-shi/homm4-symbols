@@ -1,7 +1,7 @@
 // adv_sea_chest.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 27/58 (A:21 B:3 C:3); unaccounted 31; skipped std 1.
+// Accounted 27/58 (A:12 B:2 C:0); unaccounted 31; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -34,26 +34,26 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "adv_sea_chest#2")
 // name:C; dyninit; see ledger; map:70853
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_DTOR, "adv_sea_chest#2")
 
-// confidence:A; dyninit-init; owner-conf-C; map:70854; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:70854; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x004613a0, 0x15, STATIC_INIT_DISPATCH, "adv_sea_chest#3")
 
 // name:C; dyninit; see ledger; map:70855
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "adv_sea_chest#3")
 
-// confidence:A; dyninit-init; owner-conf-C; map:70856; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:70856; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x004613c0, 0x1e, STATIC_INIT_DISPATCH, "adv_sea_chest#4")
 
 // name:C; dyninit; see ledger; map:70857
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "adv_sea_chest#4")
 
-// confidence:A; align-order; retn,stable,vptr; map:5710
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:5710
 VA_CHT_1(0x004613e0, 0x118)
 t_adv_sea_chest::t_adv_sea_chest(std::string const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:5711
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:5711
 VA_CHT_1(0x00461590, 0x9ab)
 void t_adv_sea_chest::activate_trigger(
     t_army* arg_0,
@@ -65,7 +65,7 @@ void t_adv_sea_chest::activate_trigger(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:5712
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:5712
 VA_CHT_1(0x00461f40, 0x85)
 void t_adv_sea_chest::initialize(t_adventure_map& arg_0)
 {
@@ -79,7 +79,7 @@ bool t_adv_sea_chest::write(std::basic_streambuf<char, std::char_traits<char>>& 
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:5714
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:5714
 VA_CHT_1(0x00462230, 0x28)
 bool t_adv_sea_chest::read(
     std::basic_streambuf<char, std::char_traits<char>>& arg_0,
@@ -104,12 +104,12 @@ void t_adv_sea_chest::right_click(t_mouse_event const& arg_0, t_adventure_frame*
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:70858; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:70858; name:B (dyninit; see ledger)
 VA_CHT_1(0x004622d0, 0x20)
 // adv_sea_chest$tinit1
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:70860; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:70860; name:B (dyninit; see ledger)
 VA_CHT_1(0x004622f0, 0x5c)
 // adv_sea_chest$tinit2
 // Function body not reconstructed; signature retained as a comment.
@@ -129,13 +129,13 @@ VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 // adv_sea_chest$tatexit4
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; align-band; retn,stable,vslot; map:5717
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:5717
 VA_CHT_1_COMPGEN(0x00461500, 0x2d, VECTOR_DELETING_DTOR, t_adv_sea_chest)
 
 // name:A; map symbol; map:5718
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, t_adv_sea_chest)
 
-// confidence:C; align-band; retn,stable; map:5719
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:5719
 VA_CHT_1(0x00461530, 0x57)
 // public: void t_adv_sea_chest::`vbase dtor'(void)
 // Function body not reconstructed; signature retained as a comment.
@@ -185,7 +185,7 @@ t_object_factory<t_adv_sea_chest>::t_object_factory<t_adv_sea_chest>()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,vslot; map:5726
+// confidence:D; align-band; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:5726
 VA_CHT_1(0x00462260, 0x62)
 t_stationary_adventure_object* t_object_factory<t_adv_sea_chest>::create(
     std::string const& arg_0,
@@ -195,10 +195,10 @@ t_stationary_adventure_object* t_object_factory<t_adv_sea_chest>::create(
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:5727
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:5727
 VA_CHT_1_COMPGEN(0x00462350, 0x8, VECTOR_DELETING_DTOR, t_adv_sea_chest)
 
-// confidence:C; align-order; stable; map:5728
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:5728
 VA_CHT_1_COMPGEN(0x00462360, 0xb, VECTOR_DELETING_DTOR, t_adv_sea_chest)
 
 // === .rdata (9 symbols) ===

@@ -276,4 +276,8 @@ def main(target, verbose=False):
 
 
 if __name__ == "__main__":
-    main(sys.argv[1], "-v" in sys.argv)
+    if os.path.exists(paths.work(sys.argv[1], "release.json")):
+        import release_evaluate
+        release_evaluate.main(sys.argv[1])
+    else:
+        main(sys.argv[1], "-v" in sys.argv)

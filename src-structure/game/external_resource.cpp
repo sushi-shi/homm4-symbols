@@ -1,7 +1,7 @@
 // external_resource.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 28/46 (A:27 B:0 C:1); unaccounted 18; skipped std 2.
+// Accounted 28/46 (A:20 B:0 C:0); unaccounted 18; skipped std 2.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,35 +10,35 @@
 
 // === .text (26 symbols) ===
 
-// confidence:A; align-order; retn,stable,vptr; map:25903
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:25903
 VA_CHT_1(0x006a5ff0, 0x187)
 t_external_resource::t_external_resource(char const* arg_0, char const* arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vptr; map:25904
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:25904
 VA_CHT_1(0x006a61a0, 0x49)
 t_external_resource::~t_external_resource()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:25905
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:25905
 VA_CHT_1(0x006a61f0, 0x256)
 t_shared_ptr<std::basic_streambuf<char, std::char_traits<char>>> t_external_resource::get_stream(int arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:25906
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:25906
 VA_CHT_1(0x006a6580, 0x127)
 std::string t_external_resource::get_filename()
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:65490; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:65490; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x006a66b0, 0x3f, STATIC_INIT_DISPATCH, external_resource)
 
 // name:A; map symbol; map:25907
@@ -48,7 +48,7 @@ t_abstract_resource_file::~t_abstract_resource_file()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:25908
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:25908
 VA_CHT_1_COMPGEN(0x006a6180, 0x1e, SCALAR_DELETING_DTOR, t_external_resource)
 
 // name:A; map symbol; map:25909
@@ -84,7 +84,7 @@ t_compressed_buffer_base::~t_compressed_buffer_base()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:25914
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:25914
 VA_CHT_1_COMPGEN(0x006a64c0, 0x1e, VECTOR_DELETING_DTOR, t_inflate_buffer)
 
 // name:A; map symbol; map:25915
@@ -124,7 +124,7 @@ t_shared_ptr<std::basic_filebuf<char, std::char_traits<char>>>::t_shared_ptr<std
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:25920
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25920
 VA_CHT_1(0x006a64e0, 0x91)
 t_shared_ptr<std::basic_filebuf<char, std::char_traits<char>>>::~t_shared_ptr<std::basic_filebuf<char, std::char_traits<char>>>(
 

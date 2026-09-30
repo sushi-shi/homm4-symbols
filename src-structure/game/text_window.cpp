@@ -1,7 +1,7 @@
 // text_window.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 52/76 (A:35 B:11 C:6); unaccounted 24; skipped std 1.
+// Accounted 52/76 (A:22 B:3 C:1); unaccounted 24; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,19 +10,19 @@
 
 // === .text (47 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:61895; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:61895; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007f1e90, 0x11, STATIC_INIT_DISPATCH, k_arrow_button_bitmaps)
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:61896; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:61896; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007f1eb0, 0xd7, STATIC_CTOR, k_arrow_button_bitmaps)
 
 // name:C; dyninit; see ledger; map:61897
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, k_arrow_button_bitmaps)
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:61898; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:61898; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007f1f90, 0xa, STATIC_DTOR, k_arrow_button_bitmaps)
 
-// confidence:A; align-order; retn,stable,vptr; map:38723
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:38723
 VA_CHT_1(0x007f1fa0, 0x252)
 t_text_window::t_text_window(
     t_cached_ptr<t_font>& arg_0,
@@ -37,7 +37,7 @@ t_text_window::t_text_window(
     // Body unavailable.
 }
 
-// confidence:A; align-order; stable,vptr; map:38724
+// confidence:D; align-order; stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:38724
 VA_CHT_1(0x007f2220, 0x1f0)
 t_text_window::t_text_window(
     t_cached_ptr<t_font>& arg_0,
@@ -50,7 +50,7 @@ t_text_window::t_text_window(
     // Body unavailable.
 }
 
-// confidence:A; align-order; stable,vptr; map:38725
+// confidence:D; align-order; stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:38725
 VA_CHT_1(0x007f2410, 0x166)
 t_text_window::t_text_window(
     t_cached_ptr<t_font>& arg_0,
@@ -62,14 +62,14 @@ t_text_window::t_text_window(
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:38726
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:38726
 VA_CHT_1(0x007f2580, 0x756)
 void t_text_window::init_scrollbar()
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:38727
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:38727
 VA_CHT_1(0x007f2ce0, 0x18)
 void t_text_window::slider_change(t_scrollbar* arg_0, int arg_1)
 {
@@ -97,70 +97,70 @@ void t_text_window::on_text_change()
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:38731
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:38731
 VA_CHT_1(0x007f2d40, 0xa0)
 void t_text_window::set_font(t_cached_ptr<t_font>& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:38732
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:38732
 VA_CHT_1(0x007f2de0, 0x68)
 void t_text_window::set_text(std::string const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:38733
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:38733
 VA_CHT_1(0x007f2e50, 0x1fa)
 void t_text_window::set_wrapped_text(t_string_vector const& arg_0, int arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:38734
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:38734
 VA_CHT_1(0x007f3050, 0x57)
 void t_text_window::set_color(t_pixel_24 arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:38735
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:38735
 VA_CHT_1(0x007f30b0, 0x62)
 void t_text_window::set_drop_shadow(bool arg_0, t_pixel_24 const& arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:38736
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:38736
 VA_CHT_1(0x007f3120, 0xf7)
 t_screen_point t_text_window::get_row_start(int arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:38737
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:38737
 VA_CHT_1(0x007f3220, 0x2e3)
 void t_text_window::paint(t_paint_surface& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:38738
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:38738
 VA_CHT_1(0x007f3510, 0x4d)
 void t_text_window::on_size_change(t_screen_rect const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:38739
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:38739
 VA_CHT_1(0x007f3560, 0x31)
 int t_text_window::get_text_height() const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vptr; map:38740
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:38740
 VA_CHT_1(0x007f35a0, 0x113)
 t_scrolling_text_window::t_scrolling_text_window(
     t_cached_ptr<t_font>& arg_0,
@@ -174,17 +174,17 @@ t_scrolling_text_window::t_scrolling_text_window(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:38741
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:38741
 VA_CHT_1(0x007f3850, 0xee)
 void t_scrolling_text_window::on_idle()
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:61899; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:61899; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007f3a00, 0x20, STATIC_INIT_DISPATCH, text_window)
 
-// confidence:A; align-band; retn,stable,vslot; map:38742
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:38742
 VA_CHT_1_COMPGEN(0x007f2200, 0x1e, VECTOR_DELETING_DTOR, t_text_window)
 
 // name:A; map symbol; map:38743
@@ -211,7 +211,7 @@ int t_scrollbar::get_position() const
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:38747
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:38747
 VA_CHT_1_COMPGEN(0x007f36c0, 0x1e, SCALAR_DELETING_DTOR, t_scrolling_text_window)
 
 // name:A; map symbol; map:38748
@@ -238,7 +238,7 @@ t_handler_1<t_button*> bound_handler(t_text_window& arg_0, void (t_text_window::
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:38752
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:38752
 VA_CHT_1(0x007f3940, 0x5e)
 t_bound_handler_2<t_text_window, t_scrollbar*, int>::t_bound_handler_2<t_text_window, t_scrollbar*, int>(
     t_text_window& arg_0,
@@ -255,7 +255,7 @@ void t_bound_handler_2<t_text_window, t_scrollbar*, int>::operator()(t_scrollbar
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:38754
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:38754
 VA_CHT_1(0x007f39a0, 0x5e)
 t_bound_handler_1<t_text_window, t_button*>::t_bound_handler_1<t_text_window, t_button*>(
     t_text_window& arg_0,
@@ -301,10 +301,10 @@ t_bound_handler_1<t_text_window, t_button*>::~t_bound_handler_1<t_text_window, t
 // name:A; map symbol; map:38762
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, "t_bound_handler_1<t_text_window, t_button*>")
 
-// confidence:C; align-order; stable; map:38763
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:38763
 VA_CHT_1_COMPGEN(0x007f3a30, 0x8, VECTOR_DELETING_DTOR, t_scrolling_text_window)
 
-// confidence:C; align-order; stable; map:38764
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:38764
 VA_CHT_1_COMPGEN(0x007f3a40, 0xb, VECTOR_DELETING_DTOR, "t_bound_handler_2<t_text_window, t_scrollbar*, int>")
 
 // === .rdata (7 symbols) ===

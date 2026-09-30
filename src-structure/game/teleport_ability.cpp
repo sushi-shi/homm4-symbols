@@ -1,7 +1,7 @@
 // teleport_ability.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 18/30 (A:15 B:2 C:1); unaccounted 12; skipped std 1.
+// Accounted 18/30 (A:6 B:2 C:0); unaccounted 12; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,43 +10,43 @@
 
 // === .text (20 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:62237; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62237; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007ea750, 0x15, STATIC_INIT_DISPATCH, "teleport_ability#1")
 
 // name:C; dyninit; see ledger; map:62238
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "teleport_ability#1")
 
-// confidence:A; dyninit-init; owner-conf-C; map:62239; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62239; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007ea770, 0x15, STATIC_INIT_DISPATCH, "teleport_ability#2")
 
 // name:C; dyninit; see ledger; map:62240
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "teleport_ability#2")
 
-// confidence:A; dyninit-init; owner-conf-C; map:62241; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62241; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007ea790, 0x15, STATIC_INIT_DISPATCH, "teleport_ability#3")
 
 // name:C; dyninit; see ledger; map:62242
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "teleport_ability#3")
 
-// confidence:A; dyninit-init; owner-conf-C; map:62243; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62243; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007ea7b0, 0x15, STATIC_INIT_DISPATCH, "teleport_ability#4")
 
 // name:C; dyninit; see ledger; map:62244
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "teleport_ability#4")
 
-// confidence:A; dyninit-init; owner-conf-C; map:62245; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62245; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007ea7d0, 0x10, STATIC_INIT_DISPATCH, "teleport_ability#5")
 
 // name:C; dyninit; see ledger; map:62246
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "teleport_ability#5")
 
-// confidence:A; dyninit-init; owner-conf-C; map:62247; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62247; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007ea7e0, 0x15, STATIC_INIT_DISPATCH, "teleport_ability#6")
 
 // name:C; dyninit; see ledger; map:62248
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "teleport_ability#6")
 
-// confidence:A; align-order; stable,vptr; map:38651
+// confidence:D; align-order; stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:38651
 VA_CHT_1(0x007ea800, 0x17e)
 t_teleport_ability::t_teleport_ability(
     t_combat_creature& arg_0,
@@ -64,10 +64,10 @@ void t_teleport_ability::on_idle()
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:62249; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:62249; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007eabb0, 0x20, STATIC_INIT_DISPATCH, teleport_ability)
 
-// confidence:A; align-band; retn,stable,vslot; map:38653
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:38653
 VA_CHT_1_COMPGEN(0x007ea980, 0x1e, SCALAR_DELETING_DTOR, t_teleport_ability)
 
 // name:A; map symbol; map:38654
@@ -83,7 +83,7 @@ t_teleport_ability::~t_teleport_ability()
 // name:A; map symbol; map:38656
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, t_teleport_ability)
 
-// confidence:C; align-order; stable; map:38657
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:38657
 VA_CHT_1_COMPGEN(0x007eabe0, 0x8, VECTOR_DELETING_DTOR, t_teleport_ability)
 
 // === .rdata (3 symbols) ===

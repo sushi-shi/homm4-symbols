@@ -1,7 +1,7 @@
 // bitmap_group_cache.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\bitmap_group_cache.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 32/52 (A:27 B:3 C:2); unaccounted 20; skipped std 1.
+// Accounted 32/52 (A:18 B:3 C:0); unaccounted 20; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,14 +10,14 @@
 
 // === .text (28 symbols) ===
 
-// confidence:A; align-order; retn,stable,vslot; map:18045
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18045
 VA_CHT_1(0x00571c90, 0x6)
 char const* t_bitmap_group_cache_data::get_prefix() const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:18046
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18046
 VA_CHT_1(0x00571ca0, 0xbe)
 t_bitmap_group* t_bitmap_group_cache_data::do_read(
     std::basic_streambuf<char, std::char_traits<char>>& arg_0,
@@ -29,7 +29,7 @@ t_bitmap_group* t_bitmap_group_cache_data::do_read(
 
 namespace {
 
-// confidence:A; align-order; retn,stable,vslot; map:18047
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18047
 VA_CHT_1(0x00571d60, 0x117)
 t_bitmap_group* t_scaled_bitmap_group_cache_data::do_read(
     std::basic_streambuf<char, std::char_traits<char>>& arg_0,
@@ -41,14 +41,14 @@ t_bitmap_group* t_scaled_bitmap_group_cache_data::do_read(
 
 } // anonymous namespace
 
-// confidence:A; align-order; retn,stable,vptr; map:18048
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:18048
 VA_CHT_1(0x00571e80, 0x151)
 t_bitmap_group_cache::t_bitmap_group_cache(std::string const& arg_0, double arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:68969; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:68969; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x005722b0, 0x20, STATIC_INIT_DISPATCH, bitmap_group_cache)
 
 // name:A; map symbol; map:18049
@@ -58,7 +58,7 @@ t_bitmap_group_cache_data::t_bitmap_group_cache_data(std::string const& arg_0)
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:18050
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18050
 VA_CHT_1_COMPGEN(0x00571fe0, 0x1e, VECTOR_DELETING_DTOR, t_bitmap_group_cache_data)
 
 // name:A; map symbol; map:18051
@@ -82,7 +82,7 @@ t_scaled_bitmap_group_cache_data::t_scaled_bitmap_group_cache_data(std::string c
 
 } // anonymous namespace
 
-// confidence:A; align-band; retn,stable,vslot; map:18054
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18054
 VA_CHT_1_COMPGEN(0x005720d0, 0x1e, SCALAR_DELETING_DTOR, t_scaled_bitmap_group_cache_data)
 
 // name:A; map symbol; map:18055
@@ -115,7 +115,7 @@ t_abstract_resource_cache_data<t_bitmap_group>::t_abstract_resource_cache_data<t
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:18059
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:18059
 VA_CHT_1(0x00572000, 0xcb)
 t_abstract_resource_cache_data<t_bitmap_group>::~t_abstract_resource_cache_data<t_bitmap_group>()
 {
@@ -167,7 +167,7 @@ bool t_abstract_resource_cache_data<t_bitmap_group>::read(
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:18066
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18066
 VA_CHT_1_COMPGEN(0x005721c0, 0x1e, VECTOR_DELETING_DTOR, "t_abstract_resource_cache_data<t_bitmap_group>")
 
 // name:A; map symbol; map:18067
@@ -185,10 +185,10 @@ t_counted_ptr<t_abstract_cache_data<t_bitmap_group>>& t_counted_ptr<t_abstract_c
 // name:A; map symbol; map:18069
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, t_scaled_bitmap_group_cache_data)
 
-// confidence:C; align-order; stable; map:18070
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18070
 VA_CHT_1_COMPGEN(0x005722e0, 0x8, VECTOR_DELETING_DTOR, t_bitmap_group_cache_data)
 
-// confidence:C; align-order; stable; map:18071
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18071
 VA_CHT_1_COMPGEN(0x005722f0, 0x8, VECTOR_DELETING_DTOR, "t_abstract_resource_cache_data<t_bitmap_group>")
 
 // === .rdata (6 symbols) ===

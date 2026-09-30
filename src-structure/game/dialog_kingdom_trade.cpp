@@ -1,7 +1,7 @@
 // dialog_kingdom_trade.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 51/81 (A:34 B:11 C:6); unaccounted 30; skipped std 16.
+// Accounted 51/81 (A:24 B:3 C:1); unaccounted 30; skipped std 16.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,44 +10,44 @@
 
 // === .text (50 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:65904; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:65904; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00676000, 0x15, STATIC_INIT_DISPATCH, "dialog_kingdom_trade#1")
 
 // name:C; dyninit; see ledger; map:65905
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "dialog_kingdom_trade#1")
 
-// confidence:A; dyninit-init; owner-conf-C; map:65906; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:65906; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00676020, 0x11, STATIC_INIT_DISPATCH, k_kingdom_trade_bitmaps)
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:65907; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:65907; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00676040, 0xd7, STATIC_CTOR, k_kingdom_trade_bitmaps)
 
 // name:C; dyninit; see ledger; map:65908
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, k_kingdom_trade_bitmaps)
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:65909; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:65909; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00676120, 0xa, STATIC_DTOR, k_kingdom_trade_bitmaps)
 
-// confidence:A; dyninit-init; owner-conf-C; map:65910; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:65910; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00676130, 0x11, STATIC_INIT_DISPATCH, "dialog_kingdom_trade#3")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:65911; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:65911; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00676150, 0xd1, STATIC_CTOR, "dialog_kingdom_trade#3")
 
 // name:C; dyninit; see ledger; map:65912
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "dialog_kingdom_trade#3")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:65913; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:65913; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00676230, 0xa, STATIC_DTOR, "dialog_kingdom_trade#3")
 
-// confidence:A; align-order; retn,stable,vptr; map:25040
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:25040
 VA_CHT_1(0x00676240, 0x99)
 t_dialog_kingdom_trade::t_dialog_kingdom_trade(t_window* arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:25041
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25041
 VA_CHT_1(0x006763e0, 0x1f05)
 void t_dialog_kingdom_trade::init_dialog(
     t_window* arg_0,
@@ -84,21 +84,21 @@ static t_button* create_kingdom_trade_player_button(
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:25042
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25042
 VA_CHT_1(0x00678340, 0x20e)
 void t_dialog_kingdom_trade::show_material_amount()
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:25043
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25043
 VA_CHT_1(0x00678550, 0x91)
 void t_dialog_kingdom_trade::scrollbar_move(t_scrollbar* arg_0, int arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:25044
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25044
 VA_CHT_1(0x006785f0, 0x70)
 void t_dialog_kingdom_trade::flag_clicked(t_button* arg_0, int arg_1)
 {
@@ -112,7 +112,7 @@ void t_dialog_kingdom_trade::give_clicked(t_button* arg_0)
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:25046
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25046
 VA_CHT_1(0x006786c0, 0x51)
 void t_dialog_kingdom_trade::material_clicked(t_button* arg_0, int arg_1)
 {
@@ -126,19 +126,19 @@ void t_dialog_kingdom_trade::max_clicked(t_button* arg_0)
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:25048
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25048
 VA_CHT_1(0x00678720, 0x15)
 void t_dialog_kingdom_trade::close_click(t_button* arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:65916; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:65916; name:B (dyninit; see ledger)
 VA_CHT_1(0x00678860, 0x20)
 // dialog_kingdom_trade$tinit1
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:65918; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:65918; name:B (dyninit; see ledger)
 VA_CHT_1(0x00678880, 0x5c)
 // dialog_kingdom_trade$tinit2
 // Function body not reconstructed; signature retained as a comment.
@@ -158,7 +158,7 @@ VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 // dialog_kingdom_trade$tatexit4
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; align-band; retn,stable,vslot; map:25049
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:25049
 VA_CHT_1_COMPGEN(0x006762e0, 0x1e, SCALAR_DELETING_DTOR, t_dialog_kingdom_trade)
 
 // name:A; map symbol; map:25050
@@ -201,7 +201,7 @@ t_handler_2<t_scrollbar*, int> bound_handler(
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:25070
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:25070
 VA_CHT_1(0x00678740, 0x5e)
 t_bound_handler_2<t_dialog_kingdom_trade, t_button*, int>::t_bound_handler_2<t_dialog_kingdom_trade, t_button*, int>(
     t_dialog_kingdom_trade& arg_0,
@@ -218,7 +218,7 @@ void t_bound_handler_2<t_dialog_kingdom_trade, t_button*, int>::operator()(t_but
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:25072
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:25072
 VA_CHT_1(0x006787a0, 0x5e)
 t_bound_handler_1<t_dialog_kingdom_trade, t_button*>::t_bound_handler_1<t_dialog_kingdom_trade, t_button*>(
     t_dialog_kingdom_trade& arg_0,
@@ -235,7 +235,7 @@ void t_bound_handler_1<t_dialog_kingdom_trade, t_button*>::operator()(t_button* 
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:25074
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:25074
 VA_CHT_1(0x00678800, 0x5e)
 t_bound_handler_2<t_dialog_kingdom_trade, t_scrollbar*, int>::t_bound_handler_2<t_dialog_kingdom_trade, t_scrollbar*, int>(
     t_dialog_kingdom_trade& arg_0,
@@ -295,13 +295,13 @@ t_bound_handler_2<t_dialog_kingdom_trade, t_scrollbar*, int>::~t_bound_handler_2
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:25085
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25085
 VA_CHT_1_COMPGEN(0x006788e0, 0x8, VECTOR_DELETING_DTOR, "t_bound_handler_2<t_dialog_kingdom_trade, t_button*, int>")
 
-// confidence:C; align-order; stable; map:25086
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25086
 VA_CHT_1_COMPGEN(0x006788f0, 0x8, VECTOR_DELETING_DTOR, "t_bound_handler_1<t_dialog_kingdom_trade, t_button*>")
 
-// confidence:C; align-order; stable; map:25087
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25087
 VA_CHT_1_COMPGEN(0x00678900, 0x8, VECTOR_DELETING_DTOR, "t_bound_handler_2<t_dialog_kingdom_trade, t_scrollbar*, int>")
 
 // === .rdata (7 symbols) ===

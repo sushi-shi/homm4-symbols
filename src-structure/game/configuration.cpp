@@ -1,7 +1,7 @@
 // configuration.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\configuration.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 6/23 (A:2 B:3 C:1); unaccounted 17; skipped std 1.
+// Accounted 6/23 (A:0 B:0 C:0); unaccounted 17; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -77,7 +77,7 @@ void t_registry_key::open(HKEY__* arg_0, char const* arg_1)
 
 } // anonymous namespace
 
-// confidence:A; dyninit-init; owner-conf-C; map:67070; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:67070; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x006041f0, 0x29, STATIC_INIT_DISPATCH, "configuration#1")
 
 // name:C; dyninit; see ledger; map:67071
@@ -86,10 +86,10 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "configuration#1")
 // name:C; dyninit; see ledger; map:67072
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "configuration#1")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:67073; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:67073; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00604220, 0x44, STATIC_DTOR, "configuration#1")
 
-// confidence:C; align-order; retn,stable; map:22739
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:22739
 VA_CHT_1(0x00604270, 0x16b)
 void set_default_configuration_key_name(std::string const& arg_0)
 {
@@ -117,7 +117,7 @@ bool get_config_value(char const* arg_0, char const* arg_1, std::string& arg_2, 
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:22743
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:22743
 VA_CHT_1(0x006043e0, 0xab)
 bool get_config_value(char const* arg_0, std::string& arg_1, bool arg_2)
 {
@@ -145,12 +145,12 @@ void set_config_value(char const* arg_0, char const* arg_1, std::string const& a
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:22747
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:22747
 VA_CHT_1(0x00604490, 0x91)
 void set_config_value(char const* arg_0, std::string const& arg_1, bool arg_2)
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:67074; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:67074; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00604530, 0x20, STATIC_INIT_DISPATCH, configuration)
