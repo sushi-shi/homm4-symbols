@@ -3,6 +3,7 @@
   symbols/heroes4_debug.map         the original symbols (input)
   binaries/<target>/heroes4.exe     retail executables (input, git-ignored; sha256 in target.json)
   symbols/*.tsv                     everything mined from the map (tracked)
+  src-structure/                   generated source inventories and coverage ledgers
   maps/<target>/                    finished maps (tracked):
       target.json                   exe, sha256, image base, source ("map" or a parent target)
       names.tsv                     the complete map: every name with tier, method, evidence, origin
@@ -20,6 +21,7 @@ import os
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MAPFILE = os.path.join(ROOT, "symbols", "heroes4_debug.map")
 SYMBOLS = os.path.join(ROOT, "symbols")
+STRUCTURE = os.path.join(ROOT, "src-structure")
 WORK = os.path.join(ROOT, "work")
 NW = os.path.join(WORK, "bin", "nw")
 

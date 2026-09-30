@@ -1,0 +1,76 @@
+scope	metric	count	meaning
+input_map	total	71988	distinct debug map IDs; library symbols are outside the game tree
+input_map	game	67704	distinct debug map IDs; library symbols are outside the game tree
+input_map	excluded_library	4284	distinct debug map IDs; library symbols are outside the game tree
+game_map	total	67704	distinct debug map IDs; accounted = proposed retail match, not verification
+game_map	skipped_std	14120	distinct debug map IDs; accounted = proposed retail match, not verification
+game_map	included	53584	distinct debug map IDs; accounted = proposed retail match, not verification
+game_map	accounted	30142	distinct debug map IDs; accounted = proposed retail match, not verification
+game_map	unaccounted	23442	distinct debug map IDs; accounted = proposed retail match, not verification
+game_map	A	19071	distinct debug map IDs; accounted = proposed retail match, not verification
+game_map	B	6050	distinct debug map IDs; accounted = proposed retail match, not verification
+game_map	C	5021	distinct debug map IDs; accounted = proposed retail match, not verification
+compiler_data	total	15314	distinct debug map IDs; accounted = proposed retail match, not verification
+compiler_data	skipped_std	22	distinct debug map IDs; accounted = proposed retail match, not verification
+compiler_data	included	15292	distinct debug map IDs; accounted = proposed retail match, not verification
+compiler_data	accounted	12324	distinct debug map IDs; accounted = proposed retail match, not verification
+compiler_data	unaccounted	2968	distinct debug map IDs; accounted = proposed retail match, not verification
+compiler_data	A	11540	distinct debug map IDs; accounted = proposed retail match, not verification
+compiler_data	B	784	distinct debug map IDs; accounted = proposed retail match, not verification
+compiler_data	C	0	distinct debug map IDs; accounted = proposed retail match, not verification
+file_local_functions	total	5035	distinct debug map IDs; accounted = proposed retail match, not verification
+file_local_functions	skipped_std	1652	distinct debug map IDs; accounted = proposed retail match, not verification
+file_local_functions	included	3383	distinct debug map IDs; accounted = proposed retail match, not verification
+file_local_functions	accounted	1428	distinct debug map IDs; accounted = proposed retail match, not verification
+file_local_functions	unaccounted	1955	distinct debug map IDs; accounted = proposed retail match, not verification
+file_local_functions	A	607	distinct debug map IDs; accounted = proposed retail match, not verification
+file_local_functions	B	238	distinct debug map IDs; accounted = proposed retail match, not verification
+file_local_functions	C	583	distinct debug map IDs; accounted = proposed retail match, not verification
+functions	total	7536	distinct debug map IDs; accounted = proposed retail match, not verification
+functions	skipped_std	0	distinct debug map IDs; accounted = proposed retail match, not verification
+functions	included	7536	distinct debug map IDs; accounted = proposed retail match, not verification
+functions	accounted	5835	distinct debug map IDs; accounted = proposed retail match, not verification
+functions	unaccounted	1701	distinct debug map IDs; accounted = proposed retail match, not verification
+functions	A	1867	distinct debug map IDs; accounted = proposed retail match, not verification
+functions	B	2243	distinct debug map IDs; accounted = proposed retail match, not verification
+functions	C	1725	distinct debug map IDs; accounted = proposed retail match, not verification
+inline_and_template_functions	total	28300	distinct debug map IDs; accounted = proposed retail match, not verification
+inline_and_template_functions	skipped_std	11823	distinct debug map IDs; accounted = proposed retail match, not verification
+inline_and_template_functions	included	16477	distinct debug map IDs; accounted = proposed retail match, not verification
+inline_and_template_functions	accounted	4579	distinct debug map IDs; accounted = proposed retail match, not verification
+inline_and_template_functions	unaccounted	11898	distinct debug map IDs; accounted = proposed retail match, not verification
+inline_and_template_functions	A	1949	distinct debug map IDs; accounted = proposed retail match, not verification
+inline_and_template_functions	B	0	distinct debug map IDs; accounted = proposed retail match, not verification
+inline_and_template_functions	C	2630	distinct debug map IDs; accounted = proposed retail match, not verification
+static_initializers	total	10278	distinct debug map IDs; accounted = proposed retail match, not verification
+static_initializers	skipped_std	551	distinct debug map IDs; accounted = proposed retail match, not verification
+static_initializers	included	9727	distinct debug map IDs; accounted = proposed retail match, not verification
+static_initializers	accounted	5719	distinct debug map IDs; accounted = proposed retail match, not verification
+static_initializers	unaccounted	4008	distinct debug map IDs; accounted = proposed retail match, not verification
+static_initializers	A	3108	distinct debug map IDs; accounted = proposed retail match, not verification
+static_initializers	B	2611	distinct debug map IDs; accounted = proposed retail match, not verification
+static_initializers	C	0	distinct debug map IDs; accounted = proposed retail match, not verification
+statics_and_globals	total	982	distinct debug map IDs; accounted = proposed retail match, not verification
+statics_and_globals	skipped_std	72	distinct debug map IDs; accounted = proposed retail match, not verification
+statics_and_globals	included	910	distinct debug map IDs; accounted = proposed retail match, not verification
+statics_and_globals	accounted	257	distinct debug map IDs; accounted = proposed retail match, not verification
+statics_and_globals	unaccounted	653	distinct debug map IDs; accounted = proposed retail match, not verification
+statics_and_globals	A	0	distinct debug map IDs; accounted = proposed retail match, not verification
+statics_and_globals	B	174	distinct debug map IDs; accounted = proposed retail match, not verification
+statics_and_globals	C	83	distinct debug map IDs; accounted = proposed retail match, not verification
+string_literals	total	259	distinct debug map IDs; accounted = proposed retail match, not verification
+string_literals	skipped_std	0	distinct debug map IDs; accounted = proposed retail match, not verification
+string_literals	included	259	distinct debug map IDs; accounted = proposed retail match, not verification
+string_literals	accounted	0	distinct debug map IDs; accounted = proposed retail match, not verification
+string_literals	unaccounted	259	distinct debug map IDs; accounted = proposed retail match, not verification
+string_literals	A	0	distinct debug map IDs; accounted = proposed retail match, not verification
+string_literals	B	0	distinct debug map IDs; accounted = proposed retail match, not verification
+string_literals	C	0	distinct debug map IDs; accounted = proposed retail match, not verification
+structure	source_files	586	flat synthetic game directory
+structure	objects_without_source	1	flat synthetic game directory
+retail_functions	total	49630	exported function starts, including libraries and EH funclets; no inferred game ownership
+retail_functions	game	17561	exported function starts, including libraries and EH funclets; no inferred game ownership
+retail_functions	library	170	exported function starts, including libraries and EH funclets; no inferred game ownership
+retail_functions	skipped_std	1680	exported function starts, including libraries and EH funclets; no inferred game ownership
+retail_functions	unaccounted	30219	exported function starts, including libraries and EH funclets; no inferred game ownership
+retail_functions	named_without_feature	0	named addresses absent from function export; excluded from retail denominator

@@ -28,6 +28,7 @@ tools/py tools/evaluate.py "$T"
 tools/py tools/emit_map.py "$T"         # maps/<target>/names.tsv
 # 5. generated databases -> work/<target>/
 tools/py tools/gen_ida.py "$T"
+tools/py tools/gen_structure.py "$T"   # flat game source inventory + coverage ledgers
 $GH -postScript ApplyNames.java "$PWD/maps/$T/names.tsv" C "$PWD/work/$T/heroes4_$T.gzf" \
   > "work/$T/ghidra-apply.log" 2>&1
 grep -h 'applied\|packed' "work/$T/ghidra-apply.log"

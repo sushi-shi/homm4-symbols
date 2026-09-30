@@ -4,6 +4,7 @@
   "sha256": "e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f",
   "version": "Traditional Chinese 1.x retail, PE linked 2003-01-07",
   "image_base": "0x400000",
+  "address_tag": "CHT_1",
   "funclets_rva": "46366e",
   "source": "map"
 }

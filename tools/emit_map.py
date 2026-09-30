@@ -2,7 +2,7 @@
 """Write the complete map for a target: maps/<target>/names.tsv.
 
 usage: emit_map.py <target_id>
-reads work/<target>/{align,align_novft,vftables}.tsv, dyninit_join pairs,
+reads work/<target>/{align,align_novft,vftables}.tsv, dyninit_join and rtti_join pairs,
       symbols/symbols.tsv, maps/<target>/manual.tsv (optional; wins over everything)
 
 names.tsv columns:
@@ -24,6 +24,7 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import dyninit_join  # noqa: E402
 import paths  # noqa: E402
+import rtti_join  # noqa: E402
 
 COLUMNS = ["rva", "size", "kind", "tier", "name", "demangled", "method", "evidence",
            "map_id", "map_va", "obj", "score", "via"]
@@ -75,6 +76,10 @@ def main(target):
     for v in read_tsv(paths.work(target, "vftables.tsv")):
         add(int(v["rva"], 16), f"{4 * int(v['nslots']):x}", "vftable", "A" if v["how"] == "name" else "B",
             v["map_id"], f"rtti-{v['how']}")
+
+    for r in rtti_join.join(target):
+        if r["rva"] not in rows:
+            add(r["rva"], f"{r['size']:x}", "data", r["tier"], r["map_id"], r["method"], r["evidence"])
 
     manual = paths.maps(target, "manual.tsv")
     if os.path.exists(manual):
