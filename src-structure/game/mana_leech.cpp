@@ -1,7 +1,7 @@
 // mana_leech.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 122/274 (A:66 B:6 C:0); unaccounted 152; skipped std 1.
+// Accounted 122/274 (A:67 B:6 C:0); unaccounted 152; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -454,7 +454,7 @@ t_add_3rd_handler_2<t_combat_creature&, t_combat_creature*, t_combat_action_mess
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:28743
+// confidence:A; align-band; retn,stable,vslot;vftable-certificate=301430:28743;class=t_add_3rd_handler_2<class t_combat_creature &, class t_combat_creature *, class t_combat_action_message>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4e4d44,col=50ee14,offset=8,slot=1,entry=301430; map:28743
 VA_CHT_1(0x00701430, 0x126)
 void t_add_3rd_handler_2<t_combat_creature&, t_combat_creature*, t_combat_action_message>::operator()(
     t_combat_creature& arg_0,

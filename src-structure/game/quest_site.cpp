@@ -1,7 +1,7 @@
 // quest_site.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\quest_site.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 420/800 (A:230 B:13 C:0); unaccounted 380; skipped std 7.
+// Accounted 420/800 (A:233 B:13 C:0); unaccounted 380; skipped std 7.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -1109,7 +1109,7 @@ t_object_factory<t_quest_gate>::t_object_factory<t_quest_gate>()
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:32545
+// confidence:A; align-band; retn,stable,vslot;vftable-certificate=369f20:32545;class=t_object_factory<class t_quest_gate>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4e7f14,col=512cd4,offset=0,slot=0,entry=369f20; map:32545
 VA_CHT_1(0x00769f20, 0x1b2)
 t_stationary_adventure_object* t_object_factory<t_quest_gate>::create(
     std::string const& arg_0,
@@ -1151,7 +1151,7 @@ t_object_factory<t_quest_guard>::t_object_factory<t_quest_guard>()
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:32552
+// confidence:A; align-band; retn,vslot;vftable-certificate=36a230:32552;class=t_object_factory<class t_quest_guard>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4e7f1c,col=512d1c,offset=0,slot=0,entry=36a230; map:32552
 VA_CHT_1(0x0076a230, 0x1b2)
 t_stationary_adventure_object* t_object_factory<t_quest_guard>::create(
     std::string const& arg_0,
@@ -1193,7 +1193,7 @@ t_object_factory<t_seers_hut>::t_object_factory<t_seers_hut>()
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:32559
+// confidence:A; align-band; retn,stable,vslot;vftable-certificate=36a560:32559;class=t_object_factory<class t_seers_hut>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4e7f24,col=512d64,offset=0,slot=0,entry=36a560; map:32559
 VA_CHT_1(0x0076a560, 0x1d9)
 t_stationary_adventure_object* t_object_factory<t_seers_hut>::create(
     std::string const& arg_0,

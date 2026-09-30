@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "target": "cht-1.x",
+  "inputs": {
+    "symbols": "da670fe38f1b9361fef9f811629869152c5e7b7d57f66d31b6417ae5b7157654",
+    "exe": "e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f",
+    "target": "ce5b716b6d354efcdc187944b8e7aac17c1c69206e867d7ee5aa07bddb8f8b4a",
+    "functions": "ae1a6c525fd64a4012dfd8c6a416eaf9e16f8a0e1d021a8c438c3001794758b3",
+    "classes": "f17b2a80856c7e534cb566bec217dfe0f9858e71d7dcf5b29400ac50ba0d26fb",
+    "vftables": "8d5c93e75e07072f11a10d9991cea982921630bd543449d050d14839926f9b36",
+    "reviews": "e93acb9127ff7f4e32319f34fb66639990f3e339dfd9ca1122c2cdbfb32866d5",
+    "vftable_functions.py": "32bd264225d81044d16160bd657cde6726353ee81111e2c867f376f61c4a84ed",
+    "align.py": "2c028261930df560cb9b3bdfe14af5ac6af4a24d8289a8af2acf12be89721d20",
+    "sig.py": "05d57ce3f6dcea12a9d62e813c9236d0270c070bfa26c2193d26d58bfc3152fa",
+    "rtti_join.py": "de2a02e2b6445060ebd88635a4184906c23f6b2ea925ccc90630bd7b72d9d070",
+    "release_align.py": "172236c0022f332f52dcc72452fc2625c74b468eaedb9de718d536c58b414071",
+    "match_vftables.py": "840e430e3b64897a887f41d478851672749ecf6de36103ee93795d0ffb78f3de"
+  },
+  "certificates_sha256": "1935dd624f8e76fa32ef84f4b08fe1633648a6f52970831dbeec80d215fbaaab",
+  "count": 348,
+  "excluded": {
+    "ambiguous-debug-method-signature": 955,
+    "ambiguous-retail-slot-body": 26,
+    "folded-thunk-or-deleting-body": 32,
+    "manual-veto-or-cap": 15,
+    "membership-or-cleanup-mismatch": 178,
+    "multiple-slots-share-body": 12,
+    "not-an-ordinary-virtual-method": 16894,
+    "unvalidated-class-tables": 859
+  },
+  "meaning": "Structural A evidence, not manual review or measured precision; debug virtual declarations may differ by build."
+}

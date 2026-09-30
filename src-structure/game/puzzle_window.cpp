@@ -1,7 +1,7 @@
 // puzzle_window.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\puzzle_window.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 81/135 (A:39 B:3 C:1); unaccounted 54; skipped std 26.
+// Accounted 81/135 (A:40 B:3 C:1); unaccounted 54; skipped std 26.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -85,7 +85,7 @@ t_fader::t_fader(t_puzzle_window* arg_0)
     // Body unavailable.
 }
 
-// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:32245
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=3632a0:32245;class=?%C:\work\game\puzzle_window.cpp1027829170::t_fader;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=0;checked-rtti-and-raw-slots;vft=4e7d94,col=512920,offset=0,slot=1,entry=3632a0; map:32245
 VA_CHT_1(0x007632a0, 0x5c)
 void t_fader::on_idle()
 {

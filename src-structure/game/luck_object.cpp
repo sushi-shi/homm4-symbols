@@ -1,7 +1,7 @@
 // luck_object.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\luck_object.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 101/163 (A:48 B:8 C:0); unaccounted 62; skipped std 1.
+// Accounted 101/163 (A:52 B:8 C:0); unaccounted 62; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -325,7 +325,7 @@ t_object_factory<t_adv_blattner_stone>::t_object_factory<t_adv_blattner_stone>()
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:28264
+// confidence:A; align-band; retn,stable,vslot;vftable-certificate=2edd50:28264;class=t_object_factory<class t_adv_blattner_stone>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4e3f7c,col=50dec8,offset=0,slot=0,entry=2edd50; map:28264
 VA_CHT_1(0x006edd50, 0x1ae)
 t_stationary_adventure_object* t_object_factory<t_adv_blattner_stone>::create(
     std::string const& arg_0,
@@ -367,7 +367,7 @@ t_object_factory<t_adv_idol_of_fortune>::t_object_factory<t_adv_idol_of_fortune>
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:28271
+// confidence:A; align-band; retn,stable,vslot;vftable-certificate=2edf90:28271;class=t_object_factory<class t_adv_idol_of_fortune>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4e3f84,col=50df10,offset=0,slot=0,entry=2edf90; map:28271
 VA_CHT_1(0x006edf90, 0x1ae)
 t_stationary_adventure_object* t_object_factory<t_adv_idol_of_fortune>::create(
     std::string const& arg_0,
@@ -411,7 +411,7 @@ t_bonus_factory<t_luck_object>::t_bonus_factory<t_luck_object>(int arg_0)
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:28278
+// confidence:A; align-band; retn,stable,vslot;vftable-certificate=2ed9a0:28278;class=?%C:\work\game\luck_object.cpp222414434::t_bonus_factory<class t_luck_object>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4e3f6c,col=50de38,offset=0,slot=0,entry=2ed9a0; map:28278
 VA_CHT_1(0x006ed9a0, 0x156)
 t_stationary_adventure_object* t_bonus_factory<t_luck_object>::create(
     std::string const& arg_0,
@@ -428,7 +428,7 @@ t_bonus_factory<t_morale_object>::t_bonus_factory<t_morale_object>(int arg_0)
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:28280
+// confidence:A; align-band; retn,stable,vslot;vftable-certificate=2edb00:28280;class=?%C:\work\game\luck_object.cpp222414434::t_bonus_factory<class t_morale_object>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4e3f74,col=50de80,offset=0,slot=0,entry=2edb00; map:28280
 VA_CHT_1(0x006edb00, 0x1b5)
 t_stationary_adventure_object* t_bonus_factory<t_morale_object>::create(
     std::string const& arg_0,

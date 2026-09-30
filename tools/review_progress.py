@@ -56,12 +56,17 @@ def main(target, baseline=None, count=0):
     reviews = {identity(r): r for r in read_tsv(paths.maps(target, 'reviews.tsv'))
                if r['exe_sha256'] == manifest['target_sha256']}
     roster = read_tsv(roster_path)
+    emitted = {(r['rva'], r['via'], r['map_id'], r['name']): r
+               for r in read_tsv(paths.maps(target, 'names.tsv'))}
     coverage = []
     pending = []
     for r in roster:
         review = reviews.get(identity(r))
         state = ('unreviewed-D' if paths.target_meta(target).get('unreviewed_function_tier') == 'D'
                  else 'pending')
+        current = emitted.get(identity(r))
+        if current and current['tier'] == 'A' and 'vftable-certificate=' in current['evidence']:
+            state = 'structural-A'
         if review:
             sv, cv = review['source_name_verdict'], review['correspondence_verdict']
             if 'contradicted' in (sv, cv):

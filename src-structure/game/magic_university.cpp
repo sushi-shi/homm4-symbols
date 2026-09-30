@@ -1,7 +1,7 @@
 // magic_university.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\magic_university.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 86/120 (A:24 B:6 C:0); unaccounted 34; skipped std 8.
+// Accounted 86/120 (A:26 B:6 C:0); unaccounted 34; skipped std 8.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -255,7 +255,7 @@ t_object_factory<t_magic_university>::t_object_factory<t_magic_university>()
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:28489
+// confidence:A; align-band; retn,stable,vslot;vftable-certificate=2f6550:28489;class=t_object_factory<class t_magic_university>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4e484c,col=50e664,offset=0,slot=0,entry=2f6550; map:28489
 VA_CHT_1(0x006f6550, 0x14d)
 t_stationary_adventure_object* t_object_factory<t_magic_university>::create(
     std::string const& arg_0,
@@ -272,7 +272,7 @@ t_object_factory<t_war_college>::t_object_factory<t_war_college>()
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:28491
+// confidence:A; align-band; retn,stable,vslot;vftable-certificate=2f66a0:28491;class=t_object_factory<class t_war_college>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4e4854,col=50e6ac,offset=0,slot=0,entry=2f66a0; map:28491
 VA_CHT_1(0x006f66a0, 0x14d)
 t_stationary_adventure_object* t_object_factory<t_war_college>::create(
     std::string const& arg_0,

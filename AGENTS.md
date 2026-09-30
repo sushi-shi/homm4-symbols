@@ -89,7 +89,7 @@ Planned: typed `this`-calls (an ECX=`this` call inside `C::m` must reach a metho
 - Propagate vftable slot names down the hierarchy to unmatched overrides.
 - GOG 3.0 needs the user's exe. Confirm community-version facts first (web search needs permission).
 - Complete DVD English `complete-3.0`: 9,808 RTTI descriptors + 1,354 primary vftables (A),
-  and 4,823 functions (B 53 / C 106 / D 4,664) from CHT retail assembly comparison after review closure. The local
+  and 4,823 functions (A 116 / B 30 / C 106 / D 4,571) after review closure and vftable recovery. The local
   exe and archive.org provenance are recorded in `target.json`; GOG equivalence is unverified.
   `source: cht-1.x` selects the release branch of `pipeline.sh`; `align.py --source cht-1.x`
   uses normalized assembly and the shared C core, not CHT static-init ordinal pairing.
@@ -104,9 +104,15 @@ Planned: typed `this`-calls (an ECX=`this` call inside `C::m` must reach a metho
   each verdict from inspected assembly. F00001–F00222 are inspected (F00049/F00169 via R10/R16),
   plus caller follow-up F03368; coverage is 101 supported / 92 rejected / 58 unresolved /
   4,664 unreviewed-D. Both targets set `unreviewed_function_tier: D`; functions without an
-  exact recorded review are D (unreviewed proposals, not best guesses), even if their original
+  exact recorded review or checked vftable function certificate are D (unreviewed proposals, not best guesses), even if their original
   evidence tier was A/B. Keep review vetoes and C caps; preserve structural data/vftable tiers.
   `review-closure.json` records the decision. Do not resume exhaustive review unless requested.
   Default IDA/Ghidra exports include D with explicit comments; C excludes D.
   F00066 confirms a real slot shift 18→19
   for stamp_object; compare its body, not just the vtable index.
+- Vftable recovery is enabled for both targets: `vftable_functions.py` validates runtime RTTI,
+  class/hierarchy method uniqueness and slot cleanup, or uses an already supported manual identity.
+  Complete also requires a source A certificate and stable assembly correspondence. These are
+  structural certificates, not manual verdicts; cleanup agreement after selection is not independent.
+  Keep manual vetoes/C caps. CHT gains 314 A functions; Complete gains 93 from D and 23 from B.
+  Details and limitations are in `tools/README.md`; do not bulk-promote old `vslot` proposals.

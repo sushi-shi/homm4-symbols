@@ -1,7 +1,7 @@
 // flotsam.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 25/37 (A:12 B:2 C:0); unaccounted 12; skipped std 1.
+// Accounted 25/37 (A:13 B:2 C:0); unaccounted 12; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -95,7 +95,7 @@ t_object_factory<t_flotsam>::t_object_factory<t_flotsam>()
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:26314
+// confidence:A; align-band; retn,stable,vslot;vftable-certificate=2ae780:26314;class=t_object_factory<class t_flotsam>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4e182c,col=50c224,offset=0,slot=0,entry=2ae780; map:26314
 VA_CHT_1(0x006ae780, 0x14a)
 t_stationary_adventure_object* t_object_factory<t_flotsam>::create(
     std::string const& arg_0,

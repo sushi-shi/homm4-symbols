@@ -1,7 +1,7 @@
 // combat_reader.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 75/127 (A:44 B:1 C:0); unaccounted 52; skipped std 43.
+// Accounted 75/127 (A:50 B:1 C:0); unaccounted 52; skipped std 43.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -272,7 +272,7 @@ t_combat_object_factory<t_castle_gate>::t_combat_object_factory<t_castle_gate>()
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:21582
+// confidence:A; align-band; retn,stable,vslot;vftable-certificate=1de070:21582;class=t_combat_object_factory<class t_castle_gate>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=4;checked-rtti-and-raw-slots;vft=4dc99c,col=50483c,offset=0,slot=0,entry=1de070; map:21582
 VA_CHT_1(0x005de070, 0x6c)
 t_combat_saveable_object* t_combat_object_factory<t_castle_gate>::create(t_battlefield& arg_0) const
 {
@@ -286,7 +286,7 @@ t_combat_object_factory<t_combat_creature>::t_combat_object_factory<t_combat_cre
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:21584
+// confidence:A; align-band; retn,stable,vslot;vftable-certificate=1de0e0:21584;class=t_combat_object_factory<class t_combat_creature>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=4;checked-rtti-and-raw-slots;vft=4dc9a4,col=504884,offset=0,slot=0,entry=1de0e0; map:21584
 VA_CHT_1(0x005de0e0, 0x65)
 t_combat_saveable_object* t_combat_object_factory<t_combat_creature>::create(t_battlefield& arg_0) const
 {
@@ -300,7 +300,7 @@ t_combat_object_factory<t_combat_label>::t_combat_object_factory<t_combat_label>
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:21586
+// confidence:A; align-band; retn,stable,vslot;vftable-certificate=1de150:21586;class=t_combat_object_factory<class t_combat_label>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=4;checked-rtti-and-raw-slots;vft=4dc9ac,col=5048cc,offset=0,slot=0,entry=1de150; map:21586
 VA_CHT_1(0x005de150, 0x63)
 t_combat_saveable_object* t_combat_object_factory<t_combat_label>::create(t_battlefield& arg_0) const
 {
@@ -314,7 +314,7 @@ t_combat_object_factory<t_compound_object>::t_combat_object_factory<t_compound_o
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:21588
+// confidence:A; align-band; retn,stable,vslot;vftable-certificate=1de1c0:21588;class=t_combat_object_factory<class t_compound_object>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=4;checked-rtti-and-raw-slots;vft=4dc9b4,col=504914,offset=0,slot=0,entry=1de1c0; map:21588
 VA_CHT_1(0x005de1c0, 0x60)
 t_combat_saveable_object* t_combat_object_factory<t_compound_object>::create(t_battlefield& arg_0) const
 {
@@ -328,7 +328,7 @@ t_combat_object_factory<t_quicksand>::t_combat_object_factory<t_quicksand>()
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:21590
+// confidence:A; align-band; retn,stable,vslot;vftable-certificate=1de220:21590;class=t_combat_object_factory<class t_quicksand>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=4;checked-rtti-and-raw-slots;vft=4dc9bc,col=50495c,offset=0,slot=0,entry=1de220; map:21590
 VA_CHT_1(0x005de220, 0x63)
 t_combat_saveable_object* t_combat_object_factory<t_quicksand>::create(t_battlefield& arg_0) const
 {
@@ -342,7 +342,7 @@ t_combat_object_factory<t_stationary_combat_object>::t_combat_object_factory<t_s
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:21592
+// confidence:A; align-band; retn,vslot;vftable-certificate=1de290:21592;class=t_combat_object_factory<class t_stationary_combat_object>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=4;checked-rtti-and-raw-slots;vft=4dc9c4,col=5049a4,offset=0,slot=0,entry=1de290; map:21592
 VA_CHT_1(0x005de290, 0xe5)
 t_combat_saveable_object* t_combat_object_factory<t_stationary_combat_object>::create(
     t_battlefield& arg_0

@@ -1,7 +1,7 @@
 // mini_map_renderer.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\mini_map_renderer.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 80/182 (A:32 B:0 C:0); unaccounted 102; skipped std 115.
+// Accounted 80/182 (A:34 B:0 C:0); unaccounted 102; skipped std 115.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -164,7 +164,7 @@ void t_terrain_color_table_maintainer::build_color_table()
     // Body unavailable.
 }
 
-// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:30081
+// confidence:A; align-order; retn,vslot;vftable-certificate=326410:30081;class=?%C:\work\game\mini_map_renderer.cpp1970229622::t_terrain_color_table_maintainer;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=0;checked-rtti-and-raw-slots;vft=4e60d0,col=51047c,offset=0,slot=1,entry=326410; map:30081
 VA_CHT_1(0x00726410, 0xaf)
 void t_terrain_color_table_maintainer::on_pixel_masks_changed()
 {
@@ -199,7 +199,7 @@ void t_player_color_table_maintainer::build_color_table()
     // Body unavailable.
 }
 
-// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:30085
+// confidence:A; align-order; retn,vslot;vftable-certificate=326670:30085;class=?%C:\work\game\mini_map_renderer.cpp1970229622::t_player_color_table_maintainer;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=0;checked-rtti-and-raw-slots;vft=4e60dc,col=5104c4,offset=0,slot=1,entry=326670; map:30085
 VA_CHT_1(0x00726670, 0x153)
 void t_player_color_table_maintainer::on_pixel_masks_changed()
 {

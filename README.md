@@ -7,14 +7,14 @@ leaked debug-build linker map (Oct 2002). Applies to IDA or Ghidra. Not a decomp
 
 **Traditional Chinese 1.x** (`cht-1.x`)
 - `heroes4.exe` sha256: `e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f`
-- 19,319 functions (A 57 · B 32 · C 71 · D 19,159)
+- 19,319 functions (A 371 · B 32 · C 71 · D 18,845)
 - 2,605 vftables (A 1,821 · B 784)
 - 266 globals (B 176 · C 90)
 - 9,976 RTTI descriptors (A), identified by type names and validated pointer chains
 
 **Complete DVD, English 3.0WoW** (`complete-3.0`)
 - `heroes4.exe` sha256: `2eb82f32ab744ad7c272e32a950adcef3f20d8ab27572023f1084fd6519f61f2`
-- 4,823 functions (B 53 · C 106 · D 4,664), transferred by CHT ↔ Complete assembly comparison
+- 4,823 functions (A 116 · B 30 · C 106 · D 4,571), transferred by CHT ↔ Complete assembly comparison
 - 9,808 RTTI descriptors and 1,354 primary vftables (A)
 - [Executable provenance](maps/complete-3.0/target.json); GOG equivalence is unverified
 

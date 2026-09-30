@@ -1,7 +1,7 @@
 // placed_event_trigger.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\placed_event_trigger.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 62/115 (A:30 B:8 C:0); unaccounted 53; skipped std 1.
+// Accounted 62/115 (A:32 B:8 C:0); unaccounted 53; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -202,7 +202,7 @@ t_object_factory<t_placed_event_trigger>::t_object_factory<t_placed_event_trigge
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:31781
+// confidence:A; align-band; retn,stable,vslot;vftable-certificate=359360:31781;class=t_object_factory<class t_placed_event_trigger>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4e74cc,col=51214c,offset=0,slot=0,entry=359360; map:31781
 VA_CHT_1(0x00759360, 0x180)
 t_stationary_adventure_object* t_object_factory<t_placed_event_trigger>::create(
     std::string const& arg_0,
@@ -269,7 +269,7 @@ t_object_factory<t_adv_object_pandoras_box>::t_object_factory<t_adv_object_pando
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:31793
+// confidence:A; align-band; retn,stable,vslot;vftable-certificate=359660:31793;class=t_object_factory<class t_adv_object_pandoras_box>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4e74d4,col=512194,offset=0,slot=0,entry=359660; map:31793
 VA_CHT_1(0x00759660, 0x180)
 t_stationary_adventure_object* t_object_factory<t_adv_object_pandoras_box>::create(
     std::string const& arg_0,

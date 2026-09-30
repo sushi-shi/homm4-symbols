@@ -1,7 +1,7 @@
 // town.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\town.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 343/498 (A:59 B:10 C:1); unaccounted 155; skipped std 182.
+// Accounted 343/498 (A:70 B:10 C:1); unaccounted 155; skipped std 182.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -213,7 +213,7 @@ bool t_requires_nothing::enabled(t_town const* arg_0) const
     // Body unavailable.
 }
 
-// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:38932
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=3fd5c0:38932;class=?%C:\work\game\town.cpp133794036::t_requires_nothing;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=16;checked-rtti-and-raw-slots;vft=4ee914,col=51d2cc,offset=0,slot=5,entry=3fd5c0; map:38932
 VA_CHT_1(0x007fd5c0, 0xc8)
 std::string t_requires_nothing::get_text(t_town const* arg_0, bool& arg_1, t_town_building arg_2) const
 {
@@ -227,7 +227,7 @@ bool t_requires_nothing::test(t_town const* arg_0) const
     // Body unavailable.
 }
 
-// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:38934
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=3fd690:38934;class=?%C:\work\game\town.cpp133794036::t_requires_nothing;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4ee914,col=51d2cc,offset=0,slot=2,entry=3fd690; map:38934
 VA_CHT_1(0x007fd690, 0x1e)
 t_counted_ptr<t_requires> t_requires_nothing::and(t_requires* arg_0)
 {
@@ -255,14 +255,14 @@ bool t_requires_building::enabled(t_town const* arg_0) const
     // Body unavailable.
 }
 
-// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:38938
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=3fd7a0:38938;class=?%C:\work\game\town.cpp133794036::t_requires_building;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=12;checked-rtti-and-raw-slots;vft=4ee8f4,col=51d280,offset=0,slot=1,entry=3fd7a0; map:38938
 VA_CHT_1(0x007fd7a0, 0x107)
 void t_requires_building::ai_distribute_value(t_town const* arg_0, float arg_1, float* arg_2)
 {
     // Body unavailable.
 }
 
-// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:38939
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=3fd8b0:38939;class=?%C:\work\game\town.cpp133794036::t_requires_building;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=16;checked-rtti-and-raw-slots;vft=4ee8f4,col=51d280,offset=0,slot=5,entry=3fd8b0; map:38939
 VA_CHT_1(0x007fd8b0, 0x151)
 std::string t_requires_building::get_text(t_town const* arg_0, bool& arg_1, t_town_building arg_2) const
 {
@@ -306,7 +306,7 @@ VA_CHT_1_COMPGEN(0x007fdcd0, 0xa, STATIC_DTOR, "town#11")
 
 namespace {
 
-// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:38943
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=3fdce0:38943;class=?%C:\work\game\town.cpp133794036::t_or;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=16;checked-rtti-and-raw-slots;vft=4ee954,col=51d348,offset=0,slot=5,entry=3fdce0; map:38943
 VA_CHT_1(0x007fdce0, 0x249)
 std::string t_or::get_text(t_town const* arg_0, bool& arg_1, t_town_building arg_2) const
 {
@@ -327,7 +327,7 @@ bool t_or::test(t_town const* arg_0) const
     // Body unavailable.
 }
 
-// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:38946
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=3fdfb0:38946;class=?%C:\work\game\town.cpp133794036::t_or;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=12;checked-rtti-and-raw-slots;vft=4ee954,col=51d348,offset=0,slot=1,entry=3fdfb0; map:38946
 VA_CHT_1(0x007fdfb0, 0x2f)
 void t_or::ai_distribute_value(t_town const* arg_0, float arg_1, float* arg_2)
 {
@@ -341,21 +341,21 @@ t_counted_ptr<t_requires> t_and::clone() const
     // Body unavailable.
 }
 
-// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:38948
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=3fe0c0:38948;class=?%C:\work\game\town.cpp133794036::t_and;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4ee994,col=51d3e0,offset=0,slot=2,entry=3fe0c0; map:38948
 VA_CHT_1(0x007fe0c0, 0xfb)
 t_counted_ptr<t_requires> t_and::and(t_requires* arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:38949
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=3fe1c0:38949;class=?%C:\work\game\town.cpp133794036::t_and;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=12;checked-rtti-and-raw-slots;vft=4ee994,col=51d3e0,offset=0,slot=1,entry=3fe1c0; map:38949
 VA_CHT_1(0x007fe1c0, 0x3e)
 void t_and::ai_distribute_value(t_town const* arg_0, float arg_1, float* arg_2)
 {
     // Body unavailable.
 }
 
-// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:38950
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=3fe200:38950;class=?%C:\work\game\town.cpp133794036::t_and;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=16;checked-rtti-and-raw-slots;vft=4ee994,col=51d3e0,offset=0,slot=5,entry=3fe200; map:38950
 VA_CHT_1(0x007fe200, 0x240)
 std::string t_and::get_text(t_town const* arg_0, bool& arg_1, t_town_building arg_2) const
 {
@@ -1976,7 +1976,7 @@ t_object_factory_with_type<t_town>::t_object_factory_with_type<t_town>()
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:39287
+// confidence:A; align-band; retn,vslot;vftable-certificate=40cc10:39287;class=t_object_factory_with_type<class t_town>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4ee8e4,col=51d1d4,offset=0,slot=0,entry=40cc10; map:39287
 VA_CHT_1(0x0080cc10, 0x6a)
 t_stationary_adventure_object* t_object_factory_with_type<t_town>::create(
     std::string const& arg_0,
@@ -1993,7 +1993,7 @@ t_object_factory<t_outpost>::t_object_factory<t_outpost>()
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:39289
+// confidence:A; align-band; retn,stable,vslot;vftable-certificate=40cc80:39289;class=t_object_factory<class t_outpost>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4ee8ec,col=51d21c,offset=0,slot=0,entry=40cc80; map:39289
 VA_CHT_1(0x0080cc80, 0x18a)
 t_stationary_adventure_object* t_object_factory<t_outpost>::create(
     std::string const& arg_0,

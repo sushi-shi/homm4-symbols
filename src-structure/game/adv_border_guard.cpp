@@ -1,7 +1,7 @@
 // adv_border_guard.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 25/57 (A:12 B:2 C:0); unaccounted 32; skipped std 33.
+// Accounted 25/57 (A:13 B:2 C:0); unaccounted 32; skipped std 33.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -179,7 +179,7 @@ t_object_factory_with_type<t_adv_border_guard>::t_object_factory_with_type<t_adv
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:4227
+// confidence:A; align-band; retn,stable,vslot;vftable-certificate=35cf0:4227;class=t_object_factory_with_type<class t_adv_border_guard>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4ce668,col=4f6c30,offset=0,slot=0,entry=35cf0; map:4227
 VA_CHT_1(0x00435cf0, 0x67)
 t_stationary_adventure_object* t_object_factory_with_type<t_adv_border_guard>::create(
     std::string const& arg_0,

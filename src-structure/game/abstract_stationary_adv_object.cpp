@@ -163,14 +163,14 @@ void t_abstract_stationary_adv_object::accept(t_abstract_adv_object_visitor& arg
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:1615
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=112b0:1615;class=t_abstract_stationary_adv_object;proof=reviewed-identity-and-runtime-vftable;cleanup=0;checked-rtti-and-raw-slots;vft=4cb90c,col=4f43a0,offset=c,slot=3,entry=12510;manual-review=complete-F00149; map:1615
 VA_CHT_1(0x004112b0, 0x36)
 bool t_abstract_stationary_adv_object::animates() const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:1616
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=112f0:1616;class=t_abstract_stationary_adv_object;proof=reviewed-identity-and-runtime-vftable;cleanup=16;checked-rtti-and-raw-slots;vft=4cb90c,col=4f43a0,offset=c,slot=7,entry=12530;manual-review=complete-F00150; map:1616
 VA_CHT_1(0x004112f0, 0x5c)
 void t_abstract_stationary_adv_object::draw_shadow_to(
     unsigned long arg_0,
@@ -182,7 +182,7 @@ void t_abstract_stationary_adv_object::draw_shadow_to(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:1617
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=11350:1617;class=t_abstract_stationary_adv_object;proof=reviewed-identity-and-runtime-vftable;cleanup=12;checked-rtti-and-raw-slots;vft=4cb90c,col=4f43a0,offset=c,slot=6,entry=12520;manual-review=complete-F00151; map:1617
 VA_CHT_1(0x00411350, 0x57)
 void t_abstract_stationary_adv_object::draw_shadow_to(
     unsigned long arg_0,
@@ -193,7 +193,7 @@ void t_abstract_stationary_adv_object::draw_shadow_to(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:1618
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=113b0:1618;class=t_abstract_stationary_adv_object;proof=reviewed-identity-and-runtime-vftable;cleanup=24;checked-rtti-and-raw-slots;vft=4cb90c,col=4f43a0,offset=c,slot=9,entry=12550;manual-review=complete-F00152; map:1618
 VA_CHT_1(0x004113b0, 0x87)
 void t_abstract_stationary_adv_object::draw_subimage_to(
     int arg_0,
@@ -207,7 +207,7 @@ void t_abstract_stationary_adv_object::draw_subimage_to(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:1619
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=11440:1619;class=t_abstract_stationary_adv_object;proof=reviewed-identity-and-runtime-vftable;cleanup=16;checked-rtti-and-raw-slots;vft=4cb90c,col=4f43a0,offset=c,slot=8,entry=12540;manual-review=complete-F00153; map:1619
 VA_CHT_1(0x00411440, 0x80)
 void t_abstract_stationary_adv_object::draw_subimage_to(
     int arg_0,
@@ -287,7 +287,7 @@ std::string t_abstract_stationary_adv_object::get_model_name() const
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:1625
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=11900:1625;class=t_abstract_stationary_adv_object;proof=reviewed-identity-and-runtime-vftable;cleanup=4;checked-rtti-and-raw-slots;vft=4cb90c,col=4f43a0,offset=c,slot=15,entry=125a0;manual-review=complete-F00156; map:1625
 VA_CHT_1(0x00411900, 0x91)
 t_screen_rect t_abstract_stationary_adv_object::get_rect() const
 {
@@ -301,21 +301,21 @@ t_screen_rect t_abstract_stationary_adv_object::get_rect(unsigned long arg_0) co
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:1627
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=11a80:1627;class=t_abstract_stationary_adv_object;proof=reviewed-identity-and-runtime-vftable;cleanup=4;checked-rtti-and-raw-slots;vft=4cb90c,col=4f43a0,offset=c,slot=17,entry=125c0;manual-review=complete-F00157; map:1627
 VA_CHT_1(0x00411a80, 0x1d)
 t_screen_rect t_abstract_stationary_adv_object::get_shadow_rect() const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:1628
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=11aa0:1628;class=t_abstract_stationary_adv_object;proof=reviewed-identity-and-runtime-vftable;cleanup=8;checked-rtti-and-raw-slots;vft=4cb90c,col=4f43a0,offset=c,slot=16,entry=125b0;manual-review=complete-F00158; map:1628
 VA_CHT_1(0x00411aa0, 0x54)
 t_screen_rect t_abstract_stationary_adv_object::get_shadow_rect(unsigned long arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:1629
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=11b00:1629;class=t_abstract_stationary_adv_object;proof=reviewed-identity-and-runtime-vftable;cleanup=0;checked-rtti-and-raw-slots;vft=4cb90c,col=4f43a0,offset=c,slot=18,entry=125d0;manual-review=complete-F00159; map:1629
 VA_CHT_1(0x00411b00, 0x18)
 int t_abstract_stationary_adv_object::get_subimage_count() const
 {
@@ -329,21 +329,21 @@ int t_abstract_stationary_adv_object::get_subimage_depth_offset(int arg_0) const
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:1631
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=11b60:1631;class=t_abstract_stationary_adv_object;proof=reviewed-identity-and-runtime-vftable;cleanup=8;checked-rtti-and-raw-slots;vft=4cb90c,col=4f43a0,offset=c,slot=21,entry=12600;manual-review=complete-F00161; map:1631
 VA_CHT_1(0x00411b60, 0x4a)
 t_screen_rect t_abstract_stationary_adv_object::get_subimage_rect(int arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:1632
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=11bb0:1632;class=t_abstract_stationary_adv_object;proof=reviewed-identity-and-runtime-vftable;cleanup=12;checked-rtti-and-raw-slots;vft=4cb90c,col=4f43a0,offset=c,slot=20,entry=125f0;manual-review=complete-F00162; map:1632
 VA_CHT_1(0x00411bb0, 0x7d)
 t_screen_rect t_abstract_stationary_adv_object::get_subimage_rect(int arg_0, unsigned long arg_1) const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:1633
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=11c30:1633;class=t_abstract_stationary_adv_object;proof=reviewed-identity-and-runtime-vftable;cleanup=8;checked-rtti-and-raw-slots;vft=4cb90c,col=4f43a0,offset=c,slot=22,entry=12610;manual-review=complete-F00163; map:1633
 VA_CHT_1(0x00411c30, 0x8c)
 bool t_abstract_stationary_adv_object::hit_test(unsigned long arg_0, t_screen_point const& arg_1) const
 {
@@ -357,7 +357,7 @@ bool t_abstract_stationary_adv_object::is_decorative() const
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:1635
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=11cd0:1635;class=t_abstract_stationary_adv_object;proof=reviewed-identity-and-runtime-vftable;cleanup=8;checked-rtti-and-raw-slots;vft=4cb90c,col=4f43a0,offset=c,slot=25,entry=12630;manual-review=complete-F00165; map:1635
 VA_CHT_1(0x00411cd0, 0x74)
 bool t_abstract_stationary_adv_object::needs_redrawing(unsigned long arg_0, unsigned long arg_1) const
 {
@@ -378,21 +378,21 @@ void t_abstract_stationary_adv_object::set_model(t_resource_cache<t_adv_object_m
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:1638
+// confidence:A; align-order; retn,vslot;vftable-certificate=11e40:1638;class=t_abstract_stationary_adv_object;proof=reviewed-identity-and-runtime-vftable;cleanup=4;checked-rtti-and-raw-slots;vft=4cb90c,col=4f43a0,offset=c,slot=26,entry=12640;manual-review=complete-F00166; map:1638
 VA_CHT_1(0x00411e40, 0x3f)
 bool t_abstract_stationary_adv_object::subimage_animates(int arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:1639
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=11e80:1639;class=t_abstract_stationary_adv_object;proof=reviewed-identity-and-runtime-vftable;cleanup=4;checked-rtti-and-raw-slots;vft=4cb90c,col=4f43a0,offset=c,slot=27,entry=12650;manual-review=complete-F00167; map:1639
 VA_CHT_1(0x00411e80, 0x33)
 bool t_abstract_stationary_adv_object::subimage_is_underlay(int arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:1640
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=11ec0:1640;class=t_abstract_stationary_adv_object;proof=reviewed-identity-and-runtime-vftable;cleanup=12;checked-rtti-and-raw-slots;vft=4cb90c,col=4f43a0,offset=c,slot=28,entry=12660;manual-review=complete-F00168; map:1640
 VA_CHT_1(0x00411ec0, 0xa9)
 bool t_abstract_stationary_adv_object::subimage_needs_redrawing(
     int arg_0,

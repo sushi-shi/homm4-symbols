@@ -1,7 +1,7 @@
 // battlefield_terrain_map.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\battlefield_terrain_map.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 77/149 (A:30 B:0 C:0); unaccounted 72; skipped std 56.
+// Accounted 77/149 (A:33 B:0 C:0); unaccounted 72; skipped std 56.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -53,14 +53,14 @@ t_battlefield_terrain_map::t_impl::t_impl()
     // Body unavailable.
 }
 
-// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:17602
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=1688c0:17602;class=t_battlefield_terrain_map::t_impl;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4d74cc,col=5012b0,offset=0,slot=0,entry=1688c0; map:17602
 VA_CHT_1(0x005688c0, 0x16)
 void t_battlefield_terrain_map::t_impl::get_size(int& arg_0, int& arg_1) const
 {
     // Body unavailable.
 }
 
-// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:17603
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=1688e0:17603;class=t_battlefield_terrain_map::t_impl;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=12;checked-rtti-and-raw-slots;vft=4d74cc,col=5012b0,offset=0,slot=1,entry=1688e0; map:17603
 VA_CHT_1(0x005688e0, 0x2f)
 void t_battlefield_terrain_map::t_impl::get_row_bounds(int arg_0, int& arg_1, int& arg_2) const
 {
@@ -714,7 +714,7 @@ int t_battlefield_terrain_map::t_impl::get_row_start(int arg_0) const
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:17723
+// confidence:A; align-band; retn,stable,vslot;vftable-certificate=169600:17723;class=transition_calculator_details::t_terrain_map_adapter<class t_battlefield_terrain_map::t_impl>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=0;checked-rtti-and-raw-slots;vft=4d74ec,col=501384,offset=0,slot=2,entry=169600; map:17723
 VA_CHT_1(0x00569600, 0x7)
 int transition_calculator_details::t_terrain_map_adapter<t_battlefield_terrain_map::t_impl>::get_size() const
 {

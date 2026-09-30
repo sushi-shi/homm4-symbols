@@ -1,7 +1,7 @@
 // magic_mirror.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 30/43 (A:12 B:2 C:0); unaccounted 13; skipped std 1.
+// Accounted 30/43 (A:13 B:2 C:0); unaccounted 13; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -57,7 +57,7 @@ t_mirror_spell_action::t_mirror_spell_action(
     // Body unavailable.
 }
 
-// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:28442
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=2f4670:28442;class=t_mirror_spell_action;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=0;checked-rtti-and-raw-slots;vft=4e481c,col=50e5b8,offset=8,slot=1,entry=2f4670; map:28442
 VA_CHT_1(0x006f4670, 0x1fe)
 void t_mirror_spell_action::operator()()
 {

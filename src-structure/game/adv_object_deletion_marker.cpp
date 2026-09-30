@@ -1,7 +1,7 @@
 // adv_object_deletion_marker.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\adv_object_deletion_marker.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 24/42 (A:12 B:3 C:0); unaccounted 18; skipped std 1.
+// Accounted 24/42 (A:13 B:3 C:0); unaccounted 18; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -80,7 +80,7 @@ t_object_factory<t_adv_object_deletion_marker>::t_object_factory<t_adv_object_de
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:4979
+// confidence:A; align-band; retn,vslot;vftable-certificate=44040:4979;class=t_object_factory<class t_adv_object_deletion_marker>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4d0c8c,col=4f8050,offset=0,slot=0,entry=44040; map:4979
 VA_CHT_1(0x00444040, 0x141)
 t_stationary_adventure_object* t_object_factory<t_adv_object_deletion_marker>::create(
     std::string const& arg_0,

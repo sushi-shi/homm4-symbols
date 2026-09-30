@@ -217,7 +217,7 @@ def heldout_retn(target):
     rows = [r for r in read_tsv(paths.work(target, "align_noretn.tsv"))
             if r["pass"] == "order" and r["exp_retn"] not in ("", "0") and int(r["retn"]) >= 0]
     out = []
-    for label in ("all", "A", "B", "C"):
+    for label in ("all", "A", "B", "C", "D"):
         sel = [r for r in rows if label == "all" or tier.get(r["map_id"]) == label]
         if not sel:
             continue
@@ -255,9 +255,9 @@ def main(target, verbose=False):
     print(f"    all: {tot_ok}/{tot} ({100 * tot_ok / max(tot, 1):.1f}%)")
     sc = collections.Counter(shared.values())
     print(f"call graph, file-local names on functions called from 3+ objs (folded or wrong): {len(shared)} "
-          f"(" + ", ".join(f"{t} {sc[t]}" for t in "ABC" if sc[t]) + ")")
+          f"(" + ", ".join(f"{t} {sc[t]}" for t in "ABCD" if sc[t]) + ")")
     print("call graph, deleting dtor callees, by tier of the deleting dtor:")
-    for t in "ABC":
+    for t in "ABCD":
         row = {v: n for (tt, v), n in req.items() if tt == t}
         if row:
             print(f"    {t}: " + ", ".join(f"{v} {n}" for v, n in sorted(row.items(), key=lambda kv: -kv[1])))
@@ -269,8 +269,12 @@ def main(target, verbose=False):
         f"{m} {k} {n}" for (m, k), n in sorted(lo.items()) if k != "in band") + " (align earlier TU = allowed)")
     if os.path.exists(paths.work(target, "align_noretn.tsv")):
         print("held-out ret N (aligner without ret N; non-zero expected ret N), by final tier:")
+        selected = paths.target_meta(target).get('vftable_function_recovery')
+        if selected:
+            print("    Final A selection uses ret N: these tier-conditioned rates are not independent precision estimates.")
         for label, n, agree, chance, prec in heldout_retn(target):
-            print(f"    {label:3} n={n:5}  agree {agree:.1%}  chance {chance:.1%}  -> est. precision {prec:.1%}")
+            estimate = '' if selected else f'  -> est. precision {prec:.1%}'
+            print(f"    {label:3} n={n:5}  agree {agree:.1%}  chance {chance:.1%}{estimate}")
     print(f"stability: {nf} vs {nn} pairs, {nc} common, same rva {same} ({100 * same / max(nc, 1):.1f}%): "
           + ", ".join(f"{c} {same_cat[c]}/{by_cat[c]}" for c in by_cat))
 

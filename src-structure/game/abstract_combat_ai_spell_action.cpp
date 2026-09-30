@@ -1,7 +1,7 @@
 // abstract_combat_ai_spell_action.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 10/37 (A:0 B:0 C:0); unaccounted 27; skipped std 10.
+// Accounted 10/37 (A:1 B:0 C:0); unaccounted 27; skipped std 10.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -46,7 +46,7 @@ VA_CHT_1_COMPGEN(0x0040b410, 0x15, STATIC_INIT_DISPATCH, "abstract_combat_ai_spe
 // name:C; dyninit; see ledger; map:71434
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "abstract_combat_ai_spell_action#6")
 
-// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:1161
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=b430:1161;class=t_combat_ai_spell_action;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=0;checked-rtti-and-raw-slots;vft=4e1578,col=50bb70,offset=0,slot=1,entry=b430; map:1161
 VA_CHT_1(0x0040b430, 0x91)
 void t_combat_ai_spell_action::perform_action()
 {

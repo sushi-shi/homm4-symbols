@@ -1,7 +1,7 @@
 // war_institute.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\war_institute.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 36/60 (A:11 B:3 C:0); unaccounted 24; skipped std 4.
+// Accounted 36/60 (A:12 B:3 C:0); unaccounted 24; skipped std 4.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -114,7 +114,7 @@ int t_war_institute::get_version() const
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:40519
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=433c40:40519;class=t_war_institute;proof=reviewed-identity-and-runtime-vftable;cleanup=12;checked-rtti-and-raw-slots;vft=4f0a2c,col=51e3a0,offset=0,slot=41,entry=433c40;manual-review=complete-R26; map:40519
 VA_CHT_1(0x00833c40, 0x8d)
 bool t_war_institute::read(
     std::basic_streambuf<char, std::char_traits<char>>& arg_0,
@@ -246,7 +246,7 @@ t_object_factory<t_war_institute>::t_object_factory<t_war_institute>()
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:40537
+// confidence:A; align-band; retn,stable,vslot;vftable-certificate=433e80:40537;class=t_object_factory<class t_war_institute>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4f095c,col=51e38c,offset=0,slot=0,entry=433e80; map:40537
 VA_CHT_1(0x00833e80, 0x62)
 t_stationary_adventure_object* t_object_factory<t_war_institute>::create(
     std::string const& arg_0,

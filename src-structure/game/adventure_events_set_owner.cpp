@@ -1,7 +1,7 @@
 // adventure_events_set_owner.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 18/27 (A:6 B:1 C:0); unaccounted 9; skipped std 1.
+// Accounted 18/27 (A:7 B:1 C:0); unaccounted 9; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -65,7 +65,7 @@ bool t_adventure_event_set_owner::read(std::basic_streambuf<char, std::char_trai
     // Body unavailable.
 }
 
-// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:8385
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=93ab0:8385;class=t_adventure_event_set_owner;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=4;checked-rtti-and-raw-slots;vft=4d39dc,col=4fa794,offset=0,slot=6,entry=93ab0; map:8385
 VA_CHT_1(0x00493ab0, 0x99)
 bool t_adventure_event_set_owner::write(std::basic_streambuf<char, std::char_traits<char>>& arg_0)
 {

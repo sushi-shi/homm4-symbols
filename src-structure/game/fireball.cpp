@@ -1,7 +1,7 @@
 // fireball.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\fireball.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 238/384 (A:136 B:7 C:0); unaccounted 146; skipped std 38.
+// Accounted 238/384 (A:142 B:7 C:0); unaccounted 146; skipped std 38.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -964,7 +964,7 @@ t_spell_factory<t_fireball>::t_spell_factory<t_fireball>()
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:26233
+// confidence:A; align-band; retn,stable,vslot;vftable-certificate=2ad530:26233;class=t_spell_factory<class t_fireball>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4e154c,col=50ba84,offset=0,slot=0,entry=2ad530; map:26233
 VA_CHT_1(0x006ad530, 0x80)
 t_combat_spell* t_spell_factory<t_fireball>::create(t_battlefield& arg_0, t_spell arg_1) const
 {
@@ -978,7 +978,7 @@ t_spell_factory<t_inferno>::t_spell_factory<t_inferno>()
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:26235
+// confidence:A; align-band; retn,stable,vslot;vftable-certificate=2ad6e0:26235;class=t_spell_factory<class ?%C:\work\game\fireball.cpp1980031579::t_inferno>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4e15d8,col=50bc08,offset=0,slot=0,entry=2ad6e0; map:26235
 VA_CHT_1(0x006ad6e0, 0x80)
 t_combat_spell* t_spell_factory<t_inferno>::create(t_battlefield& arg_0, t_spell arg_1) const
 {
@@ -992,7 +992,7 @@ t_spell_factory<t_armageddon>::t_spell_factory<t_armageddon>()
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:26237
+// confidence:A; align-band; retn,stable,vslot;vftable-certificate=2ad760:26237;class=t_spell_factory<class ?%C:\work\game\fireball.cpp1980031579::t_armageddon>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4e1630,col=50bca4,offset=0,slot=0,entry=2ad760; map:26237
 VA_CHT_1(0x006ad760, 0xd7)
 t_combat_spell* t_spell_factory<t_armageddon>::create(t_battlefield& arg_0, t_spell arg_1) const
 {
@@ -1006,7 +1006,7 @@ t_spell_factory<t_cloud_of_confusion>::t_spell_factory<t_cloud_of_confusion>()
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:26239
+// confidence:A; align-band; retn,stable,vslot;vftable-certificate=2ad960:26239;class=t_spell_factory<class ?%C:\work\game\fireball.cpp1980031579::t_cloud_of_confusion>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4e16b4,col=50bdd8,offset=0,slot=0,entry=2ad960; map:26239
 VA_CHT_1(0x006ad960, 0x80)
 t_combat_spell* t_spell_factory<t_cloud_of_confusion>::create(t_battlefield& arg_0, t_spell arg_1) const
 {
@@ -1020,7 +1020,7 @@ t_spell_factory<t_choking_gas>::t_spell_factory<t_choking_gas>()
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:26241
+// confidence:A; align-band; retn,stable,vslot;vftable-certificate=2ad9e0:26241;class=t_spell_factory<class ?%C:\work\game\fireball.cpp1980031579::t_choking_gas>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4e1708,col=50be70,offset=0,slot=0,entry=2ad9e0; map:26241
 VA_CHT_1(0x006ad9e0, 0x80)
 t_combat_spell* t_spell_factory<t_choking_gas>::create(t_battlefield& arg_0, t_spell arg_1) const
 {
@@ -1034,7 +1034,7 @@ t_spell_factory<t_cloud_of_despair>::t_spell_factory<t_cloud_of_despair>()
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:26243
+// confidence:A; align-band; retn,stable,vslot;vftable-certificate=2ada60:26243;class=t_spell_factory<class ?%C:\work\game\fireball.cpp1980031579::t_cloud_of_despair>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4e1760,col=50bf0c,offset=0,slot=0,entry=2ada60; map:26243
 VA_CHT_1(0x006ada60, 0x80)
 t_combat_spell* t_spell_factory<t_cloud_of_despair>::create(t_battlefield& arg_0, t_spell arg_1) const
 {

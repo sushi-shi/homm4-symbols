@@ -1,7 +1,7 @@
 // adventure_frame.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\adventure_frame.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 982/1798 (A:263 B:25 C:2); unaccounted 816; skipped std 165.
+// Accounted 982/1798 (A:265 B:25 C:2); unaccounted 816; skipped std 165.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -1030,7 +1030,7 @@ void t_day_scroll::new_day(int arg_0)
     // Body unavailable.
 }
 
-// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:8450
+// confidence:A; align-order; retn,vslot;vftable-certificate=9a690:8450;class=t_day_scroll;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=0;checked-rtti-and-raw-slots;vft=4d3db8,col=4fabac,offset=0,slot=1,entry=9a690; map:8450
 VA_CHT_1(0x0049a690, 0xfc)
 void t_day_scroll::on_idle()
 {
@@ -5927,7 +5927,7 @@ t_add_handler<t_skill>::t_add_handler<t_skill>(t_handler_base_1<t_skill>* arg_0,
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:9150
+// confidence:A; align-band; retn,stable,vslot;vftable-certificate=b8460:9150;class=t_add_handler<struct t_skill>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=0;checked-rtti-and-raw-slots;vft=4d400c,col=4fb5c4,offset=8,slot=1,entry=b8460; map:9150
 VA_CHT_1(0x004b8460, 0x1d)
 void t_add_handler<t_skill>::operator()()
 {

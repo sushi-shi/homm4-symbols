@@ -1,7 +1,7 @@
 // combat_user_action.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\combat_user_action.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 79/127 (A:42 B:0 C:0); unaccounted 48; skipped std 1.
+// Accounted 79/127 (A:51 B:0 C:0); unaccounted 48; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -66,7 +66,7 @@ t_combat_user_action_area::t_combat_user_action_area(
     // Body unavailable.
 }
 
-// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:22337
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=1f2580:22337;class=?%C:\work\game\combat_user_action.cpp2954624106::t_combat_user_action_area;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=4;checked-rtti-and-raw-slots;vft=4ddeac,col=5070f4,offset=0,slot=1,entry=1f2580; map:22337
 VA_CHT_1(0x005f2580, 0x27)
 void t_combat_user_action_area::execute(t_battlefield& arg_0) const
 {
@@ -80,7 +80,7 @@ t_combat_cursor_mode t_combat_user_action_area::get_action() const
     // Body unavailable.
 }
 
-// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:22339
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=1f25b0:22339;class=?%C:\work\game\combat_user_action.cpp2954624106::t_combat_user_action_area;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4ddeac,col=5070f4,offset=0,slot=3,entry=1f25b0; map:22339
 VA_CHT_1(0x005f25b0, 0x50)
 t_mouse_window* t_combat_user_action_area::get_cursor(t_battlefield& arg_0, std::string& arg_1)
 {
@@ -98,7 +98,7 @@ t_combat_user_action_melee::t_combat_user_action_melee(
     // Body unavailable.
 }
 
-// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:22341
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=1f2600:22341;class=?%C:\work\game\combat_user_action.cpp2954624106::t_combat_user_action_melee;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=4;checked-rtti-and-raw-slots;vft=4dded4,col=507140,offset=0,slot=1,entry=1f2600; map:22341
 VA_CHT_1(0x005f2600, 0x31)
 void t_combat_user_action_melee::execute(t_battlefield& arg_0) const
 {
@@ -112,7 +112,7 @@ t_combat_cursor_mode t_combat_user_action_melee::get_action() const
     // Body unavailable.
 }
 
-// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:22343
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=1f2640:22343;class=?%C:\work\game\combat_user_action.cpp2954624106::t_combat_user_action_melee;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4dded4,col=507140,offset=0,slot=3,entry=1f2640; map:22343
 VA_CHT_1(0x005f2640, 0xbf)
 t_mouse_window* t_combat_user_action_melee::get_cursor(t_battlefield& arg_0, std::string& arg_1)
 {
@@ -126,7 +126,7 @@ t_combat_user_action_move::t_combat_user_action_move(t_screen_point const& arg_0
     // Body unavailable.
 }
 
-// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:22345
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=1f2700:22345;class=?%C:\work\game\combat_user_action.cpp2954624106::t_combat_user_action_move;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=4;checked-rtti-and-raw-slots;vft=4ddee8,col=50718c,offset=0,slot=1,entry=1f2700; map:22345
 VA_CHT_1(0x005f2700, 0x27)
 void t_combat_user_action_move::execute(t_battlefield& arg_0) const
 {
@@ -140,7 +140,7 @@ t_combat_cursor_mode t_combat_user_action_move::get_action() const
     // Body unavailable.
 }
 
-// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:22347
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=1f2730:22347;class=?%C:\work\game\combat_user_action.cpp2954624106::t_combat_user_action_move;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4ddee8,col=50718c,offset=0,slot=3,entry=1f2730; map:22347
 VA_CHT_1(0x005f2730, 0x26)
 t_mouse_window* t_combat_user_action_move::get_cursor(t_battlefield& arg_0, std::string& arg_1)
 {
@@ -224,7 +224,7 @@ t_combat_cursor_mode t_combat_user_action_none::get_action() const
     // Body unavailable.
 }
 
-// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:22351
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=1f3050:22351;class=?%C:\work\game\combat_user_action.cpp2954624106::t_combat_user_action_none;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4ddefc,col=5071d8,offset=0,slot=3,entry=1f3050; map:22351
 VA_CHT_1(0x005f3050, 0x14c)
 t_mouse_window* t_combat_user_action_none::get_cursor(t_battlefield& arg_0, std::string& arg_1)
 {
@@ -241,7 +241,7 @@ t_combat_user_action_ranged::t_combat_user_action_ranged(
     // Body unavailable.
 }
 
-// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:22353
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=1f31a0:22353;class=?%C:\work\game\combat_user_action.cpp2954624106::t_combat_user_action_ranged;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=4;checked-rtti-and-raw-slots;vft=4ddf10,col=507224,offset=0,slot=1,entry=1f31a0; map:22353
 VA_CHT_1(0x005f31a0, 0x2a)
 void t_combat_user_action_ranged::execute(t_battlefield& arg_0) const
 {
@@ -255,7 +255,7 @@ t_combat_cursor_mode t_combat_user_action_ranged::get_action() const
     // Body unavailable.
 }
 
-// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:22355
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=1f31d0:22355;class=?%C:\work\game\combat_user_action.cpp2954624106::t_combat_user_action_ranged;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4ddf10,col=507224,offset=0,slot=3,entry=1f31d0; map:22355
 VA_CHT_1(0x005f31d0, 0x40)
 t_mouse_window* t_combat_user_action_ranged::get_cursor(t_battlefield& arg_0, std::string& arg_1)
 {

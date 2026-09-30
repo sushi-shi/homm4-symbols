@@ -1,7 +1,7 @@
 // dump_entire_map_image.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\dump_entire_map_image.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 24/38 (A:13 B:0 C:0); unaccounted 14; skipped std 8.
+// Accounted 24/38 (A:15 B:0 C:0); unaccounted 14; skipped std 8.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -28,7 +28,7 @@ std::auto_ptr<t_abstract_bitmap<unsigned short>> t_entire_map_bitmap_creater::op
     // Body unavailable.
 }
 
-// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:25870
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=2a4eb0:25870;class=?%C:\work\game\dump_entire_map_image.cpp1361229852::t_entire_map_bitmap_creater;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4e1484,col=50b898,offset=0,slot=0,entry=2a4eb0; map:25870
 VA_CHT_1(0x006a4eb0, 0xf7)
 t_shared_ptr<t_abstract_bitmap<unsigned short>> t_entire_map_bitmap_creater::create_back_buffer(
     t_screen_point const& arg_0
@@ -37,7 +37,7 @@ t_shared_ptr<t_abstract_bitmap<unsigned short>> t_entire_map_bitmap_creater::cre
     // Body unavailable.
 }
 
-// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:25871
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=2a4fb0:25871;class=?%C:\work\game\dump_entire_map_image.cpp1361229852::t_entire_map_bitmap_creater;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=4;checked-rtti-and-raw-slots;vft=4e1484,col=50b898,offset=0,slot=1,entry=2a4fb0; map:25871
 VA_CHT_1(0x006a4fb0, 0x29)
 void t_entire_map_bitmap_creater::on_rects_dirtied(
     std::vector<t_screen_rect, std::allocator<t_screen_rect>> const& arg_0

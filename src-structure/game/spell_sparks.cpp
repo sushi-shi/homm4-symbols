@@ -1,7 +1,7 @@
 // spell_sparks.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\spell_sparks.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 61/89 (A:24 B:2 C:0); unaccounted 28; skipped std 1.
+// Accounted 61/89 (A:25 B:2 C:0); unaccounted 28; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -286,7 +286,7 @@ t_spell_factory<t_spell_sparks>::t_spell_factory<t_spell_sparks>()
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:38123
+// confidence:A; align-band; retn,vslot;vftable-certificate=3d4ae0:38123;class=t_spell_factory<class t_spell_sparks>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4ede20,col=51c01c,offset=0,slot=0,entry=3d4ae0; map:38123
 VA_CHT_1(0x007d4ae0, 0x7c)
 t_combat_spell* t_spell_factory<t_spell_sparks>::create(t_battlefield& arg_0, t_spell arg_1) const
 {

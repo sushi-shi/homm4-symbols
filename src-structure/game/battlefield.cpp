@@ -1,7 +1,7 @@
 // battlefield.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\battlefield.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 884/1623 (A:307 B:32 C:0); unaccounted 739; skipped std 577.
+// Accounted 884/1623 (A:310 B:32 C:0); unaccounted 739; skipped std 577.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -1124,7 +1124,7 @@ void t_battlefield::launch_missile(
 
 namespace {
 
-// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:16004
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=150dc0:16004;class=?%C:\work\game\battlefield.cpp19224604::t_delayed_missile_impact;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=4;checked-rtti-and-raw-slots;vft=4d70e4,col=5000b0,offset=8,slot=1,entry=150dc0; map:16004
 VA_CHT_1(0x00550dc0, 0xa8)
 void t_delayed_missile_impact::operator()(t_combat_creature& arg_0)
 {
@@ -6153,7 +6153,7 @@ t_add_2nd_handler_1<t_combat_creature&, t_map_point_3d>::t_add_2nd_handler_1<t_c
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:17149
+// confidence:A; align-band; retn,stable,vslot;vftable-certificate=164860:17149;class=t_add_2nd_handler_1<class t_combat_creature &, struct t_map_point_3d>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=4;checked-rtti-and-raw-slots;vft=4d7228,col=500748,offset=8,slot=1,entry=164860; map:17149
 VA_CHT_1(0x00564860, 0x34)
 void t_add_2nd_handler_1<t_combat_creature&, t_map_point_3d>::operator()(t_combat_creature& arg_0)
 {
@@ -6248,7 +6248,7 @@ t_add_2nd_handler_1<t_window*, t_battlefield::t_end_damage_spell_data>::t_add_2n
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:17159
+// confidence:A; align-band; retn,stable,vslot;vftable-certificate=164c20:17159;class=t_add_2nd_handler_1<class t_window *, class t_battlefield::t_end_damage_spell_data>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=4;checked-rtti-and-raw-slots;vft=4d72c4,col=500ae0,offset=8,slot=1,entry=164c20; map:17159
 VA_CHT_1(0x00564c20, 0x128)
 void t_add_2nd_handler_1<t_window*, t_battlefield::t_end_damage_spell_data>::operator()(t_window* arg_0)
 {

@@ -1,7 +1,7 @@
 // adv_artifact_pile.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\adv_artifact_pile.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 133/248 (A:57 B:7 C:0); unaccounted 115; skipped std 40.
+// Accounted 133/248 (A:59 B:7 C:0); unaccounted 115; skipped std 40.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -408,7 +408,7 @@ t_discard_2nd_handler_3<t_adv_map_point const&, t_adv_map_point const&, bool&>::
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:3906
+// confidence:A; align-band; retn,stable,vslot;vftable-certificate=31b20:3906;class=t_discard_2nd_handler_3<struct t_adv_map_point const &, struct t_adv_map_point const &, bool &>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=12;checked-rtti-and-raw-slots;vft=4ce278,col=4f6790,offset=8,slot=1,entry=31b20; map:3906
 VA_CHT_1(0x00431b20, 0x1c)
 void t_discard_2nd_handler_3<t_adv_map_point const&, t_adv_map_point const&, bool&>::operator()(
     t_adv_map_point const& arg_0,
@@ -663,7 +663,7 @@ t_object_factory<t_adv_artifact_pile>::t_object_factory<t_adv_artifact_pile>()
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:3961
+// confidence:A; align-band; retn,stable,vslot;vftable-certificate=32170:3961;class=t_object_factory<class t_adv_artifact_pile>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4ce0dc,col=4f665c,offset=0,slot=0,entry=32170; map:3961
 VA_CHT_1(0x00432170, 0x62)
 t_stationary_adventure_object* t_object_factory<t_adv_artifact_pile>::create(
     std::string const& arg_0,

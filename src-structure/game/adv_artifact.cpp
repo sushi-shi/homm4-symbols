@@ -1,7 +1,7 @@
 // adv_artifact.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 171/272 (A:72 B:12 C:0); unaccounted 101; skipped std 15.
+// Accounted 171/272 (A:78 B:12 C:0); unaccounted 101; skipped std 15.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -533,7 +533,7 @@ t_object_factory_with_type<t_adv_artifact>::t_object_factory_with_type<t_adv_art
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:3792
+// confidence:A; align-band; retn,stable,vslot;vftable-certificate=2fc10:3792;class=t_object_factory_with_type<class t_adv_artifact>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4cd714,col=4f60e8,offset=0,slot=0,entry=2fc10; map:3792
 VA_CHT_1(0x0042fc10, 0x6a)
 t_stationary_adventure_object* t_object_factory_with_type<t_adv_artifact>::create(
     std::string const& arg_0,
@@ -550,7 +550,7 @@ t_object_factory_with_type<t_adv_spell_artifact>::t_object_factory_with_type<t_a
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:3794
+// confidence:A; align-band; retn,vslot;vftable-certificate=2fc80:3794;class=t_object_factory_with_type<class t_adv_spell_artifact>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4cd71c,col=4f6130,offset=0,slot=0,entry=2fc80; map:3794
 VA_CHT_1(0x0042fc80, 0x6a)
 t_stationary_adventure_object* t_object_factory_with_type<t_adv_spell_artifact>::create(
     std::string const& arg_0,
@@ -567,7 +567,7 @@ t_object_factory<t_random_artifact>::t_object_factory<t_random_artifact>()
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:3796
+// confidence:A; align-band; retn,stable,vslot;vftable-certificate=2fcf0:3796;class=t_object_factory<class t_random_artifact>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4cda50,col=4f62bc,offset=0,slot=0,entry=2fcf0; map:3796
 VA_CHT_1(0x0042fcf0, 0x62)
 t_stationary_adventure_object* t_object_factory<t_random_artifact>::create(
     std::string const& arg_0,
@@ -584,7 +584,7 @@ t_object_factory<t_random_tome>::t_object_factory<t_random_tome>()
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:3798
+// confidence:A; align-band; retn,stable,vslot;vftable-certificate=2fd60:3798;class=t_object_factory<class t_random_tome>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4cdbf0,col=4f63a4,offset=0,slot=0,entry=2fd60; map:3798
 VA_CHT_1(0x0042fd60, 0x62)
 t_stationary_adventure_object* t_object_factory<t_random_tome>::create(
     std::string const& arg_0,
@@ -601,7 +601,7 @@ t_object_factory<t_random_staff>::t_object_factory<t_random_staff>()
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:3800
+// confidence:A; align-band; retn,stable,vslot;vftable-certificate=2fdd0:3800;class=t_object_factory<class t_random_staff>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4cdd90,col=4f648c,offset=0,slot=0,entry=2fdd0; map:3800
 VA_CHT_1(0x0042fdd0, 0x62)
 t_stationary_adventure_object* t_object_factory<t_random_staff>::create(
     std::string const& arg_0,
@@ -618,7 +618,7 @@ t_object_factory<t_random_potion>::t_object_factory<t_random_potion>()
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:3802
+// confidence:A; align-band; retn,stable,vslot;vftable-certificate=2fe40:3802;class=t_object_factory<class t_random_potion>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4cdf30,col=4f6574,offset=0,slot=0,entry=2fe40; map:3802
 VA_CHT_1(0x0042fe40, 0x62)
 t_stationary_adventure_object* t_object_factory<t_random_potion>::create(
     std::string const& arg_0,

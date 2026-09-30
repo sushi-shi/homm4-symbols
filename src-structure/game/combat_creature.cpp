@@ -1,7 +1,7 @@
 // combat_creature.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\combat_creature.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 323/493 (A:61 B:10 C:0); unaccounted 170; skipped std 69.
+// Accounted 323/493 (A:64 B:10 C:0); unaccounted 170; skipped std 69.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -1818,14 +1818,14 @@ t_pain_mirror_action::t_pain_mirror_action(
     // Body unavailable.
 }
 
-// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:20463
+// confidence:A; align-order; retn,vslot;vftable-certificate=1cab60:20463;class=?%C:\work\game\combat_creature.cpp2283518238::t_pain_mirror_action;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=4;checked-rtti-and-raw-slots;vft=4dc3fc,col=503ca4,offset=0,slot=1,entry=1cab60; map:20463
 VA_CHT_1(0x005cab60, 0x133)
 void t_pain_mirror_action::execute(t_window* arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:20464
+// confidence:A; align-order; retn,vslot;vftable-certificate=1caca0:20464;class=?%C:\work\game\combat_creature.cpp2283518238::t_pain_mirror_action;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=0;checked-rtti-and-raw-slots;vft=4dc3f0,col=503cf8,offset=8,slot=1,entry=1caca0; map:20464
 VA_CHT_1(0x005caca0, 0x137)
 void t_pain_mirror_action::operator()()
 {
@@ -2476,7 +2476,7 @@ t_bound_handler_2<t_combat_creature, t_window*, int>::t_bound_handler_2<t_combat
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:20624
+// confidence:A; align-band; retn,stable,vslot;vftable-certificate=1cb840:20624;class=t_bound_handler_2<class t_combat_creature, class t_window *, int>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4dc41c,col=503e34,offset=8,slot=1,entry=1cb840; map:20624
 VA_CHT_1(0x005cb840, 0x2f)
 void t_bound_handler_2<t_combat_creature, t_window*, int>::operator()(t_window* arg_0, int arg_1)
 {

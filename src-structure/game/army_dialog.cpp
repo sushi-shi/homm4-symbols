@@ -1,7 +1,7 @@
 // army_dialog.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\army_dialog.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 161/269 (A:96 B:10 C:0); unaccounted 108; skipped std 76.
+// Accounted 161/269 (A:97 B:10 C:0); unaccounted 108; skipped std 76.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -594,7 +594,7 @@ t_add_3rd_handler_2<t_creature_array_window::t_drag_drop_validate_data const&, b
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:14144
+// confidence:A; align-band; retn,stable,vslot;vftable-certificate=1156c0:14144;class=t_add_3rd_handler_2<struct t_creature_array_window::t_drag_drop_validate_data const &, bool &, class t_handler_2<struct t_creature_array_window::t_drag_drop_validate_data const &, bool &>>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4d5438,col=4fd178,offset=8,slot=1,entry=1156c0; map:14144
 VA_CHT_1(0x005156c0, 0x98)
 void t_add_3rd_handler_2<t_creature_array_window::t_drag_drop_validate_data const&, bool&, t_handler_2<t_creature_array_window::t_drag_drop_validate_data const&, bool&>>::operator()(
     t_creature_array_window::t_drag_drop_validate_data const& arg_0,

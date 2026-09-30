@@ -58,7 +58,7 @@ bool t_script_combat::read_from_map(std::basic_streambuf<char, std::char_traits<
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:34647
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=396bd0:34647;class=t_script_combat;proof=reviewed-identity-and-runtime-vftable;cleanup=4;checked-rtti-and-raw-slots;vft=4eabf0,col=516a08,offset=0,slot=11,entry=396bd0;manual-review=complete-R04; map:34647
 VA_CHT_1(0x00796bd0, 0x58)
 bool t_script_combat::write(std::basic_streambuf<char, std::char_traits<char>>& arg_0) const
 {

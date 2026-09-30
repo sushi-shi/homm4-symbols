@@ -1,7 +1,7 @@
 // map_renderer.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\map_renderer.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 195/438 (A:65 B:1 C:0); unaccounted 243; skipped std 215.
+// Accounted 195/438 (A:67 B:1 C:0); unaccounted 243; skipped std 215.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -24,14 +24,14 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "map_renderer#2")
 
 namespace {
 
-// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:28853
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=303ae0:28853;class=?%C:\work\game\map_renderer.cpp259823810::t_adventure_metatile_map::t_adventure_map_adapter;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4e4f90,col=50f08c,offset=0,slot=0,entry=303ae0; map:28853
 VA_CHT_1(0x00703ae0, 0x23)
 void t_adventure_metatile_map::t_adventure_map_adapter::get_size(int& arg_0, int& arg_1) const
 {
     // Body unavailable.
 }
 
-// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:28854
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=303b10:28854;class=?%C:\work\game\map_renderer.cpp259823810::t_adventure_metatile_map::t_adventure_map_adapter;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=12;checked-rtti-and-raw-slots;vft=4e4f90,col=50f08c,offset=0,slot=1,entry=303b10; map:28854
 VA_CHT_1(0x00703b10, 0x2b)
 void t_adventure_metatile_map::t_adventure_map_adapter::get_row_bounds(
     int arg_0,

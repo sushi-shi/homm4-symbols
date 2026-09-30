@@ -21,6 +21,7 @@ Everything below is only needed to regenerate `maps/<target>/`.
 | `names.tsv` | the complete map, self-contained: `rva, size, kind (func/vftable/data), tier, name, demangled, method, evidence, map_id, map_va, obj, score, via` |
 | `manual.tsv` | optional hand fixes (rva, mangled, note); override proposals, subject to review vetoes/caps |
 | `reviews.tsv` | hash-bound review evidence; exact-identity vetoes and C caps run last, including after manual overrides |
+| `vftable-functions.tsv` / `.json` | structural function certificates and hashes of their executable, inputs, and checking code |
 
 `name` is the mangled map name, except static-init routines, which get owner-based names.
 `target.json` also sets `address_tag` (currently `CHT_1`) for source address annotations.
@@ -31,9 +32,10 @@ Tiers: **A** exact structural evidence (vftable slot, vptr store, `.CRT$XCU` slo
 **B** ordered match with agreeing `ret N`, stable without vftable evidence. **C** uncertain.
 **D** unreviewed function proposal, not a best guess. Both targets set
 `unreviewed_function_tier: D`: after exact-identity review actions, all functions without a
-matching recorded review become D, including otherwise A/B proposals and manual overrides.
+matching recorded review or checked vftable function certificate become D, including otherwise
+A/B proposals and manual overrides.
 Checked structural data/vftable labels retain their existing tiers.
-cht-1.x functions after closure: A 57 · B 32 · C 71 · D 19,159.
+cht-1.x functions after vftable recovery: A 371 · B 32 · C 71 · D 18,845.
 These tiers describe heuristic evidence, not measured name precision or manual approval.
 
 ## Tools
@@ -53,6 +55,7 @@ These tiers describe heuristic evidence, not measured name precision or manual a
 | | `sig.py` | expected `ret N` from a demangled signature (models retail `/Gr` fastcall) |
 | | `evaluate.py` | accuracy report: vftable hierarchy, call-graph consistency, held-out `ret N`, stability |
 | map | `emit_map.py` | alignment + static-init pairs + vftables + RTTI descriptors + manual → `maps/<t>/names.tsv` |
+| | `vftable_functions.py` | executable + RTTI hierarchy + map declarations → checked virtual-function certificates |
 | generate | `ghidra/ApplyNames.java` | names → Ghidra program `/<t>/heroes4_named`, packed to `work/<t>/heroes4_<t>.gzf` |
 | | `gen_ida.py` | names → `work/<t>/ida_apply.idc` (IDC, runs in IDA Free too) |
 | | `gen_structure.py` | symbols + names + function features → `src-structure/` (flat source inventories and coverage) |
@@ -115,8 +118,36 @@ Known one-to-one slot contradictions veto the transferred name at emission time 
 recorded in `work/complete-3.0/release-rejected.tsv`. The raw report retains these failures;
 it is not a post-filter precision claim. The first pass had 5,932 body pairs and emitted 4,915
 function names (B 1,408 / C 3,507), after withholding two named slot warnings. The manual
-review now leaves 4,823 functions (B 53 / C 106 / D 4,664). R26 demonstrates a false slot warning:
+review and vftable recovery now leave 4,823 functions (A 116 / B 30 / C 106 / D 4,571). R26 demonstrates a false slot warning:
 equal extracted table lengths do not prove that each method kept the same index.
+
+### Vftable function recovery
+
+With `vftable_function_recovery: true`, `emit_map.py` regenerates certificates before applying
+the final review policy. This restores 314 CHT D proposals to A. Complete has 116 certified A
+functions: 93 formerly D and 23 formerly B. No names are added or removed by this recovery.
+
+`vftable_functions.py` checks the executable hash, RTTI hierarchy pointer chain, and raw slot
+pointers. Runtime class names identify the class; secondary-table ordering is not a method
+identity. An ordinary virtual proposal qualifies when exactly one compatible map declaration
+exists across the class and its ancestors (accounting for overrides), and exactly one body
+has that stack cleanup across the class's observed tables. Unknown signatures/bodies compete
+instead of being ignored. Alternatively, an already supported exact manual identity can supply
+the method identity, with runtime membership and cleanup checked again. Ambiguous classes,
+construction tables, deleting destructors, folded bodies, and duplicate slots are held out.
+Simple adjustment thunks are followed when reading slots, but are not themselves promoted.
+
+Complete additionally needs a source A certificate, at least 95% assembly similarity, hop B,
+and the same pair in the run without cleanup scoring. Slot numbers need not remain equal.
+Certificates record class/table/slot evidence, body hashes, and hashes of the inputs and code;
+stale certificates are rejected. Manual vetoes and C caps still run last.
+
+This is automated structural evidence, not a new manual review or measured precision. There
+is no debug executable providing raw debug slot targets, and virtual declarations may differ
+between builds. Mere class membership never suffices for an unreviewed method. Cleanup helps
+select these certificates, so final-tier cleanup agreement is not an independent accuracy test.
+The frozen review ledger remains intact; coverage distinguishes 93 `structural-A` cases from
+4,571 `unreviewed-D` cases, alongside the unchanged 251 manual verdicts.
 
 ### Manual assembly review
 

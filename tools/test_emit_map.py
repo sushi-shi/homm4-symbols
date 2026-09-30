@@ -24,7 +24,10 @@ class StructuralEmissionTests(unittest.TestCase):
             proposal = dict(rva=0x20, size=4, tier="A", map_id="1",
                             method="rtti-primary-vftable", evidence="validated pointer chain")
             with (patch.object(emit_map.paths, "target_meta", return_value={
-                    "sha256": hashlib.sha256(exe.read_bytes()).hexdigest()}),
+                    "sha256": hashlib.sha256(exe.read_bytes()).hexdigest(),
+                    "vftable_function_recovery": True}),
+                  patch('vftable_functions.main', side_effect=AssertionError('no function recovery')),
+                  patch('vftable_functions.load_checked', side_effect=AssertionError('no function certificates')),
                   patch.object(emit_map.paths, "exe", return_value=str(exe)),
                   patch.object(emit_map.paths, "maps", side_effect=lambda t, n: str(root / n)),
                   patch.object(emit_map, "read_tsv", return_value=[symbol]) as read,
@@ -97,7 +100,7 @@ class ReleaseEmissionTests(unittest.TestCase):
 
 
 class ManualReviewTests(unittest.TestCase):
-    def apply(self, rows, reviews, bad_hash=False, unreviewed_d=False):
+    def apply(self, rows, reviews, bad_hash=False, unreviewed_d=False, certificates=None):
         with tempfile.TemporaryDirectory() as d:
             root = Path(d)
             exe = root / "heroes4.exe"
@@ -112,7 +115,9 @@ class ManualReviewTests(unittest.TestCase):
                                     exe_sha256="wrong" if bad_hash else digest, **r))
             with (patch.object(emit_map.paths, "exe", return_value=str(exe)),
                   patch.object(emit_map.paths, "target_meta", return_value={
-                      "sha256": digest, "unreviewed_function_tier": "D" if unreviewed_d else ""}),
+                      "sha256": digest, "unreviewed_function_tier": "D" if unreviewed_d else "",
+                      "vftable_function_recovery": certificates is not None}),
+                  patch('vftable_functions.load_checked', return_value=certificates or {}),
                   patch.object(emit_map.paths, "maps", side_effect=lambda t,n: str(root/n))):
                 return emit_map.apply_reviews("test", rows)
 
@@ -154,6 +159,20 @@ class ManualReviewTests(unittest.TestCase):
         rows = {16: dict(name="uncertain", map_id="1", tier="D", evidence="asm")}
         result = self.apply(rows, [dict(rva="10", name="uncertain", map_id="1", action="cap-C")])
         self.assertEqual(result[16]["tier"], "D")
+
+    def test_structural_a_preserves_manual_veto_caps_and_exact_identity(self):
+        rows = {i: dict(name=str(i), map_id=str(i), kind='func', tier='D',
+                        evidence='asm;review-status=unreviewed;classification=D:not-a-best-guess')
+                for i in range(16, 20)}
+        certs = {(i, str(i), str(i)): dict(rva=f'{i:x}', map_id=str(i), evidence='checked slots')
+                 for i in range(16, 19)}
+        certs[(19, 'old', 'old')] = dict(rva='13', map_id='old', evidence='obsolete')
+        reviews = [dict(rva='11', name='17', map_id='17', action='cap-C'),
+                   dict(rva='12', name='18', map_id='18', action='withhold')]
+        result = self.apply(rows, reviews, unreviewed_d=True, certificates=certs)
+        self.assertEqual({i:r['tier'] for i,r in result.items()}, {16:'A', 17:'C', 19:'D'})
+        self.assertNotIn('review-status=unreviewed', result[16]['evidence'])
+        self.assertEqual(result, self.apply(result, reviews, unreviewed_d=True, certificates=certs))
 
 
 if __name__ == "__main__":

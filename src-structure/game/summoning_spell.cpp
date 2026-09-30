@@ -1,7 +1,7 @@
 // summoning_spell.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\summoning_spell.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 49/75 (A:24 B:0 C:0); unaccounted 26; skipped std 2.
+// Accounted 49/75 (A:26 B:0 C:0); unaccounted 26; skipped std 2.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -243,7 +243,7 @@ t_spell_factory<t_summoning_spell>::t_spell_factory<t_summoning_spell>()
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:38632
+// confidence:A; align-band; retn,stable,vslot;vftable-certificate=3e9b20:38632;class=t_spell_factory<class t_summoning_spell>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4ee334,col=51cb64,offset=0,slot=0,entry=3e9b20; map:38632
 VA_CHT_1(0x007e9b20, 0x79)
 t_combat_spell* t_spell_factory<t_summoning_spell>::create(t_battlefield& arg_0, t_spell arg_1) const
 {
@@ -277,7 +277,7 @@ t_spell_factory<t_summon_phantom>::t_spell_factory<t_summon_phantom>()
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:38638
+// confidence:A; align-band; retn,stable,vslot;vftable-certificate=3e9c60:38638;class=t_spell_factory<class ?%C:\work\game\summoning_spell.cpp1737021720::t_summon_phantom>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4ee33c,col=51cbac,offset=0,slot=0,entry=3e9c60; map:38638
 VA_CHT_1(0x007e9c60, 0x79)
 t_combat_spell* t_spell_factory<t_summon_phantom>::create(t_battlefield& arg_0, t_spell arg_1) const
 {

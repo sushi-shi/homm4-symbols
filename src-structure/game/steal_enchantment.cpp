@@ -1,7 +1,7 @@
 // steal_enchantment.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\steal_enchantment.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 53/84 (A:30 B:1 C:0); unaccounted 31; skipped std 2.
+// Accounted 53/84 (A:32 B:1 C:0); unaccounted 31; skipped std 2.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -270,7 +270,7 @@ t_spell_factory<t_steal_enchantment>::t_spell_factory<t_steal_enchantment>()
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:38431
+// confidence:A; align-band; retn,stable,vslot;vftable-certificate=3e5340:38431;class=t_spell_factory<class t_steal_enchantment>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4ee0e4,col=51c6d0,offset=0,slot=0,entry=3e5340; map:38431
 VA_CHT_1(0x007e5340, 0x79)
 t_combat_spell* t_spell_factory<t_steal_enchantment>::create(t_battlefield& arg_0, t_spell arg_1) const
 {
@@ -284,7 +284,7 @@ t_spell_factory<t_steal_all>::t_spell_factory<t_steal_all>()
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:38433
+// confidence:A; align-band; retn,stable,vslot;vftable-certificate=3e53c0:38433;class=t_spell_factory<class ?%C:\work\game\steal_enchantment.cpp80274779::t_steal_all>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4ee148,col=51c7cc,offset=0,slot=0,entry=3e53c0; map:38433
 VA_CHT_1(0x007e53c0, 0x5c)
 t_combat_spell* t_spell_factory<t_steal_all>::create(t_battlefield& arg_0, t_spell arg_1) const
 {

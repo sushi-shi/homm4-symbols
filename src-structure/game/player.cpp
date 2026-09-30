@@ -1,7 +1,7 @@
 // player.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\player.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 133/228 (A:36 B:3 C:0); unaccounted 95; skipped std 137.
+// Accounted 133/228 (A:37 B:3 C:0); unaccounted 95; skipped std 137.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -233,7 +233,7 @@ void t_player::get_income_text(int arg_0, int arg_1, std::string& arg_2)
     // Body unavailable.
 }
 
-// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:31892
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=35e020:31892;class=t_player;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=4;checked-rtti-and-raw-slots;vft=4e7b8c,col=512550,offset=0,slot=1,entry=35e020; map:31892
 VA_CHT_1(0x0075e020, 0x40)
 bool t_player::gets_global_grail_effects(t_town_type arg_0) const
 {

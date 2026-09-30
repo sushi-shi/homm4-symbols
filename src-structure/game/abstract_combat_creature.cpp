@@ -266,7 +266,7 @@ int t_abstract_combat_creature::get_magic_resistance(t_spell arg_0) const
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:1222
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=c400:1222;class=t_abstract_combat_creature;proof=reviewed-identity-and-runtime-vftable;cleanup=12;checked-rtti-and-raw-slots;vft=4cb644,col=4f3e40,offset=0,slot=14,entry=c400;manual-review=complete-F00106; map:1222
 VA_CHT_1(0x0040c400, 0x32)
 std::string t_abstract_combat_creature::get_name(bool arg_0, int arg_1) const
 {
@@ -839,7 +839,7 @@ VA_CHT_1(0x0040e7c0, 0x8)
 // [thunk]: public: virtual bool t_abstract_combat_creature::is_active`vtordisp{-4, 0}'(t_spell) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; align-band; retn,stable,vslot; map:1397
+// confidence:A; align-band; retn,stable,vslot;vftable-certificate=e7a0:1397;class=t_abstract_combat_creature;proof=reviewed-identity-and-runtime-vftable;cleanup=4;checked-rtti-and-raw-slots;vft=4cb634,col=4f3e54,offset=920,slot=2,entry=e790;manual-review=complete-F00121; map:1397
 VA_CHT_1(0x0040e7a0, 0x11)
 bool t_abstract_combat_creature::is_active(t_spell arg_0) const
 {

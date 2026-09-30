@@ -1,7 +1,7 @@
 // mine.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\mine.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 103/146 (A:24 B:7 C:0); unaccounted 43; skipped std 1.
+// Accounted 103/146 (A:26 B:7 C:0); unaccounted 43; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -342,7 +342,7 @@ t_object_factory<t_mine>::t_object_factory<t_mine>()
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:30030
+// confidence:A; align-band; retn,stable,vslot;vftable-certificate=3255b0:30030;class=t_object_factory<class t_mine>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4e5ce0,col=5101c0,offset=0,slot=0,entry=3255b0; map:30030
 VA_CHT_1(0x007255b0, 0x65)
 t_stationary_adventure_object* t_object_factory<t_mine>::create(
     std::string const& arg_0,
@@ -359,7 +359,7 @@ t_object_factory<t_adv_vein>::t_object_factory<t_adv_vein>()
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:30032
+// confidence:A; align-band; retn,vslot;vftable-certificate=325620:30032;class=t_object_factory<class t_adv_vein>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4e5ce8,col=510208,offset=0,slot=0,entry=325620; map:30032
 VA_CHT_1(0x00725620, 0x62)
 t_stationary_adventure_object* t_object_factory<t_adv_vein>::create(
     std::string const& arg_0,

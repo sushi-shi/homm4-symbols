@@ -1,7 +1,7 @@
 // wave_stream.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 9/13 (A:6 B:0 C:0); unaccounted 4; skipped std 0.
+// Accounted 9/13 (A:7 B:0 C:0); unaccounted 4; skipped std 0.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -17,7 +17,7 @@ t_wave_stream::t_wave_stream(t_shared_array<char> const& arg_0, int arg_1)
     // Body unavailable.
 }
 
-// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:40541
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=4340b0:40541;class=t_wave_stream;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4f0b0c,col=51e464,offset=0,slot=1,entry=4340b0; map:40541
 VA_CHT_1(0x008340b0, 0x41)
 int t_wave_stream::read(void* arg_0, unsigned long arg_1)
 {

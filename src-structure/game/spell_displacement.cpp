@@ -1,7 +1,7 @@
 // spell_displacement.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 100/166 (A:52 B:4 C:0); unaccounted 66; skipped std 1.
+// Accounted 100/166 (A:54 B:4 C:0); unaccounted 66; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -283,7 +283,7 @@ t_spell_factory<t_spell_displacement>::t_spell_factory<t_spell_displacement>()
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:37937
+// confidence:A; align-band; retn,vslot;vftable-certificate=3ce480:37937;class=t_spell_factory<class t_spell_displacement>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4ed4f4,col=51bb94,offset=0,slot=0,entry=3ce480; map:37937
 VA_CHT_1(0x007ce480, 0x68)
 t_combat_spell* t_spell_factory<t_spell_displacement>::create(t_battlefield& arg_0, t_spell arg_1) const
 {
@@ -375,7 +375,7 @@ t_add_handler<t_combat_action_message>::t_add_handler<t_combat_action_message>(
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:37947
+// confidence:A; align-band; retn,stable,vslot;vftable-certificate=3cea80:37947;class=t_add_handler<class t_combat_action_message>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=0;checked-rtti-and-raw-slots;vft=4ed5a8,col=51be40,offset=8,slot=1,entry=3cea80; map:37947
 VA_CHT_1(0x007cea80, 0x11a)
 void t_add_handler<t_combat_action_message>::operator()()
 {

@@ -1,7 +1,7 @@
 // adventure_map_window.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 138/224 (A:52 B:2 C:0); unaccounted 86; skipped std 13.
+// Accounted 138/224 (A:53 B:2 C:0); unaccounted 86; skipped std 13.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -555,7 +555,7 @@ t_map_renderer::t_exclude_nothing_func::t_exclude_nothing_func()
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:11817
+// confidence:A; align-band; retn,stable,vslot;vftable-certificate=e2e50:11817;class=t_map_renderer::t_exclude_nothing_func;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=4;checked-rtti-and-raw-slots;vft=4d42c8,col=4fc020,offset=0,slot=1,entry=e2e50; map:11817
 VA_CHT_1(0x004e2e50, 0x5)
 bool t_map_renderer::t_exclude_nothing_func::operator()(int arg_0) const
 {

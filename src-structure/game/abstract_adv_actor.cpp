@@ -1,7 +1,7 @@
 // abstract_adv_actor.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\abstract_adv_actor.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 186/361 (A:106 B:8 C:6); unaccounted 175; skipped std 17.
+// Accounted 186/361 (A:109 B:8 C:6); unaccounted 175; skipped std 17.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -51,7 +51,7 @@ int t_highlight_subimage::compute_frame(unsigned long arg_0) const
     // Body unavailable.
 }
 
-// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:88
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=2690:88;class=?%C:\work\game\abstract_adv_actor.cpp980218401::t_highlight_subimage;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=20;checked-rtti-and-raw-slots;vft=4cb388,col=4f3ad0,offset=0,slot=6,entry=2690; map:88
 VA_CHT_1(0x00402690, 0x194)
 void t_highlight_subimage::draw_to(
     int arg_0,
@@ -64,7 +64,7 @@ void t_highlight_subimage::draw_to(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:89
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=2830:89;class=?%C:\work\game\abstract_adv_actor.cpp980218401::t_highlight_subimage;proof=reviewed-identity-and-runtime-vftable;cleanup=12;checked-rtti-and-raw-slots;vft=4cb388,col=4f3ad0,offset=0,slot=5,entry=2830;manual-review=complete-F00007; map:89
 VA_CHT_1(0x00402830, 0xbb)
 void t_highlight_subimage::draw_to(
     int arg_0,
@@ -89,14 +89,14 @@ int t_highlight_subimage::get_frame_count() const
     // Body unavailable.
 }
 
-// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:92
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=28f0:92;class=?%C:\work\game\abstract_adv_actor.cpp980218401::t_highlight_subimage;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=4;checked-rtti-and-raw-slots;vft=4cb388,col=4f3ad0,offset=0,slot=3,entry=28f0; map:92
 VA_CHT_1(0x004028f0, 0x99)
 t_screen_rect t_highlight_subimage::get_rect() const
 {
     // Body unavailable.
 }
 
-// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:93
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=2990:93;class=?%C:\work\game\abstract_adv_actor.cpp980218401::t_highlight_subimage;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4cb388,col=4f3ad0,offset=0,slot=2,entry=2990; map:93
 VA_CHT_1(0x00402990, 0xa8)
 t_screen_rect t_highlight_subimage::get_rect(int arg_0) const
 {
@@ -177,7 +177,7 @@ void t_abstract_adv_actor::accept(t_abstract_adv_object_visitor& arg_0) const
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:104
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=2de0:104;class=t_abstract_adv_actor;proof=reviewed-identity-and-runtime-vftable;cleanup=0;checked-rtti-and-raw-slots;vft=4cb404,col=4f3c00,offset=10,slot=3,entry=4950;manual-review=complete-F00013; map:104
 VA_CHT_1(0x00402de0, 0x5b)
 bool t_abstract_adv_actor::animates() const
 {
@@ -254,7 +254,7 @@ t_screen_point t_abstract_adv_actor::get_frame_offset() const
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:112
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=3540:112;class=t_abstract_adv_actor;proof=reviewed-identity-and-runtime-vftable;cleanup=4;checked-rtti-and-raw-slots;vft=4cb404,col=4f3c00,offset=10,slot=15,entry=49c0;manual-review=complete-F00016; map:112
 VA_CHT_1(0x00403540, 0x12a)
 t_screen_rect t_abstract_adv_actor::get_rect() const
 {
@@ -268,14 +268,14 @@ t_screen_rect t_abstract_adv_actor::get_rect(unsigned long arg_0) const
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:114
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=37e0:114;class=t_abstract_adv_actor;proof=reviewed-identity-and-runtime-vftable;cleanup=0;checked-rtti-and-raw-slots;vft=4cb404,col=4f3c00,offset=10,slot=18,entry=49d0;manual-review=complete-F00017; map:114
 VA_CHT_1(0x004037e0, 0x21)
 int t_abstract_adv_actor::get_subimage_count() const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:115
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=3810:115;class=t_abstract_adv_actor;proof=reviewed-identity-and-runtime-vftable;cleanup=4;checked-rtti-and-raw-slots;vft=4cb404,col=4f3c00,offset=10,slot=19,entry=49e0;manual-review=complete-F00018; map:115
 VA_CHT_1(0x00403810, 0x15)
 int t_abstract_adv_actor::get_subimage_depth_offset(int arg_0) const
 {
@@ -296,7 +296,7 @@ t_screen_rect t_abstract_adv_actor::get_subimage_rect(int arg_0, unsigned long a
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:118
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=3a00:118;class=t_abstract_adv_actor;proof=reviewed-identity-and-runtime-vftable;cleanup=8;checked-rtti-and-raw-slots;vft=4cb404,col=4f3c00,offset=10,slot=22,entry=4a10;manual-review=complete-F00019; map:118
 VA_CHT_1(0x00403a00, 0x167)
 bool t_abstract_adv_actor::hit_test(unsigned long arg_0, t_screen_point const& arg_1) const
 {
@@ -310,7 +310,7 @@ bool t_abstract_adv_actor::is_highlighted() const
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:120
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=3b80:120;class=t_abstract_adv_actor;proof=reviewed-identity-and-runtime-vftable;cleanup=8;checked-rtti-and-raw-slots;vft=4cb404,col=4f3c00,offset=10,slot=25,entry=4a20;manual-review=complete-F00021; map:120
 VA_CHT_1(0x00403b80, 0xc3)
 bool t_abstract_adv_actor::needs_redrawing(unsigned long arg_0, unsigned long arg_1) const
 {
@@ -331,7 +331,7 @@ bool t_abstract_adv_actor::subimage_is_underlay(int arg_0) const
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:123
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=3cc0:123;class=t_abstract_adv_actor;proof=reviewed-identity-and-runtime-vftable;cleanup=12;checked-rtti-and-raw-slots;vft=4cb404,col=4f3c00,offset=10,slot=28,entry=4a40;manual-review=complete-F00022; map:123
 VA_CHT_1(0x00403cc0, 0xc0)
 bool t_abstract_adv_actor::subimage_needs_redrawing(int arg_0, unsigned long arg_1, unsigned long arg_2) const
 {
@@ -345,7 +345,7 @@ t_abstract_adv_actor& t_abstract_adv_actor::operator=(t_abstract_adv_actor const
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:125
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=3d80:125;class=t_abstract_adv_actor;proof=reviewed-identity-and-runtime-vftable;cleanup=0;checked-rtti-and-raw-slots;vft=4cb484,col=4f3ba0,offset=0,slot=2,entry=3d80;manual-review=complete-F00023; map:125
 VA_CHT_1(0x00403d80, 0xfd)
 void t_abstract_adv_actor::on_model_changed()
 {
