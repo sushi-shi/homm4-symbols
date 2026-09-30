@@ -1,7 +1,7 @@
 // draw_adventure_tile.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\draw_adventure_tile.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 35/71 (A:6 B:1 C:0); unaccounted 36; skipped std 3.
+// Accounted 35/71 (A:7 B:1 C:0); unaccounted 36; skipped std 3.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -31,7 +31,7 @@ t_local_pixel_mask_viewer::t_local_pixel_mask_viewer()
     // Body unavailable.
 }
 
-// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:25824
+// confidence:A; align-order; retn,vslot;vftable-certificate=29b250:25824;class=?%C:\work\game\draw_adventure_tile.cpp1655614343::t_local_pixel_mask_viewer;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=0;checked-rtti-and-raw-slots;vft=4e1454,col=50b838,offset=0,slot=1,entry=29b250; map:25824
 VA_CHT_1(0x0069b250, 0x95)
 void t_local_pixel_mask_viewer::on_pixel_masks_changed()
 {

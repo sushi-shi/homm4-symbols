@@ -51,7 +51,11 @@ def apply_reviews(target, rows):
     """Apply manual vetoes/caps to exact identities; a review never promotes a tier."""
     filename = paths.maps(target, "reviews.tsv")
     unreviewed_d = paths.target_meta(target).get("unreviewed_function_tier") == "D"
-    if not os.path.exists(filename) and not unreviewed_d:
+    structural = {}
+    if paths.target_meta(target).get("vftable_function_recovery") and any(r.get('kind') == 'func' for r in rows.values()):
+        from vftable_functions import load_checked
+        structural = load_checked(target)
+    if not os.path.exists(filename) and not unreviewed_d and not structural:
         return rows
     with open(paths.exe(target), "rb") as f:
         actual = hashlib.file_digest(f, "sha256").hexdigest()
@@ -60,6 +64,19 @@ def apply_reviews(target, rows):
     reviews = read_tsv(filename) if os.path.exists(filename) else []
     seen = set()
     result = {rva: dict(row) for rva, row in rows.items()}
+    for rva, row in result.items():
+        certificate = structural.get((rva, row['map_id'], row['name']))
+        if row.get('kind') != 'func' or not certificate:
+            continue
+        row['tier'] = 'A'
+        # Regeneration may start from the published D map. Preserve its original
+        # alignment evidence, but remove the classification this certificate replaces.
+        parts = [p for p in row['evidence'].split(';')
+                 if p not in ('review-status=unreviewed', 'classification=D:not-a-best-guess')]
+        marker = 'vftable-certificate=' + certificate['rva'] + ':' + certificate['map_id']
+        if marker not in parts:
+            parts += [marker, certificate['evidence']]
+        row['evidence'] = ';'.join(parts)
     for review in reviews:
         if review["exe_sha256"] != actual:
             raise ValueError("manual review executable SHA-256 mismatch")
@@ -82,7 +99,8 @@ def apply_reviews(target, rows):
                 r["evidence"] = ";".join(filter(None, (r["evidence"], marker)))
     if unreviewed_d:
         for rva, r in result.items():
-            if r["kind"] == "func" and (rva, r["map_id"], r["name"]) not in seen:
+            key = (rva, r['map_id'], r['name'])
+            if r["kind"] == "func" and key not in seen and key not in structural:
                 r["tier"] = "D"
                 marker = "review-status=unreviewed;classification=D:not-a-best-guess"
                 if "review-status=unreviewed" not in r["evidence"].split(";"):
@@ -101,10 +119,17 @@ def write_names(target, rows):
           dict(sorted(Counter((r["kind"], r["tier"]) for r in rows.values()).items())), file=sys.stderr)
 
 
+def finish(target, rows):
+    if paths.target_meta(target).get('vftable_function_recovery') and any(r.get('kind') == 'func' for r in rows.values()):
+        from vftable_functions import main as recover
+        recover(target, [dict(r, rva=f'{rva:x}') for rva, r in rows.items()])
+    write_names(target, apply_reviews(target, rows))
+
+
 def main(target, structural_only=False, source=None, reviews_only=False):
     if reviews_only:
         rows = {int(r["rva"], 16): r for r in read_tsv(paths.maps(target, "names.tsv"))}
-        write_names(target, apply_reviews(target, rows))
+        finish(target, rows)
         return
     meta = paths.target_meta(target)
     if not structural_only and source is None and meta.get("source", "map") != "map":
@@ -179,7 +204,7 @@ def main(target, structural_only=False, source=None, reviews_only=False):
                      demangled="", method="manual", evidence=m.get("note", ""))
             rows[rva] = r
 
-    write_names(target, apply_reviews(target, rows))
+    finish(target, rows)
 
 
 def release_names(target, source):

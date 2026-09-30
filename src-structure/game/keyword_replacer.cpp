@@ -1,7 +1,7 @@
 // keyword_replacer.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 27/32 (A:0 B:1 C:0); unaccounted 5; skipped std 8.
+// Accounted 27/32 (A:1 B:1 C:0); unaccounted 5; skipped std 8.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -41,7 +41,7 @@ t_keyword_replacer::~t_keyword_replacer()
     // Body unavailable.
 }
 
-// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:27928
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=2de170:27928;class=t_keyword_replacer;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4ccb24,col=4f5878,offset=0,slot=1,entry=2de170; map:27928
 VA_CHT_1(0x006de170, 0x433)
 void t_keyword_replacer::add_material(int arg_0, t_material arg_1)
 {

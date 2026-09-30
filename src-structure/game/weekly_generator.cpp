@@ -1,7 +1,7 @@
 // weekly_generator.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\weekly_generator.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 55/98 (A:24 B:6 C:0); unaccounted 43; skipped std 1.
+// Accounted 55/98 (A:25 B:6 C:0); unaccounted 43; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -328,7 +328,7 @@ t_object_factory_with_type<t_weekly_generator>::t_object_factory_with_type<t_wee
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:40585
+// confidence:A; align-band; retn,vslot;vftable-certificate=435580:40585;class=t_object_factory_with_type<class t_weekly_generator>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4f0b40,col=51e4ac,offset=0,slot=0,entry=435580; map:40585
 VA_CHT_1(0x00835580, 0x6a)
 t_stationary_adventure_object* t_object_factory_with_type<t_weekly_generator>::create(
     std::string const& arg_0,

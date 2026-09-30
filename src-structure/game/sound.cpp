@@ -1,7 +1,7 @@
 // sound.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\sound.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 82/153 (A:42 B:1 C:0); unaccounted 71; skipped std 88.
+// Accounted 82/153 (A:46 B:1 C:0); unaccounted 71; skipped std 88.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -122,7 +122,7 @@ VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 
 namespace {
 
-// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:37634
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=3c91e0:37634;class=?%C:\work\game\sound.cpp3050522799::t_sound_thread;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=0;checked-rtti-and-raw-slots;vft=4ed334,col=51b5e8,offset=0,slot=1,entry=3c91e0; map:37634
 VA_CHT_1(0x007c91e0, 0x36)
 unsigned long t_sound_thread::run()
 {
@@ -138,7 +138,7 @@ t_sound_header::t_sound_header()
     // Body unavailable.
 }
 
-// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:37636
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=3c9240:37636;class=t_sound_header;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=4;checked-rtti-and-raw-slots;vft=4ed350,col=51b690,offset=0,slot=0,entry=3c9240; map:37636
 VA_CHT_1(0x007c9240, 0x15c)
 bool t_sound_header::read(std::basic_streambuf<char, std::char_traits<char>>& arg_0)
 {
@@ -242,7 +242,7 @@ void t_sound_player::set_balance(int arg_0)
     // Body unavailable.
 }
 
-// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:37650
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=3ca160:37650;class=?%C:\work\game\sound.cpp3050522799::t_sound_player;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4ed384,col=51b724,offset=0,slot=8,entry=3ca160; map:37650
 VA_CHT_1(0x007ca160, 0xdf)
 void t_sound_player::set_volume(int arg_0, bool arg_1)
 {
@@ -298,7 +298,7 @@ void t_sound_player::check_stop()
     // Body unavailable.
 }
 
-// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:37658
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=3ca6d0:37658;class=?%C:\work\game\sound.cpp3050522799::t_sound_player;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=12;checked-rtti-and-raw-slots;vft=4ed384,col=51b724,offset=0,slot=6,entry=3ca6d0; map:37658
 VA_CHT_1(0x007ca6d0, 0x22d)
 void t_sound_player::play(int arg_0, bool arg_1, bool arg_2)
 {

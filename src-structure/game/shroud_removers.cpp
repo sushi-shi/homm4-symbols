@@ -1,7 +1,7 @@
 // shroud_removers.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 117/182 (A:48 B:11 C:0); unaccounted 65; skipped std 3.
+// Accounted 117/182 (A:51 B:11 C:0); unaccounted 65; skipped std 3.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -454,7 +454,7 @@ t_object_factory<t_cartographer>::t_object_factory<t_cartographer>()
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:37185
+// confidence:A; align-band; retn,stable,vslot;vftable-certificate=3b2650:37185;class=t_object_factory<class t_cartographer>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4ec618,col=51ae8c,offset=0,slot=0,entry=3b2650; map:37185
 VA_CHT_1(0x007b2650, 0x14a)
 t_stationary_adventure_object* t_object_factory<t_cartographer>::create(
     std::string const& arg_0,
@@ -471,7 +471,7 @@ t_object_factory<t_magi_hut>::t_object_factory<t_magi_hut>()
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:37187
+// confidence:A; align-band; retn,stable,vslot;vftable-certificate=3b27a0:37187;class=t_object_factory<class t_magi_hut>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4ec620,col=51aed4,offset=0,slot=0,entry=3b27a0; map:37187
 VA_CHT_1(0x007b27a0, 0x14d)
 t_stationary_adventure_object* t_object_factory<t_magi_hut>::create(
     std::string const& arg_0,
@@ -488,7 +488,7 @@ t_object_factory<t_tower>::t_object_factory<t_tower>()
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:37189
+// confidence:A; align-band; retn,stable,vslot;vftable-certificate=3b28f0:37189;class=t_object_factory<class t_tower>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4ec628,col=51af1c,offset=0,slot=0,entry=3b28f0; map:37189
 VA_CHT_1(0x007b28f0, 0x14a)
 t_stationary_adventure_object* t_object_factory<t_tower>::create(
     std::string const& arg_0,

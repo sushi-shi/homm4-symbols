@@ -1,7 +1,7 @@
 // hire_hero_dialog.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 116/196 (A:60 B:6 C:0); unaccounted 80; skipped std 6.
+// Accounted 116/196 (A:61 B:6 C:0); unaccounted 80; skipped std 6.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -334,7 +334,7 @@ t_add_2nd_handler_1<t_button*, bool>::t_add_2nd_handler_1<t_button*, bool>(
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:27514
+// confidence:A; align-band; retn,stable,vslot;vftable-certificate=2d78a0:27514;class=t_add_2nd_handler_1<class t_button *, bool>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=4;checked-rtti-and-raw-slots;vft=4e383c,col=50d298,offset=8,slot=1,entry=2d78a0; map:27514
 VA_CHT_1(0x006d78a0, 0x1e)
 void t_add_2nd_handler_1<t_button*, bool>::operator()(t_button* arg_0)
 {

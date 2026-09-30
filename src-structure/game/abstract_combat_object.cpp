@@ -260,7 +260,7 @@ void t_abstract_combat_object::clear_fader()
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:1435
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=f1c0:1435;class=t_abstract_combat_object;proof=reviewed-identity-and-runtime-vftable;cleanup=8;checked-rtti-and-raw-slots;vft=4cb7c4,col=4f3fec,offset=0,slot=34,entry=f1c0;manual-review=complete-F00135; map:1435
 VA_CHT_1(0x0040f1c0, 0x22)
 void t_abstract_combat_object::set_alpha(t_battlefield& arg_0, int arg_1)
 {

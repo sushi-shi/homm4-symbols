@@ -1,7 +1,7 @@
 // object_registration.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\object_registration.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 18/46 (A:6 B:0 C:0); unaccounted 28; skipped std 48.
+// Accounted 18/46 (A:7 B:0 C:0); unaccounted 28; skipped std 48.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -242,7 +242,7 @@ t_function_entry::~t_function_entry()
 
 } // anonymous namespace
 
-// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:31029
+// confidence:A; align-band; retn,stable,vslot;vftable-certificate=348800:31029;class=t_object_factory<class t_stationary_adventure_object>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4e68a4,col=5112a8,offset=0,slot=0,entry=348800; map:31029
 VA_CHT_1(0x00748800, 0xf7)
 t_stationary_adventure_object* t_object_factory<t_stationary_adventure_object>::create(
     std::string const& arg_0,

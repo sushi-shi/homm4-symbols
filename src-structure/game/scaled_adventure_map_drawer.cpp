@@ -1,7 +1,7 @@
 // scaled_adventure_map_drawer.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\scaled_adventure_map_drawer.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 22/39 (A:6 B:0 C:0); unaccounted 17; skipped std 1.
+// Accounted 22/39 (A:8 B:0 C:0); unaccounted 17; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -47,7 +47,7 @@ t_scaled_adventure_map_drawer::t_impl::t_impl(t_abstract_adventure_map const& ar
     // Body unavailable.
 }
 
-// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:33529
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=386eb0:33529;class=t_scaled_adventure_map_drawer::t_impl;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4e9b6c,col=514968,offset=0,slot=0,entry=386eb0; map:33529
 VA_CHT_1(0x00786eb0, 0x2c)
 t_shared_ptr<t_abstract_bitmap<unsigned short>> t_scaled_adventure_map_drawer::t_impl::create_back_buffer(
     t_screen_point const& arg_0
@@ -56,7 +56,7 @@ t_shared_ptr<t_abstract_bitmap<unsigned short>> t_scaled_adventure_map_drawer::t
     // Body unavailable.
 }
 
-// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:33530
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=386ee0:33530;class=t_scaled_adventure_map_drawer::t_impl;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=4;checked-rtti-and-raw-slots;vft=4e9b6c,col=514968,offset=0,slot=1,entry=386ee0; map:33530
 VA_CHT_1(0x00786ee0, 0x29)
 void t_scaled_adventure_map_drawer::t_impl::on_rects_dirtied(
     std::vector<t_screen_rect, std::allocator<t_screen_rect>> const& arg_0

@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "target": "complete-3.0",
+  "inputs": {
+    "symbols": "da670fe38f1b9361fef9f811629869152c5e7b7d57f66d31b6417ae5b7157654",
+    "exe": "2eb82f32ab744ad7c272e32a950adcef3f20d8ab27572023f1084fd6519f61f2",
+    "target": "fa699dedf1e0bc1d252322d357cc99096469acb207f86ec2eb6d926a088c6210",
+    "functions": "8ad87846aa280e84dfbc83d0decb7ccf84da8fc3ad42bc57cfc691d9c59dd966",
+    "classes": "412d60b43c6dadaa7150b5aec7371ad93a570025bd27da07282ada15794283a8",
+    "vftables": "49735d3eb15c43e101bfeabc982add90f70a8efe599efff03d027b1497bc54ad",
+    "reviews": "4b1bc113d51f57333f5c6862d5c930902cac516d434a728e5dce78f5a990fbd7",
+    "vftable_functions.py": "32bd264225d81044d16160bd657cde6726353ee81111e2c867f376f61c4a84ed",
+    "align.py": "2c028261930df560cb9b3bdfe14af5ac6af4a24d8289a8af2acf12be89721d20",
+    "sig.py": "05d57ce3f6dcea12a9d62e813c9236d0270c070bfa26c2193d26d58bfc3152fa",
+    "rtti_join.py": "de2a02e2b6445060ebd88635a4184906c23f6b2ea925ccc90630bd7b72d9d070",
+    "release_align.py": "172236c0022f332f52dcc72452fc2625c74b468eaedb9de718d536c58b414071",
+    "match_vftables.py": "840e430e3b64897a887f41d478851672749ecf6de36103ee93795d0ffb78f3de",
+    "source_certificates": "1935dd624f8e76fa32ef84f4b08fe1633648a6f52970831dbeec80d215fbaaab",
+    "source_manifest": "fc0c4ffb6f9e362106d77b071df8e89c3eabac4d99608ef16ae06fd5fa6a297c",
+    "source_names": "7e9b3d5c7b14ff2e49024d59fcdaabbcffa447d338ee6c66bb155eb1ef3eb858",
+    "pairs": "c52b5dd405ca91c1f2260296fef8cbbaaaaf444919bcfa0820ead1a76407f567",
+    "heldout_pairs": "4d034f3baf06b516d3ac1ab0040cabaa1b4fbb9f73c137331b681939bb4975e4"
+  },
+  "certificates_sha256": "45414f29b43165bf00e0e9929bc86916b52388dc64fcbaebc3c2fe4b59a87f76",
+  "count": 116,
+  "excluded": {
+    "ambiguous-debug-method-signature": 434,
+    "ambiguous-retail-slot-body": 13,
+    "folded-thunk-or-deleting-body": 17,
+    "insufficient-stable-assembly-match": 56,
+    "manual-veto-or-cap": 15,
+    "membership-or-cleanup-mismatch": 51,
+    "multiple-slots-share-body": 6,
+    "not-an-ordinary-virtual-method": 3719,
+    "source-without-A-certificate": 1,
+    "unvalidated-class-tables": 397
+  },
+  "meaning": "Structural A evidence, not manual review or measured precision; debug virtual declarations may differ by build."
+}

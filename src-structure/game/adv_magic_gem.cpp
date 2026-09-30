@@ -1,7 +1,7 @@
 // adv_magic_gem.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\adv_magic_gem.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 31/54 (A:12 B:3 C:0); unaccounted 23; skipped std 1.
+// Accounted 31/54 (A:13 B:3 C:0); unaccounted 23; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -181,7 +181,7 @@ t_object_factory_with_type<t_adv_magic_gem>::t_object_factory_with_type<t_adv_ma
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:4775
+// confidence:A; align-band; retn,stable,vslot;vftable-certificate=3f3e0:4775;class=t_object_factory_with_type<class t_adv_magic_gem>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4d00cc,col=4f79f0,offset=0,slot=0,entry=3f3e0; map:4775
 VA_CHT_1(0x0043f3e0, 0x67)
 t_stationary_adventure_object* t_object_factory_with_type<t_adv_magic_gem>::create(
     std::string const& arg_0,

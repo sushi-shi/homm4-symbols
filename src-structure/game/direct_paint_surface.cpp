@@ -1,7 +1,7 @@
 // direct_paint_surface.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 20/33 (A:14 B:0 C:0); unaccounted 13; skipped std 1.
+// Accounted 20/33 (A:16 B:0 C:0); unaccounted 13; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -23,14 +23,14 @@ t_direct_paint_surface::t_direct_paint_surface(
     // Body unavailable.
 }
 
-// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:25750
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=299270:25750;class=t_direct_paint_surface;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=4;checked-rtti-and-raw-slots;vft=4e121c,col=50b5ec,offset=0,slot=3,entry=299270; map:25750
 VA_CHT_1(0x00699270, 0xe8)
 t_shared_ptr<t_abstract_bitmap<unsigned short>> t_direct_paint_surface::get_bitmap()
 {
     // Body unavailable.
 }
 
-// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:25751
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=299360:25751;class=t_direct_paint_surface;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=0;checked-rtti-and-raw-slots;vft=4e121c,col=50b5ec,offset=0,slot=1,entry=299360; map:25751
 VA_CHT_1(0x00699360, 0xb5)
 void t_direct_paint_surface::copy_buffer()
 {

@@ -1,7 +1,7 @@
 // mp3_stream.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\mp3_stream.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 26/57 (A:18 B:0 C:0); unaccounted 31; skipped std 0.
+// Accounted 26/57 (A:19 B:0 C:0); unaccounted 31; skipped std 0.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -87,7 +87,7 @@ t_mp3_stream::~t_mp3_stream()
     // Body unavailable.
 }
 
-// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:30366
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=32ad40:30366;class=t_mp3_stream;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4e632c,col=510788,offset=0,slot=1,entry=32ad40; map:30366
 VA_CHT_1(0x0072ad40, 0x2a)
 int t_mp3_stream::read(void* arg_0, unsigned long arg_1)
 {

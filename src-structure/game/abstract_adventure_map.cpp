@@ -344,7 +344,7 @@ bool t_abstract_adventure_map::is_valid_view_cell(int arg_0, t_screen_point cons
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:392
+// confidence:A; align-order; retn,vslot;vftable-certificate=6170:392;class=t_abstract_adventure_map;proof=reviewed-identity-and-runtime-vftable;cleanup=4;checked-rtti-and-raw-slots;vft=4cb5a4,col=4f3d1c,offset=0,slot=18,entry=6170;manual-review=complete-F00066; map:392
 VA_CHT_1(0x00406170, 0x29f)
 void t_abstract_adventure_map::stamp_object(int arg_0)
 {

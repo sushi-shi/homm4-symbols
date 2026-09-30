@@ -85,7 +85,7 @@ bool t_adv_object_model_base_base::are_any_cells_flat() const
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:5065
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=463c0:5065;class=t_adv_object_model_base_base;proof=reviewed-identity-and-runtime-vftable;cleanup=0;checked-rtti-and-raw-slots;vft=4d0fd4,col=4f8120,offset=0,slot=2,entry=463c0;manual-review=complete-R24; map:5065
 VA_CHT_1(0x004463c0, 0x1e)
 bool t_adv_object_model_base_base::are_any_cells_impassable() const
 {

@@ -1,7 +1,7 @@
 // combat_ai_ranged_area_action.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 13/23 (A:0 B:0 C:0); unaccounted 10; skipped std 1.
+// Accounted 13/23 (A:2 B:0 C:0); unaccounted 10; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -70,14 +70,14 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "combat_ai_ranged_are
 // confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:67987; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x005b9670, 0xa, STATIC_DTOR, "combat_ai_ranged_area_action#8")
 
-// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:20212
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=1b9680:20212;class=t_combat_ai_ranged_area_action;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=4;checked-rtti-and-raw-slots;vft=4dc0ac,col=503830,offset=0,slot=2,entry=1b9680; map:20212
 VA_CHT_1(0x005b9680, 0x114)
 void t_combat_ai_ranged_area_action::weigh_action(t_combat_ai const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:20213
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=1b97a0:20213;class=t_combat_ai_ranged_area_action;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=0;checked-rtti-and-raw-slots;vft=4dc0ac,col=503830,offset=0,slot=1,entry=1b97a0; map:20213
 VA_CHT_1(0x005b97a0, 0x84)
 void t_combat_ai_ranged_area_action::perform_action()
 {

@@ -1,7 +1,7 @@
 // sanctuary.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\sanctuary.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 91/149 (A:35 B:9 C:0); unaccounted 58; skipped std 1.
+// Accounted 91/149 (A:37 B:9 C:0); unaccounted 58; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -387,7 +387,7 @@ t_object_factory<t_sanctuary>::t_object_factory<t_sanctuary>()
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:33449
+// confidence:A; align-band; retn,stable,vslot;vftable-certificate=384340:33449;class=t_object_factory<class t_sanctuary>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4e9684,col=514634,offset=0,slot=0,entry=384340; map:33449
 VA_CHT_1(0x00784340, 0x65)
 t_stationary_adventure_object* t_object_factory<t_sanctuary>::create(
     std::string const& arg_0,
@@ -404,7 +404,7 @@ t_object_factory<t_sea_sanctuary>::t_object_factory<t_sea_sanctuary>()
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:33451
+// confidence:A; align-band; retn,stable,vslot;vftable-certificate=3843b0:33451;class=t_object_factory<class t_sea_sanctuary>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4e968c,col=51467c,offset=0,slot=0,entry=3843b0; map:33451
 VA_CHT_1(0x007843b0, 0x65)
 t_stationary_adventure_object* t_object_factory<t_sea_sanctuary>::create(
     std::string const& arg_0,

@@ -1,7 +1,7 @@
 // combat_obstruction_finder.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\combat_obstruction_finder.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 30/45 (A:14 B:0 C:0); unaccounted 15; skipped std 27.
+// Accounted 30/45 (A:15 B:0 C:0); unaccounted 15; skipped std 27.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -78,7 +78,7 @@ void t_combat_obstruction_finder::initialize()
     // Body unavailable.
 }
 
-// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:21407
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=1da050:21407;class=t_combat_obstruction_finder;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=0;checked-rtti-and-raw-slots;vft=4dc954,col=504720,offset=0,slot=0,entry=1da050; map:21407
 VA_CHT_1(0x005da050, 0x233)
 void t_combat_obstruction_finder::generate_paths()
 {

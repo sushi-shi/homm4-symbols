@@ -1,7 +1,7 @@
 // adv_temple.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\adv_temple.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 52/83 (A:24 B:6 C:0); unaccounted 31; skipped std 1.
+// Accounted 52/83 (A:25 B:6 C:0); unaccounted 31; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -218,7 +218,7 @@ t_object_factory<t_adv_temple>::t_object_factory<t_adv_temple>()
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:6117
+// confidence:A; align-band; retn,stable,vslot;vftable-certificate=6c080:6117;class=t_object_factory<class t_adv_temple>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4d2714,col=4f9204,offset=0,slot=0,entry=6c080; map:6117
 VA_CHT_1(0x0046c080, 0x62)
 t_stationary_adventure_object* t_object_factory<t_adv_temple>::create(
     std::string const& arg_0,

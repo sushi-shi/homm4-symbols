@@ -1,7 +1,7 @@
 // adv_mages_chest.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 90/158 (A:48 B:8 C:0); unaccounted 68; skipped std 1.
+// Accounted 90/158 (A:52 B:8 C:0); unaccounted 68; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -275,7 +275,7 @@ t_object_factory<t_adv_mages_chest>::t_object_factory<t_adv_mages_chest>()
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:4717
+// confidence:A; align-band; retn,stable,vslot;vftable-certificate=3e320:4717;class=t_object_factory<class t_adv_mages_chest>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4cf89c,col=4f755c,offset=0,slot=0,entry=3e320; map:4717
 VA_CHT_1(0x0043e320, 0x62)
 t_stationary_adventure_object* t_object_factory<t_adv_mages_chest>::create(
     std::string const& arg_0,
@@ -292,7 +292,7 @@ t_object_factory<t_adv_shipwreck_survivor>::t_object_factory<t_adv_shipwreck_sur
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:4719
+// confidence:A; align-band; retn,stable,vslot;vftable-certificate=3e390:4719;class=t_object_factory<class t_adv_shipwreck_survivor>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4cfa38,col=4f7644,offset=0,slot=0,entry=3e390; map:4719
 VA_CHT_1(0x0043e390, 0xe6)
 t_stationary_adventure_object* t_object_factory<t_adv_shipwreck_survivor>::create(
     std::string const& arg_0,
@@ -334,7 +334,7 @@ t_object_factory<t_adv_travelers_backpack>::t_object_factory<t_adv_travelers_bac
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:4726
+// confidence:A; align-band; retn,stable,vslot;vftable-certificate=3e510:4726;class=t_object_factory<class t_adv_travelers_backpack>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4cfa40,col=4f768c,offset=0,slot=0,entry=3e510; map:4726
 VA_CHT_1(0x0043e510, 0xe6)
 t_stationary_adventure_object* t_object_factory<t_adv_travelers_backpack>::create(
     std::string const& arg_0,
@@ -376,7 +376,7 @@ t_object_factory<t_adv_skeleton>::t_object_factory<t_adv_skeleton>()
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:4733
+// confidence:A; align-band; retn,stable,vslot;vftable-certificate=3e690:4733;class=t_object_factory<class t_adv_skeleton>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4cfa48,col=4f76d4,offset=0,slot=0,entry=3e690; map:4733
 VA_CHT_1(0x0043e690, 0xe6)
 t_stationary_adventure_object* t_object_factory<t_adv_skeleton>::create(
     std::string const& arg_0,

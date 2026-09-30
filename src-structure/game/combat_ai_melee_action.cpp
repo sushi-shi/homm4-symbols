@@ -1,7 +1,7 @@
 // combat_ai_melee_action.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 37/70 (A:6 B:0 C:0); unaccounted 33; skipped std 1.
+// Accounted 37/70 (A:8 B:0 C:0); unaccounted 33; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -80,7 +80,7 @@ static t_abstract_combat_object* get_attackable_obstacle(
     // Body unavailable.
 }
 
-// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:20166
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=1b66b0:20166;class=t_combat_ai_melee_action;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=4;checked-rtti-and-raw-slots;vft=4dc0ec,col=5039a8,offset=0,slot=2,entry=1b66b0; map:20166
 VA_CHT_1(0x005b66b0, 0x73)
 void t_combat_ai_melee_action::weigh_action(t_combat_ai const& arg_0)
 {
@@ -132,7 +132,7 @@ static double get_zoc_add_value(
     // Body unavailable.
 }
 
-// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:20168
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=1b6dd0:20168;class=t_combat_ai_melee_action;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=0;checked-rtti-and-raw-slots;vft=4dc0ec,col=5039a8,offset=0,slot=1,entry=1b6dd0; map:20168
 VA_CHT_1(0x005b6dd0, 0x60e)
 void t_combat_ai_melee_action::perform_action()
 {

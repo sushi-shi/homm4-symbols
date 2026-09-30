@@ -1,7 +1,7 @@
 // adv_dwelling.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\adv_dwelling.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 189/265 (A:33 B:9 C:0); unaccounted 76; skipped std 25.
+// Accounted 189/265 (A:35 B:9 C:0); unaccounted 76; skipped std 25.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -597,7 +597,7 @@ t_object_factory_with_type<t_adv_dwelling>::t_object_factory_with_type<t_adv_dwe
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:4341
+// confidence:A; align-band; retn,vslot;vftable-certificate=39440:4341;class=t_object_factory_with_type<class t_adv_dwelling>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4ceac8,col=4f6e00,offset=0,slot=0,entry=39440; map:4341
 VA_CHT_1(0x00439440, 0x6a)
 t_stationary_adventure_object* t_object_factory_with_type<t_adv_dwelling>::create(
     std::string const& arg_0,
@@ -614,7 +614,7 @@ t_object_factory<t_random_adv_dwelling>::t_object_factory<t_random_adv_dwelling>
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:4343
+// confidence:A; align-band; retn,vslot;vftable-certificate=394b0:4343;class=t_object_factory<class t_random_adv_dwelling>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4cead0,col=4f6e48,offset=0,slot=0,entry=394b0; map:4343
 VA_CHT_1(0x004394b0, 0x65)
 t_stationary_adventure_object* t_object_factory<t_random_adv_dwelling>::create(
     std::string const& arg_0,

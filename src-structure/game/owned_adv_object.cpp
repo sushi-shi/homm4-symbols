@@ -37,7 +37,7 @@ bool t_owned_adv_object::write(std::basic_streambuf<char, std::char_traits<char>
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:31606
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=356bb0:31606;class=t_owned_adv_object;proof=reviewed-identity-and-runtime-vftable;cleanup=12;checked-rtti-and-raw-slots;vft=4cbd1c,col=4f443c,offset=0,slot=41,entry=356bb0;manual-review=complete-R03; map:31606
 VA_CHT_1(0x00756bb0, 0x4c)
 bool t_owned_adv_object::read(
     std::basic_streambuf<char, std::char_traits<char>>& arg_0,

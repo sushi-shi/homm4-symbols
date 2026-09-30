@@ -1,7 +1,7 @@
 // beastmaster_hut.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\beastmaster_hut.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 54/92 (A:25 B:6 C:0); unaccounted 38; skipped std 7.
+// Accounted 54/92 (A:27 B:6 C:0); unaccounted 38; skipped std 7.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -110,7 +110,7 @@ void t_beastmaster_hut::place(t_adventure_map& arg_0, t_adv_map_point const& arg
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:17918
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=16e9c0:17918;class=t_beastmaster_hut;proof=reviewed-identity-and-runtime-vftable;cleanup=4;checked-rtti-and-raw-slots;vft=4d76a4,col=5014c4,offset=0,slot=43,entry=16e9c0;manual-review=complete-R05; map:17918
 VA_CHT_1(0x0056e9c0, 0x4e)
 bool t_beastmaster_hut::write(std::basic_streambuf<char, std::char_traits<char>>& arg_0) const
 {
@@ -274,7 +274,7 @@ t_object_factory<t_beastmaster_hut>::t_object_factory<t_beastmaster_hut>()
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:17946
+// confidence:A; align-band; retn,stable,vslot;vftable-certificate=16ec60:17946;class=t_object_factory<class t_beastmaster_hut>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4d75cc,col=501468,offset=0,slot=0,entry=16ec60; map:17946
 VA_CHT_1(0x0056ec60, 0x14a)
 t_stationary_adventure_object* t_object_factory<t_beastmaster_hut>::create(
     std::string const& arg_0,
@@ -291,7 +291,7 @@ t_object_factory<t_witch_hut>::t_object_factory<t_witch_hut>()
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:17948
+// confidence:A; align-band; retn,stable,vslot;vftable-certificate=16edd0:17948;class=t_object_factory<class t_witch_hut>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4d75d4,col=5014b0,offset=0,slot=0,entry=16edd0; map:17948
 VA_CHT_1(0x0056edd0, 0x14a)
 t_stationary_adventure_object* t_object_factory<t_witch_hut>::create(
     std::string const& arg_0,

@@ -6,7 +6,8 @@
   "image_base": "0x400000",
   "address_tag": "COMPLETE_3",
   "source": "cht-1.x",
-  "mapping_scope": "checked map RTTI/vftables (A), reviewed CHT retail function transfers (B/C), unreviewed function proposals (D; not a best guess)",
+  "mapping_scope": "checked map RTTI/vftables and certified virtual functions (A), reviewed CHT retail function transfers (B/C), remaining unreviewed function proposals (D; not a best guess)",
   "padded_scan_end_rva": "4fa51b",
-  "unreviewed_function_tier": "D"
+  "unreviewed_function_tier": "D",
+  "vftable_function_recovery": true
 }

@@ -1,7 +1,7 @@
 // dialog_view_world.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\dialog_view_world.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 184/338 (A:97 B:5 C:2); unaccounted 154; skipped std 30.
+// Accounted 184/338 (A:99 B:5 C:2); unaccounted 154; skipped std 30.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -901,7 +901,7 @@ t_icon_window_factory<t_flagged_icon_window>::t_icon_window_factory<t_flagged_ic
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:25610
+// confidence:A; align-band; retn,stable,vslot;vftable-certificate=296600:25610;class=?%C:\work\game\dialog_view_world.cpp2665922054::t_icon_window_factory<class ?%C:\work\game\dialog_view_world.cpp2665922054::t_flagged_icon_window>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=16;checked-rtti-and-raw-slots;vft=4e10f4,col=50b1b4,offset=0,slot=0,entry=296600; map:25610
 VA_CHT_1(0x00696600, 0x7d)
 t_counted_ptr<t_window> t_icon_window_factory<t_flagged_icon_window>::create(
     t_screen_point const& arg_0,
@@ -921,7 +921,7 @@ t_icon_window_factory<t_simple_icon_window>::t_icon_window_factory<t_simple_icon
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:25612
+// confidence:A; align-band; retn,stable,vslot;vftable-certificate=2966a0:25612;class=?%C:\work\game\dialog_view_world.cpp2665922054::t_icon_window_factory<class ?%C:\work\game\dialog_view_world.cpp2665922054::t_simple_icon_window>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=16;checked-rtti-and-raw-slots;vft=4e10fc,col=50b1fc,offset=0,slot=0,entry=2966a0; map:25612
 VA_CHT_1(0x006966a0, 0xf5)
 t_counted_ptr<t_window> t_icon_window_factory<t_simple_icon_window>::create(
     t_screen_point const& arg_0,

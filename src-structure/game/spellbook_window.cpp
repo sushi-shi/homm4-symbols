@@ -1,7 +1,7 @@
 // spellbook_window.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\spellbook_window.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 195/322 (A:84 B:6 C:0); unaccounted 127; skipped std 41.
+// Accounted 195/322 (A:86 B:6 C:0); unaccounted 127; skipped std 41.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -146,7 +146,7 @@ t_spell_func::t_spell_func(bool (* arg_0)(t_spell))
     // Body unavailable.
 }
 
-// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:38133
+// confidence:A; align-order; retn,vslot;vftable-certificate=3d55c0:38133;class=?%C:\work\game\spellbook_window.cpp3053824401::t_spell_func;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=4;checked-rtti-and-raw-slots;vft=4ede8c,col=51c12c,offset=0,slot=0,entry=3d55c0; map:38133
 VA_CHT_1(0x007d55c0, 0xc)
 bool t_spell_func::operator()(t_spell arg_0) const
 {
@@ -160,7 +160,7 @@ t_school_tester::t_school_tester(t_town_type arg_0)
     // Body unavailable.
 }
 
-// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:38135
+// confidence:A; align-order; retn,vslot;vftable-certificate=3d55d0:38135;class=?%C:\work\game\spellbook_window.cpp3053824401::t_school_tester;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=4;checked-rtti-and-raw-slots;vft=4ede94,col=51c174,offset=0,slot=0,entry=3d55d0; map:38135
 VA_CHT_1(0x007d55d0, 0x1c)
 bool t_school_tester::operator()(t_spell arg_0) const
 {

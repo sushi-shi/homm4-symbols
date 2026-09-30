@@ -1,7 +1,7 @@
 // attack.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\attack.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 202/370 (A:101 B:13 C:0); unaccounted 168; skipped std 23.
+// Accounted 202/370 (A:108 B:13 C:0); unaccounted 168; skipped std 23.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -96,7 +96,7 @@ t_devour_end::t_devour_end(
     // Body unavailable.
 }
 
-// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:15465
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=139f80:15465;class=?%C:\work\game\attack.cpp918729843::t_devour_end;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=4;checked-rtti-and-raw-slots;vft=4d6b54,col=4ff15c,offset=8,slot=1,entry=139f80; map:15465
 VA_CHT_1(0x00539f80, 0x54)
 void t_devour_end::operator()(t_window* arg_0)
 {
@@ -110,7 +110,7 @@ t_devour::t_devour(t_battlefield& arg_0, t_combat_creature& arg_1, t_combat_crea
     // Body unavailable.
 }
 
-// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:15467
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=139fe0:15467;class=?%C:\work\game\attack.cpp918729843::t_devour;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=0;checked-rtti-and-raw-slots;vft=4d6b7c,col=4ff1c0,offset=8,slot=1,entry=139fe0; map:15467
 VA_CHT_1(0x00539fe0, 0x16f)
 void t_devour::operator()()
 {
@@ -130,14 +130,14 @@ t_fire_shield::t_fire_shield(
     // Body unavailable.
 }
 
-// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:15469
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=13a4a0:15469;class=?%C:\work\game\attack.cpp918729843::t_fire_shield;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=4;checked-rtti-and-raw-slots;vft=4d6b9c,col=4ff1d4,offset=0,slot=1,entry=13a4a0; map:15469
 VA_CHT_1(0x0053a4a0, 0x10c)
 void t_fire_shield::execute(t_window* arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:15470
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=13a5b0:15470;class=?%C:\work\game\attack.cpp918729843::t_fire_shield;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=0;checked-rtti-and-raw-slots;vft=4d6b90,col=4ff240,offset=8,slot=1,entry=13a5b0; map:15470
 VA_CHT_1(0x0053a5b0, 0x168)
 void t_fire_shield::operator()()
 {
@@ -242,7 +242,7 @@ static void check_magic_damage(
 
 namespace {
 
-// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:15475
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=13c390:15475;class=?%C:\work\game\attack.cpp918729843::t_vampirism;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=4;checked-rtti-and-raw-slots;vft=4d6bc0,col=4ff2f0,offset=8,slot=1,entry=13c390; map:15475
 VA_CHT_1(0x0053c390, 0x26)
 void t_vampirism::operator()(t_window* arg_0)
 {
@@ -776,7 +776,7 @@ t_add_handler<t_counted_ptr<t_combat_creature>>::t_add_handler<t_counted_ptr<t_c
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:15565
+// confidence:A; align-band; retn,stable,vslot;vftable-certificate=13cf70:15565;class=t_add_handler<class t_counted_ptr<class t_combat_creature>>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=0;checked-rtti-and-raw-slots;vft=4d6c28,col=4ff54c,offset=8,slot=1,entry=13cf70; map:15565
 VA_CHT_1(0x0053cf70, 0x8c)
 void t_add_handler<t_counted_ptr<t_combat_creature>>::operator()()
 {
@@ -833,7 +833,7 @@ t_add_1st_handler_1<t_counted_ptr<t_combat_creature>, int>::t_add_1st_handler_1<
     // Body unavailable.
 }
 
-// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:15571
+// confidence:A; align-band; retn,stable,vslot;vftable-certificate=13d1a0:15571;class=t_add_1st_handler_1<class t_counted_ptr<class t_combat_creature>, int>;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=4;checked-rtti-and-raw-slots;vft=4d6c90,col=4ff7f0,offset=8,slot=1,entry=13d1a0; map:15571
 VA_CHT_1(0x0053d1a0, 0x9f)
 void t_add_1st_handler_1<t_counted_ptr<t_combat_creature>, int>::operator()(int arg_0)
 {

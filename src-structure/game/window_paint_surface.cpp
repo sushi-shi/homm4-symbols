@@ -1,7 +1,7 @@
 // window_paint_surface.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 19/24 (A:12 B:0 C:0); unaccounted 5; skipped std 1.
+// Accounted 19/24 (A:14 B:0 C:0); unaccounted 5; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -23,14 +23,14 @@ t_window_paint_surface::t_window_paint_surface(
     // Body unavailable.
 }
 
-// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:40658
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=438420:40658;class=t_window_paint_surface;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=4;checked-rtti-and-raw-slots;vft=4f0f2c,col=51e728,offset=0,slot=3,entry=438420; map:40658
 VA_CHT_1(0x00838420, 0x30)
 t_shared_ptr<t_abstract_bitmap<unsigned short>> t_window_paint_surface::get_bitmap()
 {
     // Body unavailable.
 }
 
-// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:40659
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=438450:40659;class=t_window_paint_surface;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=0;checked-rtti-and-raw-slots;vft=4f0f2c,col=51e728,offset=0,slot=1,entry=438450; map:40659
 VA_CHT_1(0x00838450, 0x9e)
 void t_window_paint_surface::copy_buffer()
 {

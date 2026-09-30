@@ -7,5 +7,6 @@
   "address_tag": "CHT_1",
   "funclets_rva": "46366e",
   "source": "map",
-  "unreviewed_function_tier": "D"
+  "unreviewed_function_tier": "D",
+  "vftable_function_recovery": true
 }

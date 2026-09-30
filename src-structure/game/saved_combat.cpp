@@ -1,7 +1,7 @@
 // saved_combat.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 38/56 (A:8 B:0 C:0); unaccounted 18; skipped std 1.
+// Accounted 38/56 (A:9 B:0 C:0); unaccounted 18; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -205,7 +205,7 @@ void t_combat_context_adv_object::on_combat_end(t_combat_result arg_0)
     // Body unavailable.
 }
 
-// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:33488
+// confidence:A; align-order; retn,stable,vslot;vftable-certificate=385200:33488;class=t_combat_context_adv_object;proof=unique-hierarchy-method-and-slot-cleanup;cleanup=8;checked-rtti-and-raw-slots;vft=4e9ae8,col=5148f0,offset=0,slot=4,entry=385200; map:33488
 VA_CHT_1(0x00785200, 0x24c)
 bool t_combat_context_adv_object::read(
     std::basic_streambuf<char, std::char_traits<char>>& arg_0,
