@@ -1,7 +1,7 @@
 // scaled_adventure_map_drawer.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\scaled_adventure_map_drawer.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 22/39 (A:13 B:5 C:4); unaccounted 17; skipped std 1.
+// Accounted 22/39 (A:6 B:0 C:0); unaccounted 17; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,13 +10,13 @@
 
 // === .text (33 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:63301; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:63301; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00786cd0, 0x15, STATIC_INIT_DISPATCH, "scaled_adventure_map_drawer#1")
 
 // name:C; dyninit; see ledger; map:63302
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "scaled_adventure_map_drawer#1")
 
-// confidence:A; dyninit-init; owner-conf-C; map:63303; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:63303; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00786cf0, 0x10, STATIC_INIT_DISPATCH, "scaled_adventure_map_drawer#2")
 
 // name:C; dyninit; see ledger; map:63304
@@ -24,7 +24,7 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "scaled_adventure_map_d
 
 namespace {
 
-// confidence:B; align-order; retn,stable; map:33527
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:33527
 VA_CHT_1(0x00786d00, 0xac)
 void scaled_blt(
     t_abstract_bitmap<unsigned short> const& arg_0,
@@ -40,14 +40,14 @@ void scaled_blt(
 
 } // anonymous namespace
 
-// confidence:A; align-order; retn,stable,vptr; map:33528
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:33528
 VA_CHT_1(0x00786db0, 0xff)
 t_scaled_adventure_map_drawer::t_impl::t_impl(t_abstract_adventure_map const& arg_0, int arg_1, int arg_2)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:33529
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:33529
 VA_CHT_1(0x00786eb0, 0x2c)
 t_shared_ptr<t_abstract_bitmap<unsigned short>> t_scaled_adventure_map_drawer::t_impl::create_back_buffer(
     t_screen_point const& arg_0
@@ -56,7 +56,7 @@ t_shared_ptr<t_abstract_bitmap<unsigned short>> t_scaled_adventure_map_drawer::t
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:33530
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:33530
 VA_CHT_1(0x00786ee0, 0x29)
 void t_scaled_adventure_map_drawer::t_impl::on_rects_dirtied(
     std::vector<t_screen_rect, std::allocator<t_screen_rect>> const& arg_0
@@ -65,7 +65,7 @@ void t_scaled_adventure_map_drawer::t_impl::on_rects_dirtied(
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:33531
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:33531
 VA_CHT_1(0x00786f10, 0x63)
 t_scaled_adventure_map_drawer::t_scaled_adventure_map_drawer(
     t_abstract_adventure_map const& arg_0,
@@ -83,35 +83,35 @@ t_scaled_adventure_map_drawer::~t_scaled_adventure_map_drawer()
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:33533
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:33533
 VA_CHT_1(0x00786f80, 0x8c)
 int t_scaled_adventure_map_drawer::get_team_view() const
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:33534
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:33534
 VA_CHT_1(0x00787010, 0xa)
 int t_scaled_adventure_map_drawer::get_view_level() const
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:33535
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:33535
 VA_CHT_1(0x00787020, 0xa)
 void t_scaled_adventure_map_drawer::set_team_view(int arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:33536
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:33536
 VA_CHT_1(0x00787030, 0xa)
 void t_scaled_adventure_map_drawer::set_view_level(int arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:33537
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:33537
 VA_CHT_1(0x00787040, 0x1b6)
 void t_scaled_adventure_map_drawer::operator()(
     t_scaled_adventure_map_drawer::t_scale arg_0,
@@ -151,26 +151,26 @@ t_screen_rect scale(t_screen_rect const& arg_0, t_scaled_adventure_map_drawer::t
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:33542
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:33542
 VA_CHT_1(0x00787200, 0x20)
 t_screen_point unscale(t_screen_point const& arg_0, t_scaled_adventure_map_drawer::t_scale arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:33543
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:33543
 VA_CHT_1(0x00787220, 0x20)
 t_screen_rect unscale(t_screen_rect const& arg_0, t_scaled_adventure_map_drawer::t_scale arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:63305; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:63305; name:B (dyninit; see ledger)
 VA_CHT_1(0x00787240, 0x20)
 // scaled_adventure_map_drawer$tinit1
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:63307; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:63307; name:B (dyninit; see ledger)
 VA_CHT_1(0x00787260, 0x20)
 // scaled_adventure_map_drawer$tinit2
 // Function body not reconstructed; signature retained as a comment.

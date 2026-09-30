@@ -1,7 +1,7 @@
 // adjusted_bitmap_cache.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 30/47 (A:28 B:0 C:2); unaccounted 17; skipped std 1.
+// Accounted 30/47 (A:18 B:0 C:0); unaccounted 17; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,7 +10,7 @@
 
 // === .text (29 symbols) ===
 
-// confidence:A; align-order; retn,stable,vptr; map:3068
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:3068
 VA_CHT_1(0x00421220, 0x7b)
 t_adjusted_bitmap_cache_data::t_adjusted_bitmap_cache_data(
     t_abstract_cache<t_bitmap_group> const& arg_0,
@@ -20,7 +20,7 @@ t_adjusted_bitmap_cache_data::t_adjusted_bitmap_cache_data(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vptr; map:3069
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:3069
 VA_CHT_1(0x004212e0, 0x8d)
 t_adjusted_bitmap_cache_data::~t_adjusted_bitmap_cache_data()
 {
@@ -34,7 +34,7 @@ void t_adjusted_bitmap_cache_data::add_reference()
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:3071
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:3071
 VA_CHT_1(0x00421380, 0x2d1)
 t_bitmap_group* t_adjusted_bitmap_cache_data::do_get(t_progress_handler* arg_0)
 {
@@ -53,23 +53,23 @@ void t_adjusted_bitmap_cache_data::remove_reference()
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:71314; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:71314; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00421910, 0x20, STATIC_INIT_DISPATCH, adjusted_bitmap_cache)
 
-// confidence:A; align-band; retn,stable,vslot; map:3073
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:3073
 VA_CHT_1_COMPGEN(0x004212a0, 0x1e, SCALAR_DELETING_DTOR, t_adjusted_bitmap_cache_data)
 
 // name:A; map symbol; map:3074
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, t_adjusted_bitmap_cache_data)
 
-// confidence:A; align-band; retn,stable,vptr; map:3075
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:3075
 VA_CHT_1(0x004216a0, 0x49)
 t_abstract_cache_data<t_bitmap_group>::t_abstract_cache_data<t_bitmap_group>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:3076
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:3076
 VA_CHT_1(0x00829860, 0x19)
 t_abstract_cache<t_bitmap_group>::t_abstract_cache<t_bitmap_group>(
     t_abstract_cache<t_bitmap_group> const& arg_0
@@ -78,7 +78,7 @@ t_abstract_cache<t_bitmap_group>::t_abstract_cache<t_bitmap_group>(
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:3077
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:3077
 VA_CHT_1_COMPGEN(0x004212c0, 0x1e, SCALAR_DELETING_DTOR, "t_abstract_cache_data<t_bitmap_group>")
 
 // name:A; map symbol; map:3078
@@ -90,7 +90,7 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, "t_abstract_ca
 // name:A; map symbol; map:3080
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, "t_abstract_cache<t_bitmap_group>")
 
-// confidence:A; align-band; retn,stable,vptr; map:3081
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:3081
 VA_CHT_1(0x005720f0, 0xcb)
 t_abstract_cache_data<t_bitmap_group>::~t_abstract_cache_data<t_bitmap_group>()
 {
@@ -106,7 +106,7 @@ t_counted_ptr<t_abstract_cache_data<t_bitmap_group>>::t_counted_ptr<t_abstract_c
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,vptr; map:3083
+// confidence:D; align-band; retn,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:3083
 VA_CHT_1(0x005d01b0, 0x1e)
 t_abstract_cache<t_bitmap_group>::~t_abstract_cache<t_bitmap_group>()
 {
@@ -120,14 +120,14 @@ t_counted_ptr<t_abstract_cache_data<t_bitmap_group>>::~t_counted_ptr<t_abstract_
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:3085
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:3085
 VA_CHT_1(0x004216f0, 0x195)
 t_cached_ptr<t_bitmap_group> t_abstract_cache<t_bitmap_group>::get(t_progress_handler* arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn; map:3086
+// confidence:D; align-band; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:3086
 VA_CHT_1(0x00421890, 0x74)
 t_cached_ptr<t_bitmap_group>::~t_cached_ptr<t_bitmap_group>()
 {

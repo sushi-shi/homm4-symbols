@@ -1,7 +1,7 @@
 // adventure_events_look_trigger.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 17/25 (A:15 B:1 C:1); unaccounted 8; skipped std 1.
+// Accounted 17/25 (A:6 B:1 C:0); unaccounted 8; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,27 +10,27 @@
 
 // === .text (17 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:70625; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:70625; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00491760, 0x15, STATIC_INIT_DISPATCH, "adventure_events_look_trigger#1")
 
 // name:C; dyninit; see ledger; map:70626
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "adventure_events_look_trigger#1")
 
-// confidence:A; align-order; retn,stable,vptr; map:8283
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:8283
 VA_CHT_1(0x00491780, 0x22)
 t_adventure_event_look_trigger::t_adventure_event_look_trigger()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vptr; map:8284
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:8284
 VA_CHT_1(0x00491840, 0x2e)
 t_adventure_event_look_trigger::t_adventure_event_look_trigger(t_actor* arg_0, t_direction arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:8285
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:8285
 VA_CHT_1(0x00491870, 0x47)
 void t_adventure_event_look_trigger::execute_event(t_adventure_map* arg_0, t_saved_game_header const& arg_1)
 {
@@ -44,7 +44,7 @@ void t_adventure_event_look_trigger::undo_event(t_adventure_map* arg_0, t_saved_
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:8287
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:8287
 VA_CHT_1(0x004918c0, 0x52)
 bool t_adventure_event_look_trigger::read(
     std::basic_streambuf<char, std::char_traits<char>>& arg_0,
@@ -54,19 +54,19 @@ bool t_adventure_event_look_trigger::read(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:8288
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:8288
 VA_CHT_1(0x00491920, 0x45)
 bool t_adventure_event_look_trigger::write(std::basic_streambuf<char, std::char_traits<char>>& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:70627; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:70627; name:B (dyninit; see ledger)
 VA_CHT_1(0x00491970, 0x20)
 // adventure_events_look_trigger$tinit1
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:70629; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:70629; name:B (dyninit; see ledger)
 VA_CHT_1(0x00491990, 0x5c)
 // adventure_events_look_trigger$tinit2
 // Function body not reconstructed; signature retained as a comment.
@@ -86,7 +86,7 @@ VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 // adventure_events_look_trigger$tatexit4
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; align-band; retn,stable,vslot; map:8289
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:8289
 VA_CHT_1_COMPGEN(0x004917b0, 0x1e, VECTOR_DELETING_DTOR, t_adventure_event_look_trigger)
 
 // name:A; map symbol; map:8290
@@ -99,7 +99,7 @@ t_adventure_event_look_trigger::~t_adventure_event_look_trigger()
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:8292
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:8292
 VA_CHT_1_COMPGEN(0x004919f0, 0x8, VECTOR_DELETING_DTOR, t_adventure_event_look_trigger)
 
 // === .rdata (2 symbols) ===

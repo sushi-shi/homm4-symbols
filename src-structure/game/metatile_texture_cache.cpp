@@ -1,7 +1,7 @@
 // metatile_texture_cache.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\metatile_texture_cache.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 73/191 (A:52 B:2 C:19); unaccounted 118; skipped std 24.
+// Accounted 73/191 (A:36 B:2 C:0); unaccounted 118; skipped std 24.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,19 +10,19 @@
 
 // === .text (151 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:64307; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:64307; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0071e810, 0x15, STATIC_INIT_DISPATCH, "metatile_texture_cache#1")
 
 // name:C; dyninit; see ledger; map:64308
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "metatile_texture_cache#1")
 
-// confidence:A; dyninit-init; owner-conf-C; map:64309; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:64309; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0071e830, 0x15, STATIC_INIT_DISPATCH, "metatile_texture_cache#2")
 
 // name:C; dyninit; see ledger; map:64310
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "metatile_texture_cache#2")
 
-// confidence:C; align-order; stable; map:29883
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:29883
 VA_CHT_1(0x0071e850, 0x1fc1)
 // t_texture_info const* const (& get_terrain_texture_info_array(void))[19]
 // Function body not reconstructed; signature retained as a comment.
@@ -329,7 +329,7 @@ VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 
 namespace {
 
-// confidence:C; align-order; retn; map:29885
+// confidence:D; align-order; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:29885
 VA_CHT_1(0x00720b70, 0x1d)
 t_texture_info const& get_road_texture_info(t_road_type arg_0)
 {
@@ -338,7 +338,7 @@ t_texture_info const& get_road_texture_info(t_road_type arg_0)
 
 } // anonymous namespace
 
-// confidence:C; align-order; map:29886
+// confidence:D; align-order; review-status=unreviewed;classification=D:not-a-best-guess; map:29886
 VA_CHT_1(0x00720b90, 0x44c)
 // std::vector<t_cached_ptr<t_metatile_texture>, std::allocator<t_cached_ptr<t_metatile_texture>>>*(& get_terrain_texture_ptr_array(void))[19]
 // Function body not reconstructed; signature retained as a comment.
@@ -433,12 +433,12 @@ VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 // *$sdtor2
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; align-order; atexit; map:64388; name:B (dyninit; see ledger)
+// confidence:D; align-order; atexit;review-status=unreviewed;classification=D:not-a-best-guess; map:64388; name:B (dyninit; see ledger)
 VA_CHT_1(0x007218c0, 0x14)
 // *$sdtor1
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; map:29887
+// confidence:D; align-order; review-status=unreviewed;classification=D:not-a-best-guess; map:29887
 VA_CHT_1(0x007218e0, 0x1a8)
 // std::vector<t_cached_ptr<t_metatile_texture>, std::allocator<t_cached_ptr<t_metatile_texture>>> (& get_road_texture_ptr_array(void))[3]
 // Function body not reconstructed; signature retained as a comment.
@@ -448,35 +448,35 @@ VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 // $sdtor
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; retn; map:29888
+// confidence:D; align-order; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:29888
 VA_CHT_1(0x00721ab0, 0x32)
 int get_metatile_texture_count(t_road_type arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn; map:29889
+// confidence:D; align-order; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:29889
 VA_CHT_1(0x00721af0, 0x3c)
 int get_metatile_texture_count(t_terrain_type arg_0, int arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn; map:29890
+// confidence:D; align-order; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:29890
 VA_CHT_1(0x00721b30, 0x19a)
 t_cached_ptr<t_metatile_texture> get_metatile_texture(t_road_type arg_0, int arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn; map:29891
+// confidence:D; align-order; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:29891
 VA_CHT_1(0x00721cd0, 0x1a2)
 t_cached_ptr<t_metatile_texture> get_metatile_texture(t_terrain_type arg_0, int arg_1, int arg_2)
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:64390; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:64390; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00722790, 0x20, STATIC_INIT_DISPATCH, metatile_texture_cache)
 
 // name:A; map symbol; map:29892
@@ -488,7 +488,7 @@ t_conversion_cache<t_metatile_texture_24, t_metatile_texture>::~t_conversion_cac
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:29893
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:29893
 VA_CHT_1(0x00722570, 0x11)
 t_resource_cache<t_metatile_texture>::~t_resource_cache<t_metatile_texture>()
 {
@@ -497,14 +497,14 @@ t_resource_cache<t_metatile_texture>::~t_resource_cache<t_metatile_texture>()
 
 namespace {
 
-// confidence:C; align-band; retn; map:29894
+// confidence:D; align-band; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:29894
 VA_CHT_1(0x00721e80, 0x38)
 t_texture_info const& get_terrain_texture_info(t_terrain_type arg_0, int arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn; map:29896
+// confidence:D; align-band; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:29896
 VA_CHT_1(0x00722810, 0x3a)
 t_cached_ptr<t_metatile_texture>& get_road_texture_ptr(t_road_type arg_0, int arg_1)
 {
@@ -536,14 +536,14 @@ t_abstract_cache<t_metatile_texture>::~t_abstract_cache<t_metatile_texture>()
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:29916
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:29916
 VA_CHT_1(0x007221a0, 0x195)
 t_cached_ptr<t_metatile_texture> t_abstract_cache<t_metatile_texture>::get(t_progress_handler* arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,vptr; map:29917
+// confidence:D; align-band; retn,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:29917
 VA_CHT_1(0x00722340, 0xca)
 t_conversion_cache<t_metatile_texture_24, t_metatile_texture>::t_conversion_cache<t_metatile_texture_24, t_metatile_texture>(
     std::string const& arg_0
@@ -559,7 +559,7 @@ t_cached_ptr<t_metatile_texture>::t_cached_ptr<t_metatile_texture>()
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:29919
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:29919
 VA_CHT_1(0x007216a0, 0x14)
 t_metatile_texture* t_cached_ptr<t_metatile_texture>::get() const
 {
@@ -575,13 +575,13 @@ t_cached_ptr<t_metatile_texture>& t_cached_ptr<t_metatile_texture>::operator=(
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:29927
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:29927
 VA_CHT_1_COMPGEN(0x007227d0, 0x1e, VECTOR_DELETING_DTOR, "t_abstract_cache<t_metatile_texture>")
 
 // name:A; map symbol; map:29928
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, "t_abstract_cache<t_metatile_texture>")
 
-// confidence:C; align-band; retn,stable; map:29929
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:29929
 VA_CHT_1(0x00721760, 0x14)
 t_counted_ptr<t_abstract_cache_data<t_metatile_texture>>::~t_counted_ptr<t_abstract_cache_data<t_metatile_texture>>(
 
@@ -608,7 +608,7 @@ t_counted_ptr<t_abstract_cache_data<t_metatile_texture>>::t_counted_ptr<t_abstra
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:29934
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:29934
 VA_CHT_1(0x007216e0, 0x14)
 t_abstract_cache_data<t_metatile_texture>* t_counted_ptr<t_abstract_cache_data<t_metatile_texture>>::operator t_abstract_cache_data<t_metatile_texture>*(
 
@@ -617,7 +617,7 @@ t_abstract_cache_data<t_metatile_texture>* t_counted_ptr<t_abstract_cache_data<t
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:29935
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:29935
 VA_CHT_1(0x00721700, 0x14)
 t_abstract_cache_data<t_metatile_texture>* t_counted_ptr<t_abstract_cache_data<t_metatile_texture>>::operator->(
 
@@ -657,7 +657,7 @@ void t_resource_cache<t_metatile_texture>::set(t_abstract_resource_cache_data<t_
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,vptr; map:29940
+// confidence:D; align-band; retn,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:29940
 VA_CHT_1(0x007225f0, 0x80)
 t_conversion_cache_data<t_metatile_texture_24, t_metatile_texture>::t_conversion_cache_data<t_metatile_texture_24, t_metatile_texture>(
     std::string const& arg_0
@@ -673,7 +673,7 @@ int t_abstract_resource_cache_data<t_metatile_texture>::get_load_cost()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:29942
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:29942
 VA_CHT_1(0x007225c0, 0x25)
 void t_abstract_resource_cache_data<t_metatile_texture>::add_reference()
 {
@@ -718,7 +718,7 @@ char const* t_conversion_cache_data<t_metatile_texture_24, t_metatile_texture>::
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,vslot; map:29948
+// confidence:D; align-band; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:29948
 VA_CHT_1(0x00722680, 0x10c)
 t_metatile_texture* t_conversion_cache_data<t_metatile_texture_24, t_metatile_texture>::do_read(
     std::basic_streambuf<char, std::char_traits<char>>& arg_0,
@@ -728,7 +728,7 @@ t_metatile_texture* t_conversion_cache_data<t_metatile_texture_24, t_metatile_te
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:29949
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:29949
 VA_CHT_1(0x00721720, 0x14)
 bool read(std::basic_streambuf<char, std::char_traits<char>>& arg_0, t_metatile_texture_24& arg_1)
 {
@@ -744,7 +744,7 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, "t_resource_ca
 // name:A; map symbol; map:29952
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, t_metatile_texture)
 
-// confidence:A; align-band; retn,stable,vslot; map:29953
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:29953
 VA_CHT_1_COMPGEN(0x007227f0, 0x1e, SCALAR_DELETING_DTOR, "t_conversion_cache_data<t_metatile_texture_24, t_metatile_texture>")
 
 // name:A; map symbol; map:29954
@@ -780,27 +780,27 @@ t_conversion_cache_data<t_metatile_texture_24, t_metatile_texture>::~t_conversio
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:29959
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:29959
 VA_CHT_1(0x00722850, 0xe4)
 t_abstract_resource_cache_data<t_metatile_texture>::~t_abstract_resource_cache_data<t_metatile_texture>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,vptr; map:29960
+// confidence:D; align-band; retn,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:29960
 VA_CHT_1(0x00722520, 0x49)
 t_abstract_cache_data<t_metatile_texture>::~t_abstract_cache_data<t_metatile_texture>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:29961
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:29961
 VA_CHT_1_COMPGEN(0x007227b0, 0x1e, SCALAR_DELETING_DTOR, "t_abstract_cache_data<t_metatile_texture>")
 
 // name:A; map symbol; map:29962
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, "t_abstract_cache_data<t_metatile_texture>")
 
-// confidence:A; align-band; retn,stable,vslot; map:29963
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:29963
 VA_CHT_1_COMPGEN(0x00722940, 0x1e, SCALAR_DELETING_DTOR, "t_abstract_resource_cache_data<t_metatile_texture>")
 
 // name:A; map symbol; map:29964
@@ -829,14 +829,14 @@ t_abstract_resource_cache_data<t_metatile_texture>::t_abstract_resource_cache_da
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,vptr; map:29968
+// confidence:D; align-band; retn,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:29968
 VA_CHT_1(0x00722960, 0x106)
 t_abstract_cache_data<t_metatile_texture>::t_abstract_cache_data<t_metatile_texture>()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:29969
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:29969
 VA_CHT_1(0x00721780, 0x14)
 t_counted_ptr<t_abstract_cache_data<t_metatile_texture>>::t_counted_ptr<t_abstract_cache_data<t_metatile_texture>>(
 
@@ -854,10 +854,10 @@ t_counted_ptr<t_abstract_cache_data<t_metatile_texture>>& t_counted_ptr<t_abstra
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:29971
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:29971
 VA_CHT_1_COMPGEN(0x00722a70, 0x8, VECTOR_DELETING_DTOR, "t_conversion_cache_data<t_metatile_texture_24, t_metatile_texture>")
 
-// confidence:C; align-order; stable; map:29972
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:29972
 VA_CHT_1_COMPGEN(0x00722a80, 0x8, VECTOR_DELETING_DTOR, "t_abstract_resource_cache_data<t_metatile_texture>")
 
 // === .rdata (8 symbols) ===

@@ -1,7 +1,7 @@
 // campaign_file_ref.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\campaign_file_ref.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 33/53 (A:29 B:4 C:0); unaccounted 20; skipped std 1.
+// Accounted 33/53 (A:24 B:0 C:0); unaccounted 20; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -19,7 +19,7 @@ t_file_name_body::t_file_name_body(std::string const& arg_0)
     // Body unavailable.
 }
 
-// confidence:A; align-order; vslot; map:18908
+// confidence:D; align-order; vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18908
 VA_CHT_1(0x0058bdb0, 0x12)
 void t_file_name_body::accept(t_campaign_file_ref_accessor& arg_0) const
 {
@@ -33,7 +33,7 @@ t_standard_campaign_id_body::t_standard_campaign_id_body(t_standard_campaign_id 
     // Body unavailable.
 }
 
-// confidence:A; align-order; vslot; map:18910
+// confidence:D; align-order; vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18910
 VA_CHT_1(0x0058bdd0, 0x11)
 void t_standard_campaign_id_body::accept(t_campaign_file_ref_accessor& arg_0) const
 {
@@ -54,14 +54,14 @@ bool t_write_helper::operator()(t_campaign_file_ref_body const& arg_0)
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:18913
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18913
 VA_CHT_1(0x0058bdf0, 0x96)
 void t_write_helper::access(std::string const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:18914
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18914
 VA_CHT_1(0x0058be90, 0x9b)
 void t_write_helper::access(t_standard_campaign_id arg_0)
 {
@@ -84,35 +84,35 @@ void t_campaign_file_ref_accessor::access(t_standard_campaign_id arg_0)
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:18917
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18917
 VA_CHT_1(0x0058bf30, 0x8a)
 t_campaign_file_ref::t_campaign_file_ref(std::string const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:18918
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18918
 VA_CHT_1(0x0058bfc0, 0x38)
 t_campaign_file_ref::t_campaign_file_ref(t_standard_campaign_id arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:18919
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18919
 VA_CHT_1(0x0058c000, 0x23e)
 bool t_campaign_file_ref::read(std::basic_streambuf<char, std::char_traits<char>>& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:18920
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18920
 VA_CHT_1(0x0058c240, 0x53)
 bool t_campaign_file_ref::write(std::basic_streambuf<char, std::char_traits<char>>& arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:68771; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:68771; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0058c2a0, 0x20, STATIC_INIT_DISPATCH, campaign_file_ref)
 
 // name:A; map symbol; map:18921

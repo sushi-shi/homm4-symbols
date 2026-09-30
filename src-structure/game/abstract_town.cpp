@@ -1,7 +1,7 @@
 // abstract_town.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\abstract_town.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 302/441 (A:167 B:27 C:108); unaccounted 139; skipped std 216.
+// Accounted 297/441 (A:121 B:20 C:15); unaccounted 144; skipped std 216.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,7 +10,7 @@
 
 // === .text (271 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:71339; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:71339; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00413aa0, 0x15, STATIC_INIT_DISPATCH, "abstract_town#1")
 
 // name:C; dyninit; see ledger; map:71340
@@ -25,7 +25,7 @@ VA_CHT_1_COMPGEN(0x00413ae0, 0xd1, STATIC_CTOR, k_named_object_balloon_help)
 // name:A; dyninit; see ledger; map:71343
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, k_named_object_balloon_help)
 
-// confidence:B; dyninit-dtor; owner-conf-B; map:71344; name:A (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:71344; name:A (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00413bc0, 0xa, STATIC_DTOR, k_named_object_balloon_help)
 
 namespace {
@@ -41,7 +41,7 @@ bool read_old_built_in_event(
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn; map:1844
+// confidence:D; align-order; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:1844
 VA_CHT_1(0x00413bd0, 0x1a4)
 bool read_old_timed_event(
     std::basic_streambuf<char, std::char_traits<char>>& arg_0,
@@ -54,36 +54,36 @@ bool read_old_timed_event(
 
 } // anonymous namespace
 
-// confidence:A; align-order; retn,vptr; map:1845
+// confidence:D; align-order; retn,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:1845
 VA_CHT_1(0x00413d80, 0x30c)
 t_abstract_town::t_abstract_town(std::string const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vptr; map:1846
+// confidence:D; align-order; retn,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:1846
 VA_CHT_1(0x00414420, 0x315)
 t_abstract_town::t_abstract_town(t_abstract_town* arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vptr; map:1847
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:1847
 VA_CHT_1(0x00414910, 0x221)
 t_abstract_town::~t_abstract_town()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:1848
+// confidence:C; align-order; retn,stable,vslot;manual-review=complete-F00199:unresolved; map:1848
 VA_CHT_1(0x00414b40, 0x29)
 void t_abstract_town::on_adventure_map_destruction()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:1849
-VA_CHT_1(0x00414b70, 0x3f)
+// name:A; map symbol; map:1849
+VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 void t_abstract_town::clear_nobility_heroes()
 {
     // Body unavailable.
@@ -96,7 +96,7 @@ int t_abstract_town::get_towndwelling_count() const
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:1851
+// confidence:C; align-order; retn,stable,vslot;manual-review=complete-F00201:unresolved; map:1851
 VA_CHT_1(0x00414bb0, 0x2d)
 t_town_image_level t_abstract_town::get_castle_level() const
 {
@@ -110,77 +110,77 @@ t_abstract_grail_data_source const& t_abstract_town::get_grail_data() const
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:1853
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:1853
 VA_CHT_1(0x00414bf0, 0x12d)
 std::string t_abstract_town::get_name() const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:1854
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:1854
 VA_CHT_1(0x00414d20, 0x241)
 std::string t_abstract_town::get_balloon_help() const
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:1855
+// confidence:C; align-order; retn,stable;manual-review=complete-F00203:unresolved; map:1855
 VA_CHT_1(0x00414f70, 0x16)
 int t_abstract_town::get_nobility_bonus() const
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:1856
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:1856
 VA_CHT_1(0x00414f90, 0xc9)
 t_hero* t_abstract_town::get_best_nobility_hero() const
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:1857
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:1857
 VA_CHT_1(0x00415060, 0xa1)
 void t_abstract_town::add_hero_to_nobility_list(t_hero* arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:1858
+// confidence:C; align-order; retn,stable;manual-review=complete-F00204:unresolved; map:1858
 VA_CHT_1(0x00415110, 0xf2)
 void t_abstract_town::remove_hero_from_nobility_list(t_hero* arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:1859
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:1859
 VA_CHT_1(0x00415210, 0x5b)
 int t_abstract_town::get_highest_nobility_priority() const
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:1860
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:1860
 VA_CHT_1(0x00415270, 0x5b)
 int t_abstract_town::get_lowest_nobility_priority() const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:1861
+// confidence:C; align-order; retn,stable,vslot;manual-review=complete-F00205:unresolved; map:1861
 VA_CHT_1(0x004152d0, 0x45)
 bool t_abstract_town::gets_global_grail_effects(t_town_type arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:1862
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:1862
 VA_CHT_1(0x00415320, 0x1df)
 bool t_abstract_town::write(std::basic_streambuf<char, std::char_traits<char>>& arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:1863
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:1863
 VA_CHT_1(0x00415500, 0x24d)
 bool t_abstract_town::read(
     std::basic_streambuf<char, std::char_traits<char>>& arg_0,
@@ -191,14 +191,14 @@ bool t_abstract_town::read(
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:1864
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:1864
 VA_CHT_1(0x00415750, 0xad4)
 bool t_abstract_town::read_events(std::basic_streambuf<char, std::char_traits<char>>& arg_0, int arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:1865
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:1865
 VA_CHT_1(0x004163c0, 0x225)
 bool t_abstract_town::write_events(std::basic_streambuf<char, std::char_traits<char>>& arg_0) const
 {
@@ -236,7 +236,7 @@ bool t_abstract_town::read_map_data(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:1868
+// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:1868
 VA_CHT_1(0x00416890, 0x5c)
 bool t_abstract_town::preplacement(t_adventure_map& arg_0, int arg_1)
 {
@@ -253,7 +253,7 @@ bool t_abstract_town::read_ai_importance_from_map(
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:1870
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:1870
 VA_CHT_1(0x004168f0, 0x22a)
 bool t_abstract_town::read_buildings_from_map(
     std::basic_streambuf<char, std::char_traits<char>>& arg_0,
@@ -285,7 +285,7 @@ bool t_abstract_town::read_garrison_from_map(
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:1873
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:1873
 VA_CHT_1(0x00416c50, 0xf8)
 bool t_abstract_town::read_name_from_map(std::basic_streambuf<char, std::char_traits<char>>& arg_0, int arg_1)
 {
@@ -352,54 +352,54 @@ bool t_abstract_town::is_deleted_by_deletion_marker() const
     // Body unavailable.
 }
 
-// confidence:A; align-order; vslot; map:1880
+// confidence:C; align-order; vslot;manual-review=complete-F00216:unresolved; map:1880
 VA_CHT_1(0x00417490, 0x2f)
 void t_abstract_town::destroy()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:1881
+// confidence:C; align-order; retn,vslot;manual-review=complete-F00217:unresolved; map:1881
 VA_CHT_1(0x004174c0, 0x71)
 void t_abstract_town::set_owner(int arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:1882
+// confidence:C; align-order; retn,vslot;manual-review=complete-F00218:unresolved; map:1882
 VA_CHT_1(0x00417540, 0x15)
 void t_abstract_town::post_change()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:1883
+// confidence:C; align-order; retn,vslot;manual-review=complete-F00219:unresolved; map:1883
 VA_CHT_1(0x00417560, 0x13)
 int t_abstract_town::compute_scouting_range() const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:1884
+// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:1884
 VA_CHT_1(0x00417580, 0x19d)
 void t_abstract_town::initialize(t_adventure_map& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn; map:1885
+// confidence:D; align-order; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:1885
 VA_CHT_1(0x00418650, 0x2d)
 void t_abstract_town::read_postplacement(t_adventure_map& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:71345; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:71345; name:B (dyninit; see ledger)
 VA_CHT_1(0x004186c0, 0x20)
 // abstract_town$tinit1
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:71347; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:71347; name:B (dyninit; see ledger)
 VA_CHT_1(0x004186e0, 0x5c)
 // abstract_town$tinit2
 // Function body not reconstructed; signature retained as a comment.
@@ -414,12 +414,12 @@ VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 // abstract_town$tatexit3
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; align-order; atexit,stable; map:71350; name:B (dyninit; see ledger)
+// confidence:D; align-order; atexit,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:71350; name:B (dyninit; see ledger)
 VA_CHT_1(0x00418740, 0x50)
 // abstract_town$tatexit4
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-band; retn,stable; map:1886
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:1886
 VA_CHT_1(0x00418200, 0x3b)
 void t_timed_event::set_first_occurrence(int arg_0)
 {
@@ -433,14 +433,14 @@ void t_timed_event::set_recurrence_interval(int arg_0)
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn; map:1888
+// confidence:D; align-band; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:1888
 VA_CHT_1(0x004185d0, 0x19)
 void t_ownable_timed_event::clear_execution_flag()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn; map:1889
+// confidence:D; align-band; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:1889
 VA_CHT_1(0x00416250, 0x1a)
 void t_ownable_timed_event::set_execution_flag()
 {
@@ -454,13 +454,13 @@ t_abstract_grail_data_source::~t_abstract_grail_data_source()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:1891
+// confidence:C; align-band; retn,stable,vslot;manual-review=complete-F00189:unresolved; map:1891
 VA_CHT_1_COMPGEN(0x00414090, 0x20, VECTOR_DELETING_DTOR, t_abstract_grail_data_source)
 
 // name:A; map symbol; map:1892
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, t_abstract_grail_data_source)
 
-// confidence:A; align-band; retn,vptr; map:1893
+// confidence:D; align-band; retn,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:1893
 VA_CHT_1(0x004400c0, 0x11)
 t_adv_object_map_info::~t_adv_object_map_info()
 {
@@ -474,7 +474,7 @@ t_town_type t_creature_array::get_boat_type() const
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:1895
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:1895
 VA_CHT_1(0x004140d0, 0x9)
 float t_adventure_object::ai_value(
     t_adventure_ai const& arg_0,
@@ -485,14 +485,14 @@ float t_adventure_object::ai_value(
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,vslot; map:1896
+// confidence:D; align-band; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:1896
 VA_CHT_1(0x004140e0, 0x9)
 float t_adventure_object::ai_activation_value_drop(t_creature_array const& arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,vptr; map:1897
+// confidence:D; align-band; retn,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:1897
 VA_CHT_1(0x0047e410, 0x11)
 t_adv_object_map_info::t_adv_object_map_info()
 {
@@ -520,7 +520,7 @@ t_stationary_adventure_object::t_stationary_adventure_object(std::string const& 
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:1901
+// confidence:C; align-band; retn,stable,vslot;manual-review=complete-F00191:unresolved; map:1901
 VA_CHT_1_COMPGEN(0x004141d0, 0x2d, SCALAR_DELETING_DTOR, t_stationary_adventure_object)
 
 // name:A; map symbol; map:1902
@@ -531,14 +531,14 @@ VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 // public: void t_stationary_adventure_object::`vbase dtor'(void)
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; align-band; retn,stable,vptr; map:1904
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:1904
 VA_CHT_1(0x004dd730, 0x162)
 t_stationary_adventure_object::~t_stationary_adventure_object()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:1905
+// confidence:C; align-band; retn,stable,vslot;manual-review=complete-F00192:unresolved; map:1905
 VA_CHT_1_COMPGEN(0x00414260, 0x2d, VECTOR_DELETING_DTOR, t_owned_adv_object)
 
 // name:A; map symbol; map:1906
@@ -556,7 +556,7 @@ t_owned_adv_object::~t_owned_adv_object()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:1909
+// confidence:C; align-band; retn,stable,vslot;manual-review=complete-F00193:unresolved; map:1909
 VA_CHT_1_COMPGEN(0x004142f0, 0x33, VECTOR_DELETING_DTOR, t_abstract_town)
 
 // name:A; map symbol; map:1910
@@ -583,7 +583,7 @@ t_ownable_built_in_event::t_ownable_built_in_event()
     // Body unavailable.
 }
 
-// confidence:A; align-band; stable,vptr; map:1915
+// confidence:D; align-band; stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:1915
 VA_CHT_1(0x00416270, 0x49)
 t_discrete_event::~t_discrete_event()
 {
@@ -636,41 +636,41 @@ t_abstract_adv_object::t_abstract_adv_object(t_abstract_adv_object const& arg_0)
     // Body unavailable.
 }
 
-// confidence:A; align-band; stable,vptr; map:1924
+// confidence:D; align-band; stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:1924
 VA_CHT_1(0x0056edb0, 0x18)
 t_adv_object_map_info::t_adv_object_map_info(t_adv_object_map_info const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:1925
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:1925
 VA_CHT_1(0x004364f0, 0x126)
 t_stationary_adventure_object::t_stationary_adventure_object(t_stationary_adventure_object const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,vptr; map:1926
-VA_CHT_1(0x00414740, 0x17f)
+// name:A; map symbol; map:1926
+VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 t_adventure_object::t_adventure_object(t_adventure_object const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:1927
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:1927
 VA_CHT_1(0x00794900, 0x12)
 t_counted_object::t_counted_object(t_counted_object const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:1928
+// confidence:C; align-band; retn,stable,vslot;manual-review=complete-F00197:unresolved; map:1928
 VA_CHT_1_COMPGEN(0x004148c0, 0x2d, SCALAR_DELETING_DTOR, t_adventure_object)
 
 // name:A; map symbol; map:1929
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, t_adventure_object)
 
-// confidence:A; align-band; retn,stable,vptr; map:1930
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:1930
 VA_CHT_1(0x004de670, 0x2f)
 t_adventure_object_memory_cache_refrence::t_adventure_object_memory_cache_refrence(
     t_adventure_object_memory_cache_refrence const& arg_0
@@ -684,7 +684,7 @@ VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 // public: void t_adventure_object::`vbase dtor'(void)
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; align-band; retn,stable,vslot; map:1932
+// confidence:C; align-band; retn,stable,vslot;manual-review=complete-F00198:unresolved; map:1932
 VA_CHT_1_COMPGEN(0x004148f0, 0x1e, VECTOR_DELETING_DTOR, t_adventure_object_memory_cache_refrence)
 
 // name:A; map symbol; map:1933
@@ -697,7 +697,7 @@ t_counted_ptr<t_adventure_object_memory_cache>::~t_counted_ptr<t_adventure_objec
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:1935
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:1935
 VA_CHT_1(0x00417960, 0x1d)
 bool t_abstract_town::has(t_town_building arg_0) const
 {
@@ -732,7 +732,7 @@ void t_triggerable_event::set_name(std::string const& arg_0)
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:1941
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:1941
 VA_CHT_1(0x00417720, 0x52)
 bool t_ownable_built_in_event::read(std::basic_streambuf<char, std::char_traits<char>>& arg_0, int arg_1)
 {
@@ -753,8 +753,8 @@ t_timed_event::t_timed_event()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:1944
-VA_CHT_1(0x00416230, 0x1a)
+// name:A; map symbol; map:1944
+VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 t_timed_event::~t_timed_event()
 {
     // Body unavailable.
@@ -766,7 +766,7 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, t_ownable_time
 // name:A; map symbol; map:1946
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, t_ownable_timed_event)
 
-// confidence:A; align-band; retn,stable,vptr; map:1947
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:1947
 VA_CHT_1(0x006c9210, 0x260)
 t_ownable_timed_event::~t_ownable_timed_event()
 {
@@ -787,8 +787,8 @@ t_ownable_continuous_event::t_ownable_continuous_event()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,vptr; map:1950
-VA_CHT_1(0x00416310, 0x26)
+// name:A; map symbol; map:1950
+VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 t_continuous_event::~t_continuous_event()
 {
     // Body unavailable.
@@ -800,21 +800,21 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, t_ownable_cont
 // name:A; map symbol; map:1952
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, t_ownable_continuous_event)
 
-// confidence:A; align-band; vptr; map:1953
+// confidence:D; align-band; vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:1953
 VA_CHT_1(0x00416340, 0x49)
 t_continuous_event::t_continuous_event()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:1954
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:1954
 VA_CHT_1(0x006c96d0, 0x260)
 t_ownable_continuous_event::~t_ownable_continuous_event()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:1955
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:1955
 VA_CHT_1(0x00417dd0, 0x12)
 void t_ownable_continuous_event::set_run_only_during_owners_turn(bool arg_0)
 {
@@ -842,8 +842,8 @@ t_ownable_triggerable_event::t_ownable_triggerable_event()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:1959
-VA_CHT_1(0x00416390, 0x26)
+// name:A; map symbol; map:1959
+VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 t_triggerable_event::~t_triggerable_event()
 {
     // Body unavailable.
@@ -869,7 +869,7 @@ t_triggerable_event::t_triggerable_event()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:1964
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:1964
 VA_CHT_1(0x006c9470, 0x25c)
 t_ownable_triggerable_event::~t_ownable_triggerable_event()
 {
@@ -890,7 +890,7 @@ bool t_ownable_triggerable_event::write(std::basic_streambuf<char, std::char_tra
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn; map:1967
+// confidence:D; align-band; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:1967
 VA_CHT_1(0x00418680, 0x3f)
 t_player* t_adventure_map::get_player(t_player_color arg_0) const
 {
@@ -904,7 +904,7 @@ void t_owned_adv_object::set_player_color(t_player_color arg_0)
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:2138
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2138
 VA_CHT_1(0x00418550, 0x43)
 void put(std::basic_streambuf<char, std::char_traits<char>>& arg_0, bool const& arg_1)
 {
@@ -1167,7 +1167,7 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "?g_default_body_ref@?$
 // name:C; dyninit; see ledger; map:2210
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_DTOR, "?g_default_body_ref@?$t_copy_on_write_ptr@V?$vector@Vt_shroud_transition@@")
 
-// confidence:C; align-band; retn,stable; map:2211
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2211
 VA_CHT_1(0x00414290, 0x57)
 copy_on_write_ptr_details::t_default_body_ref<std::vector<t_shroud_transition, std::allocator<t_shroud_transition>>>::~t_default_body_ref<std::vector<t_shroud_transition, std::allocator<t_shroud_transition>>>(
 
@@ -1188,212 +1188,212 @@ copy_on_write_ptr_details::t_body<std::vector<t_shroud_transition, std::allocato
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:2219
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2219
 VA_CHT_1_COMPGEN(0x004187a0, 0xb, VECTOR_DELETING_DTOR, t_stationary_adventure_object)
 
-// confidence:C; align-order; stable; map:2220
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2220
 VA_CHT_1_COMPGEN(0x004187b0, 0x8, VECTOR_DELETING_DTOR, t_stationary_adventure_object)
 
-// confidence:C; align-order; stable; map:2221
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2221
 VA_CHT_1(0x004187c0, 0x8)
 // [thunk]: public: virtual std::auto_ptr<t_abstract_adv_object> t_adventure_object::clone`adjustor{8}'(void) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2222
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2222
 VA_CHT_1(0x004187d0, 0x8)
 // [thunk]: public: virtual int t_stationary_adventure_object::get_subimage_depth_offset`vtordisp{-4, 0}'(int) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2223
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2223
 VA_CHT_1(0x004187e0, 0xb)
 // [thunk]: public: virtual bool t_adventure_object::uses_bridge_heights`adjustor{8}'(void) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2224
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2224
 VA_CHT_1(0x004187f0, 0xb)
 // [thunk]: public: virtual t_adventure_ai const* t_adventure_object::get_ai`vtordisp{-4, 8}'(void) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2225
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2225
 VA_CHT_1(0x00418800, 0xb)
 // [thunk]: public: virtual t_adventure_frame* t_adventure_object::get_adventure_frame`vtordisp{-4, 8}'(void) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2226
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2226
 VA_CHT_1(0x00418810, 0xb)
 // [thunk]: public: virtual t_adventure_object* t_adventure_object::get_adventure_object`vtordisp{-4, 8}'(void)
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2227
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2227
 VA_CHT_1(0x00418820, 0xb)
 // [thunk]: public: virtual t_adventure_map* t_adventure_object::get_map`vtordisp{-4, 8}'(void) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2228
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2228
 VA_CHT_1(0x00418860, 0x8)
 // [thunk]: public: virtual t_adv_map_point t_adventure_object::get_position`vtordisp{-4, 8}'(void) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; align-band; retn,stable,vslot; map:2229
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:2229
 VA_CHT_1(0x00418830, 0x24)
 t_adv_map_point t_adventure_object::get_position() const
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:2230
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2230
 VA_CHT_1_COMPGEN(0x00418870, 0xb, VECTOR_DELETING_DTOR, t_abstract_town)
 
-// confidence:C; align-order; stable; map:2231
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2231
 VA_CHT_1_COMPGEN(0x00418880, 0xb, VECTOR_DELETING_DTOR, t_abstract_town)
 
-// confidence:C; align-order; stable; map:2232
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2232
 VA_CHT_1(0x00418890, 0xb)
 // [thunk]: protected: virtual int t_abstract_town::compute_scouting_range`adjustor{84}'(void) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2233
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2233
 VA_CHT_1_COMPGEN(0x004188a0, 0xb, VECTOR_DELETING_DTOR, t_abstract_town)
 
-// confidence:C; align-order; stable; map:2234
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2234
 VA_CHT_1_COMPGEN(0x004188b0, 0x8, VECTOR_DELETING_DTOR, t_abstract_town)
 
-// confidence:C; align-order; stable; map:2235
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2235
 VA_CHT_1(0x004188c0, 0xb)
 // [thunk]: public: virtual void t_abstract_stationary_adv_object::accept`vtordisp{-4, 212}'(t_abstract_adv_object_visitor&) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2236
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2236
 VA_CHT_1(0x004188d0, 0xb)
 // [thunk]: public: virtual void t_abstract_stationary_adv_object::accept`vtordisp{-4, 212}'(t_abstract_adv_object_visitor&)
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2237
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2237
 VA_CHT_1(0x004188e0, 0xb)
 // [thunk]: public: virtual bool t_abstract_stationary_adv_object::animates`vtordisp{-4, 212}'(void) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2238
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2238
 VA_CHT_1(0x004188f0, 0xb)
 // [thunk]: public: virtual std::auto_ptr<t_abstract_adv_object> t_adventure_object::clone`adjustor{220}'(void) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2239
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2239
 VA_CHT_1(0x00418900, 0xb)
 // [thunk]: public: virtual void t_abstract_stationary_adv_object::draw_shadow_to`vtordisp{-4, 212}'(unsigned long, t_abstract_bitmap<unsigned short>&, t_screen_point const&) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2240
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2240
 VA_CHT_1(0x00418910, 0xb)
 // [thunk]: public: virtual void t_abstract_stationary_adv_object::draw_shadow_to`vtordisp{-4, 212}'(unsigned long, t_screen_rect const&, t_abstract_bitmap<unsigned short>&, t_screen_point const&) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2241
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2241
 VA_CHT_1(0x00418920, 0xb)
 // [thunk]: public: virtual void t_abstract_stationary_adv_object::draw_subimage_to`vtordisp{-4, 212}'(int, unsigned long, t_abstract_bitmap<unsigned short>&, t_screen_point const&) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2242
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2242
 VA_CHT_1(0x00418930, 0x8)
 // [thunk]: public: virtual void t_abstract_stationary_adv_object::draw_subimage_to`vtordisp{-4, 212}'(int, unsigned long, t_screen_rect const&, t_abstract_bitmap<unsigned short>&, t_screen_point const&, int) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2243
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2243
 VA_CHT_1(0x00418940, 0xb)
 // [thunk]: public: virtual void t_abstract_stationary_adv_object::draw_to`vtordisp{-4, 212}'(unsigned long, t_abstract_bitmap<unsigned short>&, t_screen_point const&) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2244
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2244
 VA_CHT_1(0x00418950, 0xb)
 // [thunk]: public: virtual void t_abstract_stationary_adv_object::draw_to`vtordisp{-4, 212}'(unsigned long, t_screen_rect const&, t_abstract_bitmap<unsigned short>&, t_screen_point const&) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2245
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2245
 VA_CHT_1(0x00418960, 0xb)
 // [thunk]: public: virtual t_footprint const& t_abstract_stationary_adv_object::get_footprint`vtordisp{-4, 212}'(void) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2246
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2246
 VA_CHT_1(0x00418970, 0xb)
 // [thunk]: public: virtual t_player_color t_owned_adv_object::get_player_color`vtordisp{-4, 200}'(void) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2247
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2247
 VA_CHT_1(0x00418980, 0xb)
 // [thunk]: public: virtual t_screen_rect t_abstract_stationary_adv_object::get_rect`vtordisp{-4, 212}'(unsigned long) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2248
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2248
 VA_CHT_1(0x00418990, 0xb)
 // [thunk]: public: virtual t_screen_rect t_abstract_stationary_adv_object::get_rect`vtordisp{-4, 212}'(void) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2249
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2249
 VA_CHT_1(0x004189a0, 0xb)
 // [thunk]: public: virtual t_screen_rect t_abstract_stationary_adv_object::get_shadow_rect`vtordisp{-4, 212}'(unsigned long) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2250
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2250
 VA_CHT_1(0x004189b0, 0xb)
 // [thunk]: public: virtual t_screen_rect t_abstract_stationary_adv_object::get_shadow_rect`vtordisp{-4, 212}'(void) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2251
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2251
 VA_CHT_1(0x004189c0, 0xb)
 // [thunk]: public: virtual int t_abstract_stationary_adv_object::get_subimage_count`vtordisp{-4, 212}'(void) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2252
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2252
 VA_CHT_1(0x004189d0, 0xb)
 // [thunk]: public: virtual int t_stationary_adventure_object::get_subimage_depth_offset`vtordisp{-4, 212}'(int) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2253
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2253
 VA_CHT_1(0x004189e0, 0xb)
 // [thunk]: public: virtual t_screen_rect t_abstract_stationary_adv_object::get_subimage_rect`vtordisp{-4, 212}'(int, unsigned long) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2254
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2254
 VA_CHT_1(0x004189f0, 0xb)
 // [thunk]: public: virtual t_screen_rect t_abstract_stationary_adv_object::get_subimage_rect`vtordisp{-4, 212}'(int) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2255
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2255
 VA_CHT_1(0x00418a00, 0xb)
 // [thunk]: public: virtual bool t_abstract_stationary_adv_object::hit_test`vtordisp{-4, 212}'(unsigned long, t_screen_point const&) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2256
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2256
 VA_CHT_1(0x00418a10, 0xb)
 // [thunk]: public: virtual bool t_abstract_stationary_adv_object::is_decorative`vtordisp{-4, 212}'(void) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2257
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2257
 VA_CHT_1(0x00418a20, 0x8)
 // [thunk]: public: virtual bool t_abstract_stationary_adv_object::needs_redrawing`vtordisp{-4, 212}'(unsigned long, unsigned long) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2258
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2258
 VA_CHT_1(0x00418a30, 0xb)
 // [thunk]: public: virtual bool t_abstract_stationary_adv_object::subimage_animates`vtordisp{-4, 212}'(int) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2259
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2259
 VA_CHT_1(0x00418a40, 0xb)
 // [thunk]: public: virtual bool t_abstract_stationary_adv_object::subimage_is_underlay`vtordisp{-4, 212}'(int) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2260
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2260
 VA_CHT_1(0x00418a50, 0xb)
 // [thunk]: public: virtual bool t_abstract_stationary_adv_object::subimage_needs_redrawing`vtordisp{-4, 212}'(int, unsigned long, unsigned long) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2261
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2261
 VA_CHT_1(0x00418a60, 0xb)
 // [thunk]: public: virtual bool t_adventure_object::uses_bridge_heights`adjustor{220}'(void) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2262
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2262
 VA_CHT_1(0x00418a70, 0x8)
 // [thunk]: public: virtual t_adventure_ai const* t_adventure_object::get_ai`vtordisp{-4, 220}'(void) const
 // Function body not reconstructed; signature retained as a comment.
@@ -1408,246 +1408,246 @@ VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 // [thunk]: public: virtual t_adventure_object* t_adventure_object::get_adventure_object`vtordisp{-4, 220}'(void)
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2265
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2265
 VA_CHT_1(0x00418a90, 0xb)
 // [thunk]: public: virtual t_town_image_level t_abstract_town::get_castle_level`vtordisp{-4, 0}'(void) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2266
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2266
 VA_CHT_1(0x00418aa0, 0x8)
 // [thunk]: public: virtual t_creature_array* t_creature_array::get_creature_array`adjustor{136}'(void)
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2267
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2267
 VA_CHT_1(0x00418ab0, 0xb)
 // [thunk]: public: virtual t_adventure_map* t_adventure_object::get_map`vtordisp{-4, 220}'(void) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2268
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2268
 VA_CHT_1(0x00418ac0, 0x8)
 // [thunk]: public: virtual int t_owned_adv_object::get_owner_number`vtordisp{-4, 200}'(void) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; align-band; retn,stable,vslot; map:2269
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:2269
 VA_CHT_1(0x00418a80, 0x4)
 int t_owned_adv_object::get_owner_number() const
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:2270
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2270
 VA_CHT_1(0x00418ad0, 0x8)
 // [thunk]: public: virtual t_adv_map_point t_adventure_object::get_position`vtordisp{-4, 220}'(void) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2271
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2271
 VA_CHT_1_COMPGEN(0x00418ae0, 0x8, VECTOR_DELETING_DTOR, t_owned_adv_object)
 
-// confidence:C; align-order; stable; map:2272
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2272
 VA_CHT_1_COMPGEN(0x00418af0, 0x8, VECTOR_DELETING_DTOR, t_owned_adv_object)
 
-// confidence:C; align-order; stable; map:2273
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2273
 VA_CHT_1(0x00418b00, 0x8)
 // [thunk]: public: virtual void t_abstract_stationary_adv_object::accept`vtordisp{-4, 12}'(t_abstract_adv_object_visitor&) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2274
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2274
 VA_CHT_1(0x00418b10, 0x8)
 // [thunk]: public: virtual void t_abstract_stationary_adv_object::accept`vtordisp{-4, 12}'(t_abstract_adv_object_visitor&)
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2275
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2275
 VA_CHT_1(0x00418b20, 0x8)
 // [thunk]: public: virtual bool t_abstract_stationary_adv_object::animates`vtordisp{-4, 12}'(void) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2276
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2276
 VA_CHT_1(0x00418b30, 0x8)
 // [thunk]: public: virtual std::auto_ptr<t_abstract_adv_object> t_adventure_object::clone`adjustor{20}'(void) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2277
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2277
 VA_CHT_1(0x00418b40, 0x8)
 // [thunk]: public: virtual void t_abstract_stationary_adv_object::draw_shadow_to`vtordisp{-4, 12}'(unsigned long, t_abstract_bitmap<unsigned short>&, t_screen_point const&) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2278
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2278
 VA_CHT_1(0x00418b50, 0xb)
 // [thunk]: public: virtual void t_abstract_stationary_adv_object::draw_shadow_to`vtordisp{-4, 12}'(unsigned long, t_screen_rect const&, t_abstract_bitmap<unsigned short>&, t_screen_point const&) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2279
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2279
 VA_CHT_1(0x00418b60, 0xe)
 // [thunk]: public: virtual void t_abstract_stationary_adv_object::draw_subimage_to`vtordisp{-4, 12}'(int, unsigned long, t_abstract_bitmap<unsigned short>&, t_screen_point const&) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2280
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2280
 VA_CHT_1(0x00418b70, 0xe)
 // [thunk]: public: virtual void t_abstract_stationary_adv_object::draw_subimage_to`vtordisp{-4, 12}'(int, unsigned long, t_screen_rect const&, t_abstract_bitmap<unsigned short>&, t_screen_point const&, int) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2281
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2281
 VA_CHT_1(0x00418b80, 0xe)
 // [thunk]: public: virtual void t_abstract_stationary_adv_object::draw_to`vtordisp{-4, 12}'(unsigned long, t_abstract_bitmap<unsigned short>&, t_screen_point const&) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2282
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2282
 VA_CHT_1(0x00418b90, 0xe)
 // [thunk]: public: virtual void t_abstract_stationary_adv_object::draw_to`vtordisp{-4, 12}'(unsigned long, t_screen_rect const&, t_abstract_bitmap<unsigned short>&, t_screen_point const&) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2283
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2283
 VA_CHT_1(0x00418ba0, 0xb)
 // [thunk]: public: virtual t_footprint const& t_abstract_stationary_adv_object::get_footprint`vtordisp{-4, 12}'(void) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2284
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2284
 VA_CHT_1(0x00418bb0, 0xe)
 // [thunk]: public: virtual t_player_color t_owned_adv_object::get_player_color`vtordisp{-4, 0}'(void) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2285
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2285
 VA_CHT_1(0x00418bc0, 0xe)
 // [thunk]: public: virtual t_screen_rect t_abstract_stationary_adv_object::get_rect`vtordisp{-4, 12}'(unsigned long) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2286
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2286
 VA_CHT_1(0x00418bd0, 0xe)
 // [thunk]: public: virtual t_screen_rect t_abstract_stationary_adv_object::get_rect`vtordisp{-4, 12}'(void) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2287
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2287
 VA_CHT_1(0x00418be0, 0xe)
 // [thunk]: public: virtual t_screen_rect t_abstract_stationary_adv_object::get_shadow_rect`vtordisp{-4, 12}'(unsigned long) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2288
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2288
 VA_CHT_1(0x00418bf0, 0xe)
 // [thunk]: public: virtual t_screen_rect t_abstract_stationary_adv_object::get_shadow_rect`vtordisp{-4, 12}'(void) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2289
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2289
 VA_CHT_1(0x00418c00, 0xe)
 // [thunk]: public: virtual int t_abstract_stationary_adv_object::get_subimage_count`vtordisp{-4, 12}'(void) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2290
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2290
 VA_CHT_1(0x00418c10, 0xe)
 // [thunk]: public: virtual int t_stationary_adventure_object::get_subimage_depth_offset`vtordisp{-4, 12}'(int) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2291
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2291
 VA_CHT_1(0x00418c20, 0xe)
 // [thunk]: public: virtual t_screen_rect t_abstract_stationary_adv_object::get_subimage_rect`vtordisp{-4, 12}'(int, unsigned long) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2292
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2292
 VA_CHT_1(0x00418c30, 0xe)
 // [thunk]: public: virtual t_screen_rect t_abstract_stationary_adv_object::get_subimage_rect`vtordisp{-4, 12}'(int) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2293
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2293
 VA_CHT_1(0x00418c40, 0xe)
 // [thunk]: public: virtual bool t_abstract_stationary_adv_object::hit_test`vtordisp{-4, 12}'(unsigned long, t_screen_point const&) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2294
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2294
 VA_CHT_1(0x00418c50, 0xe)
 // [thunk]: public: virtual bool t_abstract_stationary_adv_object::is_decorative`vtordisp{-4, 12}'(void) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2295
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2295
 VA_CHT_1(0x00418c60, 0xe)
 // [thunk]: public: virtual bool t_abstract_stationary_adv_object::needs_redrawing`vtordisp{-4, 12}'(unsigned long, unsigned long) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2296
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2296
 VA_CHT_1(0x00418c70, 0xe)
 // [thunk]: public: virtual bool t_abstract_stationary_adv_object::subimage_animates`vtordisp{-4, 12}'(int) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2297
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2297
 VA_CHT_1(0x00418c80, 0xe)
 // [thunk]: public: virtual bool t_abstract_stationary_adv_object::subimage_is_underlay`vtordisp{-4, 12}'(int) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2298
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2298
 VA_CHT_1(0x00418c90, 0xe)
 // [thunk]: public: virtual bool t_abstract_stationary_adv_object::subimage_needs_redrawing`vtordisp{-4, 12}'(int, unsigned long, unsigned long) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2299
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2299
 VA_CHT_1(0x00418ca0, 0xe)
 // [thunk]: public: virtual bool t_adventure_object::uses_bridge_heights`adjustor{20}'(void) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2300
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2300
 VA_CHT_1(0x00418cb0, 0xe)
 // [thunk]: public: virtual t_adventure_ai const* t_adventure_object::get_ai`vtordisp{-4, 20}'(void) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2301
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2301
 VA_CHT_1(0x00418cc0, 0xe)
 // [thunk]: public: virtual t_adventure_frame* t_adventure_object::get_adventure_frame`vtordisp{-4, 20}'(void) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2302
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2302
 VA_CHT_1(0x00418cd0, 0xe)
 // [thunk]: public: virtual t_adventure_object* t_adventure_object::get_adventure_object`vtordisp{-4, 20}'(void)
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2303
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2303
 VA_CHT_1(0x00418ce0, 0xe)
 // [thunk]: public: virtual t_adventure_map* t_adventure_object::get_map`vtordisp{-4, 20}'(void) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2304
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2304
 VA_CHT_1(0x00418cf0, 0xe)
 // [thunk]: public: virtual int t_owned_adv_object::get_owner_number`vtordisp{-4, 0}'(void) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2305
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2305
 VA_CHT_1(0x00418d00, 0xe)
 // [thunk]: public: virtual t_adv_map_point t_adventure_object::get_position`vtordisp{-4, 20}'(void) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2306
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2306
 VA_CHT_1_COMPGEN(0x00418d10, 0xb, VECTOR_DELETING_DTOR, t_adventure_object)
 
-// confidence:C; align-order; stable; map:2307
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2307
 VA_CHT_1_COMPGEN(0x00418d20, 0xe, VECTOR_DELETING_DTOR, t_adventure_object)
 
-// confidence:C; align-order; stable; map:2308
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2308
 VA_CHT_1(0x00418d30, 0xe)
 // [thunk]: public: virtual std::auto_ptr<t_abstract_adv_object> t_adventure_object::clone`vtordisp{-4, 0}'(void) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2309
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2309
 VA_CHT_1(0x00418d40, 0xe)
 // [thunk]: public: virtual bool t_adventure_object::uses_bridge_heights`vtordisp{-4, 0}'(void) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2310
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2310
 VA_CHT_1(0x00418d50, 0x8)
 // [thunk]: public: virtual t_adventure_ai const* t_adventure_object::get_ai`vtordisp{-4, 0}'(void) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2311
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2311
 VA_CHT_1(0x00418d60, 0xb)
 // [thunk]: public: virtual t_adventure_frame* t_adventure_object::get_adventure_frame`vtordisp{-4, 0}'(void) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2312
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2312
 VA_CHT_1(0x00418d70, 0xe)
 // [thunk]: public: virtual t_adventure_object* t_adventure_object::get_adventure_object`vtordisp{-4, 0}'(void)
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2313
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2313
 VA_CHT_1(0x00418d80, 0xe)
 // [thunk]: public: virtual t_adventure_map* t_adventure_object::get_map`vtordisp{-4, 0}'(void) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:2314
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2314
 VA_CHT_1(0x00418d90, 0xe)
 // [thunk]: public: virtual t_adv_map_point t_adventure_object::get_position`vtordisp{-4, 0}'(void) const
 // Function body not reconstructed; signature retained as a comment.

@@ -1,7 +1,7 @@
 // adv_sacred_fountain.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 23/35 (A:18 B:3 C:2); unaccounted 12; skipped std 1.
+// Accounted 23/35 (A:12 B:2 C:0); unaccounted 12; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,20 +10,20 @@
 
 // === .text (15 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:70864; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:70864; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00460f70, 0x1c, STATIC_INIT_DISPATCH, "adv_sacred_fountain#1")
 
 // name:C; dyninit; see ledger; map:70865
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "adv_sacred_fountain#1")
 
-// confidence:A; align-order; retn,stable,vptr; map:5698
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:5698
 VA_CHT_1(0x00460f90, 0x157)
 t_adv_sacred_fountain::t_adv_sacred_fountain(std::string const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:5699
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:5699
 VA_CHT_1(0x00461180, 0x144)
 std::string t_adv_sacred_fountain::add_icons(
     t_basic_dialog* arg_0,
@@ -34,23 +34,23 @@ std::string t_adv_sacred_fountain::add_icons(
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:5700
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:5700
 VA_CHT_1(0x004612d0, 0x11)
 void t_adv_sacred_fountain::visit(t_hero* arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-C; map:70866; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:70866; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00461360, 0x20, STATIC_INIT_DISPATCH, adv_sacred_fountain)
 
-// confidence:A; align-band; retn,stable,vslot; map:5701
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:5701
 VA_CHT_1_COMPGEN(0x004610f0, 0x2d, SCALAR_DELETING_DTOR, t_adv_sacred_fountain)
 
 // name:A; map symbol; map:5702
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, t_adv_sacred_fountain)
 
-// confidence:C; align-band; retn,stable; map:5703
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:5703
 VA_CHT_1(0x00461120, 0x57)
 // public: void t_adv_sacred_fountain::`vbase dtor'(void)
 // Function body not reconstructed; signature retained as a comment.
@@ -78,7 +78,7 @@ t_object_factory<t_adv_sacred_fountain>::t_object_factory<t_adv_sacred_fountain>
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:5707
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:5707
 VA_CHT_1(0x004612f0, 0x62)
 t_stationary_adventure_object* t_object_factory<t_adv_sacred_fountain>::create(
     std::string const& arg_0,
@@ -91,7 +91,7 @@ t_stationary_adventure_object* t_object_factory<t_adv_sacred_fountain>::create(
 // name:A; map symbol; map:5708
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, t_adv_sacred_fountain)
 
-// confidence:C; align-order; stable; map:5709
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:5709
 VA_CHT_1_COMPGEN(0x00461390, 0xb, VECTOR_DELETING_DTOR, t_adv_sacred_fountain)
 
 // === .rdata (7 symbols) ===

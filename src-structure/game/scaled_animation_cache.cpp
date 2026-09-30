@@ -1,7 +1,7 @@
 // scaled_animation_cache.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 18/30 (A:15 B:1 C:2); unaccounted 12; skipped std 2.
+// Accounted 18/30 (A:12 B:1 C:0); unaccounted 12; skipped std 2.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -20,21 +20,21 @@ t_animation* t_scaled_animation_cache_data::do_read(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vptr; map:33554
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:33554
 VA_CHT_1(0x00787480, 0xf3)
 t_scaled_animation_cache::t_scaled_animation_cache(std::string const& arg_0, double arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:33555
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:33555
 VA_CHT_1(0x00787670, 0x14)
 void t_scaled_animation_cache::set_origin(t_screen_point arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:63299; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:63299; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00787690, 0x20, STATIC_INIT_DISPATCH, scaled_animation_cache)
 
 // name:A; map symbol; map:33556
@@ -71,7 +71,7 @@ t_scaled_animation_cache_data::t_scaled_animation_cache_data(std::string const& 
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:33562
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:33562
 VA_CHT_1_COMPGEN(0x00787580, 0x1e, SCALAR_DELETING_DTOR, t_scaled_animation_cache_data)
 
 // name:A; map symbol; map:33563
@@ -100,7 +100,7 @@ t_conversion_cache<t_animation_24, t_animation>::t_conversion_cache<t_animation_
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:33568
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:33568
 VA_CHT_1_COMPGEN(0x00787700, 0x8, VECTOR_DELETING_DTOR, t_scaled_animation_cache_data)
 
 // === .rdata (3 symbols) ===

@@ -1,7 +1,7 @@
 // timed_window.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 12/16 (A:10 B:1 C:1); unaccounted 4; skipped std 0.
+// Accounted 12/16 (A:6 B:1 C:0); unaccounted 4; skipped std 0.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,7 +10,7 @@
 
 // === .text (8 symbols) ===
 
-// confidence:A; align-order; stable,vptr; map:38900
+// confidence:D; align-order; stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:38900
 VA_CHT_1(0x007f8410, 0xd4)
 t_timed_window::t_timed_window(
     t_screen_point arg_0,
@@ -23,7 +23,7 @@ t_timed_window::t_timed_window(
     // Body unavailable.
 }
 
-// confidence:A; align-order; vslot; map:38901
+// confidence:D; align-order; vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:38901
 VA_CHT_1(0x007f8590, 0x5)
 void t_timed_window::update_size()
 {
@@ -37,14 +37,14 @@ void t_timed_window::add_child(t_window* arg_0)
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:38903
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:38903
 VA_CHT_1(0x007f85a0, 0xc2)
 void t_timed_window::on_idle()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:38904
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:38904
 VA_CHT_1_COMPGEN(0x007f84f0, 0x1e, SCALAR_DELETING_DTOR, t_timed_window)
 
 // name:A; map symbol; map:38905
@@ -57,7 +57,7 @@ t_timed_window::~t_timed_window()
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:38907
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:38907
 VA_CHT_1_COMPGEN(0x007f8670, 0xb, VECTOR_DELETING_DTOR, t_timed_window)
 
 // === .rdata (2 symbols) ===

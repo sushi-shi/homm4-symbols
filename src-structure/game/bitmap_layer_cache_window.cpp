@@ -1,7 +1,7 @@
 // bitmap_layer_cache_window.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 9/12 (A:8 B:1 C:0); unaccounted 3; skipped std 0.
+// Accounted 9/12 (A:6 B:0 C:0); unaccounted 3; skipped std 0.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,7 +10,7 @@
 
 // === .text (6 symbols) ===
 
-// confidence:A; align-order; vptr; map:18224
+// confidence:D; align-order; vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:18224
 VA_CHT_1(0x00579a60, 0xbd)
 t_bitmap_layer_cache_window::t_bitmap_layer_cache_window(
     t_cached_ptr<t_bitmap_layer> const& arg_0,
@@ -22,7 +22,7 @@ t_bitmap_layer_cache_window::t_bitmap_layer_cache_window(
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:18225
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18225
 VA_CHT_1(0x00579be0, 0x94)
 void t_bitmap_layer_cache_window::set_bitmap(t_cached_ptr<t_bitmap_layer> const& arg_0, bool arg_1)
 {
@@ -36,7 +36,7 @@ void t_bitmap_layer_cache_window::set_bitmap(t_cached_ptr<t_bitmap_layer> const&
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,vslot; map:18227
+// confidence:D; align-band; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18227
 VA_CHT_1_COMPGEN(0x00579b20, 0x1e, SCALAR_DELETING_DTOR, t_bitmap_layer_cache_window)
 
 // name:A; map symbol; map:18228

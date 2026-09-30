@@ -1,7 +1,7 @@
 // weekly_generator.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\weekly_generator.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 55/98 (A:44 B:7 C:4); unaccounted 43; skipped std 1.
+// Accounted 55/98 (A:24 B:6 C:0); unaccounted 43; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,32 +10,32 @@
 
 // === .text (56 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:61264; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:61264; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00834100, 0x15, STATIC_INIT_DISPATCH, "weekly_generator#1")
 
 // name:C; dyninit; see ledger; map:61265
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "weekly_generator#1")
 
-// confidence:A; dyninit-init; owner-conf-B; map:61266; name:B (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:61266; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00834120, 0x1c, STATIC_INIT_DISPATCH, k_registration)
 
 // name:B; dyninit; see ledger; map:61267
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, k_registration)
 
-// confidence:A; dyninit-init; owner-conf-B; map:61268; name:B (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:61268; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00834140, 0x1c, STATIC_INIT_DISPATCH, k_random_registration)
 
 // name:B; dyninit; see ledger; map:61269
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, k_random_registration)
 
-// confidence:A; align-order; retn,stable,vptr; map:40547
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:40547
 VA_CHT_1(0x00834160, 0x1e4)
 t_weekly_generator::t_weekly_generator(t_material arg_0, t_player_color arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vptr; map:40548
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:40548
 VA_CHT_1(0x00834420, 0x192)
 t_weekly_generator::t_weekly_generator(std::string const& arg_0, t_qualified_adv_object_type const& arg_1)
 {
@@ -49,7 +49,7 @@ void t_weekly_generator::reset(t_material arg_0)
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:40550
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:40550
 VA_CHT_1(0x008345c0, 0x78e)
 void t_weekly_generator::activate_trigger(
     t_army* arg_0,
@@ -61,7 +61,7 @@ void t_weekly_generator::activate_trigger(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:40551
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:40551
 VA_CHT_1(0x00834d50, 0x21e)
 void t_weekly_generator::right_click(t_mouse_event const& arg_0, t_adventure_frame* arg_1)
 {
@@ -75,14 +75,14 @@ int t_weekly_generator::get_production(t_material arg_0)
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:40553
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:40553
 VA_CHT_1(0x00834f70, 0x32)
 void t_weekly_generator::place(t_adventure_map& arg_0, t_adv_map_point const& arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:40554
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:40554
 VA_CHT_1(0x00834fb0, 0xd4)
 void t_weekly_generator::process_new_day()
 {
@@ -96,14 +96,14 @@ void t_weekly_generator::set_owner(int arg_0)
     // Body unavailable.
 }
 
-// confidence:A; align-order; stable,vslot; map:40556
+// confidence:D; align-order; stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:40556
 VA_CHT_1(0x00835090, 0x5)
 int t_weekly_generator::get_version() const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:40557
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:40557
 VA_CHT_1(0x008350a0, 0x65)
 bool t_weekly_generator::read(
     std::basic_streambuf<char, std::char_traits<char>>& arg_0,
@@ -114,7 +114,7 @@ bool t_weekly_generator::read(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:40558
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:40558
 VA_CHT_1(0x00835110, 0x4d)
 bool t_weekly_generator::write(std::basic_streambuf<char, std::char_traits<char>>& arg_0) const
 {
@@ -131,7 +131,7 @@ bool t_weekly_generator::read_from_map(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:40560
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:40560
 VA_CHT_1(0x008351d0, 0x68)
 float t_weekly_generator::ai_value(
     t_adventure_ai const& arg_0,
@@ -142,21 +142,21 @@ float t_weekly_generator::ai_value(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vptr; map:40561
+// confidence:D; align-order; retn,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:40561
 VA_CHT_1(0x00835240, 0x166)
 t_random_weekly_generator::t_random_weekly_generator(std::string const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:40562
+// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:40562
 VA_CHT_1(0x00835480, 0xf9)
 void t_random_weekly_generator::place(t_adventure_map& arg_0, t_adv_map_point const& arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:40563
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:40563
 VA_CHT_1(0x008355f0, 0x62)
 bool t_random_weekly_generator::read_from_map(
     std::basic_streambuf<char, std::char_traits<char>>& arg_0,
@@ -166,12 +166,12 @@ bool t_random_weekly_generator::read_from_map(
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:61270; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:61270; name:B (dyninit; see ledger)
 VA_CHT_1(0x00835660, 0x20)
 // weekly_generator$tinit1
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:61272; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:61272; name:B (dyninit; see ledger)
 VA_CHT_1(0x00835680, 0x5c)
 // weekly_generator$tinit2
 // Function body not reconstructed; signature retained as a comment.
@@ -191,7 +191,7 @@ VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 // weekly_generator$tatexit4
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; align-band; retn,stable,vslot; map:40564
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:40564
 VA_CHT_1_COMPGEN(0x00834350, 0x2d, SCALAR_DELETING_DTOR, t_weekly_generator)
 
 // name:A; map symbol; map:40565
@@ -241,7 +241,7 @@ int to_base_class_map_format_version(int arg_0)
 
 } // anonymous namespace
 
-// confidence:A; align-band; retn,stable,vslot; map:40572
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:40572
 VA_CHT_1_COMPGEN(0x008353b0, 0x2d, VECTOR_DELETING_DTOR, t_random_weekly_generator)
 
 // name:A; map symbol; map:40573
@@ -328,7 +328,7 @@ t_object_factory_with_type<t_weekly_generator>::t_object_factory_with_type<t_wee
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,vslot; map:40585
+// confidence:D; align-band; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:40585
 VA_CHT_1(0x00835580, 0x6a)
 t_stationary_adventure_object* t_object_factory_with_type<t_weekly_generator>::create(
     std::string const& arg_0,
@@ -355,16 +355,16 @@ t_stationary_adventure_object* t_object_factory<t_random_weekly_generator>::crea
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:40588
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:40588
 VA_CHT_1_COMPGEN(0x008356e0, 0x8, VECTOR_DELETING_DTOR, t_weekly_generator)
 
-// confidence:C; align-order; stable; map:40589
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:40589
 VA_CHT_1_COMPGEN(0x008356f0, 0xb, VECTOR_DELETING_DTOR, t_weekly_generator)
 
-// confidence:C; align-order; stable; map:40590
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:40590
 VA_CHT_1_COMPGEN(0x00835700, 0x8, VECTOR_DELETING_DTOR, t_random_weekly_generator)
 
-// confidence:C; align-order; stable; map:40591
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:40591
 VA_CHT_1_COMPGEN(0x00835710, 0xb, VECTOR_DELETING_DTOR, t_random_weekly_generator)
 
 // === .rdata (14 symbols) ===

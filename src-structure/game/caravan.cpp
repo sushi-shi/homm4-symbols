@@ -1,7 +1,7 @@
 // caravan.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 25/37 (A:13 B:5 C:7); unaccounted 12; skipped std 1.
+// Accounted 25/37 (A:8 B:2 C:0); unaccounted 12; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,13 +10,13 @@
 
 // === .text (24 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:68490; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:68490; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00594a80, 0x15, STATIC_INIT_DISPATCH, "caravan#1")
 
 // name:C; dyninit; see ledger; map:68491
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "caravan#1")
 
-// confidence:A; align-order; stable,vptr; map:18990
+// confidence:D; align-order; stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:18990
 VA_CHT_1(0x00594aa0, 0x1d3)
 t_caravan::t_caravan(
     t_adventure_map* arg_0,
@@ -29,14 +29,14 @@ t_caravan::t_caravan(
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:18991
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18991
 VA_CHT_1(0x00594d50, 0x1d2)
 bool t_caravan::add_caravan_to_army(t_creature_array& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:18992
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18992
 VA_CHT_1(0x00594f30, 0x5)
 unsigned short t_caravan::get_caravan_version()
 {
@@ -50,40 +50,40 @@ t_adventure_map* t_caravan::get_map() const
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:18994
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18994
 VA_CHT_1(0x00594f50, 0x2a)
 bool t_caravan::has_arrived() const
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:18995
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18995
 VA_CHT_1(0x00594f80, 0xb)
 void t_caravan::process_new_day()
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:18996
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18996
 VA_CHT_1(0x00594f90, 0x48d)
 bool t_caravan::read(std::basic_streambuf<char, std::char_traits<char>>& arg_0, unsigned short arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:18997
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18997
 VA_CHT_1(0x00595420, 0xe4)
 bool t_caravan::write(std::basic_streambuf<char, std::char_traits<char>>& arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:68492; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:68492; name:B (dyninit; see ledger)
 VA_CHT_1(0x00595510, 0x20)
 // caravan$tinit1
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:68494; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:68494; name:B (dyninit; see ledger)
 VA_CHT_1(0x00595530, 0x5c)
 // caravan$tinit2
 // Function body not reconstructed; signature retained as a comment.
@@ -103,7 +103,7 @@ VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 // caravan$tatexit4
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; align-band; retn,stable,vslot; map:18998
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18998
 VA_CHT_1_COMPGEN(0x00594c80, 0x26, SCALAR_DELETING_DTOR, t_caravan)
 
 // name:A; map symbol; map:18999
@@ -121,20 +121,20 @@ t_caravan::~t_caravan()
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:19002
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:19002
 VA_CHT_1_COMPGEN(0x00595590, 0x8, VECTOR_DELETING_DTOR, t_caravan)
 
-// confidence:C; align-order; stable; map:19003
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:19003
 VA_CHT_1(0x005955a0, 0xb)
 // [thunk]: public: virtual t_creature_array* t_creature_array::get_creature_array`vtordisp{-4, 32}'(void)
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:19004
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:19004
 VA_CHT_1(0x005955b0, 0x8)
 // [thunk]: public: virtual t_adventure_map* t_caravan::get_map`vtordisp{-4, 0}'(void) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:19005
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:19005
 VA_CHT_1(0x005955c0, 0x8)
 // [thunk]: public: virtual int t_caravan::get_owner_number`vtordisp{-4, 0}'(void) const
 // Function body not reconstructed; signature retained as a comment.

@@ -36,7 +36,51 @@ static void read_list(list_t *l) {
 	for (int k = 0; k < l->n; k++) scanf("%d", &l->j[k]);
 }
 
+/* Sparse assembly-similarity candidates within a pair of exact anchor bounds.
+ * Input: nA nB nCandidates, then i j score. Missing pairs are forbidden.
+ * Reuses the same ordered DP / traceback convention as the structural mode. */
+static int release_pairs(void) {
+	int na, nb, nc;
+	if (scanf("%d %d %d", &na, &nb, &nc) != 3 || na < 0 || nb < 0 || nc < 0) return 2;
+	if ((size_t)(na + 1) * (nb + 1) > 4000000) return 2;
+	size_t cells = (size_t)(na + 1) * (nb + 1);
+	double *scores = malloc(cells * sizeof(double));
+	double *prev = calloc(nb + 1, sizeof(double)), *cur = malloc((nb + 1) * sizeof(double));
+	unsigned char *trace = calloc(cells, 1);
+	if (!scores || !prev || !cur || !trace) return 3;
+	for (size_t k = 0; k < cells; k++) scores[k] = -1e9;
+	for (int k = 0; k < nc; k++) {
+		int i, j; double score;
+		if (scanf("%d %d %lf", &i, &j, &score) != 3 || i < 0 || i >= na || j < 0 || j >= nb) return 2;
+		scores[(size_t)(i + 1) * (nb + 1) + j + 1] = score;
+	}
+	/* Zero-cost gaps: only supplied positive-evidence matches earn a score. */
+	for (int i = 1; i <= na; i++) {
+		cur[0] = 0;
+		for (int j = 1; j <= nb; j++) {
+			size_t k = (size_t)i * (nb + 1) + j;
+			double d = prev[j - 1] + scores[k], u = prev[j], l = cur[j - 1];
+			if (d > u && d > l) { cur[j] = d; trace[k] = 0; }
+			else if (u >= l) { cur[j] = u; trace[k] = 1; }
+			else { cur[j] = l; trace[k] = 2; }
+		}
+		double *tmp = prev; prev = cur; cur = tmp;
+	}
+	int i = na, j = nb, n = 0;
+	int *ai = malloc((na + nb + 1) * sizeof(int)), *bj = malloc((na + nb + 1) * sizeof(int));
+	if (!ai || !bj) return 3;
+	while (i && j) {
+		int t = trace[(size_t)i * (nb + 1) + j];
+		if (t == 0) { ai[n] = --i; bj[n++] = --j; }
+		else if (t == 1) i--; else j--;
+	}
+	for (int k = n - 1; k >= 0; k--) printf("%d %d\n", ai[k], bj[k]);
+	free(scores); free(prev); free(cur); free(trace); free(ai); free(bj);
+	return 0;
+}
+
 int main(int argc, char **argv) {
+	if (argc == 2 && !strcmp(argv[1], "--release")) return release_pairs();
 	if (argc != 18) { fprintf(stderr, "need 17 weights\n"); return 1; }
 	double *w[] = {&W_RETN_OK, &W_RETN_OK_CDECL, &W_RETN_BAD, &W_VFT_OK, &W_VFT_BAD, &W_NONVIRT_VFTONLY,
 	               &W_CTOR_OK, &W_CTOR_BAD, &W_XCU_OK, &W_XCU_BAD, &W_SIZE_MAX, &W_SIZE_MIN, &W_SIZE_SLOPE, &GAP_B,

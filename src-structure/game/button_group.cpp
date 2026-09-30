@@ -1,7 +1,7 @@
 // button_group.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 38/77 (A:29 B:5 C:4); unaccounted 39; skipped std 16.
+// Accounted 38/77 (A:21 B:2 C:0); unaccounted 39; skipped std 16.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,35 +10,35 @@
 
 // === .text (46 symbols) ===
 
-// confidence:B; align-order; retn,stable; map:18541
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18541
 VA_CHT_1(0x00584460, 0x134)
 void t_button_group::add(t_toggle_button* arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:18542
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18542
 VA_CHT_1(0x005845a0, 0x94)
 void t_button_group::clicked(t_button* arg_0, t_handler_1<t_button*> arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:18543
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18543
 VA_CHT_1(0x00584640, 0x3d)
 void t_button_group::enable(bool arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:18544
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18544
 VA_CHT_1(0x00584680, 0x29)
 void t_button_group::enable(int arg_0, bool arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn; map:18545
+// confidence:D; align-order; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:18545
 VA_CHT_1(0x005846e0, 0x2b)
 void t_button_group::select(int arg_0)
 {
@@ -52,14 +52,14 @@ void t_button_group::set_visible(int arg_0, bool arg_1)
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn; map:18547
+// confidence:D; align-order; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:18547
 VA_CHT_1(0x00584710, 0x57)
 void t_button_group::set_visible(bool arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:68875; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:68875; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00584ac0, 0x20, STATIC_INIT_DISPATCH, button_group)
 
 // name:A; map symbol; map:18548
@@ -163,7 +163,7 @@ t_bound_handler_2<t_button_group, t_button*, t_handler_1<t_button*>>::t_bound_ha
     // Body unavailable.
 }
 
-// confidence:A; align-band; vslot; map:18575
+// confidence:D; align-band; vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18575
 VA_CHT_1(0x005848a0, 0x6f)
 void t_bound_handler_2<t_button_group, t_button*, t_handler_1<t_button*>>::operator()(
     t_button* arg_0,
@@ -173,7 +173,7 @@ void t_bound_handler_2<t_button_group, t_button*, t_handler_1<t_button*>>::opera
     // Body unavailable.
 }
 
-// confidence:A; align-band; stable,vptr; map:18576
+// confidence:D; align-band; stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:18576
 VA_CHT_1(0x00584770, 0x128)
 t_add_2nd_handler_1<t_button*, t_handler_1<t_button*>>::t_add_2nd_handler_1<t_button*, t_handler_1<t_button*>>(
     t_handler_base_2<t_button*, t_handler_1<t_button*>>* arg_0,
@@ -183,14 +183,14 @@ t_add_2nd_handler_1<t_button*, t_handler_1<t_button*>>::t_add_2nd_handler_1<t_bu
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,vslot; map:18577
+// confidence:D; align-band; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18577
 VA_CHT_1(0x00584910, 0x93)
 void t_add_2nd_handler_1<t_button*, t_handler_1<t_button*>>::operator()(t_button* arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:18578
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18578
 VA_CHT_1_COMPGEN(0x005849b0, 0x1e, SCALAR_DELETING_DTOR, "t_bound_handler_2<t_button_group, t_button*, t_handler_1<t_button*>>")
 
 // name:A; map symbol; map:18579
@@ -203,7 +203,7 @@ t_handler_base_2<t_button*, t_handler_1<t_button*>>::t_handler_base_2<t_button*,
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:18581
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18581
 VA_CHT_1_COMPGEN(0x005849f0, 0x1e, VECTOR_DELETING_DTOR, "t_add_2nd_handler_1<t_button*, t_handler_1<t_button*>>")
 
 // name:A; map symbol; map:18582
@@ -225,7 +225,7 @@ t_handler_base_2<t_button*, t_handler_1<t_button*>>::~t_handler_base_2<t_button*
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:18585
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:18585
 VA_CHT_1(0x00584a10, 0x21)
 t_abstract_function_2<void, t_button*, t_handler_1<t_button*>>::~t_abstract_function_2<void, t_button*, t_handler_1<t_button*>>(
 
@@ -234,7 +234,7 @@ t_abstract_function_2<void, t_button*, t_handler_1<t_button*>>::~t_abstract_func
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:18586
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18586
 VA_CHT_1_COMPGEN(0x005849d0, 0x20, VECTOR_DELETING_DTOR, "t_abstract_function_2<void, t_button*, t_handler_1<t_button*>>")
 
 // name:A; map symbol; map:18587
@@ -323,7 +323,7 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, "t_add_2nd_han
 // name:A; map symbol; map:18599
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, "t_handler_base_2<t_button*, t_handler_1<t_button*>>")
 
-// confidence:C; align-order; stable; map:18600
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18600
 VA_CHT_1_COMPGEN(0x00584af0, 0x8, VECTOR_DELETING_DTOR, "t_bound_handler_2<t_button_group, t_button*, t_handler_1<t_button*>>")
 
 // === .rdata (7 symbols) ===

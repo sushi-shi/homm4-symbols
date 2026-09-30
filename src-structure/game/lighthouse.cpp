@@ -1,7 +1,7 @@
 // lighthouse.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\lighthouse.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 27/47 (A:22 B:3 C:2); unaccounted 20; skipped std 1.
+// Accounted 27/47 (A:12 B:3 C:0); unaccounted 20; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,13 +10,13 @@
 
 // === .text (25 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:64847; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:64847; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x006eb230, 0x15, STATIC_INIT_DISPATCH, "lighthouse#1")
 
 // name:C; dyninit; see ledger; map:64848
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "lighthouse#1")
 
-// confidence:A; dyninit-init; owner-conf-B; map:64849; name:B (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:64849; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x006eb250, 0x1c, STATIC_INIT_DISPATCH, g_lighthouse_registration)
 
 // name:B; dyninit; see ledger; map:64850
@@ -32,7 +32,7 @@ bool t_lighthouse::read_from_map(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:28202
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:28202
 VA_CHT_1(0x006eb270, 0x3a1)
 void t_lighthouse::activate_trigger(
     t_army* arg_0,
@@ -44,33 +44,33 @@ void t_lighthouse::activate_trigger(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:28203
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:28203
 VA_CHT_1(0x006eb620, 0xab)
 float t_lighthouse::ai_value(t_adventure_ai const& arg_0, t_creature_array const& arg_1, int arg_2) const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:28204
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:28204
 VA_CHT_1(0x006eb6d0, 0x42)
 void t_lighthouse::place(t_adventure_map& arg_0, t_adv_map_point const& arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:28205
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:28205
 VA_CHT_1(0x006eb720, 0x67)
 void t_lighthouse::set_owner(int arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:64851; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:64851; name:B (dyninit; see ledger)
 VA_CHT_1(0x006eb9f0, 0x20)
 // lighthouse$tinit1
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:64853; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:64853; name:B (dyninit; see ledger)
 VA_CHT_1(0x006eba10, 0x5c)
 // lighthouse$tinit2
 // Function body not reconstructed; signature retained as a comment.
@@ -115,7 +115,7 @@ t_object_factory<t_lighthouse>::t_object_factory<t_lighthouse>()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:28209
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:28209
 VA_CHT_1(0x006eb790, 0x189)
 t_stationary_adventure_object* t_object_factory<t_lighthouse>::create(
     std::string const& arg_0,
@@ -132,7 +132,7 @@ t_lighthouse::t_lighthouse(std::string const& arg_0)
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:28211
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:28211
 VA_CHT_1_COMPGEN(0x006eb920, 0x2d, VECTOR_DELETING_DTOR, t_lighthouse)
 
 // name:A; map symbol; map:28212
@@ -150,10 +150,10 @@ t_lighthouse::~t_lighthouse()
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:28215
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:28215
 VA_CHT_1_COMPGEN(0x006eba70, 0x8, VECTOR_DELETING_DTOR, t_lighthouse)
 
-// confidence:C; align-order; stable; map:28216
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:28216
 VA_CHT_1_COMPGEN(0x006eba80, 0xb, VECTOR_DELETING_DTOR, t_lighthouse)
 
 // === .rdata (8 symbols) ===

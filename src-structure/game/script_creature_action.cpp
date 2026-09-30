@@ -1,7 +1,7 @@
 // script_creature_action.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 56/147 (A:50 B:5 C:1); unaccounted 91; skipped std 1.
+// Accounted 55/147 (A:46 B:0 C:0); unaccounted 92; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -27,48 +27,48 @@ bool t_script_creature_action::read(std::basic_streambuf<char, std::char_traits<
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:34739
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:34739
 VA_CHT_1(0x00797710, 0x7c)
 bool t_script_creature_action::write(std::basic_streambuf<char, std::char_traits<char>>& arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:34740
-VA_CHT_1(0x00797790, 0xaa)
+// name:A; map symbol; map:34740
+VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 void t_script_give_creatures::do_action(t_creature_array* arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:34741
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:34741
 VA_CHT_1(0x00797ce0, 0x194)
 void t_script_take_creatures::do_action(t_creature_array* arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:34742
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:34742
 VA_CHT_1(0x00797e80, 0x1e)
 void t_script_take_creatures::add_icons(t_basic_dialog* arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:34743
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:34743
 VA_CHT_1(0x00797ea0, 0x1f)
 void t_script_give_creatures::add_icons(t_basic_dialog* arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:63125; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:63125; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00797ec0, 0x70, STATIC_INIT_DISPATCH, script_creature_action)
 
 // name:C; dyninit; see ledger; map:63127
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "t_script_action_base<21,t_script_give_creatures>::k_factory")
 
-// confidence:A; align-order; atexit,stable; map:63128; name:C (dyninit; see ledger)
+// confidence:D; align-order; atexit,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:63128; name:C (dyninit; see ledger)
 VA_CHT_1(0x00797f50, 0x1f)
 // t_script_action_base<50,t_script_take_creatures>::k_factory$atexit
 // Function body not reconstructed; signature retained as a comment.
@@ -128,14 +128,14 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_DTOR, "t_script_action_base<5
 // name:A; dyninit; see ledger; map:34752
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_DTOR, "t_script_action_base<21,t_script_give_creatures>::k_factory")
 
-// confidence:A; align-band; retn,stable,vptr; map:34753
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:34753
 VA_CHT_1(0x00797f70, 0x14)
 t_script_action_factory<21>::~t_script_action_factory<21>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:34754
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:34754
 VA_CHT_1(0x007980d0, 0x14)
 t_script_action_factory<50>::~t_script_action_factory<50>()
 {
@@ -275,7 +275,7 @@ t_script_give_creatures::t_script_give_creatures()
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:34776
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:34776
 VA_CHT_1(0x00797860, 0x8a)
 t_script_creature_action::t_script_creature_action()
 {

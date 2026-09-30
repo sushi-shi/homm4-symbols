@@ -1,7 +1,7 @@
 // creature_info_window.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\creature_info_window.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 24/41 (A:16 B:4 C:4); unaccounted 17; skipped std 1.
+// Accounted 24/41 (A:12 B:0 C:0); unaccounted 17; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -26,7 +26,7 @@ void t_portrait_window::left_button_down(t_mouse_event const& arg_0)
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:23338
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:23338
 VA_CHT_1(0x00615bc0, 0x91)
 void t_portrait_window::left_button_up(t_mouse_event const& arg_0)
 {
@@ -63,7 +63,7 @@ void t_portrait_window::mouse_leaving(t_window* arg_0, t_window* arg_1, t_mouse_
 
 } // anonymous namespace
 
-// confidence:A; align-order; retn,stable,vptr; map:23343
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:23343
 VA_CHT_1(0x00615c60, 0xcab)
 t_creature_info_window::t_creature_info_window(
     t_screen_point const& arg_0,
@@ -76,63 +76,63 @@ t_creature_info_window::t_creature_info_window(
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:23344
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:23344
 VA_CHT_1(0x00616930, 0xb9)
 int t_creature_info_window::get_frame_height() const
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:23345
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:23345
 VA_CHT_1(0x00616b70, 0x3a)
 t_creature_stack const* t_creature_info_window::get_selected_army()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:23346
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:23346
 VA_CHT_1(0x00616bb0, 0x6d1)
 void t_creature_info_window::update()
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:23347
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:23347
 VA_CHT_1(0x00617290, 0x2d)
 void t_creature_info_window::set_highlight(int arg_0, bool arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:23348
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:23348
 VA_CHT_1(0x006172c0, 0xae)
 void t_creature_info_window::set_army(t_creature_array const* arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:23349
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:23349
 VA_CHT_1(0x00617370, 0x1c)
 void t_creature_info_window::set_scouting_level(t_skill_mastery arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:23350
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:23350
 VA_CHT_1(0x00617390, 0x98)
 void t_creature_info_window::select_first()
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:23351
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:23351
 VA_CHT_1(0x00617430, 0x60)
 void t_creature_info_window::select_creature(int arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:66968; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:66968; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00617490, 0x20, STATIC_INIT_DISPATCH, creature_info_window)
 
 // name:A; map symbol; map:23352
@@ -152,7 +152,7 @@ t_portrait_window::~t_portrait_window()
 
 } // anonymous namespace
 
-// confidence:A; align-band; retn,stable,vslot; map:23355
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:23355
 VA_CHT_1_COMPGEN(0x00616910, 0x1e, SCALAR_DELETING_DTOR, t_creature_info_window)
 
 // name:A; map symbol; map:23356

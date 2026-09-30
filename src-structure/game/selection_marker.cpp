@@ -1,7 +1,7 @@
 // selection_marker.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 15/28 (A:9 B:2 C:4); unaccounted 13; skipped std 1.
+// Accounted 15/28 (A:6 B:2 C:0); unaccounted 13; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,14 +10,14 @@
 
 // === .text (14 symbols) ===
 
-// confidence:A; align-order; retn,stable,vptr; map:36992
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:36992
 VA_CHT_1(0x007abc70, 0x146)
 t_selection_marker::t_selection_marker(int arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn; map:62856
+// confidence:D; align-order; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:62856
 VA_CHT_1(0x007abdc0, 0xc8)
 static std::string get_selection_marker_name(int arg_0)
 {
@@ -31,7 +31,7 @@ std::auto_ptr<t_abstract_adv_object> t_selection_marker::clone() const
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:36994
+// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:36994
 VA_CHT_1(0x007abe90, 0x2d)
 std::string t_selection_marker::get_name() const
 {
@@ -45,7 +45,7 @@ bool t_selection_marker::is_event_recordable() const
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:62857; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:62857; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007ac130, 0x20, STATIC_INIT_DISPATCH, selection_marker)
 
 // name:A; map symbol; map:36996
@@ -54,7 +54,7 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, t_selection_ma
 // name:A; map symbol; map:36997
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, t_selection_marker)
 
-// confidence:C; align-band; retn; map:36998
+// confidence:D; align-band; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:36998
 VA_CHT_1(0x007abec0, 0x57)
 // public: void t_selection_marker::`vbase dtor'(void)
 // Function body not reconstructed; signature retained as a comment.
@@ -76,10 +76,10 @@ t_selection_marker::t_selection_marker(t_selection_marker const& arg_0)
 // name:A; map symbol; map:37001
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, t_selection_marker)
 
-// confidence:C; align-order; stable; map:37002
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37002
 VA_CHT_1_COMPGEN(0x007ac160, 0xb, VECTOR_DELETING_DTOR, t_selection_marker)
 
-// confidence:C; align-order; stable; map:37003
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37003
 VA_CHT_1(0x007ac170, 0x8)
 // [thunk]: public: virtual std::auto_ptr<t_abstract_adv_object> t_selection_marker::clone`vtordisp{-4, 0}'(void) const
 // Function body not reconstructed; signature retained as a comment.

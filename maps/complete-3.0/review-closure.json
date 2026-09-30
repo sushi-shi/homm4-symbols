@@ -1,0 +1,14 @@
+{
+  "date": "2026-09-30",
+  "status": "closed-by-user",
+  "decision": "Stop exhaustive manual review; classify unreviewed function proposals as D, not a best guess.",
+  "scope": "Both executable maps; structural RTTI/vftable labels retain their structural tiers.",
+  "frozen_roster_count": 4915,
+  "inspected": 251,
+  "supported": 101,
+  "rejected": 92,
+  "unresolved": 58,
+  "unreviewed_D": 4664,
+  "last_completed_address_order_case": "F00222",
+  "note": "Unresolved names retain C; rejected identities stay withheld. D is not a manual-review verdict or evidence of correctness."
+}

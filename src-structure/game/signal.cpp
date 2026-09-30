@@ -1,7 +1,7 @@
 // signal.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 4/9 (A:0 B:1 C:3); unaccounted 5; skipped std 0.
+// Accounted 4/9 (A:0 B:0 C:0); unaccounted 5; skipped std 0.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -17,28 +17,28 @@ t_signal::t_signal()
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:37206
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37206
 VA_CHT_1(0x007b2bf0, 0x27)
 t_signal::~t_signal()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:37207
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37207
 VA_CHT_1(0x007b2c20, 0x1b)
 void t_signal::set()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:37208
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37208
 VA_CHT_1(0x007b2c40, 0xc)
 bool t_signal::wait()
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:37209
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37209
 VA_CHT_1(0x007b2c50, 0x18)
 bool t_signal::wait(int arg_0)
 {

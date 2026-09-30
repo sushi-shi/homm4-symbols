@@ -1,7 +1,7 @@
 // abstract_adventure_map.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\abstract_adventure_map.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 118/446 (A:31 B:28 C:59); unaccounted 328; skipped std 390.
+// Accounted 96/446 (A:16 B:8 C:14); unaccounted 350; skipped std 390.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,7 +10,7 @@
 
 // === .text (422 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:71437; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:71437; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00404b70, 0x15, STATIC_INIT_DISPATCH, "abstract_adventure_map#1")
 
 // name:C; dyninit; see ledger; map:71438
@@ -40,7 +40,7 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "abstract_adventure_m
 // name:C; dyninit; see ledger; map:71446
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_DTOR, "abstract_adventure_map#3")
 
-// confidence:A; dyninit-init; owner-conf-C; map:71447; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:71447; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00404b90, 0x11, STATIC_INIT_DISPATCH, "abstract_adventure_map#4")
 
 // confidence:B; dyninit-ctor; owner-conf-C; map:71448; name:C (dyninit; see ledger)
@@ -49,7 +49,7 @@ VA_CHT_1_COMPGEN(0x00404bb0, 0xd1, STATIC_CTOR, "abstract_adventure_map#4")
 // name:C; dyninit; see ledger; map:71449
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "abstract_adventure_map#4")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:71450; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:71450; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00404c90, 0xa, STATIC_DTOR, "abstract_adventure_map#4")
 
 namespace {
@@ -61,14 +61,14 @@ t_object_info& t_object_info_array::get(int arg_0)
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:354
+// confidence:C; align-order; retn,stable;manual-review=complete-F00038:unresolved; map:354
 VA_CHT_1(0x00404ca0, 0x30)
 t_object_info const& t_object_info_array::get(int arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:355
+// confidence:C; align-order; retn,stable;manual-review=complete-F00039:unresolved; map:355
 VA_CHT_1(0x00404cd0, 0x20b)
 t_object_info& t_object_info_array::append_new()
 {
@@ -82,14 +82,14 @@ void t_adventure_map_view_cell_grid::resize(t_screen_rect const& arg_0)
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:357
-VA_CHT_1(0x00404f80, 0x1d8)
+// name:A; map symbol; map:357
+VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 t_adventure_map_view_cell& t_adventure_map_view_cell_grid::get(t_screen_point const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:358
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:358
 VA_CHT_1(0x00405160, 0xa3)
 t_adventure_map_view_cell const& t_adventure_map_view_cell_grid::get(t_screen_point const& arg_0) const
 {
@@ -119,8 +119,8 @@ void t_abstract_adventure_tile::remove_intersecting_object_id(int arg_0)
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn; map:362
-VA_CHT_1(0x00405210, 0x92)
+// name:A; map symbol; map:362
+VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 int const* t_adventure_map_view_cell::shadow_insert(int arg_0)
 {
     // Body unavailable.
@@ -175,7 +175,7 @@ t_abstract_adventure_map::~t_abstract_adventure_map()
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn; map:370
+// confidence:D; align-order; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:370
 VA_CHT_1(0x00405980, 0x1e)
 t_abstract_adventure_map& t_abstract_adventure_map::operator=(t_abstract_adventure_map const& arg_0)
 {
@@ -239,14 +239,14 @@ int t_abstract_adventure_map::get_row_end(int arg_0) const
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:378
+// confidence:C; align-order; retn,stable;manual-review=complete-F00055:unresolved; map:378
 VA_CHT_1(0x00405d10, 0xa)
 long t_abstract_adventure_map::get_terrain_random_seed() const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; stable,vslot; map:379
+// confidence:D; align-order; stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:379
 VA_CHT_1(0x00405d20, 0xa6)
 t_quad<t_abstract_adventure_tile_vertex const&> t_abstract_adventure_map::get_tile_vertex_quad(
     t_level_map_point_2d arg_0
@@ -278,29 +278,29 @@ int t_abstract_adventure_map::get_vertex_row_end(int arg_0) const
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:383
-VA_CHT_1(0x00405ea0, 0x14)
+// name:A; map symbol; map:383
+VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 t_screen_point t_abstract_adventure_map::get_view_size() const
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:384
-VA_CHT_1(0x00405ec0, 0x18)
+// name:A; map symbol; map:384
+VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 bool t_abstract_adventure_map::is_valid(t_map_point_2d const& arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:385
-VA_CHT_1(0x00405ee0, 0x38)
+// name:A; map symbol; map:385
+VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 bool t_abstract_adventure_map::is_valid(t_level_map_point_2d const& arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:386
-VA_CHT_1(0x00405f20, 0x40)
+// name:A; map symbol; map:386
+VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 bool t_abstract_adventure_map::is_vertex_valid(t_map_point_2d const& arg_0) const
 {
     // Body unavailable.
@@ -327,7 +327,7 @@ t_screen_point t_abstract_adventure_map::get_screen_point(t_map_point_2d arg_0) 
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:390
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:390
 VA_CHT_1(0x00406050, 0x81)
 t_adventure_map_view_cell const& t_abstract_adventure_map::get_view_cell(
     int arg_0,
@@ -351,64 +351,64 @@ void t_abstract_adventure_map::stamp_object(int arg_0)
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:393
+// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:393
 VA_CHT_1(0x00406410, 0x171)
 void t_abstract_adventure_map::unstamp_object(int arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn; map:394
+// confidence:C; align-order; retn;manual-review=complete-F00067:unresolved; map:394
 VA_CHT_1(0x00406590, 0xe7)
 void t_abstract_adventure_map::on_floating_object(int arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn; map:395
-VA_CHT_1(0x00406690, 0x114)
+// name:A; map symbol; map:395
+VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 void t_abstract_adventure_map::on_moving_object(int arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:396
+// confidence:C; align-order; retn,stable;manual-review=complete-F00072:unresolved; map:396
 VA_CHT_1(0x00406940, 0x40)
 void t_abstract_adventure_map::on_object_moved(int arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:397
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:397
 VA_CHT_1(0x00406980, 0x159)
 void t_abstract_adventure_map::on_object_placed(int arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:398
-VA_CHT_1(0x00407090, 0x33)
+// name:A; map symbol; map:398
+VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 void t_abstract_adventure_map::on_object_sunk(int arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:399
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:399
 VA_CHT_1(0x004070d0, 0x37)
 void t_abstract_adventure_map::on_removing_object(int arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:400
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:400
 VA_CHT_1(0x004079d0, 0xf7)
 t_screen_rect t_abstract_adventure_map::compute_object_extent(int arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:401
-VA_CHT_1(0x004083b0, 0xac)
+// name:A; map symbol; map:401
+VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 t_screen_rect t_abstract_adventure_map::compute_object_shadow_extent(int arg_0) const
 {
     // Body unavailable.
@@ -428,56 +428,56 @@ unsigned int t_abstract_adventure_map::get_object_placement_num(int arg_0) const
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:404
-VA_CHT_1(0x004089a0, 0x3e)
+// name:A; map symbol; map:404
+VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 t_adventure_map_view_cell& t_abstract_adventure_map::get_view_cell(int arg_0, t_screen_point arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:405
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:405
 VA_CHT_1(0x00408a90, 0x25)
 std::string const& t_abstract_adventure_map::get_map_description() const
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:406
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:406
 VA_CHT_1(0x00408b40, 0x25)
 t_difficulty t_abstract_adventure_map::get_map_difficulty() const
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:407
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:407
 VA_CHT_1(0x00408b70, 0x25)
 std::string const& t_abstract_adventure_map::get_map_name() const
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:408
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:408
 VA_CHT_1(0x00408be0, 0x21)
 void t_abstract_adventure_map::set_map_description(std::string const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:409
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:409
 VA_CHT_1(0x00408c10, 0x19)
 void t_abstract_adventure_map::set_map_difficulty(t_difficulty arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:410
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:410
 VA_CHT_1(0x00408c30, 0x4b)
 void t_abstract_adventure_map::set_map_name(std::string const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:411
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:411
 VA_CHT_1(0x00408e60, 0xc)
 void t_abstract_adventure_map::stamp_object_image(int arg_0)
 {
@@ -506,8 +506,8 @@ VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 // t_abstract_adventure_map::compute_height$sdtor
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; retn; map:414
-VA_CHT_1(0x004091c0, 0x19d)
+// name:A; map symbol; map:414
+VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 bool is_under_fog_of_war(
     t_abstract_adventure_map const& arg_0,
     int arg_1,
@@ -518,14 +518,14 @@ bool is_under_fog_of_war(
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:415
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:415
 VA_CHT_1(0x004096a0, 0x3e)
 bool is_under_fog_of_war(t_abstract_adventure_map const& arg_0, int arg_1, int arg_2)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; RETN!,stable; map:416
+// confidence:D; align-order; RETN!,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:416
 VA_CHT_1(0x004098b0, 0x3e)
 bool is_under_shroud(
     t_abstract_adventure_map const& arg_0,
@@ -537,19 +537,19 @@ bool is_under_shroud(
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:417
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:417
 VA_CHT_1(0x00409a00, 0x3e)
 bool is_under_shroud(t_abstract_adventure_map const& arg_0, int arg_1, int arg_2)
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:71453; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:71453; name:B (dyninit; see ledger)
 VA_CHT_1(0x0040a360, 0x20)
 // abstract_adventure_map$tinit1
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:71455; name:B (dyninit; see ledger)
+// confidence:C; dyninit-tinit; owner-conf-B;manual-review=complete-F00091:unresolved; map:71455; name:B (dyninit; see ledger)
 VA_CHT_1(0x0040a910, 0xd0)
 // abstract_adventure_map$tinit2
 // Function body not reconstructed; signature retained as a comment.
@@ -589,7 +589,7 @@ VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 // abstract_adventure_map$tatexit8
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:71463; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:71463; name:B (dyninit; see ledger)
 VA_CHT_1(0x0040ae90, 0x3f)
 // abstract_adventure_map$tinit3
 // Function body not reconstructed; signature retained as a comment.
@@ -599,12 +599,12 @@ VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 // abstract_adventure_map$tatexit9
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; align-order; atexit,stable; map:71465; name:B (dyninit; see ledger)
+// confidence:D; align-order; atexit,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:71465; name:B (dyninit; see ledger)
 VA_CHT_1(0x0040aed0, 0x50)
 // abstract_adventure_map$tatexit10
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:71466; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:71466; name:B (dyninit; see ledger)
 VA_CHT_1(0x0040af70, 0x3f)
 // abstract_adventure_map$tinit4
 // Function body not reconstructed; signature retained as a comment.
@@ -614,42 +614,42 @@ VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 // abstract_adventure_map$tatexit11
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; align-order; atexit,stable; map:71468; name:B (dyninit; see ledger)
+// confidence:D; align-order; atexit,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:71468; name:B (dyninit; see ledger)
 VA_CHT_1(0x0040afb0, 0x50)
 // abstract_adventure_map$tatexit12
 // Function body not reconstructed; signature retained as a comment.
 
 namespace {
 
-// confidence:C; align-band; retn; map:418
+// confidence:D; align-band; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:418
 VA_CHT_1(0x004059a0, 0x20)
 t_object_info::t_object_info()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn; map:419
-VA_CHT_1(0x00407890, 0x20)
+// name:A; map symbol; map:419
+VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 t_object_info_array::t_obj_info_vector_ptr::t_obj_info_vector_ptr()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn; map:420
+// confidence:D; align-band; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:420
 VA_CHT_1(0x00409ab0, 0x25)
 t_object_info_array::t_obj_info_vector_ptr::~t_obj_info_vector_ptr()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn; map:421
+// confidence:D; align-band; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:421
 VA_CHT_1(0x00409ca0, 0x25)
 t_object_info_array::t_obj_info_vector_ptr_vector_ptr::t_obj_info_vector_ptr_vector_ptr()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn; map:422
+// confidence:D; align-band; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:422
 VA_CHT_1(0x00408c90, 0x1d)
 t_object_info_array::t_obj_info_vector_ptr_vector_ptr::~t_obj_info_vector_ptr_vector_ptr()
 {
@@ -658,14 +658,14 @@ t_object_info_array::t_obj_info_vector_ptr_vector_ptr::~t_obj_info_vector_ptr_ve
 
 } // anonymous namespace
 
-// confidence:C; align-band; retn,stable; map:423
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:423
 VA_CHT_1(0x00408ac0, 0x18)
 int t_screen_rect::height() const
 {
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:424
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:424
 VA_CHT_1(0x00408ae0, 0x18)
 int t_screen_rect::width() const
 {
@@ -679,20 +679,20 @@ bool is_normalized(t_screen_rect const& arg_0)
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn; map:426
+// confidence:D; align-band; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:426
 VA_CHT_1(0x0040a470, 0x1d)
 t_screen_point::t_screen_point()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:427
+// confidence:C; align-band; retn,stable,vslot;manual-review=complete-F00045:unresolved; map:427
 VA_CHT_1_COMPGEN(0x00405410, 0x1e, SCALAR_DELETING_DTOR, t_abstract_adventure_map)
 
 // name:A; map symbol; map:428
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, t_abstract_adventure_map)
 
-// confidence:C; align-band; retn; map:429
+// confidence:D; align-band; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:429
 VA_CHT_1(0x00409550, 0x3e)
 int t_isometric_map_base_base::get_row_end(int arg_0) const
 {
@@ -706,7 +706,7 @@ int t_isometric_map_base_base::get_row_start(int arg_0) const
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn; map:431
+// confidence:D; align-band; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:431
 VA_CHT_1(0x004091a0, 0x1c)
 std::string const& t_external_string::operator std::string const&() const
 {
@@ -722,7 +722,7 @@ std::string const& t_external_string::get() const
 
 namespace {
 
-// confidence:C; align-band; retn,stable; map:433
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:433
 VA_CHT_1(0x00407110, 0x4c)
 t_adventure_map_view_cell_grid::t_adventure_map_view_cell_grid(t_screen_rect const& arg_0)
 {
@@ -756,15 +756,15 @@ t_adventure_map_view_cell_grid::~t_adventure_map_view_cell_grid()
 
 } // anonymous namespace
 
-// confidence:C; align-band; retn,stable; map:437
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:437
 VA_CHT_1(0x00408b00, 0x18)
 int t_abstract_tile_vertex::get_light() const
 {
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:438
-VA_CHT_1(0x0040a1c0, 0x3d)
+// name:A; map symbol; map:438
+VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 void t_abstract_tile_vertex::set_height(int arg_0)
 {
     // Body unavailable.
@@ -777,8 +777,8 @@ void t_abstract_tile_vertex::set_light(int arg_0)
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:440
-VA_CHT_1(0x004089e0, 0x21)
+// name:A; map symbol; map:440
+VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 t_map_point_2d::t_map_point_2d(int arg_0, int arg_1)
 {
     // Body unavailable.
@@ -812,8 +812,8 @@ t_map_point_2d& t_map_point_2d::operator-=(t_map_point_2d const& arg_0)
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:445
-VA_CHT_1(0x00408a30, 0x21)
+// name:A; map symbol; map:445
+VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 t_level_map_point_2d::t_level_map_point_2d(t_map_point_2d const& arg_0, int arg_1)
 {
     // Body unavailable.
@@ -851,7 +851,7 @@ t_abstract_adventure_tile_vertex const& t_abstract_adventure_map::get_const_tile
 
 namespace {
 
-// confidence:C; align-band; retn; map:450
+// confidence:D; align-band; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:450
 VA_CHT_1(0x00405960, 0x1e)
 t_object_info& t_object_info_array::operator[](int arg_0)
 {
@@ -860,14 +860,14 @@ t_object_info& t_object_info_array::operator[](int arg_0)
 
 } // anonymous namespace
 
-// confidence:C; align-band; retn,stable; map:451
-VA_CHT_1(0x004057b0, 0x5a)
+// name:A; map symbol; map:451
+VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 t_abstract_adventure_map::t_apply_height_map_result::t_apply_height_map_result()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn; map:452
+// confidence:D; align-band; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:452
 VA_CHT_1(0x00405770, 0x3e)
 t_abstract_adventure_map::t_apply_height_map_result::~t_apply_height_map_result()
 {
@@ -924,7 +924,7 @@ t_map_point_2d::t_map_point_2d()
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:461
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:461
 VA_CHT_1(0x00408b20, 0x18)
 int t_isometric_map_base_base::get_size() const
 {
@@ -933,7 +933,7 @@ int t_isometric_map_base_base::get_size() const
 
 namespace {
 
-// confidence:C; align-band; retn,stable; map:462
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:462
 VA_CHT_1(0x00408ba0, 0x18)
 int t_object_info_array::get_count() const
 {
@@ -949,7 +949,7 @@ t_object_info const& t_object_info_array::operator[](int arg_0) const
 
 } // anonymous namespace
 
-// confidence:C; align-band; retn,stable; map:464
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:464
 VA_CHT_1(0x00408a60, 0x28)
 t_level_map_point_2d::t_level_map_point_2d(int arg_0, int arg_1, int arg_2)
 {
@@ -993,7 +993,7 @@ bool t_adventure_map_view_cell_grid::is_valid(t_screen_point const& arg_0) const
 
 } // anonymous namespace
 
-// confidence:C; align-band; retn,stable; map:469
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:469
 VA_CHT_1(0x00408bc0, 0x18)
 int t_abstract_tile_vertex::get_height() const
 {
@@ -1054,8 +1054,8 @@ t_adventure_map_view_cell::t_object_subimage_info* t_adventure_map_view_cell::ob
 
 namespace {
 
-// confidence:C; align-band; retn,stable; map:477
-VA_CHT_1(0x00404ee0, 0x3c)
+// name:A; map symbol; map:477
+VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 t_screen_rect to_view_cell_coordinates(t_screen_rect const& arg_0)
 {
     // Body unavailable.
@@ -1579,7 +1579,7 @@ bool operator<(t_map_point_2d const& arg_0, t_map_point_2d const& arg_1)
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:768
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:768
 VA_CHT_1(0x004098f0, 0x4a)
 t_copy_on_write_ptr<std::vector<t_isometric_map_row_data, std::allocator<t_isometric_map_row_data>>>::~t_copy_on_write_ptr<std::vector<t_isometric_map_row_data, std::allocator<t_isometric_map_row_data>>>(
 
@@ -1663,7 +1663,7 @@ t_copy_on_write_ptr<t_abstract_adventure_map::t_impl>& t_copy_on_write_ptr<t_abs
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:778
+// confidence:C; align-band; retn,stable;manual-review=complete-F00073:unresolved; map:778
 VA_CHT_1(0x00407070, 0x20)
 t_quad<t_abstract_adventure_tile_vertex const&>::t_quad<t_abstract_adventure_tile_vertex const&>(
     t_abstract_adventure_tile_vertex const& arg_0,
@@ -1950,13 +1950,13 @@ void operator delete(void* arg_0, void* arg_1)
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:870
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:870
 VA_CHT_1_COMPGEN(0x00408cb0, 0x1e, SCALAR_DELETING_DTOR, "copy_on_write_ptr_details::t_body<std::vector<t_isometric_map_row_data, std::allocator<t_isometric_map_row_data>>>")
 
-// confidence:C; align-band; retn,stable; map:871
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:871
 VA_CHT_1_COMPGEN(0x00408cd0, 0x1e, SCALAR_DELETING_DTOR, "copy_on_write_ptr_details::t_body<t_abstract_adventure_map::t_impl>")
 
-// confidence:C; align-band; retn,stable; map:872
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:872
 VA_CHT_1_COMPGEN(0x00408e70, 0x1e, SCALAR_DELETING_DTOR, "copy_on_write_ptr_details::t_body<std::vector<t_object_info, std::allocator<t_object_info>>>")
 
 // name:A; map symbol; map:873
@@ -2166,14 +2166,14 @@ std::less<int> t_vector_set<int, std::less<int>, std::allocator<int>>::key_comp(
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:917
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:917
 VA_CHT_1(0x00409940, 0xb6)
 void t_copy_on_write_ptr<std::vector<int, std::allocator<int>>>::split()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:918
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:918
 VA_CHT_1(0x0040a720, 0x127)
 void t_copy_on_write_ptr<std::vector<t_adventure_map_view_cell::t_object_subimage_info, std::allocator<t_adventure_map_view_cell::t_object_subimage_info>>>::split(
 
@@ -2191,8 +2191,8 @@ t_map_point_2d const* t_vector_set<t_map_point_2d, std::less<t_map_point_2d>, st
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:920
-VA_CHT_1(0x00409a40, 0x6b)
+// name:A; map symbol; map:920
+VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 copy_on_write_ptr_details::t_body<t_abstract_adventure_map::t_impl>* t_copy_on_write_ptr<t_abstract_adventure_map::t_impl>::get_default_body(
 
 )
@@ -2471,8 +2471,8 @@ copy_on_write_ptr_details::t_body<std::vector<t_adventure_map_view_cell_grid, st
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:961
-VA_CHT_1(0x0040a410, 0x57)
+// name:A; map symbol; map:961
+VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 t_abstract_adventure_map::t_impl::t_properties::~t_properties()
 {
     // Body unavailable.
@@ -2622,8 +2622,8 @@ copy_on_write_ptr_details::t_body<std::vector<t_adventure_map_view_cell_grid, st
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:981
-VA_CHT_1(0x00408f50, 0x56)
+// name:A; map symbol; map:981
+VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 t_abstract_adventure_map::t_impl::t_impl()
 {
     // Body unavailable.
@@ -2676,8 +2676,8 @@ copy_on_write_ptr_details::t_body<std::vector<t_object_info_array::t_obj_info_ve
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:987
-VA_CHT_1(0x0040a490, 0x70)
+// name:A; map symbol; map:987
+VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 t_abstract_adventure_map::t_impl::t_impl(t_abstract_adventure_map::t_impl const& arg_0)
 {
     // Body unavailable.
@@ -2757,7 +2757,7 @@ t_copy_on_write_ptr<std::vector<t_adventure_map_view_cell_grid, std::allocator<t
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:1021
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:1021
 VA_CHT_1(0x00407160, 0x48)
 void t_basic_isometric_map<t_isometric_tile_map_base, unsigned char>::initialize(
     int arg_0,
@@ -2781,7 +2781,7 @@ void t_basic_isometric_map<t_isometric_vertex_map_base, unsigned char>::initiali
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn; map:1024
+// confidence:D; align-band; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:1024
 VA_CHT_1(0x004067e0, 0x159)
 t_static_vector<t_static_vector<t_adventure_map_view_cell, 4>, 4>::t_static_vector<t_static_vector<t_adventure_map_view_cell, 4>, 4>(
     t_static_vector<t_static_vector<t_adventure_map_view_cell, 4>, 4> const& arg_0
@@ -2790,7 +2790,7 @@ t_static_vector<t_static_vector<t_adventure_map_view_cell, 4>, 4>::t_static_vect
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:1025
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:1025
 VA_CHT_1(0x00409420, 0xba)
 t_static_vector<t_static_vector<t_adventure_map_view_cell, 4>, 4>::t_static_vector<t_static_vector<t_adventure_map_view_cell, 4>, 4>(
 
@@ -2806,14 +2806,14 @@ t_static_vector<t_adventure_map_view_cell, 4>::~t_static_vector<t_adventure_map_
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:1027
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:1027
 VA_CHT_1(0x00409110, 0x6d)
 t_adventure_map_view_cell::~t_adventure_map_view_cell()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:1028
+// confidence:C; align-band; retn,stable,vslot;manual-review=complete-F00081:unresolved; map:1028
 VA_CHT_1_COMPGEN(0x00409180, 0x1e, SCALAR_DELETING_DTOR, t_adventure_map_view_cell)
 
 // name:A; map symbol; map:1029
@@ -2928,7 +2928,7 @@ copy_on_write_ptr_details::t_body<std::vector<t_adventure_map_view_cell_grid, st
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:1074
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:1074
 VA_CHT_1(0x004078b0, 0x114)
 t_static_vector<t_adventure_map_view_cell, 4>::t_static_vector<t_adventure_map_view_cell, 4>(
     t_static_vector<t_adventure_map_view_cell, 4> const& arg_0
@@ -2937,14 +2937,14 @@ t_static_vector<t_adventure_map_view_cell, 4>::t_static_vector<t_adventure_map_v
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:1075
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:1075
 VA_CHT_1(0x004095e0, 0xba)
 t_static_vector<t_adventure_map_view_cell, 4>::t_static_vector<t_adventure_map_view_cell, 4>()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:1076
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:1076
 VA_CHT_1(0x00408e90, 0x55)
 copy_on_write_ptr_details::t_default_body_ref<t_static_vector<t_static_vector<t_adventure_map_view_cell, 4>, 4>>::~t_default_body_ref<t_static_vector<t_static_vector<t_adventure_map_view_cell, 4>, 4>>(
 
@@ -2953,7 +2953,7 @@ copy_on_write_ptr_details::t_default_body_ref<t_static_vector<t_static_vector<t_
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:1077
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:1077
 VA_CHT_1(0x00408ef0, 0x55)
 copy_on_write_ptr_details::t_default_body_ref<std::vector<t_copy_on_write_ptr<t_static_vector<t_static_vector<t_adventure_map_view_cell, 4>, 4>>, std::allocator<t_copy_on_write_ptr<t_static_vector<t_static_vector<t_adventure_map_view_cell, 4>, 4>>>>>::~t_default_body_ref<std::vector<t_copy_on_write_ptr<t_static_vector<t_static_vector<t_adventure_map_view_cell, 4>, 4>>, std::allocator<t_copy_on_write_ptr<t_static_vector<t_static_vector<t_adventure_map_view_cell, 4>, 4>>>>>(
 
@@ -3026,14 +3026,14 @@ t_abstract_tile::t_transition_info::~t_transition_info()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:1099
-VA_CHT_1(0x0040ac10, 0x8a)
+// name:A; map symbol; map:1099
+VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 t_adventure_map_view_cell::t_adventure_map_view_cell(t_adventure_map_view_cell const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:1100
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:1100
 VA_CHT_1(0x0040a850, 0xb4)
 t_adventure_map_view_cell::t_adventure_map_view_cell()
 {

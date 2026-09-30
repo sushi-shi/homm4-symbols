@@ -1,7 +1,7 @@
 // adv_object_strings.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\adv_object_strings.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 65/125 (A:43 B:5 C:17); unaccounted 60; skipped std 124.
+// Accounted 65/125 (A:30 B:2 C:0); unaccounted 60; skipped std 124.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -12,21 +12,21 @@
 
 namespace {
 
-// confidence:B; align-order; retn,stable; map:5291
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:5291
 VA_CHT_1(0x0044a600, 0xa8)
 t_minor_type_strings::t_minor_type_strings(t_adv_object_type_properties const& arg_0, int arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:5292
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:5292
 VA_CHT_1(0x0044a890, 0xd1)
 void t_minor_type_strings::add(std::string const& arg_0, std::string const& arg_1, std::string const& arg_2)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:5293
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:5293
 VA_CHT_1(0x0044b7d0, 0x195)
 std::string t_minor_type_strings::get_string(
     t_qualified_adv_object_type const& arg_0,
@@ -36,7 +36,7 @@ std::string t_minor_type_strings::get_string(
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:5294
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:5294
 VA_CHT_1(0x0044ba10, 0x20f)
 t_major_type_strings::t_major_type_strings(t_adv_object_type arg_0)
 {
@@ -55,7 +55,7 @@ void t_major_type_strings::add(
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:5296
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:5296
 VA_CHT_1(0x0044c490, 0x179)
 std::string t_major_type_strings::get_string(
     t_qualified_adv_object_type const& arg_0,
@@ -65,7 +65,7 @@ std::string t_major_type_strings::get_string(
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:5297
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:5297
 VA_CHT_1(0x0044c610, 0x196)
 t_adv_object_strings::t_adv_object_strings()
 {
@@ -74,7 +74,7 @@ t_adv_object_strings::t_adv_object_strings()
 
 } // anonymous namespace
 
-// confidence:C; align-order; stable; map:5298
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:5298
 VA_CHT_1(0x0044ce70, 0x80)
 std::string get_string(t_qualified_adv_object_type const& arg_0, std::string arg_1)
 {
@@ -86,31 +86,31 @@ VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 // get_string$sdtor
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; retn,stable; map:5299
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:5299
 VA_CHT_1(0x0044cef0, 0x49)
 std::string get_name(t_qualified_adv_object_type const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:70952; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:70952; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0044d400, 0x20, STATIC_INIT_DISPATCH, adv_object_strings)
 
-// confidence:C; align-band; retn,stable; map:5300
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:5300
 VA_CHT_1(0x0044b650, 0x19)
 bool t_adv_object_major_subtype_properties::has_subtypes() const
 {
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:5301
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:5301
 VA_CHT_1(0x0044d6e0, 0x19)
 int t_adv_object_major_subtype_properties::get_subtype_count() const
 {
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:5302
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:5302
 VA_CHT_1(0x0044b4b0, 0x43)
 t_adv_object_major_subtype_properties const& t_adv_object_type_properties::get_subtype_properties(
     int arg_0
@@ -128,7 +128,7 @@ t_string_map::t_string_map()
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:5304
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:5304
 VA_CHT_1(0x0044b6e0, 0x21)
 t_string_map::~t_string_map()
 {
@@ -137,14 +137,14 @@ t_string_map::~t_string_map()
 
 } // anonymous namespace
 
-// confidence:C; align-band; retn,stable; map:5306
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:5306
 VA_CHT_1(0x0044a7e0, 0x13)
 int t_qualified_adv_object_type::minor_subtype() const
 {
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:5307
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:5307
 VA_CHT_1(0x0044b9f0, 0x1b)
 bool t_adv_object_type_properties::has_subtypes() const
 {
@@ -160,7 +160,7 @@ int t_adv_object_type_properties::get_subtype_count() const
 
 namespace {
 
-// confidence:C; align-band; retn,stable; map:5309
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:5309
 VA_CHT_1(0x0044b780, 0x43)
 t_minor_type_strings::~t_minor_type_strings()
 {
@@ -222,14 +222,14 @@ t_adv_object_strings::~t_adv_object_strings()
 
 } // anonymous namespace
 
-// confidence:A; align-band; retn,stable,vptr; map:5396
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:5396
 VA_CHT_1(0x0044c7b0, 0x1d)
 t_abstract_cache<t_table>::~t_abstract_cache<t_table>()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:5397
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:5397
 VA_CHT_1(0x0044ac50, 0x1c6)
 t_cached_ptr<t_table> t_abstract_cache<t_table>::get(t_progress_handler* arg_0) const
 {
@@ -277,7 +277,7 @@ t_counted_ptr<t_abstract_cache_data<t_table>>::~t_counted_ptr<t_abstract_cache_d
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:5423
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:5423
 VA_CHT_1_COMPGEN(0x0044c7d0, 0x1e, VECTOR_DELETING_DTOR, "t_pointer_cache<t_table>")
 
 // name:A; map symbol; map:5424
@@ -294,7 +294,7 @@ t_string_map& t_string_map::operator=(t_string_map const& arg_0)
 
 } // anonymous namespace
 
-// confidence:C; align-band; retn,stable; map:5426
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:5426
 VA_CHT_1_COMPGEN(0x0044c970, 0x1e, SCALAR_DELETING_DTOR, t_string_map)
 
 namespace {
@@ -308,7 +308,7 @@ t_minor_type_strings& t_minor_type_strings::operator=(t_minor_type_strings const
 
 } // anonymous namespace
 
-// confidence:C; align-band; retn,stable; map:5428
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:5428
 VA_CHT_1_COMPGEN(0x0044d700, 0x1e, SCALAR_DELETING_DTOR, t_minor_type_strings)
 
 namespace {
@@ -357,7 +357,7 @@ t_cached_ptr<t_table>::t_cached_ptr<t_table>(t_cached_ptr<t_table> const& arg_0)
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:5450
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:5450
 VA_CHT_1(0x0044ce50, 0x19)
 t_abstract_cache<t_table>::t_abstract_cache<t_table>(t_abstract_cache_data<t_table>* arg_0)
 {
@@ -417,7 +417,7 @@ int t_abstract_resource_cache_data<t_table>::get_load_cost()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:5458
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:5458
 VA_CHT_1(0x0044cf40, 0x25)
 void t_abstract_resource_cache_data<t_table>::add_reference()
 {
@@ -455,14 +455,14 @@ bool t_abstract_resource_cache_data<t_table>::read(
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:5463
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:5463
 VA_CHT_1(0x0044cf70, 0x6)
 char const* t_ptr_cache_data<t_table>::get_prefix() const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:5464
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:5464
 VA_CHT_1(0x0044cf80, 0xc3)
 t_table* t_ptr_cache_data<t_table>::do_read(
     std::basic_streambuf<char, std::char_traits<char>>& arg_0,
@@ -482,7 +482,7 @@ bool read(std::basic_streambuf<char, std::char_traits<char>>& arg_0, t_table& ar
 // name:A; map symbol; map:5468
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, t_table)
 
-// confidence:A; align-band; retn,stable,vslot; map:5469
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:5469
 VA_CHT_1_COMPGEN(0x0044d440, 0x1e, VECTOR_DELETING_DTOR, "t_ptr_cache_data<t_table>")
 
 // name:A; map symbol; map:5470
@@ -509,27 +509,27 @@ t_ptr_cache_data<t_table>::~t_ptr_cache_data<t_table>()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:5474
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:5474
 VA_CHT_1(0x0044d4d0, 0xdd)
 t_abstract_resource_cache_data<t_table>::~t_abstract_resource_cache_data<t_table>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:5475
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:5475
 VA_CHT_1(0x00581b40, 0x4c)
 t_abstract_cache_data<t_table>::~t_abstract_cache_data<t_table>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:5476
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:5476
 VA_CHT_1_COMPGEN(0x0044d420, 0x1e, VECTOR_DELETING_DTOR, "t_abstract_cache_data<t_table>")
 
 // name:A; map symbol; map:5477
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, "t_abstract_cache_data<t_table>")
 
-// confidence:A; align-band; retn,stable,vslot; map:5478
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:5478
 VA_CHT_1_COMPGEN(0x0044d5b0, 0x1e, VECTOR_DELETING_DTOR, "t_abstract_resource_cache_data<t_table>")
 
 // name:A; map symbol; map:5479
@@ -577,7 +577,7 @@ t_table& t_owned_ptr<t_table>::operator*() const
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:5492
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:5492
 VA_CHT_1(0x0044d5d0, 0x101)
 t_abstract_cache_data<t_table>::t_abstract_cache_data<t_table>()
 {
@@ -601,10 +601,10 @@ t_string_vector::~t_string_vector()
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:5497
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:5497
 VA_CHT_1_COMPGEN(0x0044d810, 0x8, VECTOR_DELETING_DTOR, "t_ptr_cache_data<t_table>")
 
-// confidence:C; align-order; stable; map:5498
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:5498
 VA_CHT_1_COMPGEN(0x0044d820, 0x8, VECTOR_DELETING_DTOR, "t_abstract_resource_cache_data<t_table>")
 
 // === .rdata (7 symbols) ===

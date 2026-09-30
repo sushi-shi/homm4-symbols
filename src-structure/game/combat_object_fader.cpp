@@ -1,7 +1,7 @@
 // combat_object_fader.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 29/47 (A:24 B:3 C:2); unaccounted 18; skipped std 1.
+// Accounted 29/47 (A:14 B:3 C:0); unaccounted 18; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,43 +10,43 @@
 
 // === .text (27 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:67745; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:67745; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x005d4d60, 0x15, STATIC_INIT_DISPATCH, "combat_object_fader#1")
 
 // name:C; dyninit; see ledger; map:67746
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "combat_object_fader#1")
 
-// confidence:A; dyninit-init; owner-conf-C; map:67747; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:67747; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x005d4d80, 0x15, STATIC_INIT_DISPATCH, "combat_object_fader#2")
 
 // name:C; dyninit; see ledger; map:67748
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "combat_object_fader#2")
 
-// confidence:A; dyninit-init; owner-conf-C; map:67749; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:67749; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x005d4da0, 0x15, STATIC_INIT_DISPATCH, "combat_object_fader#3")
 
 // name:C; dyninit; see ledger; map:67750
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "combat_object_fader#3")
 
-// confidence:A; dyninit-init; owner-conf-C; map:67751; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:67751; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x005d4dc0, 0x15, STATIC_INIT_DISPATCH, "combat_object_fader#4")
 
 // name:C; dyninit; see ledger; map:67752
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "combat_object_fader#4")
 
-// confidence:A; dyninit-init; owner-conf-C; map:67753; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:67753; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x005d4de0, 0x10, STATIC_INIT_DISPATCH, "combat_object_fader#5")
 
 // name:C; dyninit; see ledger; map:67754
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "combat_object_fader#5")
 
-// confidence:A; dyninit-init; owner-conf-C; map:67755; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:67755; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x005d4df0, 0x15, STATIC_INIT_DISPATCH, "combat_object_fader#6")
 
 // name:C; dyninit; see ledger; map:67756
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "combat_object_fader#6")
 
-// confidence:A; align-order; retn,stable,vptr; map:21129
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:21129
 VA_CHT_1(0x005d4e10, 0xa9)
 t_combat_object_fader::t_combat_object_fader(
     t_battlefield& arg_0,
@@ -64,7 +64,7 @@ void t_combat_object_fader::on_idle()
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:67757; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:67757; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x005d5170, 0x20, STATIC_INIT_DISPATCH, combat_object_fader)
 
 // name:A; map symbol; map:21131
@@ -74,7 +74,7 @@ t_counted_idle_processor::t_counted_idle_processor(unsigned long arg_0)
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:21132
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:21132
 VA_CHT_1_COMPGEN(0x005d4ec0, 0x1e, SCALAR_DELETING_DTOR, t_counted_idle_processor)
 
 // name:A; map symbol; map:21133
@@ -87,7 +87,7 @@ t_counted_idle_processor::~t_counted_idle_processor()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:21135
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:21135
 VA_CHT_1_COMPGEN(0x005d4f30, 0x1e, VECTOR_DELETING_DTOR, t_combat_object_fader)
 
 // name:A; map symbol; map:21136
@@ -117,10 +117,10 @@ t_counted_ptr<t_combat_object_fader>::t_counted_ptr<t_combat_object_fader>(t_com
 // name:A; map symbol; map:21140
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, t_combat_object_fader)
 
-// confidence:C; align-order; stable; map:21141
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:21141
 VA_CHT_1_COMPGEN(0x005d51a0, 0x8, VECTOR_DELETING_DTOR, t_combat_object_fader)
 
-// confidence:C; align-order; stable; map:21142
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:21142
 VA_CHT_1_COMPGEN(0x005d51b0, 0x8, VECTOR_DELETING_DTOR, t_counted_idle_processor)
 
 // === .rdata (5 symbols) ===

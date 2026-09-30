@@ -1,7 +1,7 @@
 // dialog_marketplace.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 56/85 (A:34 B:13 C:9); unaccounted 29; skipped std 1.
+// Accounted 56/85 (A:24 B:4 C:0); unaccounted 29; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,32 +10,32 @@
 
 // === .text (54 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:65858; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:65858; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0067ca20, 0x15, STATIC_INIT_DISPATCH, "dialog_marketplace#1")
 
 // name:C; dyninit; see ledger; map:65859
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "dialog_marketplace#1")
 
-// confidence:A; dyninit-init; owner-conf-B; map:65860; name:B (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:65860; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0067ca40, 0x11, STATIC_INIT_DISPATCH, k_marketplace_bitmaps)
 
-// confidence:B; dyninit-ctor; owner-conf-B; map:65861; name:B (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:65861; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0067ca60, 0xd7, STATIC_CTOR, k_marketplace_bitmaps)
 
 // name:B; dyninit; see ledger; map:65862
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, k_marketplace_bitmaps)
 
-// confidence:B; dyninit-dtor; owner-conf-B; map:65863; name:B (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:65863; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0067cb40, 0xa, STATIC_DTOR, k_marketplace_bitmaps)
 
-// confidence:A; align-order; retn,stable,vptr; map:25155
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:25155
 VA_CHT_1(0x0067cb50, 0xb1)
 t_dialog_marketplace::t_dialog_marketplace(t_window* arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:25156
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25156
 VA_CHT_1(0x0067cd10, 0x1d13)
 void t_dialog_marketplace::init_dialog(
     t_window* arg_0,
@@ -48,7 +48,7 @@ void t_dialog_marketplace::init_dialog(
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:65864
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:65864
 VA_CHT_1(0x0067ea30, 0x22d)
 static t_button* create_marketplace_player_button(
     t_screen_point& arg_0,
@@ -61,7 +61,7 @@ static t_button* create_marketplace_player_button(
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:25157
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25157
 VA_CHT_1(0x0067ec60, 0x8d)
 void t_dialog_marketplace::show_player_material_amount()
 {
@@ -75,61 +75,61 @@ static void set_text(t_text_window* arg_0, int arg_1)
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:25158
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25158
 VA_CHT_1(0x0067ecf0, 0x9c)
 void t_dialog_marketplace::player_material_clicked(t_button* arg_0, int arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:25159
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25159
 VA_CHT_1(0x0067ed90, 0x9c)
 void t_dialog_marketplace::market_material_clicked(t_button* arg_0, int arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:25160
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25160
 VA_CHT_1(0x0067ee30, 0x491)
 void t_dialog_marketplace::show_exchange_items()
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-init; owner-conf-C; map:65866; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:65866; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0067f2d0, 0x11, STATIC_INIT_DISPATCH, "dialog_marketplace#3")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:65867; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:65867; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0067f2f0, 0xd1, STATIC_CTOR, "dialog_marketplace#3")
 
 // name:C; dyninit; see ledger; map:65868
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "dialog_marketplace#3")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:65869; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:65869; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0067f3d0, 0xa, STATIC_DTOR, "dialog_marketplace#3")
 
-// confidence:C; align-order; retn,stable; map:25161
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25161
 VA_CHT_1(0x0067f3e0, 0x219)
 void t_dialog_marketplace::show_exchange_rates()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:25162
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25162
 VA_CHT_1(0x0067f600, 0x102)
 void t_dialog_marketplace::reset_market_rate_text()
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:25163
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25163
 VA_CHT_1(0x0067f710, 0xac)
 void t_dialog_marketplace::scrollbar_move(t_scrollbar* arg_0, int arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:25164
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25164
 VA_CHT_1(0x0067f7c0, 0xe1)
 void t_dialog_marketplace::buy_clicked(t_button* arg_0)
 {
@@ -143,19 +143,19 @@ void t_dialog_marketplace::max_clicked(t_button* arg_0)
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:25166
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25166
 VA_CHT_1(0x0067f8b0, 0x15)
 void t_dialog_marketplace::close_click(t_button* arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:65870; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:65870; name:B (dyninit; see ledger)
 VA_CHT_1(0x0067f9f0, 0x20)
 // dialog_marketplace$tinit1
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:65872; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:65872; name:B (dyninit; see ledger)
 VA_CHT_1(0x0067fa10, 0x5c)
 // dialog_marketplace$tinit2
 // Function body not reconstructed; signature retained as a comment.
@@ -175,7 +175,7 @@ VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 // dialog_marketplace$tatexit4
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; align-band; retn,stable,vslot; map:25167
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:25167
 VA_CHT_1_COMPGEN(0x0067cc10, 0x1e, SCALAR_DELETING_DTOR, t_dialog_marketplace)
 
 // name:A; map symbol; map:25168
@@ -222,7 +222,7 @@ t_handler_2<t_scrollbar*, int> bound_handler(
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:25174
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:25174
 VA_CHT_1(0x0067f8d0, 0x5e)
 t_bound_handler_2<t_dialog_marketplace, t_button*, int>::t_bound_handler_2<t_dialog_marketplace, t_button*, int>(
     t_dialog_marketplace& arg_0,
@@ -239,7 +239,7 @@ void t_bound_handler_2<t_dialog_marketplace, t_button*, int>::operator()(t_butto
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:25176
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:25176
 VA_CHT_1(0x0067f930, 0x5e)
 t_bound_handler_1<t_dialog_marketplace, t_button*>::t_bound_handler_1<t_dialog_marketplace, t_button*>(
     t_dialog_marketplace& arg_0,
@@ -256,7 +256,7 @@ void t_bound_handler_1<t_dialog_marketplace, t_button*>::operator()(t_button* ar
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:25178
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:25178
 VA_CHT_1(0x0067f990, 0x5e)
 t_bound_handler_2<t_dialog_marketplace, t_scrollbar*, int>::t_bound_handler_2<t_dialog_marketplace, t_scrollbar*, int>(
     t_dialog_marketplace& arg_0,
@@ -316,13 +316,13 @@ t_bound_handler_2<t_dialog_marketplace, t_scrollbar*, int>::~t_bound_handler_2<t
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:25189
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25189
 VA_CHT_1_COMPGEN(0x0067fa70, 0x8, VECTOR_DELETING_DTOR, "t_bound_handler_2<t_dialog_marketplace, t_button*, int>")
 
-// confidence:C; align-order; stable; map:25190
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25190
 VA_CHT_1_COMPGEN(0x0067fa80, 0x8, VECTOR_DELETING_DTOR, "t_bound_handler_1<t_dialog_marketplace, t_button*>")
 
-// confidence:C; align-order; stable; map:25191
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25191
 VA_CHT_1_COMPGEN(0x0067fa90, 0x8, VECTOR_DELETING_DTOR, "t_bound_handler_2<t_dialog_marketplace, t_scrollbar*, int>")
 
 // === .rdata (7 symbols) ===

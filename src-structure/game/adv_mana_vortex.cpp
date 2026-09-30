@@ -1,7 +1,7 @@
 // adv_mana_vortex.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\adv_mana_vortex.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 27/52 (A:22 B:3 C:2); unaccounted 25; skipped std 7.
+// Accounted 27/52 (A:12 B:3 C:0); unaccounted 25; skipped std 7.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,26 +10,26 @@
 
 // === .text (31 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:71062; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:71062; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0043f4f0, 0x15, STATIC_INIT_DISPATCH, "adv_mana_vortex#1")
 
 // name:C; dyninit; see ledger; map:71063
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "adv_mana_vortex#1")
 
-// confidence:A; dyninit-init; owner-conf-B; map:71064; name:B (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:71064; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0043f510, 0x1e, STATIC_INIT_DISPATCH, k_registration)
 
 // name:B; dyninit; see ledger; map:71065
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, k_registration)
 
-// confidence:A; align-order; retn,stable,vptr; map:4778
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:4778
 VA_CHT_1(0x0043f530, 0x118)
 t_adv_mana_vortex::t_adv_mana_vortex(std::string const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:4779
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:4779
 VA_CHT_1(0x0043f6e0, 0x9d8)
 void t_adv_mana_vortex::activate_trigger(
     t_army* arg_0,
@@ -48,14 +48,14 @@ void t_adv_mana_vortex::process_new_day()
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:4781
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:4781
 VA_CHT_1(0x004400e0, 0xc)
 int t_adv_mana_vortex::get_version() const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:4782
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:4782
 VA_CHT_1(0x004400f0, 0x52)
 bool t_adv_mana_vortex::read(
     std::basic_streambuf<char, std::char_traits<char>>& arg_0,
@@ -73,12 +73,12 @@ bool t_adv_mana_vortex::write(std::basic_streambuf<char, std::char_traits<char>>
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:71066; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:71066; name:B (dyninit; see ledger)
 VA_CHT_1(0x00440320, 0x20)
 // adv_mana_vortex$tinit1
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; dyninit-tinit; owner-conf-C; map:71068; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:71068; name:B (dyninit; see ledger)
 VA_CHT_1(0x00440340, 0x5c)
 // adv_mana_vortex$tinit2
 // Function body not reconstructed; signature retained as a comment.
@@ -98,7 +98,7 @@ VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 // adv_mana_vortex$tatexit4
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; align-band; retn,stable,vslot; map:4784
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:4784
 VA_CHT_1_COMPGEN(0x0043f650, 0x2d, VECTOR_DELETING_DTOR, t_adv_mana_vortex)
 
 // name:A; map symbol; map:4785
@@ -175,7 +175,7 @@ t_object_factory<t_adv_mana_vortex>::t_object_factory<t_adv_mana_vortex>()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:4798
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:4798
 VA_CHT_1(0x00440240, 0x62)
 t_stationary_adventure_object* t_object_factory<t_adv_mana_vortex>::create(
     std::string const& arg_0,
@@ -194,10 +194,10 @@ t_counted_ptr<t_creature_stack>& t_counted_ptr<t_creature_stack>::operator=(
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:4804
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:4804
 VA_CHT_1_COMPGEN(0x004403a0, 0x8, VECTOR_DELETING_DTOR, t_adv_mana_vortex)
 
-// confidence:C; align-order; stable; map:4805
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:4805
 VA_CHT_1_COMPGEN(0x004403b0, 0xb, VECTOR_DELETING_DTOR, t_adv_mana_vortex)
 
 // === .rdata (7 symbols) ===

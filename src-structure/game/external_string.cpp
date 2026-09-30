@@ -1,7 +1,7 @@
 // external_string.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\external_string.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 13/50 (A:6 B:1 C:6); unaccounted 37; skipped std 101.
+// Accounted 13/50 (A:5 B:0 C:0); unaccounted 37; skipped std 101.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -12,7 +12,7 @@
 
 namespace {
 
-// confidence:C; align-order; retn,stable; map:25928
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25928
 VA_CHT_1(0x006a66f0, 0x43)
 std::vector<std::pair<std::string, std::string>, std::allocator<std::pair<std::string, std::string>>>& get_string_vector(
 
@@ -28,14 +28,14 @@ VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 // get_string_vector$sdtor
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; retn,stable; map:25929
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25929
 VA_CHT_1(0x006a6740, 0x6b)
 void t_external_string::add_table(t_string_table const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:25930
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25930
 VA_CHT_1(0x006a67b0, 0x2b1)
 t_shared_ptr<std::list<t_external_string*, std::allocator<t_external_string*>>> t_external_string::get_list()
 {
@@ -47,14 +47,14 @@ VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 // t_external_string::get_list$sdtor
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:B; align-order; retn,stable; map:25931
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25931
 VA_CHT_1(0x006a6c20, 0x135)
 t_external_string::t_external_string(std::string const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:25932
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25932
 VA_CHT_1(0x006a6d60, 0x1c8)
 void t_external_string::load_string()
 {
@@ -68,14 +68,14 @@ t_external_string::~t_external_string()
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:25934
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25934
 VA_CHT_1(0x006a6f30, 0x143)
 int t_external_string::load_all()
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-C; map:65487; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:65487; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x006a76d0, 0x20, STATIC_INIT_DISPATCH, external_string)
 
 // name:B; dyninit; see ledger; map:65488
@@ -102,7 +102,7 @@ t_string_table_const_iterator t_string_table::begin() const
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:25938
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25938
 VA_CHT_1(0x006a6a70, 0x19)
 t_string_table_const_iterator::t_string_table_const_iterator(t_string_table const& arg_0, unsigned int arg_1)
 {

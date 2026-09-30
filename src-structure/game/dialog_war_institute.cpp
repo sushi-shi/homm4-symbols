@@ -1,7 +1,7 @@
 // dialog_war_institute.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 36/54 (A:25 B:10 C:1); unaccounted 18; skipped std 5.
+// Accounted 36/54 (A:18 B:2 C:0); unaccounted 18; skipped std 5.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,38 +10,38 @@
 
 // === .text (32 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:65556; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:65556; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00697400, 0x11, STATIC_INIT_DISPATCH, "dialog_war_institute#1")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:65557; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:65557; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00697420, 0xd7, STATIC_CTOR, "dialog_war_institute#1")
 
 // name:C; dyninit; see ledger; map:65558
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "dialog_war_institute#1")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:65559; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:65559; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00697500, 0xa, STATIC_DTOR, "dialog_war_institute#1")
 
-// confidence:A; dyninit-init; owner-conf-C; map:65560; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:65560; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00697510, 0x11, STATIC_INIT_DISPATCH, "dialog_war_institute#2")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:65561; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:65561; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00697530, 0xd7, STATIC_CTOR, "dialog_war_institute#2")
 
 // name:C; dyninit; see ledger; map:65562
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "dialog_war_institute#2")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:65563; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:65563; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00697610, 0xa, STATIC_DTOR, "dialog_war_institute#2")
 
-// confidence:A; align-order; retn,stable,vptr; map:25705
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:25705
 VA_CHT_1(0x00697620, 0xa0)
 t_dialog_war_institute::t_dialog_war_institute(t_window* arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:25706
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25706
 VA_CHT_1(0x006977e0, 0x158f)
 void t_dialog_war_institute::init_dialog(
     std::vector<t_hero*, std::allocator<t_hero*>> const& arg_0,
@@ -54,14 +54,14 @@ void t_dialog_war_institute::init_dialog(
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:25707
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25707
 VA_CHT_1(0x00698d70, 0x12b)
 void t_dialog_war_institute::selection_change(t_creature_select_window* arg_0, t_creature_stack* arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:25708
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25708
 VA_CHT_1(0x00698ea0, 0xf4)
 void t_dialog_war_institute::buy_clicked(t_button* arg_0)
 {
@@ -75,17 +75,17 @@ void t_dialog_war_institute::close_clicked(t_button* arg_0)
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:25710
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25710
 VA_CHT_1(0x00698fa0, 0x7d)
 std::vector<t_hero*, std::allocator<t_hero*>> t_dialog_war_institute::get_selected_heroes()
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:65564; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:65564; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x006990e0, 0x20, STATIC_INIT_DISPATCH, dialog_war_institute)
 
-// confidence:A; align-band; retn,stable,vslot; map:25711
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:25711
 VA_CHT_1_COMPGEN(0x006976c0, 0x1e, VECTOR_DELETING_DTOR, t_dialog_war_institute)
 
 // name:A; map symbol; map:25712
@@ -118,7 +118,7 @@ t_handler_1<t_button*> bound_handler(
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:25720
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:25720
 VA_CHT_1(0x00699020, 0x5e)
 t_bound_handler_2<t_dialog_war_institute, t_creature_select_window*, t_creature_stack*>::t_bound_handler_2<t_dialog_war_institute, t_creature_select_window*, t_creature_stack*>(
     t_dialog_war_institute& arg_0,
@@ -138,7 +138,7 @@ void t_bound_handler_2<t_dialog_war_institute, t_creature_select_window*, t_crea
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:25722
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:25722
 VA_CHT_1(0x00699080, 0x5e)
 t_bound_handler_1<t_dialog_war_institute, t_button*>::t_bound_handler_1<t_dialog_war_institute, t_button*>(
     t_dialog_war_institute& arg_0,
@@ -186,7 +186,7 @@ t_bound_handler_1<t_dialog_war_institute, t_button*>::~t_bound_handler_1<t_dialo
 // name:A; map symbol; map:25730
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, "t_bound_handler_2<t_dialog_war_institute, t_creature_select_window*, t_creature_stack*>")
 
-// confidence:C; align-order; stable; map:25731
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25731
 VA_CHT_1_COMPGEN(0x00699110, 0x8, VECTOR_DELETING_DTOR, "t_bound_handler_1<t_dialog_war_institute, t_button*>")
 
 // === .rdata (5 symbols) ===

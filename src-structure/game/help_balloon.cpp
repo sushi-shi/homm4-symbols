@@ -1,7 +1,7 @@
 // help_balloon.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 14/19 (A:13 B:0 C:1); unaccounted 5; skipped std 1.
+// Accounted 14/19 (A:8 B:0 C:0); unaccounted 5; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,21 +10,21 @@
 
 // === .text (11 symbols) ===
 
-// confidence:A; align-order; stable,vptr; map:26867
+// confidence:D; align-order; stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:26867
 VA_CHT_1(0x006b9d20, 0x1d9)
 t_help_balloon::t_help_balloon(t_screen_point arg_0, char const* arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:26868
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:26868
 VA_CHT_1(0x006ba190, 0x2f0)
 void t_help_balloon::paint(t_paint_surface& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:65331
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:65331
 VA_CHT_1(0x006ba480, 0x53)
 static void draw_horizontal(
     t_abstract_bitmap<unsigned short>& arg_0,
@@ -48,17 +48,17 @@ static void draw_vertical(
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:65333; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:65333; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x006ba4e0, 0x20, STATIC_INIT_DISPATCH, help_balloon)
 
-// confidence:A; align-band; retn,stable,vslot; map:26869
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:26869
 VA_CHT_1(0x006b9f00, 0xd)
 void t_text_window::set_scroll_position(int arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:26870
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:26870
 VA_CHT_1_COMPGEN(0x006b9f10, 0x1e, SCALAR_DELETING_DTOR, t_help_balloon)
 
 // name:A; map symbol; map:26871

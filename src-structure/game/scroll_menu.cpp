@@ -1,7 +1,7 @@
 // scroll_menu.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\scroll_menu.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 60/95 (A:50 B:4 C:6); unaccounted 35; skipped std 23.
+// Accounted 60/95 (A:33 B:2 C:0); unaccounted 35; skipped std 23.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,16 +10,16 @@
 
 // === .text (52 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:62874; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62874; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007a7e80, 0x11, STATIC_INIT_DISPATCH, "scroll_menu#1")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:62875; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62875; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007a7ea0, 0xd7, STATIC_CTOR, "scroll_menu#1")
 
 // name:C; dyninit; see ledger; map:62876
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "scroll_menu#1")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:62877; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62877; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007a7f80, 0xa, STATIC_DTOR, "scroll_menu#1")
 
 namespace {
@@ -31,7 +31,7 @@ t_animator::t_animator(t_scroll_menu* arg_0)
     // Body unavailable.
 }
 
-// confidence:A; align-order; stable,vslot; map:36827
+// confidence:D; align-order; stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:36827
 VA_CHT_1(0x007a7f90, 0x8)
 void t_animator::on_idle()
 {
@@ -40,70 +40,70 @@ void t_animator::on_idle()
 
 } // anonymous namespace
 
-// confidence:A; align-order; retn,stable,vptr; map:36828
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:36828
 VA_CHT_1(0x007a7fa0, 0x39e)
 t_scroll_menu::t_scroll_menu(t_window* arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vptr; map:36829
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:36829
 VA_CHT_1(0x007a8360, 0x164)
 t_scroll_menu::~t_scroll_menu()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:36830
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:36830
 VA_CHT_1(0x007a84d0, 0x49f)
 void t_scroll_menu::add_item(std::string const& arg_0, t_handler arg_1, std::string const& arg_2)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:36831
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:36831
 VA_CHT_1(0x007a8970, 0x99)
 void t_scroll_menu::button_click(t_button* arg_0, t_handler arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:36832
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:36832
 VA_CHT_1(0x007a8a10, 0x14c)
 void t_scroll_menu::animate()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:36833
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:36833
 VA_CHT_1(0x007a8b60, 0x177)
 void t_scroll_menu::left_button_down(t_mouse_event const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:36834
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:36834
 VA_CHT_1(0x007a8ce0, 0x97)
 void t_scroll_menu::left_button_up(t_mouse_event const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:36835
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:36835
 VA_CHT_1(0x007a8d80, 0x167)
 void t_scroll_menu::mouse_move(t_mouse_event const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:36836
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:36836
 VA_CHT_1(0x007a8ef0, 0x7c4)
 void t_scroll_menu::open(t_screen_point arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:62878; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:62878; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007a9a80, 0x20, STATIC_INIT_DISPATCH, scroll_menu)
 
 // name:A; map symbol; map:36837
@@ -123,7 +123,7 @@ t_animator::~t_animator()
 
 } // anonymous namespace
 
-// confidence:A; align-band; retn,stable,vslot; map:36840
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:36840
 VA_CHT_1_COMPGEN(0x007a8340, 0x1e, SCALAR_DELETING_DTOR, t_scroll_menu)
 
 // name:A; map symbol; map:36841
@@ -180,7 +180,7 @@ t_handler_base_2<t_button*, t_handler>* t_handler_2<t_button*, t_handler>::opera
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:36870
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:36870
 VA_CHT_1(0x007a96c0, 0x5e)
 t_bound_handler_2<t_scroll_menu, t_button*, t_handler>::t_bound_handler_2<t_scroll_menu, t_button*, t_handler>(
     t_scroll_menu& arg_0,
@@ -190,14 +190,14 @@ t_bound_handler_2<t_scroll_menu, t_button*, t_handler>::t_bound_handler_2<t_scro
     // Body unavailable.
 }
 
-// confidence:A; align-band; stable,vslot; map:36871
+// confidence:D; align-band; stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:36871
 VA_CHT_1(0x007a9850, 0x74)
 void t_bound_handler_2<t_scroll_menu, t_button*, t_handler>::operator()(t_button* arg_0, t_handler arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; stable,vptr; map:36872
+// confidence:D; align-band; stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:36872
 VA_CHT_1(0x007a9720, 0x128)
 t_add_2nd_handler_1<t_button*, t_handler>::t_add_2nd_handler_1<t_button*, t_handler>(
     t_handler_base_2<t_button*, t_handler>* arg_0,
@@ -207,27 +207,27 @@ t_add_2nd_handler_1<t_button*, t_handler>::t_add_2nd_handler_1<t_button*, t_hand
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:36873
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:36873
 VA_CHT_1(0x007a98d0, 0x93)
 void t_add_2nd_handler_1<t_button*, t_handler>::operator()(t_button* arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:36874
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:36874
 VA_CHT_1_COMPGEN(0x007a9970, 0x1e, SCALAR_DELETING_DTOR, "t_bound_handler_2<t_scroll_menu, t_button*, t_handler>")
 
 // name:A; map symbol; map:36875
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, "t_bound_handler_2<t_scroll_menu, t_button*, t_handler>")
 
-// confidence:C; align-band; retn,stable; map:36876
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:36876
 VA_CHT_1(0x007a9a00, 0x73)
 t_handler_base_2<t_button*, t_handler>::t_handler_base_2<t_button*, t_handler>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:36877
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:36877
 VA_CHT_1_COMPGEN(0x007a99b0, 0x1e, SCALAR_DELETING_DTOR, "t_add_2nd_handler_1<t_button*, t_handler>")
 
 // name:A; map symbol; map:36878
@@ -249,14 +249,14 @@ t_handler_base_2<t_button*, t_handler>::~t_handler_base_2<t_button*, t_handler>(
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:36881
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:36881
 VA_CHT_1(0x007a99d0, 0x21)
 t_abstract_function_2<void, t_button*, t_handler>::~t_abstract_function_2<void, t_button*, t_handler>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:36882
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:36882
 VA_CHT_1_COMPGEN(0x007a9990, 0x20, VECTOR_DELETING_DTOR, "t_abstract_function_2<void, t_button*, t_handler>")
 
 // name:A; map symbol; map:36883
@@ -322,7 +322,7 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, "t_bound_handl
 // name:A; map symbol; map:36893
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, "t_handler_base_2<t_button*, t_handler>")
 
-// confidence:C; align-order; stable; map:36894
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:36894
 VA_CHT_1_COMPGEN(0x007a9ab0, 0x8, VECTOR_DELETING_DTOR, "t_add_2nd_handler_1<t_button*, t_handler>")
 
 // === .rdata (9 symbols) ===

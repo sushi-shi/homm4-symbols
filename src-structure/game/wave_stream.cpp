@@ -1,7 +1,7 @@
 // wave_stream.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 9/13 (A:9 B:0 C:0); unaccounted 4; skipped std 0.
+// Accounted 9/13 (A:6 B:0 C:0); unaccounted 4; skipped std 0.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,21 +10,21 @@
 
 // === .text (7 symbols) ===
 
-// confidence:A; align-order; retn,stable,vptr; map:40540
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:40540
 VA_CHT_1(0x00833ff0, 0x47)
 t_wave_stream::t_wave_stream(t_shared_array<char> const& arg_0, int arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:40541
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:40541
 VA_CHT_1(0x008340b0, 0x41)
 int t_wave_stream::read(void* arg_0, unsigned long arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:40542
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:40542
 VA_CHT_1_COMPGEN(0x00834040, 0x1e, VECTOR_DELETING_DTOR, t_wave_stream)
 
 // name:A; map symbol; map:40543

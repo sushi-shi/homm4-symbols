@@ -1,7 +1,7 @@
 // adventure_events_visiblity.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 18/26 (A:16 B:1 C:1); unaccounted 8; skipped std 1.
+// Accounted 18/26 (A:7 B:1 C:0); unaccounted 8; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,20 +10,20 @@
 
 // === .text (17 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:70545; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:70545; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00494e00, 0x15, STATIC_INIT_DISPATCH, "adventure_events_visiblity#1")
 
 // name:C; dyninit; see ledger; map:70546
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "adventure_events_visiblity#1")
 
-// confidence:A; align-order; retn,vptr; map:8430
+// confidence:D; align-order; retn,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:8430
 VA_CHT_1(0x00494e20, 0x26)
 t_adventure_event_visiblity::t_adventure_event_visiblity()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vptr; map:8431
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:8431
 VA_CHT_1(0x00494ee0, 0x5e)
 t_adventure_event_visiblity::t_adventure_event_visiblity(
     t_army* arg_0,
@@ -35,7 +35,7 @@ t_adventure_event_visiblity::t_adventure_event_visiblity(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:8432
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:8432
 VA_CHT_1(0x00494f40, 0xa2)
 void t_adventure_event_visiblity::execute_event(t_adventure_map* arg_0, t_saved_game_header const& arg_1)
 {
@@ -49,26 +49,26 @@ void t_adventure_event_visiblity::undo_event(t_adventure_map* arg_0, t_saved_gam
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:8434
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:8434
 VA_CHT_1(0x00494ff0, 0x14c)
 bool t_adventure_event_visiblity::read(std::basic_streambuf<char, std::char_traits<char>>& arg_0, int arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:8435
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:8435
 VA_CHT_1(0x00495140, 0x12f)
 bool t_adventure_event_visiblity::write(std::basic_streambuf<char, std::char_traits<char>>& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:70547; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:70547; name:B (dyninit; see ledger)
 VA_CHT_1(0x00495270, 0x20)
 // adventure_events_visiblity$tinit1
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:70549; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:70549; name:B (dyninit; see ledger)
 VA_CHT_1(0x00495290, 0x5c)
 // adventure_events_visiblity$tinit2
 // Function body not reconstructed; signature retained as a comment.
@@ -88,7 +88,7 @@ VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 // adventure_events_visiblity$tatexit4
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; align-band; retn,stable,vslot; map:8436
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:8436
 VA_CHT_1_COMPGEN(0x00494e50, 0x1e, VECTOR_DELETING_DTOR, t_adventure_event_visiblity)
 
 // name:A; map symbol; map:8437
@@ -101,7 +101,7 @@ t_adventure_event_visiblity::~t_adventure_event_visiblity()
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:8439
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:8439
 VA_CHT_1_COMPGEN(0x004952f0, 0x8, VECTOR_DELETING_DTOR, t_adventure_event_visiblity)
 
 // === .rdata (2 symbols) ===

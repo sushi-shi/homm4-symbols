@@ -1,7 +1,7 @@
 // script_give_spell.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 24/54 (A:19 B:5 C:0); unaccounted 30; skipped std 1.
+// Accounted 24/54 (A:16 B:0 C:0); unaccounted 30; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,45 +10,45 @@
 
 // === .text (30 symbols) ===
 
-// confidence:B; align-order; retn,stable; map:35269
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:35269
 VA_CHT_1(0x0079d590, 0x94)
 bool t_script_give_spell::read_from_map(std::basic_streambuf<char, std::char_traits<char>>& arg_0, int arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:35270
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:35270
 VA_CHT_1(0x0079d6f0, 0x91)
 bool t_script_give_spell::read(std::basic_streambuf<char, std::char_traits<char>>& arg_0, int arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:35271
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:35271
 VA_CHT_1(0x0079d790, 0x7d)
 bool t_script_give_spell::write(std::basic_streambuf<char, std::char_traits<char>>& arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:35272
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:35272
 VA_CHT_1(0x0079d810, 0x1b)
 void t_script_give_spell::add_icons(t_basic_dialog* arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:35273
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:35273
 VA_CHT_1(0x0079d830, 0x62)
 void t_script_give_spell::do_action(t_hero* arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:63074; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:63074; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0079d8a0, 0x49, STATIC_INIT_DISPATCH, script_give_spell)
 
-// confidence:A; align-order; atexit,stable; map:63076; name:C (dyninit; see ledger)
+// confidence:D; align-order; atexit,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:63076; name:C (dyninit; see ledger)
 VA_CHT_1(0x0079d8f0, 0x1f)
 // t_script_action_base<24,t_script_give_spell>::k_factory$atexit
 // Function body not reconstructed; signature retained as a comment.
@@ -66,7 +66,7 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "t_script_action_base<2
 // name:A; dyninit; see ledger; map:35276
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_DTOR, "t_script_action_base<24,t_script_give_spell>::k_factory")
 
-// confidence:A; align-band; retn,stable,vptr; map:35277
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:35277
 VA_CHT_1(0x0079d910, 0x14)
 t_script_action_factory<24>::~t_script_action_factory<24>()
 {

@@ -1,7 +1,7 @@
 // script_trigger_event.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 27/63 (A:22 B:5 C:0); unaccounted 36; skipped std 1.
+// Accounted 27/63 (A:16 B:0 C:0); unaccounted 36; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,7 +10,7 @@
 
 // === .text (39 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:62906; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62906; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007a6e30, 0x15, STATIC_INIT_DISPATCH, "script_trigger_event#1")
 
 // name:C; dyninit; see ledger; map:62907
@@ -33,7 +33,7 @@ bool t_script_trigger_event::read(std::basic_streambuf<char, std::char_traits<ch
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:36640
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:36640
 VA_CHT_1(0x007a6e60, 0x6f)
 bool t_script_trigger_event::write(std::basic_streambuf<char, std::char_traits<char>>& arg_0) const
 {
@@ -47,35 +47,35 @@ void t_script_trigger_event::execute(t_script_context_hero const& arg_0) const
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:36642
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:36642
 VA_CHT_1(0x007a6ed0, 0x28)
 void t_script_trigger_event::execute(t_script_context_town const& arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:36643
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:36643
 VA_CHT_1(0x007a6f00, 0x28)
 void t_script_trigger_event::execute(t_script_context_object const& arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:36644
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:36644
 VA_CHT_1(0x007a6f30, 0x28)
 void t_script_trigger_event::execute(t_script_context_army const& arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:36645
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:36645
 VA_CHT_1(0x007a6f60, 0x26)
 void t_script_trigger_event::execute(t_script_context_global const& arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:62908; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:62908; name:B (dyninit; see ledger)
 VA_CHT_1(0x007a6f90, 0x49)
 // script_trigger_event$tinit1
 // Function body not reconstructed; signature retained as a comment.
@@ -83,7 +83,7 @@ VA_CHT_1(0x007a6f90, 0x49)
 // name:C; dyninit; see ledger; map:62910
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "t_script_action_base<52,t_script_trigger_event>::k_factory")
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:62911; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:62911; name:B (dyninit; see ledger)
 VA_CHT_1(0x007a7110, 0x5c)
 // script_trigger_event$tinit2
 // Function body not reconstructed; signature retained as a comment.
@@ -116,7 +116,7 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "t_script_action_base<5
 // name:A; dyninit; see ledger; map:36648
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_DTOR, "t_script_action_base<52,t_script_trigger_event>::k_factory")
 
-// confidence:A; align-band; retn,stable,vptr; map:36649
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:36649
 VA_CHT_1(0x007a7000, 0x14)
 t_script_action_factory<52>::~t_script_action_factory<52>()
 {
@@ -130,7 +130,7 @@ t_script_action_factory<52>::t_script_action_factory<52>()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:36651
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:36651
 VA_CHT_1(0x007a7020, 0x47)
 t_counted_ptr<t_abstract_script_action> t_script_action_factory<52>::create() const
 {
@@ -165,7 +165,7 @@ t_script_action<52>::t_script_action<52>(t_script_action<52> const& arg_0)
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:36656
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:36656
 VA_CHT_1_COMPGEN(0x007a7070, 0x8f, VECTOR_DELETING_DTOR, "t_script_action<52>")
 
 // name:A; map symbol; map:36657

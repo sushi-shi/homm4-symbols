@@ -1,7 +1,7 @@
 // dialog_creature_portal.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 46/83 (A:36 B:5 C:5); unaccounted 37; skipped std 6.
+// Accounted 46/83 (A:29 B:2 C:0); unaccounted 37; skipped std 6.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,19 +10,19 @@
 
 // === .text (44 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:66044; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:66044; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00668a80, 0x11, STATIC_INIT_DISPATCH, "dialog_creature_portal#1")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:66045; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:66045; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00668aa0, 0xd7, STATIC_CTOR, "dialog_creature_portal#1")
 
 // name:C; dyninit; see ledger; map:66046
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "dialog_creature_portal#1")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:66047; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:66047; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00668b80, 0xa, STATIC_DTOR, "dialog_creature_portal#1")
 
-// confidence:A; align-order; retn,stable,vptr; map:24752
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:24752
 VA_CHT_1(0x00668b90, 0x46c)
 t_dialog_creature_portal::t_dialog_creature_portal(
     t_window* arg_0,
@@ -34,24 +34,24 @@ t_dialog_creature_portal::t_dialog_creature_portal(
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:66048
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:66048
 VA_CHT_1(0x00669000, 0x7)
 static int get_discount_price(t_creature_type arg_0, int arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:24753
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:24753
 VA_CHT_1(0x006694b0, 0x5e)
 void t_dialog_creature_portal::select_creature(t_button* arg_0, t_creature_type arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:66049; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:66049; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x006696a0, 0x20, STATIC_INIT_DISPATCH, dialog_creature_portal)
 
-// confidence:A; align-band; retn,stable,vslot; map:24754
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:24754
 VA_CHT_1_COMPGEN(0x00669010, 0x1e, VECTOR_DELETING_DTOR, t_dialog_creature_portal)
 
 // name:A; map symbol; map:24755
@@ -78,7 +78,7 @@ void t_town::set_portal_creature(t_creature_type arg_0)
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:24763
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:24763
 VA_CHT_1(0x00669510, 0xbb)
 t_handler_2<t_button*, t_creature_type> bound_handler(
     t_dialog_creature_portal& arg_0,
@@ -172,14 +172,14 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, "t_bound_handl
 // name:A; map symbol; map:24775
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, "t_bound_handler_2<t_dialog_creature_portal, t_button*, t_creature_type>")
 
-// confidence:C; align-band; retn,stable; map:24776
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:24776
 VA_CHT_1(0x00669640, 0x58)
 t_handler_base_2<t_button*, t_creature_type>::t_handler_base_2<t_button*, t_creature_type>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:24777
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:24777
 VA_CHT_1_COMPGEN(0x006695f0, 0x1e, SCALAR_DELETING_DTOR, "t_add_2nd_handler_1<t_button*, t_creature_type>")
 
 // name:A; map symbol; map:24778
@@ -201,7 +201,7 @@ t_handler_base_2<t_button*, t_creature_type>::~t_handler_base_2<t_button*, t_cre
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:24781
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:24781
 VA_CHT_1(0x00669610, 0x21)
 t_abstract_function_2<void, t_button*, t_creature_type>::~t_abstract_function_2<void, t_button*, t_creature_type>(
 
@@ -210,7 +210,7 @@ t_abstract_function_2<void, t_button*, t_creature_type>::~t_abstract_function_2<
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:24782
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:24782
 VA_CHT_1_COMPGEN(0x006695d0, 0x20, SCALAR_DELETING_DTOR, "t_abstract_function_2<void, t_button*, t_creature_type>")
 
 // name:A; map symbol; map:24783
@@ -238,7 +238,7 @@ t_add_2nd_handler_1<t_button*, t_creature_type>::~t_add_2nd_handler_1<t_button*,
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:24788
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:24788
 VA_CHT_1(0x00669440, 0x6e)
 void t_handler_2<t_button*, t_creature_type>::operator()(t_button* arg_0, t_creature_type arg_1) const
 {
@@ -278,7 +278,7 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, "t_bound_handl
 // name:A; map symbol; map:24793
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, "t_handler_base_2<t_button*, t_creature_type>")
 
-// confidence:C; align-order; stable; map:24794
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:24794
 VA_CHT_1_COMPGEN(0x006696d0, 0x8, VECTOR_DELETING_DTOR, "t_add_2nd_handler_1<t_button*, t_creature_type>")
 
 // === .rdata (8 symbols) ===

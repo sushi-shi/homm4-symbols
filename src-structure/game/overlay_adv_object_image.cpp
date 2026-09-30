@@ -1,7 +1,7 @@
 // overlay_adv_object_image.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 172/300 (A:147 B:4 C:21); unaccounted 128; skipped std 139.
+// Accounted 172/300 (A:105 B:4 C:0); unaccounted 128; skipped std 139.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,13 +10,13 @@
 
 // === .text (178 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:63835; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:63835; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0074c5c0, 0x15, STATIC_INIT_DISPATCH, "overlay_adv_object_image#1")
 
 // name:C; dyninit; see ledger; map:63836
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "overlay_adv_object_image#1")
 
-// confidence:A; align-order; retn,stable,vslot; map:31151
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:31151
 VA_CHT_1(0x0074c5e0, 0xa9)
 void t_overlay_adv_object_subimage::draw_to(
     int arg_0,
@@ -29,7 +29,7 @@ void t_overlay_adv_object_subimage::draw_to(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:31152
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:31152
 VA_CHT_1(0x0074c690, 0x4a)
 void t_overlay_adv_object_subimage::draw_to(
     int arg_0,
@@ -40,7 +40,7 @@ void t_overlay_adv_object_subimage::draw_to(
     // Body unavailable.
 }
 
-// confidence:C; align-order; RETN!,vptr; map:31153
+// confidence:D; align-order; RETN!,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:31153
 VA_CHT_1(0x0074c700, 0xa5)
 t_overlay_adv_object_image_base_base::t_overlay_adv_object_image_base_base(t_screen_rect const& arg_0)
 {
@@ -68,7 +68,7 @@ t_screen_rect t_overlay_adv_object_image_base_base::get_column_rect(int arg_0) c
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn; map:31157
+// confidence:D; align-order; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:31157
 VA_CHT_1(0x0074c7b0, 0x5ec)
 bool t_overlay_adv_object_image_base_base::read_version(
     std::basic_streambuf<char, std::char_traits<char>>& arg_0,
@@ -88,7 +88,7 @@ bool t_overlay_adv_object_image_base_base::write(
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn; map:31159
+// confidence:D; align-order; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:31159
 VA_CHT_1(0x0074cdc0, 0x8ad)
 void t_overlay_adv_object_image_base_base::on_rect_changed(
     t_screen_rect const& arg_0,
@@ -98,7 +98,7 @@ void t_overlay_adv_object_image_base_base::on_rect_changed(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vptr; map:31160
+// confidence:D; align-order; retn,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:31160
 VA_CHT_1(0x0074d670, 0xc4)
 t_overlay_adv_object_image_24::t_overlay_adv_object_image_24()
 {
@@ -119,7 +119,7 @@ t_overlay_adv_object_image_24::t_overlay_adv_object_image_24(t_simple_adv_object
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:31163
+// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:31163
 VA_CHT_1(0x0074d740, 0x1e)
 void t_overlay_adv_object_image_24::accept(t_adv_object_image_visitor_24& arg_0)
 {
@@ -133,28 +133,28 @@ void t_overlay_adv_object_image_24::accept(t_adv_object_image_visitor_24& arg_0)
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:31165
+// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:31165
 VA_CHT_1(0x0074d9d0, 0x139)
 std::auto_ptr<t_adv_object_image_24> t_overlay_adv_object_image_24::clone() const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:31166
+// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:31166
 VA_CHT_1(0x0074db30, 0x124)
 std::auto_ptr<t_adv_object_image> t_overlay_adv_object_image_24::clone_as_16() const
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn; map:31167
+// confidence:D; align-order; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:31167
 VA_CHT_1(0x0074dcf0, 0x13f)
 bool t_overlay_adv_object_image_24::read(std::basic_streambuf<char, std::char_traits<char>>& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn; map:31168
+// confidence:D; align-order; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:31168
 VA_CHT_1(0x0074de30, 0xdd)
 bool t_overlay_adv_object_image_24::read_version(
     std::basic_streambuf<char, std::char_traits<char>>& arg_0,
@@ -164,56 +164,56 @@ bool t_overlay_adv_object_image_24::read_version(
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn; map:31169
+// confidence:D; align-order; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:31169
 VA_CHT_1(0x0074ed90, 0xd5)
 bool t_overlay_adv_object_image_24::write(std::basic_streambuf<char, std::char_traits<char>>& arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn; map:31170
+// confidence:D; align-order; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:31170
 VA_CHT_1(0x0074ee70, 0x33)
 t_overlay_adv_object_image::t_overlay_adv_object_image()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn; map:31171
+// confidence:D; align-order; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:31171
 VA_CHT_1(0x0074f8a0, 0x49)
 t_overlay_adv_object_image::t_overlay_adv_object_image(t_overlay_adv_object_image const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn; map:31172
+// confidence:D; align-order; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:31172
 VA_CHT_1(0x0074fcf0, 0x65)
 t_overlay_adv_object_image::t_overlay_adv_object_image(t_overlay_adv_object_image_24 const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn; map:31173
+// confidence:D; align-order; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:31173
 VA_CHT_1(0x0074fd80, 0x66)
 t_overlay_adv_object_image::t_overlay_adv_object_image(t_simple_adv_object_image const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:31174
+// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:31174
 VA_CHT_1(0x00750590, 0x13)
 void t_overlay_adv_object_image::accept(t_adv_object_image_visitor& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; RETN!,vslot; map:31175
+// confidence:D; align-order; RETN!,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:31175
 VA_CHT_1(0x007505b0, 0x26)
 void t_overlay_adv_object_image::accept(t_adv_object_image_visitor& arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:31176
+// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:31176
 VA_CHT_1(0x00750660, 0x15)
 std::auto_ptr<t_adv_object_image> t_overlay_adv_object_image::clone() const
 {
@@ -234,7 +234,7 @@ void t_overlay_adv_object_image::draw_column_to(
     // Body unavailable.
 }
 
-// confidence:C; align-order; RETN!; map:31178
+// confidence:D; align-order; RETN!;review-status=unreviewed;classification=D:not-a-best-guess; map:31178
 VA_CHT_1(0x00750820, 0x5f)
 void t_overlay_adv_object_image::draw_column_to(
     int arg_0,
@@ -246,23 +246,23 @@ void t_overlay_adv_object_image::draw_column_to(
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:63837; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:63837; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007520a0, 0x20, STATIC_INIT_DISPATCH, overlay_adv_object_image)
 
-// confidence:A; align-band; retn,stable,vslot; map:31179
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:31179
 VA_CHT_1_COMPGEN(0x0074c6e0, 0x1e, SCALAR_DELETING_DTOR, t_overlay_adv_object_image_base_base)
 
 // name:A; map symbol; map:31180
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, t_overlay_adv_object_image_base_base)
 
-// confidence:A; align-band; retn,vptr; map:31181
+// confidence:D; align-band; retn,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:31181
 VA_CHT_1(0x0074d760, 0x1a8)
 t_overlay_adv_object_image_base_base::~t_overlay_adv_object_image_base_base()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:31182
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:31182
 VA_CHT_1(0x00750e50, 0x20)
 int t_overlay_adv_object_image_base_base::get_left_col(int arg_0)
 {
@@ -276,7 +276,7 @@ int t_overlay_adv_object_image_base_base::get_right_col(int arg_0)
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn; map:31184
+// confidence:D; align-band; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:31184
 VA_CHT_1(0x00750c30, 0x33)
 int t_overlay_adv_object_image_base_base::get_left_column() const
 {
@@ -328,17 +328,17 @@ t_simple_adv_object_image_base<t_adv_object_image_24, t_simple_adv_object_image_
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:31192
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:31192
 VA_CHT_1(0x00752170, 0x9)
 t_adv_object_image_24::~t_adv_object_image_24()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:31193
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:31193
 VA_CHT_1_COMPGEN(0x0074df10, 0x1e, SCALAR_DELETING_DTOR, t_overlay_adv_object_image)
 
-// confidence:A; align-band; retn,stable,vslot; map:31194
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:31194
 VA_CHT_1_COMPGEN(0x0074e0a0, 0x139, VECTOR_DELETING_DTOR, t_overlay_adv_object_image)
 
 // name:A; map symbol; map:31195
@@ -373,14 +373,14 @@ t_simple_adv_object_image_base<t_adv_object_image, t_simple_adv_object_image, t_
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:31199
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:31199
 VA_CHT_1(0x00750880, 0x9)
 t_adv_object_image::~t_adv_object_image()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:31261
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:31261
 VA_CHT_1(0x0074d9a0, 0x7)
 t_adv_object_image_base<t_adv_object_image_24, t_adv_object_subimage_24, t_adv_object_image_visitor_24>::~t_adv_object_image_base<t_adv_object_image_24, t_adv_object_subimage_24, t_adv_object_image_visitor_24>(
 
@@ -389,7 +389,7 @@ t_adv_object_image_base<t_adv_object_image_24, t_adv_object_subimage_24, t_adv_o
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:31262
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:31262
 VA_CHT_1(0x0074dce0, 0x7)
 t_adv_object_image_base<t_adv_object_image, t_adv_object_subimage, t_adv_object_image_visitor>::~t_adv_object_image_base<t_adv_object_image, t_adv_object_subimage, t_adv_object_image_visitor>(
 
@@ -480,7 +480,7 @@ void t_simple_adv_object_image_base<t_adv_object_image_24, t_simple_adv_object_i
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:31272
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:31272
 VA_CHT_1(0x00752590, 0x15)
 void t_image_sequence_base_base::toggle_base_frame_draw(bool arg_0)
 {
@@ -605,7 +605,7 @@ t_overlay_adv_object_image_base<t_simple_adv_object_image_24, t_overlay_adv_obje
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:31286
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:31286
 VA_CHT_1(0x0074db10, 0x19)
 t_overlay_adv_object_subimage_24::t_overlay_adv_object_subimage_24(
     t_overlay_adv_object_image_24 const& arg_0,
@@ -615,7 +615,7 @@ t_overlay_adv_object_subimage_24::t_overlay_adv_object_subimage_24(
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,vslot; map:31287
+// confidence:D; align-band; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:31287
 VA_CHT_1_COMPGEN(0x00750310, 0x4f, VECTOR_DELETING_DTOR, t_overlay_adv_object_subimage_24)
 
 // name:A; map symbol; map:31288
@@ -637,7 +637,7 @@ t_overlay_adv_object_subimage_base<t_adv_object_subimage_24, t_overlay_adv_objec
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,vptr; map:31291
+// confidence:D; align-band; retn,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:31291
 VA_CHT_1(0x00752030, 0x1d)
 t_adv_object_subimage_24::~t_adv_object_subimage_24()
 {
@@ -699,14 +699,14 @@ t_overlay_adv_object_image_base<t_simple_adv_object_image_24, t_overlay_adv_obje
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,vptr; map:31298
+// confidence:D; align-band; retn,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:31298
 VA_CHT_1(0x00750a90, 0x155)
 t_overlay_adv_object_image_base_base::t_overlay_adv_object_image_base_base()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,vslot; map:31299
+// confidence:D; align-band; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:31299
 VA_CHT_1(0x007504a0, 0x13)
 t_adv_object_subimage_24 const& t_overlay_adv_object_image_base<t_simple_adv_object_image_24, t_overlay_adv_object_image_24, t_overlay_adv_object_subimage_24>::get_subimage(
     int arg_0
@@ -715,7 +715,7 @@ t_adv_object_subimage_24 const& t_overlay_adv_object_image_base<t_simple_adv_obj
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,vslot; map:31300
+// confidence:D; align-band; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:31300
 VA_CHT_1(0x007504c0, 0x26)
 int t_overlay_adv_object_image_base<t_simple_adv_object_image_24, t_overlay_adv_object_image_24, t_overlay_adv_object_subimage_24>::get_subimage_count(
 
@@ -724,7 +724,7 @@ int t_overlay_adv_object_image_base<t_simple_adv_object_image_24, t_overlay_adv_
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:31301
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:31301
 VA_CHT_1(0x007504f0, 0x7e)
 void t_overlay_adv_object_image_base<t_simple_adv_object_image_24, t_overlay_adv_object_image_24, t_overlay_adv_object_subimage_24>::on_rect_changed(
     t_screen_rect const& arg_0,
@@ -734,7 +734,7 @@ void t_overlay_adv_object_image_base<t_simple_adv_object_image_24, t_overlay_adv
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,vslot; map:31302
+// confidence:D; align-band; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:31302
 VA_CHT_1(0x00750570, 0x15)
 t_screen_rect t_overlay_adv_object_image_base<t_simple_adv_object_image_24, t_overlay_adv_object_image_24, t_overlay_adv_object_subimage_24>::get_image_rect(
 
@@ -763,7 +763,7 @@ t_overlay_adv_object_image_base<t_simple_adv_object_image, t_overlay_adv_object_
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,vptr; map:31305
+// confidence:D; align-band; retn,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:31305
 VA_CHT_1(0x0074e1e0, 0x19)
 t_overlay_adv_object_subimage::t_overlay_adv_object_subimage(
     t_overlay_adv_object_image const& arg_0,
@@ -773,7 +773,7 @@ t_overlay_adv_object_subimage::t_overlay_adv_object_subimage(
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,vslot; map:31306
+// confidence:D; align-band; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:31306
 VA_CHT_1_COMPGEN(0x00750450, 0x4f, SCALAR_DELETING_DTOR, t_overlay_adv_object_subimage)
 
 // name:A; map symbol; map:31307
@@ -857,7 +857,7 @@ t_simple_adv_object_image::t_simple_adv_object_image()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:31317
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:31317
 VA_CHT_1_COMPGEN(0x0074dc60, 0x1e, SCALAR_DELETING_DTOR, t_simple_adv_object_image)
 
 // name:A; map symbol; map:31318
@@ -907,7 +907,7 @@ int t_overlay_adv_object_image_base<t_simple_adv_object_image, t_overlay_adv_obj
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:31324
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:31324
 VA_CHT_1(0x007505e0, 0x7e)
 void t_overlay_adv_object_image_base<t_simple_adv_object_image, t_overlay_adv_object_image, t_overlay_adv_object_subimage>::on_rect_changed(
     t_screen_rect const& arg_0,
@@ -943,7 +943,7 @@ t_simple_adv_object_image::t_simple_adv_object_image(t_simple_adv_object_image_2
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,vptr; map:31329
+// confidence:D; align-band; retn,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:31329
 VA_CHT_1(0x007501c0, 0x62)
 t_simple_adv_object_image_base<t_adv_object_image, t_simple_adv_object_image, t_image_sequence>::t_simple_adv_object_image_base<t_adv_object_image, t_simple_adv_object_image, t_image_sequence>(
     t_simple_adv_object_image_base<t_adv_object_image_24, t_simple_adv_object_image_24, t_image_sequence_24> const& arg_0
@@ -952,7 +952,7 @@ t_simple_adv_object_image_base<t_adv_object_image, t_simple_adv_object_image, t_
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:31342
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:31342
 VA_CHT_1_COMPGEN(0x007507c0, 0x20, SCALAR_DELETING_DTOR, "t_adv_object_image_base<t_adv_object_image_24, t_adv_object_subimage_24, t_adv_object_image_visitor_24>")
 
 // name:A; map symbol; map:31343
@@ -964,7 +964,7 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, "t_adv_object_
 // name:A; map symbol; map:31345
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, "t_adv_object_image_base<t_adv_object_image, t_adv_object_subimage, t_adv_object_image_visitor>")
 
-// confidence:A; align-band; retn,stable,vslot; map:31346
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:31346
 VA_CHT_1_COMPGEN(0x00750800, 0x1e, VECTOR_DELETING_DTOR, "t_simple_adv_object_image_base<t_adv_object_image, t_simple_adv_object_image, t_image_sequence>")
 
 // name:A; map symbol; map:31347
@@ -983,7 +983,7 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, "t_overlay_adv
 // name:A; map symbol; map:31350
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, "t_overlay_adv_object_subimage_base<t_adv_object_subimage_24, t_overlay_adv_object_image_24>")
 
-// confidence:A; align-band; retn,vptr; map:31351
+// confidence:D; align-band; retn,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:31351
 VA_CHT_1(0x00750890, 0x9)
 t_adv_object_subimage_24::t_adv_object_subimage_24()
 {
@@ -996,7 +996,7 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, "t_overlay_adv
 // name:A; map symbol; map:31353
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, "t_overlay_adv_object_subimage_base<t_adv_object_subimage, t_overlay_adv_object_image>")
 
-// confidence:A; align-band; retn,stable,vslot; map:31354
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:31354
 VA_CHT_1_COMPGEN(0x007508b0, 0x1e, VECTOR_DELETING_DTOR, "t_overlay_adv_object_image_base<t_simple_adv_object_image_24, t_overlay_adv_object_image_24, t_overlay_adv_object_subimage_24>")
 
 // name:A; map symbol; map:31355
@@ -1035,7 +1035,7 @@ t_simple_adv_object_image_24::t_simple_adv_object_image_24()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:31360
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:31360
 VA_CHT_1_COMPGEN(0x00750a70, 0x1e, SCALAR_DELETING_DTOR, "t_overlay_adv_object_image_base<t_simple_adv_object_image, t_overlay_adv_object_image, t_overlay_adv_object_subimage>")
 
 // name:A; map symbol; map:31361
@@ -1048,13 +1048,13 @@ t_simple_adv_object_image::t_simple_adv_object_image(t_simple_adv_object_image c
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:31363
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:31363
 VA_CHT_1_COMPGEN(0x00750bf0, 0x1e, SCALAR_DELETING_DTOR, t_adv_object_image)
 
 // name:A; map symbol; map:31364
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, t_adv_object_image)
 
-// confidence:A; align-band; retn,stable,vptr; map:31365
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:31365
 VA_CHT_1(0x0074dc80, 0x5f)
 t_adv_object_image_base<t_adv_object_image, t_adv_object_subimage, t_adv_object_image_visitor>::t_adv_object_image_base<t_adv_object_image, t_adv_object_subimage, t_adv_object_image_visitor>(
 
@@ -1069,7 +1069,7 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, t_adv_object_s
 // name:A; map symbol; map:31367
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, t_adv_object_subimage_24)
 
-// confidence:A; align-band; retn,stable,vslot; map:31368
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:31368
 VA_CHT_1_COMPGEN(0x00750c10, 0x1e, SCALAR_DELETING_DTOR, t_simple_adv_object_image_24)
 
 // name:A; map symbol; map:31369
@@ -1111,7 +1111,7 @@ int t_overlay_adv_object_subimage_base<t_adv_object_subimage_24, t_overlay_adv_o
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn; map:31418
+// confidence:D; align-band; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:31418
 VA_CHT_1(0x00751e60, 0x1a6)
 void t_overlay_adv_object_image_base<t_simple_adv_object_image_24, t_overlay_adv_object_image_24, t_overlay_adv_object_subimage_24>::build_subimage_vector(
     int arg_0,
@@ -1121,7 +1121,7 @@ void t_overlay_adv_object_image_base<t_simple_adv_object_image_24, t_overlay_adv
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn; map:31419
+// confidence:D; align-band; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:31419
 VA_CHT_1(0x00750e70, 0x1c0)
 void t_overlay_adv_object_image_base<t_simple_adv_object_image, t_overlay_adv_object_image, t_overlay_adv_object_subimage>::build_subimage_vector(
     int arg_0,
@@ -1131,7 +1131,7 @@ void t_overlay_adv_object_image_base<t_simple_adv_object_image, t_overlay_adv_ob
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:31428
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:31428
 VA_CHT_1_COMPGEN(0x007520c0, 0x1e, VECTOR_DELETING_DTOR, "t_simple_adv_object_image_base<t_adv_object_image_24, t_simple_adv_object_image_24, t_image_sequence_24>")
 
 // name:A; map symbol; map:31429
@@ -1185,13 +1185,13 @@ t_overlay_adv_object_subimage::t_overlay_adv_object_subimage(t_overlay_adv_objec
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:31436
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:31436
 VA_CHT_1_COMPGEN(0x00752570, 0x1e, VECTOR_DELETING_DTOR, t_adv_object_image_24)
 
 // name:A; map symbol; map:31437
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, t_adv_object_image_24)
 
-// confidence:A; align-band; retn,stable,vptr; map:31438
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:31438
 VA_CHT_1(0x0074d910, 0x87)
 t_adv_object_image_base<t_adv_object_image_24, t_adv_object_subimage_24, t_adv_object_image_visitor_24>::t_adv_object_image_base<t_adv_object_image_24, t_adv_object_subimage_24, t_adv_object_image_visitor_24>(
 
@@ -1273,16 +1273,16 @@ t_adv_object_subimage_base& t_adv_object_subimage_base::operator=(t_adv_object_s
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:31460
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:31460
 VA_CHT_1_COMPGEN(0x007525c0, 0x8, VECTOR_DELETING_DTOR, t_overlay_adv_object_image_24)
 
-// confidence:C; align-order; stable; map:31461
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:31461
 VA_CHT_1_COMPGEN(0x007525d0, 0x8, VECTOR_DELETING_DTOR, t_overlay_adv_object_image)
 
-// confidence:C; align-order; stable; map:31462
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:31462
 VA_CHT_1_COMPGEN(0x007525e0, 0x8, VECTOR_DELETING_DTOR, "t_overlay_adv_object_image_base<t_simple_adv_object_image_24, t_overlay_adv_object_image_24, t_overlay_adv_object_subimage_24>")
 
-// confidence:C; align-order; stable; map:31463
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:31463
 VA_CHT_1_COMPGEN(0x007525f0, 0x8, VECTOR_DELETING_DTOR, "t_overlay_adv_object_image_base<t_simple_adv_object_image, t_overlay_adv_object_image, t_overlay_adv_object_subimage>")
 
 // === .rdata (22 symbols) ===

@@ -1,7 +1,7 @@
 // micro_map_window.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 27/41 (A:25 B:2 C:0); unaccounted 14; skipped std 1.
+// Accounted 27/41 (A:14 B:1 C:0); unaccounted 14; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,13 +10,13 @@
 
 // === .text (25 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:64301; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:64301; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00722a90, 0x15, STATIC_INIT_DISPATCH, "micro_map_window#1")
 
 // name:C; dyninit; see ledger; map:64302
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "micro_map_window#1")
 
-// confidence:A; align-order; stable,vptr; map:29973
+// confidence:D; align-order; stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:29973
 VA_CHT_1(0x00722ab0, 0x1cd)
 t_micro_map_renderer::t_micro_map_renderer(
     t_abstract_adventure_map const& arg_0,
@@ -30,14 +30,14 @@ t_micro_map_renderer::t_micro_map_renderer(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vptr; map:29974
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:29974
 VA_CHT_1(0x00722ca0, 0xe7)
 t_micro_map_renderer::~t_micro_map_renderer()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:29975
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:29975
 VA_CHT_1(0x00722d90, 0x1a0)
 t_shared_ptr<t_abstract_bitmap<unsigned short>> t_micro_map_renderer::create_back_buffer(
     t_screen_point const& arg_0
@@ -74,28 +74,28 @@ void t_micro_map_renderer::update(t_screen_rect const& arg_0)
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vptr; map:29980
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:29980
 VA_CHT_1(0x00722f40, 0x4b)
 t_micro_map_window::t_micro_map_window(t_screen_point const& arg_0, t_window* arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vptr; map:29981
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:29981
 VA_CHT_1(0x00722fb0, 0x79)
 t_micro_map_window::~t_micro_map_window()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:29982
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:29982
 VA_CHT_1(0x00723030, 0x19b)
 void t_micro_map_window::paint(t_paint_surface& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:29983
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:29983
 VA_CHT_1(0x007231d0, 0x106)
 void t_micro_map_window::set_renderer(t_micro_map_renderer* arg_0)
 {
@@ -109,12 +109,12 @@ void t_micro_map_window::on_rect_dirtied(t_screen_rect const& arg_0)
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:64303; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:64303; name:B (dyninit; see ledger)
 VA_CHT_1(0x007232e0, 0x20)
 // micro_map_window$tinit1
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; dyninit-tinit; owner-conf-C; map:64305; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:64305; name:B (dyninit; see ledger)
 VA_CHT_1(0x00723300, 0x20)
 // micro_map_window$tinit2
 // Function body not reconstructed; signature retained as a comment.
@@ -124,13 +124,13 @@ VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 // micro_map_window$tatexit2
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; align-band; retn,stable,vslot; map:29985
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:29985
 VA_CHT_1_COMPGEN(0x00722c80, 0x1e, SCALAR_DELETING_DTOR, t_micro_map_renderer)
 
 // name:A; map symbol; map:29986
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, t_micro_map_renderer)
 
-// confidence:A; align-band; retn,stable,vslot; map:29987
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:29987
 VA_CHT_1_COMPGEN(0x00722f90, 0x1e, VECTOR_DELETING_DTOR, t_micro_map_window)
 
 // name:A; map symbol; map:29988

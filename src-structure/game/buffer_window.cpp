@@ -1,7 +1,7 @@
 // buffer_window.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 16/26 (A:10 B:4 C:2); unaccounted 10; skipped std 1.
+// Accounted 16/26 (A:6 B:0 C:0); unaccounted 10; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,35 +10,35 @@
 
 // === .text (20 symbols) ===
 
-// confidence:C; align-order; retn,stable; map:18452
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18452
 VA_CHT_1(0x00580e70, 0xa)
 t_image_buffer::t_image_buffer()
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:18453
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18453
 VA_CHT_1(0x00580e80, 0x21)
 t_image_buffer::t_image_buffer(t_image_buffer const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:18454
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18454
 VA_CHT_1(0x00580eb0, 0x36)
 t_image_buffer::~t_image_buffer()
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:18455
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18455
 VA_CHT_1(0x00580ef0, 0x79)
 t_image_buffer& t_image_buffer::operator=(t_image_buffer const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:18456
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18456
 VA_CHT_1(0x00580f70, 0x172)
 t_image_buffer::t_image_buffer(int arg_0, int arg_1)
 {
@@ -59,31 +59,31 @@ t_abstract_bitmap<unsigned short>* t_image_buffer::get_bitmap() const
     // Body unavailable.
 }
 
-// confidence:A; align-order; vptr; map:18459
+// confidence:D; align-order; vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:18459
 VA_CHT_1(0x005810f0, 0x4a)
 t_buffer_window::t_buffer_window(t_screen_point arg_0, t_window* arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:18460
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18460
 VA_CHT_1(0x005811f0, 0x79)
 void t_buffer_window::set_bitmap(t_image_buffer const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:18461
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18461
 VA_CHT_1(0x00581270, 0x45)
 void t_buffer_window::paint(t_paint_surface& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:68897; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:68897; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x005812c0, 0x20, STATIC_INIT_DISPATCH, buffer_window)
 
-// confidence:A; align-band; retn,stable,vslot; map:18462
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18462
 VA_CHT_1_COMPGEN(0x00581140, 0x1e, VECTOR_DELETING_DTOR, t_buffer_window)
 
 // name:A; map symbol; map:18463

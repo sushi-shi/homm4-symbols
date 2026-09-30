@@ -1,7 +1,7 @@
 // battlefield_terrain_map.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\battlefield_terrain_map.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 77/149 (A:52 B:12 C:13); unaccounted 72; skipped std 56.
+// Accounted 77/149 (A:30 B:0 C:0); unaccounted 72; skipped std 56.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,71 +10,71 @@
 
 // === .text (119 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:69015; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:69015; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00568420, 0x15, STATIC_INIT_DISPATCH, "battlefield_terrain_map#1")
 
 // name:C; dyninit; see ledger; map:69016
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "battlefield_terrain_map#1")
 
-// confidence:A; dyninit-init; owner-conf-C; map:69017; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:69017; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00568440, 0x15, STATIC_INIT_DISPATCH, "battlefield_terrain_map#2")
 
 // name:C; dyninit; see ledger; map:69018
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "battlefield_terrain_map#2")
 
-// confidence:A; dyninit-init; owner-conf-C; map:69019; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:69019; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00568460, 0x15, STATIC_INIT_DISPATCH, "battlefield_terrain_map#3")
 
 // name:C; dyninit; see ledger; map:69020
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "battlefield_terrain_map#3")
 
-// confidence:A; dyninit-init; owner-conf-C; map:69021; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:69021; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00568480, 0x15, STATIC_INIT_DISPATCH, "battlefield_terrain_map#4")
 
 // name:C; dyninit; see ledger; map:69022
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "battlefield_terrain_map#4")
 
-// confidence:A; dyninit-init; owner-conf-C; map:69023; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:69023; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x005684a0, 0x10, STATIC_INIT_DISPATCH, "battlefield_terrain_map#5")
 
 // name:C; dyninit; see ledger; map:69024
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "battlefield_terrain_map#5")
 
-// confidence:A; dyninit-init; owner-conf-C; map:69025; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:69025; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x005684b0, 0x15, STATIC_INIT_DISPATCH, "battlefield_terrain_map#6")
 
 // name:C; dyninit; see ledger; map:69026
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "battlefield_terrain_map#6")
 
-// confidence:A; align-order; retn,vptr; map:17601
+// confidence:D; align-order; retn,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:17601
 VA_CHT_1(0x005684d0, 0x1d6)
 t_battlefield_terrain_map::t_impl::t_impl()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:17602
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:17602
 VA_CHT_1(0x005688c0, 0x16)
 void t_battlefield_terrain_map::t_impl::get_size(int& arg_0, int& arg_1) const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:17603
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:17603
 VA_CHT_1(0x005688e0, 0x2f)
 void t_battlefield_terrain_map::t_impl::get_row_bounds(int arg_0, int& arg_1, int& arg_2) const
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:17604
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:17604
 VA_CHT_1(0x00568910, 0x10)
 t_screen_point t_battlefield_terrain_map::get_view_size()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vptr; map:17605
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:17605
 VA_CHT_1(0x00568920, 0x71)
 t_battlefield_terrain_map::t_battlefield_terrain_map()
 {
@@ -88,28 +88,28 @@ t_battlefield_terrain_map::t_battlefield_terrain_map(t_battlefield_terrain_map c
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vptr; map:17607
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:17607
 VA_CHT_1(0x005689c0, 0xd9)
 t_battlefield_terrain_map::~t_battlefield_terrain_map()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:17608
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:17608
 VA_CHT_1(0x00568aa0, 0xd1)
 void t_battlefield_terrain_map::establish_transitions()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:17609
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:17609
 VA_CHT_1(0x00568b80, 0x7)
 t_metatile_map const& t_battlefield_terrain_map::get_metatile_map() const
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:17610
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:17610
 VA_CHT_1(0x00568b90, 0x1c)
 t_screen_point t_battlefield_terrain_map::get_screen_point(t_map_point_2d const& arg_0) const
 {
@@ -123,7 +123,7 @@ int t_battlefield_terrain_map::get_size() const
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:17612
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:17612
 VA_CHT_1(0x00568bb0, 0x7)
 int t_battlefield_terrain_map::get_vertex_size() const
 {
@@ -137,21 +137,21 @@ t_battlefield_terrain_tile& t_battlefield_terrain_map::get_tile(t_map_point_2d c
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:17614
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:17614
 VA_CHT_1(0x00568bc0, 0x28)
 t_battlefield_terrain_tile const& t_battlefield_terrain_map::get_tile(t_map_point_2d const& arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:17615
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:17615
 VA_CHT_1(0x00568bf0, 0x17)
 int t_battlefield_terrain_map::get_tile_row_end(int arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:17616
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:17616
 VA_CHT_1(0x00568c10, 0x17)
 int t_battlefield_terrain_map::get_tile_row_start(int arg_0) const
 {
@@ -165,7 +165,7 @@ t_battlefield_terrain_tile_vertex& t_battlefield_terrain_map::get_tile_vertex(t_
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:17618
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:17618
 VA_CHT_1(0x00568c30, 0x28)
 t_battlefield_terrain_tile_vertex const& t_battlefield_terrain_map::get_tile_vertex(
     t_map_point_2d const& arg_0
@@ -183,7 +183,7 @@ t_quad<t_battlefield_terrain_tile_vertex&> t_battlefield_terrain_map::get_tile_v
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:17620
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:17620
 VA_CHT_1(0x00568c60, 0x7c)
 t_quad<t_battlefield_terrain_tile_vertex const&> t_battlefield_terrain_map::get_tile_vertex_quad(
     t_map_point_2d const& arg_0
@@ -192,28 +192,28 @@ t_quad<t_battlefield_terrain_tile_vertex const&> t_battlefield_terrain_map::get_
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:17621
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:17621
 VA_CHT_1(0x00568ce0, 0x17)
 int t_battlefield_terrain_map::get_tile_vertex_row_end(int arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:17622
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:17622
 VA_CHT_1(0x00568d00, 0x17)
 int t_battlefield_terrain_map::get_tile_vertex_row_start(int arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:17623
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:17623
 VA_CHT_1(0x00568d20, 0x3b)
 bool t_battlefield_terrain_map::is_valid(t_map_point_2d const& arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:17624
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:17624
 VA_CHT_1(0x00568d60, 0x107)
 void t_battlefield_terrain_map::recalculate_vertex_lighting()
 {
@@ -227,40 +227,40 @@ t_battlefield_terrain_map& t_battlefield_terrain_map::operator=(t_battlefield_te
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:17626
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:17626
 VA_CHT_1(0x00568e70, 0x25a)
 void t_battlefield_terrain_map::reset_height(t_map_point_2d const& arg_0, int arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:17627
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:17627
 VA_CHT_1(0x005690d0, 0x10b)
 void t_battlefield_terrain_map::set_river_height()
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:17628
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:17628
 VA_CHT_1(0x005691e0, 0x1a0)
 bool t_battlefield_terrain_map::read(std::basic_streambuf<char, std::char_traits<char>>& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:17629
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:17629
 VA_CHT_1(0x00569380, 0x187)
 bool t_battlefield_terrain_map::write(std::basic_streambuf<char, std::char_traits<char>>& arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:69027; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:69027; name:B (dyninit; see ledger)
 VA_CHT_1(0x005696b0, 0x20)
 // battlefield_terrain_map$tinit1
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:69029; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:69029; name:B (dyninit; see ledger)
 VA_CHT_1(0x00569b60, 0x20)
 // battlefield_terrain_map$tinit2
 // Function body not reconstructed; signature retained as a comment.
@@ -270,14 +270,14 @@ VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 // battlefield_terrain_map$tatexit2
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-band; retn,stable; map:17630
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:17630
 VA_CHT_1(0x00568800, 0xbc)
 t_battlefield_terrain_tile::t_battlefield_terrain_tile()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,vptr; map:17631
+// confidence:D; align-band; retn,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:17631
 VA_CHT_1(0x00704420, 0x7)
 t_metatile_map::t_abstract_tile_map::~t_abstract_tile_map()
 {
@@ -339,7 +339,7 @@ t_isometric_vertex_map<t_battlefield_terrain_tile_vertex>::~t_isometric_vertex_m
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:17639
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:17639
 VA_CHT_1_COMPGEN(0x005689a0, 0x1e, SCALAR_DELETING_DTOR, t_battlefield_terrain_map)
 
 // name:A; map symbol; map:17640
@@ -457,7 +457,7 @@ t_battlefield_terrain_map::t_impl* t_owned_ptr<t_battlefield_terrain_map::t_impl
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:17679
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:17679
 VA_CHT_1(0x00569bb0, 0xa5)
 t_battlefield_terrain_tile& t_basic_isometric_map<t_isometric_tile_map_base, t_battlefield_terrain_tile>::get(
     t_level_map_point_2d const& arg_0
@@ -475,7 +475,7 @@ bool t_basic_isometric_map<t_isometric_tile_map_base, t_battlefield_terrain_tile
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:17681
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:17681
 VA_CHT_1(0x00569b80, 0x28)
 t_isometric_map<t_battlefield_terrain_tile>::t_isometric_map<t_battlefield_terrain_tile>(
     t_screen_point const& arg_0,
@@ -486,7 +486,7 @@ t_isometric_map<t_battlefield_terrain_tile>::t_isometric_map<t_battlefield_terra
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:17682
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:17682
 VA_CHT_1(0x00569c60, 0xb5)
 t_battlefield_terrain_tile_vertex const& t_basic_isometric_map<t_isometric_vertex_map_base, t_battlefield_terrain_tile_vertex>::get(
     t_level_map_point_2d const& arg_0
@@ -529,14 +529,14 @@ t_shared_ptr<t_metatile_map>::t_shared_ptr<t_metatile_map>()
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:17687
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:17687
 VA_CHT_1(0x005686b0, 0x77)
 t_shared_ptr<t_metatile_map>::~t_shared_ptr<t_metatile_map>()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:17688
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:17688
 VA_CHT_1(0x00569d20, 0x90)
 t_shared_ptr<t_metatile_map>& t_shared_ptr<t_metatile_map>::operator=(t_metatile_map* arg_0)
 {
@@ -596,7 +596,7 @@ transition_calculator_details::t_terrain_map_adapter<t_battlefield_terrain_map::
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:17701
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:17701
 VA_CHT_1(0x005695b0, 0x7)
 transition_calculator_details::t_abstract_terrain_map::~t_abstract_terrain_map()
 {
@@ -610,7 +610,7 @@ t_battlefield_terrain_tile::t_battlefield_terrain_tile(t_battlefield_terrain_til
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:17703
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:17703
 VA_CHT_1_COMPGEN(0x00569940, 0x1e, SCALAR_DELETING_DTOR, t_battlefield_terrain_tile)
 
 // name:A; map symbol; map:17704
@@ -682,7 +682,7 @@ transition_calculator_details::t_terrain_map_adapter<t_battlefield_terrain_map::
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:17719
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:17719
 VA_CHT_1(0x00569610, 0x28)
 int transition_calculator_details::t_terrain_map_adapter<t_battlefield_terrain_map::t_impl>::get_row_end(
     int arg_0
@@ -698,7 +698,7 @@ int t_battlefield_terrain_map::t_impl::get_row_end(int arg_0) const
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:17721
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:17721
 VA_CHT_1(0x005695c0, 0x17)
 int transition_calculator_details::t_terrain_map_adapter<t_battlefield_terrain_map::t_impl>::get_row_start(
     int arg_0
@@ -714,7 +714,7 @@ int t_battlefield_terrain_map::t_impl::get_row_start(int arg_0) const
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:17723
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:17723
 VA_CHT_1(0x00569600, 0x7)
 int transition_calculator_details::t_terrain_map_adapter<t_battlefield_terrain_map::t_impl>::get_size() const
 {
@@ -728,7 +728,7 @@ int t_battlefield_terrain_map::t_impl::get_size() const
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:17725
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:17725
 VA_CHT_1(0x005695e0, 0x17)
 t_abstract_tile const& transition_calculator_details::t_terrain_map_adapter<t_battlefield_terrain_map::t_impl>::get_tile(
     t_level_map_point_2d const& arg_0
@@ -755,7 +755,7 @@ t_battlefield_terrain_tile const& t_basic_isometric_map<t_isometric_tile_map_bas
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:17729
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:17729
 VA_CHT_1(0x00569640, 0x15)
 t_abstract_tile& transition_calculator_details::t_terrain_map_adapter<t_battlefield_terrain_map::t_impl>::get_tile(
     t_level_map_point_2d const& arg_0
@@ -771,7 +771,7 @@ t_battlefield_terrain_tile& t_battlefield_terrain_map::t_impl::get_tile(t_map_po
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:17731
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:17731
 VA_CHT_1(0x00569660, 0x47)
 t_screen_point transition_calculator_details::t_terrain_map_adapter<t_battlefield_terrain_map::t_impl>::get_view_size(
 

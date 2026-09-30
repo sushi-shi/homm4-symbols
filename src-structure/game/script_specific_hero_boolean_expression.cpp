@@ -1,7 +1,7 @@
 // script_specific_hero_boolean_expression.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 45/122 (A:43 B:2 C:0); unaccounted 77; skipped std 1.
+// Accounted 45/122 (A:34 B:0 C:0); unaccounted 77; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,7 +10,7 @@
 
 // === .text (68 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:62925; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62925; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007a6340, 0x15, STATIC_INIT_DISPATCH, "script_specific_hero_boolean_expression#1")
 
 // name:C; dyninit; see ledger; map:62926
@@ -80,21 +80,21 @@ bool t_script_specific_hero_boolean_expression::evaluate(t_expression_context_gl
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:36572
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:36572
 VA_CHT_1(0x007a64c0, 0x18)
 bool t_script_hero_is_dead::do_evaluate(t_hero const* arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:36573
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:36573
 VA_CHT_1(0x007a64e0, 0x18)
 bool t_script_hero_is_imprisoned::do_evaluate(t_hero const* arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:62927; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:62927; name:B (dyninit; see ledger)
 VA_CHT_1(0x007a6500, 0x70)
 // script_specific_hero_boolean_expression$tinit1
 // Function body not reconstructed; signature retained as a comment.
@@ -105,7 +105,7 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "t_script_boolean_exp
 // name:C; dyninit; see ledger; map:62930
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "t_script_boolean_expression_base<10,t_script_hero_is_imprisoned>::k_factory")
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:62931; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:62931; name:B (dyninit; see ledger)
 VA_CHT_1(0x007a6890, 0x5c)
 // script_specific_hero_boolean_expression$tinit2
 // Function body not reconstructed; signature retained as a comment.
@@ -151,14 +151,14 @@ t_script_boolean_expression_factory<10>::~t_script_boolean_expression_factory<10
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:36580
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:36580
 VA_CHT_1(0x007a65b0, 0x49)
 t_script_boolean_expression_factory<9>::t_script_boolean_expression_factory<9>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:36581
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:36581
 VA_CHT_1(0x007a6600, 0x86)
 t_counted_ptr<t_abstract_script_boolean_expression> t_script_boolean_expression_factory<9>::create() const
 {
@@ -195,7 +195,7 @@ t_script_boolean_expression<9>::t_script_boolean_expression<9>(t_script_boolean_
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:36586
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:36586
 VA_CHT_1_COMPGEN(0x007a6690, 0x9c, VECTOR_DELETING_DTOR, "t_script_boolean_expression<9>")
 
 // name:A; map symbol; map:36587
@@ -297,14 +297,14 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, t_script_speci
 // name:A; map symbol; map:36603
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, t_script_specific_hero_boolean_expression)
 
-// confidence:A; align-band; retn,stable,vptr; map:36604
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:36604
 VA_CHT_1(0x007a6730, 0x49)
 t_script_boolean_expression_factory<10>::t_script_boolean_expression_factory<10>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:36605
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:36605
 VA_CHT_1(0x007a6780, 0x53)
 t_counted_ptr<t_abstract_script_boolean_expression> t_script_boolean_expression_factory<10>::create() const
 {
@@ -343,7 +343,7 @@ t_script_boolean_expression<10>::t_script_boolean_expression<10>(t_script_boolea
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:36610
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:36610
 VA_CHT_1_COMPGEN(0x007a67e0, 0x9c, VECTOR_DELETING_DTOR, "t_script_boolean_expression<10>")
 
 // name:A; map symbol; map:36611

@@ -1,7 +1,7 @@
 // adventure_events_set_owner.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 18/27 (A:16 B:1 C:1); unaccounted 9; skipped std 1.
+// Accounted 18/27 (A:6 B:1 C:0); unaccounted 9; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,20 +10,20 @@
 
 // === .text (19 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:70577; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:70577; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00493780, 0x15, STATIC_INIT_DISPATCH, "adventure_events_set_owner#1")
 
 // name:C; dyninit; see ledger; map:70578
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "adventure_events_set_owner#1")
 
-// confidence:A; align-order; retn,stable,vptr; map:8378
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:8378
 VA_CHT_1(0x004937a0, 0x22)
 t_adventure_event_set_owner::t_adventure_event_set_owner()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vptr; map:8379
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:8379
 VA_CHT_1(0x00493860, 0x79)
 t_adventure_event_set_owner::t_adventure_event_set_owner(t_owned_adv_object* arg_0, int arg_1)
 {
@@ -37,14 +37,14 @@ t_adventure_event_set_owner::t_adventure_event_set_owner(t_army* arg_0, int arg_
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:8381
+// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:8381
 VA_CHT_1(0x004938e0, 0x84)
 void t_adventure_event_set_owner::execute_event(t_adventure_map* arg_0, t_saved_game_header const& arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:8382
+// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:8382
 VA_CHT_1(0x00493970, 0x74)
 void t_adventure_event_set_owner::undo_event(t_adventure_map* arg_0, t_saved_game_header const& arg_1)
 {
@@ -58,26 +58,26 @@ void t_adventure_event_set_owner::set_owner(t_adventure_object* arg_0, int arg_1
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:8384
+// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:8384
 VA_CHT_1(0x004939f0, 0xb6)
 bool t_adventure_event_set_owner::read(std::basic_streambuf<char, std::char_traits<char>>& arg_0, int arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:8385
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:8385
 VA_CHT_1(0x00493ab0, 0x99)
 bool t_adventure_event_set_owner::write(std::basic_streambuf<char, std::char_traits<char>>& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:70579; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:70579; name:B (dyninit; see ledger)
 VA_CHT_1(0x00493b50, 0x20)
 // adventure_events_set_owner$tinit1
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:70581; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:70581; name:B (dyninit; see ledger)
 VA_CHT_1(0x00493b70, 0x5c)
 // adventure_events_set_owner$tinit2
 // Function body not reconstructed; signature retained as a comment.
@@ -97,7 +97,7 @@ VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 // adventure_events_set_owner$tatexit4
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; align-band; retn,stable,vslot; map:8386
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:8386
 VA_CHT_1_COMPGEN(0x004937d0, 0x1e, SCALAR_DELETING_DTOR, t_adventure_event_set_owner)
 
 // name:A; map symbol; map:8387
@@ -110,7 +110,7 @@ t_adventure_event_set_owner::~t_adventure_event_set_owner()
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:8389
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:8389
 VA_CHT_1_COMPGEN(0x00493bd0, 0x8, VECTOR_DELETING_DTOR, t_adventure_event_set_owner)
 
 // === .rdata (2 symbols) ===

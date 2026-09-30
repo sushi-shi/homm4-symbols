@@ -297,7 +297,7 @@ def counts(symbols, retail):
     tiers = collections.Counter(min(r["tier"] for r in retail[s["id"]]) for s in matched)
     return dict(total=len(symbols), skipped_std=len(skipped), included=len(included),
                 accounted=len(matched), unaccounted=len(included) - len(matched),
-                A=tiers["A"], B=tiers["B"], C=tiers["C"])
+                A=tiers["A"], B=tiers["B"], C=tiers["C"], D=tiers["D"])
 
 
 def source_info(obj, symbols):
@@ -362,7 +362,7 @@ def main(target):
     function_sizes = {int(f["rva"], 16): f["size"] for f in features}
     retail = collections.defaultdict(list)
     for r in names:
-        if r["tier"] not in {"A", "B", "C"} or not r["method"]:
+        if r["tier"] not in {"A", "B", "C", "D"} or not r["method"]:
             raise ValueError(f"retail name missing tier/method: {r['rva']}")
         if r["map_id"] not in by_id:
             raise ValueError(f"retail name has unknown map_id: {r['rva']}")

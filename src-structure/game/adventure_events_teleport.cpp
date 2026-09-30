@@ -1,7 +1,7 @@
 // adventure_events_teleport.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 19/27 (A:16 B:1 C:2); unaccounted 8; skipped std 1.
+// Accounted 19/27 (A:6 B:1 C:0); unaccounted 8; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,20 +10,20 @@
 
 // === .text (19 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:70561; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:70561; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00494120, 0x15, STATIC_INIT_DISPATCH, "adventure_events_teleport#1")
 
 // name:C; dyninit; see ledger; map:70562
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "adventure_events_teleport#1")
 
-// confidence:A; align-order; retn,vptr; map:8408
+// confidence:D; align-order; retn,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:8408
 VA_CHT_1(0x00494140, 0x2f)
 t_adventure_event_teleport::t_adventure_event_teleport()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; stable,vptr; map:8409
+// confidence:D; align-order; stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:8409
 VA_CHT_1(0x00494200, 0x6c)
 t_adventure_event_teleport::t_adventure_event_teleport(
     t_adventure_object* arg_0,
@@ -34,40 +34,40 @@ t_adventure_event_teleport::t_adventure_event_teleport(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:8410
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:8410
 VA_CHT_1(0x00494270, 0x7a)
 void t_adventure_event_teleport::execute_event(t_adventure_map* arg_0, t_saved_game_header const& arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:8411
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:8411
 VA_CHT_1(0x004942f0, 0x3b)
 void t_adventure_event_teleport::undo_event(t_adventure_map* arg_0, t_saved_game_header const& arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:8412
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:8412
 VA_CHT_1(0x00494330, 0x227)
 bool t_adventure_event_teleport::read(std::basic_streambuf<char, std::char_traits<char>>& arg_0, int arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:8413
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:8413
 VA_CHT_1(0x00494560, 0x171)
 bool t_adventure_event_teleport::write(std::basic_streambuf<char, std::char_traits<char>>& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:70563; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:70563; name:B (dyninit; see ledger)
 VA_CHT_1(0x004946e0, 0x20)
 // adventure_events_teleport$tinit1
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:70565; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:70565; name:B (dyninit; see ledger)
 VA_CHT_1(0x00494700, 0x5c)
 // adventure_events_teleport$tinit2
 // Function body not reconstructed; signature retained as a comment.
@@ -87,7 +87,7 @@ VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 // adventure_events_teleport$tatexit4
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; align-band; retn,stable,vslot; map:8414
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:8414
 VA_CHT_1_COMPGEN(0x00494170, 0x1e, SCALAR_DELETING_DTOR, t_adventure_event_teleport)
 
 // name:A; map symbol; map:8415
@@ -110,7 +110,7 @@ std::basic_streambuf<char, std::char_traits<char>>& operator<<(
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn; map:8418
+// confidence:D; align-band; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:8418
 VA_CHT_1(0x00494190, 0x68)
 std::basic_streambuf<char, std::char_traits<char>>& operator<<(
     std::basic_streambuf<char, std::char_traits<char>>& arg_0,
@@ -120,7 +120,7 @@ std::basic_streambuf<char, std::char_traits<char>>& operator<<(
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:8419
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:8419
 VA_CHT_1_COMPGEN(0x00494760, 0x8, VECTOR_DELETING_DTOR, t_adventure_event_teleport)
 
 // === .rdata (2 symbols) ===

@@ -1,7 +1,7 @@
 // transition_calculator.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\transition_calculator.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 43/143 (A:4 B:5 C:34); unaccounted 100; skipped std 84.
+// Accounted 43/143 (A:0 B:0 C:0); unaccounted 100; skipped std 84.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,13 +10,13 @@
 
 // === .text (123 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:61340; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:61340; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0082a490, 0x15, STATIC_INIT_DISPATCH, "transition_calculator#1")
 
 // name:C; dyninit; see ledger; map:61341
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "transition_calculator#1")
 
-// confidence:A; dyninit-init; owner-conf-C; map:61342; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:61342; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0082a4b0, 0x27, STATIC_INIT_DISPATCH, g_transition_ids)
 
 // name:C; dyninit; see ledger; map:61343
@@ -25,19 +25,19 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, g_transition_ids)
 // name:C; dyninit; see ledger; map:61344
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, g_transition_ids)
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:61345; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:61345; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0082a4e0, 0x17, STATIC_DTOR, g_transition_ids)
 
 namespace {
 
-// confidence:C; align-order; retn,stable; map:40092
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:40092
 VA_CHT_1(0x0082a770, 0x1)
 void initialize_transition_ids()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:40093
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:40093
 VA_CHT_1(0x0082a8b0, 0x16f)
 int choose_set(t_full_terrain_type arg_0, t_full_terrain_type arg_1)
 {
@@ -53,28 +53,28 @@ VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 
 namespace {
 
-// confidence:C; align-order; retn,stable; map:40094
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:40094
 VA_CHT_1(0x0082aa20, 0x20)
 int choose_set(t_road_type arg_0, t_road_type arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:40095
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:40095
 VA_CHT_1(0x0082b080, 0x17)
 int choose_set(t_tile_visibility arg_0, t_tile_visibility arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:40096
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:40096
 VA_CHT_1(0x0082b200, 0x7)
 void clamp_to_map(int arg_0, t_screen_point const& arg_1, t_map_point_2d& arg_2)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:40097
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:40097
 VA_CHT_1(0x0082b6f0, 0x103)
 std::vector<t_full_terrain_type, std::allocator<t_full_terrain_type>> const& get_terrain_evaluation_type_vector(
 
@@ -92,7 +92,7 @@ VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 
 namespace {
 
-// confidence:B; align-order; retn,stable; map:40098
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:40098
 VA_CHT_1(0x0082b860, 0x36)
 t_abstract_tile const* t_terrain_transition_traits_base::get_tile(
     transition_calculator_details::t_abstract_terrain_map const& arg_0,
@@ -103,7 +103,7 @@ t_abstract_tile const* t_terrain_transition_traits_base::get_tile(
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:40099
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:40099
 VA_CHT_1(0x0082b8a0, 0x52)
 t_shroud_tile t_shroud_transition_traits::get_tile(
     t_shroud_map const& arg_0,
@@ -116,7 +116,7 @@ t_shroud_tile t_shroud_transition_traits::get_tile(
 
 } // anonymous namespace
 
-// confidence:C; align-order; retn,stable; map:40100
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:40100
 VA_CHT_1(0x0082bb70, 0x65)
 t_transition_calculator::t_impl::t_impl()
 {
@@ -133,21 +133,21 @@ bool t_transition_calculator::t_impl::set_transitions(
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:40102
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:40102
 VA_CHT_1(0x0082bfe0, 0x67)
 t_transition_calculator::t_transition_calculator()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:40103
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:40103
 VA_CHT_1(0x0082c190, 0x22)
 t_transition_calculator::~t_transition_calculator()
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:40104
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:40104
 VA_CHT_1(0x0082c1f0, 0x2d)
 bool t_transition_calculator::do_set_transitions(
     transition_calculator_details::t_abstract_terrain_map& arg_0,
@@ -157,7 +157,7 @@ bool t_transition_calculator::do_set_transitions(
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:40105
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:40105
 VA_CHT_1(0x0082c2e0, 0xc8)
 t_shroud_transition_calculator::t_impl::t_impl()
 {
@@ -175,21 +175,21 @@ bool t_shroud_transition_calculator::t_impl::set_transitions(
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:40107
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:40107
 VA_CHT_1(0x0082c4e0, 0xf7)
 t_shroud_transition_calculator::t_shroud_transition_calculator()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:40108
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:40108
 VA_CHT_1(0x0082cda0, 0x84)
 t_shroud_transition_calculator::~t_shroud_transition_calculator()
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:40109
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:40109
 VA_CHT_1(0x0082d360, 0x29)
 bool t_shroud_transition_calculator::set_transitions(
     t_abstract_adventure_map& arg_0,
@@ -200,12 +200,12 @@ bool t_shroud_transition_calculator::set_transitions(
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:61348; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:61348; name:B (dyninit; see ledger)
 VA_CHT_1(0x0082d390, 0x20)
 // transition_calculator$tinit1
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:61350; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:61350; name:B (dyninit; see ledger)
 VA_CHT_1(0x0082d960, 0x3f)
 // transition_calculator$tinit2
 // Function body not reconstructed; signature retained as a comment.
@@ -282,7 +282,7 @@ t_full_terrain_type::t_full_terrain_type(t_terrain_type arg_0, int arg_1)
 
 namespace {
 
-// confidence:C; align-band; retn,stable; map:40119
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:40119
 VA_CHT_1(0x0082b040, 0x18)
 t_shroud_tile::t_shroud_tile(t_abstract_adventure_tile const* arg_0, int arg_1)
 {
@@ -307,21 +307,21 @@ t_full_terrain_type::t_full_terrain_type()
 
 namespace {
 
-// confidence:C; align-band; retn,stable; map:40122
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:40122
 VA_CHT_1(0x0082c1c0, 0x24)
 t_calculator_base<t_terrain_transition_traits>::~t_calculator_base<t_terrain_transition_traits>()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:40123
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:40123
 VA_CHT_1(0x0082b1c0, 0x3d)
 t_calculator_base<t_road_transition_traits>::t_calculator_base<t_road_transition_traits>()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:40124
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:40124
 VA_CHT_1(0x0082abd0, 0x1c)
 t_calculator_base<t_road_transition_traits>::~t_calculator_base<t_road_transition_traits>()
 {
@@ -330,7 +330,7 @@ t_calculator_base<t_road_transition_traits>::~t_calculator_base<t_road_transitio
 
 } // anonymous namespace
 
-// confidence:C; align-band; retn,stable; map:40125
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:40125
 VA_CHT_1(0x0082b900, 0x31)
 t_abstract_tile const& transition_calculator_details::t_abstract_terrain_map::get_const_tile(
     t_level_map_point_2d const& arg_0
@@ -339,7 +339,7 @@ t_abstract_tile const& transition_calculator_details::t_abstract_terrain_map::ge
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:40126
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:40126
 VA_CHT_1(0x0082b210, 0x1c)
 std::vector<t_road_transition, std::allocator<t_road_transition>> const& t_abstract_tile::get_road_transition_vector(
 
@@ -451,7 +451,7 @@ t_shroud_transition_calculator::t_impl* t_owned_ptr<t_shroud_transition_calculat
 
 namespace {
 
-// confidence:C; align-band; retn,stable; map:40175
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:40175
 VA_CHT_1(0x0082c070, 0x118)
 void clamp_to_map(transition_calculator_details::t_abstract_terrain_map const& arg_0, t_map_point_2d& arg_1)
 {
@@ -465,7 +465,7 @@ void clamp_to_map(t_abstract_adventure_map const& arg_0, t_map_point_2d& arg_1)
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:40177
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:40177
 VA_CHT_1(0x0082c3c0, 0x11c)
 void t_calculator_base<t_terrain_transition_traits>::merge_equivalent_transitions(
     std::vector<t_terrain_transition, std::allocator<t_terrain_transition>> const& arg_0,
@@ -528,7 +528,7 @@ bool operator!=(t_full_terrain_type const& arg_0, t_full_terrain_type const& arg
 
 namespace {
 
-// confidence:C; align-band; retn,stable; map:40184
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:40184
 VA_CHT_1(0x0082b230, 0x32b)
 void t_calculator_base<t_terrain_transition_traits>::calculate_transitions(
     transition_calculator_details::t_abstract_terrain_map const& arg_0,
@@ -567,7 +567,7 @@ t_full_terrain_type t_terrain_transition_traits::get_type(t_abstract_tile const*
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:40189
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:40189
 VA_CHT_1(0x0082ba40, 0x12b)
 void t_calculator_base<t_road_transition_traits>::merge_equivalent_transitions(
     std::vector<t_road_transition, std::allocator<t_road_transition>> const& arg_0,
@@ -594,7 +594,7 @@ bool t_calculator_base<t_road_transition_traits>::transition_vectors_differ(
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:40192
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:40192
 VA_CHT_1(0x0082d750, 0x206)
 void t_calculator_base<t_road_transition_traits>::calculate_transitions(
     transition_calculator_details::t_abstract_terrain_map const& arg_0,
@@ -660,7 +660,7 @@ bool t_calculator_base<t_shroud_transition_traits>::transition_vectors_differ(
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:40200
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:40200
 VA_CHT_1(0x0082bbe0, 0x3f4)
 void t_calculator_base<t_shroud_transition_traits>::calculate_transitions(
     t_shroud_map const& arg_0,
@@ -744,21 +744,21 @@ void t_terrain_transition_traits::set_type(t_terrain_transition& arg_0, t_full_t
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:40224
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:40224
 VA_CHT_1(0x0082b0a0, 0x11e)
 void t_calculator_base<t_terrain_transition_traits>::corner_is_same()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:40225
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:40225
 VA_CHT_1(0x0082cf30, 0x123)
 void t_calculator_base<t_terrain_transition_traits>::left_is_same()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:40226
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:40226
 VA_CHT_1(0x0082ce30, 0xf7)
 void t_calculator_base<t_terrain_transition_traits>::left_matches_right()
 {
@@ -772,7 +772,7 @@ void t_calculator_base<t_terrain_transition_traits>::right_is_same()
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:40228
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:40228
 VA_CHT_1(0x0082d160, 0x1f3)
 void t_calculator_base<t_terrain_transition_traits>::write_transitions(
     std::vector<t_terrain_transition, std::allocator<t_terrain_transition>>& arg_0
@@ -795,7 +795,7 @@ t_full_terrain_type t_terrain_transition_traits::get_evaluation_type(int arg_0)
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:40232
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:40232
 VA_CHT_1(0x0082ccd0, 0xc1)
 void t_calculator_base<t_road_transition_traits>::add_transition(t_road_type arg_0, int arg_1)
 {
@@ -830,7 +830,7 @@ void t_calculator_base<t_road_transition_traits>::left_is_same()
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:40237
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:40237
 VA_CHT_1(0x0082d060, 0xf9)
 void t_calculator_base<t_road_transition_traits>::left_matches_right()
 {
@@ -844,7 +844,7 @@ void t_calculator_base<t_road_transition_traits>::right_is_same()
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:40239
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:40239
 VA_CHT_1(0x0082ca80, 0x245)
 void t_calculator_base<t_road_transition_traits>::write_transitions(
     std::vector<t_road_transition, std::allocator<t_road_transition>>& arg_0
@@ -867,7 +867,7 @@ t_road_type t_road_transition_traits::get_evaluation_type(int arg_0)
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:40242
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:40242
 VA_CHT_1(0x0082aaf0, 0xd7)
 void t_calculator_base<t_shroud_transition_traits>::add_transition(t_tile_visibility arg_0, int arg_1)
 {
@@ -902,7 +902,7 @@ void t_calculator_base<t_shroud_transition_traits>::left_is_same()
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:40247
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:40247
 VA_CHT_1(0x0082c5e0, 0x104)
 void t_calculator_base<t_shroud_transition_traits>::left_matches_right()
 {
@@ -916,7 +916,7 @@ void t_calculator_base<t_shroud_transition_traits>::right_is_same()
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:40249
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:40249
 VA_CHT_1(0x0082c6f0, 0x2a8)
 void t_calculator_base<t_shroud_transition_traits>::write_transitions(
     std::vector<t_shroud_transition, std::allocator<t_shroud_transition>>& arg_0

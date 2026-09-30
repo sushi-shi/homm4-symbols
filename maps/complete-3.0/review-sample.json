@@ -1,0 +1,15 @@
+{
+  "seed": 20260930,
+  "source": "cht-1.x",
+  "target": "complete-3.0",
+  "source_sha256": "e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f",
+  "target_sha256": "2eb82f32ab744ad7c272e32a950adcef3f20d8ab27572023f1084fd6519f61f2",
+  "source_names_sha256": "c4ba5016b2b3ca1a961ca0259c9a56059a8cf00a505fd9750137a4ea3115742d",
+  "target_names_sha256": "d05bfa391c78bff93ba9876a14bfa69aedf0b7e73a0bd30a2668d858cefc467e",
+  "sample_sha256": "e335c35d06b3b44c478330a43e29feb692e81d7171cf4c256b12fa720c78001d",
+  "counts": {
+    "random": 24,
+    "targeted": 8
+  },
+  "note": "Frozen before review; stratified random sample, not blinded; targeted conflicts excluded from sampling statistics."
+}

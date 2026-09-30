@@ -1,7 +1,7 @@
 // adv_magi_eye.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\adv_magi_eye.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 25/41 (A:19 B:3 C:3); unaccounted 16; skipped std 1.
+// Accounted 25/41 (A:12 B:3 C:0); unaccounted 16; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,31 +10,31 @@
 
 // === .text (20 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:71086; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:71086; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0043e910, 0x15, STATIC_INIT_DISPATCH, "adv_magi_eye#1")
 
 // name:C; dyninit; see ledger; map:71087
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "adv_magi_eye#1")
 
-// confidence:A; dyninit-init; owner-conf-B; map:71088; name:B (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:71088; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0043e930, 0x1c, STATIC_INIT_DISPATCH, g_adv_magi_eye_registration)
 
 // name:B; dyninit; see ledger; map:71089
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, g_adv_magi_eye_registration)
 
-// confidence:A; align-order; retn,stable,vslot; map:4747
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:4747
 VA_CHT_1(0x0043e950, 0x20)
 void t_adv_magi_eye::place(t_adventure_map& arg_0, t_adv_map_point const& arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:71090; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:71090; name:B (dyninit; see ledger)
 VA_CHT_1(0x0043eb40, 0x20)
 // adv_magi_eye$tinit1
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:71092; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:71092; name:B (dyninit; see ledger)
 VA_CHT_1(0x0043eb60, 0x5c)
 // adv_magi_eye$tinit2
 // Function body not reconstructed; signature retained as a comment.
@@ -68,7 +68,7 @@ t_object_factory<t_adv_magi_eye>::t_object_factory<t_adv_magi_eye>()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:4750
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:4750
 VA_CHT_1(0x0043e970, 0x136)
 t_stationary_adventure_object* t_object_factory<t_adv_magi_eye>::create(
     std::string const& arg_0,
@@ -85,13 +85,13 @@ t_adv_magi_eye::t_adv_magi_eye(std::string const& arg_0)
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:4752
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:4752
 VA_CHT_1_COMPGEN(0x0043eab0, 0x2d, VECTOR_DELETING_DTOR, t_adv_magi_eye)
 
 // name:A; map symbol; map:4753
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, t_adv_magi_eye)
 
-// confidence:C; align-band; retn,stable; map:4754
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:4754
 VA_CHT_1(0x0043eae0, 0x57)
 // public: void t_adv_magi_eye::`vbase dtor'(void)
 // Function body not reconstructed; signature retained as a comment.
@@ -103,10 +103,10 @@ t_adv_magi_eye::~t_adv_magi_eye()
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:4756
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:4756
 VA_CHT_1_COMPGEN(0x0043ebc0, 0x8, VECTOR_DELETING_DTOR, t_adv_magi_eye)
 
-// confidence:C; align-order; stable; map:4757
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:4757
 VA_CHT_1_COMPGEN(0x0043ebd0, 0xb, VECTOR_DELETING_DTOR, t_adv_magi_eye)
 
 // === .rdata (7 symbols) ===

@@ -1,7 +1,7 @@
 // dialog_choose_lord.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\dialog_choose_lord.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 59/88 (A:35 B:18 C:6); unaccounted 29; skipped std 28.
+// Accounted 59/88 (A:24 B:4 C:0); unaccounted 29; skipped std 28.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,67 +10,67 @@
 
 // === .text (57 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-B; map:66246; name:A (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:66246; name:A (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0065a1c0, 0x11, STATIC_INIT_DISPATCH, k_choose_lord_title)
 
-// confidence:B; dyninit-ctor; owner-conf-B; map:66247; name:A (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:66247; name:A (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0065a1e0, 0xd1, STATIC_CTOR, k_choose_lord_title)
 
 // name:A; dyninit; see ledger; map:66248
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, k_choose_lord_title)
 
-// confidence:B; dyninit-dtor; owner-conf-B; map:66249; name:A (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:66249; name:A (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0065a2c0, 0xa, STATIC_DTOR, k_choose_lord_title)
 
-// confidence:A; dyninit-init; owner-conf-C; map:66250; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:66250; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0065a2d0, 0x11, STATIC_INIT_DISPATCH, "dialog_choose_lord#2")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:66251; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:66251; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0065a2f0, 0xd1, STATIC_CTOR, "dialog_choose_lord#2")
 
 // name:C; dyninit; see ledger; map:66252
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "dialog_choose_lord#2")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:66253; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:66253; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0065a3d0, 0xa, STATIC_DTOR, "dialog_choose_lord#2")
 
-// confidence:A; dyninit-init; owner-conf-C; map:66254; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:66254; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0065a3e0, 0x11, STATIC_INIT_DISPATCH, "dialog_choose_lord#3")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:66255; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:66255; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0065a400, 0xd1, STATIC_CTOR, "dialog_choose_lord#3")
 
 // name:C; dyninit; see ledger; map:66256
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "dialog_choose_lord#3")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:66257; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:66257; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0065a4e0, 0xa, STATIC_DTOR, "dialog_choose_lord#3")
 
-// confidence:A; dyninit-init; owner-conf-C; map:66258; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:66258; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0065a4f0, 0x11, STATIC_INIT_DISPATCH, "dialog_choose_lord#4")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:66259; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:66259; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0065a510, 0xd1, STATIC_CTOR, "dialog_choose_lord#4")
 
 // name:C; dyninit; see ledger; map:66260
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "dialog_choose_lord#4")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:66261; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:66261; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0065a5f0, 0xa, STATIC_DTOR, "dialog_choose_lord#4")
 
-// confidence:A; dyninit-init; owner-conf-C; map:66262; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:66262; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0065a600, 0x11, STATIC_INIT_DISPATCH, "dialog_choose_lord#5")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:66263; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:66263; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0065a620, 0xd7, STATIC_CTOR, "dialog_choose_lord#5")
 
 // name:C; dyninit; see ledger; map:66264
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "dialog_choose_lord#5")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:66265; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:66265; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0065a700, 0xa, STATIC_DTOR, "dialog_choose_lord#5")
 
-// confidence:A; align-order; retn,stable,vptr; map:24593
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:24593
 VA_CHT_1(0x0065a710, 0x1d25)
 t_dialog_choose_lord::t_dialog_choose_lord(
     std::vector<t_hero*, std::allocator<t_hero*>> const& arg_0,
@@ -88,21 +88,21 @@ void t_dialog_choose_lord::cancel_clicked(t_button* arg_0)
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:24595
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:24595
 VA_CHT_1(0x0065c6b0, 0x44)
 void t_dialog_choose_lord::hero_clicked(t_button* arg_0, int arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:24596
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:24596
 VA_CHT_1(0x0065c700, 0x35c)
 void t_dialog_choose_lord::ok_clicked(t_button* arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:24597
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:24597
 VA_CHT_1(0x0065ca60, 0x2f)
 void t_dialog_choose_lord::scrollbar_change(t_scrollbar* arg_0, int arg_1)
 {
@@ -116,14 +116,14 @@ void t_dialog_choose_lord::update_all_displays()
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:24599
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:24599
 VA_CHT_1(0x0065ca90, 0x564)
 void t_dialog_choose_lord::update_display(int arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:66266; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:66266; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0065d570, 0x20, STATIC_INIT_DISPATCH, dialog_choose_lord)
 
 namespace {
@@ -137,20 +137,20 @@ t_nobility_sorting_predicate::t_nobility_sorting_predicate(t_abstract_town* arg_
 
 } // anonymous namespace
 
-// confidence:A; align-band; retn,stable,vslot; map:24601
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:24601
 VA_CHT_1_COMPGEN(0x0065c440, 0x1e, VECTOR_DELETING_DTOR, t_dialog_choose_lord)
 
 // name:A; map symbol; map:24602
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, t_dialog_choose_lord)
 
-// confidence:C; align-band; retn,stable; map:24603
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:24603
 VA_CHT_1(0x0065c4d0, 0xe4)
 t_dialog_choose_lord::t_hero_display::t_hero_display()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:24604
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:24604
 VA_CHT_1(0x0065c460, 0x61)
 t_dialog_choose_lord::t_hero_display::~t_hero_display()
 {
@@ -194,7 +194,7 @@ t_handler_2<t_button*, int> bound_handler(
 // name:A; map symbol; map:24626
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, "t_counted_ptr<t_bitmap_layer_cache_window>")
 
-// confidence:A; align-band; retn,stable,vptr; map:24627
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:24627
 VA_CHT_1(0x0065d000, 0x5e)
 t_bound_handler_1<t_dialog_choose_lord, t_button*>::t_bound_handler_1<t_dialog_choose_lord, t_button*>(
     t_dialog_choose_lord& arg_0,
@@ -211,7 +211,7 @@ void t_bound_handler_1<t_dialog_choose_lord, t_button*>::operator()(t_button* ar
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:24629
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:24629
 VA_CHT_1(0x0065d060, 0x5e)
 t_bound_handler_2<t_dialog_choose_lord, t_scrollbar*, int>::t_bound_handler_2<t_dialog_choose_lord, t_scrollbar*, int>(
     t_dialog_choose_lord& arg_0,
@@ -228,7 +228,7 @@ void t_bound_handler_2<t_dialog_choose_lord, t_scrollbar*, int>::operator()(t_sc
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:24631
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:24631
 VA_CHT_1(0x0065d0c0, 0x5e)
 t_bound_handler_2<t_dialog_choose_lord, t_button*, int>::t_bound_handler_2<t_dialog_choose_lord, t_button*, int>(
     t_dialog_choose_lord& arg_0,
@@ -290,7 +290,7 @@ t_bound_handler_2<t_dialog_choose_lord, t_button*, int>::~t_bound_handler_2<t_di
 
 namespace {
 
-// confidence:C; align-band; retn,stable; map:24647
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:24647
 VA_CHT_1(0x0065d470, 0xfe)
 bool t_nobility_sorting_predicate::operator()(t_hero* arg_0, t_hero* arg_1)
 {
@@ -299,13 +299,13 @@ bool t_nobility_sorting_predicate::operator()(t_hero* arg_0, t_hero* arg_1)
 
 } // anonymous namespace
 
-// confidence:C; align-order; stable; map:24653
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:24653
 VA_CHT_1_COMPGEN(0x0065d6f0, 0x8, VECTOR_DELETING_DTOR, "t_bound_handler_2<t_dialog_choose_lord, t_scrollbar*, int>")
 
-// confidence:C; align-order; stable; map:24654
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:24654
 VA_CHT_1_COMPGEN(0x0065d700, 0x8, VECTOR_DELETING_DTOR, "t_bound_handler_2<t_dialog_choose_lord, t_button*, int>")
 
-// confidence:C; align-order; stable; map:24655
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:24655
 VA_CHT_1_COMPGEN(0x0065d710, 0x8, VECTOR_DELETING_DTOR, "t_bound_handler_1<t_dialog_choose_lord, t_button*>")
 
 // === .rdata (7 symbols) ===

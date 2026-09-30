@@ -1,7 +1,7 @@
 // beastmaster_hut.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\beastmaster_hut.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 54/92 (A:42 B:6 C:6); unaccounted 38; skipped std 7.
+// Accounted 54/92 (A:25 B:6 C:0); unaccounted 38; skipped std 7.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,39 +10,39 @@
 
 // === .text (50 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:68980; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:68980; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0056d2f0, 0x15, STATIC_INIT_DISPATCH, "beastmaster_hut#1")
 
 // name:C; dyninit; see ledger; map:68981
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "beastmaster_hut#1")
 
-// confidence:A; dyninit-init; owner-conf-B; map:68982; name:B (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:68982; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0056d310, 0x1e, STATIC_INIT_DISPATCH, k_registration)
 
 // name:B; dyninit; see ledger; map:68983
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, k_registration)
 
-// confidence:A; dyninit-init; owner-conf-B; map:68984; name:B (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:68984; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0056d330, 0x1e, STATIC_INIT_DISPATCH, k_witch_registration)
 
 // name:B; dyninit; see ledger; map:68985
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, k_witch_registration)
 
-// confidence:A; align-order; retn,stable,vptr; map:17908
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:17908
 VA_CHT_1(0x0056d350, 0x179)
 t_beastmaster_hut::t_beastmaster_hut(t_stationary_adventure_object const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:17909
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:17909
 VA_CHT_1(0x0056d570, 0x143)
 void t_beastmaster_hut::show_dialog(std::string const& arg_0, t_level_map_point_2d arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:17910
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:17910
 VA_CHT_1(0x0056d6c0, 0xb50)
 void t_beastmaster_hut::activate_trigger(
     t_army* arg_0,
@@ -54,14 +54,14 @@ void t_beastmaster_hut::activate_trigger(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:17911
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:17911
 VA_CHT_1(0x0056e290, 0x166)
 std::string t_beastmaster_hut::get_balloon_help() const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:17912
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:17912
 VA_CHT_1(0x0056e400, 0x3af)
 void t_beastmaster_hut::right_click(t_mouse_event const& arg_0, t_adventure_frame* arg_1)
 {
@@ -82,7 +82,7 @@ int t_beastmaster_hut::get_version() const
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:17915
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:17915
 VA_CHT_1(0x0056e7b0, 0x8e)
 bool t_beastmaster_hut::read(
     std::basic_streambuf<char, std::char_traits<char>>& arg_0,
@@ -93,7 +93,7 @@ bool t_beastmaster_hut::read(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:17916
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:17916
 VA_CHT_1(0x0056e840, 0xa0)
 bool t_beastmaster_hut::read_from_map(
     std::basic_streambuf<char, std::char_traits<char>>& arg_0,
@@ -117,14 +117,14 @@ bool t_beastmaster_hut::write(std::basic_streambuf<char, std::char_traits<char>>
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:17919
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:17919
 VA_CHT_1(0x0056ea10, 0xe7)
 float t_beastmaster_hut::ai_value(t_adventure_ai const& arg_0, t_creature_array const& arg_1, int arg_2) const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vptr; map:17920
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:17920
 VA_CHT_1(0x0056eb00, 0xc0)
 t_witch_hut::t_witch_hut(t_stationary_adventure_object const& arg_0)
 {
@@ -138,12 +138,12 @@ t_skill_set const& t_witch_hut::get_default_available_skill_set()
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:68986; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:68986; name:B (dyninit; see ledger)
 VA_CHT_1(0x0056ef20, 0x20)
 // beastmaster_hut$tinit1
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:68988; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:68988; name:B (dyninit; see ledger)
 VA_CHT_1(0x0056ef40, 0x5c)
 // beastmaster_hut$tinit2
 // Function body not reconstructed; signature retained as a comment.
@@ -163,13 +163,13 @@ VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 // beastmaster_hut$tatexit4
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; align-band; retn,stable,vslot; map:17922
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:17922
 VA_CHT_1_COMPGEN(0x0056d4d0, 0x2d, VECTOR_DELETING_DTOR, t_beastmaster_hut)
 
 // name:A; map symbol; map:17923
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, t_beastmaster_hut)
 
-// confidence:C; align-band; retn; map:17924
+// confidence:D; align-band; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:17924
 VA_CHT_1(0x0056ebf0, 0x6a)
 // public: void t_beastmaster_hut::`vbase dtor'(void)
 // Function body not reconstructed; signature retained as a comment.
@@ -202,7 +202,7 @@ t_skill_set const& t_adventure_map::get_allowed_skills() const
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:17929
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:17929
 VA_CHT_1_COMPGEN(0x0056ebc0, 0x2d, SCALAR_DELETING_DTOR, t_witch_hut)
 
 // name:A; map symbol; map:17930
@@ -274,7 +274,7 @@ t_object_factory<t_beastmaster_hut>::t_object_factory<t_beastmaster_hut>()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:17946
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:17946
 VA_CHT_1(0x0056ec60, 0x14a)
 t_stationary_adventure_object* t_object_factory<t_beastmaster_hut>::create(
     std::string const& arg_0,
@@ -291,7 +291,7 @@ t_object_factory<t_witch_hut>::t_object_factory<t_witch_hut>()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:17948
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:17948
 VA_CHT_1(0x0056edd0, 0x14a)
 t_stationary_adventure_object* t_object_factory<t_witch_hut>::create(
     std::string const& arg_0,
@@ -301,16 +301,16 @@ t_stationary_adventure_object* t_object_factory<t_witch_hut>::create(
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:17949
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:17949
 VA_CHT_1_COMPGEN(0x0056efa0, 0x8, VECTOR_DELETING_DTOR, t_witch_hut)
 
-// confidence:C; align-order; stable; map:17950
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:17950
 VA_CHT_1_COMPGEN(0x0056efb0, 0xb, VECTOR_DELETING_DTOR, t_witch_hut)
 
-// confidence:C; align-order; stable; map:17951
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:17951
 VA_CHT_1_COMPGEN(0x0056efc0, 0x8, VECTOR_DELETING_DTOR, t_beastmaster_hut)
 
-// confidence:C; align-order; stable; map:17952
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:17952
 VA_CHT_1_COMPGEN(0x0056efd0, 0xb, VECTOR_DELETING_DTOR, t_beastmaster_hut)
 
 // === .rdata (14 symbols) ===

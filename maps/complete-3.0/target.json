@@ -1,0 +1,22 @@
+{
+  "id": "complete-3.0",
+  "exe": "binaries/complete-3.0/heroes4.exe",
+  "sha256": "2eb82f32ab744ad7c272e32a950adcef3f20d8ab27572023f1084fd6519f61f2",
+  "version": "Complete DVD (Scandinavia), English UK/H4WW/_setup/heroes4.exe; PE resource version 3.0WoW",
+  "image_base": "0x400000",
+  "address_tag": "COMPLETE_3",
+  "source": "cht-1.x",
+  "mapping_scope": "checked map RTTI/vftables (A), reviewed CHT retail function transfers (B/C), unreviewed function proposals (D; not a best guess)",
+  "padded_scan_end_rva": "4fa51b",
+  "provenance": {
+    "url": "https://archive.org/details/heroes-of-might-and-magic-iv-complete_202601",
+    "image": "H4Complete.iso",
+    "member": "UK/H4WW/_setup/heroes4.exe",
+    "iso_byte_offset": 5419814912,
+    "size": 7877205,
+    "retrieved": "2026-09-30",
+    "pe_timestamp_raw": "0x73655965",
+    "notes": "Extracted unchanged via HTTP byte ranges. PE timestamp is not treated as a build date. GOG equivalence and installer use of this standalone file have not been established."
+  },
+  "unreviewed_function_tier": "D"
+}

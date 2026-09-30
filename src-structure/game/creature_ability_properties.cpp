@@ -1,7 +1,7 @@
 // creature_ability_properties.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\creature_ability_properties.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 12/25 (A:3 B:3 C:6); unaccounted 13; skipped std 1.
+// Accounted 12/25 (A:0 B:0 C:0); unaccounted 13; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,7 +10,7 @@
 
 // === .text (25 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:67031; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:67031; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00607060, 0x24, STATIC_INIT_DISPATCH, "creature_ability_properties#1")
 
 // name:C; dyninit; see ledger; map:67032
@@ -19,24 +19,24 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "creature_ability_prope
 // name:C; dyninit; see ledger; map:67033
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "creature_ability_properties#1")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:67034; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:67034; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00607090, 0xa, STATIC_DTOR, "creature_ability_properties#1")
 
-// confidence:A; dyninit-init; owner-conf-C; map:67035; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:67035; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x006070a0, 0x11, STATIC_INIT_DISPATCH, "creature_ability_properties#2")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:67036; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:67036; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x006070c0, 0xd7, STATIC_CTOR, "creature_ability_properties#2")
 
 // name:C; dyninit; see ledger; map:67037
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "creature_ability_properties#2")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:67038; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:67038; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x006071a0, 0xa, STATIC_DTOR, "creature_ability_properties#2")
 
 namespace {
 
-// confidence:C; align-order; retn,stable; map:22952
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:22952
 VA_CHT_1(0x006071b0, 0x259)
 t_property_table::t_property_table()
 {
@@ -45,21 +45,21 @@ t_property_table::t_property_table()
 
 } // anonymous namespace
 
-// confidence:C; align-order; retn,stable; map:22953
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:22953
 VA_CHT_1(0x00607410, 0x1d)
 std::string get_ability_keyword(t_creature_ability arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:22954
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:22954
 VA_CHT_1(0x00607430, 0x151)
 std::string get_ability_name(t_creature_ability arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:67039
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:67039
 VA_CHT_1(0x006075a0, 0x10)
 static t_ability_property const& get_properties(t_creature_ability arg_0)
 {
@@ -71,21 +71,21 @@ VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 // get_properties$sdtor
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; retn,stable; map:22955
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:22955
 VA_CHT_1(0x006075b0, 0x151)
 std::string get_ability_help(t_creature_ability arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:22956
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:22956
 VA_CHT_1(0x00607710, 0x1e)
 t_cached_ptr<t_bitmap_group> get_ability_icons(int arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:67041; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:67041; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00607830, 0x20, STATIC_INIT_DISPATCH, creature_ability_properties)
 
 // name:A; map symbol; map:22957

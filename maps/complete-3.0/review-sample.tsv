@@ -1,0 +1,33 @@
+case_id	selection	stratum	population	source_rva	rva	name	source_tier	emitted_tier	method	map_id
+R01	random	A/release-asm-ordered	468	225300	25f200	??1t_artifact_definition@?%C:\work\game\default_artifacts.cpp1478415038@@UAE@XZ	A	B	release-asm-ordered	23681
+R02	random	A/release-asm-ordered	468	1b1f30	1deca0	??0?$t_abstract_resource_cache_data@Vt_combat_actor_model_definition@@@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z	A	B	release-asm-ordered	19980
+R03	random	A/release-asm-ordered	468	356bb0	3d6c70	?read@t_owned_adv_object@@UAE_NAAV?$basic_streambuf@DU?$char_traits@D@std@@@std@@ABVt_qualified_adv_object_type@@H@Z	A	B	release-asm-ordered	31606
+R04	random	A/release-asm-ordered	468	396bd0	4241c0	?write@t_script_combat@@UBE_NAAV?$basic_streambuf@DU?$char_traits@D@std@@@std@@@Z	A	B	release-asm-ordered	34647
+R05	random	A/release-asm-unique	563	16e9c0	18c220	?write@t_beastmaster_hut@@UBE_NAAV?$basic_streambuf@DU?$char_traits@D@std@@@std@@@Z	A	B	release-asm-unique	17918
+R06	random	A/release-asm-unique	563	224c60	25eb80	??0t_artifact_definition@?%C:\work\game\default_artifacts.cpp1478415038@@QAE@PAVt_artifact_effect@@@Z	A	B	release-asm-unique	23698
+R07	random	A/release-asm-unique	563	3e07e0	474290	??0t_standard_c_file@@QAE@XZ	A	B	release-asm-unique	38318
+R08	random	A/release-asm-unique	563	351ad0	3d1980	??0?$t_simple_adv_object_image_base@Vt_adv_object_image@@Vt_simple_adv_object_image@@Vt_image_sequence@@@@QAE@ABV0@@Z	A	B	release-asm-unique	31416
+R09	random	B/release-asm-ordered	121	397790	424cf0	?do_action@t_script_give_creatures@@UBEXPAVt_creature_array@@@Z	B	B	release-asm-ordered	34740
+R10	random	B/release-asm-ordered	121	59c0	5bb0	?apply_height_map@t_abstract_adventure_map@@QAEXABV?$t_isometric_vertex_map@H@@@Z	B	B	release-asm-ordered	372
+R11	random	B/release-asm-ordered	121	8f570	97550	?get_sector@t_adv_path_map@@IBEPAVt_adv_path_sector@@ABUt_adv_map_point@@_N@Z	B	B	release-asm-ordered	8173
+R12	random	B/release-asm-ordered	121	2b9440	326af0	?write@t_global_player_filtered_event@@IBE_NAAV?$basic_streambuf@DU?$char_traits@D@std@@@std@@@Z	B	B	release-asm-ordered	26840
+R13	random	B/release-asm-unique	256	2d2b60	343050	?set_player_name@t_high_score_entry@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z	B	B	release-asm-unique	27458
+R14	random	B/release-asm-unique	256	3ff850	494420	?adjust_population@t_town@@QAE_NHH@Z	B	B	release-asm-unique	38973
+R15	random	B/release-asm-unique	256	3aa320	43b540	?click_down@t_scrollbar@@IAEXPAVt_button@@@Z	B	B	release-asm-unique	36905
+R16	random	B/release-asm-unique	256	11f70	12ef0	??4t_abstract_stationary_adv_object@@QAEAAV0@ABV0@@Z	B	B	release-asm-unique	1641
+R17	random	C-source-name	560	ef700	3b8b0	??1?$t_counted_ptr@Vt_managed_sound@@@@QAE@XZ	C	C	release-asm-unique	12256
+R18	random	C-source-name	560	446df0	4decf0	@inflateEnd@4	C	C	release-asm-unique	40748
+R19	random	C-source-name	560	83f60	8c3b0	?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV12@XZ	C	C	release-asm-unique	6682
+R20	random	C-source-name	560	121640	137630	??4?$t_handler_2@PAVt_scrollbar@@H@@QAEAAV0@ABV0@@Z	C	C	release-asm-unique	14276
+R21	random	C-correspondence	1754	347030	3c67e0	obelisk_data$tinit	A	C	release-asm-ordered	63953
+R22	random	C-correspondence	1754	2bd570	32b4c0	hero#4$dtor	B	C	release-asm-ordered	65272
+R23	random	C-correspondence	1754	1cbae0	1fc130	combat_creature_icon#5$init	A	C	release-asm-ordered	67831
+R24	random	C-correspondence	1754	463c0	4ccf0	?are_any_cells_impassable@t_adv_object_model_base_base@@UBE_NXZ	A	C	release-asm-ordered	5065
+R25	targeted	slot-conflict		194c80	3a57a0	??_Gt_caravan@@UAEPAXI@Z	A		asm-unique	18998
+R26	targeted	slot-conflict		433c40	4cb7d0	?read@t_war_institute@@UAE_NAAV?$basic_streambuf@DU?$char_traits@D@std@@@std@@ABVt_qualified_adv_object_type@@H@Z	A		asm-unique	40519
+R27	targeted	slot-conflict		45cd72	4f3c40				asm-ordered	
+R28	targeted	call-conflict		362d0	3c1f0	??0t_adv_dwelling@@QAE@W4t_creature_type@@W4t_player_color@@@Z	A	C	asm-ordered	4244
+R29	targeted	call-conflict		7d5a0	857f0	?find_best_swap@t_ai_army_builder@@IAE_NAAH0@Z	C	C	asm-ordered	6450
+R30	targeted	call-conflict		1eadc0	21de70	?cast_on@t_magic_leech@?%C:\work\game\combat_spell_single_target.cpp3120931090@@UAE_NV?$t_counted_ptr@Vt_combat_creature@@@@0H_N@Z	A	C	asm-ordered	21817
+R31	targeted	call-conflict		353850	3d36a0	?read@t_ownable_continuous_event@@QAE_NAAV?$basic_streambuf@DU?$char_traits@D@std@@@std@@H@Z	B	C	asm-ordered	31543
+R32	targeted	call-conflict		384a50	40d470	??_Et_combat_context@@UAEPAXI@Z	A	C	asm-ordered	33492

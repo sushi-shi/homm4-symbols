@@ -1,7 +1,7 @@
 // battlefield_passablity_map.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\battlefield_passablity_map.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 20/30 (A:17 B:2 C:1); unaccounted 10; skipped std 21.
+// Accounted 20/30 (A:14 B:0 C:0); unaccounted 10; skipped std 21.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,7 +10,7 @@
 
 // === .text (15 symbols) ===
 
-// confidence:A; align-order; retn,stable,vptr; map:17484
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:17484
 VA_CHT_1(0x00567230, 0x33)
 t_battlefield_passablity_map::t_battlefield_passablity_map()
 {
@@ -29,21 +29,21 @@ t_battlefield_passablity_map::t_battlefield_passablity_map(
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:17486
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:17486
 VA_CHT_1(0x00567290, 0x80)
 t_battlefield_passablity_map::~t_battlefield_passablity_map()
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:17487
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:17487
 VA_CHT_1(0x00567310, 0x162)
 void t_battlefield_passablity_map::read(std::basic_streambuf<char, std::char_traits<char>>& arg_0, int arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:17488
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:17488
 VA_CHT_1(0x00567480, 0x1df)
 void t_battlefield_passablity_map::write(
     std::basic_streambuf<char, std::char_traits<char>>& arg_0,
@@ -53,10 +53,10 @@ void t_battlefield_passablity_map::write(
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:69037; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:69037; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00567660, 0x20, STATIC_INIT_DISPATCH, battlefield_passablity_map)
 
-// confidence:A; align-band; retn,stable,vslot; map:17489
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:17489
 VA_CHT_1_COMPGEN(0x00567270, 0x1e, VECTOR_DELETING_DTOR, t_battlefield_passablity_map)
 
 // name:A; map symbol; map:17490

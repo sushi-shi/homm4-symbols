@@ -1,7 +1,7 @@
 // chain_lightning.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\chain_lightning.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 80/145 (A:68 B:3 C:9); unaccounted 65; skipped std 2.
+// Accounted 80/145 (A:45 B:2 C:0); unaccounted 65; skipped std 2.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,43 +10,43 @@
 
 // === .text (80 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:68399; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:68399; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x005a1550, 0x15, STATIC_INIT_DISPATCH, "chain_lightning#1")
 
 // name:C; dyninit; see ledger; map:68400
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "chain_lightning#1")
 
-// confidence:A; dyninit-init; owner-conf-C; map:68401; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:68401; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x005a1570, 0x15, STATIC_INIT_DISPATCH, "chain_lightning#2")
 
 // name:C; dyninit; see ledger; map:68402
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "chain_lightning#2")
 
-// confidence:A; dyninit-init; owner-conf-C; map:68403; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:68403; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x005a1590, 0x15, STATIC_INIT_DISPATCH, "chain_lightning#3")
 
 // name:C; dyninit; see ledger; map:68404
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "chain_lightning#3")
 
-// confidence:A; dyninit-init; owner-conf-C; map:68405; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:68405; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x005a15b0, 0x15, STATIC_INIT_DISPATCH, "chain_lightning#4")
 
 // name:C; dyninit; see ledger; map:68406
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "chain_lightning#4")
 
-// confidence:A; dyninit-init; owner-conf-C; map:68407; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:68407; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x005a15d0, 0x10, STATIC_INIT_DISPATCH, "chain_lightning#5")
 
 // name:C; dyninit; see ledger; map:68408
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "chain_lightning#5")
 
-// confidence:A; dyninit-init; owner-conf-C; map:68409; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:68409; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x005a15e0, 0x15, STATIC_INIT_DISPATCH, "chain_lightning#6")
 
 // name:C; dyninit; see ledger; map:68410
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "chain_lightning#6")
 
-// confidence:A; dyninit-init; owner-conf-C; map:68411; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:68411; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x005a1600, 0x1c, STATIC_INIT_DISPATCH, "chain_lightning#7")
 
 // name:C; dyninit; see ledger; map:68412
@@ -54,7 +54,7 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "chain_lightning#7")
 
 namespace {
 
-// confidence:A; align-order; vptr; map:19251
+// confidence:D; align-order; vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:19251
 VA_CHT_1(0x005a1620, 0x154)
 t_chain_bolt::t_chain_bolt(
     t_battlefield& arg_0,
@@ -67,14 +67,14 @@ t_chain_bolt::t_chain_bolt(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:19252
+// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:19252
 VA_CHT_1(0x005a1780, 0x1e)
 void t_chain_bolt::operator()(t_window* arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:19253
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:19253
 VA_CHT_1(0x005a18a0, 0x2bf)
 void t_chain_bolt::get_next_target()
 {
@@ -83,7 +83,7 @@ void t_chain_bolt::get_next_target()
 
 } // anonymous namespace
 
-// confidence:B; align-order; retn,stable; map:68413
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:68413
 VA_CHT_1(0x005a1b60, 0x198)
 static void get_next_target_list(
     t_battlefield& arg_0,
@@ -96,7 +96,7 @@ static void get_next_target_list(
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:68414
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:68414
 VA_CHT_1(0x005a1e20, 0x9b)
 static void bolt_impact(
     t_counted_ptr<t_combat_creature> arg_0,
@@ -109,7 +109,7 @@ static void bolt_impact(
 
 namespace {
 
-// confidence:C; align-order; retn,stable; map:19254
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:19254
 VA_CHT_1(0x005a1ec0, 0x89)
 void t_chain_bolt::impact()
 {
@@ -125,14 +125,14 @@ t_chain_lightning::t_chain_lightning(t_battlefield& arg_0, t_spell arg_1)
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:19256
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:19256
 VA_CHT_1(0x005a1f50, 0x91)
 double t_chain_lightning::ai_weight(t_combat_creature const& arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; map:68415
+// confidence:D; align-order; review-status=unreviewed;classification=D:not-a-best-guess; map:68415
 VA_CHT_1(0x005a1ff0, 0x2c6)
 static double ai_weight_recurse(
     t_battlefield& arg_0,
@@ -152,7 +152,7 @@ double t_chain_lightning::get_cancel_weight(t_combat_creature const& arg_0) cons
     // Body unavailable.
 }
 
-// confidence:A; align-order; vslot; map:19258
+// confidence:D; align-order; vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:19258
 VA_CHT_1(0x005a22c0, 0x25d)
 bool t_chain_lightning::cast_on(
     t_counted_ptr<t_combat_creature> arg_0,
@@ -164,7 +164,7 @@ bool t_chain_lightning::cast_on(
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:68416; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:68416; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x005a29d0, 0x20, STATIC_INIT_DISPATCH, chain_lightning)
 
 // name:A; map symbol; map:19259
@@ -205,14 +205,14 @@ t_counted_ptr<t_chain_bolt>::~t_counted_ptr<t_chain_bolt>()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,vptr; map:19265
+// confidence:D; align-band; retn,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:19265
 VA_CHT_1(0x007e5310, 0x27)
 t_combat_spell_single_target::t_combat_spell_single_target(t_battlefield& arg_0, t_spell arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:19266
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:19266
 VA_CHT_1_COMPGEN(0x0077f7c0, 0x1e, SCALAR_DELETING_DTOR, t_combat_spell_single_target)
 
 // name:A; map symbol; map:19267
@@ -232,7 +232,7 @@ t_combat_spell_single_target::~t_combat_spell_single_target()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:19270
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:19270
 VA_CHT_1_COMPGEN(0x005a1e00, 0x1e, SCALAR_DELETING_DTOR, t_chain_lightning)
 
 // name:A; map symbol; map:19271
@@ -273,7 +273,7 @@ t_chain_bolt* t_counted_ptr<t_chain_bolt>::operator->() const
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:19278
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:19278
 VA_CHT_1(0x005a2950, 0x73)
 t_handler_3<t_counted_ptr<t_combat_creature>, t_map_point_2d, t_counted_ptr<t_chain_bolt>> function_3_handler(
     void (* arg_0)(t_counted_ptr<t_combat_creature>, t_map_point_2d, t_counted_ptr<t_chain_bolt>)
@@ -317,14 +317,14 @@ t_spell_factory<t_chain_lightning>::t_spell_factory<t_chain_lightning>()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:19283
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:19283
 VA_CHT_1(0x005a2520, 0x79)
 t_combat_spell* t_spell_factory<t_chain_lightning>::create(t_battlefield& arg_0, t_spell arg_1) const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:19284
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:19284
 VA_CHT_1(0x00717460, 0x17)
 t_spell_factory_base::t_spell_factory_base()
 {
@@ -369,7 +369,7 @@ void t_function_handler_3<void (*)(t_counted_ptr<t_combat_creature>, t_map_point
     // Body unavailable.
 }
 
-// confidence:A; align-band; vptr; map:19289
+// confidence:D; align-band; vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:19289
 VA_CHT_1(0x005a25f0, 0x121)
 t_add_3rd_handler_2<t_counted_ptr<t_combat_creature>, t_map_point_2d, t_counted_ptr<t_chain_bolt>>::t_add_3rd_handler_2<t_counted_ptr<t_combat_creature>, t_map_point_2d, t_counted_ptr<t_chain_bolt>>(
     t_handler_base_3<t_counted_ptr<t_combat_creature>, t_map_point_2d, t_counted_ptr<t_chain_bolt>>* arg_0,
@@ -379,7 +379,7 @@ t_add_3rd_handler_2<t_counted_ptr<t_combat_creature>, t_map_point_2d, t_counted_
     // Body unavailable.
 }
 
-// confidence:A; align-band; stable,vslot; map:19290
+// confidence:D; align-band; stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:19290
 VA_CHT_1(0x005a27c0, 0xfd)
 void t_add_3rd_handler_2<t_counted_ptr<t_combat_creature>, t_map_point_2d, t_counted_ptr<t_chain_bolt>>::operator()(
     t_counted_ptr<t_combat_creature> arg_0,
@@ -389,13 +389,13 @@ void t_add_3rd_handler_2<t_counted_ptr<t_combat_creature>, t_map_point_2d, t_cou
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:19291
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:19291
 VA_CHT_1_COMPGEN(0x005a28c0, 0x1e, SCALAR_DELETING_DTOR, "t_function_handler_3<void (*)(t_counted_ptr<t_combat_creature>, t_map_point_2d, t_counted_ptr<t_chain_bolt>), t_counted_ptr<t_combat_creature>, t_map_point_2d, t_counted_ptr<t_chain_bolt>>")
 
 // name:A; map symbol; map:19292
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, "t_function_handler_3<void (*)(t_counted_ptr<t_combat_creature>, t_map_point_2d, t_counted_ptr<t_chain_bolt>), t_counted_ptr<t_combat_creature>, t_map_point_2d, t_counted_ptr<t_chain_bolt>>")
 
-// confidence:C; align-band; retn; map:19293
+// confidence:D; align-band; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:19293
 VA_CHT_1(0x005a17a0, 0xf0)
 t_handler_base_3<t_counted_ptr<t_combat_creature>, t_map_point_2d, t_counted_ptr<t_chain_bolt>>::t_handler_base_3<t_counted_ptr<t_combat_creature>, t_map_point_2d, t_counted_ptr<t_chain_bolt>>(
 
@@ -404,7 +404,7 @@ t_handler_base_3<t_counted_ptr<t_combat_creature>, t_map_point_2d, t_counted_ptr
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:19294
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:19294
 VA_CHT_1_COMPGEN(0x005a2900, 0x1e, VECTOR_DELETING_DTOR, "t_add_3rd_handler_2<t_counted_ptr<t_combat_creature>, t_map_point_2d, t_counted_ptr<t_chain_bolt>>")
 
 // name:A; map symbol; map:19295
@@ -428,7 +428,7 @@ t_handler_base_3<t_counted_ptr<t_combat_creature>, t_map_point_2d, t_counted_ptr
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:19298
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:19298
 VA_CHT_1(0x005a2920, 0x21)
 t_abstract_function_3<void, t_counted_ptr<t_combat_creature>, t_map_point_2d, t_counted_ptr<t_chain_bolt>>::~t_abstract_function_3<void, t_counted_ptr<t_combat_creature>, t_map_point_2d, t_counted_ptr<t_chain_bolt>>(
 
@@ -437,7 +437,7 @@ t_abstract_function_3<void, t_counted_ptr<t_combat_creature>, t_map_point_2d, t_
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:19299
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:19299
 VA_CHT_1_COMPGEN(0x005a28e0, 0x20, VECTOR_DELETING_DTOR, "t_abstract_function_3<void, t_counted_ptr<t_combat_creature>, t_map_point_2d, t_counted_ptr<t_chain_bolt>>")
 
 // name:A; map symbol; map:19300
@@ -449,7 +449,7 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, "t_handler_bas
 // name:A; map symbol; map:19302
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, "t_handler_base_3<t_counted_ptr<t_combat_creature>, t_map_point_2d, t_counted_ptr<t_chain_bolt>>")
 
-// confidence:A; align-band; retn,stable,vptr; map:19303
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:19303
 VA_CHT_1(0x005a25a0, 0x4e)
 t_abstract_function_3<void, t_counted_ptr<t_combat_creature>, t_map_point_2d, t_counted_ptr<t_chain_bolt>>::t_abstract_function_3<void, t_counted_ptr<t_combat_creature>, t_map_point_2d, t_counted_ptr<t_chain_bolt>>(
 
@@ -518,10 +518,10 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, t_chain_bolt)
 // name:A; map symbol; map:19311
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, "t_function_handler_3<void (*)(t_counted_ptr<t_combat_creature>, t_map_point_2d, t_counted_ptr<t_chain_bolt>), t_counted_ptr<t_combat_creature>, t_map_point_2d, t_counted_ptr<t_chain_bolt>>")
 
-// confidence:C; align-order; stable; map:19312
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:19312
 VA_CHT_1_COMPGEN(0x005a2a00, 0x8, VECTOR_DELETING_DTOR, "t_add_3rd_handler_2<t_counted_ptr<t_combat_creature>, t_map_point_2d, t_counted_ptr<t_chain_bolt>>")
 
-// confidence:C; align-order; stable; map:19313
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:19313
 VA_CHT_1_COMPGEN(0x005a2a10, 0x8, VECTOR_DELETING_DTOR, "t_handler_base_3<t_counted_ptr<t_combat_creature>, t_map_point_2d, t_counted_ptr<t_chain_bolt>>")
 
 // === .rdata (13 symbols) ===

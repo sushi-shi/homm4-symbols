@@ -1,7 +1,7 @@
 // war_institute.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\war_institute.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 36/60 (A:26 B:6 C:4); unaccounted 24; skipped std 4.
+// Accounted 36/60 (A:11 B:3 C:0); unaccounted 24; skipped std 4.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,45 +10,45 @@
 
 // === .text (41 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:61276; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:61276; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00831fe0, 0x15, STATIC_INIT_DISPATCH, "war_institute#1")
 
 // name:C; dyninit; see ledger; map:61277
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "war_institute#1")
 
-// confidence:A; dyninit-init; owner-conf-B; map:61278; name:B (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:61278; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00832000, 0x1e, STATIC_INIT_DISPATCH, k_registration)
 
 // name:B; dyninit; see ledger; map:61279
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, k_registration)
 
-// confidence:A; dyninit-init; owner-conf-C; map:61280; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:61280; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00832020, 0x11, STATIC_INIT_DISPATCH, "war_institute#3")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:61281; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:61281; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00832040, 0xd7, STATIC_CTOR, "war_institute#3")
 
 // name:C; dyninit; see ledger; map:61282
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "war_institute#3")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:61283; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:61283; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00832120, 0xa, STATIC_DTOR, "war_institute#3")
 
-// confidence:A; align-order; retn,stable,vptr; map:40510
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:40510
 VA_CHT_1(0x00832130, 0x187)
 t_war_institute::t_war_institute(std::string const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vptr; map:40511
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:40511
 VA_CHT_1(0x00832350, 0x176)
 t_war_institute::t_war_institute(t_skill_set const& arg_0, std::string const& arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:40512
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:40512
 VA_CHT_1(0x008324d0, 0xe35)
 void t_war_institute::activate_trigger(
     t_army* arg_0,
@@ -60,21 +60,21 @@ void t_war_institute::activate_trigger(
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:61284
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:61284
 VA_CHT_1(0x00833310, 0x421)
 static void show_upgraded_hero_skill(t_hero* arg_0, t_skill arg_1, t_basic_dialog* arg_2)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:40513
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:40513
 VA_CHT_1(0x00833740, 0x221)
 void t_war_institute::right_click(t_mouse_event const& arg_0, t_adventure_frame* arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:40514
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:40514
 VA_CHT_1(0x00833970, 0x1e6)
 std::vector<t_skill, std::allocator<t_skill>> t_war_institute::get_upgradable_skills(t_hero* arg_0) const
 {
@@ -125,7 +125,7 @@ bool t_war_institute::read(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:40520
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:40520
 VA_CHT_1(0x00833cd0, 0x76)
 bool t_war_institute::read_from_map(
     std::basic_streambuf<char, std::char_traits<char>>& arg_0,
@@ -135,33 +135,33 @@ bool t_war_institute::read_from_map(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:40521
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:40521
 VA_CHT_1(0x00833d50, 0x73)
 bool t_war_institute::write(std::basic_streambuf<char, std::char_traits<char>>& arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:40522
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:40522
 VA_CHT_1(0x00833dd0, 0x5f)
 float t_war_institute::ai_value(t_adventure_ai const& arg_0, t_creature_array const& arg_1, int arg_2) const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:40523
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:40523
 VA_CHT_1(0x00833e30, 0x48)
 float t_war_institute::ai_value_to_hero(t_hero const* arg_0, t_creature_array const* arg_1) const
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:61285; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:61285; name:B (dyninit; see ledger)
 VA_CHT_1(0x00833f50, 0x20)
 // war_institute$tinit1
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:61287; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:61287; name:B (dyninit; see ledger)
 VA_CHT_1(0x00833f70, 0x5c)
 // war_institute$tinit2
 // Function body not reconstructed; signature retained as a comment.
@@ -181,13 +181,13 @@ VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 // war_institute$tatexit4
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; align-band; retn,stable,vslot; map:40524
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:40524
 VA_CHT_1_COMPGEN(0x008322c0, 0x2d, SCALAR_DELETING_DTOR, t_war_institute)
 
 // name:A; map symbol; map:40525
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, t_war_institute)
 
-// confidence:C; align-band; retn,stable; map:40526
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:40526
 VA_CHT_1(0x008322f0, 0x57)
 // public: void t_war_institute::`vbase dtor'(void)
 // Function body not reconstructed; signature retained as a comment.
@@ -246,7 +246,7 @@ t_object_factory<t_war_institute>::t_object_factory<t_war_institute>()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:40537
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:40537
 VA_CHT_1(0x00833e80, 0x62)
 t_stationary_adventure_object* t_object_factory<t_war_institute>::create(
     std::string const& arg_0,
@@ -256,10 +256,10 @@ t_stationary_adventure_object* t_object_factory<t_war_institute>::create(
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:40538
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:40538
 VA_CHT_1_COMPGEN(0x00833fd0, 0x8, VECTOR_DELETING_DTOR, t_war_institute)
 
-// confidence:C; align-order; stable; map:40539
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:40539
 VA_CHT_1_COMPGEN(0x00833fe0, 0xb, VECTOR_DELETING_DTOR, t_war_institute)
 
 // === .rdata (7 symbols) ===

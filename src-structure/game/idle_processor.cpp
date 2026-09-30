@@ -1,7 +1,7 @@
 // idle_processor.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\idle_processor.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 29/47 (A:21 B:1 C:7); unaccounted 18; skipped std 36.
+// Accounted 29/47 (A:16 B:0 C:0); unaccounted 18; skipped std 36.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -12,7 +12,7 @@
 
 namespace {
 
-// confidence:C; align-order; retn,stable; map:27578
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:27578
 VA_CHT_1(0x006d7ff0, 0xba)
 t_counted_ptr<t_idle_list> get_active_idle_processor_ptrs()
 {
@@ -28,7 +28,7 @@ VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 
 namespace {
 
-// confidence:C; align-order; retn,stable; map:27579
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:27579
 VA_CHT_1(0x006d8140, 0xba)
 t_counted_ptr<t_idle_list> get_running_processors()
 {
@@ -42,14 +42,14 @@ VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 // get_running_processors$sdtor
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; retn,stable; map:27580
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:27580
 VA_CHT_1(0x006d8210, 0x188)
 unsigned long t_idle_processor::run()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vptr; map:27581
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:27581
 VA_CHT_1(0x006d83a0, 0x125)
 t_idle_processor::t_idle_processor(unsigned long arg_0, unsigned long arg_1)
 {
@@ -63,49 +63,49 @@ t_idle_processor::t_idle_processor(t_idle_processor const& arg_0)
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vptr; map:27583
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:27583
 VA_CHT_1(0x006d84f0, 0x115)
 t_idle_processor::~t_idle_processor()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:27584
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:27584
 VA_CHT_1(0x006d8610, 0x8c)
 void t_idle_processor::insert()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:27585
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:27585
 VA_CHT_1(0x006d86a0, 0x3a)
 void t_idle_processor::remove()
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:27586
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:27586
 VA_CHT_1(0x006d86e0, 0x4a)
 void t_idle_processor::set_next_time(unsigned long arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:27587
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:27587
 VA_CHT_1(0x006d8730, 0x23)
 void t_idle_processor::resume_idle_processing()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:27588
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:27588
 VA_CHT_1(0x006d8760, 0x47)
 void t_idle_processor::suspend_idle_processing()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vptr; map:27589
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:27589
 VA_CHT_1(0x006d87b0, 0x5f)
 t_idle_processor_no_delay::t_idle_processor_no_delay(unsigned long arg_0)
 {
@@ -133,7 +133,7 @@ t_counted_ptr<t_idle_list>::~t_counted_ptr<t_idle_list>()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:27593
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:27593
 VA_CHT_1_COMPGEN(0x006d80c0, 0x1e, SCALAR_DELETING_DTOR, t_idle_list)
 
 // name:A; map symbol; map:27594
@@ -153,7 +153,7 @@ void t_idle_processor::set_next_time()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:27597
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:27597
 VA_CHT_1_COMPGEN(0x006d84d0, 0x1e, VECTOR_DELETING_DTOR, t_idle_processor)
 
 // name:A; map symbol; map:27598

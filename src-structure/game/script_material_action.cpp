@@ -1,7 +1,7 @@
 // script_material_action.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 48/137 (A:47 B:1 C:0); unaccounted 89; skipped std 1.
+// Accounted 48/137 (A:40 B:0 C:0); unaccounted 89; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,7 +10,7 @@
 
 // === .text (77 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:63039; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:63039; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0079fe20, 0x15, STATIC_INIT_DISPATCH, "script_material_action#1")
 
 // name:C; dyninit; see ledger; map:63040
@@ -37,7 +37,7 @@ void t_script_material_action::add_icons(t_basic_dialog* arg_0) const
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:35637
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:35637
 VA_CHT_1(0x0079ff90, 0xc3)
 bool t_script_take_material::read_from_map(
     std::basic_streambuf<char, std::char_traits<char>>& arg_0,
@@ -92,7 +92,7 @@ void t_script_material_action::execute(t_script_context_global const& arg_0) con
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:63041; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:63041; name:B (dyninit; see ledger)
 VA_CHT_1(0x007a0290, 0x70)
 // script_material_action$tinit1
 // Function body not reconstructed; signature retained as a comment.
@@ -103,7 +103,7 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "t_script_action_base
 // name:C; dyninit; see ledger; map:63044
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "t_script_action_base<51,t_script_take_material>::k_factory")
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:63045; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:63045; name:B (dyninit; see ledger)
 VA_CHT_1(0x007a04e0, 0x5c)
 // script_material_action$tinit2
 // Function body not reconstructed; signature retained as a comment.
@@ -171,14 +171,14 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_DTOR, "t_script_action_base<5
 // name:A; dyninit; see ledger; map:35651
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_DTOR, "t_script_action_base<22,t_script_give_material>::k_factory")
 
-// confidence:A; align-band; retn,stable,vptr; map:35652
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:35652
 VA_CHT_1(0x007a0340, 0x14)
 t_script_action_factory<22>::~t_script_action_factory<22>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:35653
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:35653
 VA_CHT_1(0x007a0410, 0x14)
 t_script_action_factory<51>::~t_script_action_factory<51>()
 {
@@ -192,7 +192,7 @@ t_script_action_factory<22>::t_script_action_factory<22>()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:35655
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:35655
 VA_CHT_1(0x007a0360, 0x50)
 t_counted_ptr<t_abstract_script_action> t_script_action_factory<22>::create() const
 {
@@ -359,7 +359,7 @@ t_script_action_factory<51>::t_script_action_factory<51>()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:35684
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:35684
 VA_CHT_1(0x007a0430, 0x50)
 t_counted_ptr<t_abstract_script_action> t_script_action_factory<51>::create() const
 {

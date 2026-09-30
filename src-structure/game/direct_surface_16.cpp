@@ -1,7 +1,7 @@
 // direct_surface_16.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 18/24 (A:17 B:0 C:1); unaccounted 6; skipped std 0.
+// Accounted 18/24 (A:12 B:0 C:0); unaccounted 6; skipped std 0.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,7 +10,7 @@
 
 // === .text (12 symbols) ===
 
-// confidence:A; align-order; retn,stable,vptr; map:25767
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:25767
 VA_CHT_1(0x006994a0, 0xb1)
 t_direct_surface_16::t_direct_surface_16(
     int arg_0,
@@ -31,21 +31,21 @@ t_direct_surface_16::~t_direct_surface_16()
     // Body unavailable.
 }
 
-// confidence:A; align-order; stable,vptr; map:25769
+// confidence:D; align-order; stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:25769
 VA_CHT_1(0x00699590, 0xc6)
 t_surface_adaptor_16::t_surface_adaptor_16(IDirectDrawSurface7* arg_0, t_screen_point arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vptr; map:25770
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:25770
 VA_CHT_1(0x00699680, 0x56)
 t_surface_adaptor_16::~t_surface_adaptor_16()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:25771
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25771
 VA_CHT_1(0x006996f0, 0x37f)
 IDirectDraw7* get_direct_draw(IDirectDrawSurface7* arg_0)
 {
@@ -73,13 +73,13 @@ void clear(_DDSURFACEDESC2& arg_0)
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:25775
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:25775
 VA_CHT_1_COMPGEN(0x00699560, 0x2c, SCALAR_DELETING_DTOR, t_direct_surface_16)
 
 // name:A; map symbol; map:25776
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, t_direct_surface_16)
 
-// confidence:A; align-band; retn,stable,vslot; map:25777
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:25777
 VA_CHT_1_COMPGEN(0x00699660, 0x1e, SCALAR_DELETING_DTOR, t_surface_adaptor_16)
 
 // name:A; map symbol; map:25778

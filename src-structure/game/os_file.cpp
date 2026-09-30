@@ -1,7 +1,7 @@
 // os_file.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 24/28 (A:24 B:0 C:0); unaccounted 4; skipped std 1.
+// Accounted 24/28 (A:12 B:0 C:0); unaccounted 4; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,56 +10,56 @@
 
 // === .text (16 symbols) ===
 
-// confidence:A; align-order; retn,stable,vptr; map:31136
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:31136
 VA_CHT_1(0x0074c270, 0x2e)
 t_os_file::t_os_file()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vptr; map:31137
+// confidence:D; align-order; retn,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:31137
 VA_CHT_1(0x0074c2c0, 0x73)
 t_os_file::~t_os_file()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:31138
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:31138
 VA_CHT_1(0x0074c3b0, 0xb3)
 bool t_os_file::open(char const* arg_0, char const* arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:31139
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:31139
 VA_CHT_1(0x0074c470, 0x2e)
 bool t_os_file::close()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:31140
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:31140
 VA_CHT_1(0x0074c4a0, 0x14)
 long t_os_file::filesize()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:31141
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:31141
 VA_CHT_1(0x0074c4c0, 0x44)
 long t_os_file::seek(long arg_0, int arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:31142
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:31142
 VA_CHT_1(0x0074c510, 0x31)
 unsigned long t_os_file::read(void* arg_0, unsigned long arg_1, unsigned long arg_2)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:31143
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:31143
 VA_CHT_1(0x0074c550, 0x31)
 unsigned long t_os_file::write(void const* arg_0, unsigned long arg_1, unsigned long arg_2)
 {
@@ -73,7 +73,7 @@ char* t_os_file::get_file_handle()
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:63839; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:63839; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0074c5a0, 0x20, STATIC_INIT_DISPATCH, os_file)
 
 // name:A; map symbol; map:31145
@@ -83,20 +83,20 @@ t_abstract_file::t_abstract_file()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:31146
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:31146
 VA_CHT_1_COMPGEN(0x0074c340, 0x1e, VECTOR_DELETING_DTOR, t_abstract_file)
 
 // name:A; map symbol; map:31147
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, t_abstract_file)
 
-// confidence:A; align-band; retn,vptr; map:31148
+// confidence:D; align-band; retn,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:31148
 VA_CHT_1(0x0074c360, 0x49)
 t_abstract_file::~t_abstract_file()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:31149
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:31149
 VA_CHT_1_COMPGEN(0x0074c2a0, 0x1e, VECTOR_DELETING_DTOR, t_os_file)
 
 // name:A; map symbol; map:31150

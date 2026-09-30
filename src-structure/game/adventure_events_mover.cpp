@@ -1,7 +1,7 @@
 // adventure_events_mover.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 22/41 (A:18 B:1 C:3); unaccounted 19; skipped std 1.
+// Accounted 22/41 (A:6 B:1 C:0); unaccounted 19; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,20 +10,20 @@
 
 // === .text (33 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:70617; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:70617; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00491a00, 0x15, STATIC_INIT_DISPATCH, "adventure_events_mover#1")
 
 // name:C; dyninit; see ledger; map:70618
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "adventure_events_mover#1")
 
-// confidence:A; align-order; retn,stable,vptr; map:8293
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:8293
 VA_CHT_1(0x00491a20, 0x4b)
 t_adventure_event_mover::t_adventure_event_mover()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; stable,vptr; map:8294
+// confidence:D; align-order; stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:8294
 VA_CHT_1(0x00491b50, 0x258)
 t_adventure_event_mover::t_adventure_event_mover(
     t_army* arg_0,
@@ -35,21 +35,21 @@ t_adventure_event_mover::t_adventure_event_mover(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:8295
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:8295
 VA_CHT_1(0x00491dd0, 0x28)
 void t_adventure_event_mover::cancel_event()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:8296
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:8296
 VA_CHT_1(0x00491e00, 0xcd)
 void t_adventure_event_mover::execute_event(t_adventure_map* arg_0, t_saved_game_header const& arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:8297
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:8297
 VA_CHT_1(0x00491ed0, 0x3b)
 void t_adventure_event_mover::undo_event(t_adventure_map* arg_0, t_saved_game_header const& arg_1)
 {
@@ -70,33 +70,33 @@ void t_adventure_event_mover::mover_finish()
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:8300
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:8300
 VA_CHT_1(0x00491f10, 0x65)
 void t_adventure_event_mover::update()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:8301
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:8301
 VA_CHT_1(0x00491f80, 0x220)
 bool t_adventure_event_mover::read(std::basic_streambuf<char, std::char_traits<char>>& arg_0, int arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:8302
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:8302
 VA_CHT_1(0x004921a0, 0x1f9)
 bool t_adventure_event_mover::write(std::basic_streambuf<char, std::char_traits<char>>& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:70619; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:70619; name:B (dyninit; see ledger)
 VA_CHT_1(0x00492570, 0x20)
 // adventure_events_mover$tinit1
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:70621; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:70621; name:B (dyninit; see ledger)
 VA_CHT_1(0x00492590, 0x5c)
 // adventure_events_mover$tinit2
 // Function body not reconstructed; signature retained as a comment.
@@ -116,7 +116,7 @@ VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 // adventure_events_mover$tatexit4
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; align-band; retn,stable,vslot; map:8303
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:8303
 VA_CHT_1_COMPGEN(0x00491a70, 0x1e, VECTOR_DELETING_DTOR, t_adventure_event_mover)
 
 // name:A; map symbol; map:8304
@@ -129,7 +129,7 @@ t_adventure_event_mover::~t_adventure_event_mover()
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:8306
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:8306
 VA_CHT_1(0x00491db0, 0x1d)
 t_counted_ptr<t_replay_mover>::~t_counted_ptr<t_replay_mover>()
 {
@@ -194,7 +194,7 @@ std::basic_streambuf<char, std::char_traits<char>>& operator>>(
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:8314
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:8314
 VA_CHT_1(0x00491a90, 0xb7)
 std::basic_streambuf<char, std::char_traits<char>>& operator<<(
     std::basic_streambuf<char, std::char_traits<char>>& arg_0,
@@ -225,7 +225,7 @@ t_replay_mover* t_counted_ptr<t_replay_mover>::operator->() const
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:8318
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:8318
 VA_CHT_1_COMPGEN(0x004925f0, 0x8, VECTOR_DELETING_DTOR, t_adventure_event_mover)
 
 // === .rdata (2 symbols) ===

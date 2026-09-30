@@ -1,7 +1,7 @@
 // get_artifact_damage_modifier.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\get_artifact_damage_modifier.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 154/235 (A:118 B:9 C:27); unaccounted 81; skipped std 12.
+// Accounted 154/235 (A:96 B:0 C:0); unaccounted 81; skipped std 12.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -19,7 +19,7 @@ t_artifact_weapon_visitor::t_artifact_weapon_visitor(bool arg_0)
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:26704
+// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:26704
 VA_CHT_1(0x006b7920, 0x39)
 bool t_artifact_weapon_visitor::visit_combat(t_artifact_prop::t_combat& arg_0)
 {
@@ -28,7 +28,7 @@ bool t_artifact_weapon_visitor::visit_combat(t_artifact_prop::t_combat& arg_0)
 
 } // anonymous namespace
 
-// confidence:C; align-order; retn,stable; map:26705
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:26705
 VA_CHT_1(0x006b7960, 0x64)
 int get_artifact_damage_modifier(t_hero const& arg_0, bool arg_1)
 {
@@ -44,7 +44,7 @@ t_artifact_armor_visitor::t_artifact_armor_visitor(bool arg_0, t_artifact_target
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:26707
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:26707
 VA_CHT_1(0x006b79d0, 0x43)
 bool t_artifact_armor_visitor::visit_combat(t_artifact_prop::t_combat& arg_0)
 {
@@ -53,14 +53,14 @@ bool t_artifact_armor_visitor::visit_combat(t_artifact_prop::t_combat& arg_0)
 
 } // anonymous namespace
 
-// confidence:C; align-order; retn,stable; map:26708
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:26708
 VA_CHT_1(0x006b7a20, 0x68)
 int get_artifact_armor_value(t_hero const& arg_0, bool arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:26709
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:26709
 VA_CHT_1(0x006b7a90, 0x6c)
 int get_artifact_creature_defense_bonus(t_hero const& arg_0, bool arg_1)
 {
@@ -76,7 +76,7 @@ t_spell_cost_visitor::t_spell_cost_visitor(t_spell arg_0)
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:26711
+// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:26711
 VA_CHT_1(0x006b7b00, 0x8c)
 bool t_spell_cost_visitor::visit_spell_cost(t_artifact_prop::t_spell_cost_base& arg_0)
 {
@@ -85,7 +85,7 @@ bool t_spell_cost_visitor::visit_spell_cost(t_artifact_prop::t_spell_cost_base& 
 
 } // anonymous namespace
 
-// confidence:C; align-order; retn,stable; map:26712
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:26712
 VA_CHT_1(0x006b7b90, 0xa1)
 int get_artifact_spell_cost(t_hero const& arg_0, t_spell arg_1)
 {
@@ -101,7 +101,7 @@ t_spell_power_visitor::t_spell_power_visitor(t_spell arg_0)
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:26714
+// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:26714
 VA_CHT_1(0x006b7c40, 0x7a)
 bool t_spell_power_visitor::visit_spell_list(t_artifact_prop::t_spell_list_effect& arg_0)
 {
@@ -110,7 +110,7 @@ bool t_spell_power_visitor::visit_spell_list(t_artifact_prop::t_spell_list_effec
 
 } // anonymous namespace
 
-// confidence:C; align-order; retn,stable; map:26715
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:26715
 VA_CHT_1(0x006b7cc0, 0x64)
 int get_artifact_spell_power_modifier(t_hero const& arg_0, t_spell arg_1)
 {
@@ -126,7 +126,7 @@ t_skill_power_visitor::t_skill_power_visitor(t_skill_type arg_0)
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:26717
+// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:26717
 VA_CHT_1(0x006b7d30, 0x30)
 bool t_skill_power_visitor::visit_skill(t_artifact_prop::t_skill_effect& arg_0)
 {
@@ -135,7 +135,7 @@ bool t_skill_power_visitor::visit_skill(t_artifact_prop::t_skill_effect& arg_0)
 
 } // anonymous namespace
 
-// confidence:C; align-order; retn,stable; map:26718
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:26718
 VA_CHT_1(0x006b7d60, 0x64)
 int get_artifact_skill_modifier(t_hero const& arg_0, t_skill_type arg_1)
 {
@@ -144,7 +144,7 @@ int get_artifact_skill_modifier(t_hero const& arg_0, t_skill_type arg_1)
 
 namespace {
 
-// confidence:A; align-order; retn,stable,vslot; map:26719
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:26719
 VA_CHT_1(0x006b7dd0, 0x35)
 bool t_sum_visitor::visit(t_artifact_effect& arg_0)
 {
@@ -153,28 +153,28 @@ bool t_sum_visitor::visit(t_artifact_effect& arg_0)
 
 } // anonymous namespace
 
-// confidence:C; align-order; retn,stable; map:26720
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:26720
 VA_CHT_1(0x006b7e10, 0xc)
 int get_artifact_speed_modifier(t_hero const& arg_0, t_artifact_target arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:65337
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:65337
 VA_CHT_1(0x006b7e20, 0x6e)
 static int get_artifact_modifier(t_hero const& arg_0, t_artifact_effect_type arg_1, t_artifact_target arg_2)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:26721
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:26721
 VA_CHT_1(0x006b7e90, 0xd)
 int get_artifact_creature_attack_bonus(t_hero const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:26722
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:26722
 VA_CHT_1(0x006b7ea0, 0xd)
 int get_artifact_scouting_bonus(t_hero const& arg_0)
 {
@@ -183,7 +183,7 @@ int get_artifact_scouting_bonus(t_hero const& arg_0)
 
 namespace {
 
-// confidence:A; align-order; retn,stable,vslot; map:26723
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:26723
 VA_CHT_1(0x006b7eb0, 0x29)
 bool t_income_visitor::visit_income(t_artifact_prop::t_income& arg_0)
 {
@@ -192,7 +192,7 @@ bool t_income_visitor::visit_income(t_artifact_prop::t_income& arg_0)
 
 } // anonymous namespace
 
-// confidence:C; align-order; retn,stable; map:26724
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:26724
 VA_CHT_1(0x006b7ee0, 0x69)
 void get_artifact_income(t_hero const& arg_0, t_material_array& arg_1)
 {
@@ -215,7 +215,7 @@ int t_magic_weapon_visitor::get_damage(std::vector<int, std::allocator<int>>& ar
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:26727
+// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:26727
 VA_CHT_1(0x006b7f50, 0x52)
 bool t_magic_weapon_visitor::visit_damage(t_artifact_prop::t_damage_bonus_base& arg_0)
 {
@@ -224,14 +224,14 @@ bool t_magic_weapon_visitor::visit_damage(t_artifact_prop::t_damage_bonus_base& 
 
 } // anonymous namespace
 
-// confidence:C; align-order; retn; map:26728
+// confidence:D; align-order; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:26728
 VA_CHT_1(0x006b7fb0, 0xf6)
 int get_artifact_damage(t_hero const& arg_0, bool arg_1, std::vector<int, std::allocator<int>>& arg_2)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:26729
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:26729
 VA_CHT_1(0x006b80b0, 0x103)
 int get_artifact_damage(t_creature_stack const& arg_0, bool arg_1)
 {
@@ -247,7 +247,7 @@ t_terrain_visitor::t_terrain_visitor(t_terrain_type arg_0)
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:26731
+// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:26731
 VA_CHT_1(0x006b81c0, 0x2d)
 bool t_terrain_visitor::visit(t_artifact_effect& arg_0)
 {
@@ -256,7 +256,7 @@ bool t_terrain_visitor::visit(t_artifact_effect& arg_0)
 
 } // anonymous namespace
 
-// confidence:C; align-order; retn,stable; map:26732
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:26732
 VA_CHT_1(0x006b81f0, 0x5e)
 bool has_terrain_artifact(t_hero const& arg_0, t_terrain_type arg_1)
 {
@@ -272,7 +272,7 @@ t_movement_visitor::t_movement_visitor(bool arg_0)
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:26734
+// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:26734
 VA_CHT_1(0x006b8250, 0x2e)
 bool t_movement_visitor::visit_movement(t_artifact_prop::t_movement& arg_0)
 {
@@ -281,7 +281,7 @@ bool t_movement_visitor::visit_movement(t_artifact_prop::t_movement& arg_0)
 
 } // anonymous namespace
 
-// confidence:C; align-order; retn,stable; map:26735
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:26735
 VA_CHT_1(0x006b8280, 0x64)
 int get_artifact_adventure_move_bonus(t_hero const& arg_0, bool arg_1)
 {
@@ -295,21 +295,21 @@ int get_artifact_spell_point_modifier(t_hero const& arg_0)
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:26737
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:26737
 VA_CHT_1(0x006b82f0, 0xd)
 int get_artifact_spell_point_recovery(t_hero const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:26738
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:26738
 VA_CHT_1(0x006b8300, 0xd)
 int get_artifact_luck(t_hero const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:26739
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:26739
 VA_CHT_1(0x006b8310, 0xd)
 int get_artifact_morale(t_hero const& arg_0)
 {
@@ -325,14 +325,14 @@ t_resistance_visitor::t_resistance_visitor()
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:26741
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:26741
 VA_CHT_1(0x006b8320, 0xd)
 int t_resistance_visitor::get_modifier() const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:26742
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:26742
 VA_CHT_1(0x006b8330, 0x4d)
 bool t_resistance_visitor::visit(t_artifact_effect& arg_0)
 {
@@ -341,7 +341,7 @@ bool t_resistance_visitor::visit(t_artifact_effect& arg_0)
 
 } // anonymous namespace
 
-// confidence:C; align-order; retn,stable; map:26743
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:26743
 VA_CHT_1(0x006b8380, 0x60)
 int get_artifact_magic_resistance(t_hero const& arg_0)
 {
@@ -357,7 +357,7 @@ bool t_scroll_visitor::visit_spell(t_artifact_prop::t_single_spell& arg_0)
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:26745
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:26745
 VA_CHT_1(0x006b8430, 0xa5)
 bool t_scroll_visitor::visit_spell_list(t_artifact_prop::t_spell_list_effect& arg_0)
 {
@@ -366,52 +366,52 @@ bool t_scroll_visitor::visit_spell_list(t_artifact_prop::t_spell_list_effect& ar
 
 } // anonymous namespace
 
-// confidence:C; align-order; retn,stable; map:26746
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:26746
 VA_CHT_1(0x006b84e0, 0x58)
 void set_artifact_spells(t_hero& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-init; owner-conf-C; map:65338; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:65338; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x006b8540, 0x11, STATIC_INIT_DISPATCH, "get_artifact_damage_modifier#1")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:65339; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:65339; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x006b8560, 0xd1, STATIC_CTOR, "get_artifact_damage_modifier#1")
 
 // name:C; dyninit; see ledger; map:65340
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "get_artifact_damage_modifier#1")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:65341; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:65341; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x006b8640, 0xa, STATIC_DTOR, "get_artifact_damage_modifier#1")
 
-// confidence:A; dyninit-init; owner-conf-C; map:65342; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:65342; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x006b8650, 0x11, STATIC_INIT_DISPATCH, "get_artifact_damage_modifier#2")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:65343; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:65343; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x006b8670, 0xd1, STATIC_CTOR, "get_artifact_damage_modifier#2")
 
 // name:C; dyninit; see ledger; map:65344
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "get_artifact_damage_modifier#2")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:65345; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:65345; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x006b8750, 0xa, STATIC_DTOR, "get_artifact_damage_modifier#2")
 
-// confidence:A; dyninit-init; owner-conf-C; map:65346; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:65346; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x006b8760, 0x11, STATIC_INIT_DISPATCH, "get_artifact_damage_modifier#3")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:65347; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:65347; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x006b8780, 0xd1, STATIC_CTOR, "get_artifact_damage_modifier#3")
 
 // name:C; dyninit; see ledger; map:65348
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "get_artifact_damage_modifier#3")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:65349; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:65349; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x006b8860, 0xa, STATIC_DTOR, "get_artifact_damage_modifier#3")
 
 namespace {
 
-// confidence:A; align-order; retn,stable,vslot; map:26747
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:26747
 VA_CHT_1(0x006b8870, 0x2d2)
 bool t_parchment_visitor::visit_spell(t_artifact_prop::t_single_spell& arg_0)
 {
@@ -420,7 +420,7 @@ bool t_parchment_visitor::visit_spell(t_artifact_prop::t_single_spell& arg_0)
 
 } // anonymous namespace
 
-// confidence:B; align-order; retn,stable; map:26748
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:26748
 VA_CHT_1(0x006b8d20, 0x127)
 bool use_parchment(t_hero& arg_0, t_artifact const& arg_1, std::string* arg_2)
 {
@@ -429,7 +429,7 @@ bool use_parchment(t_hero& arg_0, t_artifact const& arg_1, std::string* arg_2)
 
 namespace {
 
-// confidence:A; align-order; retn,stable,vslot; map:26749
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:26749
 VA_CHT_1(0x006b8e50, 0x28)
 bool t_discount_visitor::visit(t_artifact_effect& arg_0)
 {
@@ -438,14 +438,14 @@ bool t_discount_visitor::visit(t_artifact_effect& arg_0)
 
 } // anonymous namespace
 
-// confidence:C; align-order; retn,stable; map:26750
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:26750
 VA_CHT_1(0x006b8e80, 0x60)
 int get_artifact_recruitment_discount(t_hero const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:26751
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:26751
 VA_CHT_1(0x006b8ee0, 0xd)
 int get_artifact_health_bonus(t_hero const& arg_0)
 {
@@ -454,7 +454,7 @@ int get_artifact_health_bonus(t_hero const& arg_0)
 
 namespace {
 
-// confidence:A; align-order; retn,stable,vslot; map:26752
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:26752
 VA_CHT_1(0x006b8ef0, 0x1c)
 bool t_effect_presence_visitor::visit(t_artifact_effect& arg_0)
 {
@@ -463,21 +463,21 @@ bool t_effect_presence_visitor::visit(t_artifact_effect& arg_0)
 
 } // anonymous namespace
 
-// confidence:C; align-order; retn,stable; map:26753
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:26753
 VA_CHT_1(0x006b8f10, 0xd)
 bool has_seamans_hat(t_hero const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:65350
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:65350
 VA_CHT_1(0x006b8f20, 0x78)
 static bool has_effect(t_hero const& arg_0, t_artifact_effect_type arg_1, t_artifact const** arg_2)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:26754
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:26754
 VA_CHT_1(0x006b8fa0, 0xc)
 bool has_shackles_of_war(t_hero const& arg_0, t_artifact const*& arg_1)
 {
@@ -486,7 +486,7 @@ bool has_shackles_of_war(t_hero const& arg_0, t_artifact const*& arg_1)
 
 namespace {
 
-// confidence:A; align-order; retn,stable,vslot; map:26755
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:26755
 VA_CHT_1(0x006b8fb0, 0x24)
 bool t_ability_presence_visitor::visit_ability(t_artifact_prop::t_give_ability& arg_0)
 {
@@ -495,14 +495,14 @@ bool t_ability_presence_visitor::visit_ability(t_artifact_prop::t_give_ability& 
 
 } // anonymous namespace
 
-// confidence:C; align-order; retn,stable; map:26756
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:26756
 VA_CHT_1(0x006b8fe0, 0x5e)
 bool artifact_gives_ability(t_hero const& arg_0, t_creature_ability arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:65351; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:65351; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x006b9290, 0x20, STATIC_INIT_DISPATCH, get_artifact_damage_modifier)
 
 // name:A; map symbol; map:26757
@@ -563,7 +563,7 @@ t_spell_cost_visitor::~t_spell_cost_visitor()
 
 } // anonymous namespace
 
-// confidence:C; align-band; retn,stable; map:26767
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:26767
 VA_CHT_1(0x006b9230, 0x2d)
 bool t_artifact_prop::t_spell_list_effect::has_spell(t_spell arg_0) const
 {
@@ -773,7 +773,7 @@ t_resistance_visitor::~t_resistance_visitor()
 
 } // anonymous namespace
 
-// confidence:C; align-band; retn,stable; map:26801
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:26801
 VA_CHT_1(0x006b9260, 0x2d)
 void t_hero::add_scroll_spell(t_spell arg_0)
 {
@@ -813,7 +813,7 @@ t_scroll_visitor::~t_scroll_visitor()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:26807
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:26807
 VA_CHT_1(0x006b8b50, 0x158)
 t_parchment_visitor::t_parchment_visitor(t_hero& arg_0)
 {
@@ -822,7 +822,7 @@ t_parchment_visitor::t_parchment_visitor(t_hero& arg_0)
 
 } // anonymous namespace
 
-// confidence:A; align-band; retn,stable,vslot; map:26808
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:26808
 VA_CHT_1_COMPGEN(0x006b8cb0, 0x1e, SCALAR_DELETING_DTOR, t_parchment_visitor)
 
 // name:A; map symbol; map:26809

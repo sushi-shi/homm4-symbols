@@ -1,7 +1,7 @@
 // adv_prison.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\adv_prison.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 33/65 (A:27 B:3 C:3); unaccounted 32; skipped std 3.
+// Accounted 33/65 (A:12 B:3 C:0); unaccounted 32; skipped std 3.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,26 +10,26 @@
 
 // === .text (43 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:70868; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:70868; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00460120, 0x15, STATIC_INIT_DISPATCH, "adv_prison#1")
 
 // name:C; dyninit; see ledger; map:70869
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "adv_prison#1")
 
-// confidence:A; dyninit-init; owner-conf-B; map:70870; name:B (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:70870; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00460140, 0x1c, STATIC_INIT_DISPATCH, k_registration)
 
 // name:B; dyninit; see ledger; map:70871
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, k_registration)
 
-// confidence:A; align-order; retn,stable,vptr; map:5662
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:5662
 VA_CHT_1(0x00460160, 0x14e)
 t_adv_prison::t_adv_prison(std::string const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:5663
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:5663
 VA_CHT_1(0x00460360, 0x3a5)
 void t_adv_prison::activate_trigger(
     t_army* arg_0,
@@ -41,14 +41,14 @@ void t_adv_prison::activate_trigger(
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:5664
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:5664
 VA_CHT_1(0x00460710, 0xb)
 int t_adv_prison::get_version() const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:5665
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:5665
 VA_CHT_1(0x00460720, 0x36)
 bool t_adv_prison::read(
     std::basic_streambuf<char, std::char_traits<char>>& arg_0,
@@ -59,7 +59,7 @@ bool t_adv_prison::read(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:5666
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:5666
 VA_CHT_1(0x00460760, 0x72)
 bool t_adv_prison::read_from_map(
     std::basic_streambuf<char, std::char_traits<char>>& arg_0,
@@ -76,47 +76,47 @@ bool t_adv_prison::write(std::basic_streambuf<char, std::char_traits<char>>& arg
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:5668
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:5668
 VA_CHT_1(0x004607f0, 0x3f)
 bool t_adv_prison::preplacement(t_adventure_map& arg_0, int arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:5669
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:5669
 VA_CHT_1(0x00460830, 0x1d)
 void t_adv_prison::process_new_day()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:5670
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:5670
 VA_CHT_1(0x00460850, 0x2b)
 void t_adv_prison::read_postplacement(t_adventure_map& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:5671
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:5671
 VA_CHT_1(0x00460880, 0xeb)
 float t_adv_prison::ai_value(t_adventure_ai const& arg_0, t_creature_array const& arg_1, int arg_2) const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:5672
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:5672
 VA_CHT_1(0x00460970, 0x4e2)
 void t_adv_prison::right_click(t_mouse_event const& arg_0, t_adventure_frame* arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:70872; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:70872; name:B (dyninit; see ledger)
 VA_CHT_1(0x00460ed0, 0x20)
 // adv_prison$tinit1
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:70874; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:70874; name:B (dyninit; see ledger)
 VA_CHT_1(0x00460ef0, 0x5c)
 // adv_prison$tinit2
 // Function body not reconstructed; signature retained as a comment.
@@ -136,7 +136,7 @@ VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 // adv_prison$tatexit4
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; align-band; retn,stable,vslot; map:5673
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:5673
 VA_CHT_1_COMPGEN(0x004602b0, 0x2d, VECTOR_DELETING_DTOR, t_adv_prison)
 
 // name:A; map symbol; map:5674
@@ -259,7 +259,7 @@ t_object_factory<t_adv_prison>::t_object_factory<t_adv_prison>()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:5693
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:5693
 VA_CHT_1(0x00460e60, 0x62)
 t_stationary_adventure_object* t_object_factory<t_adv_prison>::create(
     std::string const& arg_0,
@@ -276,10 +276,10 @@ t_creature_stack* implicit_cast(t_creature_stack* arg_0)
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:5696
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:5696
 VA_CHT_1_COMPGEN(0x00460f50, 0x8, VECTOR_DELETING_DTOR, t_adv_prison)
 
-// confidence:C; align-order; stable; map:5697
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:5697
 VA_CHT_1_COMPGEN(0x00460f60, 0xb, VECTOR_DELETING_DTOR, t_adv_prison)
 
 // === .rdata (8 symbols) ===

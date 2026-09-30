@@ -39,12 +39,13 @@ def idc_str(s):
     return '"' + s.replace("\\", "\\\\").replace('"', '\\"') + '"'
 
 
-def main(target, min_tier="C"):
+def main(target, min_tier="D"):
     base = int(paths.target_meta(target)["image_base"], 16)
     with open(paths.maps(target, "names.tsv")) as f:
         rows = [r for r in csv.DictReader(f, delimiter="\t") if r["tier"] <= min_tier]
     lines = [f"    n = n + N(0x{base + int(r['rva'], 16):X}, {int(r['kind'] == 'func')}, {idc_str(r['name'])}, "
-             + idc_str(f"homm4 tier {r['tier']} | {r['method']} {r['evidence']} (map {r['map_id']} {r['obj']})")
+             + idc_str(f"homm4 tier {r['tier']} | " + ("UNREVIEWED PROPOSAL; NOT A BEST GUESS | " if r['tier'] == 'D' else '')
+                       + f"{r['method']} {r['evidence']} (map {r['map_id']} {r['obj']})")
              + ");\n" for r in rows]
     out = [HEADER.format(target=target, min_tier=min_tier)]
     parts = range(0, len(lines), CHUNK)

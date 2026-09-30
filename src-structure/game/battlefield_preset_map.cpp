@@ -1,7 +1,7 @@
 // battlefield_preset_map.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\battlefield_preset_map.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 16/42 (A:11 B:3 C:2); unaccounted 26; skipped std 11.
+// Accounted 16/42 (A:6 B:0 C:0); unaccounted 26; skipped std 11.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -73,14 +73,14 @@ bool t_alpha_iterator::check_iso_cell(int arg_0, int arg_1, int arg_2, bool (* a
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vptr; map:17527
+// confidence:D; align-order; retn,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:17527
 VA_CHT_1(0x00567680, 0xa2)
 t_battlefield_preset_map::t_battlefield_preset_map()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vptr; map:17528
+// confidence:D; align-order; retn,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:17528
 VA_CHT_1(0x00567750, 0x8a)
 t_battlefield_preset_map::~t_battlefield_preset_map()
 {
@@ -94,14 +94,14 @@ void t_battlefield_preset_map::initialize_passability_map(int arg_0, int arg_1, 
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:17530
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:17530
 VA_CHT_1(0x00567820, 0x59)
 void t_battlefield_preset_map::initialize_backdrop(t_bitmap_layer_24 const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:17531
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:17531
 VA_CHT_1(0x00567880, 0x30f)
 void t_battlefield_preset_map::calculate_passability_map(
     t_bitmap_layer_24 const& arg_0,
@@ -113,21 +113,21 @@ void t_battlefield_preset_map::calculate_passability_map(
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:17532
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:17532
 VA_CHT_1(0x00567b90, 0x142)
 bool t_battlefield_preset_map::read(std::basic_streambuf<char, std::char_traits<char>>& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:17533
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:17533
 VA_CHT_1(0x00567ce0, 0x182)
 bool t_battlefield_preset_map::write(std::basic_streambuf<char, std::char_traits<char>>& arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:69035; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:69035; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00567e70, 0x20, STATIC_INIT_DISPATCH, battlefield_preset_map)
 
 // name:A; map symbol; map:17534
@@ -137,7 +137,7 @@ int t_bitmap_layer::get_alpha_depth() const
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn; map:17535
+// confidence:D; align-band; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:17535
 VA_CHT_1(0x005677e0, 0x32)
 unsigned char* t_bitmap_layer::get_alpha_mask() const
 {
@@ -158,7 +158,7 @@ unsigned char* t_paletted_layer::get_data() const
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:17538
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:17538
 VA_CHT_1_COMPGEN(0x00567730, 0x1e, VECTOR_DELETING_DTOR, t_battlefield_preset_map)
 
 // name:A; map symbol; map:17539
@@ -178,7 +178,7 @@ t_paletted_layer::t_paletted_layer()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:17542
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:17542
 VA_CHT_1(0x00574e10, 0xf1)
 t_bitmap_layer::t_bitmap_layer()
 {

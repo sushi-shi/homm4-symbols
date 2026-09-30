@@ -1,7 +1,7 @@
 // adventure_object_memory_cache.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 35/53 (A:26 B:6 C:3); unaccounted 18; skipped std 82.
+// Accounted 35/53 (A:12 B:0 C:0); unaccounted 18; skipped std 82.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,13 +10,13 @@
 
 // === .text (40 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:69804; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:69804; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x004e71f0, 0x15, STATIC_INIT_DISPATCH, "adventure_object_memory_cache#1")
 
 // name:C; dyninit; see ledger; map:69805
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "adventure_object_memory_cache#1")
 
-// confidence:A; align-order; retn,stable,vptr; map:12036
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:12036
 VA_CHT_1(0x004e7230, 0x79)
 t_adventure_object_memory_cache::t_adventure_object_memory_cache()
 {
@@ -37,7 +37,7 @@ t_counted_ptr<t_memory_buffer_counted> const& t_adventure_object_memory_cache::g
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:12039
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:12039
 VA_CHT_1(0x004e72b0, 0xa9)
 bool t_adventure_object_memory_cache::update_state(t_adventure_object* arg_0)
 {
@@ -58,42 +58,42 @@ int t_adventure_object_memory_cache::decrement()
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:12042
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:12042
 VA_CHT_1(0x004e7360, 0x124)
 bool t_adventure_object_memory_cache::read(std::basic_streambuf<char, std::char_traits<char>>& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:12043
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:12043
 VA_CHT_1(0x004e7490, 0xcb)
 bool t_adventure_object_memory_cache::write(std::basic_streambuf<char, std::char_traits<char>>& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vptr; map:12044
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:12044
 VA_CHT_1(0x004e7560, 0x7d)
 t_adventure_object_memory_cache_refrence::t_adventure_object_memory_cache_refrence()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vptr; map:12045
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:12045
 VA_CHT_1(0x004e75e0, 0x16a)
 t_adventure_object_memory_cache_refrence::~t_adventure_object_memory_cache_refrence()
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:12046
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:12046
 VA_CHT_1(0x004e7750, 0x34)
 void t_adventure_object_memory_cache_refrence::set_adventure_manager_for_memory_cache(t_adventure_map* arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:12047
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:12047
 VA_CHT_1(0x004e7790, 0x40)
 void t_adventure_object_memory_cache_refrence::set_cache_for_memory_cache(
     t_adventure_object_memory_cache* arg_0
@@ -102,42 +102,42 @@ void t_adventure_object_memory_cache_refrence::set_cache_for_memory_cache(
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:12048
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:12048
 VA_CHT_1(0x004e77d0, 0xa)
 void t_adventure_object_memory_cache_refrence::set_global_id_for_memory_cache(unsigned int arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vptr; map:12049
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:12049
 VA_CHT_1(0x004e77e0, 0xe0)
 t_adventure_object_cache_manager::t_adventure_object_cache_manager()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vptr; map:12050
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:12050
 VA_CHT_1(0x004e78e0, 0x11f)
 t_adventure_object_cache_manager::~t_adventure_object_cache_manager()
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:12051
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:12051
 VA_CHT_1(0x004e7a00, 0xa6)
 bool t_adventure_object_cache_manager::attach_adv_objects_to_their_cache(t_adventure_map* arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:12052
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:12052
 VA_CHT_1(0x004e7ab0, 0x52)
 bool t_adventure_object_cache_manager::is_empty(unsigned int const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn; map:12053
+// confidence:D; align-order; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:12053
 VA_CHT_1(0x004e7b10, 0x2a0)
 void t_adventure_object_cache_manager::insert(t_adventure_object* arg_0)
 {
@@ -158,40 +158,40 @@ void t_adventure_object_cache_manager::remove(unsigned int arg_0)
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn; map:12056
+// confidence:D; align-order; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:12056
 VA_CHT_1(0x004e7db0, 0x6a)
 void t_adventure_object_cache_manager::update(t_adventure_object* arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn; map:12057
+// confidence:D; align-order; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:12057
 VA_CHT_1(0x004e7e20, 0x6c)
 t_adventure_object_memory_cache* t_adventure_object_cache_manager::get_memory_cache(t_adventure_object* arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:12058
+// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:12058
 VA_CHT_1(0x004e7e90, 0x1c7)
 bool t_adventure_object_cache_manager::read(std::basic_streambuf<char, std::char_traits<char>>& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:12059
+// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:12059
 VA_CHT_1(0x004e8060, 0xa5)
 bool t_adventure_object_cache_manager::write(std::basic_streambuf<char, std::char_traits<char>>& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:69806; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:69806; name:B (dyninit; see ledger)
 VA_CHT_1(0x004e90b0, 0x20)
 // adventure_object_memory_cache$tinit1
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:69808; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:69808; name:B (dyninit; see ledger)
 VA_CHT_1(0x004e90d0, 0x5c)
 // adventure_object_memory_cache$tinit2
 // Function body not reconstructed; signature retained as a comment.
@@ -211,13 +211,13 @@ VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 // adventure_object_memory_cache$tatexit4
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; align-band; retn,stable,vslot; map:12060
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:12060
 VA_CHT_1_COMPGEN(0x004e7210, 0x1e, VECTOR_DELETING_DTOR, t_adventure_object_memory_cache)
 
 // name:A; map symbol; map:12061
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, t_adventure_object_memory_cache)
 
-// confidence:A; align-band; retn,stable,vslot; map:12062
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:12062
 VA_CHT_1_COMPGEN(0x004e78c0, 0x1e, VECTOR_DELETING_DTOR, t_adventure_object_cache_manager)
 
 // name:A; map symbol; map:12063

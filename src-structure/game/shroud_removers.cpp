@@ -1,7 +1,7 @@
 // shroud_removers.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 117/182 (A:82 B:20 C:15); unaccounted 65; skipped std 3.
+// Accounted 117/182 (A:48 B:11 C:0); unaccounted 65; skipped std 3.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,93 +10,93 @@
 
 // === .text (98 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:62799; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62799; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007b0570, 0x15, STATIC_INIT_DISPATCH, "shroud_removers#1")
 
 // name:C; dyninit; see ledger; map:62800
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "shroud_removers#1")
 
-// confidence:A; dyninit-init; owner-conf-C; map:62801; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62801; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007b0590, 0x1c, STATIC_INIT_DISPATCH, "shroud_removers#2")
 
 // name:C; dyninit; see ledger; map:62802
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "shroud_removers#2")
 
-// confidence:A; dyninit-init; owner-conf-C; map:62803; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62803; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007b05b0, 0x1c, STATIC_INIT_DISPATCH, "shroud_removers#3")
 
 // name:C; dyninit; see ledger; map:62804
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "shroud_removers#3")
 
-// confidence:A; dyninit-init; owner-conf-C; map:62805; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62805; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007b05d0, 0x1c, STATIC_INIT_DISPATCH, "shroud_removers#4")
 
 // name:C; dyninit; see ledger; map:62806
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "shroud_removers#4")
 
-// confidence:A; dyninit-init; owner-conf-C; map:62807; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62807; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007b05f0, 0x11, STATIC_INIT_DISPATCH, "shroud_removers#5")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:62808; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62808; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007b0610, 0xd1, STATIC_CTOR, "shroud_removers#5")
 
 // name:C; dyninit; see ledger; map:62809
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "shroud_removers#5")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:62810; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62810; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007b06f0, 0xa, STATIC_DTOR, "shroud_removers#5")
 
-// confidence:A; dyninit-init; owner-conf-C; map:62811; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62811; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007b0700, 0x11, STATIC_INIT_DISPATCH, "shroud_removers#6")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:62812; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62812; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007b0720, 0xd1, STATIC_CTOR, "shroud_removers#6")
 
 // name:C; dyninit; see ledger; map:62813
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "shroud_removers#6")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:62814; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62814; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007b0800, 0xa, STATIC_DTOR, "shroud_removers#6")
 
-// confidence:A; dyninit-init; owner-conf-C; map:62815; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62815; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007b0810, 0x11, STATIC_INIT_DISPATCH, "shroud_removers#7")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:62816; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62816; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007b0830, 0xd1, STATIC_CTOR, "shroud_removers#7")
 
 // name:C; dyninit; see ledger; map:62817
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "shroud_removers#7")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:62818; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62818; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007b0910, 0xa, STATIC_DTOR, "shroud_removers#7")
 
-// confidence:A; dyninit-init; owner-conf-C; map:62819; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62819; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007b0920, 0x11, STATIC_INIT_DISPATCH, "shroud_removers#8")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:62820; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62820; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007b0940, 0xd1, STATIC_CTOR, "shroud_removers#8")
 
 // name:C; dyninit; see ledger; map:62821
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "shroud_removers#8")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:62822; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62822; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007b0a20, 0xa, STATIC_DTOR, "shroud_removers#8")
 
-// confidence:A; align-order; retn,stable,vptr; map:37134
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:37134
 VA_CHT_1(0x007b0a30, 0x11a)
 t_shroud_remover::t_shroud_remover(t_stationary_adventure_object const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:37135
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:37135
 VA_CHT_1(0x007b0c70, 0x56)
 float t_shroud_remover::ai_value(t_adventure_ai const& arg_0, t_creature_array const& arg_1, int arg_2) const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:37136
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:37136
 VA_CHT_1(0x007b0cd0, 0x73)
 void t_shroud_remover::activate_trigger(
     t_army* arg_0,
@@ -127,7 +127,7 @@ void t_shroud_remover::show_dialog(bool arg_0, t_adv_map_point const& arg_1)
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:37139
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:37139
 VA_CHT_1(0x007b0d70, 0x53)
 bool t_shroud_remover::read(
     std::basic_streambuf<char, std::char_traits<char>>& arg_0,
@@ -145,7 +145,7 @@ bool t_shroud_remover::write(std::basic_streambuf<char, std::char_traits<char>>&
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vptr; map:37141
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:37141
 VA_CHT_1(0x007b0e10, 0xc0)
 t_cartographer::t_cartographer(t_stationary_adventure_object const& arg_0)
 {
@@ -164,7 +164,7 @@ void t_cartographer::activate_trigger(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:37143
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:37143
 VA_CHT_1(0x007b0ff0, 0x18d)
 void t_cartographer::do_logic(
     t_army* arg_0,
@@ -176,21 +176,21 @@ void t_cartographer::do_logic(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:37144
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:37144
 VA_CHT_1(0x007b1180, 0x37f)
 void t_cartographer::show_dialog(bool arg_0, t_adv_map_point const& arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vptr; map:37145
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:37145
 VA_CHT_1(0x007b1500, 0xfe)
 t_magi_hut::t_magi_hut(t_stationary_adventure_object const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:37146
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:37146
 VA_CHT_1(0x007b16c0, 0x26e)
 void t_magi_hut::activate_trigger(
     t_army* arg_0,
@@ -202,7 +202,7 @@ void t_magi_hut::activate_trigger(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:37147
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:37147
 VA_CHT_1(0x007b1930, 0x80)
 void t_magi_hut::do_logic(
     t_army* arg_0,
@@ -214,35 +214,35 @@ void t_magi_hut::do_logic(
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:37148
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37148
 VA_CHT_1(0x007b19b0, 0x68)
 void t_magi_hut::cancel()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:37149
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:37149
 VA_CHT_1(0x007b1a20, 0x78)
 void t_magi_hut::on_idle()
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:37150
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37150
 VA_CHT_1(0x007b1aa0, 0x2cc)
 bool t_magi_hut::visit_next_eye(t_tile_visibility arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:37151
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:37151
 VA_CHT_1(0x007b1d70, 0x26d)
 void t_magi_hut::show_dialog(bool arg_0, t_adv_map_point const& arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vptr; map:37152
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:37152
 VA_CHT_1(0x007b1fe0, 0xc0)
 t_tower::t_tower(t_stationary_adventure_object const& arg_0)
 {
@@ -261,7 +261,7 @@ void t_tower::activate_trigger(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:37154
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:37154
 VA_CHT_1(0x007b2130, 0x197)
 void t_tower::do_logic(
     t_army* arg_0,
@@ -273,19 +273,19 @@ void t_tower::do_logic(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:37155
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:37155
 VA_CHT_1(0x007b22d0, 0x37f)
 void t_tower::show_dialog(bool arg_0, t_adv_map_point const& arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:62823; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:62823; name:B (dyninit; see ledger)
 VA_CHT_1(0x007b2ad0, 0x20)
 // shroud_removers$tinit1
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:62825; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:62825; name:B (dyninit; see ledger)
 VA_CHT_1(0x007b2af0, 0x5c)
 // shroud_removers$tinit2
 // Function body not reconstructed; signature retained as a comment.
@@ -312,7 +312,7 @@ int t_shroud_remover::get_version() const
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:37157
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:37157
 VA_CHT_1(0x007b0b60, 0x34)
 bool t_shroud_remover::get_visited(unsigned int arg_0)
 {
@@ -326,13 +326,13 @@ void t_shroud_remover::set_visited(unsigned int arg_0)
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:37159
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:37159
 VA_CHT_1_COMPGEN(0x007b0be0, 0x2d, VECTOR_DELETING_DTOR, t_shroud_remover)
 
 // name:A; map symbol; map:37160
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, t_shroud_remover)
 
-// confidence:C; align-band; retn,stable; map:37161
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37161
 VA_CHT_1(0x007b20d0, 0x57)
 // public: void t_shroud_remover::`vbase dtor'(void)
 // Function body not reconstructed; signature retained as a comment.
@@ -344,7 +344,7 @@ t_shroud_remover::~t_shroud_remover()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:37163
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:37163
 VA_CHT_1_COMPGEN(0x007b0ed0, 0x2d, VECTOR_DELETING_DTOR, t_cartographer)
 
 // name:A; map symbol; map:37164
@@ -362,7 +362,7 @@ t_cartographer::~t_cartographer()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:37167
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:37167
 VA_CHT_1_COMPGEN(0x007b1600, 0x33, VECTOR_DELETING_DTOR, t_magi_hut)
 
 // name:A; map symbol; map:37168
@@ -387,7 +387,7 @@ std::vector<t_adv_magi_eye, std::allocator<t_adv_magi_eye>> const& t_adventure_m
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:37172
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:37172
 VA_CHT_1_COMPGEN(0x007b20a0, 0x2d, SCALAR_DELETING_DTOR, t_tower)
 
 // name:A; map symbol; map:37173
@@ -405,7 +405,7 @@ t_tower::~t_tower()
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:37178
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37178
 VA_CHT_1(0x007b0ba0, 0x34)
 t_object_registration<t_cartographer>::t_object_registration<t_cartographer>(t_adv_object_type arg_0)
 {
@@ -426,14 +426,14 @@ t_object_registration<t_tower>::t_object_registration<t_tower>(t_adv_object_type
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:37181
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37181
 VA_CHT_1(0x007b0c10, 0x57)
 std::bitset<6> get(std::basic_streambuf<char, std::char_traits<char>>& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:37182
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37182
 VA_CHT_1(0x007b0f00, 0x57)
 void put(std::basic_streambuf<char, std::char_traits<char>>& arg_0, std::bitset<6> const& arg_1)
 {
@@ -454,7 +454,7 @@ t_object_factory<t_cartographer>::t_object_factory<t_cartographer>()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:37185
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:37185
 VA_CHT_1(0x007b2650, 0x14a)
 t_stationary_adventure_object* t_object_factory<t_cartographer>::create(
     std::string const& arg_0,
@@ -471,7 +471,7 @@ t_object_factory<t_magi_hut>::t_object_factory<t_magi_hut>()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:37187
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:37187
 VA_CHT_1(0x007b27a0, 0x14d)
 t_stationary_adventure_object* t_object_factory<t_magi_hut>::create(
     std::string const& arg_0,
@@ -488,7 +488,7 @@ t_object_factory<t_tower>::t_object_factory<t_tower>()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:37189
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:37189
 VA_CHT_1(0x007b28f0, 0x14a)
 t_stationary_adventure_object* t_object_factory<t_tower>::create(
     std::string const& arg_0,
@@ -505,7 +505,7 @@ t_bound_handler<t_magi_hut>::t_bound_handler<t_magi_hut>(t_magi_hut& arg_0, void
     // Body unavailable.
 }
 
-// confidence:A; align-band; stable,vslot; map:37191
+// confidence:D; align-band; stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:37191
 VA_CHT_1(0x007b2ab0, 0x1c)
 void t_bound_handler<t_magi_hut>::operator()()
 {
@@ -525,34 +525,34 @@ t_bound_handler<t_magi_hut>::~t_bound_handler<t_magi_hut>()
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:37195
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37195
 VA_CHT_1_COMPGEN(0x007b2b50, 0x8, VECTOR_DELETING_DTOR, t_cartographer)
 
-// confidence:C; align-order; stable; map:37196
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37196
 VA_CHT_1_COMPGEN(0x007b2b60, 0x8, VECTOR_DELETING_DTOR, t_cartographer)
 
-// confidence:C; align-order; stable; map:37197
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37197
 VA_CHT_1_COMPGEN(0x007b2b70, 0xb, VECTOR_DELETING_DTOR, "t_bound_handler<t_magi_hut>")
 
-// confidence:C; align-order; stable; map:37198
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37198
 VA_CHT_1_COMPGEN(0x007b2b80, 0x8, VECTOR_DELETING_DTOR, t_magi_hut)
 
-// confidence:C; align-order; stable; map:37199
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37199
 VA_CHT_1_COMPGEN(0x007b2b90, 0xb, VECTOR_DELETING_DTOR, t_magi_hut)
 
-// confidence:C; align-order; stable; map:37200
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37200
 VA_CHT_1_COMPGEN(0x007b2ba0, 0x8, VECTOR_DELETING_DTOR, t_magi_hut)
 
-// confidence:C; align-order; stable; map:37201
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37201
 VA_CHT_1_COMPGEN(0x007b2bb0, 0xb, VECTOR_DELETING_DTOR, t_tower)
 
-// confidence:C; align-order; stable; map:37202
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37202
 VA_CHT_1_COMPGEN(0x007b2bc0, 0x8, VECTOR_DELETING_DTOR, t_tower)
 
-// confidence:C; align-order; stable; map:37203
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37203
 VA_CHT_1_COMPGEN(0x007b2bd0, 0x8, VECTOR_DELETING_DTOR, t_shroud_remover)
 
-// confidence:C; align-order; stable; map:37204
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37204
 VA_CHT_1_COMPGEN(0x007b2be0, 0xe, VECTOR_DELETING_DTOR, t_shroud_remover)
 
 // === .rdata (30 symbols) ===

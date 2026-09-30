@@ -1,7 +1,7 @@
 // play_combat_flight.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 24/38 (A:17 B:5 C:2); unaccounted 14; skipped std 22.
+// Accounted 24/38 (A:6 B:2 C:0); unaccounted 14; skipped std 22.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,43 +10,43 @@
 
 // === .text (28 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:63731; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:63731; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0075a190, 0x15, STATIC_INIT_DISPATCH, "play_combat_flight#1")
 
 // name:C; dyninit; see ledger; map:63732
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "play_combat_flight#1")
 
-// confidence:A; dyninit-init; owner-conf-C; map:63733; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:63733; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0075a1b0, 0x15, STATIC_INIT_DISPATCH, "play_combat_flight#2")
 
 // name:C; dyninit; see ledger; map:63734
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "play_combat_flight#2")
 
-// confidence:A; dyninit-init; owner-conf-C; map:63735; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:63735; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0075a1d0, 0x15, STATIC_INIT_DISPATCH, "play_combat_flight#3")
 
 // name:C; dyninit; see ledger; map:63736
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "play_combat_flight#3")
 
-// confidence:A; dyninit-init; owner-conf-C; map:63737; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:63737; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0075a1f0, 0x15, STATIC_INIT_DISPATCH, "play_combat_flight#4")
 
 // name:C; dyninit; see ledger; map:63738
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "play_combat_flight#4")
 
-// confidence:A; dyninit-init; owner-conf-C; map:63739; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:63739; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0075a210, 0x10, STATIC_INIT_DISPATCH, "play_combat_flight#5")
 
 // name:C; dyninit; see ledger; map:63740
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "play_combat_flight#5")
 
-// confidence:A; dyninit-init; owner-conf-C; map:63741; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:63741; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0075a220, 0x15, STATIC_INIT_DISPATCH, "play_combat_flight#6")
 
 // name:C; dyninit; see ledger; map:63742
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "play_combat_flight#6")
 
-// confidence:A; align-order; stable,vptr; map:31818
+// confidence:D; align-order; stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:31818
 VA_CHT_1(0x0075a240, 0x280)
 t_play_combat_flight::t_play_combat_flight(
     t_combat_creature& arg_0,
@@ -57,52 +57,52 @@ t_play_combat_flight::t_play_combat_flight(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vptr; map:31819
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:31819
 VA_CHT_1(0x0075a4e0, 0x13d)
 t_play_combat_flight::~t_play_combat_flight()
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:31820
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:31820
 VA_CHT_1(0x0075a620, 0xc2)
 t_map_point_3d t_play_combat_flight::advance()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:31821
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:31821
 VA_CHT_1(0x0075a6f0, 0x570)
 void t_play_combat_flight::on_idle()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:31822
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:31822
 VA_CHT_1(0x0075ac60, 0x433)
 void t_play_combat_flight::compute_next_waypoint()
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:31823
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:31823
 VA_CHT_1(0x0075b0a0, 0x4b0)
 void t_play_combat_flight::compute_distances(int arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:31824
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:31824
 VA_CHT_1(0x0075b550, 0xef)
 t_abstract_combat_object* t_play_combat_flight::get_tallest_object(t_map_point_2d const& arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:63743; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:63743; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0075b640, 0x20, STATIC_INIT_DISPATCH, play_combat_flight)
 
-// confidence:A; align-band; retn,stable,vslot; map:31825
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:31825
 VA_CHT_1_COMPGEN(0x0075a4c0, 0x1e, SCALAR_DELETING_DTOR, t_play_combat_flight)
 
 // name:A; map symbol; map:31826
@@ -139,7 +139,7 @@ bool operator!=(t_map_point_3d const& arg_0, t_map_point_3d const& arg_1)
 // name:A; map symbol; map:31852
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, t_play_combat_flight)
 
-// confidence:C; align-order; stable; map:31853
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:31853
 VA_CHT_1_COMPGEN(0x0075b670, 0x8, VECTOR_DELETING_DTOR, t_play_combat_flight)
 
 // === .rdata (3 symbols) ===

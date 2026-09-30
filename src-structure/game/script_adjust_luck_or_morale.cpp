@@ -1,7 +1,7 @@
 // script_adjust_luck_or_morale.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 95/256 (A:91 B:3 C:1); unaccounted 161; skipped std 1.
+// Accounted 95/256 (A:80 B:0 C:0); unaccounted 161; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,7 +10,7 @@
 
 // === .text (135 symbols) ===
 
-// confidence:C; align-order; stable; map:34017
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:34017
 VA_CHT_1(0x00791e50, 0xb)
 bool t_script_adjust_attribute::read_from_map(
     std::basic_streambuf<char, std::char_traits<char>>& arg_0,
@@ -20,46 +20,46 @@ bool t_script_adjust_attribute::read_from_map(
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:34018
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:34018
 VA_CHT_1(0x00791ee0, 0x6c)
 void t_script_adjust_attribute::add_icons(t_basic_dialog* arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:34019
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:34019
 VA_CHT_1(0x00791f80, 0x54)
 void t_script_adjust_attribute::make_adjustment(t_creature_stack* arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:34020
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:34020
 VA_CHT_1(0x00791fe0, 0x6c)
 void t_script_adjust_attribute::make_adjustment(t_creature_array* arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:63179; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:63179; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00792190, 0xbe, STATIC_INIT_DISPATCH, script_adjust_luck_or_morale)
 
-// confidence:A; align-order; atexit,stable; map:63181; name:C (dyninit; see ledger)
+// confidence:D; align-order; atexit,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:63181; name:C (dyninit; see ledger)
 VA_CHT_1(0x00792250, 0x1f)
 // t_script_action_base<10,t_script_decrease_luck>::k_factory$atexit
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; align-order; atexit,stable; map:63182; name:C (dyninit; see ledger)
+// confidence:D; align-order; atexit,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:63182; name:C (dyninit; see ledger)
 VA_CHT_1(0x00792270, 0x1f)
 // t_script_action_base<30,t_script_increase_luck>::k_factory$atexit
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; align-order; atexit,stable; map:63183; name:C (dyninit; see ledger)
+// confidence:D; align-order; atexit,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:63183; name:C (dyninit; see ledger)
 VA_CHT_1(0x00792290, 0x1f)
 // t_script_action_base<13,t_script_decrease_morale>::k_factory$atexit
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; align-order; atexit,stable; map:63184; name:C (dyninit; see ledger)
+// confidence:D; align-order; atexit,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:63184; name:C (dyninit; see ledger)
 VA_CHT_1(0x007922b0, 0x1f)
 // t_script_action_base<33,t_script_increase_morale>::k_factory$atexit
 // Function body not reconstructed; signature retained as a comment.
@@ -126,28 +126,28 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_DTOR, "t_script_action_base<3
 // name:A; dyninit; see ledger; map:34032
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_DTOR, "t_script_action_base<10,t_script_decrease_luck>::k_factory")
 
-// confidence:A; align-band; retn,stable,vptr; map:34033
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:34033
 VA_CHT_1(0x007922d0, 0x14)
 t_script_action_factory<10>::~t_script_action_factory<10>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:34034
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:34034
 VA_CHT_1(0x00792670, 0x14)
 t_script_action_factory<30>::~t_script_action_factory<30>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:34035
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:34035
 VA_CHT_1(0x00792760, 0x14)
 t_script_action_factory<13>::~t_script_action_factory<13>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:34036
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:34036
 VA_CHT_1(0x00792860, 0x14)
 t_script_action_factory<33>::~t_script_action_factory<33>()
 {
@@ -172,7 +172,7 @@ t_script_action_factory<10>::t_script_action_factory<10>()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:34039
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:34039
 VA_CHT_1(0x007922f0, 0x77)
 t_counted_ptr<t_abstract_script_action> t_script_action_factory<10>::create() const
 {
@@ -280,7 +280,7 @@ t_script_action<10>::t_script_action<10>(t_script_action<10> const& arg_0)
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:34053
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:34053
 VA_CHT_1_COMPGEN(0x00792480, 0x94, VECTOR_DELETING_DTOR, "t_script_action<10>")
 
 // name:A; map symbol; map:34054

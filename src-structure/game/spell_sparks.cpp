@@ -1,7 +1,7 @@
 // spell_sparks.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\spell_sparks.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 61/89 (A:47 B:10 C:4); unaccounted 28; skipped std 1.
+// Accounted 61/89 (A:24 B:2 C:0); unaccounted 28; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,43 +10,43 @@
 
 // === .text (61 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:62534; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62534; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007d3190, 0x15, STATIC_INIT_DISPATCH, "spell_sparks#1")
 
 // name:C; dyninit; see ledger; map:62535
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "spell_sparks#1")
 
-// confidence:A; dyninit-init; owner-conf-C; map:62536; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62536; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007d31b0, 0x15, STATIC_INIT_DISPATCH, "spell_sparks#2")
 
 // name:C; dyninit; see ledger; map:62537
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "spell_sparks#2")
 
-// confidence:A; dyninit-init; owner-conf-C; map:62538; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62538; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007d31d0, 0x15, STATIC_INIT_DISPATCH, "spell_sparks#3")
 
 // name:C; dyninit; see ledger; map:62539
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "spell_sparks#3")
 
-// confidence:A; dyninit-init; owner-conf-C; map:62540; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62540; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007d31f0, 0x15, STATIC_INIT_DISPATCH, "spell_sparks#4")
 
 // name:C; dyninit; see ledger; map:62541
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "spell_sparks#4")
 
-// confidence:A; dyninit-init; owner-conf-C; map:62542; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62542; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007d3210, 0x10, STATIC_INIT_DISPATCH, "spell_sparks#5")
 
 // name:C; dyninit; see ledger; map:62543
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "spell_sparks#5")
 
-// confidence:A; dyninit-init; owner-conf-C; map:62544; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62544; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007d3220, 0x15, STATIC_INIT_DISPATCH, "spell_sparks#6")
 
 // name:C; dyninit; see ledger; map:62545
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "spell_sparks#6")
 
-// confidence:B; align-order; retn,stable; map:38097
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:38097
 VA_CHT_1(0x007d3240, 0x306)
 t_combat_creature_list get_sparks_targets(t_combat_creature* arg_0, t_direction arg_1)
 {
@@ -55,7 +55,7 @@ t_combat_creature_list get_sparks_targets(t_combat_creature* arg_0, t_direction 
 
 namespace {
 
-// confidence:A; align-order; stable,vptr; map:38098
+// confidence:D; align-order; stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:38098
 VA_CHT_1(0x007d3550, 0x18d)
 t_sparks_damage::t_sparks_damage(
     t_counted_ptr<t_combat_creature> arg_0,
@@ -67,7 +67,7 @@ t_sparks_damage::t_sparks_damage(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:38099
+// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:38099
 VA_CHT_1(0x007d37f0, 0x88)
 void t_sparks_damage::operator()()
 {
@@ -76,19 +76,19 @@ void t_sparks_damage::operator()()
 
 } // anonymous namespace
 
-// confidence:A; dyninit-init; owner-conf-C; map:62546; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62546; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007d3880, 0x11, STATIC_INIT_DISPATCH, "spell_sparks#7")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:62547; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62547; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007d38a0, 0xd1, STATIC_CTOR, "spell_sparks#7")
 
 // name:C; dyninit; see ledger; map:62548
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "spell_sparks#7")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:62549; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62549; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007d3980, 0xa, STATIC_DTOR, "spell_sparks#7")
 
-// confidence:A; dyninit-init; owner-conf-C; map:62550; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62550; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007d3990, 0x1c, STATIC_INIT_DISPATCH, "spell_sparks#8")
 
 // name:C; dyninit; see ledger; map:62551
@@ -101,7 +101,7 @@ t_spell_sparks::t_spell_sparks(t_battlefield& arg_0, t_spell arg_1)
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:38101
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:38101
 VA_CHT_1(0x007d3a70, 0x22)
 bool t_spell_sparks::begin_casting()
 {
@@ -115,7 +115,7 @@ double t_spell_sparks::get_cancel_weight(t_combat_creature const& arg_0) const
     // Body unavailable.
 }
 
-// confidence:A; align-order; stable,vslot; map:38103
+// confidence:D; align-order; stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:38103
 VA_CHT_1(0x007d3aa0, 0x66)
 bool t_spell_sparks::cast_on(
     t_counted_ptr<t_combat_creature> arg_0,
@@ -127,7 +127,7 @@ bool t_spell_sparks::cast_on(
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:38104
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:38104
 VA_CHT_1(0x007d3b10, 0x4c0)
 void t_spell_sparks::cast(
     t_counted_ptr<t_combat_creature> arg_0,
@@ -140,66 +140,66 @@ void t_spell_sparks::cast(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:38105
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:38105
 VA_CHT_1(0x007d3fd0, 0x1d2)
 void t_spell_sparks::execute(t_combat_creature& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:38106
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:38106
 VA_CHT_1(0x007d41b0, 0x8)
 int t_spell_sparks::get_value(t_combat_creature* arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-init; owner-conf-C; map:62552; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62552; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007d41c0, 0x11, STATIC_INIT_DISPATCH, "spell_sparks#9")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:62553; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62553; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007d41e0, 0xd1, STATIC_CTOR, "spell_sparks#9")
 
 // name:C; dyninit; see ledger; map:62554
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "spell_sparks#9")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:62555; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62555; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007d42c0, 0xa, STATIC_DTOR, "spell_sparks#9")
 
-// confidence:A; dyninit-init; owner-conf-C; map:62556; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62556; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007d42d0, 0x11, STATIC_INIT_DISPATCH, "spell_sparks#10")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:62557; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62557; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007d42f0, 0xd1, STATIC_CTOR, "spell_sparks#10")
 
 // name:C; dyninit; see ledger; map:62558
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "spell_sparks#10")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:62559; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62559; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007d43d0, 0xa, STATIC_DTOR, "spell_sparks#10")
 
-// confidence:A; align-order; retn,stable,vslot; map:38107
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:38107
 VA_CHT_1(0x007d43e0, 0x24e)
 t_mouse_window* t_spell_sparks::mouse_move(t_screen_point const& arg_0, std::string& arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:38108
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:38108
 VA_CHT_1(0x007d4630, 0xf)
 void t_spell_sparks::begin_attack(t_combat_creature& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:38109
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:38109
 VA_CHT_1(0x007d4640, 0x19b)
 void t_spell_sparks::move_to_attack(t_map_point_2d const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:38110
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:38110
 VA_CHT_1(0x007d47e0, 0x186)
 bool t_spell_sparks::left_click(t_screen_point const& arg_0)
 {
@@ -213,7 +213,7 @@ void t_spell_sparks::execute_mirror_spell(t_counted_ptr<t_combat_creature> arg_0
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:38112
+// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:38112
 VA_CHT_1(0x007d4970, 0x161)
 std::list<t_counted_ptr<t_abstract_combat_ai_action>, std::allocator<t_counted_ptr<t_abstract_combat_ai_action>>> t_spell_sparks::generate_combat_ai_action_list(
     t_combat_ai& arg_0
@@ -222,10 +222,10 @@ std::list<t_counted_ptr<t_abstract_combat_ai_action>, std::allocator<t_counted_p
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:62560; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:62560; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007d4bc0, 0x20, STATIC_INIT_DISPATCH, spell_sparks)
 
-// confidence:A; align-band; retn,stable,vslot; map:38113
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:38113
 VA_CHT_1_COMPGEN(0x007d36e0, 0x1e, SCALAR_DELETING_DTOR, t_sparks_damage)
 
 // name:A; map symbol; map:38114
@@ -242,7 +242,7 @@ t_sparks_damage::~t_sparks_damage()
 
 } // anonymous namespace
 
-// confidence:A; align-band; retn,stable,vslot; map:38116
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:38116
 VA_CHT_1_COMPGEN(0x007d39b0, 0x1e, VECTOR_DELETING_DTOR, t_spell_sparks)
 
 // name:A; map symbol; map:38117
@@ -269,7 +269,7 @@ t_counted_ptr<t_spell_actor_animation>::t_counted_ptr<t_spell_actor_animation>(t
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:38121
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:38121
 VA_CHT_1(0x007d4b60, 0x57)
 t_handler_1<t_combat_creature&> bound_handler(
     t_spell_sparks& arg_0,
@@ -286,7 +286,7 @@ t_spell_factory<t_spell_sparks>::t_spell_factory<t_spell_sparks>()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,vslot; map:38123
+// confidence:D; align-band; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:38123
 VA_CHT_1(0x007d4ae0, 0x7c)
 t_combat_spell* t_spell_factory<t_spell_sparks>::create(t_battlefield& arg_0, t_spell arg_1) const
 {
@@ -328,7 +328,7 @@ t_bound_handler_1<t_spell_sparks, t_combat_creature&>::~t_bound_handler_1<t_spel
 // name:A; map symbol; map:38129
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, t_sparks_damage)
 
-// confidence:C; align-order; stable; map:38130
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:38130
 VA_CHT_1_COMPGEN(0x007d4bf0, 0x8, VECTOR_DELETING_DTOR, "t_bound_handler_1<t_spell_sparks, t_combat_creature&>")
 
 // === .rdata (6 symbols) ===

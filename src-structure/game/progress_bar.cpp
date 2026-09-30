@@ -1,7 +1,7 @@
 // progress_bar.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 22/29 (A:19 B:3 C:0); unaccounted 7; skipped std 1.
+// Accounted 22/29 (A:13 B:1 C:0); unaccounted 7; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,33 +10,33 @@
 
 // === .text (14 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:63689; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:63689; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00762250, 0x11, STATIC_INIT_DISPATCH, "progress_bar#1")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:63690; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:63690; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00762270, 0xd7, STATIC_CTOR, "progress_bar#1")
 
 // name:C; dyninit; see ledger; map:63691
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "progress_bar#1")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:63692; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:63692; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00762350, 0xa, STATIC_DTOR, "progress_bar#1")
 
-// confidence:A; align-order; stable,vptr; map:32228
+// confidence:D; align-order; stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:32228
 VA_CHT_1(0x00762360, 0x4d6)
 t_progress_bar::t_progress_bar(t_screen_point arg_0, t_window* arg_1, char const* arg_2)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:32229
+// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:32229
 VA_CHT_1(0x00762930, 0x99)
 void t_progress_bar::update_progress()
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:63693; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:63693; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007629d0, 0x20, STATIC_INIT_DISPATCH, progress_bar)
 
 // name:A; map symbol; map:32230
@@ -46,13 +46,13 @@ t_progress_handler::t_progress_handler()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:32231
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:32231
 VA_CHT_1_COMPGEN(0x00762840, 0x1e, VECTOR_DELETING_DTOR, t_progress_handler)
 
 // name:A; map symbol; map:32232
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, t_progress_handler)
 
-// confidence:A; align-band; retn,stable,vslot; map:32233
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:32233
 VA_CHT_1_COMPGEN(0x00762860, 0x1e, VECTOR_DELETING_DTOR, t_progress_bar)
 
 // name:A; map symbol; map:32234

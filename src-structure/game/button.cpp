@@ -1,7 +1,7 @@
 // button.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 27/51 (A:20 B:4 C:3); unaccounted 24; skipped std 14.
+// Accounted 27/51 (A:4 B:0 C:0); unaccounted 24; skipped std 14.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,7 +10,7 @@
 
 // === .text (47 symbols) ===
 
-// confidence:A; align-order; stable,vptr; map:18478
+// confidence:D; align-order; stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:18478
 VA_CHT_1(0x00581b90, 0x554)
 t_button::t_button(
     t_cached_ptr<t_button_bitmaps>& arg_0,
@@ -22,126 +22,126 @@ t_button::t_button(
     // Body unavailable.
 }
 
-// confidence:A; align-order; stable,vptr; map:18479
+// confidence:D; align-order; stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:18479
 VA_CHT_1(0x00582320, 0x1b3)
 t_button::t_button(t_screen_point arg_0, t_window* arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; stable,vslot; map:18480
+// confidence:D; align-order; stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18480
 VA_CHT_1(0x005824e0, 0xda)
 bool t_button::is_contained(t_screen_point arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; stable,vslot; map:18481
+// confidence:D; align-order; stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18481
 VA_CHT_1(0x005825c0, 0x16e)
 t_window* t_button::get_child(t_screen_point arg_0, bool arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; stable,vslot; map:18482
+// confidence:D; align-order; stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18482
 VA_CHT_1(0x00582730, 0x190)
 bool t_button::key_down(t_key_event arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:18483
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18483
 VA_CHT_1(0x005828c0, 0x25)
 bool t_button::key_press(char arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:18484
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18484
 VA_CHT_1(0x005828f0, 0x10b)
 void t_button::left_button_down(t_mouse_event const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:18485
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18485
 VA_CHT_1(0x00582a00, 0x3a)
 void t_button::left_button_up(t_mouse_event const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:18486
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18486
 VA_CHT_1(0x00582a40, 0x2b)
 void t_button::right_button_up(t_mouse_event const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:18487
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18487
 VA_CHT_1(0x00582a70, 0x27)
 void t_button::left_double_click(t_mouse_event const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:18488
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18488
 VA_CHT_1(0x00582aa0, 0x38)
 void t_button::mouse_leaving(t_window* arg_0, t_window* arg_1, t_mouse_event const& arg_2)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:18489
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18489
 VA_CHT_1(0x00582ae0, 0x5a)
 void t_button::mouse_move(t_mouse_event const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:18490
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18490
 VA_CHT_1(0x00582b40, 0xad)
 t_screen_rect t_button::compute_size()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:18491
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18491
 VA_CHT_1(0x00582bf0, 0x6a)
 void t_button::update_transparency()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:18492
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18492
 VA_CHT_1(0x00582c60, 0x74)
 void t_button::update_size()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:18493
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18493
 VA_CHT_1(0x00582ce0, 0x132)
 void t_button::set_image()
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:18494
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18494
 VA_CHT_1(0x00582e20, 0x1c)
 void t_button::set_highlighted(bool arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:18495
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18495
 VA_CHT_1(0x00582e40, 0x1c)
 void t_button::set_pressed(bool arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:18496
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18496
 VA_CHT_1(0x00582e60, 0xa51)
 void t_button::add_text(
     std::string const& arg_0,
@@ -163,14 +163,14 @@ void t_button::set_text(std::string const& arg_0)
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:18498
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18498
 VA_CHT_1(0x005838c0, 0x431)
 void set_button_layers(t_button* arg_0, t_cached_ptr<t_bitmap_group> arg_1, std::string arg_2)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:18499
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18499
 VA_CHT_1(0x00583d00, 0x1d7)
 t_button* create_button(
     t_cached_ptr<t_bitmap_group> arg_0,
@@ -182,7 +182,7 @@ t_button* create_button(
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:68879; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:68879; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00583ee0, 0x20, STATIC_INIT_DISPATCH, button)
 
 // name:A; map symbol; map:18500
@@ -255,7 +255,7 @@ t_screen_rect const& t_button_bitmaps::get_highlighted_pressed_rect() const
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:18510
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18510
 VA_CHT_1_COMPGEN(0x005820f0, 0x1e, VECTOR_DELETING_DTOR, t_button)
 
 // name:A; map symbol; map:18511

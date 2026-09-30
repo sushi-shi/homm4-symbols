@@ -1,7 +1,7 @@
 // drag_creature.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 11/12 (A:10 B:1 C:0); unaccounted 1; skipped std 1.
+// Accounted 11/12 (A:5 B:0 C:0); unaccounted 1; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,7 +10,7 @@
 
 // === .text (7 symbols) ===
 
-// confidence:A; align-order; retn,stable,vptr; map:25808
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:25808
 VA_CHT_1(0x0069aa90, 0x31a)
 t_drag_creature::t_drag_creature(
     t_creature_stack* arg_0,
@@ -23,31 +23,31 @@ t_drag_creature::t_drag_creature(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vptr; map:25809
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:25809
 VA_CHT_1(0x0069add0, 0x171)
 t_drag_creature::~t_drag_creature()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:25810
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:25810
 VA_CHT_1(0x0069af50, 0xb0)
 void t_drag_creature::accepted(t_window* arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:25811
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25811
 VA_CHT_1(0x0069b000, 0xdd)
 void t_drag_creature::swap(t_counted_ptr<t_creature_stack>& arg_0, int arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:65538; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:65538; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0069b0e0, 0x20, STATIC_INIT_DISPATCH, drag_creature)
 
-// confidence:A; align-band; retn,stable,vslot; map:25812
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:25812
 VA_CHT_1_COMPGEN(0x0069adb0, 0x1e, SCALAR_DELETING_DTOR, t_drag_creature)
 
 // name:A; map symbol; map:25813

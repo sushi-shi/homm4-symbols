@@ -1,7 +1,7 @@
 // adv_move_booster.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 50/83 (A:38 B:6 C:6); unaccounted 33; skipped std 1.
+// Accounted 50/83 (A:24 B:4 C:0); unaccounted 33; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,32 +10,32 @@
 
 // === .text (40 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:71028; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:71028; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00441e00, 0x15, STATIC_INIT_DISPATCH, "adv_move_booster#1")
 
 // name:C; dyninit; see ledger; map:71029
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "adv_move_booster#1")
 
-// confidence:A; dyninit-init; owner-conf-C; map:71030; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:71030; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00441e20, 0x1c, STATIC_INIT_DISPATCH, "adv_move_booster#2")
 
 // name:C; dyninit; see ledger; map:71031
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "adv_move_booster#2")
 
-// confidence:A; dyninit-init; owner-conf-C; map:71032; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:71032; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00441e40, 0x1c, STATIC_INIT_DISPATCH, "adv_move_booster#3")
 
 // name:C; dyninit; see ledger; map:71033
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "adv_move_booster#3")
 
-// confidence:A; align-order; retn,stable,vptr; map:4845
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:4845
 VA_CHT_1(0x00441e60, 0x111)
 t_adv_move_booster::t_adv_move_booster(std::string const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:4846
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:4846
 VA_CHT_1(0x00442010, 0x312)
 void t_adv_move_booster::show_dialog(
     t_army* arg_0,
@@ -47,7 +47,7 @@ void t_adv_move_booster::show_dialog(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:4847
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:4847
 VA_CHT_1(0x00442330, 0x80)
 void t_adv_move_booster::activate_trigger(
     t_army* arg_0,
@@ -59,14 +59,14 @@ void t_adv_move_booster::activate_trigger(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:4848
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:4848
 VA_CHT_1(0x004423b0, 0x1e8)
 std::string t_adv_move_booster::get_balloon_help() const
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:4849
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:4849
 VA_CHT_1(0x004425a0, 0x6d)
 void t_adv_move_booster::get_bonus(t_creature_array const& arg_0, int& arg_1, int& arg_2) const
 {
@@ -84,14 +84,14 @@ float t_adv_move_booster::ai_value(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vptr; map:4851
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:4851
 VA_CHT_1(0x00442710, 0xc0)
 t_adv_pathfinder::t_adv_pathfinder(std::string const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:4852
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:4852
 VA_CHT_1(0x00442860, 0xc6)
 void t_adv_pathfinder::activate_trigger(
     t_army* arg_0,
@@ -110,12 +110,12 @@ void t_adv_pathfinder::get_bonus(t_creature_array const& arg_0, int& arg_1, int&
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:71034; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:71034; name:B (dyninit; see ledger)
 VA_CHT_1(0x00442b60, 0x20)
 // adv_move_booster$tinit1
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:71036; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:71036; name:B (dyninit; see ledger)
 VA_CHT_1(0x00442b80, 0x5c)
 // adv_move_booster$tinit2
 // Function body not reconstructed; signature retained as a comment.
@@ -135,13 +135,13 @@ VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 // adv_move_booster$tatexit4
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; align-band; retn,stable,vslot; map:4854
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:4854
 VA_CHT_1_COMPGEN(0x00441f80, 0x2d, VECTOR_DELETING_DTOR, t_adv_move_booster)
 
 // name:A; map symbol; map:4855
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, t_adv_move_booster)
 
-// confidence:C; align-band; retn,stable; map:4856
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:4856
 VA_CHT_1(0x00442800, 0x57)
 // public: void t_adv_move_booster::`vbase dtor'(void)
 // Function body not reconstructed; signature retained as a comment.
@@ -160,14 +160,14 @@ t_creature_array const& t_army::get_creatures() const
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:4859
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:4859
 VA_CHT_1(0x00441fb0, 0x57)
 int t_creature_array::get_max_movement() const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:4860
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:4860
 VA_CHT_1_COMPGEN(0x004427d0, 0x2d, SCALAR_DELETING_DTOR, t_adv_pathfinder)
 
 // name:A; map symbol; map:4861
@@ -206,7 +206,7 @@ t_object_factory<t_adv_move_booster>::t_object_factory<t_adv_move_booster>()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:4867
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:4867
 VA_CHT_1(0x00442a80, 0x62)
 t_stationary_adventure_object* t_object_factory<t_adv_move_booster>::create(
     std::string const& arg_0,
@@ -223,7 +223,7 @@ t_object_factory<t_adv_pathfinder>::t_object_factory<t_adv_pathfinder>()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:4869
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:4869
 VA_CHT_1(0x00442af0, 0x62)
 t_stationary_adventure_object* t_object_factory<t_adv_pathfinder>::create(
     std::string const& arg_0,
@@ -233,16 +233,16 @@ t_stationary_adventure_object* t_object_factory<t_adv_pathfinder>::create(
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:4870
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:4870
 VA_CHT_1_COMPGEN(0x00442be0, 0x8, VECTOR_DELETING_DTOR, t_adv_move_booster)
 
-// confidence:C; align-order; stable; map:4871
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:4871
 VA_CHT_1_COMPGEN(0x00442bf0, 0xb, VECTOR_DELETING_DTOR, t_adv_move_booster)
 
-// confidence:C; align-order; stable; map:4872
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:4872
 VA_CHT_1_COMPGEN(0x00442c00, 0x8, VECTOR_DELETING_DTOR, t_adv_pathfinder)
 
-// confidence:C; align-order; stable; map:4873
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:4873
 VA_CHT_1_COMPGEN(0x00442c10, 0xb, VECTOR_DELETING_DTOR, t_adv_pathfinder)
 
 // === .rdata (17 symbols) ===

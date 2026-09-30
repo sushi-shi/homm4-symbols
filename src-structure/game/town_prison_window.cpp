@@ -1,7 +1,7 @@
 // town_prison_window.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\town_prison_window.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 58/86 (A:36 B:19 C:3); unaccounted 28; skipped std 19.
+// Accounted 58/86 (A:24 B:5 C:0); unaccounted 28; skipped std 19.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,115 +10,115 @@
 
 // === .text (54 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:61645; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:61645; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00810750, 0x15, STATIC_INIT_DISPATCH, "town_prison_window#1")
 
 // name:C; dyninit; see ledger; map:61646
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "town_prison_window#1")
 
-// confidence:A; dyninit-init; owner-conf-B; map:61647; name:A (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:61647; name:A (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00810770, 0x11, STATIC_INIT_DISPATCH, k_text_class_level)
 
-// confidence:B; dyninit-ctor; owner-conf-B; map:61648; name:A (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:61648; name:A (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00810790, 0xd1, STATIC_CTOR, k_text_class_level)
 
 // name:A; dyninit; see ledger; map:61649
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, k_text_class_level)
 
-// confidence:B; dyninit-dtor; owner-conf-B; map:61650; name:A (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:61650; name:A (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00810870, 0xa, STATIC_DTOR, k_text_class_level)
 
-// confidence:A; dyninit-init; owner-conf-C; map:61651; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:61651; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00810880, 0x11, STATIC_INIT_DISPATCH, "town_prison_window#3")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:61652; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:61652; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x008108a0, 0xd1, STATIC_CTOR, "town_prison_window#3")
 
 // name:C; dyninit; see ledger; map:61653
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "town_prison_window#3")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:61654; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:61654; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00810980, 0xa, STATIC_DTOR, "town_prison_window#3")
 
-// confidence:A; dyninit-init; owner-conf-C; map:61655; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:61655; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00810990, 0x11, STATIC_INIT_DISPATCH, "town_prison_window#4")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:61656; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:61656; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x008109b0, 0xd1, STATIC_CTOR, "town_prison_window#4")
 
 // name:C; dyninit; see ledger; map:61657
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "town_prison_window#4")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:61658; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:61658; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00810a90, 0xa, STATIC_DTOR, "town_prison_window#4")
 
-// confidence:A; dyninit-init; owner-conf-B; map:61659; name:B (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:61659; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00810aa0, 0x11, STATIC_INIT_DISPATCH, k_prison_bitmaps)
 
-// confidence:B; dyninit-ctor; owner-conf-B; map:61660; name:B (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:61660; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00810ac0, 0xd7, STATIC_CTOR, k_prison_bitmaps)
 
 // name:B; dyninit; see ledger; map:61661
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, k_prison_bitmaps)
 
-// confidence:B; dyninit-dtor; owner-conf-B; map:61662; name:B (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:61662; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00810ba0, 0xa, STATIC_DTOR, k_prison_bitmaps)
 
-// confidence:A; align-order; retn,stable,vptr; map:39456
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:39456
 VA_CHT_1(0x00810bb0, 0x12d2)
 t_town_prison_window::t_town_prison_window(t_town* arg_0, t_adventure_frame* arg_1, t_window* arg_2)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:39457
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:39457
 VA_CHT_1(0x00812020, 0x747)
 void t_town_prison_window::create_frames(t_screen_point const& arg_0, int arg_1, t_window* arg_2)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:39458
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:39458
 VA_CHT_1(0x00812770, 0x227)
 void t_town_prison_window::update_frames(int arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:39459
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:39459
 VA_CHT_1(0x008129a0, 0x39d)
 void t_town_prison_window::set_highlight(int arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:39460
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:39460
 VA_CHT_1(0x00812d40, 0x1b)
 void t_town_prison_window::portrait_clicked(t_button* arg_0, int arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:39461
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:39461
 VA_CHT_1(0x00812d60, 0x2d)
 void t_town_prison_window::scrollbar_move(t_scrollbar* arg_0, int arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:39462
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:39462
 VA_CHT_1(0x00812ed0, 0x52)
 void t_town_prison_window::close_click(t_button* arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:61663; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:61663; name:B (dyninit; see ledger)
 VA_CHT_1(0x00812f30, 0x20)
 // town_prison_window$tinit1
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:61665; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:61665; name:B (dyninit; see ledger)
 VA_CHT_1(0x00812f50, 0x5c)
 // town_prison_window$tinit2
 // Function body not reconstructed; signature retained as a comment.
@@ -138,7 +138,7 @@ VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 // town_prison_window$tatexit4
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; align-band; retn,stable,vslot; map:39463
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:39463
 VA_CHT_1_COMPGEN(0x00811e90, 0x1e, SCALAR_DELETING_DTOR, t_town_prison_window)
 
 // name:A; map symbol; map:39464
@@ -178,7 +178,7 @@ t_handler_2<t_button*, int> bound_handler(
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:39487
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:39487
 VA_CHT_1(0x00812db0, 0x5e)
 t_bound_handler_2<t_town_prison_window, t_scrollbar*, int>::t_bound_handler_2<t_town_prison_window, t_scrollbar*, int>(
     t_town_prison_window& arg_0,
@@ -195,7 +195,7 @@ void t_bound_handler_2<t_town_prison_window, t_scrollbar*, int>::operator()(t_sc
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:39489
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:39489
 VA_CHT_1(0x00812e10, 0x5e)
 t_bound_handler_1<t_town_prison_window, t_button*>::t_bound_handler_1<t_town_prison_window, t_button*>(
     t_town_prison_window& arg_0,
@@ -212,7 +212,7 @@ void t_bound_handler_1<t_town_prison_window, t_button*>::operator()(t_button* ar
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:39491
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:39491
 VA_CHT_1(0x00812e70, 0x5e)
 t_bound_handler_2<t_town_prison_window, t_button*, int>::t_bound_handler_2<t_town_prison_window, t_button*, int>(
     t_town_prison_window& arg_0,
@@ -272,13 +272,13 @@ t_bound_handler_2<t_town_prison_window, t_button*, int>::~t_bound_handler_2<t_to
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:39502
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:39502
 VA_CHT_1_COMPGEN(0x00812fb0, 0x8, VECTOR_DELETING_DTOR, "t_bound_handler_2<t_town_prison_window, t_scrollbar*, int>")
 
-// confidence:C; align-order; stable; map:39503
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:39503
 VA_CHT_1_COMPGEN(0x00812fc0, 0x8, VECTOR_DELETING_DTOR, "t_bound_handler_1<t_town_prison_window, t_button*>")
 
-// confidence:C; align-order; stable; map:39504
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:39504
 VA_CHT_1_COMPGEN(0x00812fd0, 0x8, VECTOR_DELETING_DTOR, "t_bound_handler_2<t_town_prison_window, t_button*, int>")
 
 // === .rdata (7 symbols) ===

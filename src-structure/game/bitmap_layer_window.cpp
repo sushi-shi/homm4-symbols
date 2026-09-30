@@ -1,7 +1,7 @@
 // bitmap_layer_window.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 10/13 (A:8 B:1 C:1); unaccounted 3; skipped std 1.
+// Accounted 10/13 (A:4 B:0 C:0); unaccounted 3; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,7 +10,7 @@
 
 // === .text (9 symbols) ===
 
-// confidence:A; align-order; stable,vptr; map:18230
+// confidence:D; align-order; stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:18230
 VA_CHT_1(0x00579c80, 0xfb)
 t_bitmap_layer_window::t_bitmap_layer_window(
     t_bitmap_layer const* arg_0,
@@ -22,7 +22,7 @@ t_bitmap_layer_window::t_bitmap_layer_window(
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:18231
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18231
 VA_CHT_1(0x00579d80, 0x92)
 void t_bitmap_layer_window::set_bitmap(t_bitmap_layer const* arg_0, bool arg_1)
 {
@@ -36,28 +36,28 @@ void t_bitmap_layer_window::on_bitmap_changed()
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:18233
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18233
 VA_CHT_1(0x00579e20, 0xc7)
 void t_bitmap_layer_window::set_bitmap(t_bitmap_layer const* arg_0, t_screen_point arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; stable,vslot; map:18234
+// confidence:D; align-order; stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18234
 VA_CHT_1(0x00579ef0, 0x9e)
 bool t_bitmap_layer_window::is_contained(t_screen_point arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:18235
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18235
 VA_CHT_1(0x00579f90, 0x110)
 void t_bitmap_layer_window::paint(t_paint_surface& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:68951; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:68951; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0057a0a0, 0x20, STATIC_INIT_DISPATCH, bitmap_layer_window)
 
 // name:A; map symbol; map:18236

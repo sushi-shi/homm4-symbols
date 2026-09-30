@@ -139,7 +139,7 @@ class StructureTests(unittest.TestCase):
                   "2": [], "3": [{"tier": "A"}]}
         result = structure.counts(rows, retail)
         self.assertEqual(result, dict(total=4, skipped_std=1, included=3,
-                                      accounted=2, unaccounted=1, A=1, B=0, C=1))
+                                  accounted=2, unaccounted=1, A=1, B=0, C=1, D=0))
 
     def test_source_tag_requires_same_object_basename(self):
         rows = [dict(mangled=r"?f@?%C:\work\game\other.cpp123@@YAXXZ"),

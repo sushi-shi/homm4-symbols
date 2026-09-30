@@ -1,7 +1,7 @@
 // magic_mirror.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 30/43 (A:24 B:2 C:4); unaccounted 13; skipped std 1.
+// Accounted 30/43 (A:12 B:2 C:0); unaccounted 13; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,43 +10,43 @@
 
 // === .text (27 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:64717; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:64717; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x006f4450, 0x15, STATIC_INIT_DISPATCH, "magic_mirror#1")
 
 // name:C; dyninit; see ledger; map:64718
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "magic_mirror#1")
 
-// confidence:A; dyninit-init; owner-conf-C; map:64719; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:64719; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x006f4470, 0x15, STATIC_INIT_DISPATCH, "magic_mirror#2")
 
 // name:C; dyninit; see ledger; map:64720
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "magic_mirror#2")
 
-// confidence:A; dyninit-init; owner-conf-C; map:64721; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:64721; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x006f4490, 0x15, STATIC_INIT_DISPATCH, "magic_mirror#3")
 
 // name:C; dyninit; see ledger; map:64722
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "magic_mirror#3")
 
-// confidence:A; dyninit-init; owner-conf-C; map:64723; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:64723; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x006f44b0, 0x15, STATIC_INIT_DISPATCH, "magic_mirror#4")
 
 // name:C; dyninit; see ledger; map:64724
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "magic_mirror#4")
 
-// confidence:A; dyninit-init; owner-conf-C; map:64725; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:64725; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x006f44d0, 0x10, STATIC_INIT_DISPATCH, "magic_mirror#5")
 
 // name:C; dyninit; see ledger; map:64726
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "magic_mirror#5")
 
-// confidence:A; dyninit-init; owner-conf-C; map:64727; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:64727; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x006f44e0, 0x15, STATIC_INIT_DISPATCH, "magic_mirror#6")
 
 // name:C; dyninit; see ledger; map:64728
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "magic_mirror#6")
 
-// confidence:A; align-order; vptr; map:28441
+// confidence:D; align-order; vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:28441
 VA_CHT_1(0x006f4500, 0xcb)
 t_mirror_spell_action::t_mirror_spell_action(
     t_counted_ptr<t_combat_creature> arg_0,
@@ -57,14 +57,14 @@ t_mirror_spell_action::t_mirror_spell_action(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:28442
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:28442
 VA_CHT_1(0x006f4670, 0x1fe)
 void t_mirror_spell_action::operator()()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:28443
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:28443
 VA_CHT_1(0x006f4890, 0x73)
 t_mirror_spell_handler::t_mirror_spell_handler(
     t_counted_ptr<t_combat_creature> arg_0,
@@ -75,31 +75,31 @@ t_mirror_spell_handler::t_mirror_spell_handler(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:28444
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:28444
 VA_CHT_1(0x006f4910, 0x8b)
 void t_mirror_spell_handler::operator()(t_window* arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:28445
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:28445
 VA_CHT_1(0x006f49a0, 0x2d6)
 void cast_and_mirror(t_combat_creature* arg_0, t_combat_creature* arg_1, t_spell arg_2, std::string arg_3)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:64729
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:64729
 VA_CHT_1(0x006f4c80, 0x12e)
 static std::string get_effect_text(t_spell arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:64730; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:64730; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x006f4db0, 0x20, STATIC_INIT_DISPATCH, magic_mirror)
 
-// confidence:A; align-band; retn,stable,vslot; map:28446
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:28446
 VA_CHT_1_COMPGEN(0x006f45d0, 0x1e, VECTOR_DELETING_DTOR, t_mirror_spell_action)
 
 // name:A; map symbol; map:28447
@@ -112,7 +112,7 @@ t_mirror_spell_action::~t_mirror_spell_action()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:28449
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:28449
 VA_CHT_1_COMPGEN(0x006f4870, 0x1e, VECTOR_DELETING_DTOR, t_mirror_spell_handler)
 
 // name:A; map symbol; map:28450
@@ -128,7 +128,7 @@ t_mirror_spell_handler::~t_mirror_spell_handler()
 // name:A; map symbol; map:28452
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, t_mirror_spell_handler)
 
-// confidence:C; align-order; stable; map:28453
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:28453
 VA_CHT_1_COMPGEN(0x006f4de0, 0x8, VECTOR_DELETING_DTOR, t_mirror_spell_action)
 
 // === .rdata (4 symbols) ===

@@ -6,5 +6,6 @@
   "image_base": "0x400000",
   "address_tag": "CHT_1",
   "funclets_rva": "46366e",
-  "source": "map"
+  "source": "map",
+  "unreviewed_function_tier": "D"
 }

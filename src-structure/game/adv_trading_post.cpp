@@ -1,7 +1,7 @@
 // adv_trading_post.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\adv_trading_post.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 26/39 (A:19 B:5 C:2); unaccounted 13; skipped std 1.
+// Accounted 26/39 (A:12 B:3 C:0); unaccounted 13; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,32 +10,32 @@
 
 // === .text (18 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-B; map:70732; name:B (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:70732; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0046c1c0, 0x1c, STATIC_INIT_DISPATCH, k_registration)
 
 // name:B; dyninit; see ledger; map:70733
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, k_registration)
 
-// confidence:A; align-order; retn,stable,vptr; map:6124
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:6124
 VA_CHT_1(0x0046c1e0, 0x111)
 t_adv_trading_post::t_adv_trading_post(std::string const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-init; owner-conf-C; map:70734; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:70734; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0046c390, 0x11, STATIC_INIT_DISPATCH, "adv_trading_post#2")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:70735; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:70735; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0046c3b0, 0xd1, STATIC_CTOR, "adv_trading_post#2")
 
 // name:C; dyninit; see ledger; map:70736
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "adv_trading_post#2")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:70737; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:70737; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0046c490, 0xa, STATIC_DTOR, "adv_trading_post#2")
 
-// confidence:A; align-order; retn,stable,vslot; map:6125
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:6125
 VA_CHT_1(0x0046c4a0, 0x230)
 void t_adv_trading_post::activate_trigger(
     t_army* arg_0,
@@ -47,16 +47,16 @@ void t_adv_trading_post::activate_trigger(
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:70738; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:70738; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0046c740, 0x20, STATIC_INIT_DISPATCH, adv_trading_post)
 
-// confidence:A; align-band; retn,stable,vslot; map:6126
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:6126
 VA_CHT_1_COMPGEN(0x0046c300, 0x2d, SCALAR_DELETING_DTOR, t_adv_trading_post)
 
 // name:A; map symbol; map:6127
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, t_adv_trading_post)
 
-// confidence:C; align-band; retn,stable; map:6128
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:6128
 VA_CHT_1(0x0046c330, 0x57)
 // public: void t_adv_trading_post::`vbase dtor'(void)
 // Function body not reconstructed; signature retained as a comment.
@@ -82,7 +82,7 @@ t_object_factory<t_adv_trading_post>::t_object_factory<t_adv_trading_post>()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:6132
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:6132
 VA_CHT_1(0x0046c6d0, 0x62)
 t_stationary_adventure_object* t_object_factory<t_adv_trading_post>::create(
     std::string const& arg_0,
@@ -95,7 +95,7 @@ t_stationary_adventure_object* t_object_factory<t_adv_trading_post>::create(
 // name:A; map symbol; map:6133
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, t_adv_trading_post)
 
-// confidence:C; align-order; stable; map:6134
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:6134
 VA_CHT_1_COMPGEN(0x0046c770, 0xb, VECTOR_DELETING_DTOR, t_adv_trading_post)
 
 // === .rdata (7 symbols) ===

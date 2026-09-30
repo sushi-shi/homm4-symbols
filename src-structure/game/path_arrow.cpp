@@ -1,7 +1,7 @@
 // path_arrow.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 15/28 (A:9 B:3 C:3); unaccounted 13; skipped std 1.
+// Accounted 15/28 (A:6 B:2 C:0); unaccounted 13; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,14 +10,14 @@
 
 // === .text (14 symbols) ===
 
-// confidence:A; align-order; retn,stable,vptr; map:31728
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:31728
 VA_CHT_1(0x007589e0, 0x150)
 t_path_arrow::t_path_arrow(t_direction arg_0, t_direction arg_1, t_path_arrow_color arg_2)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:63779
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:63779
 VA_CHT_1(0x00758b30, 0xe2)
 static std::string get_model_name(t_direction arg_0, t_direction arg_1, t_path_arrow_color arg_2)
 {
@@ -31,7 +31,7 @@ std::auto_ptr<t_abstract_adv_object> t_path_arrow::clone() const
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:31730
+// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:31730
 VA_CHT_1(0x00758c20, 0x2d)
 std::string t_path_arrow::get_name() const
 {
@@ -45,7 +45,7 @@ bool t_path_arrow::is_event_recordable() const
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:63780; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:63780; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00758df0, 0x20, STATIC_INIT_DISPATCH, path_arrow)
 
 // name:A; map symbol; map:31732
@@ -54,7 +54,7 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, t_path_arrow)
 // name:A; map symbol; map:31733
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, t_path_arrow)
 
-// confidence:C; align-band; retn,stable; map:31734
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:31734
 VA_CHT_1(0x00758c50, 0x57)
 // public: void t_path_arrow::`vbase dtor'(void)
 // Function body not reconstructed; signature retained as a comment.
@@ -76,10 +76,10 @@ t_path_arrow::t_path_arrow(t_path_arrow const& arg_0)
 // name:A; map symbol; map:31737
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, t_path_arrow)
 
-// confidence:C; align-order; stable; map:31738
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:31738
 VA_CHT_1_COMPGEN(0x00758e20, 0xb, VECTOR_DELETING_DTOR, t_path_arrow)
 
-// confidence:C; align-order; stable; map:31739
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:31739
 VA_CHT_1(0x00758e30, 0x8)
 // [thunk]: public: virtual std::auto_ptr<t_abstract_adv_object> t_path_arrow::clone`vtordisp{-4, 0}'(void) const
 // Function body not reconstructed; signature retained as a comment.

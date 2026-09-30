@@ -1,7 +1,7 @@
 // artifact_prop_ability.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 17/28 (A:16 B:0 C:1); unaccounted 11; skipped std 0.
+// Accounted 17/28 (A:12 B:0 C:0); unaccounted 11; skipped std 0.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -17,28 +17,28 @@ bool t_artifact_prop::t_give_ability::accept(t_artifact_effect_visitor& arg_0)
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:15375
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:15375
 VA_CHT_1(0x00537c10, 0x42)
 t_artifact_effect* t_artifact_prop::t_give_ability::clone() const
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:15376
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:15376
 VA_CHT_1(0x00537c70, 0x23)
 t_artifact_effect* t_artifact_prop::t_give_ability::create()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:15377
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:15377
 VA_CHT_1(0x00537ca0, 0x5e)
 bool t_artifact_prop::t_give_ability::read(std::basic_streambuf<char, std::char_traits<char>>& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:15378
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:15378
 VA_CHT_1(0x00537d00, 0x59)
 bool t_artifact_prop::t_give_ability::write(std::basic_streambuf<char, std::char_traits<char>>& arg_0) const
 {
@@ -99,7 +99,7 @@ t_artifact_prop::t_base<56>::t_base<56>()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:15389
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:15389
 VA_CHT_1(0x00537d60, 0x6)
 t_artifact_effect_type t_artifact_prop::t_base<56>::get_effect() const
 {

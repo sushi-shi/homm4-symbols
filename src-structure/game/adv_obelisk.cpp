@@ -1,7 +1,7 @@
 // adv_obelisk.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\adv_obelisk.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 28/58 (A:22 B:4 C:2); unaccounted 30; skipped std 75.
+// Accounted 28/58 (A:12 B:3 C:0); unaccounted 30; skipped std 75.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,19 +10,19 @@
 
 // === .text (36 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:71018; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:71018; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00442c20, 0x15, STATIC_INIT_DISPATCH, "adv_obelisk#1")
 
 // name:C; dyninit; see ledger; map:71019
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "adv_obelisk#1")
 
-// confidence:A; dyninit-init; owner-conf-B; map:71020; name:B (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:71020; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00442c40, 0x1c, STATIC_INIT_DISPATCH, k_registration)
 
 // name:B; dyninit; see ledger; map:71021
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, k_registration)
 
-// confidence:A; align-order; retn,stable,vptr; map:4874
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:4874
 VA_CHT_1(0x00442c60, 0x11f)
 t_adv_obelisk::t_adv_obelisk(std::string const& arg_0)
 {
@@ -36,14 +36,14 @@ int t_adv_obelisk::get_version() const
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:4876
+// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:4876
 VA_CHT_1(0x00442d80, 0x2d)
 void t_adv_obelisk::initialize(t_adventure_map& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:4877
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:4877
 VA_CHT_1(0x00442e20, 0xd5)
 bool t_adv_obelisk::read(
     std::basic_streambuf<char, std::char_traits<char>>& arg_0,
@@ -61,7 +61,7 @@ bool t_adv_obelisk::write(std::basic_streambuf<char, std::char_traits<char>>& ar
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:4879
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:4879
 VA_CHT_1(0x00442f80, 0x65a)
 void t_adv_obelisk::activate_trigger(
     t_army* arg_0,
@@ -73,14 +73,14 @@ void t_adv_obelisk::activate_trigger(
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:4880
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:4880
 VA_CHT_1(0x004435e0, 0x736)
 void t_adv_obelisk::place_artifact(t_adventure_map* arg_0, t_army* arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:4881
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:4881
 VA_CHT_1(0x00443d20, 0x20)
 void t_adv_obelisk::place(t_adventure_map& arg_0, t_adv_map_point const& arg_1)
 {
@@ -94,12 +94,12 @@ float t_adv_obelisk::ai_value(t_adventure_ai const& arg_0, t_creature_array cons
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:71022; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:71022; name:B (dyninit; see ledger)
 VA_CHT_1(0x00443ec0, 0x20)
 // adv_obelisk$tinit1
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:71024; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:71024; name:B (dyninit; see ledger)
 VA_CHT_1(0x00443ee0, 0x5c)
 // adv_obelisk$tinit2
 // Function body not reconstructed; signature retained as a comment.
@@ -216,7 +216,7 @@ t_object_factory<t_adv_obelisk>::t_object_factory<t_adv_obelisk>()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:4972
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:4972
 VA_CHT_1(0x00443e50, 0x62)
 t_stationary_adventure_object* t_object_factory<t_adv_obelisk>::create(
     std::string const& arg_0,
@@ -226,10 +226,10 @@ t_stationary_adventure_object* t_object_factory<t_adv_obelisk>::create(
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:4973
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:4973
 VA_CHT_1_COMPGEN(0x00443f40, 0x8, VECTOR_DELETING_DTOR, t_adv_obelisk)
 
-// confidence:C; align-order; stable; map:4974
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:4974
 VA_CHT_1_COMPGEN(0x00443f50, 0xb, VECTOR_DELETING_DTOR, t_adv_obelisk)
 
 // === .rdata (8 symbols) ===

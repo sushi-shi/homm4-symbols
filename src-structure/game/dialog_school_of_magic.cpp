@@ -1,7 +1,7 @@
 // dialog_school_of_magic.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 43/66 (A:31 B:9 C:3); unaccounted 23; skipped std 1.
+// Accounted 43/66 (A:24 B:3 C:0); unaccounted 23; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,26 +10,26 @@
 
 // === .text (36 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:65787; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:65787; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00684600, 0x11, STATIC_INIT_DISPATCH, "dialog_school_of_magic#1")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:65788; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:65788; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00684620, 0xd7, STATIC_CTOR, "dialog_school_of_magic#1")
 
 // name:C; dyninit; see ledger; map:65789
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "dialog_school_of_magic#1")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:65790; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:65790; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00684700, 0xa, STATIC_DTOR, "dialog_school_of_magic#1")
 
-// confidence:A; align-order; retn,stable,vptr; map:25280
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:25280
 VA_CHT_1(0x00684710, 0x13c)
 t_dialog_school_of_magic::t_dialog_school_of_magic(t_window* arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:25281
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25281
 VA_CHT_1(0x006849d0, 0x12d)
 void t_dialog_school_of_magic::create_skill_toggle_buttons(
     t_screen_rect arg_0,
@@ -41,7 +41,7 @@ void t_dialog_school_of_magic::create_skill_toggle_buttons(
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:25282
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25282
 VA_CHT_1(0x00684b00, 0x1b94)
 int t_dialog_school_of_magic::init_dialog(
     std::vector<t_hero*, std::allocator<t_hero*>> const& arg_0,
@@ -55,21 +55,21 @@ int t_dialog_school_of_magic::init_dialog(
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:25283
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25283
 VA_CHT_1(0x006866a0, 0x466)
 void t_dialog_school_of_magic::choose_skill(t_button* arg_0, int arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:25284
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25284
 VA_CHT_1(0x00686b10, 0x307)
 void t_dialog_school_of_magic::buy_clicked(t_button* arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:25285
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25285
 VA_CHT_1(0x00686e20, 0x361)
 void t_dialog_school_of_magic::hero_selection_change(t_creature_select_window* arg_0, t_creature_stack* arg_1)
 {
@@ -83,10 +83,10 @@ void t_dialog_school_of_magic::close_clicked(t_button* arg_0)
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:65791; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:65791; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00687310, 0x20, STATIC_INIT_DISPATCH, dialog_school_of_magic)
 
-// confidence:A; align-band; retn,stable,vslot; map:25287
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:25287
 VA_CHT_1_COMPGEN(0x00684850, 0x1e, VECTOR_DELETING_DTOR, t_dialog_school_of_magic)
 
 // name:A; map symbol; map:25288
@@ -129,7 +129,7 @@ t_handler_1<t_button*> bound_handler(
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:25293
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:25293
 VA_CHT_1(0x00687190, 0x5e)
 t_bound_handler_2<t_dialog_school_of_magic, t_button*, int>::t_bound_handler_2<t_dialog_school_of_magic, t_button*, int>(
     t_dialog_school_of_magic& arg_0,
@@ -146,7 +146,7 @@ void t_bound_handler_2<t_dialog_school_of_magic, t_button*, int>::operator()(t_b
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:25295
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:25295
 VA_CHT_1(0x006871f0, 0x5e)
 t_bound_handler_2<t_dialog_school_of_magic, t_creature_select_window*, t_creature_stack*>::t_bound_handler_2<t_dialog_school_of_magic, t_creature_select_window*, t_creature_stack*>(
     t_dialog_school_of_magic& arg_0,
@@ -166,7 +166,7 @@ void t_bound_handler_2<t_dialog_school_of_magic, t_creature_select_window*, t_cr
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:25297
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:25297
 VA_CHT_1(0x00687250, 0x5e)
 t_bound_handler_1<t_dialog_school_of_magic, t_button*>::t_bound_handler_1<t_dialog_school_of_magic, t_button*>(
     t_dialog_school_of_magic& arg_0,
@@ -231,10 +231,10 @@ t_bound_handler_1<t_dialog_school_of_magic, t_button*>::~t_bound_handler_1<t_dia
 // name:A; map symbol; map:25308
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, "t_bound_handler_2<t_dialog_school_of_magic, t_button*, int>")
 
-// confidence:C; align-order; stable; map:25309
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25309
 VA_CHT_1_COMPGEN(0x00687340, 0x8, VECTOR_DELETING_DTOR, "t_bound_handler_2<t_dialog_school_of_magic, t_creature_select_window*, t_creature_stack*>")
 
-// confidence:C; align-order; stable; map:25310
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:25310
 VA_CHT_1_COMPGEN(0x00687350, 0x8, VECTOR_DELETING_DTOR, "t_bound_handler_1<t_dialog_school_of_magic, t_button*>")
 
 // === .rdata (7 symbols) ===

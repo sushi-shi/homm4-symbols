@@ -1,7 +1,7 @@
 // font.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 37/62 (A:24 B:10 C:3); unaccounted 25; skipped std 2.
+// Accounted 37/62 (A:18 B:0 C:0); unaccounted 25; skipped std 2.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -17,7 +17,7 @@ void t_font_bitmap::create(int arg_0, int arg_1, int arg_2, int arg_3)
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:26318
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:26318
 VA_CHT_1(0x006ae910, 0x27a)
 void t_font_bitmap::draw_to(
     t_abstract_bitmap<unsigned short>& arg_0,
@@ -30,7 +30,7 @@ void t_font_bitmap::draw_to(
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:26319
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:26319
 VA_CHT_1(0x006aeb90, 0x18b)
 bool t_font_bitmap::read(std::basic_streambuf<char, std::char_traits<char>>& arg_0, int arg_1)
 {
@@ -44,7 +44,7 @@ bool t_font_bitmap::write(std::basic_streambuf<char, std::char_traits<char>>& ar
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vptr; map:26321
+// confidence:D; align-order; retn,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:26321
 VA_CHT_1(0x006aed20, 0x11)
 t_font::t_font()
 {
@@ -58,14 +58,14 @@ t_font::t_font(int arg_0, int arg_1, int arg_2, int arg_3, int arg_4)
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn; map:26323
+// confidence:D; align-order; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:26323
 VA_CHT_1(0x006aedd0, 0x29)
 t_font::~t_font()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:26324
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:26324
 VA_CHT_1(0x006aee30, 0xf6)
 void t_font::draw_to(
     t_abstract_bitmap<unsigned short>& arg_0,
@@ -79,21 +79,21 @@ void t_font::draw_to(
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:26325
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:26325
 VA_CHT_1(0x006aef30, 0xa3)
 int t_font::get_width(char const* arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:26326
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:26326
 VA_CHT_1(0x006aefe0, 0xc6)
 int t_font::get_column(char const* arg_0, int arg_1) const
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:26327
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:26327
 VA_CHT_1(0x006af0b0, 0x249)
 bool t_font::read(std::basic_streambuf<char, std::char_traits<char>>& arg_0)
 {
@@ -107,28 +107,28 @@ bool t_font::write(std::basic_streambuf<char, std::char_traits<char>>& arg_0) co
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:26329
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:26329
 VA_CHT_1(0x006af300, 0x42f)
 int t_font::wrap_text(t_string_vector& arg_0, char const* arg_1, int arg_2) const
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:26330
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:26330
 VA_CHT_1(0x006af730, 0xf2)
 int t_font::longest_word_length(char const* arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:26331
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:26331
 VA_CHT_1(0x006af830, 0x7c)
 int t_font::wrap_text(t_string_vector& arg_0, char const* arg_1, int arg_2, int arg_3) const
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:26332
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:26332
 VA_CHT_1(0x006af8b0, 0xe9)
 void t_font::draw_to(
     t_abstract_bitmap<unsigned short>& arg_0,
@@ -142,7 +142,7 @@ void t_font::draw_to(
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:26333
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:26333
 VA_CHT_1(0x006af9a0, 0x107)
 void t_font::draw_to(
     t_abstract_bitmap<unsigned short>& arg_0,
@@ -156,14 +156,14 @@ void t_font::draw_to(
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:26334
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:26334
 VA_CHT_1(0x006afab0, 0xfc)
 int t_font::get_wrapped_height(char const* arg_0, int arg_1) const
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:65421; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:65421; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x006afbb0, 0x20, STATIC_INIT_DISPATCH, font)
 
 // name:A; map symbol; map:26335
@@ -186,13 +186,13 @@ std::basic_streambuf<char, std::char_traits<char>>& operator<<(
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:26337
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:26337
 VA_CHT_1_COMPGEN(0x006aed40, 0x2c, VECTOR_DELETING_DTOR, t_font)
 
 // name:A; map symbol; map:26338
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, t_font)
 
-// confidence:A; align-band; retn,stable,vslot; map:26339
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:26339
 VA_CHT_1_COMPGEN(0x006aed70, 0x54, VECTOR_DELETING_DTOR, t_font_bitmap)
 
 // name:A; map symbol; map:26340
@@ -275,7 +275,7 @@ unsigned char const* t_abstract_bitmap<unsigned char>::byte_increment(unsigned c
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:26352
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:26352
 VA_CHT_1(0x00710f70, 0x17)
 t_abstract_bitmap<unsigned char>::~t_abstract_bitmap<unsigned char>()
 {
@@ -289,7 +289,7 @@ t_screen_rect t_abstract_bitmap<unsigned char>::get_rect() const
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,vptr; map:26354
+// confidence:D; align-band; retn,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:26354
 VA_CHT_1(0x006aee00, 0x22)
 t_abstract_bitmap<unsigned char>::t_abstract_bitmap<unsigned char>()
 {

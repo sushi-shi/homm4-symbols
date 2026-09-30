@@ -1,7 +1,7 @@
 // mini_map_renderer.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\mini_map_renderer.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 80/182 (A:50 B:13 C:17); unaccounted 102; skipped std 115.
+// Accounted 80/182 (A:32 B:0 C:0); unaccounted 102; skipped std 115.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,7 +10,7 @@
 
 // === .text (145 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:64253; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:64253; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007259a0, 0x15, STATIC_INIT_DISPATCH, "mini_map_renderer#1")
 
 // name:C; dyninit; see ledger; map:64254
@@ -23,7 +23,7 @@ mini_map_renderer_details::t_internal_map_data::t_internal_map_data(t_abstract_a
     // Body unavailable.
 }
 
-// confidence:C; align-order; map:30075
+// confidence:D; align-order; review-status=unreviewed;classification=D:not-a-best-guess; map:30075
 VA_CHT_1(0x00725bd0, 0xa)
 void mini_map_renderer_details::t_internal_map_data::add_renderer(t_mini_map_renderer* arg_0)
 {
@@ -39,7 +39,7 @@ int mini_map_renderer_details::t_internal_map_data::remove_renderer(t_mini_map_r
 
 namespace {
 
-// confidence:C; align-order; retn,stable; map:30077
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:30077
 VA_CHT_1(0x00725c00, 0x120)
 mini_map_renderer_details::t_internal_map_data* get_map_data_ptr(t_abstract_adventure_map const& arg_0)
 {
@@ -48,7 +48,7 @@ mini_map_renderer_details::t_internal_map_data* get_map_data_ptr(t_abstract_adve
 
 } // anonymous namespace
 
-// confidence:C; align-order; stable; map:30078
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:30078
 VA_CHT_1(0x00725d20, 0x4c3)
 // t_pixel_24 const* const (& get_terrain_color_source_table(void))[19]
 // Function body not reconstructed; signature retained as a comment.
@@ -150,7 +150,7 @@ VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 
 namespace {
 
-// confidence:A; align-order; retn,stable,vptr; map:30079
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:30079
 VA_CHT_1(0x00726320, 0xc4)
 t_terrain_color_table_maintainer::t_terrain_color_table_maintainer(unsigned short*(& arg_0)[19])
 {
@@ -164,7 +164,7 @@ void t_terrain_color_table_maintainer::build_color_table()
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:30081
+// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:30081
 VA_CHT_1(0x00726410, 0xaf)
 void t_terrain_color_table_maintainer::on_pixel_masks_changed()
 {
@@ -185,7 +185,7 @@ VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 
 namespace {
 
-// confidence:A; align-order; retn,stable,vptr; map:30083
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:30083
 VA_CHT_1(0x007264d0, 0x193)
 t_player_color_table_maintainer::t_player_color_table_maintainer(unsigned short (& arg_0)[7])
 {
@@ -199,14 +199,14 @@ void t_player_color_table_maintainer::build_color_table()
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:30085
+// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:30085
 VA_CHT_1(0x00726670, 0x153)
 void t_player_color_table_maintainer::on_pixel_masks_changed()
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:30086
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:30086
 VA_CHT_1(0x007267d0, 0x1ab)
 unsigned short get_terrain_color(
     t_abstract_adventure_map const& arg_0,
@@ -218,7 +218,7 @@ unsigned short get_terrain_color(
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:30087
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:30087
 VA_CHT_1(0x007269a0, 0x252)
 void draw_rect(
     t_screen_rect const& arg_0,
@@ -237,7 +237,7 @@ bool transitions_to_unexplored(t_shroud_transition_map const& arg_0, t_level_map
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:30089
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:30089
 VA_CHT_1(0x00726c00, 0x1fc)
 unsigned short get_color(
     t_abstract_adventure_map const& arg_0,
@@ -251,7 +251,7 @@ unsigned short get_color(
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:30090
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:30090
 VA_CHT_1(0x00726e00, 0x209)
 void invalidate_viewport_rect(t_screen_rect arg_0, t_screen_rect const& arg_1, t_clip_list& arg_2)
 {
@@ -281,7 +281,7 @@ void t_mini_map_renderer_client::on_view_resized(t_screen_point const& arg_0)
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:30094
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:30094
 VA_CHT_1(0x00727010, 0x26c)
 t_mini_map_renderer::t_impl::t_impl(
     t_mini_map_renderer& arg_0,
@@ -314,14 +314,14 @@ void t_mini_map_renderer::t_impl::dirty(t_clip_list const& arg_0)
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:30098
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:30098
 VA_CHT_1(0x00727280, 0x2e5)
 void t_mini_map_renderer::t_impl::draw(t_screen_rect const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:30099
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:30099
 VA_CHT_1(0x00727570, 0xe4)
 t_screen_rect t_mini_map_renderer::t_impl::get_object_extent(int arg_0) const
 {
@@ -363,7 +363,7 @@ void t_mini_map_renderer::t_impl::on_removing_adv_object(int arg_0)
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:30105
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:30105
 VA_CHT_1(0x00727660, 0x114)
 void t_mini_map_renderer::t_impl::on_terrain_changed(
     int arg_0,
@@ -440,7 +440,7 @@ void mini_map_renderer_details::t_internal_map_data::on_visibility_changed(
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:30114
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:30114
 VA_CHT_1(0x00727780, 0xf3)
 void mini_map_renderer_details::t_internal_map_data::refresh()
 {
@@ -486,7 +486,7 @@ void t_mini_map_renderer::on_terrain_changed(
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:30120
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:30120
 VA_CHT_1(0x00727880, 0x48)
 void t_mini_map_renderer::on_visibility_changed(
     t_abstract_adventure_map const& arg_0,
@@ -505,14 +505,14 @@ void t_mini_map_renderer::refresh(t_abstract_adventure_map const& arg_0)
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vptr; map:30122
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:30122
 VA_CHT_1(0x007278d0, 0x68)
 t_mini_map_renderer::t_mini_map_renderer(t_abstract_adventure_map const& arg_0, int arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vptr; map:30123
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:30123
 VA_CHT_1(0x00727960, 0x6b)
 t_mini_map_renderer::t_mini_map_renderer(
     t_mini_map_renderer_client& arg_0,
@@ -523,7 +523,7 @@ t_mini_map_renderer::t_mini_map_renderer(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vptr; map:30124
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:30124
 VA_CHT_1(0x007279d0, 0x112)
 t_mini_map_renderer::~t_mini_map_renderer()
 {
@@ -544,35 +544,35 @@ int t_mini_map_renderer::get_view_level() const
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:30127
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:30127
 VA_CHT_1(0x00727af0, 0x15)
 t_screen_point t_mini_map_renderer::get_view_size() const
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:30128
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:30128
 VA_CHT_1(0x00727b10, 0x7)
 t_screen_rect const& t_mini_map_renderer::get_viewport_rect() const
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:30129
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:30129
 VA_CHT_1(0x00727b20, 0x13b)
 void t_mini_map_renderer::resize(t_screen_point const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:30130
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:30130
 VA_CHT_1(0x00727c60, 0x4b)
 void t_mini_map_renderer::set_team_view(int arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:30131
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:30131
 VA_CHT_1(0x00727cb0, 0x59)
 void t_mini_map_renderer::set_view_level(int arg_0)
 {
@@ -586,14 +586,14 @@ void t_mini_map_renderer::set_viewport_rect(t_screen_rect const& arg_0)
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:30133
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:30133
 VA_CHT_1(0x00727f10, 0x89)
 void t_mini_map_renderer::update(t_screen_rect const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:30134
+// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:30134
 VA_CHT_1(0x00727fa0, 0x25)
 t_shared_ptr<t_abstract_bitmap<unsigned short>> t_mini_map_renderer::create_back_buffer(
     t_screen_point const& arg_0
@@ -602,68 +602,68 @@ t_shared_ptr<t_abstract_bitmap<unsigned short>> t_mini_map_renderer::create_back
     // Body unavailable.
 }
 
-// confidence:A; align-order; vslot; map:30135
+// confidence:D; align-order; vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:30135
 VA_CHT_1(0x00727fd0, 0xb)
 void t_mini_map_renderer::on_rect_dirtied(t_screen_rect const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; vslot; map:30136
+// confidence:D; align-order; vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:30136
 VA_CHT_1(0x00727fe0, 0xb)
 void t_mini_map_renderer::on_view_level_changed(int arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; vslot; map:30137
+// confidence:D; align-order; vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:30137
 VA_CHT_1(0x00727ff0, 0xb)
 void t_mini_map_renderer::on_view_resized(t_screen_point const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn; map:30138
+// confidence:D; align-order; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:30138
 VA_CHT_1(0x00728000, 0x98)
 t_screen_rect t_mini_map_renderer::get_tile_rect(t_map_point_2d const& arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn; map:30139
+// confidence:D; align-order; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:30139
 VA_CHT_1(0x007280a0, 0x45)
 t_screen_point t_mini_map_renderer::view_to_mini(t_screen_point const& arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn; map:30140
+// confidence:D; align-order; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:30140
 VA_CHT_1(0x00728750, 0x68)
 t_screen_rect t_mini_map_renderer::view_to_mini(t_screen_rect const& arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn; map:30141
+// confidence:D; align-order; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:30141
 VA_CHT_1(0x00728b40, 0x56)
 t_screen_point t_mini_map_renderer::mini_to_view(t_screen_point const& arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn; map:30142
+// confidence:D; align-order; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:30142
 VA_CHT_1(0x00728c80, 0xa1)
 t_screen_rect t_mini_map_renderer::mini_to_view(t_screen_rect const& arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:64275; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:64275; name:B (dyninit; see ledger)
 VA_CHT_1(0x00728d70, 0x20)
 // mini_map_renderer$tinit1
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:64277; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:64277; name:B (dyninit; see ledger)
 VA_CHT_1(0x00728d90, 0x3f)
 // mini_map_renderer$tinit2
 // Function body not reconstructed; signature retained as a comment.
@@ -678,7 +678,7 @@ VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 // mini_map_renderer$tatexit3
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; align-band; retn,stable,vslot; map:30143
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:30143
 VA_CHT_1_COMPGEN(0x007259c0, 0x1e, SCALAR_DELETING_DTOR, mini_map_renderer_details::t_internal_map_data)
 
 // name:A; map symbol; map:30144
@@ -691,7 +691,7 @@ mini_map_renderer_details::t_internal_map_data::~t_internal_map_data()
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:30146
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:30146
 VA_CHT_1(0x007259e0, 0x22)
 t_vector_set<t_mini_map_renderer*, std::less<t_mini_map_renderer*>, std::allocator<t_mini_map_renderer*>>::~t_vector_set<t_mini_map_renderer*, std::less<t_mini_map_renderer*>, std::allocator<t_mini_map_renderer*>>(
 
@@ -716,7 +716,7 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_DTOR, get_map_data_map_ptr::m
 
 namespace {
 
-// confidence:A; align-band; retn,stable,vptr; map:30149
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:30149
 VA_CHT_1(0x00725a90, 0x137)
 t_map_data_map::t_map_data_map()
 {
@@ -732,7 +732,7 @@ t_counted_ptr<t_map_data_map>::~t_counted_ptr<t_map_data_map>()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:30151
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:30151
 VA_CHT_1_COMPGEN(0x00725be0, 0x1e, VECTOR_DELETING_DTOR, t_map_data_map)
 
 // name:A; map symbol; map:30152
@@ -792,7 +792,7 @@ int alpha_4(int arg_0)
 
 namespace {
 
-// confidence:C; align-band; retn,stable; map:30162
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:30162
 VA_CHT_1(0x00725a10, 0x7e)
 unsigned short get_terrain_color(t_terrain_type arg_0, int arg_1)
 {
@@ -845,7 +845,7 @@ t_counted_ptr<mini_map_renderer_details::t_internal_map_data>::~t_counted_ptr<mi
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:30170
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:30170
 VA_CHT_1_COMPGEN(0x00727940, 0x1e, SCALAR_DELETING_DTOR, t_mini_map_renderer)
 
 // name:A; map symbol; map:30171
@@ -897,7 +897,7 @@ t_owned_ptr<t_mini_map_renderer::t_impl>::t_owned_ptr<t_mini_map_renderer::t_imp
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:30249
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:30249
 VA_CHT_1(0x00728c30, 0x43)
 t_owned_ptr<t_mini_map_renderer::t_impl>::~t_owned_ptr<t_mini_map_renderer::t_impl>()
 {
@@ -918,7 +918,7 @@ t_mini_map_renderer::t_impl* t_owned_ptr<t_mini_map_renderer::t_impl>::operator-
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn; map:30252
+// confidence:D; align-band; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:30252
 VA_CHT_1(0x007287c0, 0x43)
 unsigned int t_vector_set<t_mini_map_renderer*, std::less<t_mini_map_renderer*>, std::allocator<t_mini_map_renderer*>>::erase(
     t_mini_map_renderer* const& arg_0
@@ -927,7 +927,7 @@ unsigned int t_vector_set<t_mini_map_renderer*, std::less<t_mini_map_renderer*>,
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn; map:30253
+// confidence:D; align-band; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:30253
 VA_CHT_1(0x00728ae0, 0x56)
 t_mini_map_renderer* const* t_vector_set<t_mini_map_renderer*, std::less<t_mini_map_renderer*>, std::allocator<t_mini_map_renderer*>>::find(
     t_mini_map_renderer* const& arg_0
@@ -1031,7 +1031,7 @@ t_mini_map_renderer* const* t_vector_set<t_mini_map_renderer*, std::less<t_mini_
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn; map:30284
+// confidence:D; align-band; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:30284
 VA_CHT_1(0x00728a80, 0x52)
 t_mini_map_renderer* const* t_vector_set<t_mini_map_renderer*, std::less<t_mini_map_renderer*>, std::allocator<t_mini_map_renderer*>>::lower_bound(
     t_mini_map_renderer* const& arg_0

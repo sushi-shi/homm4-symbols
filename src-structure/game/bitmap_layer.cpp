@@ -1,7 +1,7 @@
 // bitmap_layer.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\bitmap_layer.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 53/106 (A:36 B:2 C:15); unaccounted 53; skipped std 46.
+// Accounted 53/106 (A:12 B:0 C:0); unaccounted 53; skipped std 46.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,14 +10,14 @@
 
 // === .text (94 symbols) ===
 
-// confidence:A; align-order; retn,stable,vptr; map:18084
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:18084
 VA_CHT_1(0x005729e0, 0xcf)
 t_bitmap_layer::~t_bitmap_layer()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:18085
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18085
 VA_CHT_1(0x00572ab0, 0x9e)
 bool t_bitmap_layer::contains(t_screen_point arg_0) const
 {
@@ -31,14 +31,14 @@ int t_bitmap_layer::get_data_size() const
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:18087
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18087
 VA_CHT_1(0x00572b50, 0x151)
 void t_bitmap_layer::set_block_alpha()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vptr; map:18088
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:18088
 VA_CHT_1(0x00572cb0, 0x1c4)
 t_bitmap_layer_16::t_bitmap_layer_16(
     std::string const& arg_0,
@@ -52,28 +52,28 @@ t_bitmap_layer_16::t_bitmap_layer_16(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:18089
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18089
 VA_CHT_1(0x00572fa0, 0x193)
 t_bitmap_layer* t_bitmap_layer_16::adjust_brightness(int arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:18090
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18090
 VA_CHT_1(0x00573140, 0x1b7)
 t_bitmap_layer* t_bitmap_layer_16::adjust_color(int arg_0, int arg_1, int arg_2, int arg_3) const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:18091
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18091
 VA_CHT_1(0x00573300, 0x193)
 t_bitmap_layer* t_bitmap_layer_16::adjust_saturation(int arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:18092
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18092
 VA_CHT_1(0x005734a0, 0x823)
 t_bitmap_layer* t_bitmap_layer_16::copy(
     t_screen_point const& arg_0,
@@ -90,7 +90,7 @@ bool t_bitmap_layer_16::data_contains(int arg_0) const
     // Body unavailable.
 }
 
-// confidence:A; align-order; stable,vslot; map:18094
+// confidence:D; align-order; stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18094
 VA_CHT_1(0x00573cd0, 0x25d)
 void t_bitmap_layer_16::draw(
     t_screen_rect arg_0,
@@ -115,7 +115,7 @@ static void draw(
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:68956
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:68956
 VA_CHT_1(0x00573f30, 0x522)
 static void draw(
     t_screen_rect arg_0,
@@ -143,7 +143,7 @@ void t_bitmap_layer_16::draw(
     // Body unavailable.
 }
 
-// confidence:C; align-order; map:68957
+// confidence:D; align-order; review-status=unreviewed;classification=D:not-a-best-guess; map:68957
 VA_CHT_1(0x005746f0, 0x63)
 static void draw(
     t_screen_rect arg_0,
@@ -158,7 +158,7 @@ static void draw(
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:68958
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:68958
 VA_CHT_1(0x00574760, 0x4bb)
 static void draw(
     t_screen_rect arg_0,
@@ -174,21 +174,21 @@ static void draw(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:18096
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18096
 VA_CHT_1(0x00574c20, 0x15)
 bool t_paletted_layer::data_contains(int arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vptr; map:18097
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:18097
 VA_CHT_1(0x00574c40, 0x1ac)
 t_paletted_16_layer::t_paletted_16_layer(t_bitmap_layer_24 const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vptr; map:18098
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:18098
 VA_CHT_1(0x00574f10, 0x282)
 t_paletted_16_layer::t_paletted_16_layer(
     std::string const& arg_0,
@@ -203,28 +203,28 @@ t_paletted_16_layer::t_paletted_16_layer(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:18099
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18099
 VA_CHT_1(0x005751a0, 0x132)
 t_bitmap_layer* t_paletted_16_layer::adjust_brightness(int arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:18100
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18100
 VA_CHT_1(0x005752e0, 0x167)
 t_bitmap_layer* t_paletted_16_layer::adjust_color(int arg_0, int arg_1, int arg_2, int arg_3) const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:18101
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18101
 VA_CHT_1(0x00575450, 0x132)
 t_bitmap_layer* t_paletted_16_layer::adjust_saturation(int arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:18102
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18102
 VA_CHT_1(0x00575590, 0x834)
 t_bitmap_layer* t_paletted_16_layer::copy(
     t_screen_point const& arg_0,
@@ -234,7 +234,7 @@ t_bitmap_layer* t_paletted_16_layer::copy(
     // Body unavailable.
 }
 
-// confidence:A; align-order; stable,vslot; map:18103
+// confidence:D; align-order; stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18103
 VA_CHT_1(0x00575dd0, 0x467)
 void t_paletted_16_layer::draw(
     t_screen_rect arg_0,
@@ -275,7 +275,7 @@ static void draw_transparent(
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:68961
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:68961
 VA_CHT_1(0x00576240, 0x9e5)
 static void draw(
     t_screen_rect arg_0,
@@ -336,7 +336,7 @@ static void draw_transparent(
     // Body unavailable.
 }
 
-// confidence:C; align-order; map:68964
+// confidence:D; align-order; review-status=unreviewed;classification=D:not-a-best-guess; map:68964
 VA_CHT_1(0x00577110, 0x509)
 static void draw(
     t_screen_rect arg_0,
@@ -383,28 +383,28 @@ void t_bitmap_layer_24::init(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:18107
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18107
 VA_CHT_1(0x00577620, 0x152)
 t_bitmap_layer* t_bitmap_layer_24::adjust_brightness(int arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:18108
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18108
 VA_CHT_1(0x00577780, 0x179)
 t_bitmap_layer* t_bitmap_layer_24::adjust_color(int arg_0, int arg_1, int arg_2, int arg_3) const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:18109
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18109
 VA_CHT_1(0x00577900, 0x152)
 t_bitmap_layer* t_bitmap_layer_24::adjust_saturation(int arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:18110
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18110
 VA_CHT_1(0x00577a60, 0x92)
 int read(
     std::basic_streambuf<char, std::char_traits<char>>& arg_0,
@@ -416,7 +416,7 @@ int read(
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:18111
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18111
 VA_CHT_1(0x00577b00, 0x41c)
 bool t_bitmap_layer_24::read(
     std::basic_streambuf<char, std::char_traits<char>>& arg_0,
@@ -426,14 +426,14 @@ bool t_bitmap_layer_24::read(
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn; map:18112
+// confidence:D; align-order; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:18112
 VA_CHT_1(0x00577f20, 0x18)
 bool t_bitmap_layer_24::write(std::basic_streambuf<char, std::char_traits<char>>& arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; vslot; map:18113
+// confidence:D; align-order; vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18113
 VA_CHT_1(0x00577f40, 0x40f)
 void t_bitmap_layer_24::draw(
     t_screen_rect arg_0,
@@ -444,7 +444,7 @@ void t_bitmap_layer_24::draw(
     // Body unavailable.
 }
 
-// confidence:A; align-order; vslot; map:18114
+// confidence:D; align-order; vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18114
 VA_CHT_1(0x00578350, 0x420)
 void t_bitmap_layer_24::draw(
     t_screen_rect arg_0,
@@ -466,10 +466,10 @@ t_bitmap_layer* t_bitmap_layer_24::copy(
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:68965; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:68965; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00579640, 0x20, STATIC_INIT_DISPATCH, bitmap_layer)
 
-// confidence:A; align-band; retn,stable,vslot; map:18116
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18116
 VA_CHT_1_COMPGEN(0x00572e80, 0x1e, SCALAR_DELETING_DTOR, t_bitmap_layer_16)
 
 // name:A; map symbol; map:18117
@@ -482,7 +482,7 @@ t_bitmap_layer_16::~t_bitmap_layer_16()
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:18119
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18119
 VA_CHT_1(0x00578b20, 0x4d)
 void t_hue_pixel::set_color(unsigned short arg_0)
 {
@@ -496,7 +496,7 @@ t_bitmap_layer_16::t_bitmap_layer_16(t_bitmap_layer_16 const& arg_0)
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:18121
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18121
 VA_CHT_1(0x00578b00, 0x12)
 int multiply_alpha16(int arg_0, int arg_1)
 {
@@ -510,7 +510,7 @@ std::vector<t_pixel_24, std::allocator<t_pixel_24>> const& t_bitmap_layer_24::ge
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:18123
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:18123
 VA_CHT_1_COMPGEN(0x00574df0, 0x1e, SCALAR_DELETING_DTOR, t_paletted_16_layer)
 
 // name:A; map symbol; map:18124
@@ -649,7 +649,7 @@ t_shared_array<unsigned short>::t_shared_array<unsigned short>()
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:18178
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18178
 VA_CHT_1(0x00572ea0, 0xfd)
 t_shared_array<unsigned short>::~t_shared_array<unsigned short>()
 {
@@ -769,7 +769,7 @@ void draw_layer(
 
 namespace {
 
-// confidence:C; align-band; retn,stable; map:18197
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18197
 VA_CHT_1(0x00579370, 0x82)
 void t_simple_draw<t_paletted_24_source>::draw(
     int arg_0,
@@ -788,7 +788,7 @@ unsigned short t_paletted_24_source::get_pixel(unsigned short arg_0, unsigned ch
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:18199
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18199
 VA_CHT_1(0x005792e0, 0x83)
 void t_draw_alpha_1<t_paletted_24_source>::draw(
     int arg_0,
@@ -800,7 +800,7 @@ void t_draw_alpha_1<t_paletted_24_source>::draw(
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn; map:18200
+// confidence:D; align-band; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:18200
 VA_CHT_1(0x00579400, 0x116)
 void t_draw_alpha_4<t_paletted_24_source>::draw(
     int arg_0,
@@ -850,7 +850,7 @@ void t_draw_alpha_1<t_blended_paletted_24_source>::draw(
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn; map:18205
+// confidence:D; align-band; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:18205
 VA_CHT_1(0x00579520, 0x11a)
 void t_draw_alpha_4<t_blended_paletted_24_source>::draw(
     int arg_0,
@@ -862,7 +862,7 @@ void t_draw_alpha_4<t_blended_paletted_24_source>::draw(
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:18206
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:18206
 VA_CHT_1(0x00578e50, 0xc8)
 unsigned short t_blended_paletted_24_source::blend_pixel(unsigned short arg_0, unsigned char arg_1, int arg_2)
 {

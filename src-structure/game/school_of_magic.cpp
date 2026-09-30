@@ -1,7 +1,7 @@
 // school_of_magic.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\school_of_magic.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 55/91 (A:43 B:6 C:6); unaccounted 36; skipped std 1.
+// Accounted 55/91 (A:24 B:6 C:0); unaccounted 36; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,32 +10,32 @@
 
 // === .text (49 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:63228; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:63228; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0078c8b0, 0x15, STATIC_INIT_DISPATCH, "school_of_magic#1")
 
 // name:C; dyninit; see ledger; map:63229
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "school_of_magic#1")
 
-// confidence:A; dyninit-init; owner-conf-B; map:63230; name:B (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:63230; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0078c8d0, 0x1e, STATIC_INIT_DISPATCH, k_registration)
 
 // name:B; dyninit; see ledger; map:63231
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, k_registration)
 
-// confidence:A; dyninit-init; owner-conf-B; map:63232; name:B (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:63232; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x0078c8f0, 0x1e, STATIC_INIT_DISPATCH, k_school_of_war_registration)
 
 // name:B; dyninit; see ledger; map:63233
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, k_school_of_war_registration)
 
-// confidence:A; align-order; retn,stable,vptr; map:33603
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:33603
 VA_CHT_1(0x0078c910, 0x16c)
 t_school_of_magic::t_school_of_magic(std::string const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:33604
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:33604
 VA_CHT_1(0x0078cb20, 0xb07)
 void t_school_of_magic::activate_trigger(
     t_army* arg_0,
@@ -61,7 +61,7 @@ int t_school_of_magic::get_version() const
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:33607
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:33607
 VA_CHT_1(0x0078d640, 0x119)
 bool t_school_of_magic::read(
     std::basic_streambuf<char, std::char_traits<char>>& arg_0,
@@ -72,7 +72,7 @@ bool t_school_of_magic::read(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:33608
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:33608
 VA_CHT_1(0x0078d760, 0xa7)
 bool t_school_of_magic::read_from_map(
     std::basic_streambuf<char, std::char_traits<char>>& arg_0,
@@ -82,14 +82,14 @@ bool t_school_of_magic::read_from_map(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:33609
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:33609
 VA_CHT_1(0x0078d810, 0x1db)
 void t_school_of_magic::place(t_adventure_map& arg_0, t_adv_map_point const& arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:33610
+// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:33610
 VA_CHT_1(0x0078d9f0, 0xc8)
 bool t_school_of_magic::write(std::basic_streambuf<char, std::char_traits<char>>& arg_0) const
 {
@@ -121,21 +121,21 @@ float t_school_of_magic::sum_available_skill_values(t_creature_array const& arg_
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:33614
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:33614
 VA_CHT_1(0x0078dac0, 0x10b)
 float t_school_of_magic::ai_value(t_adventure_ai const& arg_0, t_creature_array const& arg_1, int arg_2) const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:33615
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:33615
 VA_CHT_1(0x0078dbd0, 0x23c)
 void t_school_of_magic::right_click(t_mouse_event const& arg_0, t_adventure_frame* arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vptr; map:33616
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:33616
 VA_CHT_1(0x0078de10, 0xc3)
 t_school_of_war::t_school_of_war(std::string const& arg_0)
 {
@@ -149,19 +149,19 @@ t_skill_set const& t_school_of_war::get_default_available_skill_set()
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:33618
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:33618
 VA_CHT_1(0x0078df90, 0x10b)
 float t_school_of_war::ai_value(t_adventure_ai const& arg_0, t_creature_array const& arg_1, int arg_2) const
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:63234; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:63234; name:B (dyninit; see ledger)
 VA_CHT_1(0x0078e180, 0x20)
 // school_of_magic$tinit1
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:63236; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:63236; name:B (dyninit; see ledger)
 VA_CHT_1(0x0078e1a0, 0x5c)
 // school_of_magic$tinit2
 // Function body not reconstructed; signature retained as a comment.
@@ -181,13 +181,13 @@ VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 // school_of_magic$tatexit4
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; align-band; retn,stable,vslot; map:33619
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:33619
 VA_CHT_1_COMPGEN(0x0078ca80, 0x30, VECTOR_DELETING_DTOR, t_school_of_magic)
 
 // name:A; map symbol; map:33620
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, t_school_of_magic)
 
-// confidence:C; align-band; retn,stable; map:33621
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:33621
 VA_CHT_1(0x0078cab0, 0x6a)
 // public: void t_school_of_magic::`vbase dtor'(void)
 // Function body not reconstructed; signature retained as a comment.
@@ -206,13 +206,13 @@ t_counted_ptr<t_dialog_school_of_magic>::~t_counted_ptr<t_dialog_school_of_magic
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:33624
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:33624
 VA_CHT_1_COMPGEN(0x0078dee0, 0x30, SCALAR_DELETING_DTOR, t_school_of_war)
 
 // name:A; map symbol; map:33625
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, t_school_of_war)
 
-// confidence:C; align-band; retn; map:33626
+// confidence:D; align-band; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:33626
 VA_CHT_1(0x0078df10, 0x6a)
 // public: void t_school_of_war::`vbase dtor'(void)
 // Function body not reconstructed; signature retained as a comment.
@@ -274,7 +274,7 @@ t_object_factory<t_school_of_magic>::t_object_factory<t_school_of_magic>()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:33634
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:33634
 VA_CHT_1(0x0078e0a0, 0x65)
 t_stationary_adventure_object* t_object_factory<t_school_of_magic>::create(
     std::string const& arg_0,
@@ -291,7 +291,7 @@ t_object_factory<t_school_of_war>::t_object_factory<t_school_of_war>()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:33636
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:33636
 VA_CHT_1(0x0078e110, 0x65)
 t_stationary_adventure_object* t_object_factory<t_school_of_war>::create(
     std::string const& arg_0,
@@ -301,16 +301,16 @@ t_stationary_adventure_object* t_object_factory<t_school_of_war>::create(
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:33637
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:33637
 VA_CHT_1_COMPGEN(0x0078e200, 0x8, VECTOR_DELETING_DTOR, t_school_of_magic)
 
-// confidence:C; align-order; stable; map:33638
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:33638
 VA_CHT_1_COMPGEN(0x0078e210, 0xb, VECTOR_DELETING_DTOR, t_school_of_magic)
 
-// confidence:C; align-order; stable; map:33639
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:33639
 VA_CHT_1_COMPGEN(0x0078e220, 0x8, VECTOR_DELETING_DTOR, t_school_of_war)
 
-// confidence:C; align-order; stable; map:33640
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:33640
 VA_CHT_1_COMPGEN(0x0078e230, 0xb, VECTOR_DELETING_DTOR, t_school_of_war)
 
 // === .rdata (14 symbols) ===

@@ -1,6 +1,8 @@
 """RTTI labels must follow checked pointers and unambiguous map identities."""
 import struct
 import unittest
+from types import SimpleNamespace
+from unittest.mock import patch
 
 import rtti_join as rtti
 
@@ -59,6 +61,43 @@ class RTTIJoinTests(unittest.TestCase):
         self.assertEqual(rtti.unique_pairs(symbols + [dict(symbols[0], id="2")], [row]), [])
         other = dict(id="2", mangled="??_R3other@@8")
         self.assertEqual(rtti.unique_pairs(symbols + [other], [row, dict(row, name=other['mangled'])]), [])
+
+    def test_primary_vftable_copies_and_duplicate_map_names_are_held_out(self):
+        symbol = dict(id="1", mangled="??_7example@@6B@")
+        row = dict(name=symbol['mangled'], rva=0x100, size=4,
+                   method="rtti-primary-vftable", evidence="checked hierarchy")
+        self.assertEqual(len(rtti.unique_pairs([symbol], [row], "??_7")), 1)
+        self.assertEqual(rtti.unique_pairs([symbol], [row, dict(row, rva=0x200)], "??_7"), [])
+        self.assertEqual(rtti.unique_pairs([symbol, dict(symbol, id="2")], [row], "??_7"), [])
+
+    def primary_pairs(self, reader):
+        pe = SimpleNamespace(
+            sections=[SimpleNamespace(Name=n.encode(), VirtualAddress=lo, Misc_VirtualSize=hi-lo)
+                      for n, lo, hi in reader.sections],
+            OPTIONAL_HEADER=SimpleNamespace(ImageBase=reader.base),
+            get_memory_mapped_image=lambda: reader.image)
+        inputs = [[dict(td_rva="300", **{"class": ".?AVexample@@"})],
+                  [dict(rva="120", nslots="1")],
+                  [dict(id="1", mangled="??_7example@@6B@")]]
+        with (patch.object(rtti.pefile, "PE", return_value=pe),
+              patch.object(rtti.paths, "exe", return_value="unused.exe"),
+              patch.object(rtti.paths, "features", return_value="unused.tsv"),
+              patch.object(rtti, "read_tsv", side_effect=inputs)):
+            return rtti.primary_vftables("test")
+
+    def test_primary_vftable_revalidates_hierarchy_and_code(self):
+        reader = self.reader()
+        pairs = self.primary_pairs(reader)
+        self.assertEqual([(r['rva'], r['size'], r['tier']) for r in pairs], [(0x120, 4, 'A')])
+        struct.pack_into('<I', self.image, 0x120, 0x400300)  # slot points to data
+        self.assertEqual(self.primary_pairs(reader), [])
+
+    def test_secondary_construction_and_malformed_tables_are_excluded(self):
+        for offset, value in [(0x184, 4), (0x188, 4), (0x1ac, 0x4004fc)]:
+            with self.subTest(offset=offset):
+                reader = self.reader()
+                struct.pack_into('<I', self.image, offset, value)
+                self.assertEqual(self.primary_pairs(reader), [])
 
 
 if __name__ == '__main__':

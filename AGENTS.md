@@ -5,7 +5,7 @@ Read before changing anything. Layout, tools and run commands are in [tools/READ
 ## Goal
 
 Put the names from a leaked **debug-build linker map** of HoMM4 onto **retail executables** and
-export Ghidra/IDA databases. Not a decompilation. Every emitted name carries a tier (A/B/C) and
+export Ghidra/IDA databases. Not a decompilation. Every emitted name carries a tier (A/B/C/D) and
 its evidence; never emit one without them.
 
 Hop chain: `map → cht-1.x` (structural, first pass done) → `gog-3.0` (release↔release, same
@@ -88,3 +88,25 @@ Planned: typed `this`-calls (an ECX=`this` call inside `C::m` must reach a metho
 - Multi-name labels for ICF-folded functions; data labels (strings, RTTI, globals).
 - Propagate vftable slot names down the hierarchy to unmatched overrides.
 - GOG 3.0 needs the user's exe. Confirm community-version facts first (web search needs permission).
+- Complete DVD English `complete-3.0`: 9,808 RTTI descriptors + 1,354 primary vftables (A),
+  and 4,823 functions (B 53 / C 106 / D 4,664) from CHT retail assembly comparison after review closure. The local
+  exe and archive.org provenance are recorded in `target.json`; GOG equivalence is unverified.
+  `source: cht-1.x` selects the release branch of `pipeline.sh`; `align.py --source cht-1.x`
+  uses normalized assembly and the shared C core, not CHT static-init ordinal pairing.
+  Raw correspondence checks and two withheld named slot warnings are documented in the README.
+- Manual audit: `maps/<target>/reviews.tsv` runs last in `emit_map.py`; preserve its exact-identity
+  vetoes/caps. 24 sampled names: 9 supported, 8 contradicted, 7 unresolved; not overall precision.
+  Strong body correspondence did not establish source identity. Vptr stores on allocated objects
+  were mistaken for stores on incoming `this`; ctor/dtor roles also need verification.
+  Equal extracted vtable lengths do not prove unchanged slot order (Complete review R26).
+- Exhaustive review is closed at the user's request: preserve the immutable 4,915-function `review-roster.tsv` and
+  its manifest. `review_progress.py complete-3.0 --next 20` prepares evidence only; write
+  each verdict from inspected assembly. F00001–F00222 are inspected (F00049/F00169 via R10/R16),
+  plus caller follow-up F03368; coverage is 101 supported / 92 rejected / 58 unresolved /
+  4,664 unreviewed-D. Both targets set `unreviewed_function_tier: D`; functions without an
+  exact recorded review are D (unreviewed proposals, not best guesses), even if their original
+  evidence tier was A/B. Keep review vetoes and C caps; preserve structural data/vftable tiers.
+  `review-closure.json` records the decision. Do not resume exhaustive review unless requested.
+  Default IDA/Ghidra exports include D with explicit comments; C excludes D.
+  F00066 confirms a real slot shift 18→19
+  for stamp_object; compare its body, not just the vtable index.

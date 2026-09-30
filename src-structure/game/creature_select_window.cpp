@@ -1,7 +1,7 @@
 // creature_select_window.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 61/105 (A:43 B:12 C:6); unaccounted 44; skipped std 24.
+// Accounted 61/105 (A:33 B:3 C:0); unaccounted 44; skipped std 24.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,103 +10,103 @@
 
 // === .text (61 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-B; map:66962; name:B (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:66962; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x006174b0, 0x11, STATIC_INIT_DISPATCH, k_creature_select_bitmaps)
 
-// confidence:B; dyninit-ctor; owner-conf-B; map:66963; name:B (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:66963; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x006174d0, 0xd7, STATIC_CTOR, k_creature_select_bitmaps)
 
 // name:B; dyninit; see ledger; map:66964
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, k_creature_select_bitmaps)
 
-// confidence:B; dyninit-dtor; owner-conf-B; map:66965; name:B (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:66965; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x006175b0, 0xa, STATIC_DTOR, k_creature_select_bitmaps)
 
-// confidence:A; align-order; stable,vptr; map:23364
+// confidence:D; align-order; stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:23364
 VA_CHT_1(0x006175c0, 0x19c)
 t_creature_select_window::t_creature_select_window(t_screen_point arg_0, bool arg_1, t_window* arg_2)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:23365
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:23365
 VA_CHT_1(0x00617900, 0x397)
 void t_creature_select_window::add(t_creature_stack const* arg_0, bool arg_1, bool arg_2)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:23366
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:23366
 VA_CHT_1(0x00617ca0, 0x61)
 void t_creature_select_window::enable(int arg_0, bool arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:23367
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:23367
 VA_CHT_1(0x00617d10, 0x3e)
 bool t_creature_select_window::is_enabled(int arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:23368
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:23368
 VA_CHT_1(0x00617d50, 0x37)
 bool t_creature_select_window::is_selected(int arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:23369
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:23369
 VA_CHT_1(0x00617d90, 0x208)
 void t_creature_select_window::set_help_text(int arg_0, std::string const& arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:23370
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:23370
 VA_CHT_1(0x00617fa0, 0x38)
 void t_creature_select_window::button_click(t_button* arg_0, t_creature_stack* arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:23371
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:23371
 VA_CHT_1(0x00617fe0, 0x46)
 void t_creature_select_window::select_first()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:23372
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:23372
 VA_CHT_1(0x00618030, 0x3b)
 void t_creature_select_window::select_all()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:23373
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:23373
 VA_CHT_1(0x00618070, 0x3b)
 void t_creature_select_window::select_none()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; stable,vptr; map:23374
+// confidence:D; align-order; stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:23374
 VA_CHT_1(0x006180b0, 0x27)
 t_creature_toggle_window::t_creature_toggle_window(t_screen_point arg_0, t_window* arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:23375
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:23375
 VA_CHT_1(0x00618280, 0x5e)
 void t_creature_toggle_window::button_click(t_button* arg_0, t_creature_stack* arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:66966; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:66966; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00618490, 0x20, STATIC_INIT_DISPATCH, creature_select_window)
 
 // name:A; map symbol; map:23376
@@ -127,7 +127,7 @@ t_counted_ptr<t_handler_base_2<t_creature_select_window*, t_creature_stack*>>::~
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:23378
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:23378
 VA_CHT_1_COMPGEN(0x00617760, 0x1e, SCALAR_DELETING_DTOR, t_creature_select_window)
 
 // name:A; map symbol; map:23379
@@ -147,7 +147,7 @@ bool t_button::is_enabled() const
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:23382
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:23382
 VA_CHT_1_COMPGEN(0x006180e0, 0x1e, SCALAR_DELETING_DTOR, t_creature_toggle_window)
 
 // name:A; map symbol; map:23383
@@ -197,7 +197,7 @@ t_handler_base_2<t_creature_select_window*, t_creature_stack*>& t_counted_ptr<t_
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:23407
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:23407
 VA_CHT_1(0x006182e0, 0xbb)
 t_handler_2<t_button*, t_creature_stack*> bound_handler(
     t_creature_select_window& arg_0,
@@ -288,20 +288,20 @@ void t_add_2nd_handler_1<t_button*, t_creature_stack*>::operator()(t_button* arg
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:23422
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:23422
 VA_CHT_1_COMPGEN(0x006183a0, 0x1e, SCALAR_DELETING_DTOR, "t_bound_handler_2<t_creature_select_window, t_button*, t_creature_stack*>")
 
 // name:A; map symbol; map:23423
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, "t_bound_handler_2<t_creature_select_window, t_button*, t_creature_stack*>")
 
-// confidence:C; align-band; retn,stable; map:23424
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:23424
 VA_CHT_1(0x00618430, 0x58)
 t_handler_base_2<t_button*, t_creature_stack*>::t_handler_base_2<t_button*, t_creature_stack*>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:23425
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:23425
 VA_CHT_1_COMPGEN(0x006183e0, 0x1e, SCALAR_DELETING_DTOR, "t_add_2nd_handler_1<t_button*, t_creature_stack*>")
 
 // name:A; map symbol; map:23426
@@ -323,7 +323,7 @@ t_handler_base_2<t_button*, t_creature_stack*>::~t_handler_base_2<t_button*, t_c
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:23429
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:23429
 VA_CHT_1(0x00618400, 0x21)
 t_abstract_function_2<void, t_button*, t_creature_stack*>::~t_abstract_function_2<void, t_button*, t_creature_stack*>(
 
@@ -332,7 +332,7 @@ t_abstract_function_2<void, t_button*, t_creature_stack*>::~t_abstract_function_
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:23430
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:23430
 VA_CHT_1_COMPGEN(0x006183c0, 0x20, SCALAR_DELETING_DTOR, "t_abstract_function_2<void, t_button*, t_creature_stack*>")
 
 // name:A; map symbol; map:23431
@@ -400,7 +400,7 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, "t_bound_handl
 // name:A; map symbol; map:23441
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, "t_handler_base_2<t_button*, t_creature_stack*>")
 
-// confidence:C; align-order; stable; map:23442
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:23442
 VA_CHT_1_COMPGEN(0x006184c0, 0x8, VECTOR_DELETING_DTOR, "t_add_2nd_handler_1<t_button*, t_creature_stack*>")
 
 // === .rdata (9 symbols) ===

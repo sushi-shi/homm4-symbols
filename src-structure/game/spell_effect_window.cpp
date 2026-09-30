@@ -1,7 +1,7 @@
 // spell_effect_window.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\spell_effect_window.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 28/51 (A:20 B:5 C:3); unaccounted 23; skipped std 22.
+// Accounted 28/51 (A:9 B:2 C:0); unaccounted 23; skipped std 22.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,37 +10,37 @@
 
 // === .text (38 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:62591; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62591; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007cee50, 0x15, STATIC_INIT_DISPATCH, "spell_effect_window#1")
 
 // name:C; dyninit; see ledger; map:62592
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "spell_effect_window#1")
 
-// confidence:A; dyninit-init; owner-conf-C; map:62593; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62593; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007cee70, 0x15, STATIC_INIT_DISPATCH, "spell_effect_window#2")
 
 // name:C; dyninit; see ledger; map:62594
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "spell_effect_window#2")
 
-// confidence:A; dyninit-init; owner-conf-C; map:62595; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62595; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007cee90, 0x15, STATIC_INIT_DISPATCH, "spell_effect_window#3")
 
 // name:C; dyninit; see ledger; map:62596
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "spell_effect_window#3")
 
-// confidence:A; dyninit-init; owner-conf-C; map:62597; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62597; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007ceeb0, 0x15, STATIC_INIT_DISPATCH, "spell_effect_window#4")
 
 // name:C; dyninit; see ledger; map:62598
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "spell_effect_window#4")
 
-// confidence:A; dyninit-init; owner-conf-C; map:62599; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62599; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007ceed0, 0x10, STATIC_INIT_DISPATCH, "spell_effect_window#5")
 
 // name:C; dyninit; see ledger; map:62600
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "spell_effect_window#5")
 
-// confidence:A; dyninit-init; owner-conf-C; map:62601; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62601; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007ceee0, 0x15, STATIC_INIT_DISPATCH, "spell_effect_window#6")
 
 // name:C; dyninit; see ledger; map:62602
@@ -48,14 +48,14 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "spell_effect_window#6"
 
 namespace {
 
-// confidence:B; align-order; retn,stable; map:37986
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37986
 VA_CHT_1(0x007cef00, 0x1d7)
 t_spell_effect_cache::t_spell_effect_cache(double arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:37987
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37987
 VA_CHT_1(0x007cf150, 0x149)
 t_cached_ptr<t_animation> t_spell_effect_cache::get_effect(t_spell arg_0) const
 {
@@ -64,7 +64,7 @@ t_cached_ptr<t_animation> t_spell_effect_cache::get_effect(t_spell arg_0) const
 
 } // anonymous namespace
 
-// confidence:A; align-order; stable,vptr; map:37988
+// confidence:D; align-order; stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:37988
 VA_CHT_1(0x007cf2a0, 0xc0)
 t_spell_effect_window::t_spell_effect_window(
     t_combat_creature* arg_0,
@@ -77,14 +77,14 @@ t_spell_effect_window::t_spell_effect_window(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:37989
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:37989
 VA_CHT_1(0x007cf4b0, 0xb5)
 void t_spell_effect_window::on_animation_end()
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:37990
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37990
 VA_CHT_1(0x007cf570, 0x166)
 t_cached_ptr<t_animation> get_spell_animation(t_spell arg_0, double arg_1)
 {
@@ -96,10 +96,10 @@ VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 // get_spell_animation$sdtor
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:62604; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:62604; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007cfbb0, 0x20, STATIC_INIT_DISPATCH, spell_effect_window)
 
-// confidence:A; align-band; retn,stable,vptr; map:37991
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:37991
 VA_CHT_1(0x007cfac0, 0x5a)
 t_animation_cache::t_animation_cache()
 {
@@ -140,7 +140,7 @@ t_abstract_cache<t_animation>& t_abstract_cache<t_animation>::operator=(
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:37996
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:37996
 VA_CHT_1_COMPGEN(0x007cf360, 0x1e, VECTOR_DELETING_DTOR, t_spell_effect_window)
 
 // name:A; map symbol; map:37997
@@ -155,7 +155,7 @@ t_spell_effect_window::~t_spell_effect_window()
 
 namespace {
 
-// confidence:C; align-band; retn,stable; map:37999
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37999
 VA_CHT_1(0x007cf730, 0x13)
 double t_spell_effect_cache::get_scale() const
 {
@@ -182,7 +182,7 @@ t_counted_ptr<t_abstract_cache_data<t_animation>>& t_counted_ptr<t_abstract_cach
 
 namespace {
 
-// confidence:C; align-band; retn,stable; map:38023
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:38023
 VA_CHT_1(0x007cfb20, 0x82)
 t_spell_effect_cache& t_spell_effect_cache::operator=(t_spell_effect_cache const& arg_0)
 {
@@ -231,7 +231,7 @@ t_resource_cache<t_animation>::t_resource_cache<t_animation>(t_resource_cache<t_
 // name:A; map symbol; map:38029
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, t_spell_effect_window)
 
-// confidence:C; align-order; stable; map:38030
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:38030
 VA_CHT_1_COMPGEN(0x007cfbe0, 0xb, VECTOR_DELETING_DTOR, t_spell_effect_window)
 
 // === .rdata (3 symbols) ===

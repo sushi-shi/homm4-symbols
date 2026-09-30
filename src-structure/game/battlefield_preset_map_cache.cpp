@@ -1,7 +1,7 @@
 // battlefield_preset_map_cache.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 44/69 (A:41 B:2 C:1); unaccounted 25; skipped std 1.
+// Accounted 44/69 (A:30 B:2 C:0); unaccounted 25; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -17,7 +17,7 @@ char const* t_battlefield_preset_map_cache_data::get_prefix() const
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vslot; map:17560
+// confidence:D; align-order; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:17560
 VA_CHT_1(0x00567ea0, 0x88)
 t_battlefield_preset_map_in_game* t_battlefield_preset_map_cache_data::do_read(
     std::basic_streambuf<char, std::char_traits<char>>& arg_0,
@@ -27,17 +27,17 @@ t_battlefield_preset_map_in_game* t_battlefield_preset_map_cache_data::do_read(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vptr; map:17561
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:17561
 VA_CHT_1(0x00567f30, 0xc4)
 t_battlefield_preset_map_cache::t_battlefield_preset_map_cache(std::string const& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:69033; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:69033; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00568290, 0x20, STATIC_INIT_DISPATCH, battlefield_preset_map_cache)
 
-// confidence:A; align-band; retn,stable,vslot; map:17562
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:17562
 VA_CHT_1_COMPGEN(0x00568000, 0x1e, VECTOR_DELETING_DTOR, t_battlefield_preset_map_cache)
 
 // name:A; map symbol; map:17563
@@ -57,7 +57,7 @@ t_battlefield_preset_map_cache_data::t_battlefield_preset_map_cache_data(std::st
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:17566
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:17566
 VA_CHT_1_COMPGEN(0x00568040, 0x1e, SCALAR_DELETING_DTOR, t_battlefield_preset_map_cache_data)
 
 // name:A; map symbol; map:17567
@@ -79,7 +79,7 @@ t_abstract_cache<t_battlefield_preset_map_in_game>::t_abstract_cache<t_battlefie
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:17570
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:17570
 VA_CHT_1(0x00568020, 0x1d)
 t_abstract_cache<t_battlefield_preset_map_in_game>::~t_abstract_cache<t_battlefield_preset_map_in_game>()
 {
@@ -104,7 +104,7 @@ t_abstract_resource_cache_data<t_battlefield_preset_map_in_game>::t_abstract_res
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:17573
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:17573
 VA_CHT_1(0x00568130, 0x49)
 t_abstract_cache_data<t_battlefield_preset_map_in_game>::~t_abstract_cache_data<t_battlefield_preset_map_in_game>(
 
@@ -113,7 +113,7 @@ t_abstract_cache_data<t_battlefield_preset_map_in_game>::~t_abstract_cache_data<
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:17574
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:17574
 VA_CHT_1(0x00568060, 0xcb)
 t_abstract_resource_cache_data<t_battlefield_preset_map_in_game>::~t_abstract_resource_cache_data<t_battlefield_preset_map_in_game>(
 
@@ -184,19 +184,19 @@ t_counted_ptr<t_abstract_cache_data<t_battlefield_preset_map_in_game>>::~t_count
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:17584
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:17584
 VA_CHT_1_COMPGEN(0x00568180, 0x1e, VECTOR_DELETING_DTOR, "t_abstract_cache_data<t_battlefield_preset_map_in_game>")
 
 // name:A; map symbol; map:17585
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, "t_abstract_cache_data<t_battlefield_preset_map_in_game>")
 
-// confidence:A; align-band; retn,stable,vslot; map:17586
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:17586
 VA_CHT_1_COMPGEN(0x005681a0, 0x1e, SCALAR_DELETING_DTOR, "t_abstract_resource_cache_data<t_battlefield_preset_map_in_game>")
 
 // name:A; map symbol; map:17587
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, "t_abstract_resource_cache_data<t_battlefield_preset_map_in_game>")
 
-// confidence:A; align-band; retn,stable,vptr; map:17588
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:17588
 VA_CHT_1(0x005681c0, 0xcb)
 t_abstract_cache_data<t_battlefield_preset_map_in_game>::t_abstract_cache_data<t_battlefield_preset_map_in_game>(
 
@@ -223,7 +223,7 @@ t_counted_ptr<t_abstract_cache_data<t_battlefield_preset_map_in_game>>& t_counte
     // Body unavailable.
 }
 
-// confidence:C; align-order; stable; map:17591
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:17591
 VA_CHT_1_COMPGEN(0x005682c0, 0x8, VECTOR_DELETING_DTOR, t_battlefield_preset_map_cache_data)
 
 // name:A; map symbol; map:17592

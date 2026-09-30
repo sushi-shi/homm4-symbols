@@ -1,7 +1,7 @@
 // actor_sequence_cache.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\actor_sequence_cache.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 102/188 (A:83 B:4 C:15); unaccounted 86; skipped std 137.
+// Accounted 102/188 (A:60 B:4 C:0); unaccounted 86; skipped std 137.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -18,14 +18,14 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "actor_sequence_cache#1
 
 namespace {
 
-// confidence:A; align-order; retn,vptr; map:2777
+// confidence:D; align-order; retn,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:2777
 VA_CHT_1(0x0041d600, 0x9b)
 t_sequence_cache_data::t_sequence_cache_data(std::string const& arg_0, t_screen_point const& arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:2778
+// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:2778
 VA_CHT_1(0x0041d790, 0x9c)
 t_actor_sequence* t_sequence_cache_data::do_read(
     std::basic_streambuf<char, std::char_traits<char>>& arg_0,
@@ -42,14 +42,14 @@ t_sequence_cache::t_sequence_cache(std::string const& arg_0, t_screen_point cons
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn; map:2780
+// confidence:D; align-order; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:2780
 VA_CHT_1(0x0041d8c0, 0x24)
 int compare_sequence_cache_key(t_sequence_cache_key const& arg_0, t_sequence_cache_key const& arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vptr; map:2781
+// confidence:D; align-order; retn,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:2781
 VA_CHT_1(0x0041d8f0, 0xa9)
 t_scaled_sequence_cache_data::t_scaled_sequence_cache_data(
     std::string const& arg_0,
@@ -60,7 +60,7 @@ t_scaled_sequence_cache_data::t_scaled_sequence_cache_data(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:2782
+// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:2782
 VA_CHT_1(0x0041da90, 0xb7)
 t_actor_sequence* t_scaled_sequence_cache_data::do_read(
     std::basic_streambuf<char, std::char_traits<char>>& arg_0,
@@ -70,7 +70,7 @@ t_actor_sequence* t_scaled_sequence_cache_data::do_read(
     // Body unavailable.
 }
 
-// confidence:C; align-order; RETN!,vptr; map:2783
+// confidence:D; align-order; RETN!,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:2783
 VA_CHT_1(0x0041e160, 0x240)
 t_scaled_sequence_cache::t_scaled_sequence_cache(
     std::string const& arg_0,
@@ -83,14 +83,14 @@ t_scaled_sequence_cache::t_scaled_sequence_cache(
 
 } // anonymous namespace
 
-// confidence:C; align-order; retn; map:2784
+// confidence:D; align-order; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:2784
 VA_CHT_1(0x0041e4c0, 0x90)
 actor_sequence_cache_details::t_initializer::t_initializer()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn; map:2785
+// confidence:D; align-order; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:2785
 VA_CHT_1(0x0041e550, 0x90)
 t_abstract_cache<t_actor_sequence>& get_actor_sequence_cache(
     std::string const& arg_0,
@@ -100,7 +100,7 @@ t_abstract_cache<t_actor_sequence>& get_actor_sequence_cache(
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn; map:2786
+// confidence:D; align-order; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:2786
 VA_CHT_1(0x0041e690, 0xa8)
 t_abstract_cache<t_actor_sequence>& get_scaled_actor_sequence_cache(
     std::string const& arg_0,
@@ -111,10 +111,10 @@ t_abstract_cache<t_actor_sequence>& get_scaled_actor_sequence_cache(
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:71321; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:71321; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00420af0, 0x20, STATIC_INIT_DISPATCH, actor_sequence_cache)
 
-// confidence:A; align-band; retn,vslot; map:2787
+// confidence:D; align-band; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:2787
 VA_CHT_1_COMPGEN(0x0041d6a0, 0x1e, VECTOR_DELETING_DTOR, t_sequence_cache_data)
 
 // name:A; map symbol; map:2788
@@ -154,7 +154,7 @@ t_actor_sequence::t_actor_sequence(t_actor_sequence_24 const& arg_0, t_screen_po
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:2793
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:2793
 VA_CHT_1_COMPGEN(0x0041d830, 0x1e, VECTOR_DELETING_DTOR, t_actor_sequence)
 
 // name:A; map symbol; map:2794
@@ -189,7 +189,7 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, t_sequence_cac
 
 namespace {
 
-// confidence:A; align-band; retn,stable,vptr; map:2800
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:2800
 VA_CHT_1(0x0041ddf0, 0x24b)
 t_sequence_cache::~t_sequence_cache()
 {
@@ -214,7 +214,7 @@ t_resource_cache<t_actor_sequence>::~t_resource_cache<t_actor_sequence>()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:2803
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:2803
 VA_CHT_1_COMPGEN(0x0041d9a0, 0x1e, VECTOR_DELETING_DTOR, t_scaled_sequence_cache_data)
 
 // name:A; map symbol; map:2804
@@ -257,7 +257,7 @@ t_scaled_sequence_cache::~t_scaled_sequence_cache()
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:2810
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2810
 VA_CHT_1(0x0041d850, 0x4c)
 std::map<t_sequence_cache_key, t_shared_ptr<t_sequence_cache>, t_sequence_cache_key_less, std::allocator<t_shared_ptr<t_sequence_cache>>>& get_sequence_cache_ptr_map(
 
@@ -273,7 +273,7 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_DTOR, get_sequence_cache_ptr_
 
 namespace {
 
-// confidence:C; align-band; retn,stable; map:2813
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2813
 VA_CHT_1(0x0041ff50, 0x51)
 std::map<t_scaled_sequence_cache_key, t_scaled_sequence_cache_ptr, t_scaled_sequence_cache_key_less, std::allocator<t_scaled_sequence_cache_ptr>>& get_scaled_sequence_cache_ptr_map(
 
@@ -357,14 +357,14 @@ bool t_scaled_sequence_cache_key_less::operator()(
 
 } // anonymous namespace
 
-// confidence:A; align-band; retn,stable,vslot; map:2932
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:2932
 VA_CHT_1(0x00420190, 0xeb)
 void t_image_sequence_base<t_bitmap_group>::delete_layer(unsigned long arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:2935
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:2935
 VA_CHT_1(0x00420280, 0x11)
 t_bitmap_layer const& t_image_sequence_base<t_bitmap_group>::get_layer_base(unsigned long arg_0) const
 {
@@ -399,21 +399,21 @@ t_bitmap_layer& t_bitmap_group::operator[](int arg_0)
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,vslot; map:2940
+// confidence:D; align-band; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:2940
 VA_CHT_1(0x004202a0, 0x20)
 unsigned long t_image_sequence_base<t_bitmap_group>::get_layer_count() const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,vptr; map:2941
+// confidence:D; align-band; retn,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:2941
 VA_CHT_1(0x0041d6c0, 0xcb)
 t_abstract_resource_cache_data<t_actor_sequence>::~t_abstract_resource_cache_data<t_actor_sequence>()
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,vptr; map:2942
+// confidence:D; align-band; retn,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:2942
 VA_CHT_1(0x004202c0, 0x49)
 t_abstract_cache_data<t_actor_sequence>::~t_abstract_cache_data<t_actor_sequence>()
 {
@@ -474,14 +474,14 @@ t_conversion_cache_data<t_actor_sequence_24, t_actor_sequence>::t_conversion_cac
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:2950
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:2950
 VA_CHT_1(0x00420310, 0x6)
 char const* t_conversion_cache_data<t_actor_sequence_24, t_actor_sequence>::get_prefix() const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,vslot; map:2951
+// confidence:D; align-band; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:2951
 VA_CHT_1(0x00420320, 0xb2)
 t_actor_sequence* t_conversion_cache_data<t_actor_sequence_24, t_actor_sequence>::do_read(
     std::basic_streambuf<char, std::char_traits<char>>& arg_0,
@@ -491,7 +491,7 @@ t_actor_sequence* t_conversion_cache_data<t_actor_sequence_24, t_actor_sequence>
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:2952
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:2952
 VA_CHT_1(0x004203e0, 0x6c)
 t_conversion_cache<t_actor_sequence_24, t_actor_sequence>::t_conversion_cache<t_actor_sequence_24, t_actor_sequence>(
     t_conversion_cache_data<t_actor_sequence_24, t_actor_sequence>* arg_0
@@ -507,7 +507,7 @@ t_shared_ptr<t_scaled_sequence_cache>::t_shared_ptr<t_scaled_sequence_cache>(t_s
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:2954
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2954
 VA_CHT_1(0x00420520, 0x83)
 t_shared_ptr<t_scaled_sequence_cache>::~t_shared_ptr<t_scaled_sequence_cache>()
 {
@@ -528,7 +528,7 @@ t_shared_ptr<t_sequence_cache>::t_shared_ptr<t_sequence_cache>(t_sequence_cache*
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:2957
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:2957
 VA_CHT_1(0x004205b0, 0x8f)
 t_shared_ptr<t_sequence_cache>::~t_shared_ptr<t_sequence_cache>()
 {
@@ -542,25 +542,25 @@ t_sequence_cache& t_shared_ptr<t_sequence_cache>::operator*() const
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:2969
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:2969
 VA_CHT_1_COMPGEN(0x00420640, 0x1e, VECTOR_DELETING_DTOR, "t_abstract_cache_data<t_actor_sequence>")
 
 // name:A; map symbol; map:2970
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, "t_abstract_cache_data<t_actor_sequence>")
 
-// confidence:A; align-band; retn,stable,vslot; map:2971
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:2971
 VA_CHT_1_COMPGEN(0x00420660, 0x1e, SCALAR_DELETING_DTOR, "t_abstract_resource_cache_data<t_actor_sequence>")
 
 // name:A; map symbol; map:2972
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, "t_abstract_resource_cache_data<t_actor_sequence>")
 
-// confidence:A; align-band; retn,stable,vslot; map:2973
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:2973
 VA_CHT_1_COMPGEN(0x00420750, 0x1e, VECTOR_DELETING_DTOR, "t_conversion_cache_data<t_actor_sequence_24, t_actor_sequence>")
 
 // name:A; map symbol; map:2974
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, "t_conversion_cache_data<t_actor_sequence_24, t_actor_sequence>")
 
-// confidence:A; align-band; retn,vslot; map:2975
+// confidence:D; align-band; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:2975
 VA_CHT_1_COMPGEN(0x0041d8a0, 0x1e, VECTOR_DELETING_DTOR, "t_conversion_cache<t_actor_sequence_24, t_actor_sequence>")
 
 // name:A; map symbol; map:2976
@@ -594,7 +594,7 @@ t_scaled_sequence_cache_ptr::t_scaled_sequence_cache_ptr(t_scaled_sequence_cache
 // name:A; map symbol; map:2989
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, "t_shared_ptr<t_bitmap_layer>")
 
-// confidence:C; align-band; retn; map:2990
+// confidence:D; align-band; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:2990
 VA_CHT_1(0x0041e040, 0x90)
 t_shared_ptr<t_bitmap_layer>::~t_shared_ptr<t_bitmap_layer>()
 {
@@ -698,7 +698,7 @@ t_shared_ptr<t_bitmap_layer>& t_shared_ptr<t_bitmap_layer>::operator=(
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,vptr; map:3007
+// confidence:D; align-band; retn,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:3007
 VA_CHT_1(0x0041d9c0, 0xcb)
 t_abstract_cache_data<t_actor_sequence>::t_abstract_cache_data<t_actor_sequence>()
 {
@@ -711,21 +711,21 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, "t_resource_ca
 // name:A; map symbol; map:3009
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, "t_resource_cache<t_actor_sequence>")
 
-// confidence:C; align-band; retn,stable; map:3010
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:3010
 VA_CHT_1(0x0041ed60, 0xb8)
 void t_shared_ptr<t_bitmap_layer>::assign(t_bitmap_layer* arg_0, t_shared_ptr_base const& arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:3011
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:3011
 VA_CHT_1(0x0041fb20, 0x43)
 void t_shared_ptr<t_bitmap_layer>::add_link(t_shared_ptr_base const& arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,vptr; map:3012
+// confidence:D; align-band; retn,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:3012
 VA_CHT_1(0x004287b0, 0x10)
 t_abstract_cache<t_actor_sequence>::t_abstract_cache<t_actor_sequence>()
 {
@@ -774,13 +774,13 @@ t_counted_ptr<t_abstract_cache_data<t_actor_sequence>>& t_counted_ptr<t_abstract
 // name:A; map symbol; map:3018
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, t_scaled_sequence_cache_data)
 
-// confidence:C; align-order; stable; map:3019
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:3019
 VA_CHT_1_COMPGEN(0x00420b20, 0x8, VECTOR_DELETING_DTOR, t_sequence_cache_data)
 
-// confidence:C; align-order; stable; map:3020
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:3020
 VA_CHT_1_COMPGEN(0x00420b30, 0x8, VECTOR_DELETING_DTOR, "t_conversion_cache_data<t_actor_sequence_24, t_actor_sequence>")
 
-// confidence:C; align-order; stable; map:3021
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:3021
 VA_CHT_1_COMPGEN(0x00420b40, 0x8, VECTOR_DELETING_DTOR, "t_abstract_resource_cache_data<t_actor_sequence>")
 
 // === .rdata (14 symbols) ===

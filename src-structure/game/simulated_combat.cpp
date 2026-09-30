@@ -1,7 +1,7 @@
 // simulated_combat.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 64/119 (A:19 B:29 C:16); unaccounted 55; skipped std 43.
+// Accounted 64/119 (A:8 B:2 C:0); unaccounted 55; skipped std 43.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,43 +10,43 @@
 
 // === .text (103 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:62773; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62773; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007b3c90, 0x15, STATIC_INIT_DISPATCH, "simulated_combat#1")
 
 // name:C; dyninit; see ledger; map:62774
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "simulated_combat#1")
 
-// confidence:A; dyninit-init; owner-conf-C; map:62775; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62775; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007b3cb0, 0x15, STATIC_INIT_DISPATCH, "simulated_combat#2")
 
 // name:C; dyninit; see ledger; map:62776
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "simulated_combat#2")
 
-// confidence:A; dyninit-init; owner-conf-C; map:62777; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62777; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007b3cd0, 0x15, STATIC_INIT_DISPATCH, "simulated_combat#3")
 
 // name:C; dyninit; see ledger; map:62778
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "simulated_combat#3")
 
-// confidence:A; dyninit-init; owner-conf-C; map:62779; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62779; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007b3cf0, 0x15, STATIC_INIT_DISPATCH, "simulated_combat#4")
 
 // name:C; dyninit; see ledger; map:62780
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "simulated_combat#4")
 
-// confidence:A; dyninit-init; owner-conf-C; map:62781; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62781; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007b3d10, 0x10, STATIC_INIT_DISPATCH, "simulated_combat#5")
 
 // name:C; dyninit; see ledger; map:62782
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "simulated_combat#5")
 
-// confidence:A; dyninit-init; owner-conf-C; map:62783; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62783; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007b3d20, 0x15, STATIC_INIT_DISPATCH, "simulated_combat#6")
 
 // name:C; dyninit; see ledger; map:62784
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "simulated_combat#6")
 
-// confidence:A; align-order; retn,stable,vptr; map:37231
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:37231
 VA_CHT_1(0x007b3d40, 0x169)
 t_simulated_combat_creature::t_simulated_combat_creature(
     t_creature_stack* arg_0,
@@ -60,7 +60,7 @@ t_simulated_combat_creature::t_simulated_combat_creature(
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,stable,vptr; map:37232
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:37232
 VA_CHT_1(0x007b3fe0, 0x2d2)
 t_simulated_combat_creature::t_simulated_combat_creature(t_combat_creature const& arg_0)
 {
@@ -74,21 +74,21 @@ t_abstract_grail_data_source const& t_simulated_combat_creature::get_grail_data(
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:37234
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37234
 VA_CHT_1(0x007b42c0, 0x39)
 void t_simulated_combat_creature::add_wounds(int arg_0, int arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:37235
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37235
 VA_CHT_1(0x007b4300, 0x179)
 bool t_simulated_combat_creature::can_retaliate(t_simulated_combat_creature const& arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:37236
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37236
 VA_CHT_1(0x007b4480, 0x7)
 bool t_simulated_combat_creature::can_shoot() const
 {
@@ -115,14 +115,14 @@ void t_simulated_combat_creature::do_melee(t_simulated_combat_creature& arg_0, i
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:37239
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37239
 VA_CHT_1(0x007b4490, 0x94)
 void t_simulated_combat_creature::do_ranged_attack(t_simulated_combat_creature& arg_0, int arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:37240
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37240
 VA_CHT_1(0x007b46c0, 0x112)
 int t_simulated_combat_creature::get_damage(t_simulated_combat_creature const& arg_0) const
 {
@@ -143,14 +143,14 @@ void t_simulated_combat_creature::heal(int arg_0)
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:37243
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37243
 VA_CHT_1(0x007b47e0, 0x88)
 void t_simulated_combat_creature::resurrect(int arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:37244
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37244
 VA_CHT_1(0x007b4870, 0xb0)
 void t_simulated_combat_creature::set_enchantment(t_spell arg_0, int arg_1, int arg_2)
 {
@@ -164,7 +164,7 @@ void t_simulated_combat_creature::set_spell(t_spell arg_0, int arg_1, t_spell_so
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:37246
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37246
 VA_CHT_1(0x007b4920, 0x15f)
 void t_simulated_combat_creature::set_spell(
     t_spell arg_0,
@@ -183,7 +183,7 @@ void t_simulated_combat_creature::cast_spell_on(t_spell arg_0, t_simulated_comba
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:37248
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37248
 VA_CHT_1(0x007b4c10, 0x410)
 t_simulated_combat::t_simulated_combat(
     t_creature_array& arg_0,
@@ -198,7 +198,7 @@ t_simulated_combat::t_simulated_combat(
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:62785
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:62785
 VA_CHT_1(0x007b5020, 0x18d)
 static void add_creatures(
     t_creature_array& arg_0,
@@ -212,7 +212,7 @@ static void add_creatures(
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:37249
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37249
 VA_CHT_1(0x007b51c0, 0x215)
 t_simulated_combat::t_simulated_combat(
     t_creature_array** arg_0,
@@ -226,21 +226,21 @@ t_simulated_combat::t_simulated_combat(
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:37250
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37250
 VA_CHT_1(0x007b53e0, 0x139)
 t_simulated_combat::~t_simulated_combat()
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:37251
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37251
 VA_CHT_1(0x007b5520, 0xa0)
 void t_simulated_combat::add(t_simulated_combat_creature* arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:37252
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37252
 VA_CHT_1(0x007b55c0, 0x18a)
 void t_simulated_combat::cast_damage(
     t_simulated_combat_creature& arg_0,
@@ -251,7 +251,7 @@ void t_simulated_combat::cast_damage(
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:62786
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:62786
 VA_CHT_1(0x007b5750, 0x8b)
 static int get_spell_damage(
     t_simulated_combat_creature const& arg_0,
@@ -263,7 +263,7 @@ static int get_spell_damage(
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:37253
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37253
 VA_CHT_1(0x007b57e0, 0x2a4)
 void t_simulated_combat::cast_spell(
     t_simulated_combat_creature& arg_0,
@@ -275,21 +275,21 @@ void t_simulated_combat::cast_spell(
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:37254
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37254
 VA_CHT_1(0x007b5aa0, 0x1f2)
 void t_simulated_combat::cast_summoning(t_simulated_combat_creature& arg_0, t_spell arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:37255
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37255
 VA_CHT_1(0x007b5ca0, 0x3bd)
 bool t_simulated_combat::choose_action(t_simulated_combat_creature& arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:37256
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37256
 VA_CHT_1(0x007b6060, 0x27b)
 int t_simulated_combat::choose_damage_target(
     t_simulated_combat_creature const& arg_0,
@@ -300,7 +300,7 @@ int t_simulated_combat::choose_damage_target(
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:37257
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37257
 VA_CHT_1(0x007b6300, 0x19b)
 int t_simulated_combat::choose_sacrifice_target(
     t_simulated_combat_creature const& arg_0,
@@ -311,7 +311,7 @@ int t_simulated_combat::choose_sacrifice_target(
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:37258
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37258
 VA_CHT_1(0x007b64a0, 0x196)
 int t_simulated_combat::choose_spell(
     t_simulated_combat_creature const& arg_0,
@@ -323,7 +323,7 @@ int t_simulated_combat::choose_spell(
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:37259
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37259
 VA_CHT_1(0x007b6660, 0xe0)
 int t_simulated_combat::choose_spell_target(
     t_simulated_combat_creature const& arg_0,
@@ -353,14 +353,14 @@ static int get_summoning_value(t_simulated_combat_creature const& arg_0, t_spell
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:37261
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37261
 VA_CHT_1(0x007b6740, 0x16e)
 int t_simulated_combat::get_mass_spell_value(t_simulated_combat_creature const& arg_0, t_spell arg_1) const
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:37262
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37262
 VA_CHT_1(0x007b68b0, 0x35d)
 int t_simulated_combat::get_spell_target_value(
     t_simulated_combat_creature const& arg_0,
@@ -384,35 +384,35 @@ static int get_enchantment_value(
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:37263
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37263
 VA_CHT_1(0x007b6c30, 0x1aa)
 void t_simulated_combat::initialize()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:37264
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37264
 VA_CHT_1(0x007b6de0, 0x105)
 void t_simulated_combat::run()
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:37265
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37265
 VA_CHT_1(0x007b6ef0, 0x2d)
 void t_simulated_combat::report_results(t_adventure_frame* arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:37266
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37266
 VA_CHT_1(0x007b6f20, 0x10e)
 void t_simulated_combat::record_results(t_adventure_frame* arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:37267
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37267
 VA_CHT_1(0x007b7030, 0x75)
 void t_simulated_combat::finalize_combat(
     t_adventure_frame* arg_0,
@@ -423,54 +423,54 @@ void t_simulated_combat::finalize_combat(
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:37268
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37268
 VA_CHT_1(0x007b70b0, 0x6c)
 t_simulated_combat_creature* t_simulated_combat::select_next_creature(bool arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:37269
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37269
 VA_CHT_1(0x007b7120, 0x3d)
 void t_simulated_combat::set_effectiveness(bool arg_0, double arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:37270
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37270
 VA_CHT_1(0x007b7160, 0x47)
 void t_simulated_combat::update_attacking_force()
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:37271
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37271
 VA_CHT_1(0x007b71b0, 0x3ef)
 float t_simulated_combat::query_combat_value() const
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:37272
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37272
 VA_CHT_1(0x007b75a0, 0x178)
 float t_simulated_combat::query_value_drop() const
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:37273
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37273
 VA_CHT_1(0x007b7720, 0x4)
 t_creature_array const* t_simulated_combat::get_losses() const
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:62789; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:62789; name:B (dyninit; see ledger)
 VA_CHT_1(0x007b77f0, 0x20)
 // simulated_combat$tinit1
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:62791; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:62791; name:B (dyninit; see ledger)
 VA_CHT_1(0x007b7810, 0x5c)
 // simulated_combat$tinit2
 // Function body not reconstructed; signature retained as a comment.
@@ -490,7 +490,7 @@ VA_CHT_1(UNACCOUNTED, UNKNOWN_SIZE)
 // simulated_combat$tatexit4
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:A; align-band; retn,stable,vslot; map:37274
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:37274
 VA_CHT_1_COMPGEN(0x007b3eb0, 0x29, VECTOR_DELETING_DTOR, t_simulated_combat_creature)
 
 // name:A; map symbol; map:37275
@@ -564,7 +564,7 @@ t_simulated_combat_creature_list::t_simulated_combat_creature_list()
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:37287
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37287
 VA_CHT_1(0x007b62e0, 0x1e)
 t_simulated_combat_creature_list::~t_simulated_combat_creature_list()
 {
@@ -622,7 +622,7 @@ double t_simulated_combat_creature::get_effectiveness() const
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn,stable; map:37295
+// confidence:D; align-band; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37295
 VA_CHT_1(0x007b7730, 0x2a)
 void t_simulated_combat_creature::set_defense(double arg_0)
 {
@@ -713,30 +713,30 @@ t_abstract_grail_data_source& t_owned_ptr<t_abstract_grail_data_source>::operato
 // name:A; map symbol; map:37347
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, SCALAR_DELETING_DTOR, "t_counted_ptr<t_simulated_combat_creature>")
 
-// confidence:C; align-order; stable; map:37349
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37349
 VA_CHT_1(0x007b7870, 0xb)
 // [thunk]: public: virtual bool t_abstract_combat_creature::belongs_to`vtordisp{-4, 68}'(bool) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:37350
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37350
 VA_CHT_1(0x007b7880, 0xb)
 // [thunk]: public: virtual bool t_abstract_combat_creature::controlled_by`vtordisp{-4, 68}'(bool) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:37351
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37351
 VA_CHT_1(0x007b7890, 0xb)
 // [thunk]: public: virtual bool t_abstract_combat_creature::is_active`vtordisp{-4, 68}'(t_spell) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:37352
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37352
 VA_CHT_1_COMPGEN(0x007b78a0, 0xe, VECTOR_DELETING_DTOR, t_simulated_combat_creature)
 
-// confidence:C; align-order; stable; map:37353
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37353
 VA_CHT_1(0x007b78b0, 0xb)
 // [thunk]: public: virtual float t_abstract_combat_creature::get_defense_basic`vtordisp{-4, 68}'(bool) const
 // Function body not reconstructed; signature retained as a comment.
 
-// confidence:C; align-order; stable; map:37354
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:37354
 VA_CHT_1(0x007b78c0, 0xb)
 // [thunk]: public: virtual float t_abstract_combat_creature::get_defense_bonus`vtordisp{-4, 68}'(bool) const
 // Function body not reconstructed; signature retained as a comment.

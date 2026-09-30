@@ -1,7 +1,7 @@
 // steal_enchantment.cpp — generated source carcass, not a buildable reconstruction.
 // Source [A]: anonymous-namespace source tag: C:\work\game\steal_enchantment.cpp
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 53/84 (A:48 B:3 C:2); unaccounted 31; skipped std 2.
+// Accounted 53/84 (A:30 B:1 C:0); unaccounted 31; skipped std 2.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,55 +10,55 @@
 
 // === .text (52 symbols) ===
 
-// confidence:A; dyninit-init; owner-conf-C; map:62324; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62324; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007e4300, 0x15, STATIC_INIT_DISPATCH, "steal_enchantment#1")
 
 // name:C; dyninit; see ledger; map:62325
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "steal_enchantment#1")
 
-// confidence:A; dyninit-init; owner-conf-C; map:62326; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62326; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007e4320, 0x15, STATIC_INIT_DISPATCH, "steal_enchantment#2")
 
 // name:C; dyninit; see ledger; map:62327
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "steal_enchantment#2")
 
-// confidence:A; dyninit-init; owner-conf-C; map:62328; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62328; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007e4340, 0x15, STATIC_INIT_DISPATCH, "steal_enchantment#3")
 
 // name:C; dyninit; see ledger; map:62329
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "steal_enchantment#3")
 
-// confidence:A; dyninit-init; owner-conf-C; map:62330; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62330; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007e4360, 0x15, STATIC_INIT_DISPATCH, "steal_enchantment#4")
 
 // name:C; dyninit; see ledger; map:62331
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "steal_enchantment#4")
 
-// confidence:A; dyninit-init; owner-conf-C; map:62332; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62332; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007e4380, 0x10, STATIC_INIT_DISPATCH, "steal_enchantment#5")
 
 // name:C; dyninit; see ledger; map:62333
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "steal_enchantment#5")
 
-// confidence:A; dyninit-init; owner-conf-C; map:62334; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62334; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007e4390, 0x15, STATIC_INIT_DISPATCH, "steal_enchantment#6")
 
 // name:C; dyninit; see ledger; map:62335
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "steal_enchantment#6")
 
-// confidence:A; dyninit-init; owner-conf-C; map:62336; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62336; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007e43b0, 0x11, STATIC_INIT_DISPATCH, "steal_enchantment#7")
 
-// confidence:B; dyninit-ctor; owner-conf-C; map:62337; name:C (dyninit; see ledger)
+// confidence:D; dyninit-ctor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62337; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007e43d0, 0xd1, STATIC_CTOR, "steal_enchantment#7")
 
 // name:C; dyninit; see ledger; map:62338
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_ATEXIT, "steal_enchantment#7")
 
-// confidence:B; dyninit-dtor; owner-conf-C; map:62339; name:C (dyninit; see ledger)
+// confidence:D; dyninit-dtor; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62339; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007e44b0, 0xa, STATIC_DTOR, "steal_enchantment#7")
 
-// confidence:A; dyninit-init; owner-conf-C; map:62340; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62340; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007e44c0, 0x1f, STATIC_INIT_DISPATCH, "steal_enchantment#8")
 
 // name:C; dyninit; see ledger; map:62341
@@ -66,7 +66,7 @@ VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, STATIC_CTOR, "steal_enchantment#8")
 
 namespace {
 
-// confidence:A; align-order; stable,vptr; map:38403
+// confidence:D; align-order; stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:38403
 VA_CHT_1(0x007e44e0, 0x143)
 t_receive_spell::t_receive_spell(
     t_counted_ptr<t_combat_creature> arg_0,
@@ -93,14 +93,14 @@ t_steal_enchantment::t_steal_enchantment(t_battlefield& arg_0, t_spell arg_1)
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:38406
+// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:38406
 VA_CHT_1(0x007e4770, 0x1e)
 double t_steal_enchantment::ai_weight(t_combat_creature const& arg_0) const
 {
     // Body unavailable.
 }
 
-// confidence:C; align-order; map:38407
+// confidence:D; align-order; review-status=unreviewed;classification=D:not-a-best-guess; map:38407
 VA_CHT_1(0x007e4830, 0x5fb)
 bool t_steal_enchantment::steal(
     t_counted_ptr<t_combat_creature> arg_0,
@@ -112,7 +112,7 @@ bool t_steal_enchantment::steal(
     // Body unavailable.
 }
 
-// confidence:A; align-order; vslot; map:38408
+// confidence:D; align-order; vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:38408
 VA_CHT_1(0x007e4e50, 0x1b0)
 bool t_steal_enchantment::cast_on(
     t_counted_ptr<t_combat_creature> arg_0,
@@ -131,7 +131,7 @@ double t_steal_enchantment::get_cancel_weight(t_combat_creature const& arg_0) co
     // Body unavailable.
 }
 
-// confidence:A; dyninit-init; owner-conf-C; map:62342; name:C (dyninit; see ledger)
+// confidence:D; dyninit-init; owner-conf-C;review-status=unreviewed;classification=D:not-a-best-guess; map:62342; name:C (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007e5000, 0x1f, STATIC_INIT_DISPATCH, "steal_enchantment#9")
 
 // name:C; dyninit; see ledger; map:62343
@@ -146,7 +146,7 @@ t_steal_all::t_steal_all(t_battlefield& arg_0, t_spell arg_1)
     // Body unavailable.
 }
 
-// confidence:A; align-order; retn,vslot; map:38411
+// confidence:D; align-order; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:38411
 VA_CHT_1(0x007e50d0, 0x23e)
 void t_steal_all::execute(t_combat_creature& arg_0)
 {
@@ -162,10 +162,10 @@ double t_steal_all::get_cancel_weight(t_combat_creature const& arg_0) const
 
 } // anonymous namespace
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:62344; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:62344; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x007e5420, 0x20, STATIC_INIT_DISPATCH, steal_enchantment)
 
-// confidence:A; align-band; retn,stable,vslot; map:38413
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:38413
 VA_CHT_1_COMPGEN(0x007e4630, 0x1e, VECTOR_DELETING_DTOR, t_receive_spell)
 
 // name:A; map symbol; map:38414
@@ -202,7 +202,7 @@ t_counted_ptr<t_combat_creature> t_combat_creature::get_martyr_protector() const
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:38420
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:38420
 VA_CHT_1_COMPGEN(0x007e5020, 0x1e, VECTOR_DELETING_DTOR, t_steal_all)
 
 // name:A; map symbol; map:38421
@@ -249,7 +249,7 @@ t_counted_ptr<t_steal_enchantment>::t_counted_ptr<t_steal_enchantment>()
     // Body unavailable.
 }
 
-// confidence:C; align-band; retn; map:38427
+// confidence:D; align-band; retn;review-status=unreviewed;classification=D:not-a-best-guess; map:38427
 VA_CHT_1(0x007e4e30, 0x20)
 t_counted_ptr<t_steal_enchantment>& t_counted_ptr<t_steal_enchantment>::operator=(t_steal_enchantment* arg_0)
 {
@@ -270,7 +270,7 @@ t_spell_factory<t_steal_enchantment>::t_spell_factory<t_steal_enchantment>()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:38431
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:38431
 VA_CHT_1(0x007e5340, 0x79)
 t_combat_spell* t_spell_factory<t_steal_enchantment>::create(t_battlefield& arg_0, t_spell arg_1) const
 {
@@ -284,7 +284,7 @@ t_spell_factory<t_steal_all>::t_spell_factory<t_steal_all>()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vslot; map:38433
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:38433
 VA_CHT_1(0x007e53c0, 0x5c)
 t_combat_spell* t_spell_factory<t_steal_all>::create(t_battlefield& arg_0, t_spell arg_1) const
 {

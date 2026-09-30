@@ -1,7 +1,7 @@
 // dialog_blacksmith.cpp — generated source carcass, not a buildable reconstruction.
 // Source [B]: inferred .cpp basename from map object; extension not recorded
 // Target: cht-1.x; sha256=e8c0ad0fac9e62bde8764761ec48bce387d0a92f1747eca9c6b79479b1f8d53f
-// Accounted 55/86 (A:38 B:11 C:6); unaccounted 31; skipped std 1.
+// Accounted 55/86 (A:30 B:4 C:0); unaccounted 31; skipped std 1.
 // Debug signatures; arg_N names are synthetic. Bodies and initial values are unavailable.
 // map:N identifies ../symbols.tsv map_id (full signatures, evidence, and address provenance).
 // VA_CHT_1/DATA_CHT_1: absolute VAs; confidence: A/B/C. Pointer-chain evidence uses RVAs.
@@ -10,14 +10,14 @@
 
 // === .text (48 symbols) ===
 
-// confidence:A; align-order; retn,stable,vptr; map:23929
+// confidence:D; align-order; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:23929
 VA_CHT_1(0x006344a0, 0x9f)
 t_dialog_blacksmith::t_dialog_blacksmith(t_window* arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:23930
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:23930
 VA_CHT_1(0x00634670, 0x146f)
 int t_dialog_blacksmith::init_dialog(
     t_window* arg_0,
@@ -30,14 +30,14 @@ int t_dialog_blacksmith::init_dialog(
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:23931
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:23931
 VA_CHT_1(0x00635ae0, 0x37f)
 void t_dialog_blacksmith::create_creature_windows()
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:23932
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:23932
 VA_CHT_1(0x00635e60, 0xe70)
 void t_dialog_blacksmith::create_item_display(
     t_artifact_type arg_0,
@@ -50,14 +50,14 @@ void t_dialog_blacksmith::create_item_display(
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:23933
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:23933
 VA_CHT_1(0x00636e20, 0x136)
 void t_dialog_blacksmith::item_clicked_up(t_button* arg_0, t_blacksmith_item_struct* arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:23934
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:23934
 VA_CHT_1(0x00636f60, 0x81)
 void t_dialog_blacksmith::item_clicked_down(t_button* arg_0, t_blacksmith_item_struct* arg_1)
 {
@@ -85,7 +85,7 @@ void t_dialog_blacksmith::hero_select(t_creature_array_window* arg_0, int arg_1)
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:23938
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:23938
 VA_CHT_1(0x00636ff0, 0x1e1)
 void t_dialog_blacksmith::show_current_creature()
 {
@@ -99,7 +99,7 @@ t_creature_stack* t_dialog_blacksmith::get_selected_creature()
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:23940
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:23940
 VA_CHT_1(0x006371e0, 0x572)
 void t_dialog_blacksmith::buy_click(t_button* arg_0)
 {
@@ -113,31 +113,31 @@ bool t_dialog_blacksmith::check_buy_button_disable()
     // Body unavailable.
 }
 
-// confidence:C; align-order; retn,stable; map:23942
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:23942
 VA_CHT_1(0x00637760, 0x8)
 void t_dialog_blacksmith::enemy_attack_handler()
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:23943
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:23943
 VA_CHT_1(0x00637770, 0x254)
 void t_dialog_blacksmith::creature_double_click(t_creature_array_window* arg_0, int arg_1)
 {
     // Body unavailable.
 }
 
-// confidence:B; align-order; retn,stable; map:23944
+// confidence:D; align-order; retn,stable;review-status=unreviewed;classification=D:not-a-best-guess; map:23944
 VA_CHT_1(0x006379d0, 0x23)
 void t_dialog_blacksmith::close_click(t_button* arg_0)
 {
     // Body unavailable.
 }
 
-// confidence:A; dyninit-tinit; owner-conf-B; map:66759; name:B (dyninit; see ledger)
+// confidence:D; dyninit-tinit; owner-conf-B;review-status=unreviewed;classification=D:not-a-best-guess; map:66759; name:B (dyninit; see ledger)
 VA_CHT_1_COMPGEN(0x00637b80, 0x20, STATIC_INIT_DISPATCH, dialog_blacksmith)
 
-// confidence:A; align-band; retn,stable,vslot; map:23945
+// confidence:D; align-band; retn,stable,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:23945
 VA_CHT_1_COMPGEN(0x00634540, 0x1e, VECTOR_DELETING_DTOR, t_dialog_blacksmith)
 
 // name:A; map symbol; map:23946
@@ -184,7 +184,7 @@ t_handler bound_handler(t_dialog_blacksmith& arg_0, void (t_dialog_blacksmith::*
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:23952
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:23952
 VA_CHT_1(0x00637a00, 0x5e)
 t_bound_handler_1<t_dialog_blacksmith, t_button*>::t_bound_handler_1<t_dialog_blacksmith, t_button*>(
     t_dialog_blacksmith& arg_0,
@@ -201,7 +201,7 @@ void t_bound_handler_1<t_dialog_blacksmith, t_button*>::operator()(t_button* arg
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:23954
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:23954
 VA_CHT_1(0x00637a60, 0x5e)
 t_bound_handler_2<t_dialog_blacksmith, t_creature_array_window*, int>::t_bound_handler_2<t_dialog_blacksmith, t_creature_array_window*, int>(
     t_dialog_blacksmith& arg_0,
@@ -221,7 +221,7 @@ void t_bound_handler_2<t_dialog_blacksmith, t_creature_array_window*, int>::oper
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:23956
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:23956
 VA_CHT_1(0x00637ac0, 0x5e)
 t_bound_handler_2<t_dialog_blacksmith, t_button*, t_blacksmith_item_struct*>::t_bound_handler_2<t_dialog_blacksmith, t_button*, t_blacksmith_item_struct*>(
     t_dialog_blacksmith& arg_0,
@@ -241,7 +241,7 @@ void t_bound_handler_2<t_dialog_blacksmith, t_button*, t_blacksmith_item_struct*
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,stable,vptr; map:23958
+// confidence:D; align-band; retn,stable,vptr;review-status=unreviewed;classification=D:not-a-best-guess; map:23958
 VA_CHT_1(0x00637b20, 0x5e)
 t_bound_handler<t_dialog_blacksmith>::t_bound_handler<t_dialog_blacksmith>(
     t_dialog_blacksmith& arg_0,
@@ -258,7 +258,7 @@ void t_bound_handler<t_dialog_blacksmith>::operator()()
     // Body unavailable.
 }
 
-// confidence:A; align-band; retn,vslot; map:23960
+// confidence:D; align-band; retn,vslot;review-status=unreviewed;classification=D:not-a-best-guess; map:23960
 VA_CHT_1_COMPGEN(0x00651ba0, 0x1e, VECTOR_DELETING_DTOR, "t_bound_handler_1<t_dialog_blacksmith, t_button*>")
 
 // name:A; map symbol; map:23961
@@ -317,13 +317,13 @@ t_bound_handler<t_dialog_blacksmith>::~t_bound_handler<t_dialog_blacksmith>()
 // name:A; map symbol; map:23972
 VA_CHT_1_COMPGEN(UNACCOUNTED, UNKNOWN_SIZE, VECTOR_DELETING_DTOR, "t_bound_handler_2<t_dialog_blacksmith, t_button*, t_blacksmith_item_struct*>")
 
-// confidence:C; align-order; stable; map:23973
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:23973
 VA_CHT_1_COMPGEN(0x00637bb0, 0x8, VECTOR_DELETING_DTOR, "t_bound_handler_1<t_dialog_blacksmith, t_button*>")
 
-// confidence:C; align-order; stable; map:23974
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:23974
 VA_CHT_1_COMPGEN(0x00637bc0, 0x8, VECTOR_DELETING_DTOR, "t_bound_handler_2<t_dialog_blacksmith, t_creature_array_window*, int>")
 
-// confidence:C; align-order; stable; map:23975
+// confidence:D; align-order; stable;review-status=unreviewed;classification=D:not-a-best-guess; map:23975
 VA_CHT_1_COMPGEN(0x00637bd0, 0x8, VECTOR_DELETING_DTOR, "t_bound_handler<t_dialog_blacksmith>")
 
 // === .rdata (9 symbols) ===
